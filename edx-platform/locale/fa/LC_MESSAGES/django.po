@@ -11240,7 +11240,7 @@ msgstr "نام کاربری"
 #: openedx/core/djangoapps/user_api/api.py
 msgid ""
 "The name that will identify you in your courses. It cannot be changed later."
-msgstr ""
+msgstr "توجه کنید که فقط حروف انگلیسی و بدون فاصله قابل قبول است. <strong>(قابل تغییر نیست)</strong>"
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's highest completed level of education.
