@@ -8728,7 +8728,7 @@ msgstr ""
 
 #: lms/templates/student_account/institution_login.underscore
 msgid "Back to sign in"
-msgstr ""
+msgstr "بازگشت به صفحه ورود"
 
 #: lms/templates/student_account/institution_register.underscore
 msgid "Register with Institution/Campus Credentials"
@@ -8744,7 +8744,7 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Create an Account."
-msgstr ""
+msgstr "حساب کاربری ایجاد کنید."
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning as {email}"
@@ -8823,15 +8823,15 @@ msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
-msgstr ""
+msgstr "آیا حساب کاربری دارید؟"
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr ""
+msgstr "ورود"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create an account using"
-msgstr "ثبت نام خاد شد"
+msgstr "ایجاد حساب کاربری"
 
 #: lms/templates/student_account/register.underscore
 #, python-format

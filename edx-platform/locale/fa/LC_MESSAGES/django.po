@@ -7086,6 +7086,10 @@ msgid "Email"
 msgstr "پست الکترونیکی"
 
 #: lms/djangoapps/instructor/views/api.py
+msgid "Phone Number"
+msgstr "شماره تماس"
+
+#: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/tasks_helper/enrollments.py
 msgid "Language"
 msgstr "زبان"
