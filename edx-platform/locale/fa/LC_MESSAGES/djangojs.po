@@ -3796,7 +3796,7 @@ msgid "%(field)s can only contain up to %(count)d characters."
 msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
-msgid "Please enter your %(field)s."
+msgid "لطفا فیلد %(field)s را پر کنید"
 msgstr ""
 
 #: common/static/js/capa/drag_and_drop/base_image.js
@@ -5711,6 +5711,10 @@ msgstr ""
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "We couldn't create your account."
 msgstr "موفق به ایجاد حساب کاربری شما نشدیم."
+
+#: lms/templates/student_account/register.underscore
+msgid "Create your account"
+msgstr "حساب کاربری خود را ایجاد کنید"
 
 #: lms/static/js/student_account/views/RegisterView.js
 #: lms/templates/student_account/register.underscore
@@ -8743,6 +8747,10 @@ msgid "First time here?"
 msgstr ""
 
 #: lms/templates/student_account/login.underscore
+msgid "New to %(platformName)s?"
+msgstr "تازه با %(platformName)s آشنا شده اید؟"
+
+#: lms/templates/student_account/login.underscore
 msgid "Create an Account."
 msgstr "حساب کاربری ایجاد کنید."
 
@@ -8806,6 +8814,10 @@ msgstr ""
 #: lms/templates/student_account/register.underscore
 msgid "Use my institution/campus credentials"
 msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "Already have an account?"
+msgstr "آیا حساب کاربری دارید؟"
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Password assistance"
