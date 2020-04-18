@@ -11283,7 +11283,7 @@ msgstr "شرایط استفاده از خدمات و شرافت کد"
 msgid ""
 "I agree to the {platform_name} "
 "{terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end}"
-msgstr ""
+msgstr "با {terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end}{platform_name} موافقم"
 
 #. Translators: "Terms of Service" is a legal document users must agree to
 #. in order to register a new account.
@@ -11312,6 +11312,16 @@ msgid ""
 "I agree to the {platform_name} "
 "{tos_link_start}{terms_of_service}{tos_link_end}"
 msgstr ""
+
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/api.py
+#, python-brace-format
+msgid ""
+"I agree to the {platform_name}"
+"{tos_link_start}{terms_of_service}{tos_link_end}"
+msgstr "با {tos_link_start}{terms_of_service}{tos_link_end} موافقم."
+
 
 #: openedx/core/djangoapps/user_api/config/waffle.py
 msgid "System maintenance in progress. Please try again later."
