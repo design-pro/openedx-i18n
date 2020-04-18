@@ -5053,7 +5053,7 @@ msgstr "نام کاربری"
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 #: node_modules/@edx/edx-proctoring/edx_proctoring/static/proctoring/templates/course_allowances.underscore
 msgid "Email"
-msgstr پست الکترونیکی
+msgstr "پست الکترونیکی"
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Revoke access"

@@ -5642,6 +5642,15 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "شرایط استفاده از خدمات و شرافت کد"
 
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/api.py
+#, python-brace-format
+msgid ""
+"I agree to the {platform_name}"
+"{tos_link_start}{terms_of_service}{tos_link_end}"
+msgstr "با {tos_link_start}{terms_of_service}{tos_link_end} موافقم."
+
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Saving your email preference"
 msgstr ""
@@ -8751,8 +8760,9 @@ msgid "New to %(platformName)s?"
 msgstr "تازه با %(platformName)s آشنا شده اید؟"
 
 #: lms/templates/student_account/login.underscore
-msgid "Create an Account."
-msgstr "حساب کاربری ایجاد کنید."
+#: lms/templates/student_account/register.underscore
+msgid "Create an Account"
+msgstr "حساب کاربری ایجاد کنید"
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning as {email}"
@@ -8852,10 +8862,6 @@ msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "or create a new one here"
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "Create an Account"
 msgstr ""
 
 #: lms/templates/student_account/register.underscore
