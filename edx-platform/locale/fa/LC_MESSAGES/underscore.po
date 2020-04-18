@@ -1527,7 +1527,7 @@ msgstr ""
 #: lms/templates/student_account/institution_register.underscore:29
 #: lms/templates/student_account/register.underscore:48
 msgid "Create an Account"
-msgstr ""
+msgstr "ایجاد حساب کاربری"
 
 #: lms/templates/student_account/login.underscore:6
 msgid "First time here?"
@@ -1535,7 +1535,7 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore:7
 msgid "Create an Account."
-msgstr ""
+msgstr "ایجاد حساب کاربری"
 
 #: lms/templates/student_account/login.underscore:14
 msgid "Sign in to continue learning as {email}"

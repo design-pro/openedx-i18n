@@ -11467,7 +11467,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login_form.py
 msgid "Create Account"
-msgstr ""
+msgstr "حساب کاربری خود را ایجاد کنید"
 
 #: openedx/core/djangoapps/user_authn/views/register.py
 #, python-brace-format
