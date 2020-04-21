@@ -13014,7 +13014,7 @@ msgstr "ذخیره تنظیمات"
 #: themes/edx.org/lms/templates/dashboard.html
 #: themes/edx.org/lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html
 msgid "Unenroll"
-msgstr "منتفی کردن ثبت نام"
+msgstr "حذف نام نویسی"
 
 #: lms/templates/edit_unit_link.html
 msgid "View Unit in Studio"
@@ -19281,7 +19281,7 @@ msgstr "نشان دادن وضعیت برای کارهایی که شما برا�
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "My Courses"
-msgstr "دوره من"
+msgstr "دوره های من"
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_journals.html
 msgid "My Journals"
