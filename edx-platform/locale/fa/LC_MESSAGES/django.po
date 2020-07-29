@@ -11188,7 +11188,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_api/api.py
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
-msgstr ""
+msgstr "آدرس ایمیلی که شما با آن حساب کاربری ایجاد نموده اید"
 
 #. Translators: This label appears above a field on the password reset
 #. form meant to hold the user's email address.

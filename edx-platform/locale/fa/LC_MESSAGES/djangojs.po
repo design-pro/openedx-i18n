@@ -8694,6 +8694,10 @@ msgstr "بازیابی گذر واژه"
 msgid "Account Recovery"
 msgstr ""
 
+#: common/static/common/js/utils/edx.utils.validate.js
+msgid "Please enter your %(field)s."
+msgstr "لطفا فیلد %(field)s را پر کنید."
+
 #: lms/templates/student_account/account_recovery.underscore
 msgid ""
 "Please enter your secondary email address below and we will send you "
@@ -8754,6 +8758,10 @@ msgstr ""
 #: lms/templates/student_account/login.underscore
 msgid "First time here?"
 msgstr ""
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Need help logging in?"
+msgstr "رمز عبور خود را فراموش کردید؟"
 
 #: lms/templates/student_account/login.underscore
 msgid "New to %(platformName)s?"
@@ -8831,7 +8839,7 @@ msgstr "آیا حساب کاربری دارید؟"
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Password assistance"
-msgstr ""
+msgstr "بازیابی رمز عبور"
 
 #: lms/templates/student_account/password_reset.underscore
 msgid ""
@@ -8842,6 +8850,14 @@ msgstr ""
 #: lms/templates/student_account/password_reset.underscore
 msgid "Reset my password"
 msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Please enter your log-in or recovery email address below and we will send you an email with instructions."
+msgstr "لطفا آدرس ایمیل خود را در زیر وارد نمایید، ما دستورالعمل ثبت رمز عبور جدید را برای شما ارسال خواهیم کرد."
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Recover my password"
+msgstr "بازنشانی رمز عبور"
 
 #: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
