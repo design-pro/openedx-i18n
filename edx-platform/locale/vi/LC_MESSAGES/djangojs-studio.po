@@ -1,0 +1,1514 @@
+# edX community translations have been downloaded from Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/).
+# Copyright (C) 2020 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Anh Phan <vietnamesel10n@gmail.com>, 2013
+# Hoang Doan <dthoang92@gmail.com>, 2014
+# Hoang Doan <dthoang92@gmail.com>, 2014
+# Hoang Ha <halink0803@gmail.com>, 2014
+# Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
+# Nguyen Quang Huy <huynq23091@gmail.com>, 2013-2014
+# hoad, 2013
+# Hoà Lê Thanh <hoa.lethanh@gmail.com>, 2017
+# Hoang Ha <halink0803@gmail.com>, 2014
+# Minh Tue Vo <mvo@edx.org>, 2014
+# Minh Tue Vo <mvo@edx.org>, 2014
+# Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
+# Nguyen Don Binh <donbinhvn@gmail.com>, 2014
+# Nguyễn Đức An <ndan.cntt@hunre.edu.vn>, 2015
+# NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# Nguyen Nhat Quang <technicalmanager@gmail.com>, 2016
+# Nguyen Quang Huy <huynq23091@gmail.com>, 2014
+# Anh Phan <vietnamesel10n@gmail.com>, 2013
+# Le Minh Tri <trilm@hihexa.com>, 2020
+# Trung V. Nguyen <trung.ngvan@gmail.com>, 2015
+# truong tran <tranminhtruong88@yahoo.com.vn>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2020-08-02 20:47+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/static/cms/js/main.js:47
+msgid "Studio's having trouble saving your work"
+msgstr "Studio xảy ra sự cố khi lưu lại công việc của bạn"
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:98
+msgid "OpenAssessment Save Error"
+msgstr "Lỗi lưu OpenAssessment"
+
+#: cms/static/js/base.js:99
+msgid "This link will open in a new browser window/tab"
+msgstr "Đường dẫn sẽ mở trên một trang trình duyệt mới"
+
+#: cms/static/js/base.js:106
+msgid "This link will open in a modal window"
+msgstr "Liên kết này sẽ mở ra trong một cửa sổ con"
+
+#: cms/static/js/certificates/models/certificate.js:77
+msgid "Certificate name is required."
+msgstr "Tên chứng chỉ là bắt buộc."
+
+#: cms/static/js/certificates/models/certificate.js:86
+msgid "Signatory field(s) has invalid data."
+msgstr "(Những) Trường chữ ký có dữ liệu không hợp lệ."
+
+#: cms/static/js/certificates/views/certificate_details.js:45
+msgid "Edit this certificate?"
+msgstr "Chỉnh sửa chứng chỉ này?"
+
+#: cms/static/js/certificates/views/certificate_details.js:46
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr ""
+"Chứng chỉ này đã được kích hoạt và đang hoạt động. Bạn có chắc chắn muốn "
+"tiếp tục chỉnh sửa không?"
+
+#: cms/static/js/certificates/views/certificate_details.js:47
+msgid "Yes, allow edits to the active Certificate"
+msgstr "Có, cho phép chỉnh sửa Chứng chỉ"
+
+#. Translators: This field pertains to the custom label for a certificate.
+#. Translators: this refers to a collection of certificates.
+#: cms/static/js/certificates/views/certificate_item.js:21
+#: cms/static/js/certificates/views/certificates_list.js:16
+msgid "certificate"
+msgstr "chứng chỉ"
+
+#: cms/static/js/certificates/views/certificate_preview.js:41
+msgid "Deactivating"
+msgstr ""
+
+#: cms/static/js/certificates/views/certificates_list.js:18
+msgid "Set up your certificate"
+msgstr "Thiết lập chứng chỉ của bạn"
+
+#. Translators: This line refers to the initial state of the form when no data
+#. has been inserted
+#: cms/static/js/certificates/views/certificates_list.js:21
+msgid "You have not created any certificates yet."
+msgstr "Bạn chưa tạo bất kỳ chứng chỉ nào."
+
+#: cms/static/js/certificates/views/signatory_editor.js:133
+msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
+msgstr ""
+
+#: cms/static/js/certificates/views/signatory_editor.js:136
+#: cms/static/js/views/course_info_update.js:237
+msgid "This action cannot be undone."
+msgstr "Hành động này không thể hoàn tác."
+
+#: cms/static/js/certificates/views/signatory_editor.js:142
+#: cms/static/js/views/course_info_update.js:248
+#: cms/static/js/views/list_item.js:62 cms/static/js/views/show_textbook.js:43
+#: cms/static/js/views/tabs.js:173
+#: cms/static/js/views/utils/xblock_utils.js:133
+msgid "Deleting"
+msgstr "Đang xóa"
+
+#: cms/static/js/certificates/views/signatory_editor.js:176
+msgid "Upload signature image."
+msgstr "Tải lên hình ảnh chữ ký."
+
+#: cms/static/js/certificates/views/signatory_editor.js:177
+msgid "Image must be in PNG format."
+msgstr "Hình ảnh phải ở định dạng PNG."
+
+#: cms/static/js/collections/group.js:42
+#, javascript-format
+msgid "Group %s"
+msgstr "Nhóm %s"
+
+#. Translators: Dictionary used for creation ids that are used in
+#. default group names. For example: A, B, AA in Group A,
+#. Group B, ..., Group AA, etc.
+#: cms/static/js/collections/group.js:62
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+#: cms/static/js/factories/export.js:35
+msgid "Your export has failed."
+msgstr "Xuất ra thất bại."
+
+#: cms/static/js/factories/manage_users.js:10
+msgid "Already a course team member"
+msgstr "Đã là thành viên của khoá học rồi"
+
+#: cms/static/js/factories/manage_users.js:12
+msgid ""
+"Are you sure you want to delete {email} from the course team for "
+"“{container}”?"
+msgstr ""
+"Bạn có chắc chắn muốn xóa {email} từ nhóm quản lý khóa học cho "
+"\"{container}\" không?"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:21
+msgid "Staff"
+msgstr "Nhân viên"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:22
+msgid "Admin"
+msgstr "Quản Trị"
+
+#: cms/static/js/factories/manage_users_lib.js:10
+msgid "Already a library team member"
+msgstr "Đã là thành viên của nhóm thư viện"
+
+#: cms/static/js/factories/manage_users_lib.js:12
+msgid ""
+"Are you sure you want to delete {email} from the library “{container}”?"
+msgstr "Bạn có chắc chắn muốn xóa {email} khỏi thư viện \"{container}\" không?"
+
+#: cms/static/js/factories/manage_users_lib.js:20
+msgid "Library User"
+msgstr "Thư viện người dùng"
+
+#: cms/static/js/factories/settings_advanced.js:40
+msgid "Hide Deprecated Settings"
+msgstr "Ẩn Cài Đặt Khả Thế"
+
+#: cms/static/js/factories/settings_advanced.js:44
+msgid "Show Deprecated Settings"
+msgstr "Hiện Cài Đặt Khả Thế"
+
+#: cms/static/js/factories/textbooks.js:19
+#: cms/static/js/views/pages/group_configurations.js:82
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr ""
+"Bạn có những thay đổi chưa được lưu. Bạn có thực sự muốn rời khỏi trang này?"
+
+#: cms/static/js/features/import/factories/import.js:20
+msgid "There was an error during the upload process."
+msgstr "Xảy ra lỗi trong quá trình tải lên."
+
+#: cms/static/js/features/import/factories/import.js:21
+msgid "There was an error while unpacking the file."
+msgstr "Xảy ra lỗi trong khi giải nén tập tin."
+
+#: cms/static/js/features/import/factories/import.js:22
+msgid "There was an error while verifying the file you submitted."
+msgstr "Có lỗi trong khi kiểm tra các tập tin bạn đã gửi."
+
+#: cms/static/js/features/import/factories/import.js:31
+msgid "Choose new file"
+msgstr "Chọn tệp mới"
+
+#: cms/static/js/features/import/factories/import.js:46
+msgid ""
+"File format not supported. Please upload a file with a {ext} extension."
+msgstr "Định dạng tệp không được hỗ trợ. Vui lòng tải lên tệp có đuôi {ext}."
+
+#: cms/static/js/features/import/factories/import.js:54
+msgid "There was an error while importing the new library to our database."
+msgstr "Đã xảy ra lỗi khi nhập thư viện mới vào cơ sở dữ liệu."
+
+#: cms/static/js/features/import/factories/import.js:56
+msgid "There was an error while importing the new course to our database."
+msgstr ""
+"Có lỗi trong khi nhập các khóa học mới vào cơ sở dữ liệu của chúng tôi."
+
+#: cms/static/js/features/import/factories/import.js:119
+msgid "Your import has failed."
+msgstr "Nhập vào bị thất bại."
+
+#: cms/static/js/features/import/views/import.js:66
+msgid "Your import is in progress; navigating away will abort it."
+msgstr ""
+"Việc nhập vào đang được tiến hành; nếu chuyển sang trang khác nó sẽ bị huỷ "
+"bỏ."
+
+#: cms/static/js/features/import/views/import.js:253
+msgid "Error importing course"
+msgstr "Xảy ra lỗi khi nhập khóa học"
+
+#: cms/static/js/features/import/views/import.js:298
+msgid "There was an error with the upload"
+msgstr "Có lỗi trong quá trình tải lên"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:23
+msgid "Organization:"
+msgstr "Tổ chức:"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:27
+msgid "Course Number:"
+msgstr "Mã khóa học:"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:32
+msgid "Course Run:"
+msgstr "Chạy khóa học"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:37
+msgid "(Read-only)"
+msgstr "(Chỉ-đọc)"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:50
+msgid "Re-run Course"
+msgstr "Chạy lại Khóa học"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:60
+msgid "View Live"
+msgstr "Xem bản thực"
+
+#: cms/static/js/maintenance/force_publish_course.js:75
+msgid "Internal Server Error."
+msgstr "Lỗi Máy chủ Nội bộ."
+
+#. Translators: This is the status of a video upload that is queued
+#. waiting for other uploads to complete
+#: cms/static/js/models/active_video_upload.js:9
+msgid "Queued"
+msgstr "Đã xếp hàng"
+
+#. Translators: This is the status of a video upload that has
+#. completed successfully
+#: cms/static/js/models/active_video_upload.js:14
+msgid "Upload completed"
+msgstr "Tải lên hoàn tất"
+
+#. Translators: This is the status of a video upload that has failed
+#: cms/static/js/models/active_video_upload.js:16
+msgid "Upload failed"
+msgstr "Lỗi khi tải lên"
+
+#: cms/static/js/models/chapter.js:35
+msgid "Chapter name and asset_path are both required"
+msgstr "Tên chương và asset_path đều là bắt buộc"
+
+#: cms/static/js/models/chapter.js:40
+msgid "Chapter name is required"
+msgstr "Tên chương là bắt buộc"
+
+#: cms/static/js/models/chapter.js:45
+msgid "asset_path is required"
+msgstr "asset_path là bắt buộc"
+
+#: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
+msgid "You must specify a name"
+msgstr "Bạn phải xác định một tên"
+
+#: cms/static/js/models/course_update.js:12
+msgid "Action required: Enter a valid date."
+msgstr "Hành động bắt buộc: Nhập ngày hợp lệ."
+
+#: cms/static/js/models/group.js:40
+msgid "Group name is required"
+msgstr "Yêu cầu tên nhóm "
+
+#: cms/static/js/models/group_configuration.js:16
+msgid "Group A"
+msgstr "Nhóm A"
+
+#: cms/static/js/models/group_configuration.js:20
+msgid "Group B"
+msgstr "Nhóm B"
+
+#: cms/static/js/models/group_configuration.js:90
+msgid "Group Configuration name is required."
+msgstr "Yêu cầu tên của Cấu Hình Nhóm."
+
+#: cms/static/js/models/group_configuration.js:97
+msgid "There must be at least one group."
+msgstr "Phải có ít nhất một  nhóm."
+
+#: cms/static/js/models/group_configuration.js:114
+msgid "All groups must have a name."
+msgstr "Tất cả các nhóm phải có tên."
+
+#: cms/static/js/models/group_configuration.js:122
+msgid "All groups must have a unique name."
+msgstr "Tất cả các nhóm phải có một tên riêng."
+
+#: cms/static/js/models/settings/course_details.js:51
+msgid "The course must have an assigned start date."
+msgstr "Khoá học phải ấn định ngày bắt đầu."
+
+#: cms/static/js/models/settings/course_details.js:55
+msgid "The course end date must be later than the course start date."
+msgstr "Ngày kết thúc của khóa học phải sau ngày bắt đầu của khóa học."
+
+#: cms/static/js/models/settings/course_details.js:60
+msgid "The course start date must be later than the enrollment start date."
+msgstr "Ngày bắt đầu của khóa học phải sau ngày bắt đầu tuyển sinh."
+
+#: cms/static/js/models/settings/course_details.js:66
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr "Ngày bắt đầu tuyển sinh không thể sau ngày kết thúc tuyển sinh."
+
+#: cms/static/js/models/settings/course_details.js:70
+msgid "The enrollment end date cannot be after the course end date."
+msgstr "Ngày kết thúc tuyển sinh không thể sau ngày kết thúc khóa học."
+
+#: cms/static/js/models/settings/course_details.js:75
+msgid "The certificate available date must be later than the course end date."
+msgstr "Ngày cấp chứng chỉ phải sau ngày kết thúc khóa học."
+
+#: cms/static/js/models/settings/course_details.js:80
+msgid "Key should only contain letters, numbers, _, or -"
+msgstr "Key chỉ nên chứa các chữ cái, con số, _, hoặc -"
+
+#: cms/static/js/models/settings/course_details.js:91
+msgid "Please enter an integer between %(min)s and %(max)s."
+msgstr "Vui lòng nhập một số nguyên giữa %(min)s và %(max)s."
+
+#: cms/static/js/models/settings/course_grader.js:27
+msgid "The assignment type must have a name."
+msgstr "Loại phân công phải có tên."
+
+#: cms/static/js/models/settings/course_grader.js:32
+msgid "There's already another assignment type with this name."
+msgstr "Đã có kiểu bài tập khác trùng tên này."
+
+#: cms/static/js/models/settings/course_grader.js:39
+msgid "Please enter an integer between 0 and 100."
+msgstr "Xin vui lòng nhập một số nguyên trong khoảng 0 đến 100."
+
+#: cms/static/js/models/settings/course_grader.js:54
+msgid "Please enter an integer greater than 0."
+msgstr "Vui lòng nhập một số nguyên lớn hơn 0."
+
+#: cms/static/js/models/settings/course_grader.js:61
+msgid "Please enter non-negative integer."
+msgstr "Vui lòng nhập số nguyên không âm"
+
+#: cms/static/js/models/settings/course_grader.js:66
+msgid "Cannot drop more <%= types %> assignments than are assigned."
+msgstr "Không thể cho hơn <%= types %> bài tập so với quy định."
+
+#: cms/static/js/models/settings/course_grading_policy.js:76
+msgid "Grace period must be specified in HH:MM format."
+msgstr "Thời gian gia hạn phải được xác định trong định dạng HH:MM"
+
+#: cms/static/js/models/settings/course_grading_policy.js:87
+msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
+msgstr "Không thể đặt số lên lớp nhỏ hơn  %(minimum_grade_cutoff)s%."
+
+#: cms/static/js/models/textbook.js:62
+msgid "Textbook name is required"
+msgstr "Tên sách giáo khoa là bắt buộc"
+
+#: cms/static/js/models/textbook.js:68
+msgid "Please add at least one chapter"
+msgstr "Hãy thêm ít nhất một chương"
+
+#: cms/static/js/models/textbook.js:81
+msgid "All chapters must have a name and asset"
+msgstr "Tất cả các chương phải có tên và liên kết chương"
+
+#: cms/static/js/models/uploads.js:17
+msgid ""
+"Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
+"<%- (fileExtensions) %> to upload."
+msgstr ""
+
+#: cms/static/js/models/uploads.js:63
+msgid "or"
+msgstr "hoặc"
+
+#: cms/static/js/models/xblock_validation.js:23
+msgid "This unit has validation issues."
+msgstr "Đơn vị này có các vấn đề xác nhận."
+
+#: cms/static/js/models/xblock_validation.js:25
+msgid "This component has validation issues."
+msgstr "Phần này chưa khả dụng"
+
+#: cms/static/js/views/active_video_upload.js:41
+#: cms/static/js/views/assets.js:210
+msgid "Your file could not be uploaded"
+msgstr "Không thể tải tệp của bạn lên"
+
+#: cms/static/js/views/active_video_upload_list.js:27
+msgid "Upload Videos"
+msgstr "Tải lên Video"
+
+#: cms/static/js/views/active_video_upload_list.js:29
+msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
+msgstr "Kéo thả hoặc {spanStart}duyệt trên máy tính của bạn{spanEnd}."
+
+#: cms/static/js/views/active_video_upload_list.js:56
+msgid "Maximum file size: {maxFileSize} GB"
+msgstr "Kích thước tối đa tệp: {maxFileSize} GB"
+
+#: cms/static/js/views/active_video_upload_list.js:62
+msgid "Supported file types: {supportedVideoTypes}"
+msgstr "Các loại tệp được hỗ trợ: {supportedVideoTypes}"
+
+#: cms/static/js/views/active_video_upload_list.js:155
+msgid "Your video uploads are not complete."
+msgstr "Chưa hoàn thành tải lên video"
+
+#: cms/static/js/views/active_video_upload_list.js:296
+msgid "Upload completed for video {fileName}"
+msgstr "Đã hoàn thành tải lên video {fileName}"
+
+#: cms/static/js/views/active_video_upload_list.js:330
+#: cms/static/js/views/active_video_upload_list.js:354
+msgid "Upload failed for video {fileName}"
+msgstr "Tải lên không thành công đối với video {fileName}"
+
+#: cms/static/js/views/active_video_upload_list.js:383
+msgid ""
+"{filename} is not in a supported file format. Supported file formats are "
+"{supportedFileFormats}."
+msgstr ""
+"{filename} không phải định dạng tệp được hỗ trợ. Những định dạng tệp được hỗ"
+" trợ là {supportedFileFormats}."
+
+#: cms/static/js/views/active_video_upload_list.js:390
+msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
+msgstr "{filename} vượt quá kích thước tối đa {maxFileSizeInGB} GB."
+
+#: cms/static/js/views/active_video_upload_list.js:425
+msgid ": video upload complete."
+msgstr ": hoàn tất tải lên video."
+
+#: cms/static/js/views/active_video_upload_list.js:434
+msgid "Previous Uploads table has been updated."
+msgstr "Bảng Tải lên Trước đây đã được cập nhật."
+
+#: cms/static/js/views/asset.js:51
+msgid "Delete File Confirmation"
+msgstr "Xác Nhận Xóa File"
+
+#: cms/static/js/views/asset.js:52
+msgid ""
+"Are you sure you wish to delete this item. It cannot be reversed!\n"
+"\n"
+"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+msgstr ""
+"Bạn chắc chắn muốn xóa mục này? Nó không thể phục hồi!\n"
+"\n"
+"Ngoài ra bất kỳ nội dung liên kết hoặc dẫn đến mục này sẽ không còn hoạt động (ví dụ: hỏng hình ảnh, đường dẫn...)"
+
+#: cms/static/js/views/asset.js:62
+msgid "Your file has been deleted."
+msgstr "Tập tin của bạn đã bị xóa."
+
+#: cms/static/js/views/assets.js:111
+msgid "Date Added"
+msgstr "Ngày Thêm Vào"
+
+#: cms/static/js/views/assets.js:112
+msgid "Type"
+msgstr "Loại"
+
+#: cms/static/js/views/assets.js:197
+msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
+msgstr "Tệp {filename} vượt quá kích thước tối đa {maxFileSizeInMBs} MB"
+
+#: cms/static/js/views/assets.js:204
+msgid ""
+"Please follow the instructions here to upload a file elsewhere and link to "
+"it: {maxFileSizeRedirectUrl}"
+msgstr ""
+"Vui lòng làm theo các hướng dẫn ở đây để tải lên một tệp ở nơi khác và liên "
+"kết đến nó: {maxFileSizeRedirectUrl}"
+
+#: cms/static/js/views/assets.js:216
+msgid "Max file size exceeded"
+msgstr "Đã vượt quá kích thước tệp tối đa"
+
+#: cms/static/js/views/assets.js:334 cms/static/js/views/assets.js:348
+msgid "Upload New File"
+msgstr "Tải Lên Tập Tin Mới"
+
+#: cms/static/js/views/assets.js:339 cms/static/js/views/assets.js:353
+msgid "Load Another File"
+msgstr "Tải tập tin khác"
+
+#: cms/static/js/views/components/add_xblock.js:70
+#: cms/static/js/views/utils/xblock_utils.js:51
+msgid "Adding"
+msgstr "Thêm"
+
+#: cms/static/js/views/course_info_update.js:236
+msgid "Are you sure you want to delete this update?"
+msgstr "Bạn chắc chắn muốn xóa bản cập nhật này?"
+
+#: cms/static/js/views/course_rerun.js:52
+msgid "Create Re-run"
+msgstr "Tạo Re-run"
+
+#: cms/static/js/views/course_rerun.js:59
+msgid "Processing Re-run Request"
+msgstr "Đang xử lí Yêu cầu Re-run "
+
+#: cms/static/js/views/course_video_settings.js:25
+msgid "An error has occurred. Wait a few minutes, and then try again."
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:304
+msgid "Select turnaround"
+msgstr "Chọn quay vòng"
+
+#: cms/static/js/views/course_video_settings.js:332
+msgid "Select fidelity"
+msgstr "Chọn độ trung thực"
+
+#: cms/static/js/views/course_video_settings.js:384
+#: cms/static/js/views/course_video_settings.js:420
+msgid "Select language"
+msgstr "Chọn độ ngôn ngữ"
+
+#: cms/static/js/views/course_video_settings.js:472
+msgid "Press Remove to remove language"
+msgstr "Nhấn Xoá để xóa ngôn ngữ"
+
+#: cms/static/js/views/course_video_settings.js:482
+msgid "Settings updated"
+msgstr "Đã cập nhật thiết lập"
+
+#: cms/static/js/views/course_video_settings.js:491
+msgid "Last updated"
+msgstr "Cập nhật mới nhất"
+
+#: cms/static/js/views/course_video_settings.js:554
+msgid "Required"
+msgstr "Bắt buộc"
+
+#: cms/static/js/views/course_video_settings.js:681
+msgid "Automatic transcripts are disabled."
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:718
+msgid "{selectedProvider} credentials saved"
+msgstr ""
+
+#: cms/static/js/views/edit_chapter.js:62
+msgid "Upload a new PDF to “<%- name %>”"
+msgstr ""
+
+#: cms/static/js/views/edit_chapter.js:64
+msgid "Please select a PDF file to upload."
+msgstr "Xin chọn file PDF để tải lên"
+
+#: cms/static/js/views/export.js:312
+msgid "There has been an error while exporting."
+msgstr "Xảy ra lỗi khi xuất tệp."
+
+#: cms/static/js/views/export.js:313
+msgid ""
+"There has been a failure to export to XML at least one component. It is "
+"recommended that you go to the edit page and repair the error before "
+"attempting another export. Please check that all components on the page are "
+"valid and do not display any error messages."
+msgstr ""
+"Có ít nhất một phần không thể xuất thành tệp XML. Bạn nên vào trang chỉnh "
+"sửa và sửa lỗi trước khi thử xuất lại bản khác. Vui lòng kiểm tra lại để đảm"
+" bảo tất cả các phần trong trang có hiệu lực và không có thông báo lỗi nào."
+
+#: cms/static/js/views/export.js:320
+msgid "Correct failed component"
+msgstr "Sửa phần bị lỗi"
+
+#: cms/static/js/views/export.js:327
+msgid "Return to Export"
+msgstr "Trở lại Xuất Tệp"
+
+#: cms/static/js/views/export.js:336
+msgid ""
+"Your library could not be exported to XML. There is not enough information "
+"to identify the failed component. Inspect your library to identify any "
+"problematic components and try again."
+msgstr ""
+"Không thể xuất thư viện của bạn sang XML. Không có đủ thông tin để xác định "
+"thành phần gặp lỗi. Kiểm tra lại thư viện của bạn để xác định các thành phần"
+" có vấn đề và thử lại."
+
+#: cms/static/js/views/export.js:339
+msgid "Take me to the main library page"
+msgstr "Mở trang thư viện chính"
+
+#: cms/static/js/views/export.js:341
+msgid ""
+"Your course could not be exported to XML. There is not enough information to"
+" identify the failed component. Inspect your course to identify any "
+"problematic components and try again."
+msgstr ""
+"Không thể xuất khoá học của bạn sang tệp XML. Không có đủ thông tin để tìm "
+"ra phần bị lỗi. Bạn nên kiểm tra lại khoá học của bạn để tìm ra phần bị lỗi "
+"và thử lại."
+
+#: cms/static/js/views/export.js:344
+msgid "Take me to the main course page"
+msgstr "Mở trang khoá học chính"
+
+#: cms/static/js/views/export.js:346
+msgid "The raw error message is:"
+msgstr "Thông báo lỗi ban đầu là:"
+
+#: cms/static/js/views/export.js:348
+msgid "There has been an error with your export."
+msgstr "Xảy ra lỗi khi xuất tệp."
+
+#. Translators: 'count' is number of groups that the group
+#. configuration contains.
+#: cms/static/js/views/group_configuration_details.js:70
+msgid "Contains {count} group"
+msgid_plural "Contains {count} groups"
+msgstr[0] "Bao gồm {count} nhóm"
+
+#: cms/static/js/views/group_configuration_details.js:81
+#: cms/static/js/views/partition_group_details.js:66
+msgid "Not in Use"
+msgstr "Không khả dụng"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#: cms/static/js/views/group_configuration_details.js:89
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] "Sử dụng ở {count} chỗ."
+
+#. Translators: this refers to a collection of groups.
+#: cms/static/js/views/group_configuration_item.js:26
+#: cms/static/js/views/group_configurations_list.js:18
+msgid "group configuration"
+msgstr "cấu hình nhóm"
+
+#: cms/static/js/views/group_configurations_list.js:20
+msgid "Add your first group configuration"
+msgstr "Thêm cấu hình nhóm đầu tiên của bạn"
+
+#: cms/static/js/views/group_configurations_list.js:22
+msgid "You have not created any group configurations yet."
+msgstr "Bạn vẫn chưa tạo một cấu hình nhóm nào."
+
+#: cms/static/js/views/instructor_info.js:77
+msgid "Upload instructor image."
+msgstr "Tải lên hình ảnh giảng viên"
+
+#: cms/static/js/views/instructor_info.js:78
+#: cms/static/js/views/settings/main.js:445
+msgid "Files must be in JPEG or PNG format."
+msgstr "Tập tin phải thuộc định dạng  JPEG hoặc PNG. "
+
+#: cms/static/js/views/license.js:8
+msgid "All Rights Reserved"
+msgstr "Bản quyền đã được bảo hộ."
+
+#: cms/static/js/views/license.js:9
+msgid "You reserve all rights for your work"
+msgstr "Bạn dành tất cả các quyền cho tác phẩm của bạn"
+
+#: cms/static/js/views/license.js:12
+msgid "Creative Commons"
+msgstr "Creative Commons"
+
+#: cms/static/js/views/license.js:13
+msgid "You waive some rights for your work, such that others can use it too"
+msgstr ""
+"Bạn từ bỏ một số quyền đối với tác phẩm của bạn, như vậy những người khác có"
+" thể sử dụng lại"
+
+#: cms/static/js/views/license.js:17
+msgid "Version"
+msgstr "Phiên bản"
+
+#: cms/static/js/views/license.js:22
+msgid "Attribution"
+msgstr "Attribution"
+
+#: cms/static/js/views/license.js:25
+msgid ""
+"Allow others to copy, distribute, display and perform your copyrighted work "
+"but only if they give credit the way you request. Currently, this option is "
+"required."
+msgstr ""
+"Cho phép người khác sao chép, phân phối, trưng bày và trình diễn tác phẩm có"
+" bản quyền của bạn nhưng chỉ khi họ cung cấp tín dụng theo cách bạn yêu cầu."
+" Hiện tại, tùy chọn này là bắt buộc."
+
+#: cms/static/js/views/license.js:29
+msgid "Noncommercial"
+msgstr "Noncommercial"
+
+#: cms/static/js/views/license.js:32
+msgid ""
+"Allow others to copy, distribute, display and perform your work - and "
+"derivative works based upon it - but for noncommercial purposes only."
+msgstr ""
+"Cho phép người khác sao chép, phân phối, trưng bày và trình diễn tác phẩm "
+"của bạn - và các tác phẩm phái sinh dựa trên nó - nhưng chỉ cho các mục đích"
+" phi thương mại."
+
+#: cms/static/js/views/license.js:35
+msgid "No Derivatives"
+msgstr "No Derivatives."
+
+#: cms/static/js/views/license.js:38
+msgid ""
+"Allow others to copy, distribute, display and perform only verbatim copies "
+"of your work, not derivative works based upon it. This option is "
+"incompatible with \"Share Alike\"."
+msgstr ""
+"Cho phép người khác sao chép, phân phối, hiển thị và trình diễn chỉ các bản "
+"sao nguyên bản của tác phẩm của bạn chứ không phải các tác phẩm phái sinh "
+"dựa trên nó. Tùy chọn này không tương thích với \"Chia sẻ tương tự\"."
+
+#: cms/static/js/views/license.js:42
+msgid "Share Alike"
+msgstr "Share Alike."
+
+#: cms/static/js/views/license.js:45
+msgid ""
+"Allow others to distribute derivative works only under a license identical "
+"to the license that governs your work. This option is incompatible with \"No"
+" Derivatives\"."
+msgstr ""
+"Cho phép người khác phân phối các tác phẩm phái sinh chỉ theo một giấy phép "
+"giống với giấy phép chi phối công việc của bạn. Tùy chọn này không tương "
+"thích với \"Không Phái sinh\"."
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:50
+msgid "Delete this %(item_display_name)s?"
+msgstr "Xoá mục này %(item_display_name)s?"
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:55
+msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
+msgstr "Xoá mục này %(item_display_name)s là vĩnh viễn và không thể hoàn tác."
+
+#: cms/static/js/views/manage_users_and_roles.js:11
+msgid "There was an error changing the user's role"
+msgstr "Xảy ra lỗi khi thay đổi vị trí thành viên"
+
+#: cms/static/js/views/manage_users_and_roles.js:15
+msgid "Error adding user"
+msgstr "Xảy ra lỗi khi thêm thành viên"
+
+#: cms/static/js/views/manage_users_and_roles.js:16
+msgid "Error removing user"
+msgstr "Xảy ra lỗi khi xoá thành viên"
+
+#: cms/static/js/views/manage_users_and_roles.js:19
+msgid "A valid email address is required"
+msgstr "Cần địa chỉ email khả dụng"
+
+#: cms/static/js/views/manage_users_and_roles.js:20
+msgid "You must enter a valid email address in order to add a new team member"
+msgstr ""
+"Bạn phải điền một địa chỉ email khả dụng mới có thể thêm thành viên mới"
+
+#: cms/static/js/views/manage_users_and_roles.js:21
+msgid "Return and add email address"
+msgstr "Quay lại và thêm địa chỉ email"
+
+#: cms/static/js/views/manage_users_and_roles.js:24
+msgid "Already a member"
+msgstr "Đã là thành viên"
+
+#: cms/static/js/views/manage_users_and_roles.js:25
+msgid ""
+"{email} is already on the {container} team. Recheck the email address if you"
+" want to add a new member."
+msgstr ""
+"{email} đã có trên nhóm {container}. Kiểm tra lại địa chỉ email nếu bạn muốn"
+" thêm một thành viên mới."
+
+#: cms/static/js/views/manage_users_and_roles.js:26
+msgid "Return to team listing"
+msgstr "Quay lại danh sách nhóm"
+
+#: cms/static/js/views/manage_users_and_roles.js:30
+msgid "Are you sure you want to restrict {email} access to “{container}”?"
+msgstr "Bạn có chắc chắn muốn giới hạn {email} truy cập vào “{container}”?"
+
+#: cms/static/js/views/modals/course_outline_modals.js:121
+msgid "{display_name} Settings"
+msgstr "{display_name} Thiết lập"
+
+#: cms/static/js/views/modals/course_outline_modals.js:202
+msgid "Publish {display_name}"
+msgstr "Công bố {display_name}"
+
+#: cms/static/js/views/modals/course_outline_modals.js:209
+msgid "Publish all unpublished changes for this {item}?"
+msgstr "Công bố tất cả những thay đổi chưa chưa công bố cho {item}?"
+
+#: cms/static/js/views/modals/course_outline_modals.js:215
+msgid "Publish"
+msgstr "Xuất bản"
+
+#: cms/static/js/views/modals/course_outline_modals.js:236
+msgid "Highlights for {display_name}"
+msgstr "Làm nổi bật {display_name}"
+
+#: cms/static/js/views/modals/course_outline_modals.js:276
+msgid "Enable Weekly Highlight Emails"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:294
+msgid "Enable"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:295
+msgid "Not yet"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:759
+msgid "All Learners and Staff"
+msgstr "Tất cả Học viên và Nhân viên"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1065
+msgid "Basic"
+msgstr "Căn bản"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1070
+msgid "Visibility"
+msgstr "Hiển thị"
+
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/edit_xblock.js:23
+msgid "Editing: {title}"
+msgstr ""
+
+#: cms/static/js/views/modals/edit_xblock.js:98
+msgid "Plugins"
+msgstr ""
+
+#: cms/static/js/views/modals/edit_xblock.js:132
+msgid "Unit"
+msgstr "Unit"
+
+#: cms/static/js/views/modals/edit_xblock.js:134
+msgid "Component"
+msgstr "Thành phần"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:37
+msgid "Move"
+msgstr "Di chyển"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:38
+msgid "Choose a location to move your component to"
+msgstr "Chọn vị trí để di chuyển thành phần của bạn đến"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:66
+msgid "Move: {displayName}"
+msgstr "Di chuyển: {displayName}"
+
+#: cms/static/js/views/modals/validation_error_modal.js:16
+msgid "Validation Error While Saving"
+msgstr "Xác Nhận Lỗi Khi Đang Lưu"
+
+#: cms/static/js/views/modals/validation_error_modal.js:21
+msgid "Undo Changes"
+msgstr "Hoàn Tác Các Thay Đổi"
+
+#: cms/static/js/views/modals/validation_error_modal.js:22
+msgid "Change Manually"
+msgstr "Thay Đổi Tùy Chọn"
+
+#: cms/static/js/views/move_xblock_list.js:33
+msgid "Sections"
+msgstr "Phần"
+
+#: cms/static/js/views/move_xblock_list.js:34
+msgid "Subsections"
+msgstr "Phần con"
+
+#: cms/static/js/views/move_xblock_list.js:35
+msgid "Units"
+msgstr "Đơn vị"
+
+#: cms/static/js/views/move_xblock_list.js:36
+msgid "Components"
+msgstr "Thành phần"
+
+#: cms/static/js/views/move_xblock_list.js:37
+msgid "Groups"
+msgstr "Nhóm"
+
+#: cms/static/js/views/move_xblock_list.js:179
+msgid "This {parentCategory} has no {childCategory}"
+msgstr "Chủ đề {parentCategory} này không có {childCategory}"
+
+#: cms/static/js/views/move_xblock_list.js:196
+msgid "Course Outline"
+msgstr "Phác Thảo Khóa Học"
+
+#: cms/static/js/views/paged_container.js:260
+msgid "Date added"
+msgstr "Ngày thêm vào"
+
+#. Translators: "title" is the name of the current component or unit being
+#. edited.
+#: cms/static/js/views/pages/container.js:201
+msgid "Editing access for: {title}"
+msgstr ""
+
+#: cms/static/js/views/pages/container_subviews.js:164
+msgid "Publishing"
+msgstr "Phát hành"
+
+#: cms/static/js/views/pages/container_subviews.js:182
+#: cms/static/js/views/pages/container_subviews.js:184
+msgid "Discard Changes"
+msgstr "Xóa Thay Đổi"
+
+#: cms/static/js/views/pages/container_subviews.js:183
+msgid ""
+"Are you sure you want to revert to the last published version of the unit? "
+"You cannot undo this action."
+msgstr ""
+"Bạn chắc chắn muốn trở lại phiên bản trước của bài học? Bạn sẽ không thể "
+"hoàn tác bước này."
+
+#: cms/static/js/views/pages/container_subviews.js:186
+msgid "Discarding Changes"
+msgstr "Bỏ Thay đổi"
+
+#: cms/static/js/views/pages/container_subviews.js:233
+msgid "Hiding from Students"
+msgstr "Ẩn với các Học viên"
+
+#: cms/static/js/views/pages/container_subviews.js:236
+msgid "Explicitly Hiding from Students"
+msgstr "Explicitly Hiding from Students"
+
+#: cms/static/js/views/pages/container_subviews.js:239
+msgid "Inheriting Student Visibility"
+msgstr "Kế thừa Hiển thị Sinh viên"
+
+#: cms/static/js/views/pages/container_subviews.js:242
+#: cms/static/js/views/pages/container_subviews.js:244
+msgid "Make Visible to Students"
+msgstr "Hiện đối với Học Viên"
+
+#: cms/static/js/views/pages/container_subviews.js:243
+msgid ""
+"If the unit was previously published and released to students, any changes "
+"you made to the unit when it was hidden will now be visible to students. Do "
+"you want to proceed?"
+msgstr ""
+"Nếu đơn vị này đã được xuất bản và phát hành cho học viên, các thay đổi mà "
+"bạn đã thực hiện trên đơn vị khi nó được ẩn sẽ được hiện lên đối với học "
+"viên. Bạn có muốn tiếp tục?"
+
+#: cms/static/js/views/pages/container_subviews.js:246
+msgid "Making Visible to Students"
+msgstr "Hiển thị với sinh viên"
+
+#: cms/static/js/views/pages/course_outline.js:182
+msgid "Course Index"
+msgstr "Danh mục Khóa học"
+
+#: cms/static/js/views/pages/course_outline.js:190
+msgid "There were errors reindexing course."
+msgstr "Đã xảy ra lỗi khi đánh chỉ mục lại khóa học."
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Hide Previews"
+msgstr "Ẩn Xem trước"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Show Previews"
+msgstr "Hiện Xem trước"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. ascending"
+#: cms/static/js/views/paging_header.js:52
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} ascending"
+msgstr ""
+"Hiển thị {currentItemRange} trên tổng số {totalItemsCount}, được lọc bởi "
+"{assetType}, sắp xếp theo {sortName} tăng dần"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. descending"
+#: cms/static/js/views/paging_header.js:56
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} descending"
+msgstr ""
+"Hiển thị {currentItemRange} trên tổng số {totalItemsCount}, được lọc bởi "
+"{assetType}, sắp xếp theo {sortName} giảm dần"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
+#: cms/static/js/views/paging_header.js:63
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"ascending"
+msgstr ""
+"Hiển thị {currentItemRange} trên tổng số {totalItemsCount}, được sắp xếp "
+"theo {sortName} tăng dần"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added descending"
+#: cms/static/js/views/paging_header.js:67
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"descending"
+msgstr ""
+"Hiển thị {currentItemRange} trên tổng số {totalItemsCount}, được sắp xếp "
+"theo {sortName} giảm dần"
+
+#. Translators: turns into "25 total" to be used in other sentences, e.g.
+#. "Showing 0-9 out of 25 total".
+#: cms/static/js/views/paging_header.js:98
+msgid "{totalItems} total"
+msgstr "tổng số {totalItems}"
+
+#. Translators: This refers to a content group that can be linked to a student
+#. cohort.
+#: cms/static/js/views/partition_group_item.js:24
+#: cms/static/js/views/partition_group_list.js:21
+msgid "content group"
+msgstr "nhóm nội dung"
+
+#: cms/static/js/views/partition_group_list.js:23
+msgid "Add your first content group"
+msgstr "Thêm nhóm nội dung đầu tiên của bạn"
+
+#: cms/static/js/views/partition_group_list.js:25
+msgid "You have not created any content groups yet."
+msgstr "Bạn chưa tạo bất kỳ nhóm nội dung nào."
+
+#: cms/static/js/views/previous_video_upload.js:76
+msgid "Are you sure you want to remove this video from the list?"
+msgstr "Bạn có chắc chắn muốn xóa video này khỏi danh sách không?"
+
+#: cms/static/js/views/previous_video_upload.js:77
+msgid ""
+"Removing a video from this list does not affect course content. Any content "
+"that uses a previously uploaded video ID continues to display in the course."
+msgstr ""
+"Loại bỏ một video khỏi danh sách này không ảnh hưởng đến nội dung của khóa "
+"học. Bất kỳ nội dung nào sử dụng ID video đã tải lên trước đó vẫn tiếp tục "
+"hiển thị trong khóa học."
+
+#: cms/static/js/views/settings/advanced.js:68
+msgid ""
+"Your changes will not take effect until you save your progress. Take care "
+"with key and value formatting, as validation is not implemented."
+msgstr ""
+"Các thay đổi sẽ không có hiệu lực cho đến khi bạn lưu tiến trình của bạn. "
+"Hãy cẩn thận với key và định dạng của giá trị, bởi vì sự xác nhận chưa được "
+"hoàn thành."
+
+#: cms/static/js/views/settings/advanced.js:117
+msgid "Your policy changes have been saved."
+msgstr "Thay đổi chính sách của bạn đã được lưu."
+
+#: cms/static/js/views/settings/advanced.js:118
+msgid ""
+"No validation is performed on policy keys or value pairs. If you are having "
+"difficulties, check your formatting."
+msgstr ""
+"Không có xác nhận nào được thực hiện trên các khóa chính sách hoặc các cặp "
+"giá trị. Nếu bạn đang gặp khó khăn, kiểm tra định dạng của bạn."
+
+#: cms/static/js/views/settings/grader.js:58
+msgid ""
+"For grading to work, you must change all {oldName} subsections to {newName}."
+msgstr ""
+"Để phân loại làm việc, bạn phải thay đổi tất cả các mục con {oldName} thành "
+"{newName}."
+
+#: cms/static/js/views/settings/main.js:60
+msgid "Course Credit Requirements"
+msgstr "Những yêu cầu về Tín chỉ"
+
+#: cms/static/js/views/settings/main.js:61
+msgid "The minimum grade for course credit is not set."
+msgstr "Điểm tối thiểu cho tín chỉ khóa học không được đặt."
+
+#: cms/static/js/views/settings/main.js:151
+msgid "Course pacing cannot be changed once a course has started."
+msgstr "Không thể thay đổi tốc độ học sau khi khóa học đã bắt đầu."
+
+#: cms/static/js/views/settings/main.js:218
+msgid "{hours}:{minutes} (current UTC time)"
+msgstr "{hours}:{minutes} (thời gian UTC hiện tại)"
+
+#: cms/static/js/views/settings/main.js:424
+msgid "Upload your course image."
+msgstr "Tải lên hình ảnh khóa học của bạn."
+
+#: cms/static/js/views/settings/main.js:430
+msgid "Upload your banner image."
+msgstr "Tải lên hình ảnh banner của bạn."
+
+#: cms/static/js/views/settings/main.js:436
+msgid "Upload your video thumbnail image."
+msgstr "Tải lên hình ảnh đại diện video của bạn."
+
+#: cms/static/js/views/show_textbook.js:33
+msgid "Delete “<%- name %>”?"
+msgstr ""
+
+#: cms/static/js/views/show_textbook.js:36
+msgid ""
+"Deleting a textbook cannot be undone and once deleted any reference to it in"
+" your courseware's navigation will also be removed."
+msgstr ""
+"Xóa một giáo trình không thể được hoàn tác và một khi đã xóa bất kỳ tham "
+"chiếu đến nó trong bảng điều khiển chương trình học của bạn cũng sẽ bị xóa."
+
+#: cms/static/js/views/tabs.js:159
+msgid "Delete Page Confirmation"
+msgstr "Xác Nhận Xóa Trang"
+
+#: cms/static/js/views/tabs.js:160
+msgid ""
+"Are you sure you want to delete this page? This action cannot be undone."
+msgstr "Bạn chắc chắn muốn xóa trang này? Hành động này không thể hoàn tác."
+
+#: cms/static/js/views/uploads.js:27
+msgid "Upload"
+msgstr "Tải lên"
+
+#: cms/static/js/views/uploads.js:119
+msgid "We're sorry, there was an error"
+msgstr "Rất tiếc, có lỗi xảy ra"
+
+#: cms/static/js/views/utils/create_course_utils.js:8
+msgid ""
+"The combined length of the organization, course number, and course run "
+"fields cannot be more than <%- limit %> characters."
+msgstr ""
+
+#: cms/static/js/views/utils/create_library_utils.js:8
+msgid ""
+"The combined length of the organization and library code fields cannot be "
+"more than <%- limit %> characters."
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:32
+msgid "Success! \"{displayName}\" has been moved."
+msgstr "Thành công! \"{displayName}\" đã được di chuyển."
+
+#: cms/static/js/views/utils/move_xblock_utils.js:57
+msgid ""
+"Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
+"location."
+msgstr ""
+"Huỷ bỏ di chuyển. \"{sourceDisplayName}\" đã được di chuyển về vị trí ban "
+"đầu."
+
+#: cms/static/js/views/utils/move_xblock_utils.js:75
+msgid "Undo move"
+msgstr "Hoàn tác di chuyển"
+
+#: cms/static/js/views/utils/move_xblock_utils.js:91
+msgid "Take me to the new location"
+msgstr "Đưa tôi đến vị trí mới"
+
+#: cms/static/js/views/utils/xblock_utils.js:79
+msgid "Duplicating"
+msgstr "Bản sao"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Undo moving"
+msgstr "Hoàn tác di chuyển"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Moving"
+msgstr "Di chuyển"
+
+#: cms/static/js/views/utils/xblock_utils.js:147
+msgid "Deleting this {xblock_type} is permanent and cannot be undone."
+msgstr "Xoá {xblock_type} là vĩnh viễn và không thể hoàn tác."
+
+#: cms/static/js/views/utils/xblock_utils.js:153
+msgid ""
+"Any content that has listed this content as a prerequisite will also have "
+"access limitations removed."
+msgstr ""
+"Bất kỳ nội dung nào liệt kê nội dung này như là một điều kiện bắt buộc cũng "
+"có giới hạn truy cập bị loại bỏ."
+
+#: cms/static/js/views/utils/xblock_utils.js:156
+msgid "Delete this {xblock_type} (and prerequisite)?"
+msgstr "Xoá {xblock_type} (và điều kiện bắt buộc)?"
+
+#: cms/static/js/views/utils/xblock_utils.js:162
+#: cms/static/js/views/utils/xblock_utils.js:177
+msgid "Yes, delete this {xblock_type}"
+msgstr "Đồng ý, xoá {xblock_type}"
+
+#: cms/static/js/views/utils/xblock_utils.js:171
+msgid "Delete this {xblock_type}?"
+msgstr "Xoá {xblock_type}?"
+
+#: cms/static/js/views/utils/xblock_utils.js:263
+msgid "section"
+msgstr "phần"
+
+#: cms/static/js/views/utils/xblock_utils.js:265
+msgid "subsection"
+msgstr "phần con"
+
+#: cms/static/js/views/utils/xblock_utils.js:267
+msgid "unit"
+msgstr "đơn vị"
+
+#: cms/static/js/views/validation.js:22
+msgid "You've made some changes"
+msgstr "Bạn đã thực hiện một số thay đổi"
+
+#: cms/static/js/views/validation.js:23
+msgid "Your changes will not take effect until you save your progress."
+msgstr ""
+"Thay đổi của bạn sẽ không có hiệu lực cho đến khi bạn lưu lại tiến độ của "
+"mình."
+
+#: cms/static/js/views/validation.js:24
+msgid "You've made some changes, but there are some errors"
+msgstr "Bạn đã thực hiện một số thay đổi, nhưng có một số lỗi"
+
+#: cms/static/js/views/validation.js:25
+msgid ""
+"Please address the errors on this page first, and then save your progress."
+msgstr "Vui lòng sửa các lỗi trên trang này, sau đó lưu tiến độ của bạn."
+
+#: cms/static/js/views/validation.js:117
+msgid "Save Changes"
+msgstr "Lưu Thay Đổi"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:114
+msgid "Please select a file in .srt format."
+msgstr "Hãy chọn tệp có định dạng .srt."
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:193
+msgid "Error: Uploading failed."
+msgstr "Lỗi: Tải lên không thành công."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:146
+msgid "Error: Import failed."
+msgstr "Lỗi: Nhập vào không thành công."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:160
+msgid "Error: Replacing failed."
+msgstr "Lỗi: Thay thế không thành công."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:176
+#: cms/static/js/views/video/transcripts/message_manager.js:190
+msgid "Error: Choosing failed."
+msgstr "Lỗi: Chọn không thành công."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:86
+msgid "Error: Connection with server failed."
+msgstr "Lỗi: Kết nối với máy chủ không thành công."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:357
+msgid "Link types should be unique."
+msgstr "Các loại liên kết phải là duy nhất."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:370
+msgid "Links should be unique."
+msgstr "Các liên kết phải là duy nhất."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:392
+msgid "Incorrect url format."
+msgstr "Định dạng url không chính xác."
+
+#: cms/static/js/views/video/translations_editor.js:14
+msgid ""
+"Sorry, there was an error parsing the subtitles that you uploaded. Please "
+"check the format and try again."
+msgstr ""
+"Xin lỗi, có lỗi cú pháp trong phụ đề bạn tải lên. Vui lòng kiểm tra định "
+"dạng và thử lại."
+
+#: cms/static/js/views/video/translations_editor.js:171
+#: cms/static/js/views/video_transcripts.js:268
+msgid "Are you sure you want to remove this transcript?"
+msgstr ""
+
+#: cms/static/js/views/video/translations_editor.js:172
+msgid ""
+"If you remove this transcript, the transcript will not be available for this"
+" component."
+msgstr ""
+
+#: cms/static/js/views/video/translations_editor.js:173
+msgid "Remove Transcript"
+msgstr ""
+
+#: cms/static/js/views/video/translations_editor.js:224
+msgid "Upload translation"
+msgstr "Tải lên bản dịch"
+
+#: cms/static/js/views/video_thumbnail.js:31
+msgid "Add Thumbnail"
+msgstr "Thêm Hình đại diện"
+
+#: cms/static/js/views/video_thumbnail.js:35
+msgid "Edit Thumbnail"
+msgstr "Sửa Hình đại diện"
+
+#. Translators: This is a 2 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+
+#: cms/static/js/views/video_thumbnail.js:52
+msgid "Image upload failed"
+msgstr "Tải lên hình ảnh không thành công"
+
+#. Translators: This is a 3 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:64
+msgid ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+"{ReqTextSpanStart}Những yêu "
+"cầu{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+
+#. Translators: message will be like 1280x720 pixels
+#: cms/static/js/views/video_thumbnail.js:130
+msgid "{maxWidth}x{maxHeight} pixels"
+msgstr "{maxWidth}x{maxHeight} pixels"
+
+#. Translators: message will be like Thumbnail for Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:138
+msgid "Thumbnail for {videoName}"
+msgstr "Hình đại diện cho {videoName}"
+
+#. Translators: message will be like Add Thumbnail - Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:146
+msgid "Add Thumbnail - {videoName}"
+msgstr "Thêm Hình đại diện - {videoName}"
+
+#. Translators: humanizeDuration will be like 10 minutes, an hour and 20
+#. minutes etc
+#: cms/static/js/views/video_thumbnail.js:172
+msgid "Video duration is {humanizeDuration}"
+msgstr "Thời lượng video là {humanizeDuration}"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minutes"
+msgstr "phút"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minute"
+msgstr "phút"
+
+#. Translators: message will be like 15 minutes, 1 minute
+#: cms/static/js/views/video_thumbnail.js:192
+msgid "{minutes} {unit}"
+msgstr "{minutes} {unit}"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "seconds"
+msgstr "giây"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr "giây"
+
+#. Translators: message will be like 20 seconds, 1 second
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr "{seconds} {unit}"
+
+#. Translators: `and` will be used to combine both miuntes and seconds like
+#. `13 minutes and 45 seconds`
+#: cms/static/js/views/video_thumbnail.js:207
+msgid " and "
+msgstr "và"
+
+#: cms/static/js/views/video_thumbnail.js:234
+msgid "Video image upload started"
+msgstr "Bắt đầu tải lên hình ảnh video"
+
+#: cms/static/js/views/video_thumbnail.js:246
+msgid "Video image upload completed"
+msgstr "Hoàn tất tải lên hình ảnh video"
+
+#: cms/static/js/views/video_thumbnail.js:321
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supportedFileFormats}."
+msgstr ""
+"Loại tệp hình ảnh này không được hỗ trợ. Những loại tệp được hỗ trợ là "
+"{supportedFileFormats}."
+
+#. Translators: maxFileSizeInMB will be like 2 MB.
+#: cms/static/js/views/video_thumbnail.js:330
+msgid "The selected image must be smaller than {maxFileSizeInMB}."
+msgstr "Hình ảnh được chọn phải nhỏ hơn {maxFileSizeInMB}."
+
+#. Translators: minFileSizeInKB will be like 2 KB.
+#: cms/static/js/views/video_thumbnail.js:338
+msgid "The selected image must be larger than {minFileSizeInKB}."
+msgstr "Hình ảnh được chọn phải lớn hơn {minFileSizeInKB}."
+
+#: cms/static/js/views/video_thumbnail.js:366
+msgid "Could not upload the video image file"
+msgstr "Không thể tải lên tệp hình ảnh video"
+
+#: cms/static/js/views/video_thumbnail.js:368
+msgid "Image upload failed. "
+msgstr "Tải lên hình ảnh không thành công"
+
+#: cms/static/js/views/video_transcripts.js:32
+msgid "The file could not be uploaded."
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:130
+msgid "Hide transcripts ({transcriptCount})"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:149
+msgid "Show transcripts ({transcriptCount})"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:167
+msgid ""
+"This file type is not supported. Supported file type is "
+"{supportedFileFormat}."
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:228
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:269
+msgid ""
+"If you remove this transcript, the transcript will not be available for any "
+"components that use this video."
+msgstr ""
+
+#: cms/static/js/views/xblock_editor.js:49
+msgid "Editor"
+msgstr "Trình biên tập"
+
+#: cms/static/js/views/xblock_editor.js:50
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: cms/static/js/views/xblock_outline.js:90
+msgid "New {component_type}"
+msgstr "{component_type} Mới"
+
+#: cms/static/js/xblock_asides/structured_tags.js:23
+msgid "Updating Tags"
+msgstr "Cập nhật Các thẻ"

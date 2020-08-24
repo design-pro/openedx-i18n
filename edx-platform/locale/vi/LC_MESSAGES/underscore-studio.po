@@ -1,0 +1,1922 @@
+# edX community translations have been downloaded from Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# dangitdang <dangpham@mit.edu>, 2014
+# dangitdang <dangpham@mit.edu>, 2014
+# Doan Viet Hung <viethung.doan@gmail.com>, 2014
+# Hoang Ha <halink0803@gmail.com>, 2014
+# Hoà Lê Thanh <hoa.lethanh@gmail.com>, 2017
+# Hoang Ha <halink0803@gmail.com>, 2014
+# Le Minh Tri <trilm@hihexa.com>, 2020
+# Linh Nguyen <linhvn09@gmail.com>, 2016
+# NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# Nguyen Nhat Quang <technicalmanager@gmail.com>, 2016
+# Son La <thanhson.la310@gmail.com>, 2015
+# Trung V. Nguyen <trung.ngvan@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2020-07-13 07:44+0000\n"
+"Last-Translator: Le Minh Tri <trilm@hihexa.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: cms/templates/js/access-editor.underscore:3
+msgid "Limit Access"
+msgstr "Giới hạn truy cập"
+
+#: cms/templates/js/access-editor.underscore:7
+msgid ""
+"Select a prerequisite subsection and enter a minimum score percentage and "
+"minimum completion percentage to limit access to this subsection. Allowed "
+"values are 0-100"
+msgstr ""
+
+#: cms/templates/js/access-editor.underscore:11
+msgid "Prerequisite:"
+msgstr "Điều kiện bắt buộc"
+
+#: cms/templates/js/access-editor.underscore:13
+msgid "No prerequisite"
+msgstr "Không bắt buộc"
+
+#: cms/templates/js/access-editor.underscore:22
+msgid "Minimum Score:"
+msgstr "Điểm tối thiểu"
+
+#: cms/templates/js/access-editor.underscore:29
+msgid "Minimum Completion:"
+msgstr ""
+
+#: cms/templates/js/access-editor.underscore:35
+msgid "The minimum score percentage must be a whole number between 0 and 100."
+msgstr "Tỉ lệ điểm số phải là con số trong khoảng từ 0 đến 100"
+
+#: cms/templates/js/access-editor.underscore:38
+msgid ""
+"The minimum completion percentage must be a whole number between 0 and 100."
+msgstr ""
+
+#: cms/templates/js/access-editor.underscore:43
+msgid "Use as a Prerequisite"
+msgstr "Sử dụng như yêu cầu băt buộc"
+
+#: cms/templates/js/access-editor.underscore:51
+msgid "Make this subsection available as a prerequisite to other content"
+msgstr ""
+"Kích hoạt phần con này như là một điều kiện bắt buộc cho nội dung khác"
+
+#: cms/templates/js/active-video-upload-list.underscore:14
+msgid "Active Uploads"
+msgstr "Các nội dung đang tải lên"
+
+#: cms/templates/js/active-video-upload.underscore:8
+msgid "Read More"
+msgstr "Xem Thêm"
+
+#: cms/templates/js/active-video-upload.underscore:9
+msgid "details about the failure"
+msgstr "chi tiết về lỗi"
+
+#: cms/templates/js/add-xblock-component-button.underscore:7
+msgid "Add Component:"
+msgstr "Thêm thành phần mới"
+
+#: cms/templates/js/add-xblock-component-menu-problem.underscore:3
+#: cms/templates/js/add-xblock-component-menu.underscore:4
+#, python-format
+msgid "%(type)s Component Template Menu"
+msgstr "%(type)s Danh mục mẫu thành phần"
+
+#: cms/templates/js/add-xblock-component-menu-problem.underscore:10
+msgid "Common Problem Types"
+msgstr "Loại Câu Hỏi Thường Gặp"
+
+#: cms/templates/js/add-xblock-component-menu-problem.underscore:13
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: cms/templates/js/add-xblock-component-support-legend.underscore:9
+msgid "Supported"
+msgstr "Được hỗ trợ"
+
+#: cms/templates/js/add-xblock-component-support-legend.underscore:13
+msgid "Provisional"
+msgstr "Có thể thay đổi"
+
+#: cms/templates/js/add-xblock-component-support-legend.underscore:18
+#: cms/templates/js/add-xblock-component-support-level.underscore:9
+msgid "Not Supported"
+msgstr "Không hỗ trợ"
+
+#: cms/templates/js/add-xblock-component-support-level.underscore:3
+msgid "Fully Supported"
+msgstr "Hỗ trợ hoàn toàn"
+
+#: cms/templates/js/add-xblock-component-support-level.underscore:6
+msgid "Provisionally Supported"
+msgstr "Hỗ trợ tạm thời"
+
+#: cms/templates/js/add-xblock-component.underscore:2
+msgid "Add New Component"
+msgstr "Thêm thành phần mới"
+
+#: cms/templates/js/advanced_entry.underscore:13
+msgid "Deprecated"
+msgstr "Đã lỗi thời"
+
+#: cms/templates/js/asset-library.underscore:5
+msgid "List of uploaded files and assets in this course"
+msgstr "Danh sách các tập tin tải lên và tài sản trong khóa học này"
+
+#: cms/templates/js/asset-library.underscore:16
+msgid "Preview"
+msgstr "Xem trước"
+
+#: cms/templates/js/asset-library.underscore:20
+#: cms/templates/js/asset-library.underscore:53
+msgid "- Sortable"
+msgstr "-  Có thể sắp xếp"
+
+#: cms/templates/js/asset-library.underscore:35
+msgid "Show All"
+msgstr "Hiển thị tất cả"
+
+#: cms/templates/js/asset-library.underscore:43
+msgid "Other"
+msgstr "Lựa chọn khác"
+
+#: cms/templates/js/asset-library.underscore:52
+#: cms/templates/js/previous-video-upload-list.underscore:15
+msgid "Date Added"
+msgstr "Ngày Thêm Vào"
+
+#: cms/templates/js/asset-library.underscore:56
+msgid "URL"
+msgstr "URL"
+
+#: cms/templates/js/asset-library.underscore:67
+msgid "You haven't added any assets to this course yet."
+msgstr "Bạn chưa thêm bất cứ tài nguyên nào cho khóa học này."
+
+#: cms/templates/js/asset-library.underscore:67
+msgid "Upload your first asset"
+msgstr "Tải lên tài nguyên đầu tiên của bạn."
+
+#: cms/templates/js/asset-upload-modal.underscore:2
+msgid "close"
+msgstr "Đóng lại"
+
+#: cms/templates/js/asset-upload-modal.underscore:4
+msgid "Upload New File"
+msgstr "Tải Lên Tập Tin Mới"
+
+#: cms/templates/js/asset-upload-modal.underscore:15
+msgid "Choose File"
+msgstr "Chọn tập tin"
+
+#: cms/templates/js/asset.underscore:4
+msgid "No description available"
+msgstr "Chưa có thông tin"
+
+#: cms/templates/js/asset.underscore:9
+msgid "Open/download this file"
+msgstr "Mở/tải về file này"
+
+#: cms/templates/js/asset.underscore:23
+msgid "Studio:"
+msgstr "Studio:"
+
+#: cms/templates/js/asset.underscore:29
+msgid "Web:"
+msgstr "Web:"
+
+#: cms/templates/js/asset.underscore:39
+msgid "Delete this asset"
+msgstr "Xóa thành phần này"
+
+#: cms/templates/js/asset.underscore:42
+msgid "Lock this asset"
+msgstr "Khoá thành phần này"
+
+#: cms/templates/js/asset.underscore:43
+msgid "Lock/unlock file"
+msgstr "Khóa/mở khóa file này"
+
+#: cms/templates/js/certificate-details.underscore:11
+#: cms/templates/js/group-configuration-details.underscore:14
+#: cms/templates/js/partition-group-details.underscore:14
+msgid "ID"
+msgstr "ID"
+
+#: cms/templates/js/certificate-details.underscore:18
+#: cms/templates/js/certificate-editor.underscore:23
+msgid "Certificate Details"
+msgstr "Thông tin chứng chỉ"
+
+#: cms/templates/js/certificate-details.underscore:23
+#: cms/templates/js/certificate-editor.underscore:26
+msgid "Course Title"
+msgstr "Khóa học:"
+
+#: cms/templates/js/certificate-details.underscore:28
+#: cms/templates/js/certificate-editor.underscore:30
+msgid "Course Title Override"
+msgstr "Chèn lên tên khóa học"
+
+#: cms/templates/js/certificate-details.underscore:36
+msgid "Course Number"
+msgstr "Số Khóa Học"
+
+#: cms/templates/js/certificate-details.underscore:42
+msgid "Course Number Override"
+msgstr "Chèn lên số thứ tự khóa học"
+
+#: cms/templates/js/certificate-details.underscore:53
+#: cms/templates/js/certificate-editor.underscore:36
+msgid "Certificate Signatories"
+msgstr "Chữ ký trên chứng chỉ"
+
+#: cms/templates/js/certificate-details.underscore:55
+#: cms/templates/js/certificate-editor.underscore:38
+msgid ""
+"It is strongly recommended that you include four or fewer signatories. If "
+"you include additional signatories, preview the certificate in Print View to"
+" ensure the certificate will print correctly on one page."
+msgstr ""
+"Chúng tôi đề nghị có bốn hoặc ít hơn người ký tên. Nếu bạn có chữ ký bổ "
+"sung, hãy xem trước chứng chỉ trong Chế độ xem In để đảm bảo chứng chỉ sẽ in"
+" chính xác trên một trang."
+
+#: cms/templates/js/certificate-editor.underscore:11
+msgid "Certificate Information"
+msgstr "Thông tin chứng nhận"
+
+#: cms/templates/js/certificate-editor.underscore:13
+msgid "Certificate Name"
+msgstr "Tên chứng chỉ"
+
+#: cms/templates/js/certificate-editor.underscore:14
+#: cms/templates/js/certificate-editor.underscore:15
+msgid "Name of the certificate"
+msgstr "Tên của chứng chỉ"
+
+#: cms/templates/js/certificate-editor.underscore:19
+#: cms/templates/js/certificate-editor.underscore:20
+msgid "Description of the certificate"
+msgstr "Mô tả chứng chỉ"
+
+#: cms/templates/js/certificate-editor.underscore:31
+msgid "Course title"
+msgstr "Tiêu đề khóa học"
+
+#: cms/templates/js/certificate-editor.underscore:32
+msgid ""
+"Specify an alternative to the official course title to display on "
+"certificates. Leave blank to use the official course title."
+msgstr ""
+"Cho một tiêu đề thay thế để hiển thị trên giấy chứng nhận. Để trống để sử "
+"dụng tiêu đề chính thức của khóa học."
+
+#: cms/templates/js/certificate-editor.underscore:41
+msgid "Add Additional Signatory"
+msgstr "Bổ sung Thêm Người ký"
+
+#: cms/templates/js/certificate-editor.underscore:42
+msgid "(Add signatories for a certificate)"
+msgstr "(Thêm người ký cho chứng chỉ)"
+
+#: cms/templates/js/certificate-editor.underscore:46
+#: cms/templates/js/content-group-editor.underscore:31
+#: cms/templates/js/group-configuration-editor.underscore:45
+msgid "Create"
+msgstr "Tạo mới"
+
+#: cms/templates/js/certificate-web-preview.underscore:1
+msgid "Choose mode"
+msgstr "Chọn chế độ"
+
+#: cms/templates/js/certificate-web-preview.underscore:8
+msgid "Preview Certificate"
+msgstr "Xem trước Chứng chỉ"
+
+#: cms/templates/js/certificate-web-preview.underscore:13
+msgid "Activate"
+msgstr "kích hoạt"
+
+#: cms/templates/js/certificate-web-preview.underscore:15
+msgid "Deactivate"
+msgstr "Nhóm nội dung này được sử dụng cho:"
+
+#: cms/templates/js/container-access.underscore:7
+msgid "unit"
+msgstr "đơn vị"
+
+#: cms/templates/js/container-access.underscore:9
+msgid "component"
+msgstr "thành phần"
+
+#: cms/templates/js/container-access.underscore:16
+msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
+msgstr "Truy cập vào {blockType} này được giới hạn ở: {selectedGroupsLabel}"
+
+#: cms/templates/js/container-access.underscore:26
+msgid ""
+"Access to some content in this {blockType} is restricted to specific groups "
+"of learners."
+msgstr ""
+"Truy cập vào một số nội dung trong {blockType} này chỉ dành cho những nhóm "
+"người học cụ thể."
+
+#: cms/templates/js/container-message.underscore:5
+msgid ""
+"Caution: The last published version of this unit is live. By publishing "
+"changes you will change the student experience."
+msgstr ""
+"Chú ý: Phiên bản được xuất bản lần cuối của đơn vị này đang cung cấp cho "
+"người học. Bằng cách xuất bản những thay đổi, bạn sẽ thay đổi trải nghiệm "
+"của sinh viên."
+
+#: cms/templates/js/content-group-editor.underscore:10
+msgid "Content Group Name"
+msgstr "Tên Nhóm Nội dung"
+
+#: cms/templates/js/content-group-editor.underscore:13
+msgid "Content Group ID"
+msgstr "ID Nhóm Nội dung"
+
+#: cms/templates/js/content-group-editor.underscore:18
+msgid "This is the name of the group"
+msgstr "Đây là tên của nhóm"
+
+#: cms/templates/js/content-group-editor.underscore:25
+msgid "This content group is used in one or more units."
+msgstr "Nhóm nội dung này được sử dụng trong một hoặc nhiều đơn vị."
+
+#: cms/templates/js/content-group-editor.underscore:40
+#: cms/templates/js/partition-group-details.underscore:35
+msgid "Cannot delete when in use by a unit"
+msgstr "Không thể xóa khi được sử dụng bởi một đơn vị"
+
+#: cms/templates/js/content-visibility-editor.underscore:2
+msgid "Subsection Visibility"
+msgstr "Hiển thị Phần con"
+
+#: cms/templates/js/content-visibility-editor.underscore:7
+msgid "Show entire subsection"
+msgstr "Hiện toàn bộ phần con"
+
+#: cms/templates/js/content-visibility-editor.underscore:9
+msgid "Learners see the published subsection and can access its content."
+msgstr ""
+"Học viên nhìn thấy phần con đã xuất bản và có thể truy cập nội dung của nó."
+
+#: cms/templates/js/content-visibility-editor.underscore:13
+msgid "Hide content after course end date"
+msgstr "Ẩn nội dung sau ngày kết thúc khóa học"
+
+#: cms/templates/js/content-visibility-editor.underscore:15
+msgid "Hide content after due date"
+msgstr "Ẩn nội dung sau ngày đáo hạn"
+
+#: cms/templates/js/content-visibility-editor.underscore:20
+msgid ""
+"After the course\\'s end date has passed, learners can no longer access "
+"subsection content. The subsection remains included in grade calculations."
+msgstr ""
+"Sau ngày kết thúc khoá học, người học không còn có thể truy cập vào phần con"
+" nữa. Các phần con vẫn được bao gồm trong tính điểm."
+
+#: cms/templates/js/content-visibility-editor.underscore:22
+msgid ""
+"After the subsection\\'s due date has passed, learners can no longer access "
+"its content. The subsection remains included in grade calculations."
+msgstr ""
+"Sau khi phần con hết hạn, người học không còn có thể truy cập nội dung của "
+"nó. Phần con vẫn được bao gồm trong tính điểm."
+
+#: cms/templates/js/content-visibility-editor.underscore:27
+msgid "Hide entire subsection"
+msgstr "Ẩn toàn bộ phần con"
+
+#: cms/templates/js/content-visibility-editor.underscore:30
+msgid ""
+"Learners do not see the subsection in the course outline. The subsection is "
+"not included in grade calculations."
+msgstr ""
+"Người học không nhìn thấy phần con trong đề cương khoá học. Các phần con "
+"không được bao gồm trong tính điểm."
+
+#: cms/templates/js/content-visibility-editor.underscore:36
+#, python-format
+msgid ""
+"If you select an option other than \"%(hide_label)s\", published units in "
+"this subsection become available to learners unless they are explicitly "
+"hidden."
+msgstr ""
+"Nếu bạn chọn một tùy chọn khác với \"%(hide_label)s\", những đơn vị đã xuất "
+"bản trong phần con này sẽ suất hiện cho người học trừ khi chúng được ẩn một "
+"cách rõ ràng."
+
+#: cms/templates/js/copy-clipboard-button.underscore:1
+#: cms/templates/js/copy-clipboard-button.underscore:3
+msgid "Copy Component Location"
+msgstr ""
+
+#: cms/templates/js/course-highlights-enable.underscore:3
+msgid "Weekly Highlight Emails"
+msgstr ""
+
+#: cms/templates/js/course-highlights-enable.underscore:7
+msgid "Enabled"
+msgstr "Đã cho phép"
+
+#: cms/templates/js/course-highlights-enable.underscore:9
+msgid "Enable Now"
+msgstr ""
+
+#: cms/templates/js/course-instructor-details.underscore:4
+msgid "Instructor Name"
+msgstr "Tên Giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:5
+msgid "Please add the instructor's name"
+msgstr "Vui lòng thêm tên giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:10
+msgid "Instructor Title"
+msgstr "Chức vụ Giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:11
+msgid "Please add the instructor's title"
+msgstr "Vui lòng thêm chức vụ của giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:15
+#: cms/templates/js/signatory-details.underscore:21
+msgid "Organization"
+msgstr "Tổ chức"
+
+#: cms/templates/js/course-instructor-details.underscore:16
+msgid "Organization Name"
+msgstr "Tên tổ chức"
+
+#: cms/templates/js/course-instructor-details.underscore:17
+msgid "Please add the institute where the instructor is associated"
+msgstr ""
+"Xin vui lòng bổ sung những học viện, cơ sở đào tạo nơi giảng viên hợp tác "
+"giảng dạy."
+
+#: cms/templates/js/course-instructor-details.underscore:21
+msgid "Biography"
+msgstr "Tiểu sử"
+
+#: cms/templates/js/course-instructor-details.underscore:22
+msgid "Instructor Biography"
+msgstr "Tiểu sử Giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:23
+msgid "Please add the instructor's biography"
+msgstr "Vui lòng thêm tiểu sử của giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:27
+msgid "Photo"
+msgstr "Ảnh"
+
+#: cms/templates/js/course-instructor-details.underscore:29
+msgid "Instructor Photo"
+msgstr "Ảnh Giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:33
+msgid "Instructor Photo URL"
+msgstr "URL Ảnh Giảng viên"
+
+#: cms/templates/js/course-instructor-details.underscore:34
+msgid ""
+"Please add a photo of the instructor (Note: only JPEG or PNG format "
+"supported)"
+msgstr ""
+"Xin thêm ảnh của giảng viên (Lưu ý: chỉ hỗ trợ định dạng JPEG hoặc PNG)"
+
+#: cms/templates/js/course-instructor-details.underscore:36
+msgid "Upload Photo"
+msgstr "Tải Ảnh lên"
+
+#: cms/templates/js/course-outline.underscore:40
+#, python-format
+msgid "Prerequisite: %(prereq_display_name)s"
+msgstr "Điều kiện bắt buộc: %(prereq_display_name)s"
+
+#: cms/templates/js/course-outline.underscore:48
+msgid "Contains staff only content"
+msgstr "Chỉ chứa nội dung nhân viên"
+
+#: cms/templates/js/course-outline.underscore:54
+msgid "Unpublished changes to live content"
+msgstr "Những thay đổi chưa xuất bản tới nội dung đang chạy"
+
+#: cms/templates/js/course-outline.underscore:56
+msgid "Unpublished units will not be released"
+msgstr "Những đơn vị chưa xuất bản sẽ không phát hành"
+
+#: cms/templates/js/course-outline.underscore:58
+msgid "Unpublished changes to content that will release in the future"
+msgstr ""
+"Những thay đổi chưa xuất bản tới nội dung sẽ phát hành trong tương lai"
+
+#: cms/templates/js/course-outline.underscore:66
+msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
+msgstr "Truy cập vào đơn vị này được giới hạn ở: {selectedGroupsLabel}"
+
+#: cms/templates/js/course-outline.underscore:75
+msgid ""
+"Access to some content in this unit is restricted to specific groups of "
+"learners"
+msgstr ""
+"Truy cập vào một số nội dung trong đơn vị này bị hạn chế đối với một số nhóm"
+" người học cụ thể"
+
+#: cms/templates/js/course-outline.underscore:80
+msgid "Ungraded"
+msgstr "Chưa phân loại"
+
+#: cms/templates/js/course-outline.underscore:91
+msgid "Onboarding Exam"
+msgstr ""
+
+#: cms/templates/js/course-outline.underscore:93
+msgid "Practice proctored Exam"
+msgstr "Thi thực hành có giám sát"
+
+#: cms/templates/js/course-outline.underscore:95
+msgid "Proctored Exam"
+msgstr "Thi có giám sát"
+
+#: cms/templates/js/course-outline.underscore:99
+msgid "Timed Exam"
+msgstr "Bài thi Khống chế thời gian"
+
+#: cms/templates/js/course-outline.underscore:112
+#: cms/templates/js/xblock-outline.underscore:11
+#, python-format
+msgid "Collapse/Expand this %(xblock_type)s"
+msgstr "Thu gọn/Mở rộng %(xblock_type)s này"
+
+#: cms/templates/js/course-outline.underscore:121
+#: cms/templates/js/course-outline.underscore:126
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#: cms/templates/js/course-outline.underscore:135
+#: cms/templates/js/course-outline.underscore:136
+msgid "Proctoring Settings"
+msgstr ""
+
+#: cms/templates/js/course-outline.underscore:142
+#: cms/templates/js/course-outline.underscore:144
+#: cms/templates/js/publish-xblock.underscore:121
+msgid "Publish"
+msgstr "Xuất bản"
+
+#: cms/templates/js/course-outline.underscore:150
+#: cms/templates/js/course-outline.underscore:152
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: cms/templates/js/course-outline.underscore:158
+#: cms/templates/js/course-outline.underscore:160
+msgid "Duplicate"
+msgstr "Bản sao"
+
+#: cms/templates/js/course-outline.underscore:174
+#: cms/templates/js/course-outline.underscore:176
+msgid "Drag to reorder"
+msgstr "Kéo để sắp xếp lại"
+
+#: cms/templates/js/course-outline.underscore:194
+msgid "Release Status:"
+msgstr "Trạng thái Phát hành:"
+
+#: cms/templates/js/course-outline.underscore:199
+#: cms/templates/js/publish-xblock.underscore:15
+#: cms/templates/js/xblock-outline.underscore:43
+msgid "Released:"
+msgstr "Phát hành:"
+
+#: cms/templates/js/course-outline.underscore:202
+#: cms/templates/js/publish-xblock.underscore:17
+msgid "Scheduled:"
+msgstr "Lên kế hoạch:"
+
+#: cms/templates/js/course-outline.underscore:220
+#: cms/templates/js/highlights-editor.underscore:2
+msgid "Section Highlights"
+msgstr ""
+
+#: cms/templates/js/course-outline.underscore:227
+#: cms/templates/js/course-outline.underscore:241
+msgid "Graded as:"
+msgstr "Phân loại:"
+
+#: cms/templates/js/course-outline.underscore:234
+#: cms/templates/js/course-outline.underscore:245
+msgid "Due:"
+msgstr "Hạn chót:"
+
+#: cms/templates/js/course-outline.underscore:256
+msgid "Subsection is hidden after course end date"
+msgstr "Phần con được ẩn sau ngày kết thúc khóa học"
+
+#: cms/templates/js/course-outline.underscore:258
+msgid "Subsection is hidden after due date"
+msgstr "Phần con được ẩn sau ngày đáo hạn"
+
+#: cms/templates/js/course-outline.underscore:280
+#: cms/templates/js/xblock-outline.underscore:57
+msgid "You haven't added any content to this course yet."
+msgstr "Bạn chưa thêm bất cứ tài nguyên nào cho khóa học này."
+
+#: cms/templates/js/course-outline.underscore:284
+#: cms/templates/js/course-outline.underscore:305
+#: cms/templates/js/xblock-outline.underscore:61
+#: cms/templates/js/xblock-outline.underscore:77
+#, python-format
+msgid "Click to add a new %(xblock_type)s"
+msgstr "Bấm để thêm mới %(xblock_type)s"
+
+#: cms/templates/js/course-settings-learning-fields.underscore:2
+msgid "Learning Outcome"
+msgstr "Kết quả Học tập"
+
+#: cms/templates/js/course-settings-learning-fields.underscore:3
+msgid "Add a learning outcome here"
+msgstr "Thêm một kết quả học tập ở đây"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:2
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:2
+#: cms/templates/js/publish-xblock.underscore:126
+msgid "Discard Changes"
+msgstr "Xóa Thay Đổi"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
+msgid "Press discard changes to discard your changes."
+msgstr ""
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
+msgid "Update Settings"
+msgstr "Thiết lập Cập nhật"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
+msgid "Press update settings to update the information for your organization."
+msgstr ""
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
+msgid "Press discard changes to discard changes."
+msgstr ""
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr "Nhấn thiết lập cập nhật để cập nhật các thiết lập video của khóa học"
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
+msgid "Last updated"
+msgstr "Cập nhật mới nhất"
+
+#: cms/templates/js/course-video-settings.underscore:7
+msgid "Press close to hide course video settings"
+msgstr "Nhấn đóng để ẩn thiết lập video khóa học"
+
+#: cms/templates/js/course-video-settings.underscore:13
+msgid "Course Video Settings"
+msgstr "Thiết lập Video Khóa học"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:3
+msgid "Transcript Turnaround"
+msgstr "Quay vòng Bản dịch"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:8
+msgid "Transcript Fidelity"
+msgstr "Trung thực Bản dịch"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:13
+msgid "Video Source Language"
+msgstr "Ngôn ngữ Nguồn Video"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:18
+msgid "Transcript Languages"
+msgstr "Những ngôn ngữ Dịch lại"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+#: cms/templates/js/metadata-dict-entry.underscore:6
+#: cms/templates/js/metadata-list-entry.underscore:9
+#: cms/templates/js/video/metadata-translations-entry.underscore:7
+msgid "Add"
+msgstr "Thêm"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+msgid "Press Add to language"
+msgstr "Bấm Thêm vào ngôn ngữ"
+
+#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
+msgid "Automated Transcripts"
+msgstr ""
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
+msgid "Transcript Provider"
+msgstr "Nhà cung cấp Bản dịch"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:5
+msgid "Change"
+msgstr "Thay đổi"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
+msgid "Press change to change selected transcript provider."
+msgstr ""
+
+#: cms/templates/js/course_grade_policy.underscore:3
+msgid "Assignment Type Name"
+msgstr "Phân loại Tên"
+
+#: cms/templates/js/course_grade_policy.underscore:5
+msgid ""
+"The general category for this type of assignment, for example, Homework or "
+"Midterm Exam. This name is visible to learners."
+msgstr ""
+"Danh mục chung cho loại bài tập này, ví dụ: Bài tập về nhà hoặc Bài kiểm tra"
+" giữa kỳ. Tên này hiển thị cho người học."
+
+#: cms/templates/js/course_grade_policy.underscore:9
+msgid "Abbreviation"
+msgstr "Viết tắt"
+
+#: cms/templates/js/course_grade_policy.underscore:11
+msgid ""
+"This short name for the assignment type (for example, HW or Midterm) appears"
+" next to assignments on a learner's Progress page."
+msgstr ""
+"Tên ngắn cho loại bài tập (ví dụ: BTVN hoặc KTra) xuất hiện bên cạnh các bài"
+" tập trên trang Tiến độ của người học."
+
+#: cms/templates/js/course_grade_policy.underscore:15
+msgid "Weight of Total Grade"
+msgstr "Sĩ số của lớp"
+
+#: cms/templates/js/course_grade_policy.underscore:17
+msgid ""
+"The weight of all assignments of this type as a percentage of the total "
+"grade, for example, 40. Do not include the percent symbol."
+msgstr ""
+"Tỷ trọng của tất cả các bài tập thuộc loại này là phần trăm của tổng số "
+"điểm, ví dụ, 40. Không bao gồm biểu tượng phần trăm."
+
+#: cms/templates/js/course_grade_policy.underscore:21
+msgid "Total Number"
+msgstr "Tổng số"
+
+#: cms/templates/js/course_grade_policy.underscore:23
+msgid ""
+"The number of subsections in the course that contain problems of this "
+"assignment type."
+msgstr "Số phần con trong khóa học chứa các câu hỏi của loại bài tập này."
+
+#: cms/templates/js/course_grade_policy.underscore:27
+msgid "Number of Droppable"
+msgstr "Số lượng Loại bỏ"
+
+#: cms/templates/js/course_grade_policy.underscore:29
+msgid ""
+"The number of assignments of this type that will be dropped. The lowest "
+"scoring assignments are dropped first."
+msgstr ""
+"Số lượng bài tập thuộc loại này sẽ bị loại bỏ. Những bài tập có điểm thấp sẽ"
+" bị loại bỏ trước."
+
+#: cms/templates/js/course_info_handouts.underscore:3
+msgid "Course Handouts"
+msgstr "Course Handouts"
+
+#: cms/templates/js/course_info_handouts.underscore:9
+msgid "You have no handouts defined"
+msgstr "Bạn không có tài liệu phát tay"
+
+#: cms/templates/js/course_info_handouts.underscore:13
+msgid ""
+"There is invalid code in your content. Please check to make sure it is valid"
+" HTML."
+msgstr ""
+"Có mã không hợp lệ trong nội dung của bạn. Vui lòng kiểm tra để chắc chắn "
+"rằng đó là HTML hợp lệ."
+
+#: cms/templates/js/course_info_update.underscore:14
+msgid "Post"
+msgstr "Bài viết"
+
+#: cms/templates/js/due-date-editor.underscore:3
+msgid "Due Date:"
+msgstr "Hạn:"
+
+#: cms/templates/js/due-date-editor.underscore:9
+msgid "Due Time in UTC:"
+msgstr "Giờ đến hạn theo UTC:"
+
+#: cms/templates/js/due-date-editor.underscore:17
+#: cms/templates/js/due-date-editor.underscore:19
+msgid "Clear Grading Due Date"
+msgstr "Xoá Hạn Chấm bải"
+
+#: cms/templates/js/edit-chapter.underscore:3
+msgid "Chapter Name"
+msgstr "Tên Chương"
+
+#: cms/templates/js/edit-chapter.underscore:4
+msgid "Chapter {order}"
+msgstr "Chương {order}"
+
+#: cms/templates/js/edit-chapter.underscore:5
+msgid "provide the title/name of the chapter that will be used in navigating"
+msgstr "cung cấp tiêu đề/tên của các phần sẽ sử dụng trong điều hướng"
+
+#: cms/templates/js/edit-chapter.underscore:9
+msgid "Chapter Asset"
+msgstr "Liên kết Chương"
+
+#: cms/templates/js/edit-chapter.underscore:10
+msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
+msgstr "path/to/introductionToCookieBaking-CH{order}.pdf"
+
+#: cms/templates/js/edit-chapter.underscore:11
+msgid "upload a PDF file or provide the path to a Studio asset file"
+msgstr ""
+"tải lên một tập tin PDF hoặc cung cấp đường dẫn đến nơi lưu trữ tập tin "
+"Studio"
+
+#: cms/templates/js/edit-chapter.underscore:12
+msgid "Upload PDF"
+msgstr "Tải lên PDF"
+
+#: cms/templates/js/edit-chapter.underscore:14
+msgid "delete chapter"
+msgstr "xoá chương"
+
+#: cms/templates/js/edit-textbook.underscore:10
+msgid "Textbook information"
+msgstr "Thông tin giáo trình"
+
+#: cms/templates/js/edit-textbook.underscore:12
+msgid "Textbook Name"
+msgstr "Tên giáo trình"
+
+#: cms/templates/js/edit-textbook.underscore:13
+msgid "Introduction to Cookie Baking"
+msgstr "Giới thiệu về Cookie Baking"
+
+#: cms/templates/js/edit-textbook.underscore:14
+msgid ""
+"provide the title/name of the text book as you would like your students to "
+"see it"
+msgstr "cung cấp tiêu đề/tên của giáo trình mà bạn muốn học viên xem nó"
+
+#: cms/templates/js/edit-textbook.underscore:18
+msgid "Chapter information"
+msgstr "Thông tin chương"
+
+#: cms/templates/js/edit-textbook.underscore:21
+msgid "Add a Chapter"
+msgstr "Thêm một Chương"
+
+#: cms/templates/js/edit-title-button.underscore:1
+msgid "Edit Title"
+msgstr ""
+
+#: cms/templates/js/grading-editor.underscore:1
+msgid "Grading"
+msgstr "Đánh Giá"
+
+#: cms/templates/js/grading-editor.underscore:5
+msgid "Grade as:"
+msgstr "Phân loại:"
+
+#: cms/templates/js/grading-editor.underscore:7
+msgid "Not Graded"
+msgstr "Chưa Chấm"
+
+#: cms/templates/js/group-configuration-details.underscore:52
+#: cms/templates/js/group-configuration-editor.underscore:53
+msgid "Cannot delete when in use by an experiment"
+msgstr "Không thể xóa khi được sử dụng bởi một thử nghiệm"
+
+#: cms/templates/js/group-configuration-details.underscore:61
+msgid "This Group Configuration is used in:"
+msgstr "Cấu hình Nhóm này được sử dụng trong:"
+
+#: cms/templates/js/group-configuration-details.underscore:84
+msgid ""
+"This Group Configuration is not in use. Start by adding a content experiment"
+" to any Unit via the {linkStart}Course Outline{linkEnd}."
+msgstr ""
+"Cấu hình Nhóm này không được sử dụng. Bắt đầu bằng cách thêm thử nghiệm nội "
+"dung cho bất kỳ Đơn vị nào thông qua {linkStart}Đề cương Khóa học{linkEnd}."
+
+#: cms/templates/js/group-configuration-details.underscore:88
+#: cms/templates/js/partition-group-details.underscore:63
+msgid "Course Outline"
+msgstr "Phác Thảo Khóa Học"
+
+#: cms/templates/js/group-configuration-editor.underscore:9
+msgid "Group Configuration information"
+msgstr "Thông tin cấu hình nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:11
+msgid "Group Configuration Name"
+msgstr "Tên Cấu hình Nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:14
+msgid "Group Configuration ID"
+msgstr "ID Cấu hình Nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:19
+msgid "This is the Name of the Group Configuration"
+msgstr "Đây là Tên của Cấu hình Nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:20
+msgid "Name or short description of the configuration"
+msgstr "Tên hoặc mô tả ngắn gọn cấu hình"
+
+#: cms/templates/js/group-configuration-editor.underscore:24
+msgid "This is the Description of the Group Configuration"
+msgstr "Đây là Mô tả về Cấu hình Nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:25
+msgid "Optional long description"
+msgstr "Mô tả dài tùy chọn"
+
+#: cms/templates/js/group-configuration-editor.underscore:29
+msgid "Group information"
+msgstr "Thông tin về nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:30
+msgid "Groups"
+msgstr "Nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:31
+msgid ""
+"Name of the groups that students will be assigned to, for example, Control, "
+"Video, Problems. You must have two or more groups."
+msgstr ""
+"Tên của các nhóm mà học sinh sẽ được chia vào, ví dụ: Kiểm soát, Video, Câu "
+"hỏi. Bạn phải có hai hoặc nhiều nhóm."
+
+#: cms/templates/js/group-configuration-editor.underscore:33
+msgid "Add another group"
+msgstr "Thêm nhóm"
+
+#: cms/templates/js/group-configuration-editor.underscore:39
+msgid ""
+"This configuration is currently used in content experiments. If you make "
+"changes to the groups, you may need to edit those experiments."
+msgstr ""
+"Cấu hình này hiện đang được sử dụng trong thử nghiệm nội dung. Nếu bạn thay "
+"đổi các nhóm, bạn có thể phải chỉnh sửa những thử nghiệm đó."
+
+#: cms/templates/js/group-edit.underscore:4
+msgid "delete group"
+msgstr "Xoá nhóm"
+
+#: cms/templates/js/highlights-editor.underscore:7
+msgid ""
+"This feature is currently in testing. Course teams can enter highlights, but"
+" learners will not receive email messages."
+msgstr ""
+
+#: cms/templates/js/highlights-editor.underscore:11
+msgid ""
+"Enter 3-5 highlights to include in the email message that learners receive "
+"for this section (250 character limit)."
+msgstr ""
+
+#: cms/templates/js/highlights-editor.underscore:42
+#: cms/templates/js/highlights-editor.underscore:55
+msgid "Highlight {highlight_index}"
+msgstr ""
+
+#: cms/templates/js/highlights-editor.underscore:61
+msgid "A highlight to look forward to this week."
+msgstr ""
+
+#: cms/templates/js/license-selector.underscore:3
+msgid "License Type"
+msgstr "Loại Giấy phép"
+
+#: cms/templates/js/license-selector.underscore:18
+msgid "Learn more about {license_name}"
+msgstr "Tìm hiểu thêm về {license_name}"
+
+#: cms/templates/js/license-selector.underscore:34
+msgid "Options for {license_name}"
+msgstr "Tuỳ chọn cho {license_name}"
+
+#: cms/templates/js/license-selector.underscore:37
+msgid "The following options are available for the {license_name} license."
+msgstr "Các tùy chọn sau có thể dùng cho giấy phép {license_name}."
+
+#: cms/templates/js/license-selector.underscore:74
+msgid "License Display"
+msgstr "Hiển thị Giấy phép"
+
+#: cms/templates/js/license-selector.underscore:77
+msgid ""
+"The following message will be displayed at the bottom of the courseware "
+"pages within your course:"
+msgstr ""
+"Thông báo sau sẽ được hiển thị ở dưới cùng của các trang giáo trình khóa học"
+" của bạn:"
+
+#: cms/templates/js/license-selector.underscore:82
+#: cms/templates/js/license-selector.underscore:110
+msgid "All Rights Reserved"
+msgstr "Bản quyền đã được bảo hộ."
+
+#: cms/templates/js/license-selector.underscore:101
+msgid "Creative Commons licensed content, with terms as follow:"
+msgstr "Creative Commons licensed content, with terms as follow:"
+
+#: cms/templates/js/license-selector.underscore:105
+msgid "Some Rights Reserved"
+msgstr "Some Rights Reserved."
+
+#: cms/templates/js/list.underscore:7
+#, python-format
+msgid "%(new_item_message)s"
+msgstr "%(new_item_message)s"
+
+#: cms/templates/js/list.underscore:17
+#, python-format
+msgid "New %(item_type)s"
+msgstr "Mới %(item_type)s"
+
+#: cms/templates/js/metadata-dict-entry.underscore:9
+#: cms/templates/js/metadata-file-uploader-entry.underscore:5
+#: cms/templates/js/metadata-list-entry.underscore:12
+#: cms/templates/js/metadata-number-entry.underscore:4
+#: cms/templates/js/metadata-option-entry.underscore:12
+#: cms/templates/js/metadata-string-entry.underscore:4
+msgid "Clear"
+msgstr "Xóa"
+
+#: cms/templates/js/metadata-dict-entry.underscore:11
+#: cms/templates/js/metadata-file-uploader-entry.underscore:6
+#: cms/templates/js/metadata-list-entry.underscore:14
+#: cms/templates/js/metadata-number-entry.underscore:5
+#: cms/templates/js/metadata-option-entry.underscore:13
+#: cms/templates/js/metadata-string-entry.underscore:5
+msgid "Clear Value"
+msgstr "Xoá Giá trị"
+
+#: cms/templates/js/metadata-file-uploader-item.underscore:1
+#: cms/templates/js/video-transcripts.underscore:45
+#: cms/templates/js/video/metadata-translations-item.underscore:5
+msgid "Replace"
+msgstr "Thay thế"
+
+#: cms/templates/js/metadata-file-uploader-item.underscore:1
+#: cms/templates/js/video/metadata-translations-item.underscore:5
+msgid "Upload"
+msgstr "Tải lên"
+
+#: cms/templates/js/metadata-file-uploader-item.underscore:2
+#: cms/templates/js/video-transcripts.underscore:42
+#: cms/templates/js/video/metadata-translations-item.underscore:8
+msgid "Download"
+msgstr "Tải về"
+
+#: cms/templates/js/move-xblock-list.underscore:7
+msgid "{categoryText} in {parentDisplayname}"
+msgstr "{categoryText} trong {parentDisplayname}"
+
+#: cms/templates/js/move-xblock-list.underscore:28
+msgid "Current location"
+msgstr "Vị trí hiện tại"
+
+#: cms/templates/js/move-xblock-list.underscore:32
+msgid "View child items"
+msgstr "Xem các mục con"
+
+#: cms/templates/js/move-xblock-list.underscore:41
+msgid "Currently selected"
+msgstr "Hiện đã chọn"
+
+#: cms/templates/js/no-textbooks.underscore:2
+msgid "You haven't added any textbooks to this course yet."
+msgstr "Bạn chưa thêm bất cứ tài nguyên nào cho khóa học này."
+
+#: cms/templates/js/no-textbooks.underscore:2
+msgid "Add your first textbook"
+msgstr "Thêm giáo trình đầu tiên"
+
+#: cms/templates/js/partition-group-details.underscore:47
+msgid "This group controls access to:"
+msgstr "Nhóm này kiểm soát truy cập vào:"
+
+#: cms/templates/js/partition-group-details.underscore:59
+msgid ""
+"In the {linkStart}Course Outline{linkEnd}, use this group to control access "
+"to a component."
+msgstr ""
+"Trong {linkStart}Đề cương Khóa học{linkEnd}, sử dụng nhóm này để kiểm soát "
+"truy cập vào một thành phần."
+
+#: cms/templates/js/previous-video-upload-list.underscore:2
+msgid "Previous Uploads"
+msgstr "Những Tải lên Trước đây"
+
+#: cms/templates/js/previous-video-upload-list.underscore:5
+msgid "Download available encodings (.csv)"
+msgstr "Tải xuống các bảng mã có thể sử dụng (.csv)"
+
+#: cms/templates/js/previous-video-upload-list.underscore:12
+msgid "Thumbnail"
+msgstr "Hình đại diện"
+
+#: cms/templates/js/previous-video-upload-list.underscore:16
+msgid "Video ID"
+msgstr "Video ID"
+
+#: cms/templates/js/previous-video-upload-list.underscore:17
+msgid "Transcripts"
+msgstr "Bản dịch"
+
+#: cms/templates/js/previous-video-upload-list.underscore:18
+msgid "Video Status"
+msgstr ""
+
+#: cms/templates/js/previous-video-upload.underscore:13
+msgid "Remove this video"
+msgstr "Xóa video này"
+
+#: cms/templates/js/previous-video-upload.underscore:15
+msgid "Remove {video_name} video"
+msgstr "Xoá video {video_name}"
+
+#: cms/templates/js/publish-history.underscore:2
+msgid "Never published"
+msgstr "Chưa bao giờ xuất bản"
+
+#: cms/templates/js/publish-history.underscore:4
+#, python-format
+msgid "Last published %(last_published_date)s by %(publish_username)s"
+msgstr "Xuất bản lần cuối %(last_published_date)s bởi %(publish_username)s"
+
+#: cms/templates/js/publish-history.underscore:10
+#: cms/templates/js/publish-xblock.underscore:54
+msgid "Previously published"
+msgstr "Đã xuất bản trước đây"
+
+#: cms/templates/js/publish-xblock.underscore:2
+msgid "Draft (Never published)"
+msgstr "Dự thảo (Chưa bao giờ xuất bản)"
+
+#: cms/templates/js/publish-xblock.underscore:4
+msgid "Visible to Staff Only"
+msgstr "Chỉ Hiển thị đối với Nhân viên"
+
+#: cms/templates/js/publish-xblock.underscore:6
+msgid "Published and Live"
+msgstr "Đã Xuất bản và Đang chạy"
+
+#: cms/templates/js/publish-xblock.underscore:8
+msgid "Published (not yet released)"
+msgstr "Đã xuất bản (chưa phát hành)"
+
+#: cms/templates/js/publish-xblock.underscore:10
+msgid "Draft (Unpublished changes)"
+msgstr "Dự thảo (Chưa xuát bản những thay đổi)"
+
+#: cms/templates/js/publish-xblock.underscore:13
+msgid "Release:"
+msgstr "Phát hành:"
+
+#: cms/templates/js/publish-xblock.underscore:23
+msgid "Publishing Status"
+msgstr "Trạng thái Xuất bản"
+
+#: cms/templates/js/publish-xblock.underscore:31
+msgid ""
+"Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
+"{editedByStart}{editedBy}{editedByEnd}"
+msgstr ""
+"Dự thảo lưu trên {lastSavedStart}{editedOn}{lastSavedEnd} bởi "
+"{editedByStart}{editedBy}{editedByEnd}"
+
+#: cms/templates/js/publish-xblock.underscore:43
+msgid ""
+"Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
+"{publishedByStart}{publishedBy}{publishedByEnd}"
+msgstr ""
+"Xuất bản lần cuối {lastPublishedStart}{publishedOn}{lastPublishedEnd} bởi "
+"{publishedByStart}{publishedBy}{publishedByEnd}"
+
+#: cms/templates/js/publish-xblock.underscore:67
+#, python-format
+msgid "with %(release_date_from)s"
+msgstr "với %(release_date_from)s"
+
+#: cms/templates/js/publish-xblock.underscore:81
+msgid "Is Visible To:"
+msgstr "Xem được bởi:"
+
+#: cms/templates/js/publish-xblock.underscore:83
+msgid "Will Be Visible To:"
+msgstr "Sẽ Được hiển thị Cho:"
+
+#: cms/templates/js/publish-xblock.underscore:88
+msgid "Staff Only"
+msgstr "Chỉ Nhân viên"
+
+#: cms/templates/js/publish-xblock.underscore:92
+#, python-format
+msgid "with %(section_or_subsection)s"
+msgstr "với %(section_or_subsection)s"
+
+#: cms/templates/js/publish-xblock.underscore:98
+msgid "Staff and Learners"
+msgstr "Nhân viên và Học viên"
+
+#: cms/templates/js/publish-xblock.underscore:108
+#: cms/templates/js/staff-lock-editor.underscore:12
+msgid "Hide from learners"
+msgstr "Ẩn với học viên"
+
+#: cms/templates/js/publish-xblock.underscore:113
+msgid "Note: Do not hide graded assignments after they have been released."
+msgstr ""
+"Lưu ý: Không được ẩn những bài tập đã chấm sau khi chúng đã được công bố."
+
+#: cms/templates/js/release-date-editor.underscore:1
+msgid "Release Date and Time"
+msgstr "Ngày và giờ phát hành"
+
+#: cms/templates/js/release-date-editor.underscore:5
+msgid "Release Date:"
+msgstr "Ngày phát hành:"
+
+#: cms/templates/js/release-date-editor.underscore:11
+msgid "Release Time in UTC:"
+msgstr "Giờ phát hành theo UTC:"
+
+#: cms/templates/js/release-date-editor.underscore:21
+#: cms/templates/js/release-date-editor.underscore:23
+msgid "Clear Release Date/Time"
+msgstr "Xóa ngày/giờ phát hành"
+
+#: cms/templates/js/show-correctness-editor.underscore:2
+msgid "Assessment Results Visibility"
+msgstr "Hiển thị Kết quả Đánh giá"
+
+#: cms/templates/js/show-correctness-editor.underscore:7
+msgid "Always show assessment results"
+msgstr "Luôn luôn hiển thị kết quả đánh giá"
+
+#: cms/templates/js/show-correctness-editor.underscore:10
+msgid ""
+"When learners submit an answer to an assessment, they immediately see "
+"whether the answer is correct or incorrect, and the score received."
+msgstr ""
+"Khi học viên gửi câu trả lời cho một bài đánh giá, họ sẽ ngay lập tức được "
+"xem câu trả lời là chính xác hay không, và điểm số nhận được."
+
+#: cms/templates/js/show-correctness-editor.underscore:14
+msgid "Never show assessment results"
+msgstr "Không bao giờ hiển thị kết quả đánh giá"
+
+#: cms/templates/js/show-correctness-editor.underscore:17
+msgid ""
+"Learners never see whether their answers to assessments are correct or "
+"incorrect, nor the score received."
+msgstr ""
+"Người học không bao giờ nhìn thấy câu trả lời của họ cho các đánh giá là "
+"đúng hay sai, cũng như điểm số nhận được."
+
+#: cms/templates/js/show-correctness-editor.underscore:21
+msgid "Show assessment results when subsection is past due"
+msgstr "Hiển thị kết quả đánh giá khi phần con quá hạn"
+
+#: cms/templates/js/show-correctness-editor.underscore:25
+msgid ""
+"Learners do not see whether their answers to assessments were correct or "
+"incorrect, nor the score received, until after the course end date has "
+"passed."
+msgstr ""
+"Người học không nhìn thấy câu trả lời của họ cho các đánh giá là đúng hay "
+"sai, cũng như điểm số nhận được, cho đến sau ngày kết thúc khóa học."
+
+#: cms/templates/js/show-correctness-editor.underscore:26
+msgid ""
+"If the course does not have an end date, learners always see their scores "
+"when they submit answers to assessments."
+msgstr ""
+"Nếu khóa học không có ngày kết thúc, người học sẽ luôn thấy điểm của họ khi "
+"họ gửi câu trả lời cho các bài đánh giá."
+
+#: cms/templates/js/show-correctness-editor.underscore:28
+msgid ""
+"Learners do not see whether their answers to assessments were correct or "
+"incorrect, nor the score received, until after the due date for the "
+"subsection has passed."
+msgstr ""
+"Người học không nhìn thấy câu trả lời của họ đối với các đánh giá là đúng "
+"hay sai, cũng như số điểm nhận được, cho đến khi ngày hết hạn của phần con "
+"đã trôi qua."
+
+#: cms/templates/js/show-correctness-editor.underscore:29
+msgid ""
+"If the subsection does not have a due date, learners always see their scores"
+" when they submit answers to assessments."
+msgstr ""
+"Nếu phần con không có ngày đến hạn, người học sẽ luôn thấy điểm của họ khi "
+"họ nộp câu trả lời cho các đánh giá."
+
+#: cms/templates/js/show-textbook.underscore:12
+msgid "PDF Chapters"
+msgstr ""
+
+#: cms/templates/js/show-textbook.underscore:37
+msgid "View Live"
+msgstr "Xem bản thực"
+
+#: cms/templates/js/signatory-details.underscore:9
+#: cms/templates/js/signatory-editor.underscore:8
+msgid "Signatory"
+msgstr "Người ký"
+
+#: cms/templates/js/signatory-details.underscore:28
+#: cms/templates/js/signatory-editor.underscore:37
+msgid "Signature Image"
+msgstr "Hình ảnh Chữ ký"
+
+#: cms/templates/js/signatory-editor.underscore:11
+msgid "Certificate Signatory Configuration"
+msgstr "Cấu hình Người ký Chứng chỉ"
+
+#: cms/templates/js/signatory-editor.underscore:13
+msgid "Name "
+msgstr "Tên"
+
+#: cms/templates/js/signatory-editor.underscore:14
+msgid "Name of the signatory"
+msgstr "Tên của người ký"
+
+#: cms/templates/js/signatory-editor.underscore:15
+msgid "The name of this signatory as it should appear on certificates."
+msgstr "Tên của người ký này sẽ xuất hiện trên chứng chỉ."
+
+#: cms/templates/js/signatory-editor.underscore:21
+msgid "Title "
+msgstr "Tiêu đề"
+
+#: cms/templates/js/signatory-editor.underscore:22
+msgid "Title of the signatory"
+msgstr "Chức danh của người ký"
+
+#: cms/templates/js/signatory-editor.underscore:23
+msgid ""
+"Titles more than 100 characters may prevent students from printing their "
+"certificate on a single page."
+msgstr ""
+"Chức danh nhiều hơn 100 ký tự có thể làm cho cho sinh viên không thể in "
+"chứng chỉ của họ trên một trang duy nhất."
+
+#: cms/templates/js/signatory-editor.underscore:29
+msgid "Organization "
+msgstr "Tổ chức"
+
+#: cms/templates/js/signatory-editor.underscore:30
+msgid "Organization of the signatory"
+msgstr "Tổ chức của người ký"
+
+#: cms/templates/js/signatory-editor.underscore:31
+msgid ""
+"The organization that this signatory belongs to, as it should appear on "
+"certificates."
+msgstr ""
+"Tổ chức mà người ký tên này thuộc về, như nó sẽ xuất hiện trên giấy chứng "
+"nhận."
+
+#: cms/templates/js/signatory-editor.underscore:43
+msgid "Path to Signature Image"
+msgstr "Đường dẫn đến Hình ảnh Chữ ký"
+
+#: cms/templates/js/signatory-editor.underscore:44
+msgid "Image must be in PNG format"
+msgstr "Hình ảnh phải có định dạng PNG"
+
+#: cms/templates/js/signatory-editor.underscore:46
+msgid "Upload Signature Image"
+msgstr "Tải lên Hình ảnh Chữ ký"
+
+#: cms/templates/js/staff-lock-editor.underscore:4
+msgid "Unit Visibility"
+msgstr "Hiển thị Đơn vị"
+
+#: cms/templates/js/staff-lock-editor.underscore:6
+msgid "Section Visibility"
+msgstr "Hiển thị Phần nội dung"
+
+#: cms/templates/js/staff-lock-editor.underscore:17
+msgid ""
+"If the unit was previously published and released to learners, any changes "
+"you made to the unit when it was hidden will now be visible to learners."
+msgstr ""
+"Nếu đơn vị này đã được xuất bản và phát hành cho người học, bất kỳ thay đổi "
+"nào bạn thực hiện cho đơn vị khi nó đã ẩn sẽ hiển thị cho người học."
+
+#: cms/templates/js/staff-lock-editor.underscore:19
+#, python-format
+msgid ""
+"If you make this %(xblockType)s visible to learners, learners will be able "
+"to see its content after the release date has passed and you have published "
+"the unit. Only units that are explicitly hidden from learners will remain "
+"hidden after you clear this option for the %(xblockType)s."
+msgstr ""
+"Nếu bạn làm cho %(xblockType)s này hiển thị với người học, người học sẽ có "
+"thể xem nội dung của nó sau ngày phát hành và sau khi bạn đã xuất bản đơn "
+"vị. Chỉ có những đơn vị ẩn đối với người học sẽ vẫn ẩn sau khi bạn đã xoá "
+"tùy chọn này cho %(xblockType)s."
+
+#: cms/templates/js/team-member.underscore:4
+msgid "Current Role:"
+msgstr "Vai trò hiện tại:"
+
+#: cms/templates/js/team-member.underscore:8
+msgid "You!"
+msgstr "Bạn!"
+
+#: cms/templates/js/team-member.underscore:19
+msgid "send an email message to {email}"
+msgstr "gửi một email đến {email}"
+
+#: cms/templates/js/team-member.underscore:32
+msgid "Promote another member to Admin to remove your admin rights"
+msgstr ""
+"Tiến cử các thành viên khác quản trị để loại bỏ quyền quản trị của bạn"
+
+#: cms/templates/js/team-member.underscore:35
+msgid "Add {role} Access"
+msgstr "Thêm {role} Truy cập"
+
+#: cms/templates/js/team-member.underscore:35
+msgid "Remove {role} Access"
+msgstr "Xoá {role} Truy cập"
+
+#: cms/templates/js/team-member.underscore:44
+msgid "Delete the user, {username}"
+msgstr "Xóa người sử dụng, {username}"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:2
+msgid "Set as a Special Exam"
+msgstr "Đặt là một Bài kiểm tra Đặc biệt"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:4
+msgid "Exam Types"
+msgstr "Loại Bài thi"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:9
+msgid ""
+"This subsection was released to learners as a special exam, but was reverted"
+" back to a basic exam. You may not configure it as a special exam now. "
+"Contact edX Support for assistance."
+msgstr ""
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:17
+msgid ""
+"This special exam has been released to learners. You may not convert it to "
+"another type of special exam. You may revert this subsection back to being a"
+" basic exam by selecting 'None', but you will NOT be able to configure it as"
+" a special exam in the future."
+msgstr ""
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:23
+msgid "None"
+msgstr "Không"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:30
+msgid "Timed"
+msgstr "Có tính giờ"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:32
+msgid ""
+"Use a timed exam to limit the time learners can spend on problems in this "
+"subsection. Learners must submit answers before the time expires. You can "
+"allow additional time for individual learners through the Instructor "
+"Dashboard."
+msgstr ""
+"Sử dụng bài thi có thời gian để giới hạn thời gian người học làm bài trong "
+"phần con này. Người học phải nộp câu trả lời trước khi hết hạn. Bạn có thể "
+"cho phép thêm thời gian cho người học cá nhân thông qua Bảng thông tin Giảng"
+" viên."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:39
+msgid "Proctored"
+msgstr "Có giám sát"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:41
+msgid ""
+"Proctored exams are timed and they record video of each learner taking the "
+"exam. The videos are then reviewed to ensure that learners follow all "
+"examination rules."
+msgstr ""
+"Bài thi có giám sát được tính giờ và ghi lại video mỗi học viên tham dự bài "
+"thi. Các video này sau đó được xem xét để đảm bảo rằng các học viên tuân thủ"
+" tất cả các quy tắc kiểm tra."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:50
+msgid "Onboarding"
+msgstr ""
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:52
+msgid ""
+"Use Onboarding to introduce learners to proctoring, verify their identity, "
+"and create an onboarding profile. Learners must complete the onboarding "
+"profile step prior to taking a proctored exam. Profile reviews take 2+ "
+"business days."
+msgstr ""
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:59
+msgid "Practice Proctored"
+msgstr "Tập luyện Giám sát"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:61
+msgid ""
+"Use a practice proctored exam to introduce learners to the proctoring tools "
+"and processes. Results of a practice exam do not affect a learner's grade."
+msgstr ""
+"Sử dụng một bài thi tập luyện giám sát để giới thiệu tới người học các công "
+"cụ và quy trình giám sát. Kết quả thi tập luyện không ảnh hưởng đến điểm số "
+"của người học."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:68
+msgid "Time Allotted (HH:MM):"
+msgstr "Thời gian Quy định (HH:MM):"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:72
+msgid ""
+"Select a time allotment for the exam. If it is over 24 hours, type in the "
+"amount of time. You can grant individual learners extra time to complete the"
+" exam through the Instructor Dashboard."
+msgstr ""
+"Chọn phân bổ thời gian cho bài thi. Nếu hơn 24 giờ, nhập vào khoảng thời "
+"gian. Bạn có thể cho học viên thêm thời gian để hoàn thành bài kiểm tra "
+"thông qua Bảng thông tin Giảng viên."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:78
+msgid "Review Rules"
+msgstr "Quy tắc Đánh giá"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:87
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam, along with the {linkStart}general "
+"proctored exam rules{linkEnd}."
+msgstr ""
+"Chỉ định bất kỳ quy tắc hoặc các ngoại lệ quy tắc nào mà nhóm đánh giá giám "
+"sát cần thực hiện khi xem xét video. Ví dụ, bạn có thể chỉ định được phép sử"
+" dụng máy tính cầm tay. Các quy tắc được chỉ định này hiển thị cho người học"
+" trước khi người học bắt đầu bài kiểm tra, cùng với {linkStart}các quy tắc "
+"thi có giám sát chung{linkEnd}."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:91
+msgid "General Proctored Exam Rules"
+msgstr "Quy tắc Chung về Thi Có giám sát"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:96
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam."
+msgstr ""
+"Chỉ định bất kỳ quy tắc hoặc các ngoại lệ quy tắc nào mà nhóm đánh giá giám "
+"sát cần thực hiện khi xem xét video. Ví dụ, bạn có thể chỉ định được phép sử"
+" dung máy tính cầm tay. Các quy tắc cụ thể này được hiển thị cho người học "
+"trước khi người học bắt đầu bài làm bài kiểm thi."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:3
+msgid "Account"
+msgstr "Tài khoản"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:5
+msgid ""
+"This action updates the {provider} information for your entire organization."
+msgstr ""
+
+#: cms/templates/js/transcript-organization-credentials.underscore:7
+msgid "Enter the account information for your organization."
+msgstr ""
+
+#: cms/templates/js/transcript-organization-credentials.underscore:11
+msgid "API Key"
+msgstr ""
+
+#: cms/templates/js/transcript-organization-credentials.underscore:22
+msgid "API Secret"
+msgstr ""
+
+#: cms/templates/js/unit-access-editor.underscore:8
+msgid "Unit Access"
+msgstr "Truy cập Đơn vị"
+
+#: cms/templates/js/unit-access-editor.underscore:11
+msgid "Restrict access to:"
+msgstr "Hạn chế quyền truy cập vào:"
+
+#: cms/templates/js/unit-access-editor.underscore:13
+msgid "Select a group type"
+msgstr "Chọn một kiểu nhóm"
+
+#: cms/templates/js/unit-access-editor.underscore:24
+msgid "Select one or more groups:"
+msgstr "Chọn một hoặc nhiều nhóm:"
+
+#: cms/templates/js/unit-access-editor.underscore:31
+msgid "Deleted Group"
+msgstr "Đã xóa Nhóm"
+
+#: cms/templates/js/unit-access-editor.underscore:32
+msgid ""
+"This group no longer exists. Choose another group or do not restrict access "
+"to this unit."
+msgstr ""
+"Nhóm này không còn tồn tại. Chọn một nhóm khác hoặc không hạn chế quyền truy"
+" cập vào đơn vị này."
+
+#: cms/templates/js/upload-dialog.underscore:25
+msgid "File upload succeeded"
+msgstr "Tải tệp lên thành công"
+
+#: cms/templates/js/validation-error-modal.underscore:16
+msgid ""
+"Please check the following validation feedbacks and reflect them in your "
+"course settings:"
+msgstr ""
+"Vui lòng kiểm tra các phản hồi xác nhận sau đây và phản ánh chúng trong các "
+"thiết lập khóa học của bạn:"
+
+#: cms/templates/js/verification-access-editor.underscore:3
+msgid "Verification Checkpoint"
+msgstr "Kiểm tra Xác minh"
+
+#: cms/templates/js/verification-access-editor.underscore:19
+msgid "Must complete verification checkpoint"
+msgstr "Phải hoàn thành kiểm tra xác minh"
+
+#: cms/templates/js/verification-access-editor.underscore:23
+msgid "Verification checkpoint to be completed"
+msgstr "Kiểm tra để hoàn thành xác minh"
+
+#: cms/templates/js/verification-access-editor.underscore:38
+msgid ""
+"Learners who require verification must pass the selected checkpoint to see "
+"the content in this unit. Learners who do not require verification see this "
+"content by default."
+msgstr ""
+"Người học cần xác minh phải vượt qua bước kiểm tra đã chọn để nhìn thấy nội "
+"dung trong đơn vị này. Người học không cần phải xác minh mặc định sẽ nhìn "
+"thấy nội dung này."
+
+#: cms/templates/js/video-thumbnail.underscore:17
+msgid ""
+"Recommended image resolution is {imageResolution}, maximum image file size "
+"should be {maxFileSize} and format must be one of {supportedImageFormats}."
+msgstr ""
+"Độ phân giải được đề nghị là {imageResolution}, nên kích thước tệp ảnh tối "
+"đa phải là {maxFileSize} và định dạng phải là một trong "
+"{supportedImageFormats}."
+
+#: cms/templates/js/video-transcript-upload-status.underscore:4
+msgid "Read more"
+msgstr ""
+
+#: cms/templates/js/video-transcripts.underscore:9
+msgid "No transcript uploaded."
+msgstr ""
+
+#: cms/templates/js/video-transcripts.underscore:17
+msgid "Show transcripts ({totalTranscripts})"
+msgstr ""
+
+#: cms/templates/js/video-transcripts.underscore:27
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr ""
+
+#: cms/templates/js/xblock-access-editor.underscore:3
+msgid "Set Access"
+msgstr "Thiết lạp Truy cập"
+
+#: cms/templates/js/xblock-string-field-editor.underscore:9
+#, python-format
+msgid "Edit %(display_name)s (required)"
+msgstr "(Yêu cầu) chỉnh sửa %(display_name)s"
+
+#: cms/templates/js/maintenance/force-published-course-response.underscore:3
+msgid ""
+"You have done a dry run of force publishing the course. Nothing has changed."
+" Had you run it, the following course versions would have been change."
+msgstr ""
+"Bạn đã thực hiện chạy thử nghiệm xuất bản khóa học. Không có gì thay đổi. "
+"Nếu bạn chạy nó, những phiên bản khóa học sau đây có thể sẽ thay đổi."
+
+#: cms/templates/js/maintenance/force-published-course-response.underscore:7
+msgid ""
+"The published branch version, {published}, was reset to the draft branch "
+"version, {draft}."
+msgstr ""
+"Phiên bản nhánh đã xuất bản, {published}, đã được đặt lại thành phiên bản "
+"nhánh dự thảo, {draft}."
+
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
+msgid "Add URLs for additional versions"
+msgstr "Thêm URL cho các phiên bản bổ sung"
+
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:11
+msgid ""
+"To be sure all students can access the video, we recommend providing both an"
+" .mp4 and a .webm version of your video. Click below to add a URL for "
+"another version. These URLs cannot be YouTube URLs. The first listed video "
+"that's compatible with the student's computer will play."
+msgstr ""
+"Để chắc chắn tất cả sinh viên có thể truy cập vào video, chúng tôi khuyên "
+"bạn nên cung cấp cả phiên bản .mp4 và .webm video của bạn. Bấm vào bên dưới "
+"để thêm một URL cho một phiên bản khác. Những URL này không thể là URL trên "
+"YouTube. Video đầu tiên được liệt kê tương thích với máy tính của học sinh "
+"sẽ được phát."
+
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:25
+msgid "Default Timed Transcript"
+msgstr "Mặc định Timed Transcript"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:3
+msgid "Timed Transcript Conflict"
+msgstr "Xung đột Bản dịch Đông bộ thời gian"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:7
+msgid ""
+"The timed transcript for the first video file does not appear to be the same"
+" as the timed transcript for the second video file."
+msgstr ""
+"Bản dịch đồng bộ thời gian cho tệp video đầu không khớp với bản dịch đồng bộ"
+" thời gian cho tệp video thứ hai."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:9
+msgid "Which timed transcript would you like to use?"
+msgstr "Bạn muốn sử dụng bản dịch nào?"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:13
+msgid "Error."
+msgstr "Lỗi"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:22
+#, python-format
+msgid "Timed Transcript from %(filename)s"
+msgstr "Bản dịch Đồng bộ thời gian từ %(filename)s"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:1
+msgid "Timed Transcript Found"
+msgstr "Đã tìm thấy Bản dich Đồng bộ thời gian"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:3
+msgid ""
+"EdX has a timed transcript for this video. If you want to edit this "
+"transcript, you can download, edit, and re-upload the existing transcript. "
+"If you want to replace this transcript, upload a new .srt transcript file."
+msgstr ""
+"EdX có bản dịch đồng bộ thời gian cho video này. Nếu bạn muốn chỉnh sửa bản "
+"dịch này, bạn có thể tải xuống, chỉnh sửa và tải lại bản dịch hiện tại. Nếu "
+"bạn muốn thay thế bản dịch này, hãy tải lên một tệp .srt mới."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:32
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:33
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:36
+msgid "Upload New Transcript"
+msgstr "Tải lên Bản dịch Mới"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:13
+msgid "Upload New .srt Transcript"
+msgstr "Tải lên Bản dịch .srt Mới"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:14
+msgid "Download Transcript for Editing"
+msgstr "Tải xuống Bản dịch để Chỉnh sửa"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:1
+msgid "No EdX Timed Transcript"
+msgstr "Không có Bản dịch Đồng bộ thời gian"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:3
+msgid ""
+"EdX doesn't have a timed transcript for this video in Studio, but we found a"
+" transcript on YouTube. You can import the YouTube transcript or upload your"
+" own .srt transcript file."
+msgstr ""
+"EdX không có bản dịch đồng bộ thời gian cho video này trong Studio, nhưng "
+"chúng tôi đã tìm thấy một bản dịch trên YouTube. Bạn có thể nhập bản dịch "
+"YouTube hoặc tải lên tệp bản dịch .srt của bạn."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:10
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:11
+msgid "Import YouTube Transcript"
+msgstr "Nhập Bản dịch YouTube"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:1
+msgid "No Timed Transcript"
+msgstr "Không có Bản dịch ĐỒng bộ thời gian"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:3
+msgid ""
+"EdX doesn\\'t have a timed transcript for this video. Please upload an .srt "
+"file."
+msgstr ""
+"EdX không có bản dịch đồng bộ thời gian cho video này. Hãy tải lên một tệp "
+".srt."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:7
+msgid ""
+"The timed transcript for this video on edX is out of date, but YouTube has a"
+" current timed transcript for this video."
+msgstr ""
+"Bản dịch đồng bộ thời gian cho video này trên edX đã lỗi thời, nhưng YouTube"
+" có bản dịch đồng bộ thời gian cho video này."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:9
+msgid "Do you want to replace the edX transcript with the YouTube transcript?"
+msgstr "Bạn có muốn thay thế bản dịch edX bằng bản dịch của YouTube không?"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:22
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:23
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:26
+msgid "Yes, replace the edX transcript with the YouTube transcript"
+msgstr "Có, thay thế bản dịch edX bằng bản dịch của YouTube"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:1
+msgid "Timed Transcript Uploaded Successfully"
+msgstr "Đã tải lên Bản dịch đồng bộ thời gian Thành công"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:3
+msgid ""
+"EdX has a timed transcript for this video. If you want to replace this "
+"transcript, upload a new .srt transcript file. If you want to edit this "
+"transcript, you can download, edit, and re-upload the existing transcript."
+msgstr ""
+"EdX có Bản dịch đồng bộ thời gian cho video này. Nếu bạn muốn thay thế bản "
+"dịch này, hãy tải lên tệp bản dịch .srt mới. Nếu bạn muốn chỉnh sửa bản dịch"
+" này, bạn có thể tải xuống, chỉnh sửa và tải lại bản dịch hiện tại."
+
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:3
+msgid "Confirm Timed Transcript"
+msgstr "Xác nhận Bản dịch Đồng bộ thời gian"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:7
+msgid ""
+"You changed a video URL, but did not change the timed transcript file. Do "
+"you want to use the current timed transcript or upload a new .srt transcript"
+" file?"
+msgstr ""
+"Bạn đã thay đổi một URL của video, nhưng không thay đổi tệp bản dịch đồng bộ"
+" thời gian. Bạn muốn sử dụng bản dịch đồng bộ thời gian hiện tại hay tải lên"
+" tệp bản dịch .srt mới?"
+
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:21
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:22
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:25
+msgid "Use Current Transcript"
+msgstr "Sử dụng phụ đề hiện tại"

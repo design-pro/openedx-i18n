@@ -1,0 +1,1519 @@
+# edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Ali Işıngör <ali@artistanbul.io>, 2017-2019
+# Hakan Şenel <hgsenel@gmail.com>, 2014
+# Kubilay <kubilayinceoren10@gmail.com>, 2015
+# Mehmet Kokoç <kokocmehmet@gmail.com>, 2017
+# a56fc07028489bb2b53400de33ba6a83, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2019-03-29 15:52+0000\n"
+"Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: wiki/admin.py:72 wiki/models/article.py:28
+msgid "created"
+msgstr "oluşturuldu"
+
+#: wiki/apps.py:9
+msgid "Wiki notifications"
+msgstr "Wiki bildirimleri"
+
+#: wiki/apps.py:15
+msgid "Wiki images"
+msgstr "Wiki görselleri"
+
+#: wiki/apps.py:21
+msgid "Wiki attachments"
+msgstr "Wiki ekleri"
+
+#: wiki/forms.py:31
+msgid "Only localhost... muahahaha"
+msgstr "Sadece yerel sunucu... muahahaha"
+
+#: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
+#: wiki/templates/wiki/dir.html:54
+msgid "Title"
+msgstr "Başlık"
+
+#: wiki/forms.py:37
+msgid "Initial title of the article. May be overridden with revision titles."
+msgstr "Maddenin ilk başlığı. Revizyon başlıkları üzerine yazabilir."
+
+#: wiki/forms.py:38
+msgid "Type in some contents"
+msgstr "Biraz içerik yazın"
+
+#: wiki/forms.py:39
+msgid ""
+"This is just the initial contents of your article. After creating it, you "
+"can use more complex features like adding plugins, meta data, related "
+"articles etc..."
+msgstr ""
+"Bu sadece maddenizin ilk içeriğidir. Oluşturduktan sonra, eklentiler, meta "
+"veri, ilgili maddeler gibi daha karmaşık özellikleri kullanabilirsiniz."
+
+#: wiki/forms.py:46 wiki/forms.py:209
+msgid "Contents"
+msgstr "İçerikler"
+
+#: wiki/forms.py:49 wiki/forms.py:212
+msgid "Summary"
+msgstr "Özet"
+
+#: wiki/forms.py:49
+msgid ""
+"Give a short reason for your edit, which will be stated in the revision log."
+msgstr ""
+"Revizyon kayıtlarında görülebilmesi için, yaptığınız değişiklik için kısa "
+"bir neden veriniz."
+
+#: wiki/forms.py:98
+msgid ""
+"While you were editing, someone else changed the revision. Your contents "
+"have been automatically merged with the new contents. Please review the text"
+" below."
+msgstr ""
+"Değişiklik yaparken, diğer bir kişi revizyon yaptı. İçeriğiniz yeni içerikle"
+" birleştirildi. Lütfen aşağıdaki metne göz atınız."
+
+#: wiki/forms.py:100
+msgid "No changes made. Nothing to save."
+msgstr "Hiçbir değişiklik yapılmadı. Kaydedecek bir şey yok."
+
+#: wiki/forms.py:162
+msgid "Select an option"
+msgstr "Lütfen bir seçenek seçiniz"
+
+#: wiki/forms.py:207 wiki/templates/wiki/dir.html:55
+msgid "Slug"
+msgstr "Kısaisim"
+
+#: wiki/forms.py:207
+msgid ""
+"This will be the address where your article can be found. Use only "
+"alphanumeric characters and - or _. Note that you cannot change the slug "
+"after creating the article."
+msgstr ""
+"Bu, maddenizin bulunacağı yerin adresi olacak. Sadece alfanümerik "
+"karakterler ile - veya _ işaretlerini kullanınız. URL'yi maddeyi "
+"oluşturduktan sonra değiştiremeyeceğinize dikkat ediniz."
+
+#: wiki/forms.py:212
+msgid "Write a brief message for the article's history log."
+msgstr "Maddenin tarihçesi için küçük bir ileti yazın."
+
+#: wiki/forms.py:222
+msgid "A slug may not begin with an underscore."
+msgstr "Bir URL bir altçizgi ile başlayamaz."
+
+#: wiki/forms.py:231
+#, python-format
+msgid "A deleted article with slug \"%s\" already exists."
+msgstr "\"%s\" URL'sine sahip silinmiş bir madde zaten var."
+
+#: wiki/forms.py:233
+#, python-format
+msgid "A slug named \"%s\" already exists."
+msgstr "\"%s\" isminde URL zaten var."
+
+#: wiki/forms.py:246
+msgid "Yes, I am sure"
+msgstr "Evet, eminim"
+
+#: wiki/forms.py:248 wiki/templates/wiki/deleted.html:46
+msgid "Purge"
+msgstr "Yoket"
+
+#: wiki/forms.py:249
+msgid ""
+"Purge the article: Completely remove it (and all its contents) with no undo."
+" Purging is a good idea if you want to free the slug such that users can "
+"create new articles in its place."
+msgstr ""
+"Maddeyi temizleyin: Geri alma olmaksızın tamamen ortadan kaldırın (ve bütün "
+"içeriğini). Temizlemek kullanıcılara silinmiş URL'leri diğer maddelerde "
+"tekrar kullanma olanağı verdiğinden iyi bir fikirdir. "
+
+#: wiki/forms.py:256 wiki/plugins/attachments/forms.py:24
+#: wiki/plugins/images/forms.py:64
+msgid "You are not sure enough!"
+msgstr "Yeterince emin değilsiniz!"
+
+#: wiki/forms.py:258
+msgid "While you tried to delete this article, it was modified. TAKE CARE!"
+msgstr ""
+"Bu maddeyi silmeye çalıştığınız sırada, içeriği değiştirilmiş. AMAN DİKKAT!"
+
+#: wiki/forms.py:264
+msgid "Lock article"
+msgstr "Maddeyi kilitle"
+
+#: wiki/forms.py:264
+msgid "Deny all users access to edit this article."
+msgstr "Bu maddenin değiştirilmesine tüm kullanıcıların erişimini engelle."
+
+#: wiki/forms.py:267
+msgid "Permissions"
+msgstr "İzinler"
+
+#: wiki/forms.py:271
+msgid "Owner"
+msgstr "Sahip"
+
+#: wiki/forms.py:272
+msgid "Enter the username of the owner."
+msgstr "Sahibin kullanıcı ismini giriniz."
+
+#: wiki/forms.py:273
+msgid "(none)"
+msgstr "(hiç)"
+
+#: wiki/forms.py:278
+msgid "Inherit permissions"
+msgstr "Kalıt izinleri getir"
+
+#: wiki/forms.py:278
+msgid ""
+"Check here to apply the above permissions recursively to articles under this"
+" one."
+msgstr ""
+"Bunun altındaki bütün maddelere, özyinelemeli olarak, yukarıda verilen "
+"izinlerin uygulanması için burayı seçin."
+
+#: wiki/forms.py:283
+msgid "Permission settings for the article were updated."
+msgstr "Maddenin izin ayarları değiştirildi."
+
+#: wiki/forms.py:285
+msgid "Your permission settings were unchanged, so nothing saved."
+msgstr "İzin ayarlarınız değiştirilmedi, bu yüzden hiçbir şey kaydedilmedi."
+
+#: wiki/forms.py:324
+msgid "No user with that username"
+msgstr "Bu kullanıcı adıyla bir kullanıcı bulunamadı"
+
+#: wiki/forms.py:346
+msgid "Article locked for editing"
+msgstr "Madde düzenleme için kilitlendi"
+
+#: wiki/forms.py:353
+msgid "Article unlocked for editing"
+msgstr "Madde değiştirilmeye karşı kilitli"
+
+#: wiki/forms.py:366
+msgid "Filter"
+msgstr "Filtrele"
+
+#: wiki/core/plugins/base.py:44
+msgid "Settings for plugin"
+msgstr "Eklenti için ayarlar"
+
+#: wiki/models/article.py:23 wiki/models/pluginbase.py:158
+#: wiki/plugins/attachments/models.py:19
+msgid "current revision"
+msgstr "güncel revizyon"
+
+#: wiki/models/article.py:25
+msgid ""
+"The revision being displayed for this article. If you need to do a roll-"
+"back, simply change the value of this field."
+msgstr ""
+"Bu madde için görüntülenen revizyon. Geri almak isterseniz, basitçe bu "
+"alanın değerini değiştirin."
+
+#: wiki/models/article.py:29
+msgid "modified"
+msgstr "değiştirilmiş"
+
+#: wiki/models/article.py:30
+msgid "Article properties last modified"
+msgstr "Madde özellikleri şu tarihte güncellendi"
+
+#: wiki/models/article.py:32
+msgid "owner"
+msgstr "sahip"
+
+#: wiki/models/article.py:34
+msgid ""
+"The owner of the article, usually the creator. The owner always has both "
+"read and write access."
+msgstr ""
+"Bu maddenin sahibi, genellikle ilk oluşturan kişi. Eser sahibi aynı zamanda "
+"okuma ve yazma erişimine sahiptir."
+
+#: wiki/models/article.py:36
+msgid "group"
+msgstr "grup"
+
+#: wiki/models/article.py:38
+msgid ""
+"Like in a UNIX file system, permissions can be given to a user according to "
+"group membership. Groups are handled through the Django auth system."
+msgstr ""
+"UNIX dosya sistemindeki gibi, izinler kullanıcıya grup üyeliğine göre "
+"verilebilir. Gruplar Django kimlik denetimi sistemiyle ayarlanır."
+
+#: wiki/models/article.py:40
+msgid "group read access"
+msgstr "grup okuma erişimi"
+
+#: wiki/models/article.py:41
+msgid "group write access"
+msgstr "grup yazma erişimi"
+
+#: wiki/models/article.py:42
+msgid "others read access"
+msgstr "diğerlerinin okuma erişimi"
+
+#: wiki/models/article.py:43
+msgid "others write access"
+msgstr "diğerlerinin yazma erişimi"
+
+#: wiki/models/article.py:174
+#, python-format
+msgid "Article without content (%(id)d)"
+msgstr "İçeriksiz madde (%(id)d)"
+
+#: wiki/models/article.py:202
+msgid "content type"
+msgstr "içerik çeşidi"
+
+#: wiki/models/article.py:204
+msgid "object ID"
+msgstr "nesne No"
+
+#: wiki/models/article.py:210
+msgid "Article for object"
+msgstr "Nesne için madde"
+
+#: wiki/models/article.py:211
+msgid "Articles for object"
+msgstr "Nesne için maddeler"
+
+#: wiki/models/article.py:220
+msgid "revision number"
+msgstr "revizyon numarası"
+
+#: wiki/models/article.py:226
+msgid "IP address"
+msgstr "IP adresi"
+
+#: wiki/models/article.py:233
+msgid "user"
+msgstr "kullanıcı"
+
+#: wiki/models/article.py:246
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:22
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:20
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
+#: wiki/templates/wiki/includes/revision_info.html:15
+msgid "deleted"
+msgstr "silindi"
+
+#: wiki/models/article.py:247 wiki/templates/wiki/article.html:22
+#: wiki/templates/wiki/includes/revision_info.html:21
+msgid "locked"
+msgstr "kilitli"
+
+#: wiki/models/article.py:266 wiki/models/pluginbase.py:38
+msgid "article"
+msgstr "madde"
+
+#: wiki/models/article.py:269
+msgid "article contents"
+msgstr "madde içeriği"
+
+#: wiki/models/article.py:273
+msgid "article title"
+msgstr "madde başlığı"
+
+#: wiki/models/article.py:274
+msgid ""
+"Each revision contains a title field that must be filled out, even if the "
+"title has not changed"
+msgstr ""
+"Başlığı değişmese bile, her revizyon doldurulması gereken bir başlık içerir"
+
+#: wiki/models/pluginbase.py:74
+msgid "original article"
+msgstr "orijinal madde"
+
+#: wiki/models/pluginbase.py:75
+msgid "Permissions are inherited from this article"
+msgstr "Bu maddeden izinler miras alındı"
+
+#: wiki/models/pluginbase.py:133
+msgid "A plugin was changed"
+msgstr "Bir eklenti değişmiş"
+
+#: wiki/models/pluginbase.py:160
+msgid ""
+"The revision being displayed for this plugin.If you need to do a roll-back, "
+"simply change the value of this field."
+msgstr ""
+"Bu eklenti için görüntülenen revizyon. Geri almak için, basitçe bu alandaki "
+"değeri değiştirin."
+
+#: wiki/models/urlpath.py:41
+msgid "Cache lookup value for articles"
+msgstr "Madde için önbellek gözatma değeri"
+
+#: wiki/models/urlpath.py:47
+msgid "slug"
+msgstr "URL"
+
+#: wiki/models/urlpath.py:137
+msgid "(root)"
+msgstr "(kök)"
+
+#: wiki/models/urlpath.py:147
+msgid "URL path"
+msgstr "URL yolu"
+
+#: wiki/models/urlpath.py:148
+msgid "URL paths"
+msgstr "URL yolları"
+
+#: wiki/models/urlpath.py:153
+msgid "Sorry but you cannot have a root article with a slug."
+msgstr "Özür dileriz ama kök maddenin kısaadı olamaz."
+
+#: wiki/models/urlpath.py:155
+msgid "A non-root note must always have a slug."
+msgstr "Kök olmayan not her zaman URL'ye sahip olmalı."
+
+#: wiki/models/urlpath.py:158
+#, python-format
+msgid "There is already a root node on %s"
+msgstr "%s üzerinde zaten bir kök düğümü var"
+
+#: wiki/models/urlpath.py:262
+msgid ""
+"Articles who lost their parents\n"
+"===============================\n"
+"\n"
+"The children of this article have had their parents deleted. You should probably find a new home for them."
+msgstr ""
+"Atalarını kaybetmiş maddeler\n"
+"===============================\n"
+"\n"
+"Bu maddenin çocuklarının ataları silinmiş. Bunlar için yeni bir yuva bulman gerekecek."
+
+#: wiki/models/urlpath.py:265
+msgid "Lost and found"
+msgstr "Kaybolmuş ve bulunmuş"
+
+#: wiki/plugins/attachments/forms.py:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:13
+msgid "Description"
+msgstr "Tanımlama"
+
+#: wiki/plugins/attachments/forms.py:10
+msgid "A short summary of what the file contains"
+msgstr "Dosyanın içerdiğiyle ilgili kısa bir özet"
+
+#: wiki/plugins/attachments/forms.py:19
+msgid "Yes I am sure..."
+msgstr "Evet eminim..."
+
+#: wiki/plugins/attachments/markdown_extensions.py:33
+msgid "Click to download file"
+msgstr "Dosyayı indirmek için tıklayın"
+
+#: wiki/plugins/attachments/models.py:21
+msgid ""
+"The revision of this attachment currently in use (on all articles using the "
+"attachment)"
+msgstr ""
+"Bu ek için revizyon halen kullanımda (bu eki kullanan bütün maddelerde)"
+
+#: wiki/plugins/attachments/models.py:24
+msgid "original filename"
+msgstr "özgün dosya ismi"
+
+#: wiki/plugins/attachments/models.py:36
+msgid "attachment"
+msgstr "ek"
+
+#: wiki/plugins/attachments/models.py:37
+msgid "attachments"
+msgstr "ekler"
+
+#: wiki/plugins/attachments/models.py:79
+msgid "file"
+msgstr "dosya"
+
+#: wiki/plugins/attachments/models.py:85
+msgid "attachment revision"
+msgstr "ek revizyonu"
+
+#: wiki/plugins/attachments/models.py:86
+msgid "attachment revisions"
+msgstr "ek revizyonları"
+
+#: wiki/plugins/attachments/views.py:49
+#, python-format
+msgid "%s was successfully added."
+msgstr "%s başarıyla eklendi."
+
+#: wiki/plugins/attachments/views.py:51 wiki/plugins/attachments/views.py:116
+#, python-format
+msgid "Your file could not be saved: %s"
+msgstr "Dosyanız kaydedilemedi: %s"
+
+#: wiki/plugins/attachments/views.py:53 wiki/plugins/attachments/views.py:120
+msgid ""
+"Your file could not be saved, probably because of a permission error on the "
+"web server."
+msgstr ""
+"Dosyanız, büyük bir olasılıkla, web sunucusundaki izin hatası nedeniyle "
+"kaydedilemedi."
+
+#: wiki/plugins/attachments/views.py:114
+#, python-format
+msgid "%s uploaded and replaces old attachment."
+msgstr "%s yüklendi ve eski ek üzerine yazıldı."
+
+#: wiki/plugins/attachments/views.py:128
+msgid ""
+"Your new file will automatically be renamed to match the file already "
+"present. Files with different extensions are not allowed."
+msgstr ""
+"Yeni dosyanız var olan dosyayla eşlemek için otomatik olarak yeniden "
+"isimlendirildi. Farklı uzantılı dosyalara izin verilmemektedir."
+
+#: wiki/plugins/attachments/views.py:182
+#, python-format
+msgid "Current revision changed for %s."
+msgstr "Güncel revizyon %s için değiştirildi."
+
+#: wiki/plugins/attachments/views.py:203
+#, python-format
+msgid "Added a reference to \"%(att)s\" from \"%(art)s\"."
+msgstr "\"%(art)s\"den  \"%(att)s\"lere atıf eklendi."
+
+#: wiki/plugins/attachments/views.py:233
+#, python-format
+msgid "The file %s was deleted."
+msgstr "%s dosyası silindi."
+
+#: wiki/plugins/attachments/views.py:236
+#, python-format
+msgid "This article is no longer related to the file %s."
+msgstr "Bu madde artık %s dosyasıyla ilişkili değildir."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:4
+#: wiki/plugins/attachments/wiki_plugin.py:30
+msgid "Attachments"
+msgstr "Ekler"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was changed: %s"
+msgstr "Bir dosya değiştirildi: %s"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was deleted: %s"
+msgstr "Bir dosya silindi: %s"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
+#: wiki/templates/wiki/delete.html:7
+msgid "Delete"
+msgstr "Sil"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:13
+msgid ""
+"The file may be referenced on other articles. Deleting it means that they "
+"will loose their references to this file. The following articles reference "
+"this file:"
+msgstr ""
+"Bu dosya başka maddelerce kullanılıyor olabilir. Silmek, bu maddelerin bu "
+"dosyaya yaptığı atıfları kaldırmak anlamına gelir. Bu dosyaya atıf veren "
+"maddeler şunlardır:"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:26
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:47
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:48
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:70
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:20
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:20
+#: wiki/templates/wiki/create.html:51 wiki/templates/wiki/delete.html:11
+#: wiki/templates/wiki/delete.html:48
+msgid "Go back"
+msgstr "Geri dön"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:30
+msgid "Delete it!"
+msgstr "Bunu sil!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:36
+msgid "Remove"
+msgstr "Kaldır"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:40
+msgid ""
+"You can remove a reference to a file, but it will retain its references on "
+"other articles."
+msgstr ""
+"Bir dosyaya atıfı kaldırabilirsiniz, ama diğer maddelerdeki atıflarını "
+"muhafaza etmeye devam edecektir."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:51
+msgid "Remove reference"
+msgstr "Atıfı kaldır"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:8
+msgid "History of"
+msgstr "Geçmişi"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:11
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:23
+msgid "Date"
+msgstr "Tarih"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:12
+msgid "User"
+msgstr "Kullanıcı"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:14
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:21
+msgid "File"
+msgstr "Dosya"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:15
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:28
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:25
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:21
+msgid "Size"
+msgstr "Boyut"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:16
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:26
+msgid "Action"
+msgstr "Eylem"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:32
+msgid "<em>No description</em>"
+msgstr "<em>Açıklama yok</em>"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:35
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:50
+msgid "Download"
+msgstr "İndir"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:40
+msgid "Use this!"
+msgstr "Bunu kullan!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr ""
+"Bu madde için aşağıdaki dosyalar bulunmaktadır. Bir dosyayı atfetmek için "
+"altı çizili etiketi maddeden kopyalayın."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:26
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:19
+msgid "Markdown tag"
+msgstr "Markdown etiketi"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:24
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:20
+msgid "Uploaded by"
+msgstr "Yükleyen"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:8
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:31
+msgid "Replace"
+msgstr "Üstüne yaz"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:37
+msgid "Detach"
+msgstr "Ayır"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:44
+#: wiki/templates/wiki/deleted.html:24 wiki/templates/wiki/deleted.html:29
+msgid "Restore"
+msgstr "Eski haline getir"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "File history"
+msgstr "Dosya geçmişi"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "revisions"
+msgstr "Düzeltmeler"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:69
+msgid "There are no attachments for this article."
+msgstr "Bu madde için hiçbir ek yok."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:83
+msgid "Upload new file"
+msgstr "Yeni dosya yükle"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:95
+msgid "Upload file"
+msgstr "Dosya yükle"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:106
+msgid "Search and add file"
+msgstr "Ara ve dosya ekle"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:112
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr ""
+"Diğer maddelerden dosyaları tekrar kullanabilirsiniz. Bu dosyalar yüklendiği"
+" maddelerde güncellenebileceğinden ötürü kullanımı uygun olmayabilir."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:117
+msgid "Search"
+msgstr "Ara"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:13
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>. Please note "
+"that this attachment is in use on other articles, you may distort contents. "
+"However, do not hestitate to take advantage of this and make replacements "
+"for the listed articles where necessary. This way of working is more "
+"efficient...."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:15
+msgid "Articles using"
+msgstr "Kullanan maddeler"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:24
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:37
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:24
+msgid "Upload replacement"
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:4
+msgid "Add file to"
+msgstr "Dosyayı şuna ekle "
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:8
+msgid "Add attachment from other article"
+msgstr "Başka bir maddeden ek dosya ekle"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:14
+msgid "Search files and articles"
+msgstr "Ara ve dosyaları yükle"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:22
+msgid "Main article"
+msgstr "Ana madde"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:54
+msgid "Add to article"
+msgstr "Maddeye ekle"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:62
+msgid "Your search did not return any results"
+msgstr "Aramanızla ilgili herhangi bir sonuç dönmedi"
+
+#: wiki/plugins/help/wiki_plugin.py:12
+msgid "Help"
+msgstr "Yardım"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:1
+msgid "Adding new articles"
+msgstr "Yeni maddeler ekleniyor"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:3
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr ""
+"Yeni bir wiki maddesi oluşturmak için, buna bağlı bir bağlantı oluşturun. "
+"Bağlantıya tıklamak sizi bir içerik oluşturma sayfasına yönlendirecektir."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:6
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:19
+msgid "An external link"
+msgstr "Bir dış bağlantı ekle"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:9
+msgid "Headers"
+msgstr "Üst bilgiler"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:10
+msgid ""
+"Use these codes for headers and to automatically generate Tables of "
+"Contents."
+msgstr ""
+"Bu kodları arabaşlıklarda kullanarak otomatikleştirilmiş bir şekilde İçerik "
+"Tabloları oluşturun."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:25
+msgid "Typography"
+msgstr "Yazım"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:30
+msgid "Lists"
+msgstr "Listeler"
+
+#: wiki/plugins/images/forms.py:16
+#, python-format
+msgid ""
+"New image %s was successfully uploaded. You can use it by selecting it from "
+"the list of available images."
+msgstr ""
+"Yeni görsel, %s, başarıyla yüklendi. Bunu, mevcut görseller listesi içinden "
+"seçerek kullanabilirsiniz."
+
+#: wiki/plugins/images/forms.py:59
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+#: wiki/plugins/images/models.py:40
+msgid "image"
+msgstr "görsel"
+
+#: wiki/plugins/images/models.py:41
+msgid "images"
+msgstr "görseller"
+
+#: wiki/plugins/images/models.py:45
+#, python-format
+msgid "Image: %s"
+msgstr "Görsel: %s"
+
+#: wiki/plugins/images/models.py:45
+msgid "Current revision not set!!"
+msgstr "Güncel revizyon kurulamadı!!"
+
+#: wiki/plugins/images/models.py:92
+msgid "image revision"
+msgstr "görsel revizyonu"
+
+#: wiki/plugins/images/models.py:93
+msgid "image revisions"
+msgstr "görsel revizyonları"
+
+#: wiki/plugins/images/models.py:98
+#, python-format
+msgid "Image Revsion: %d"
+msgstr "Görsel Revizyonu: %d"
+
+#: wiki/plugins/images/views.py:64
+#, python-format
+msgid "%s has been restored"
+msgstr "%s eski haline getirildi"
+
+#: wiki/plugins/images/views.py:66
+#, python-format
+msgid "%s has been marked as deleted"
+msgstr "%s silinmek üzere işaretlendi"
+
+#: wiki/plugins/images/views.py:120
+#, python-format
+msgid "%(file)s has been changed to revision #%(revision)d"
+msgstr "%(file)s #%(revision)d revizyonuna değiştirildi. "
+
+#: wiki/plugins/images/views.py:158
+#, python-format
+msgid "%(file)s has been saved."
+msgstr "%(file)s dosyası kaydedildi."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:4
+#: wiki/plugins/images/wiki_plugin.py:15
+msgid "Images"
+msgstr "Görseller"
+
+#: wiki/plugins/images/wiki_plugin.py:26
+#, python-format
+msgid "An image was added: %s"
+msgstr "Bir görsel eklendi: %s"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:7
+msgid ""
+"The following images are available for this article. Copy the markdown tag "
+"to directly refer to an image from the article text."
+msgstr ""
+"Bu madde için aşağıdaki görseller bulunmaktadır. Bir görsele doğrudan atıf "
+"vermek için altı çizili markdown etiketini maddeden kopyalayın."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:11
+msgid "Back to edit page"
+msgstr "Düzenleme sayfasına geri dön"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:18
+msgid "No file"
+msgstr "Dosya yok"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:34
+msgid "Upload new image"
+msgstr "Yeni görsel yükle"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:39
+msgid "Restore image"
+msgstr "Görseli eski haline getir"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:44
+msgid "Remove image"
+msgstr "Görseli kaldır"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:51
+msgid "Completely delete"
+msgstr "Tamamen sil"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:65
+#: wiki/templates/wiki/history.html:4
+msgid "History"
+msgstr "Geçmiş"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:84
+msgid "Revert to this version"
+msgstr "Bu sürüme döndür"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:97
+msgid "There are no images for this article."
+msgstr "Bu madde için hiçbir görsel yok."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:4
+#: wiki/templates/wiki/deleted.html:39
+msgid "Purge deletion"
+msgstr "Silmeyi temizle"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:13
+msgid "Purge image: Completely remove image file and all revisions."
+msgstr "Görseli yoket: Görsel dosyasını ve tüm revizyonlarını sil."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:24
+msgid "Remove it completely!"
+msgstr "Bunu tamamen sil!"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/render.html:14
+msgid "Image not found"
+msgstr "Görsel bulunamadı"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:4
+msgid "Replace image"
+msgstr "Görselin üzerine yaz"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:13
+msgid "Choose an image file to replace current image."
+msgstr "Mevcut görseli değiştirmek için bir görüntü dosyası seçin."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:27
+msgid "Image id"
+msgstr "Görsel id"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:29
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:13
+msgid "Insert"
+msgstr "Ekle"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:45
+msgid "No images found for this article"
+msgstr "Bu madde için görsel bulunamadı"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:54
+msgid "Manage images"
+msgstr "Görselleri yönet"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:60
+msgid "Add new image"
+msgstr "Yeni görsel ekle"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:96
+msgid "Add image"
+msgstr "Görsel ekle"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:104
+msgid "You do not have permissions to add images."
+msgstr "Görsel eklemek için yetkiniz yok."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:111
+msgid "How to use images"
+msgstr "Görsellerin kullanımı hakkında"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:114
+msgid ""
+"After uploading an image, it is attached to this particular artice and can "
+"be used only here. Other users may replace the image, but older versions are"
+" kept. You probably want to show the image with a nice caption. To achieve "
+"this, press the Insert button and fill in the caption fields and possibly "
+"choose to have you image floating right or left of the content. You can use "
+"Markdown in the caption. The markdown code syntax for images looks like "
+"this, possible values for align are left/center/right:"
+msgstr ""
+"Bir görseli yükledikten sonra, bu maddeye eklenir ve sadece burada "
+"kullanılabilir. Diğer kullanıcılar görseli değiştirebilir, ancak eski "
+"sürümler korunur. Muhtemelen bir görseli güzel bir altyazıyla birlikte "
+"göstermek istersiniz. Bunu başarmak için, Ekle düğmesine basın ve altyazı "
+"alanlarını doldurun ve görselin içeriğin sağında veya solunda yer almasını "
+"sağlayın. Altyazıda Markdown işaretleme dilini kullanabilirsiniz. Görüntüler"
+" için işaretleme kodu sözdizimi şöyle görünür, ve hizalama için olası "
+"değerler left/ center/right'tır:"
+
+#: wiki/plugins/links/wiki_plugin.py:21
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:2
+msgid "Link to another wiki page"
+msgstr "Başla bir wiki maddesine bağla"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:5
+msgid ""
+"Type in something from another wiki page's title and auto-complete will help"
+" you create a tag for you wiki link. Tags for links look like this:"
+msgstr ""
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:22
+msgid ""
+"You can link to another website simply by inserting an address example.com "
+"or http://example.com or by using the markdown syntax:"
+msgstr ""
+
+#: wiki/plugins/notifications/forms.py:13
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: wiki/plugins/notifications/forms.py:17
+msgid "When this article is edited"
+msgstr "Bu madde ne zaman değiştirildi"
+
+#: wiki/plugins/notifications/forms.py:18
+msgid "Also receive emails about article edits"
+msgstr "Ayrıca madde değiştirildiğinde e-posta al"
+
+#: wiki/plugins/notifications/forms.py:41
+msgid "Your notification settings were updated."
+msgstr "Bildirim ayarlarınız güncellendi."
+
+#: wiki/plugins/notifications/forms.py:43
+msgid "Your notification settings were unchanged, so nothing saved."
+msgstr ""
+"Bildirim ayarlarınız değişmemişti, bu nedenle hiçbir şey kaydedilmedi."
+
+#: wiki/plugins/notifications/models.py:17
+#, python-format
+msgid "%(user)s subscribing to %(article)s (%(type)s)"
+msgstr "%(user)s  %(article)s (%(type)s) kayıt oluyor"
+
+#: wiki/plugins/notifications/models.py:38
+#, python-format
+msgid "Article deleted: %s"
+msgstr "Madde silindi: %s"
+
+#: wiki/plugins/notifications/models.py:41
+#, python-format
+msgid "Article modified: %s"
+msgstr "Değiştirilen madde: %s"
+
+#: wiki/plugins/notifications/models.py:44
+#, python-format
+msgid "New article created: %s"
+msgstr "Yeni madde oluşturuldu: %s"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:12
+msgid "notifications"
+msgstr "bildirimler"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:17
+msgid "No notifications"
+msgstr "Bildirim yok"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:19
+msgid "Clear notifications list"
+msgstr "Bildirim listesini temizle"
+
+#: wiki/templates/wiki/article.html:39
+msgid "This article was last modified:"
+msgstr "Bu yazı en son şu tarihte güncellendi:"
+
+#: wiki/templates/wiki/base.html:113
+msgid "Search..."
+msgstr "Ara..."
+
+#: wiki/templates/wiki/base.html:129
+msgid "Log out"
+msgstr "Çıkış yap"
+
+#: wiki/templates/wiki/accounts/login.html:3
+#: wiki/templates/wiki/accounts/signup.html:3
+#: wiki/templates/wiki/base.html:138
+msgid "Log in"
+msgstr "Giriş yap"
+
+#: wiki/templates/wiki/accounts/login.html:18
+#: wiki/templates/wiki/accounts/signup.html:6
+#: wiki/templates/wiki/base.html:141
+msgid "Sign up"
+msgstr "Kayıt ol"
+
+#: wiki/templates/wiki/create.html:4 wiki/templates/wiki/create.html:44
+msgid "Add new article"
+msgstr "Yeni madde ekle"
+
+#: wiki/templates/wiki/create.html:55
+msgid "Create article"
+msgstr "Madde oluştur"
+
+#: wiki/templates/wiki/delete.html:4 wiki/templates/wiki/delete.html:52
+#: wiki/templates/wiki/edit.html:41
+msgid "Delete article"
+msgstr "Maddeyi sil"
+
+#: wiki/templates/wiki/delete.html:10
+msgid "You cannot delete a root article."
+msgstr "Bir kök maddeyi silemezsiniz."
+
+#: wiki/templates/wiki/delete.html:16
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr ""
+"Altında bağlı maddeler bulunan bu maddeyi silmek için gereken izniniz yok. "
+"Alttakileri tek tek kaldırmayı deneyin."
+
+#: wiki/templates/wiki/delete.html:22
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr ""
+"Bir wiki maddesini silmek üzeresiniz.  Bu aynı zamanda alttakilerin de "
+"silineceği anlamına gelir. Eğer temizlemeyi seçerseniz, alttaki maddeler de "
+"silinecektir!"
+
+#: wiki/templates/wiki/delete.html:24
+msgid "Articles that will be deleted"
+msgstr "Silinecek maddeler"
+
+#: wiki/templates/wiki/delete.html:30
+msgid "...and more!"
+msgstr "...ve daha fazlası!"
+
+#: wiki/templates/wiki/delete.html:38
+msgid "You are deleting an article. Please confirm."
+msgstr "Bir maddeyi silmek üzeresiniz. Lütfen onaylayın."
+
+#: wiki/templates/wiki/deleted.html:4
+msgid "Article deleted"
+msgstr "Madde silindi"
+
+#: wiki/templates/wiki/deleted.html:13
+msgid "Article Deleted"
+msgstr "Madde Silindi"
+
+#: wiki/templates/wiki/deleted.html:16
+msgid "The article you were looking for has been deleted."
+msgstr "Aradığınız madde silinmiş."
+
+#: wiki/templates/wiki/deleted.html:25
+msgid "You may restore this article and its children by clicking restore."
+msgstr ""
+"Bu madde ve alt maddelerini geri getir'e tıklayarak geri getirebilirsiniz."
+
+#: wiki/templates/wiki/deleted.html:40
+msgid ""
+"You may remove this article and any children permanently and free their "
+"slugs by clicking the below button. This action cannot be undone."
+msgstr ""
+"Bu maddeyi ve alt dizinindeki çocuklarını kalıcı olarak kaldırabilir ve "
+"kısaisimlerini aşağıdaki düğmeye tıklayarak boşa çıkartabilirsiniz. Bu eylem"
+" geri alınamaz."
+
+#: wiki/templates/wiki/dir.html:4
+msgid "Listing articles in"
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:16
+msgid "Up one level"
+msgstr "Bir seviye yukarı"
+
+#: wiki/templates/wiki/dir.html:21
+msgid "Add article"
+msgstr "Madde ekle"
+
+#: wiki/templates/wiki/dir.html:28
+msgid "clear"
+msgstr "temizle"
+
+#: wiki/templates/wiki/dir.html:40 wiki/templates/wiki/dir.html:44
+msgid "article,articles"
+msgstr "madde,maddeler"
+
+#: wiki/templates/wiki/dir.html:40
+msgid "matches,match"
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:42
+#, python-format
+msgid "%(cnt)s %(articles_plur)s in this level %(match_plur)s your search."
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:44
+msgid "is,are"
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:46
+#, python-format
+msgid "There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level."
+msgstr "Bu seviyede %(articles_plur_verb)s %(cnt)s %(articles_plur)s mevcut."
+
+#: wiki/templates/wiki/dir.html:56
+msgid "Last modified"
+msgstr "Son değişiklik"
+
+#: wiki/templates/wiki/edit.html:4
+#: wiki/templates/wiki/includes/article_menu.html:34
+msgid "Edit"
+msgstr "Düzenle"
+
+#: wiki/templates/wiki/edit.html:31
+msgid "Preview"
+msgstr "Önizleme"
+
+#: wiki/templates/wiki/edit.html:35 wiki/templates/wiki/edit.html:57
+#: wiki/templates/wiki/settings.html:15
+msgid "Save changes"
+msgstr "Değişikleri kaydet"
+
+#: wiki/templates/wiki/edit.html:53
+msgid "Back to editor"
+msgstr "Editöre geri dön"
+
+#: wiki/templates/wiki/history.html:55
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr ""
+"Değiştirilen satırların listesini görmek için her revizyona tıklayınız. "
+"Maddenin güncel halini görüntülemek için, önizleme düğmesine tıklayınız. Bu "
+"sayfanın altında, belirli bir revizyona dönebilir ya da eski haliyle yeni "
+"sürümü birleştirebilirsiniz."
+
+#: wiki/templates/wiki/history.html:74
+msgid "no log message"
+msgstr "bilgi kaydı yok."
+
+#: wiki/templates/wiki/history.html:86 wiki/templates/wiki/history.html:91
+msgid "Preview this revision"
+msgstr "Bu revizyonu önizle"
+
+#: wiki/templates/wiki/history.html:105
+msgid "Auto log:"
+msgstr "Otomatik giriş:"
+
+#: wiki/templates/wiki/history.html:113
+msgid "Change"
+msgstr "Değiştir"
+
+#: wiki/templates/wiki/history.html:131
+msgid "Merge selected with current..."
+msgstr "Seçili ögeyi şu anki öge ile birleştir..."
+
+#: wiki/templates/wiki/history.html:135
+msgid "Switch to selected version"
+msgstr "Seçili sürüme geç."
+
+#: wiki/templates/wiki/history.html:151 wiki/templates/wiki/history.html:178
+msgid "Back to history view"
+msgstr "Geçmişi görüntüleye geri dön"
+
+#: wiki/templates/wiki/history.html:156 wiki/templates/wiki/history.html:161
+msgid "Switch to this version"
+msgstr "Bu versiyona geçiş yap"
+
+#: wiki/templates/wiki/history.html:169
+msgid "Merge with current"
+msgstr "Şu anki ile birleştir"
+
+#: wiki/templates/wiki/history.html:170
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr ""
+"Eğer güncelleştirmeyi şimdiki ile değiştirirseniz, tüm dosyalar iki sürümde "
+"de korunacak ve aynı dosyaları kendi dosya dizinlerinde güncelleştirmiş "
+"olacaksınız."
+
+#: wiki/templates/wiki/history.html:170
+msgid "After this, it's important to do a manual review."
+msgstr "Bundan sonra, elle gözden geçirmek önemlidir."
+
+#: wiki/templates/wiki/history.html:183 wiki/templates/wiki/history.html:188
+msgid "Create new merged version"
+msgstr "Yeni birleştirilmiş sürüm oluştur"
+
+#: wiki/templates/wiki/permission_denied.html:7
+msgid "Permission Denied"
+msgstr "İzin Verilmedi"
+
+#: wiki/templates/wiki/permission_denied.html:9
+msgid "Sorry, you don't have permission to view this page."
+msgstr "Üzgünüz, bu sayfayı görmek için yetkiniz yok."
+
+#: wiki/templates/wiki/preview_inline.html:8
+msgid "Previewing revision"
+msgstr "Revizyonu önizle"
+
+#: wiki/templates/wiki/preview_inline.html:15
+msgid "Previewing merge between"
+msgstr "Aralarındaki birleştirmeyi önizle"
+
+#: wiki/templates/wiki/preview_inline.html:17
+msgid "and"
+msgstr "ve"
+
+#: wiki/templates/wiki/preview_inline.html:26
+msgid "This revision has been deleted."
+msgstr "Bu revizyon silindi."
+
+#: wiki/templates/wiki/preview_inline.html:27
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "Değişikliklerinizi yenilemek bu yazıyı silmenize neden olacaktır."
+
+#: wiki/templates/wiki/includes/article_menu.html:9
+#: wiki/templates/wiki/settings.html:4
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: wiki/templates/wiki/source.html:4
+msgid "Source of"
+msgstr "Kaynağı"
+
+#: wiki/templates/wiki/source.html:9
+msgid "This article is currently locked for editing."
+msgstr "Bu madde düzenlenmemesi için kilitlenmiştir."
+
+#: wiki/templates/wiki/accounts/login.html:6
+msgid "Please log in"
+msgstr "Lütfen giriş yapınız"
+
+#: wiki/templates/wiki/accounts/login.html:12
+msgid "Log me in..."
+msgstr "Giriş yapayım..."
+
+#: wiki/templates/wiki/accounts/login.html:18
+msgid "Don't have an account?"
+msgstr "Bir hesabınız yok mu?"
+
+#: wiki/templates/wiki/accounts/signup.html:12
+msgid "Sign me up..."
+msgstr "Kayıt olayım..."
+
+#: wiki/templates/wiki/article/create_root.html:4
+msgid "Create root article"
+msgstr "Kök madde oluştur"
+
+#: wiki/templates/wiki/article/create_root.html:22
+msgid "Congratulations!"
+msgstr "Kutlarız!"
+
+#: wiki/templates/wiki/article/create_root.html:24
+msgid ""
+"You have django-wiki installed... but there are no articles. So it's time to"
+" create the first one, the root article. In the beginning, it will only be "
+"editable by administrators, but you can define permissions after."
+msgstr ""
+"Django-wiki'niz kurulmuş durumda... ama herhangi bir madde bulunmuyor. Hemen"
+" ilk maddeyi, kök maddemizi yazmakla işe başlayın. Başlangıçta, sadece "
+"yöneticiler tarafından düzenlenebilir olacak, ama sonrasında izinlerini "
+"düzenleyebilirsiniz."
+
+#: wiki/templates/wiki/article/create_root.html:27
+msgid "Root article"
+msgstr "Kök madde"
+
+#: wiki/templates/wiki/article/create_root.html:32
+msgid "Create root"
+msgstr "Kök oluştur"
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:8
+#, python-format
+msgid ""
+"You need to <a href=\"%(login_url)s\">log in</a> or <a "
+"href=\"%(signup_url)s\">sign up</a> to use this function."
+msgstr ""
+"Bu özelliği kullanmak için <a href=\"%(login_url)s\">giriş</a> ya da <a "
+"href=\"%(signup_url)s\">kayıt</a> yapmak zorundasınız."
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:10
+msgid "You need to log in og sign up to use this function."
+msgstr ""
+"Bu özelliği kullanabilmek için sisteme giriş yapmalısınız veya "
+"kaydolmalısınız."
+
+#: wiki/templates/wiki/includes/article_menu.html:26
+msgid "Changes"
+msgstr "Değişiklikler"
+
+#: wiki/templates/wiki/includes/article_menu.html:41
+msgid "View Source"
+msgstr "Kaynağı Göster"
+
+#: wiki/templates/wiki/includes/article_menu.html:49
+msgid "View"
+msgstr "Göster"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:16
+#: wiki/templates/wiki/includes/breadcrumbs.html:42
+msgid "Sub-articles for"
+msgstr "Alt maddeleri"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:28
+msgid "No sub-articles"
+msgstr "Alt maddeler yok"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:31
+msgid "...and more"
+msgstr "...ve daha fazlası"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:35
+msgid "Browse articles in this level"
+msgstr "Bu seviyedeki maddeleri tara"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:51
+msgid "New article next to"
+msgstr "Sonrasında yeni madde"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:56
+msgid "New article below"
+msgstr "Altında yeni madde"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "by"
+msgstr "tarafından"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "anonymous (IP logged)"
+msgstr "anonim (IP girişi)"
+
+#: wiki/templates/wiki/includes/revision_info.html:18
+msgid "restored"
+msgstr "geri getirildi"
+
+#: wiki/templates/wiki/includes/revision_info.html:24
+msgid "unlocked"
+msgstr "kilidi açıldı"
+
+#: wiki/views/accounts.py:25
+msgid "You are now sign up... and now you can sign in!"
+msgstr "Şu anda kayıt yaptınız... ve artık giriş yapabilirsiniz!"
+
+#: wiki/views/accounts.py:32
+msgid "You are no longer logged in. Bye bye!"
+msgstr "Artık sistemin içinde değilsiniz. Güle güle!"
+
+#: wiki/views/accounts.py:57
+msgid "You are now logged in! Have fun!"
+msgstr "Giriş yaptınız! Eğlenin!"
+
+#: wiki/views/article.py:87
+#, python-format
+msgid "New article '%s' created."
+msgstr "Yeni '%s' maddesi oluşturuldu."
+
+#: wiki/views/article.py:92
+#, python-format
+msgid "There was an error creating this article: %s"
+msgstr "Bu maddeyi oluştururken hata oldu: %s"
+
+#: wiki/views/article.py:94
+msgid "There was an error creating this article."
+msgstr "Bu maddeyi oluştururken hata oldu."
+
+#: wiki/views/article.py:175
+msgid ""
+"This article cannot be deleted because it has children or is a root article."
+msgstr "Bu madde silinemez çünkü çocukları var ya da kendisi kök maddedir. "
+
+#: wiki/views/article.py:186
+msgid ""
+"This article together with all its contents are now completely gone! Thanks!"
+msgstr "Bu madde bütün içeriğiyle birlikte tamamen yok oldu! Teşekkürler!"
+
+#: wiki/views/article.py:193
+#, python-format
+msgid ""
+"The article \"%s\" is now marked as deleted! Thanks for keeping the site "
+"free from unwanted material!"
+msgstr ""
+"\"%s\" maddesi silinmek üzere işaretlendi! Sitemizi istenmeyen "
+"materyallerden temizlendiğiniz için teşekkürler!"
+
+#: wiki/views/article.py:276
+msgid "Your changes were saved."
+msgstr "Değişiklikleriniz kaydedildi."
+
+#: wiki/views/article.py:299
+msgid "A new revision of the article was successfully added."
+msgstr "Bu maddenin yeni revizyonu başarıyla eklendi."
+
+#: wiki/views/article.py:356
+msgid "Restoring article"
+msgstr "Madde eski haline getiriliyor"
+
+#: wiki/views/article.py:358
+#, python-format
+msgid "The article \"%s\" and its children are now restored."
+msgstr "\"%s\" maddesi ve çocukları şimdi geri getirildi."
+
+#: wiki/views/article.py:542
+#, python-format
+msgid ""
+"The article %(title)s is now set to display revision #%(revision_number)d"
+msgstr ""
+"%(title)s maddesi revizyon #%(revision_number)d'yi göstermek üzere "
+"ayarlandı."
+
+#: wiki/views/article.py:607
+msgid "New title"
+msgstr "Yeni başlık"
+
+#: wiki/views/article.py:631
+#, python-format
+msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
+msgstr "Revizyon #%(r1)d ve Revizyon #%(r2)d birleştir"
+
+#: wiki/views/article.py:635
+#, python-format
+msgid ""
+"A new revision was created: Merge between Revision #%(r1)d and Revision "
+"#%(r2)d"
+msgstr ""
+"Yeni bir revizyon oluşturuldu: Revizyon #%(r1)d ve Revizyon #%(r2)d arasında"
+" birleştirildi."

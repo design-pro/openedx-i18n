@@ -1,0 +1,1543 @@
+# edX community translations have been downloaded from Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Al Firdaus, 2014
+# Aprisa Chrysantina <aprisa.chrysantina@gmail.com>, 2018-2019
+# lusiana <lusiana.rumintang@gmail.com>, 2014
+# Muhammad Redho Ayassa <redhoyasa@gmail.com>, 2016
+# Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2019-09-16 13:42+0000\n"
+"Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
+"Language-Team: Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: wiki/admin.py:72 wiki/models/article.py:28
+msgid "created"
+msgstr "dibuat"
+
+#: wiki/apps.py:9
+msgid "Wiki notifications"
+msgstr "Notifikasi Wiki"
+
+#: wiki/apps.py:15
+msgid "Wiki images"
+msgstr "Gambar Wiki"
+
+#: wiki/apps.py:21
+msgid "Wiki attachments"
+msgstr "Lampiran Wiki"
+
+#: wiki/forms.py:31
+msgid "Only localhost... muahahaha"
+msgstr "Hanya localhost... muahahaha"
+
+#: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
+#: wiki/templates/wiki/dir.html:54
+msgid "Title"
+msgstr "Judul"
+
+#: wiki/forms.py:37
+msgid "Initial title of the article. May be overridden with revision titles."
+msgstr ""
+"Judul awal artikel. Mungkin tidak sesuai dengan judul-judul yang telah "
+"direvisi."
+
+#: wiki/forms.py:38
+msgid "Type in some contents"
+msgstr "Tuliskan sebagian isi artikel Anda"
+
+#: wiki/forms.py:39
+msgid ""
+"This is just the initial contents of your article. After creating it, you "
+"can use more complex features like adding plugins, meta data, related "
+"articles etc..."
+msgstr ""
+"Ini hanya isi awal artikel Anda. Setelah menciptakan itu, Anda dapat "
+"menggunakan fitur yang lebih kompleks seperti menambahkan plugin, meta data,"
+" artikel terkait dll..."
+
+#: wiki/forms.py:46 wiki/forms.py:209
+msgid "Contents"
+msgstr "Isi"
+
+#: wiki/forms.py:49 wiki/forms.py:212
+msgid "Summary"
+msgstr "Rangkuman"
+
+#: wiki/forms.py:49
+msgid ""
+"Give a short reason for your edit, which will be stated in the revision log."
+msgstr ""
+"Berikan alasan singkat perihal perubahan yang anda lakukan, hal tersebut "
+"akan dicantumkan dalam log revisi."
+
+#: wiki/forms.py:98
+msgid ""
+"While you were editing, someone else changed the revision. Your contents "
+"have been automatically merged with the new contents. Please review the text"
+" below."
+msgstr ""
+"Saat Anda mengedit, seseorang telah mengubah revisi yang dibuat. Isi yang "
+"Anda ubah telah disatukan secara otomatis dengan isi yang baru. Silakan "
+"tinjau teks di bawah ini."
+
+#: wiki/forms.py:100
+msgid "No changes made. Nothing to save."
+msgstr "Tidak ada perubahan yang dilakukan. Tidak ada yang disimpan."
+
+#: wiki/forms.py:162
+msgid "Select an option"
+msgstr "Pilihlah salah satu jawaban"
+
+#: wiki/forms.py:207 wiki/templates/wiki/dir.html:55
+msgid "Slug"
+msgstr "Slug"
+
+#: wiki/forms.py:207
+msgid ""
+"This will be the address where your article can be found. Use only "
+"alphanumeric characters and - or _. Note that you cannot change the slug "
+"after creating the article."
+msgstr ""
+"Artikel Anda dapat ditemukan disini. Hanya gunakan karakter alfanumerik saja"
+" dan - atau _. Mohon diperhatikan bahwa Anda tidak dapat mengubah slug "
+"setelah membuat artikel."
+
+#: wiki/forms.py:212
+msgid "Write a brief message for the article's history log."
+msgstr "Tulislah pesan singkat untuk log riwayat artikel."
+
+#: wiki/forms.py:222
+msgid "A slug may not begin with an underscore."
+msgstr "Sebuah slug tidak boleh dimulai dengan garis bawah."
+
+#: wiki/forms.py:231
+#, python-format
+msgid "A deleted article with slug \"%s\" already exists."
+msgstr "Terdapat sebuah artikel dengan \"%s\" yang telah dihapus."
+
+#: wiki/forms.py:233
+#, python-format
+msgid "A slug named \"%s\" already exists."
+msgstr "Telah terdapat slug bernama \"%s\"."
+
+#: wiki/forms.py:246
+msgid "Yes, I am sure"
+msgstr "Ya, saya yakin"
+
+#: wiki/forms.py:248 wiki/templates/wiki/deleted.html:46
+msgid "Purge"
+msgstr "Pembersihan"
+
+#: wiki/forms.py:249
+msgid ""
+"Purge the article: Completely remove it (and all its contents) with no undo."
+" Purging is a good idea if you want to free the slug such that users can "
+"create new articles in its place."
+msgstr ""
+"Bersihkan artikel: Hapus secara keseluruhan (bersama seluruh isinya) tanpa "
+"pilihan undo. Pembersihan tepat digunakan jika Anda ingin membebaskan slug "
+"sehingga pengguna-pengguna dapat membuat artikel-artikel baru dengan slug "
+"tersebut."
+
+#: wiki/forms.py:256 wiki/plugins/attachments/forms.py:24
+#: wiki/plugins/images/forms.py:64
+msgid "You are not sure enough!"
+msgstr "Anda tidak cukup yakin!"
+
+#: wiki/forms.py:258
+msgid "While you tried to delete this article, it was modified. TAKE CARE!"
+msgstr ""
+"Artikel ini sedang diubah saat Anda mencoba untuk menghapusnya. PERIKSA "
+"KEMBALI!"
+
+#: wiki/forms.py:264
+msgid "Lock article"
+msgstr "Kunci artikel"
+
+#: wiki/forms.py:264
+msgid "Deny all users access to edit this article."
+msgstr "Tolak semua akses pengguna untuk mengedit artikel ini."
+
+#: wiki/forms.py:267
+msgid "Permissions"
+msgstr "izin"
+
+#: wiki/forms.py:271
+msgid "Owner"
+msgstr "Pemilik"
+
+#: wiki/forms.py:272
+msgid "Enter the username of the owner."
+msgstr "Masukkan username pemilik."
+
+#: wiki/forms.py:273
+msgid "(none)"
+msgstr "(kosong)"
+
+#: wiki/forms.py:278
+msgid "Inherit permissions"
+msgstr "Mendapat izin"
+
+#: wiki/forms.py:278
+msgid ""
+"Check here to apply the above permissions recursively to articles under this"
+" one."
+msgstr ""
+"Periksa di sini untuk mengaplikasikan izin-izin di atas secara rekursif "
+"untuk artikel-artikel di bawah artikel ini."
+
+#: wiki/forms.py:283
+msgid "Permission settings for the article were updated."
+msgstr "Pengaturan izin untuk artikel telah diperbarui."
+
+#: wiki/forms.py:285
+msgid "Your permission settings were unchanged, so nothing saved."
+msgstr "Pengaturan izin Anda tidak berubah, jadi tidak ada yang disimpan."
+
+#: wiki/forms.py:324
+msgid "No user with that username"
+msgstr "Nama pengguna tidak terdaftar"
+
+#: wiki/forms.py:346
+msgid "Article locked for editing"
+msgstr "Artikel dikunci untuk pengeditan"
+
+#: wiki/forms.py:353
+msgid "Article unlocked for editing"
+msgstr "Artikel dibuka untuk pengeditan"
+
+#: wiki/forms.py:366
+msgid "Filter"
+msgstr "Saring"
+
+#: wiki/core/plugins/base.py:44
+msgid "Settings for plugin"
+msgstr "Pengaturan plugin"
+
+#: wiki/models/article.py:23 wiki/models/pluginbase.py:158
+#: wiki/plugins/attachments/models.py:19
+msgid "current revision"
+msgstr "revisi saat ini"
+
+#: wiki/models/article.py:25
+msgid ""
+"The revision being displayed for this article. If you need to do a roll-"
+"back, simply change the value of this field."
+msgstr ""
+"Revisi ditampilkan untuk artikel ini. Jika Anda memerlukan roll-back, "
+"silakan ubah nilai dalam field ini."
+
+#: wiki/models/article.py:29
+msgid "modified"
+msgstr "telah dirubah"
+
+#: wiki/models/article.py:30
+msgid "Article properties last modified"
+msgstr "Data artikel terakhir dimodifikasi terakhir"
+
+#: wiki/models/article.py:32
+msgid "owner"
+msgstr "pemilik"
+
+#: wiki/models/article.py:34
+msgid ""
+"The owner of the article, usually the creator. The owner always has both "
+"read and write access."
+msgstr ""
+"Pemilik artikel, biasanya adalah pembuat. Pemilik selalu memiliki akses baca"
+" dan tulis."
+
+#: wiki/models/article.py:36
+msgid "group"
+msgstr "grup"
+
+#: wiki/models/article.py:38
+msgid ""
+"Like in a UNIX file system, permissions can be given to a user according to "
+"group membership. Groups are handled through the Django auth system."
+msgstr ""
+"Seperti dalam sistem pengarsipan UNIX, izin dapat diberikan kepada pengguna "
+"sesuai dengan keanggotaan grupnya. Grup dikelola melalui sistem otoritas "
+"Django."
+
+#: wiki/models/article.py:40
+msgid "group read access"
+msgstr "akses baca grup"
+
+#: wiki/models/article.py:41
+msgid "group write access"
+msgstr "akses tulis grup"
+
+#: wiki/models/article.py:42
+msgid "others read access"
+msgstr "akses baca lainnya"
+
+#: wiki/models/article.py:43
+msgid "others write access"
+msgstr "akses tulis lainnya"
+
+#: wiki/models/article.py:174
+#, python-format
+msgid "Article without content (%(id)d)"
+msgstr "Artikel tanpa isi (%(id)d)"
+
+#: wiki/models/article.py:202
+msgid "content type"
+msgstr "jenis isi"
+
+#: wiki/models/article.py:204
+msgid "object ID"
+msgstr "ID objek"
+
+#: wiki/models/article.py:210
+msgid "Article for object"
+msgstr "Artikel untuk objek"
+
+#: wiki/models/article.py:211
+msgid "Articles for object"
+msgstr "Artikel untuk objek"
+
+#: wiki/models/article.py:220
+msgid "revision number"
+msgstr "nomer revisi"
+
+#: wiki/models/article.py:226
+msgid "IP address"
+msgstr "alamat IP"
+
+#: wiki/models/article.py:233
+msgid "user"
+msgstr "pengguna"
+
+#: wiki/models/article.py:246
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:22
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:20
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
+#: wiki/templates/wiki/includes/revision_info.html:15
+msgid "deleted"
+msgstr "telah dihapus"
+
+#: wiki/models/article.py:247 wiki/templates/wiki/article.html:22
+#: wiki/templates/wiki/includes/revision_info.html:21
+msgid "locked"
+msgstr "terkunci"
+
+#: wiki/models/article.py:266 wiki/models/pluginbase.py:38
+msgid "article"
+msgstr "artikel"
+
+#: wiki/models/article.py:269
+msgid "article contents"
+msgstr "isi artikel"
+
+#: wiki/models/article.py:273
+msgid "article title"
+msgstr "judul artikel"
+
+#: wiki/models/article.py:274
+msgid ""
+"Each revision contains a title field that must be filled out, even if the "
+"title has not changed"
+msgstr ""
+"Setiap revisi memiliki field judul yang harus diisi, meskipun judulnya tidak"
+" berubah"
+
+#: wiki/models/pluginbase.py:74
+msgid "original article"
+msgstr "artikel asli"
+
+#: wiki/models/pluginbase.py:75
+msgid "Permissions are inherited from this article"
+msgstr "Izin diberikan dari artikel ini"
+
+#: wiki/models/pluginbase.py:133
+msgid "A plugin was changed"
+msgstr "Satu plugin telah diubah"
+
+#: wiki/models/pluginbase.py:160
+msgid ""
+"The revision being displayed for this plugin.If you need to do a roll-back, "
+"simply change the value of this field."
+msgstr ""
+"Revisi ditampilkan untuk plugin ini. Jika Anda memerlukan roll-back, silakan"
+" ubah nilai dalam field ini."
+
+#: wiki/models/urlpath.py:41
+msgid "Cache lookup value for articles"
+msgstr "Cache mencari nilai untuk artikel"
+
+#: wiki/models/urlpath.py:47
+msgid "slug"
+msgstr "slug"
+
+#: wiki/models/urlpath.py:137
+msgid "(root)"
+msgstr "(root)"
+
+#: wiki/models/urlpath.py:147
+msgid "URL path"
+msgstr "jalur URL"
+
+#: wiki/models/urlpath.py:148
+msgid "URL paths"
+msgstr "jalur URL"
+
+#: wiki/models/urlpath.py:153
+msgid "Sorry but you cannot have a root article with a slug."
+msgstr "Maaf Anda tidak dapat membuat artikel root dengan slug"
+
+#: wiki/models/urlpath.py:155
+msgid "A non-root note must always have a slug."
+msgstr "Catatan non-root harus memiliki slug."
+
+#: wiki/models/urlpath.py:158
+#, python-format
+msgid "There is already a root node on %s"
+msgstr "Telah terdapat nodus root pada %s"
+
+#: wiki/models/urlpath.py:262
+msgid ""
+"Articles who lost their parents\n"
+"===============================\n"
+"\n"
+"The children of this article have had their parents deleted. You should probably find a new home for them."
+msgstr ""
+"Artikel yang tidak memiliki induk\n"
+"===============================\n"
+"\n"
+"Induk dari anak artikel ini telah dihapus. Anda perlu mencarikan rumah baru untuk anak artikel ini."
+
+#: wiki/models/urlpath.py:265
+msgid "Lost and found"
+msgstr "Hilang dan ditemukan"
+
+#: wiki/plugins/attachments/forms.py:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:13
+msgid "Description"
+msgstr "Deskripsi"
+
+#: wiki/plugins/attachments/forms.py:10
+msgid "A short summary of what the file contains"
+msgstr "Ringkasan pendek mengenai isi berkas ini"
+
+#: wiki/plugins/attachments/forms.py:19
+msgid "Yes I am sure..."
+msgstr "Ya saya yakin..."
+
+#: wiki/plugins/attachments/markdown_extensions.py:33
+msgid "Click to download file"
+msgstr "Klik untuk mengunduh berkas"
+
+#: wiki/plugins/attachments/models.py:21
+msgid ""
+"The revision of this attachment currently in use (on all articles using the "
+"attachment)"
+msgstr ""
+"Revisi lampiran ini saat ini sedang digunakan (untuk semua artikel yang "
+"menggunakan lampiran ini)"
+
+#: wiki/plugins/attachments/models.py:24
+msgid "original filename"
+msgstr "nama asli berkas"
+
+#: wiki/plugins/attachments/models.py:36
+msgid "attachment"
+msgstr "lampiran"
+
+#: wiki/plugins/attachments/models.py:37
+msgid "attachments"
+msgstr "lampiran"
+
+#: wiki/plugins/attachments/models.py:79
+msgid "file"
+msgstr "berkas"
+
+#: wiki/plugins/attachments/models.py:85
+msgid "attachment revision"
+msgstr "revisi lampiran"
+
+#: wiki/plugins/attachments/models.py:86
+msgid "attachment revisions"
+msgstr "revisi lampiran"
+
+#: wiki/plugins/attachments/views.py:49
+#, python-format
+msgid "%s was successfully added."
+msgstr "%s berhasil ditambahkan."
+
+#: wiki/plugins/attachments/views.py:51 wiki/plugins/attachments/views.py:116
+#, python-format
+msgid "Your file could not be saved: %s"
+msgstr "Berkas Anda tidak dapat disimpan: %s"
+
+#: wiki/plugins/attachments/views.py:53 wiki/plugins/attachments/views.py:120
+msgid ""
+"Your file could not be saved, probably because of a permission error on the "
+"web server."
+msgstr ""
+"Berkas Anda tidak dapat disimpan, mungkin karena gangguan izin dalam server "
+"web."
+
+#: wiki/plugins/attachments/views.py:114
+#, python-format
+msgid "%s uploaded and replaces old attachment."
+msgstr "%s telah diunggah dan menggantikan lampiran lama."
+
+#: wiki/plugins/attachments/views.py:128
+msgid ""
+"Your new file will automatically be renamed to match the file already "
+"present. Files with different extensions are not allowed."
+msgstr ""
+"Berkas baru Anda akan secara otomatis diberi nama baru agar sesuai dengan "
+"berkas yang telah tersedia. Berkas dengan ekstensi yang berbeda tidak "
+"diperkenankan."
+
+#: wiki/plugins/attachments/views.py:182
+#, python-format
+msgid "Current revision changed for %s."
+msgstr "Revisi diubah untuk %s."
+
+#: wiki/plugins/attachments/views.py:203
+#, python-format
+msgid "Added a reference to \"%(att)s\" from \"%(art)s\"."
+msgstr "Referensi untuk \"%(att)s\" dari \"%(art)s\" telah ditambahkan."
+
+#: wiki/plugins/attachments/views.py:233
+#, python-format
+msgid "The file %s was deleted."
+msgstr "Berkas %s telah dihapus."
+
+#: wiki/plugins/attachments/views.py:236
+#, python-format
+msgid "This article is no longer related to the file %s."
+msgstr "Artikel ini tidak lagi terhubung dengan berkas %s."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:4
+#: wiki/plugins/attachments/wiki_plugin.py:30
+msgid "Attachments"
+msgstr "Sisipan"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was changed: %s"
+msgstr "Satu berkas telah diubah: %s"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was deleted: %s"
+msgstr "Satu berkas telah dihapus: %s"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
+#: wiki/templates/wiki/delete.html:7
+msgid "Delete"
+msgstr "Hapus"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:13
+msgid ""
+"The file may be referenced on other articles. Deleting it means that they "
+"will loose their references to this file. The following articles reference "
+"this file:"
+msgstr ""
+"File mungkin dijadikan rujukan oleh artikel lain. Jika file ini dihapus "
+"artikel tersebut akan kehilangan referensi ke file ini. Berikut artikel yang"
+" merujuk ke file ini:"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:26
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:47
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:48
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:70
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:20
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:20
+#: wiki/templates/wiki/create.html:51 wiki/templates/wiki/delete.html:11
+#: wiki/templates/wiki/delete.html:48
+msgid "Go back"
+msgstr "Kembali"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:30
+msgid "Delete it!"
+msgstr "Hapus!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:36
+msgid "Remove"
+msgstr "Hapus"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:40
+msgid ""
+"You can remove a reference to a file, but it will retain its references on "
+"other articles."
+msgstr ""
+"Anda dapat menghapus referensi ke suatu file, namun referensi di artikel "
+"lain tidak terhapus."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:51
+msgid "Remove reference"
+msgstr "Hapus referensi"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:8
+msgid "History of"
+msgstr "Riwayat"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:11
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:23
+msgid "Date"
+msgstr "Tanggal"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:12
+msgid "User"
+msgstr "Pengguna"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:14
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:21
+msgid "File"
+msgstr "Berkas"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:15
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:28
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:25
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:21
+msgid "Size"
+msgstr "Ukuran"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:16
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:26
+msgid "Action"
+msgstr "Tindakan"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:32
+msgid "<em>No description</em>"
+msgstr "<em>Tidak ada deskripsi</em>"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:35
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:50
+msgid "Download"
+msgstr "Unduh"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:40
+msgid "Use this!"
+msgstr "Gunakan ini!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr ""
+"Berkas berikut tersedia untuk artikel ini. Kopi tag markdown-nya untuk "
+"mengacu secara langsung ke berkas dari teks artikel."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:26
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:19
+msgid "Markdown tag"
+msgstr "Label Markdown"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:24
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:20
+msgid "Uploaded by"
+msgstr "Diunggah oleh"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:8
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:31
+msgid "Replace"
+msgstr "Ganti"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:37
+msgid "Detach"
+msgstr "Lepas kaitan"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:44
+#: wiki/templates/wiki/deleted.html:24 wiki/templates/wiki/deleted.html:29
+msgid "Restore"
+msgstr "Kembalikan Semula"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "File history"
+msgstr "Sejarah berkas"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "revisions"
+msgstr "revisi"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:69
+msgid "There are no attachments for this article."
+msgstr "Tidak ada sisipan di artikel ini."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:83
+msgid "Upload new file"
+msgstr "Unggah berkas baru"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:95
+msgid "Upload file"
+msgstr "Unggah berkas"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:106
+msgid "Search and add file"
+msgstr "Cari dan tambah berkas"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:112
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr ""
+"Anda dapat menggunakan kembali berkas dari artikel lain. Berkas juga akan "
+"diperbarui jika berkas artikel lainnya diperbarui."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:117
+msgid "Search"
+msgstr "Cari"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:13
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>. Please note "
+"that this attachment is in use on other articles, you may distort contents. "
+"However, do not hestitate to take advantage of this and make replacements "
+"for the listed articles where necessary. This way of working is more "
+"efficient...."
+msgstr ""
+"Mengganti lampiran berarti menambahkan file baru yang akan menggantikan "
+"lampiran lama. Semua referensi ke file akan digantikan dengan file yang baru"
+" di unggah dan file akan ter unduh sebagai <strong>%(filename)s</strong>. "
+"Mohon perhatikan bahwa lampiran ini digunakan di artikel lain, sehingga Anda"
+" dapat mengganggu konten lainnya. Meski demikian, jangan ragu untuk "
+"meneruskan dan menyesuaikan perubahan pada artikel di bawah jika diperlukan."
+" Hal ini akan lebih efisien...."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:15
+msgid "Articles using"
+msgstr "Artikel menggunakan"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:24
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>."
+msgstr ""
+"Mengganti lampiran berarti menambahkan file baru yang akan menggantikan "
+"lampiran lama. Semua referensi ke file akan digantikan dengan file yang baru"
+" di unggah dan file akan ter unduh sebagai <strong>%(filename)s</strong>. "
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:37
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:24
+msgid "Upload replacement"
+msgstr "Unggah pengganti"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:4
+msgid "Add file to"
+msgstr "Tambahkan file ke"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:8
+msgid "Add attachment from other article"
+msgstr "Tambahkan lampiran dari artikel lain"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:14
+msgid "Search files and articles"
+msgstr "Cari berkas dan artikel"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:22
+msgid "Main article"
+msgstr "Artikel utama"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:54
+msgid "Add to article"
+msgstr "Tambahkan ke artikel"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:62
+msgid "Your search did not return any results"
+msgstr "Pencarian Anda tidak menemukan hasil"
+
+#: wiki/plugins/help/wiki_plugin.py:12
+msgid "Help"
+msgstr "Bantuan"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:1
+msgid "Adding new articles"
+msgstr "Tambahkan artikel baru"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:3
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr ""
+"Untuk membuat artikel wiki yang baru, buat tautan ke dirinya. Mengklik "
+"tautan memberikan Anda halaman pembuatan."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:6
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:19
+msgid "An external link"
+msgstr "Tautan eksternal"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:9
+msgid "Headers"
+msgstr "Headers"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:10
+msgid ""
+"Use these codes for headers and to automatically generate Tables of "
+"Contents."
+msgstr ""
+"Gunakan kode ini untuk header dan untuk membuat Daftar Isi secara otomatis."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:25
+msgid "Typography"
+msgstr "Tipografi"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:30
+msgid "Lists"
+msgstr "Daftar"
+
+#: wiki/plugins/images/forms.py:16
+#, python-format
+msgid ""
+"New image %s was successfully uploaded. You can use it by selecting it from "
+"the list of available images."
+msgstr ""
+"Gambar baru %s telah berhasil diunggah. Anda dapat menggunakannya dengan "
+"memilih dari daftar gambar yang tersedia."
+
+#: wiki/plugins/images/forms.py:59
+msgid "Are you sure?"
+msgstr "Anda yakin?"
+
+#: wiki/plugins/images/models.py:40
+msgid "image"
+msgstr "gambar"
+
+#: wiki/plugins/images/models.py:41
+msgid "images"
+msgstr "gambar"
+
+#: wiki/plugins/images/models.py:45
+#, python-format
+msgid "Image: %s"
+msgstr "Gambar: %s"
+
+#: wiki/plugins/images/models.py:45
+msgid "Current revision not set!!"
+msgstr "Revisi terkini belum diset"
+
+#: wiki/plugins/images/models.py:92
+msgid "image revision"
+msgstr "revisi gambar"
+
+#: wiki/plugins/images/models.py:93
+msgid "image revisions"
+msgstr "revisi gambar"
+
+#: wiki/plugins/images/models.py:98
+#, python-format
+msgid "Image Revsion: %d"
+msgstr "Revisi Gambar: %d"
+
+#: wiki/plugins/images/views.py:64
+#, python-format
+msgid "%s has been restored"
+msgstr "%s telah dikembalikan"
+
+#: wiki/plugins/images/views.py:66
+#, python-format
+msgid "%s has been marked as deleted"
+msgstr "%s telah ditandai sebagai terhapus"
+
+#: wiki/plugins/images/views.py:120
+#, python-format
+msgid "%(file)s has been changed to revision #%(revision)d"
+msgstr "%(file)s telah diubah menjadi revisi #%(revision)d"
+
+#: wiki/plugins/images/views.py:158
+#, python-format
+msgid "%(file)s has been saved."
+msgstr "%(file)s telah disimpan."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:4
+#: wiki/plugins/images/wiki_plugin.py:15
+msgid "Images"
+msgstr "Gambar-gambar"
+
+#: wiki/plugins/images/wiki_plugin.py:26
+#, python-format
+msgid "An image was added: %s"
+msgstr "Satu gambar telah ditambahkan: %s"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:7
+msgid ""
+"The following images are available for this article. Copy the markdown tag "
+"to directly refer to an image from the article text."
+msgstr ""
+"Gambar berikut tersedia untuk artikel ini. Salin label markdown untuk "
+"merujuk langsung ke sebuah gambar dari teks artikel."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:11
+msgid "Back to edit page"
+msgstr "Kembali ke halaman edit"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:18
+msgid "No file"
+msgstr "Tidak ada file"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:34
+msgid "Upload new image"
+msgstr "Unggah gambar baru"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:39
+msgid "Restore image"
+msgstr "Kembalikan gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:44
+msgid "Remove image"
+msgstr "Hapus gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:51
+msgid "Completely delete"
+msgstr "Hapus seluruhnya"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:65
+#: wiki/templates/wiki/history.html:4
+msgid "History"
+msgstr "Sejarah"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:84
+msgid "Revert to this version"
+msgstr "Kembalikan ke versi ini"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:97
+msgid "There are no images for this article."
+msgstr "Tidak ada gambar untuk artikel ini."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:4
+#: wiki/templates/wiki/deleted.html:39
+msgid "Purge deletion"
+msgstr "Bersihkan hapusan"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:13
+msgid "Purge image: Completely remove image file and all revisions."
+msgstr "Bersihkan gambar: Hapus seluruh file gambar dan semua revisinya."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:24
+msgid "Remove it completely!"
+msgstr "Hapus seluruhnya!"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/render.html:14
+msgid "Image not found"
+msgstr "Gambar tidak ditemukan"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:4
+msgid "Replace image"
+msgstr "Ganti gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:13
+msgid "Choose an image file to replace current image."
+msgstr "Pilih file gambar untuk menggantikan gambar saat ini."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:27
+msgid "Image id"
+msgstr "Id gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:29
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:13
+msgid "Insert"
+msgstr "sisipkan"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:45
+msgid "No images found for this article"
+msgstr "Tidak ada gambar untuk artikel ini"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:54
+msgid "Manage images"
+msgstr "Kelola gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:60
+msgid "Add new image"
+msgstr "Tambah gambar baru"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:96
+msgid "Add image"
+msgstr "Tambah gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:104
+msgid "You do not have permissions to add images."
+msgstr "Anda tidak memiliki izin untuk menambahkan gambar."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:111
+msgid "How to use images"
+msgstr "Bagaimana cara menggunakan gambar"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:114
+msgid ""
+"After uploading an image, it is attached to this particular artice and can "
+"be used only here. Other users may replace the image, but older versions are"
+" kept. You probably want to show the image with a nice caption. To achieve "
+"this, press the Insert button and fill in the caption fields and possibly "
+"choose to have you image floating right or left of the content. You can use "
+"Markdown in the caption. The markdown code syntax for images looks like "
+"this, possible values for align are left/center/right:"
+msgstr ""
+"Setelah menggunggah gambar, gambar akan menempel pada artikel tertentu dan "
+"hanya dapat digunakan di sini. Pengguna lain dapat mengganti gambar, namun "
+"versi lama akan tersimpan. Anda mungkin ingin memberikan caption untuk "
+"gambar ini. Untuk melakukannya, tekan tombol Sisipkan dan isi kolom caption "
+"dan pilih posisi gambar di kanan atau kiri konten. Anda dapat menggunakan "
+"Markdown dalam caption. Syntax kode markdown untuk gambar tampak seperti "
+"ini, pilihan rata adalah kiri/tengah/kanan:"
+
+#: wiki/plugins/links/wiki_plugin.py:21
+msgid "Links"
+msgstr "Tautan"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:2
+msgid "Link to another wiki page"
+msgstr "Tautkan ke halaman wiki lainnya"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:5
+msgid ""
+"Type in something from another wiki page's title and auto-complete will help"
+" you create a tag for you wiki link. Tags for links look like this:"
+msgstr ""
+"Masukkan sesuatu dari judul halaman wiki lainnya dan auto-complete akan "
+"membantu Anda membuat tag atau label untuk tautan wiki Anda. Label untuk "
+"tautan tampak sebagai berikut:"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:22
+msgid ""
+"You can link to another website simply by inserting an address example.com "
+"or http://example.com or by using the markdown syntax:"
+msgstr ""
+"Anda dapat memasukkan laman web lain dengan memasukkan alamat example.com "
+"atau http://example.com atau dengan menggunakan syntax markdown:"
+
+#: wiki/plugins/notifications/forms.py:13
+msgid "Notifications"
+msgstr "Notifikasi"
+
+#: wiki/plugins/notifications/forms.py:17
+msgid "When this article is edited"
+msgstr "Ketika artikel ini sedang diedit"
+
+#: wiki/plugins/notifications/forms.py:18
+msgid "Also receive emails about article edits"
+msgstr "Juga terima email mengenai pengeditan artikel"
+
+#: wiki/plugins/notifications/forms.py:41
+msgid "Your notification settings were updated."
+msgstr "Setelan notifikasi Anda telah diperbarui."
+
+#: wiki/plugins/notifications/forms.py:43
+msgid "Your notification settings were unchanged, so nothing saved."
+msgstr "Setelah notifikasi Anda tidak diubah, sehingga tidak disimpan."
+
+#: wiki/plugins/notifications/models.py:17
+#, python-format
+msgid "%(user)s subscribing to %(article)s (%(type)s)"
+msgstr "%(user)s melanggan pada %(article)s (%(type)s)"
+
+#: wiki/plugins/notifications/models.py:38
+#, python-format
+msgid "Article deleted: %s"
+msgstr "Artikel yang dihapus: %s"
+
+#: wiki/plugins/notifications/models.py:41
+#, python-format
+msgid "Article modified: %s"
+msgstr "Artikel yang diubah: %s"
+
+#: wiki/plugins/notifications/models.py:44
+#, python-format
+msgid "New article created: %s"
+msgstr "Artikel baru yang dibuat: %s"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:12
+msgid "notifications"
+msgstr "notifikasi"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:17
+msgid "No notifications"
+msgstr "Tidak ada notifikasi"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:19
+msgid "Clear notifications list"
+msgstr "Hapus daftar notifikasi"
+
+#: wiki/templates/wiki/article.html:39
+msgid "This article was last modified:"
+msgstr "Artikel ini dimodifikasi terakhir kali:"
+
+#: wiki/templates/wiki/base.html:113
+msgid "Search..."
+msgstr "Cari"
+
+#: wiki/templates/wiki/base.html:129
+msgid "Log out"
+msgstr "Keluar"
+
+#: wiki/templates/wiki/accounts/login.html:3
+#: wiki/templates/wiki/accounts/signup.html:3
+#: wiki/templates/wiki/base.html:138
+msgid "Log in"
+msgstr "Masuk"
+
+#: wiki/templates/wiki/accounts/login.html:18
+#: wiki/templates/wiki/accounts/signup.html:6
+#: wiki/templates/wiki/base.html:141
+msgid "Sign up"
+msgstr "Daftar"
+
+#: wiki/templates/wiki/create.html:4 wiki/templates/wiki/create.html:44
+msgid "Add new article"
+msgstr "Tambah artikel baru"
+
+#: wiki/templates/wiki/create.html:55
+msgid "Create article"
+msgstr "Buat artikel"
+
+#: wiki/templates/wiki/delete.html:4 wiki/templates/wiki/delete.html:52
+#: wiki/templates/wiki/edit.html:41
+msgid "Delete article"
+msgstr "Hapus artikel"
+
+#: wiki/templates/wiki/delete.html:10
+msgid "You cannot delete a root article."
+msgstr "Anda tidak dapat menghapus artikel utama."
+
+#: wiki/templates/wiki/delete.html:16
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr ""
+"Anda tidak dapat menghapus artikel ini karena Anda tidak punya ijin untuk "
+"menghapus artikel dengan cabang. Coba hapus cabang artikel satu satu."
+
+#: wiki/templates/wiki/delete.html:22
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr ""
+"Anda menghapus sebuah artikel. Ini berarti cabang artikel juga akan dihapus."
+" Jika Anda pilih untuk membersihkan, cabang juga akan dibersihkan!"
+
+#: wiki/templates/wiki/delete.html:24
+msgid "Articles that will be deleted"
+msgstr "Artikel yang akan dihapus"
+
+#: wiki/templates/wiki/delete.html:30
+msgid "...and more!"
+msgstr ".. dan banyak lagi!"
+
+#: wiki/templates/wiki/delete.html:38
+msgid "You are deleting an article. Please confirm."
+msgstr "Anda akan menghapus artikel. Mohon konfirmasi."
+
+#: wiki/templates/wiki/deleted.html:4
+msgid "Article deleted"
+msgstr "Artikel telah dihapus"
+
+#: wiki/templates/wiki/deleted.html:13
+msgid "Article Deleted"
+msgstr "Artikel telah dihapus"
+
+#: wiki/templates/wiki/deleted.html:16
+msgid "The article you were looking for has been deleted."
+msgstr "Artikel yang Anda cari telah dihapus."
+
+#: wiki/templates/wiki/deleted.html:25
+msgid "You may restore this article and its children by clicking restore."
+msgstr ""
+"Anda dapat mengembalikan artikel ini dan anak artikelnya dengan menekan "
+"kembalikan."
+
+#: wiki/templates/wiki/deleted.html:40
+msgid ""
+"You may remove this article and any children permanently and free their "
+"slugs by clicking the below button. This action cannot be undone."
+msgstr ""
+"Anda dapat menghapus artikel ini dan anak artikelnya secara permanen dan "
+"membebaskan slugnya dengan menekan tombol di bawah. Tindakan ini tidak dapat"
+" dibatalkan."
+
+#: wiki/templates/wiki/dir.html:4
+msgid "Listing articles in"
+msgstr "Mendaftar artikel di"
+
+#: wiki/templates/wiki/dir.html:16
+msgid "Up one level"
+msgstr "Naik satu tingkat"
+
+#: wiki/templates/wiki/dir.html:21
+msgid "Add article"
+msgstr "Tambahkan artikel"
+
+#: wiki/templates/wiki/dir.html:28
+msgid "clear"
+msgstr "hapus"
+
+#: wiki/templates/wiki/dir.html:40 wiki/templates/wiki/dir.html:44
+msgid "article,articles"
+msgstr "artikel,artikel"
+
+#: wiki/templates/wiki/dir.html:40
+msgid "matches,match"
+msgstr "cocok dengan,cocok dengan"
+
+#: wiki/templates/wiki/dir.html:42
+#, python-format
+msgid "%(cnt)s %(articles_plur)s in this level %(match_plur)s your search."
+msgstr ""
+"%(cnt)s %(articles_plur)s di tingkatan ini %(match_plur)s pencarian Anda."
+
+#: wiki/templates/wiki/dir.html:44
+msgid "is,are"
+msgstr " , "
+
+#: wiki/templates/wiki/dir.html:46
+#, python-format
+msgid "There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level."
+msgstr ""
+"Terdapat %(articles_plur_verb)s %(cnt)s %(articles_plur)s pada tingkatan "
+"ini."
+
+#: wiki/templates/wiki/dir.html:56
+msgid "Last modified"
+msgstr "Modifikasi terakhir"
+
+#: wiki/templates/wiki/edit.html:4
+#: wiki/templates/wiki/includes/article_menu.html:34
+msgid "Edit"
+msgstr "Edit"
+
+#: wiki/templates/wiki/edit.html:31
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: wiki/templates/wiki/edit.html:35 wiki/templates/wiki/edit.html:57
+#: wiki/templates/wiki/settings.html:15
+msgid "Save changes"
+msgstr "Simpan perubahan"
+
+#: wiki/templates/wiki/edit.html:53
+msgid "Back to editor"
+msgstr "Kembali ke editor"
+
+#: wiki/templates/wiki/history.html:55
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr ""
+"Klik tiap revisi untuk melihat daftar baris yang diedit. Klik tombol "
+"Pratinjau untuk melihat bagaimana artikel terlihat saat ini. Di bagaian "
+"bawah halaman, Anda dapat mengganti ke revisi khusus atau jadisatukan revisi"
+" lama dengan saat ini."
+
+#: wiki/templates/wiki/history.html:74
+msgid "no log message"
+msgstr "tidak ada pesan log"
+
+#: wiki/templates/wiki/history.html:86 wiki/templates/wiki/history.html:91
+msgid "Preview this revision"
+msgstr "Pratinjau revisi ini"
+
+#: wiki/templates/wiki/history.html:105
+msgid "Auto log:"
+msgstr "Log otomatis:"
+
+#: wiki/templates/wiki/history.html:113
+msgid "Change"
+msgstr "Ganti"
+
+#: wiki/templates/wiki/history.html:131
+msgid "Merge selected with current..."
+msgstr "Gabungkan tersorot dengan saat ini..."
+
+#: wiki/templates/wiki/history.html:135
+msgid "Switch to selected version"
+msgstr "Pindah ke versi tersorot"
+
+#: wiki/templates/wiki/history.html:151 wiki/templates/wiki/history.html:178
+msgid "Back to history view"
+msgstr "Kembali ke tampilan terdahulu"
+
+#: wiki/templates/wiki/history.html:156 wiki/templates/wiki/history.html:161
+msgid "Switch to this version"
+msgstr "Ganti ke versi ini"
+
+#: wiki/templates/wiki/history.html:169
+msgid "Merge with current"
+msgstr "Gabung dengan terkini"
+
+#: wiki/templates/wiki/history.html:170
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr ""
+"Ketika Anda menggabung revisi dengan terkini, seluruh data akan disimpan "
+"dari kedua versi dan digabung dari lokasi terkira pada tiap revisinya."
+
+#: wiki/templates/wiki/history.html:170
+msgid "After this, it's important to do a manual review."
+msgstr "Setelah ini, penting untuk review manual."
+
+#: wiki/templates/wiki/history.html:183 wiki/templates/wiki/history.html:188
+msgid "Create new merged version"
+msgstr "Buat versi tergabung yang baru"
+
+#: wiki/templates/wiki/permission_denied.html:7
+msgid "Permission Denied"
+msgstr "Izin Ditolak"
+
+#: wiki/templates/wiki/permission_denied.html:9
+msgid "Sorry, you don't have permission to view this page."
+msgstr "Maaf, Anda tidak memiliki izin untuk melihat halaman ini."
+
+#: wiki/templates/wiki/preview_inline.html:8
+msgid "Previewing revision"
+msgstr "Pratinjau revisi"
+
+#: wiki/templates/wiki/preview_inline.html:15
+msgid "Previewing merge between"
+msgstr "Pratinjau antar penggabungan"
+
+#: wiki/templates/wiki/preview_inline.html:17
+msgid "and"
+msgstr "dan"
+
+#: wiki/templates/wiki/preview_inline.html:26
+msgid "This revision has been deleted."
+msgstr "Revisi telah dihapus."
+
+#: wiki/templates/wiki/preview_inline.html:27
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "Mengembalikan ke revisi ini akan menandai artikel sebagai terhapus."
+
+#: wiki/templates/wiki/includes/article_menu.html:9
+#: wiki/templates/wiki/settings.html:4
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: wiki/templates/wiki/source.html:4
+msgid "Source of"
+msgstr "Sumber dari"
+
+#: wiki/templates/wiki/source.html:9
+msgid "This article is currently locked for editing."
+msgstr "Artikel ini sedang dikunci untuk pengeditan"
+
+#: wiki/templates/wiki/accounts/login.html:6
+msgid "Please log in"
+msgstr "Harap masuk"
+
+#: wiki/templates/wiki/accounts/login.html:12
+msgid "Log me in..."
+msgstr "Masukkan saya..."
+
+#: wiki/templates/wiki/accounts/login.html:18
+msgid "Don't have an account?"
+msgstr "Belum punya akun?"
+
+#: wiki/templates/wiki/accounts/signup.html:12
+msgid "Sign me up..."
+msgstr "Daftarkan saya..."
+
+#: wiki/templates/wiki/article/create_root.html:4
+msgid "Create root article"
+msgstr "Buat artikel utama"
+
+#: wiki/templates/wiki/article/create_root.html:22
+msgid "Congratulations!"
+msgstr "Selamat!"
+
+#: wiki/templates/wiki/article/create_root.html:24
+msgid ""
+"You have django-wiki installed... but there are no articles. So it's time to"
+" create the first one, the root article. In the beginning, it will only be "
+"editable by administrators, but you can define permissions after."
+msgstr ""
+"Django-wiki telah terinstal... namun tidak terdapat artikel. Ini saatnya "
+"untuk membuat artikel pertama, yaitu artikel utama. Pada awalnya, artikel "
+"ini hanya dapat diedit oleh administrator, namun setelahnya Anda dapat "
+"menentukan izin."
+
+#: wiki/templates/wiki/article/create_root.html:27
+msgid "Root article"
+msgstr "Artikel utama"
+
+#: wiki/templates/wiki/article/create_root.html:32
+msgid "Create root"
+msgstr "Buat artikel utama"
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:8
+#, python-format
+msgid ""
+"You need to <a href=\"%(login_url)s\">log in</a> or <a "
+"href=\"%(signup_url)s\">sign up</a> to use this function."
+msgstr ""
+"Anda harus <a href=\"%(login_url)s\">log ini </a> atau <a "
+"href=\"%(signup_url)s\">mendaftar</a> untuk menggunakan fungsi ini."
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:10
+msgid "You need to log in og sign up to use this function."
+msgstr "Anda harus log ini atau mendaftar untuk menggunakan fungsi ini."
+
+#: wiki/templates/wiki/includes/article_menu.html:26
+msgid "Changes"
+msgstr "Perubahan"
+
+#: wiki/templates/wiki/includes/article_menu.html:41
+msgid "View Source"
+msgstr "Lihat Sumber"
+
+#: wiki/templates/wiki/includes/article_menu.html:49
+msgid "View"
+msgstr "Tampilkan"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:16
+#: wiki/templates/wiki/includes/breadcrumbs.html:42
+msgid "Sub-articles for"
+msgstr "Sub-artikel untuk"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:28
+msgid "No sub-articles"
+msgstr "Tidak terdapat sub-artikel"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:31
+msgid "...and more"
+msgstr "...dan lainnya"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:35
+msgid "Browse articles in this level"
+msgstr "Jelajahi artikel di tingkat ini"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:51
+msgid "New article next to"
+msgstr "Artikel baru sesudah"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:56
+msgid "New article below"
+msgstr "Artikel baru di bawah"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "by"
+msgstr "oleh"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "anonymous (IP logged)"
+msgstr "anonim (IP tercatat)"
+
+#: wiki/templates/wiki/includes/revision_info.html:18
+msgid "restored"
+msgstr "dikembalikan"
+
+#: wiki/templates/wiki/includes/revision_info.html:24
+msgid "unlocked"
+msgstr "tidak terkunci"
+
+#: wiki/views/accounts.py:25
+msgid "You are now sign up... and now you can sign in!"
+msgstr "Anda telah terdaftar dan dapat masuk"
+
+#: wiki/views/accounts.py:32
+msgid "You are no longer logged in. Bye bye!"
+msgstr "Anda tidak lagi masuk. Daahh!"
+
+#: wiki/views/accounts.py:57
+msgid "You are now logged in! Have fun!"
+msgstr "Anda berhasil masuk! Have fun!"
+
+#: wiki/views/article.py:87
+#, python-format
+msgid "New article '%s' created."
+msgstr "Artikel baru '%s' telah dibuat."
+
+#: wiki/views/article.py:92
+#, python-format
+msgid "There was an error creating this article: %s"
+msgstr "Terdapat kesalahan saat membuat artikel ini: %s"
+
+#: wiki/views/article.py:94
+msgid "There was an error creating this article."
+msgstr "Terdapat kesalahan saat membuat artikel ini."
+
+#: wiki/views/article.py:175
+msgid ""
+"This article cannot be deleted because it has children or is a root article."
+msgstr ""
+"Artikel ini tidak dapat dihapus karena memiliki anak artikel atau merupakan "
+"artikel root."
+
+#: wiki/views/article.py:186
+msgid ""
+"This article together with all its contents are now completely gone! Thanks!"
+msgstr ""
+"Artikel ini bersama dengan semua isinya telah hilang secara keseluruhan. "
+"Terima kasih!"
+
+#: wiki/views/article.py:193
+#, python-format
+msgid ""
+"The article \"%s\" is now marked as deleted! Thanks for keeping the site "
+"free from unwanted material!"
+msgstr ""
+"Artikel \"%s\" telah dihapus. Terima kasih sudah menjaga situs ini bebas "
+"dari materi yang tidak diinginkan."
+
+#: wiki/views/article.py:276
+msgid "Your changes were saved."
+msgstr "Perubahan yang Anda buat telah disimpan."
+
+#: wiki/views/article.py:299
+msgid "A new revision of the article was successfully added."
+msgstr "Revisi baru artikel ini telah berhasil ditambahkan."
+
+#: wiki/views/article.py:356
+msgid "Restoring article"
+msgstr "Mengembalikan artikel"
+
+#: wiki/views/article.py:358
+#, python-format
+msgid "The article \"%s\" and its children are now restored."
+msgstr "Artikel \"%s\" dan anak artikelnya telah dikembalikan."
+
+#: wiki/views/article.py:542
+#, python-format
+msgid ""
+"The article %(title)s is now set to display revision #%(revision_number)d"
+msgstr ""
+"Artikel %(title)s telah disetel untuk menampilkan revisi "
+"#%(revision_number)d"
+
+#: wiki/views/article.py:607
+msgid "New title"
+msgstr "Judul baru"
+
+#: wiki/views/article.py:631
+#, python-format
+msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
+msgstr "Gabungkan Revisi #%(r1)d dan Revisi #%(r2)d"
+
+#: wiki/views/article.py:635
+#, python-format
+msgid ""
+"A new revision was created: Merge between Revision #%(r1)d and Revision "
+"#%(r2)d"
+msgstr "Revisi baru telah dibuat: Gabungkan Revisi #%(r1)d dan Revisi #%(r2)d"

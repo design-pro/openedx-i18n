@@ -1,0 +1,821 @@
+# edX community translations have been downloaded from Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/).
+# Copyright (C) 2020 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Anh Phan <vietnamesel10n@gmail.com>, 2013
+# Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
+# Nguyen Quang Huy <huynq23091@gmail.com>, 2013-2014
+# hoad, 2013
+# Hoà Lê Thanh <hoa.lethanh@gmail.com>, 2017
+# Hoàng Văn Quân, 2014
+# Hoang Ha <halink0803@gmail.com>, 2014
+# Hoàng Văn Quân, 2014
+# Hung The Hung <hoangthehung92@gmail.com>, 2013
+# Minh Tue Vo <mvo@edx.org>, 2014
+# Minh Tue Vo <mvo@edx.org>, 2014
+# Ha Ngoc Chung <ngocchung75@gmail.com>, 2013
+# NGUYEN HOANG AN <neyugn2909@gmail.com>, 2014
+# Nguyen Lam <lamnguyen.cis@gmail.com>, 2020
+# Nguyen Quang Huy <huynq23091@gmail.com>, 2014
+# Anh Phan <vietnamesel10n@gmail.com>, 2013
+# Hung The Hung <hoangthehung92@gmail.com>, 2013
+# Le Minh Tri <trilm@hihexa.com>, 2020
+# Trung V. Nguyen <trung.ngvan@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2020-08-08 21:30+0000\n"
+"Last-Translator: Nguyen Lam <lamnguyen.cis@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/djangoapps/api/v1/serializers/course_runs.py:52
+msgid "Course team user does not exist"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py:27
+msgid ""
+"The groups in this configuration can be mapped to cohorts in the Instructor "
+"Dashboard."
+msgstr ""
+"Các nhóm trong cấu hình này có thể được ánh xạ tới những nhóm người dùng "
+"trong Bảng thông tin Giảng viên"
+
+#: cms/djangoapps/contentstore/course_group_config.py:30
+msgid "Content Groups"
+msgstr "Nhóm Nội dung"
+
+#: cms/djangoapps/contentstore/course_group_config.py:65
+#: cms/djangoapps/contentstore/views/certificates.py:142
+msgid "invalid JSON"
+msgstr "JSON không hợp lệ."
+
+#: cms/djangoapps/contentstore/course_group_config.py:74
+msgid "must have name of the configuration"
+msgstr "phải có tên của cấu hình"
+
+#: cms/djangoapps/contentstore/course_group_config.py:76
+msgid "must have at least one group"
+msgstr "phải có ít nhất một nhóm"
+
+#: cms/djangoapps/contentstore/course_group_config.py:114
+msgid "unable to load this type of group configuration"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_info_model.py:73
+#: cms/djangoapps/contentstore/course_info_model.py:148
+msgid "Invalid course update id."
+msgstr "Mã số cập nhật của khóa học không hợp lệ."
+
+#: cms/djangoapps/contentstore/course_info_model.py:115
+msgid "Course update not found."
+msgstr "Không tìm thấy cập nhật khóa học."
+
+#: cms/djangoapps/contentstore/courseware_index.py:246
+msgid "Could not index item: {}"
+msgstr "Không thể lập chỉ mục mục: {}"
+
+#: cms/djangoapps/contentstore/courseware_index.py:268
+msgid "General indexing error occurred"
+msgstr "Đã xảy ra lỗi lập chỉ mục chung"
+
+#: cms/djangoapps/contentstore/courseware_index.py:352
+msgid "(Unnamed)"
+msgstr "(Chưa có tên)"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:39
+#, python-brace-format
+msgid ""
+"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
+"configure a different path with GIT_REPO_EXPORT_DIR"
+msgstr ""
+"GIT_REPO_EXPORT_DIR không được cài đặt hoặc đường dẫn {0} không tồn tại, "
+"phải tạo nó, hoặc cấu hình một đường dẫn khác bằng IT_REPO_EXPORT_DIR"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:42
+msgid ""
+"Non writable git url provided. Expecting something like: "
+"git@github.com:edx/edx4edx_lite.git"
+msgstr ""
+
+#: cms/djangoapps/contentstore/git_export_utils.py:44
+msgid ""
+"If using http urls, you must provide the username and password in the url. "
+"Similar to https://user:pass@github.com/user/course."
+msgstr ""
+"Nếu dùng đường dẫn http, bạn phải cung cấp tên tài khoản và mật khẩu trong "
+"đường dẫn. Giống như: https://user:pass@github.com/user/course."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:47
+msgid "Unable to determine branch, repo in detached HEAD mode"
+msgstr "Không thể xác định nhánh và kho trong chế độ detached HEAD"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:48
+msgid "Unable to update or clone git repository."
+msgstr "Không thể cập nhật hoặc sao kho git."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:49
+msgid "Unable to export course to xml."
+msgstr "Không thể xuất khóa học thành dạng xml."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:50
+msgid "Unable to configure git username and password"
+msgstr "Không thể cấu hình tên đăng nhập và mật khẩu git"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:51
+msgid ""
+"Unable to commit changes. This is usually because there are no changes to be"
+" committed"
+msgstr ""
+"Không thể thực hiện thay đổi. Điều này thường là bởi vì không có thay đổi "
+"gì."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:53
+msgid ""
+"Unable to push changes.  This is usually because the remote repository "
+"cannot be contacted"
+msgstr ""
+"Không thể cập nhật thay đổi. Điều này thường là bởi vì không thể liên lạc "
+"được với remote repository "
+
+#: cms/djangoapps/contentstore/git_export_utils.py:55
+msgid "Bad course location provided"
+msgstr "Địa chỉ bị lỗi"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:56
+msgid "Missing branch on fresh clone"
+msgstr "Thiếu nhánh trên fresh clone"
+
+#: cms/djangoapps/contentstore/management/commands/git_export.py:35
+msgid ""
+"Take the specified course and attempt to export it to a git repository\n"
+". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
+msgstr ""
+"Lấy khoá học và xuất vào kho git\n"
+". Thư mục của khóa học phải là một kho git. Cách sử dụng: git_export <course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/tasks.py:247
+#: cms/djangoapps/contentstore/tasks.py:378
+#, python-brace-format
+msgid "Unknown User ID: {0}"
+msgstr "Không biết ID người dùng: {0}"
+
+#: cms/djangoapps/contentstore/tasks.py:251
+#: cms/djangoapps/contentstore/tasks.py:382
+msgid "Permission denied"
+msgstr "Quyền bị từ chối"
+
+#: cms/djangoapps/contentstore/tasks.py:406
+#: cms/djangoapps/contentstore/views/import_export.py:134
+msgid "We only support uploading a .tar.gz file."
+msgstr "Chúng tôi chỉ hỗ trợ tải lên tập tin .tar.gz"
+
+#: cms/djangoapps/contentstore/tasks.py:419
+msgid "Tar file not found"
+msgstr "Không tìm thấy tệp tar"
+
+#: cms/djangoapps/contentstore/tasks.py:465
+msgid "Unsafe tar file. Aborting import."
+msgstr "Tệp tar không an toàn. Hủy nhập vào."
+
+#: cms/djangoapps/contentstore/tasks.py:498
+#, python-brace-format
+msgid "Could not find the {0} file in the package."
+msgstr "Không tìm thấy tệp {0} trong gói."
+
+#: cms/djangoapps/contentstore/utils.py:440
+msgid "Deleted Group"
+msgstr "Đã xóa Nhóm"
+
+#. Translators: This is building up a list of groups. It is marked for
+#. translation because of the
+#. comma, which is used as a separator between each group.
+#: cms/djangoapps/contentstore/utils.py:505
+#, python-brace-format
+msgid "{previous_groups}, {current_group}"
+msgstr "{previous_groups}, {current_group}"
+
+#: cms/djangoapps/contentstore/video_utils.py:44
+msgid "The image must have name, content type, and size information."
+msgstr "Hình ảnh phải có tên, loại nội dung và thông tin về kích thước."
+
+#: cms/djangoapps/contentstore/video_utils.py:46
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr ""
+"Loại tệp hình ảnh này không được hỗ trợ. Các loại tệp được hỗ trợ là "
+"{supported_file_formats}."
+
+#: cms/djangoapps/contentstore/video_utils.py:50
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr "Tệp hình ảnh này phải nhỏ hơn {image_max_size}."
+
+#: cms/djangoapps/contentstore/video_utils.py:54
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr "Tệp hình ảnh này phải lớn hơn {image_min_size}."
+
+#: cms/djangoapps/contentstore/video_utils.py:61
+#: cms/djangoapps/contentstore/video_utils.py:63
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr "Đã xảy ra sự cố với tệp hình ảnh này. Hãy thử tải lên một tệp khác."
+
+#: cms/djangoapps/contentstore/video_utils.py:66
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr ""
+"Độ phân giải hình ảnh được đề nghị là {image_file_max_width} x "
+"{image_file_max_height}. Độ phân giải tối thiểu là {image_file_min_width} x "
+"{image_file_min_height}."
+
+#: cms/djangoapps/contentstore/video_utils.py:74
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr ""
+"Tệp hình ảnh này phải có tỷ lệ khung hình là "
+"{video_image_aspect_ratio_text}."
+
+#: cms/djangoapps/contentstore/video_utils.py:81
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr ""
+"Tên tệp hình ảnh chỉ có thể chứa chữ cái, số, dấu nối (-) và dấu gạch dưới "
+"(_)."
+
+#: cms/djangoapps/contentstore/views/assets.py:431
+msgid "Upload completed"
+msgstr "Tải lên hoàn tất"
+
+#: cms/djangoapps/contentstore/views/assets.py:475
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr ""
+"Tệp {filename} vượt quá kích thước tối đa {maximum_size_in_megabytes} MB."
+
+#: cms/djangoapps/contentstore/views/certificates.py:165
+msgid "must have name of the certificate"
+msgstr "phải có tên của chứng chỉ"
+
+#: cms/djangoapps/contentstore/views/certificates.py:250
+#, python-brace-format
+msgid "Certificate dict {0} missing value key '{1}'"
+msgstr "Chứng chỉ dict {0} thiếu khóa giá trị '{1}'"
+
+#: cms/djangoapps/contentstore/views/certificates.py:355
+#: cms/djangoapps/contentstore/views/certificates.py:393
+#, python-brace-format
+msgid "PermissionDenied: Failed in authenticating {user}"
+msgstr "PermissionDenied: Không thể xác thực {user}"
+
+#: cms/djangoapps/contentstore/views/component.py:255
+#, python-brace-format
+msgid "{platform_name} Support Levels:"
+msgstr "{platform_name} Mức Hỗ trợ:"
+
+#: cms/djangoapps/contentstore/views/component.py:260
+msgid "HTML"
+msgstr "HTML"
+
+#: cms/djangoapps/contentstore/views/component.py:261
+msgid "Problem"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py:262
+msgid "Video"
+msgstr "Video"
+
+#: cms/djangoapps/contentstore/views/component.py:290
+msgid "Blank"
+msgstr "Trống "
+
+#: cms/djangoapps/contentstore/views/course.py:340
+msgid "Course has been successfully reindexed."
+msgstr "Khóa học đã được lập chỉ mục lại."
+
+#: cms/djangoapps/contentstore/views/course.py:645
+msgid "Set Date"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/course.py:820
+msgid ""
+"Special characters not allowed in organization, course number, and course "
+"run."
+msgstr ""
+"Không dùng các kí tự đặc biệt trong tên tổ chức, mã số khóa học, và thời "
+"gian diễn ra khóa học."
+
+#: cms/djangoapps/contentstore/views/course.py:856
+msgid ""
+"There is already a course defined with the same organization and course "
+"number. Please change either organization or course number to be unique."
+msgstr ""
+"Đã có một khoá học có trùng tên tổ chức và mã số. Xin vui lòng đổi tên tổ "
+"chức hoặc mã số khoá học để phân biệt khoá học này."
+
+#: cms/djangoapps/contentstore/views/course.py:861
+#: cms/djangoapps/contentstore/views/course.py:864
+msgid ""
+"Please change either the organization or course number so that it is unique."
+msgstr ""
+"Vui lòng đổi tên tổ chức hoặc mã số khóa học để phân biệt với khóa học khác."
+
+#: cms/djangoapps/contentstore/views/course.py:869
+#, python-brace-format
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"Không thể tạo khóa học '{name}'.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/course.py:882
+msgid ""
+"You must link this course to an organization in order to continue. "
+"Organization you selected does not exist in the system, you will need to add"
+" it to the system"
+msgstr ""
+"Bạn phải liên kết khóa học này với một tổ chức để tiếp tục. Tổ chức mà bạn "
+"chọn không tồn tại trong hệ thống, bạn sẽ cần phải thêm nó vào hệ thống"
+
+#: cms/djangoapps/contentstore/views/course.py:1168
+msgid "Invalid prerequisite course key"
+msgstr "Khóa điều kiện bắt buộc không hợp lệ"
+
+#: cms/djangoapps/contentstore/views/course.py:1373
+msgid "An error occurred while trying to save your tabs"
+msgstr "Đã xảy ra lỗi khi cố gắng lưu các tab của bạn"
+
+#: cms/djangoapps/contentstore/views/course.py:1374
+msgid "Tabs Exception"
+msgstr "Ngoại lệ Tab"
+
+#: cms/djangoapps/contentstore/views/course.py:1601
+msgid "This group configuration is in use and cannot be deleted."
+msgstr "Cấu hình nhóm này đang được sử dụng và không thể bị xóa."
+
+#: cms/djangoapps/contentstore/views/course.py:1615
+msgid "This content group is in use and cannot be deleted."
+msgstr "Nhóm nội dung này đang được sử dụng và không thể bị xóa."
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:159
+msgid "Entrance Exam - Subsection"
+msgstr "Kiểm tra đầu vào - Mục con"
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:253
+msgid "Completed Course Entrance Exam"
+msgstr "Đã hoàn thành Bài kiểm tra đầu vào Khoá học"
+
+#: cms/djangoapps/contentstore/views/export_git.py:48
+msgid "Course successfully exported to git repository"
+msgstr "Xuất thành công khoá học vào kho git"
+
+#: cms/djangoapps/contentstore/views/helpers.py:135
+msgid "Vertical"
+msgstr "Xếp dọc"
+
+#: cms/djangoapps/contentstore/views/helpers.py:139
+msgid "Section"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/helpers.py:141
+msgid "Subsection"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/import_export.py:172
+msgid "File upload corrupted. Please try again"
+msgstr "Tập tin tải lên bị hỏng. Vui lòng thử lại"
+
+#: cms/djangoapps/contentstore/views/item.py:237
+#: cms/djangoapps/contentstore/views/item.py:725
+#, python-brace-format
+msgid "Libraries cannot have more than {limit} components"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:625
+msgid "Invalid data"
+msgstr "Dữ liệu không hợp lệ"
+
+#: cms/djangoapps/contentstore/views/item.py:627
+#, python-brace-format
+msgid "Invalid data ({details})"
+msgstr "Dữ liệu không hợp lệ ({details})"
+
+#: cms/djangoapps/contentstore/views/item.py:817
+#, python-brace-format
+msgid "You can not move {source_type} into {target_parent_type}."
+msgstr "Bạn không thể di chuyển {source_type} vào {target_parent_type}."
+
+#: cms/djangoapps/contentstore/views/item.py:822
+msgid "Item is already present in target location."
+msgstr "Mục đã có trong vị trí đích."
+
+#: cms/djangoapps/contentstore/views/item.py:824
+msgid "You can not move an item into itself."
+msgstr "Bạn không thể di chuyển một mục vào chính nó."
+
+#: cms/djangoapps/contentstore/views/item.py:826
+msgid "You can not move an item into it's child."
+msgstr "Bạn không thể di chuyển một mục vào mục con của nó."
+
+#: cms/djangoapps/contentstore/views/item.py:828
+msgid "You can not move an item directly into content experiment."
+msgstr "Bạn không thể di chuyển một mục trực tiếp vào thử nghiệm nội dung."
+
+#: cms/djangoapps/contentstore/views/item.py:830
+#, python-brace-format
+msgid "{source_usage_key} not found in {parent_usage_key}."
+msgstr "{source_usage_key} không tìm thấy trong {parent_usage_key}."
+
+#: cms/djangoapps/contentstore/views/item.py:838
+#, python-brace-format
+msgid ""
+"You can not move {source_usage_key} at an invalid index ({target_index})."
+msgstr ""
+"Bạn không thể di chuyển {source_usage_key} tại một chỉ mục không hợp lệ "
+"({target_index})."
+
+#: cms/djangoapps/contentstore/views/item.py:843
+#, python-brace-format
+msgid "You must provide target_index ({target_index}) as an integer."
+msgstr "Bạn phải nhập target_index ({target_index}) là một số nguyên."
+
+#: cms/djangoapps/contentstore/views/item.py:902
+#, python-brace-format
+msgid "Duplicate of {0}"
+msgstr "Sao chép của {0}"
+
+#: cms/djangoapps/contentstore/views/item.py:904
+#, python-brace-format
+msgid "Duplicate of '{0}'"
+msgstr "Sao chép của '{0}'"
+
+#. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
+#. in many languages. This is used to avoid Transifex's misinterpreting of
+#. '% o'. The percent sign is also translatable as a standalone string.
+#: cms/djangoapps/contentstore/views/item.py:1204
+#, python-brace-format
+msgid ""
+"Students must score {score}{pct_sign} or higher to access course materials."
+msgstr ""
+"Học sinh phải đạt điểm {score} {pct_sign} hoặc cao hơn để truy cập tài liệu "
+"khóa học."
+
+#. Translators: This is the percent sign. It will be used to represent
+#. a percent value out of 100, e.g. "58%" means "58/100".
+#: cms/djangoapps/contentstore/views/item.py:1208
+msgid "%"
+msgstr "%"
+
+#: cms/djangoapps/contentstore/views/item.py:1580
+#, python-brace-format
+msgid "{section_or_subsection} \"{display_name}\""
+msgstr "{section_or_subsection} \"{display_name}\""
+
+#: cms/djangoapps/contentstore/views/library.py:185
+#, python-brace-format
+msgid "Unable to create library - missing required field '{field}'"
+msgstr "Không thể tạo thư viện - thiếu trường bắt buộc '{field}'"
+
+#: cms/djangoapps/contentstore/views/library.py:190
+#, python-brace-format
+msgid ""
+"Unable to create library '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"Không thể tạo thư viện '{name}'.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/library.py:196
+msgid ""
+"There is already a library defined with the same organization and library "
+"code. Please change your library code so that it is unique within your "
+"organization."
+msgstr ""
+"Đã có một thư viện được xác định với cùng một tổ chức và mã thư viện. Xin "
+"vui lòng thay đổi mã thư viện của bạn để nó là duy nhất trong tổ chức của "
+"bạn."
+
+#: cms/djangoapps/contentstore/views/preview.py:288
+#, python-brace-format
+msgid "Access restricted to: {list_of_groups}"
+msgstr "Bị hạn chế truy cập vào: {list_of_groups}"
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py:126
+msgid "The information you entered is incorrect."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:149
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:469
+msgid "Transcripts are supported only for \"video\" modules."
+msgstr "Bảng điểm chỉ được hỗ trợ cho \"video\" mô-đun."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:151
+msgid "Cannot find item by locator."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:172
+msgid "Video locator is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:176
+msgid "This transcript file type is not supported."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:178
+msgid "Video ID is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:461
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:503
+msgid "Incoming video data is empty."
+msgstr "Không có dữ liệu video vào."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:466
+msgid "Can't find item by locator."
+msgstr "Không thể tìm thấy mục bằng định vị."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:552
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:591
+msgid "No such transcript."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:562
+msgid "There is a problem with the chosen transcript file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:602
+msgid ""
+"There is a problem with the existing transcript file. Please upload a "
+"different file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:622
+msgid "YouTube ID is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:639
+msgid "There is a problem with the YouTube transcript file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/user.py:108
+msgid "Insufficient permissions"
+msgstr "Không đủ quyền"
+
+#: cms/djangoapps/contentstore/views/user.py:120
+#, python-brace-format
+msgid "Could not find user by email address '{email}'."
+msgstr "Không tìm thấy thành viên với địa chỉ email '{email}'."
+
+#: cms/djangoapps/contentstore/views/user.py:159
+msgid "No `role` specified."
+msgstr "Không xác định `vai trò` nào."
+
+#: cms/djangoapps/contentstore/views/user.py:164
+#, python-brace-format
+msgid "User {email} has registered but has not yet activated his/her account."
+msgstr "Người dùng {email} đã đăng ký nhưng vẫn chưa kích hoạt tài khoản."
+
+#: cms/djangoapps/contentstore/views/user.py:185
+msgid "Invalid `role` specified."
+msgstr "Đã xác định `vai trò` không hợp lệ."
+
+#: cms/djangoapps/contentstore/views/user.py:189
+msgid "You may not remove the last Admin. Add another Admin first."
+msgstr ""
+"Bạn không thể xóa Người quản trị cuối cùng. Thêm Quản trị viên khác trước "
+"đã."
+
+#. Translators: This is the status of an active video upload
+#: cms/djangoapps/contentstore/views/videos.py:148
+msgid "Uploading"
+msgstr "tải lên"
+
+#. Translators: This is the status for a video that the servers are currently
+#. processing
+#: cms/djangoapps/contentstore/views/videos.py:150
+msgid "In Progress"
+msgstr "Trong tiến trình"
+
+#. Translators: This is the status for a video that the servers have
+#. successfully processed
+#: cms/djangoapps/contentstore/views/videos.py:152
+msgid "Ready"
+msgstr "Sẳn sàng"
+
+#. Translators: This is the status for a video that is uploaded completely
+#: cms/djangoapps/contentstore/views/videos.py:154
+msgid "Uploaded"
+msgstr "Đã tải lên"
+
+#. Translators: This is the status for a video that the servers have failed to
+#. process
+#: cms/djangoapps/contentstore/views/videos.py:156
+msgid "Failed"
+msgstr "Thất bại"
+
+#. Translators: This is the status for a video that is cancelled during upload
+#. by user
+#: cms/djangoapps/contentstore/views/videos.py:158
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. Translators: This is the status for a video which has failed
+#. due to being flagged as a duplicate by an external or internal CMS
+#: cms/djangoapps/contentstore/views/videos.py:161
+msgid "Failed Duplicate"
+msgstr "Không thể trùng lặp"
+
+#. Translators: This is the status for a video which has duplicate token for
+#. youtube
+#: cms/djangoapps/contentstore/views/videos.py:163
+msgid "YouTube Duplicate"
+msgstr "Trùng lặp trên YouTube"
+
+#. Translators: This is the status for a video for which an invalid
+#. processing token was provided in the course settings
+#: cms/djangoapps/contentstore/views/videos.py:166
+msgid "Invalid Token"
+msgstr "Mã không hợp lệ"
+
+#. Translators: This is the status for a video that was included in a course
+#. import
+#: cms/djangoapps/contentstore/views/videos.py:168
+msgid "Imported"
+msgstr "Đã nhập"
+
+#. Translators: This is the status for a video that is in an unknown state
+#: cms/djangoapps/contentstore/views/videos.py:170
+msgid "Unknown"
+msgstr "Không biết"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py:172
+msgid "Transcription in Progress"
+msgstr "Đang tiến hành Dịch"
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py:174
+msgid "Transcript Ready"
+msgstr "Bản dịch Sẵn sàng"
+
+#. Translators: This is the status for a video whose transcription job was
+#. failed for some languages
+#: cms/djangoapps/contentstore/views/videos.py:176
+msgid "Partial Failure"
+msgstr ""
+
+#. Translators: This is the status for a video whose transcription job has
+#. failed altogether
+#: cms/djangoapps/contentstore/views/videos.py:178
+msgid "Transcript Failed"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/videos.py:263
+msgid "An image file is required."
+msgstr "Cần có tệp hình ảnh."
+
+#. Translators: This is the header for a CSV file column
+#. containing URLs for video encodings for the named profile
+#. (e.g. desktop, mobile high quality, mobile low quality)
+#: cms/djangoapps/contentstore/views/videos.py:422
+#, python-brace-format
+msgid "{profile_name} URL"
+msgstr "{profile_name} URL"
+
+#: cms/djangoapps/contentstore/views/videos.py:428
+msgid "Duration"
+msgstr "Thời lượng"
+
+#: cms/djangoapps/contentstore/views/videos.py:429
+msgid "Date Added"
+msgstr "Ngày Thêm Vào"
+
+#. Translators: This is the suggested filename when downloading the URL
+#. listing for videos uploaded through Studio
+#: cms/djangoapps/contentstore/views/videos.py:467
+#, python-brace-format
+msgid "{course}_video_urls"
+msgstr "{course}_video_urls"
+
+#: cms/djangoapps/contentstore/views/videos.py:901
+msgid "A non zero positive integer is expected"
+msgstr ""
+
+#: cms/djangoapps/course_creators/models.py:38
+msgid "unrequested"
+msgstr "chưa yêu cầu"
+
+#: cms/djangoapps/course_creators/models.py:39
+msgid "pending"
+msgstr "đang đợi"
+
+#: cms/djangoapps/course_creators/models.py:40
+msgid "granted"
+msgstr "đã chấp thuận"
+
+#: cms/djangoapps/course_creators/models.py:41
+msgid "denied"
+msgstr "bị từ chối"
+
+#: cms/djangoapps/course_creators/models.py:44
+msgid "Studio user"
+msgstr "Người dùng Studio"
+
+#: cms/djangoapps/course_creators/models.py:46
+msgid "The date when state was last updated"
+msgstr "Thời gian trạng thái được cập nhật lần cuối"
+
+#: cms/djangoapps/course_creators/models.py:48
+msgid "Current course creator state"
+msgstr "Trạng thái hiện tại của người tạo khóa học"
+
+#: cms/djangoapps/course_creators/models.py:49
+msgid ""
+"Optional notes about this user (for example, why course creation access was "
+"denied)"
+msgstr ""
+"Các ghi chú tùy chọn về thành viên này (ví dụ, tại sao việc truy cập vào "
+"tiến trình tạo khóa học bị từ chối)"
+
+#: cms/djangoapps/maintenance/views.py:37
+msgid "Force Publish Course"
+msgstr "Bắt buộc Xuất bản Khóa học"
+
+#: cms/djangoapps/maintenance/views.py:40
+msgid ""
+"Sometimes the draft and published branches of a course can get out of sync. "
+"Force publish course command resets the published branch of a course to "
+"point to the draft branch, effectively force publishing the course. This "
+"view dry runs the force publish command"
+msgstr ""
+"Đôi khi những phần dự thảo và đã xuất bản của một khóa học có thể không đồng"
+" bộ. Lệnh Bắt buộc xuất bản khoá học thiết lập lại phần đã xuất bản của khoá"
+" học để trỏ đến phần dự thảo, có tác dụng bắt buộc xuất bản khóa học. Chế độ"
+" xem này bắt buộc chạy lệnh xuất bản"
+
+#: cms/djangoapps/maintenance/views.py:47
+msgid "Edit Announcements"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:50
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:58
+msgid "Please provide course id."
+msgstr "Vui lòng cung cấp id khóa học."
+
+#: cms/djangoapps/maintenance/views.py:59
+msgid "Invalid course key."
+msgstr "Mã khoá học không đúng"
+
+#: cms/djangoapps/maintenance/views.py:60
+msgid "No matching course found."
+msgstr "Không tìm thấy khóa học phù hợp."
+
+#: cms/djangoapps/maintenance/views.py:201
+msgid "Force publishing course is not supported with old mongo courses."
+msgstr ""
+"Bắt buộc xuất bản khoá học không được hỗ trợ với các khóa học mango cũ."
+
+#: cms/djangoapps/maintenance/views.py:215
+msgid "Course is already in published state."
+msgstr "Khóa học có trạng thái đã xuất bản."
+
+#: cms/djangoapps/models/settings/course_metadata.py:212
+#, python-brace-format
+msgid "Incorrect format for field '{name}'. {detailed_message}"
+msgstr "Định dạng không đúng cho '{name}'. {detailed_message}"
+
+#: cms/lib/xblock/tagging/tagging.py:25
+msgid "Dictionary with the available tags"
+msgstr "Từ điển với các tag có sẵn"
+
+#: cms/urls.py:24
+msgid "Studio Administration"
+msgstr "Quản Trị Studio"

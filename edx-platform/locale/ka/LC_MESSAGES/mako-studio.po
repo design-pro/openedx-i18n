@@ -1,0 +1,3635 @@
+# edX community translations have been downloaded from Georgian (http://www.transifex.com/open-edx/edx-platform/language/ka/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Giorgi Goderdzishvili <biggeorgian@gmail.com>, 2016
+# Giorgi Goderdzishvili <biggeorgian@gmail.com>, 2017
+# Lasha Kokilashvili, 2018
+# Salome Gegeshidze <geges0@bp.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2020-07-12 20:45+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Georgian (http://www.transifex.com/open-edx/edx-platform/language/ka/)\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: cms/templates/404.html:19
+msgid "The page that you were looking for was not found."
+msgstr "გვერდი, რომელსაც ეძებდით, ვერ მოიძებნა."
+
+#: cms/templates/404.html:20
+msgid "Go back to the {homepage}."
+msgstr ""
+
+#: cms/templates/500.html:8
+msgid "{studio_name} Server Error"
+msgstr "{studio_name} სერვერის შეცდომა"
+
+#: cms/templates/500.html:19
+msgid "The {em_start}{studio_name}{em_end} servers encountered an error"
+msgstr "{em_start}{studio_name}{em_end} სერვერების შეცდომა"
+
+#: cms/templates/500.html:28
+msgid ""
+"An error occurred in {studio_name} and the page could not be loaded. Please "
+"try again in a few moments."
+msgstr ""
+" {studio_name}-ის შეცდომის გამო ვერ ხერხდება გვერდის ჩატვირთვა. გთხოვთ, "
+"სცადოთ ცოტა ხანში."
+
+#: cms/templates/500.html:31
+msgid ""
+"We've logged the error and our staff is currently working to resolve this "
+"error as soon as possible."
+msgstr ""
+"შეცდომა აღრიცხულია. ჩვენი თანამშრომლები მის შეძლებისდაგვარად მოკლე დროში "
+"აღმოფხვრაზე მუშაობენ."
+
+#: cms/templates/accessibility.html:10
+msgid "Studio Accessibility Policy"
+msgstr ""
+
+#: cms/templates/asset_index.html:10 cms/templates/asset_index.html:28
+#: cms/templates/widgets/header.html:70
+msgid "Files & Uploads"
+msgstr "ფაილები და ატვირთვები"
+
+#: cms/templates/certificates.html:16
+msgid "Course Certificates"
+msgstr "კურსის სერტიფიკატი"
+
+#: cms/templates/certificates.html:58 cms/templates/certificates.html:68
+#: cms/templates/certificates.html:91 cms/templates/export.html:217
+#: cms/templates/widgets/header.html:113
+msgid "Certificates"
+msgstr "სერტიფიკატები"
+
+#: cms/templates/certificates.html:72
+msgid "This module is not enabled."
+msgstr "ეს მოდული არ არის გაააქტიურებული."
+
+#: cms/templates/certificates.html:78
+msgid "This course does not use a mode that offers certificates."
+msgstr "ამ კურსზე სერტიფიკატი არ გაიცემა."
+
+#: cms/templates/certificates.html:92
+msgid "Working with Certificates"
+msgstr "მიმდინარეობს სერტიფიკატებზე მუშაობა"
+
+#: cms/templates/certificates.html:93
+msgid ""
+"Specify a course title to use on the certificate if the course's official "
+"title is too long to be displayed well."
+msgstr ""
+"მიუთითეთ კურსის მოკლე დასახელება, რომელიც გამოჩნდება სერტიფიკატზე, თუ კურსის"
+" სრული სახელი მასზე კარგად არ თავსდება."
+
+#: cms/templates/certificates.html:94
+msgid ""
+"For verified certificates, specify between one and four signatories and "
+"upload the associated images."
+msgstr ""
+"დამოწმებული სერტიფიკატებისთვის მიუთითეთ ერთიდან ოთხ ხელმომწერამდე და "
+"ატვირთეთ შესაბამისი გამოსახულებები."
+
+#: cms/templates/certificates.html:95
+msgid ""
+"To edit or delete a certificate before it is activated, hover over the top "
+"right corner of the form and select {em_start}Edit{em_end} or the delete "
+"icon."
+msgstr ""
+"სერტიფიკატის აქტივაციამდე მისი რედაქტირების ან წაშლის მიზნით, ფორმის ზედა "
+"მარჯვენა კუთხეში აირჩიეთ {em_start}რედაქტირება{em_end}, ან წაშლის ღილაკი."
+
+#: cms/templates/certificates.html:96
+msgid ""
+"To view a sample certificate, choose a course mode and select "
+"{em_start}Preview Certificate{em_end}."
+msgstr ""
+"სერტიფიკატის ნიმუშის სანახავად აირჩიეთ კურსი და მონიშნეთ "
+"{em_start}სერტიფიკატის გადახედვა{em_end}."
+
+#: cms/templates/certificates.html:98
+msgid "Issuing Certificates to Learners"
+msgstr "მიმდინარეობს მსმენელთათვის სერტიფიკატების გაცემა"
+
+#: cms/templates/certificates.html:99
+msgid ""
+"To begin issuing course certificates, a course team member with either the "
+"Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
+"members with these roles can edit or delete an activated certificate."
+msgstr ""
+
+#: cms/templates/certificates.html:100
+msgid ""
+"{em_start}Do not{em_end} delete certificates after a course has started; "
+"learners who have already earned certificates will no longer be able to "
+"access them."
+msgstr ""
+"{em_start}არ{em_end} წაშალოთ სერტიფიკატები კურსის დაწყების შემდეგ; უკვე "
+"სერტიფიკატიან მსმენელებს მათზე წვდომა აღარ ექნებათ."
+
+#: cms/templates/certificates.html:101
+msgid "Learn more about certificates"
+msgstr "გაიგეთ მეტი სერტიფიკატების შესახებ"
+
+#: cms/templates/certificates.html:113 cms/templates/certificates.html:114
+#: cms/templates/group_configurations.html:124
+#: cms/templates/group_configurations.html:125 cms/templates/settings.html:665
+#: cms/templates/settings.html:666 cms/templates/settings_advanced.html:105
+#: cms/templates/settings_advanced.html:106
+#: cms/templates/settings_graders.html:162
+#: cms/templates/settings_graders.html:163
+msgid "Other Course Settings"
+msgstr "კურსის სხვა პარამეტრები"
+
+#: cms/templates/certificates.html:116
+#: cms/templates/group_configurations.html:127
+#: cms/templates/settings_advanced.html:108
+#: cms/templates/settings_graders.html:165
+msgid "Details & Schedule"
+msgstr "დეტალები და განრიგი"
+
+#: cms/templates/certificates.html:117
+#: cms/templates/group_configurations.html:128 cms/templates/settings.html:668
+#: cms/templates/settings_advanced.html:109
+#: cms/templates/settings_graders.html:46 cms/templates/widgets/header.html:95
+msgid "Grading"
+msgstr "შეფასება"
+
+#: cms/templates/certificates.html:118
+#: cms/templates/group_configurations.html:129
+#: cms/templates/manage_users.html:30 cms/templates/settings.html:669
+#: cms/templates/settings_advanced.html:110
+#: cms/templates/settings_graders.html:166
+#: cms/templates/widgets/header.html:98
+msgid "Course Team"
+msgstr "კურსის გუნდი"
+
+#: cms/templates/certificates.html:119
+#: cms/templates/group_configurations.html:130 cms/templates/settings.html:671
+#: cms/templates/settings_advanced.html:15
+#: cms/templates/settings_advanced.html:41
+#: cms/templates/settings_graders.html:168
+#: cms/templates/widgets/header.html:109
+msgid "Advanced Settings"
+msgstr "დამატებითი პარამეტრები"
+
+#: cms/templates/certificates.html:120
+#: cms/templates/group_configurations.html:18
+#: cms/templates/group_configurations.html:47 cms/templates/settings.html:670
+#: cms/templates/settings_advanced.html:111
+#: cms/templates/settings_graders.html:167
+#: cms/templates/widgets/header.html:101
+msgid "Group Configurations"
+msgstr "ჯგუფის კონფიგურაცია"
+
+#: cms/templates/certificates.html:122
+#: cms/templates/group_configurations.html:132 cms/templates/settings.html:673
+#: cms/templates/settings_advanced.html:113
+#: cms/templates/settings_graders.html:170
+#: cms/templates/widgets/header.html:105
+msgid "Proctored Exam Settings"
+msgstr ""
+
+#: cms/templates/checklists.html:15 cms/templates/checklists.html:33
+#: cms/templates/widgets/header.html:143
+msgid "Checklists"
+msgstr ""
+
+#: cms/templates/checklists.html:32 cms/templates/export.html:43
+#: cms/templates/export_git.html:18 cms/templates/import.html:32
+#: cms/templates/widgets/header.html:127 cms/templates/widgets/header.html:184
+msgid "Tools"
+msgstr "ხელსაწყოები"
+
+#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:94
+#: cms/templates/studio_xblock_wrapper.html:96
+msgid "Duplicate"
+msgstr "ასლის შექმნა"
+
+#: cms/templates/component.html:19
+msgid "Duplicate this component"
+msgstr "კომპონენტის ასლის შექმნა"
+
+#: cms/templates/component.html:23 cms/templates/component.html:28
+#: cms/templates/studio_xblock_wrapper.html:102
+#: cms/templates/studio_xblock_wrapper.html:107
+msgid "Move"
+msgstr ""
+
+#: cms/templates/component.html:32
+#: cms/templates/studio_xblock_wrapper.html:115
+#: cms/templates/studio_xblock_wrapper.html:117
+msgid "Delete"
+msgstr "წაშლა"
+
+#: cms/templates/component.html:34
+msgid "Delete this component"
+msgstr "კომპონენტის წაშლა"
+
+#: cms/templates/component.html:39 cms/templates/edit-tabs.html:117
+#: cms/templates/edit-tabs.html:118
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid "Drag to reorder"
+msgstr "გადააჩოჩეთ დასახარისხებლად"
+
+#: cms/templates/container.html:116 cms/templates/library.html:51
+msgid "Display Name"
+msgstr "ხილვადი სახელი"
+
+#: cms/templates/container.html:123 cms/templates/container.html:124
+#: cms/templates/course-create-rerun.html:32
+#: cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:43
+#: cms/templates/course_info.html:44 cms/templates/course_outline.html:128
+#: cms/templates/course_outline.html:129 cms/templates/edit-tabs.html:37
+#: cms/templates/edit-tabs.html:38 cms/templates/index.html:29
+#: cms/templates/index.html:30 cms/templates/library.html:56
+#: cms/templates/library.html:57 cms/templates/manage_users.html:33
+#: cms/templates/manage_users.html:34 cms/templates/manage_users_lib.html:32
+#: cms/templates/manage_users_lib.html:33 cms/templates/textbooks.html:45
+#: cms/templates/textbooks.html:46 cms/templates/videos_index.html:62
+#: cms/templates/videos_index.html:63
+msgid "Page Actions"
+msgstr "გვერდის ოპერაციები"
+
+#: cms/templates/container.html:128
+msgid "Open the courseware in the LMS"
+msgstr "გახსენით LMS-ში კურსზე გადასვლა"
+
+#: cms/templates/container.html:129
+msgid "View Live Version"
+msgstr "მიმდინარე ვერსიის ნახვა"
+
+#: cms/templates/container.html:133
+msgid "Preview the courseware in the LMS"
+msgstr "კურსის გადახედვა LMS-ში"
+
+#: cms/templates/container.html:134
+msgid "Preview"
+msgstr "გადახედვა"
+
+#: cms/templates/container.html:166
+msgid "Adding components"
+msgstr "კომპონენტების დამატება"
+
+#: cms/templates/container.html:167
+msgid ""
+"Select a component type under {strong_start}Add New Component{strong_end}. "
+"Then select a template."
+msgstr ""
+"აირჩიეთ კომპონენტის ტიპი {strong_start}ახალი კომპონენტის "
+"დამატება{strong_end}-ში. შემდეგ შეარჩიეთ ნიმუში."
+
+#: cms/templates/container.html:171
+msgid ""
+"The new component is added at the bottom of the page or group. You can then "
+"edit and move the component."
+msgstr ""
+"ჯგუფის ან გვერდის ქვედა ნაწილში დაემატა ახალი კომპონენტი. თქვენ შეგიძლიათ "
+"კომპონენტის რედაქტირება და გადაადგილება."
+
+#: cms/templates/container.html:172
+msgid "Editing components"
+msgstr "მიმდინარეობს კომპონენტების რედაქტირება"
+
+#: cms/templates/container.html:173
+msgid ""
+"Click the {strong_start}Edit{strong_end} icon in a component to edit its "
+"content."
+msgstr ""
+"კომპონენტის შინაარსის რედაქტირებისთვის დააწკაპუნეთ ღილაკზე "
+"{strong_start}რედაქტირება{strong_end}."
+
+#: cms/templates/container.html:177
+msgid "Reorganizing components"
+msgstr "მიმდინარეობს კომპონენტების რეორგანიზაცია"
+
+#: cms/templates/container.html:178
+msgid "Drag components to new locations within this component."
+msgstr "გადაათრიეთ კომპონენტები ახალ ადგილზე, ამ კომპონენტის ფარგლებში."
+
+#: cms/templates/container.html:179
+msgid "For content experiments, you can drag components to other groups."
+msgstr ""
+"ექსპერიმენტული შინაარსისთვის, შეგიძლიათ კომპონენტის სხვა ჯგუფებში გადატანა."
+
+#: cms/templates/container.html:180
+msgid "Working with content experiments"
+msgstr "ექსპერიმენტულ შინაარსზე მუშაობა"
+
+#: cms/templates/container.html:181
+msgid ""
+"Confirm that you have properly configured content in each of your experiment"
+" groups."
+msgstr ""
+"დაადასტურეთ, რომ სათანადოდ გამართეთ შინაარსის კონფიგურაცია თითოეულ "
+"ექსპერიმენტულ ჯგუფში."
+
+#: cms/templates/container.html:184
+msgid "Learn more about component containers"
+msgstr "გაიგეთ მეტი კომპონენტის მოდულებზე"
+
+#: cms/templates/container.html:190
+msgid "Unit Location"
+msgstr "ბლოკის ადგილმდებარეობა"
+
+#: cms/templates/container.html:192
+msgid "Location ID"
+msgstr "ადგილმდებარეობის ID"
+
+#: cms/templates/container.html:195
+msgid ""
+"To create a link to this unit from an HTML component in this course, enter "
+"\"/jump_to_id/<location ID>\" as the URL value."
+msgstr ""
+
+#: cms/templates/course-create-rerun.html:10
+msgid "Create a Course Rerun of:"
+msgstr "არსებული კურსის საფუძველზე შექმნა ახალი:"
+
+#: cms/templates/course-create-rerun.html:29
+msgid "Create a re-run of a course"
+msgstr "კურსის ხელახალი გაშვების შექმნა"
+
+#: cms/templates/course-create-rerun.html:36
+#: cms/templates/course-create-rerun.html:121 cms/templates/index.html:123
+#: cms/templates/index.html:183 cms/templates/manage_users.html:70
+#: cms/templates/manage_users_lib.html:69
+#: cms/templates/videos_index_pagination.html:15
+msgid "Cancel"
+msgstr ""
+
+#: cms/templates/course-create-rerun.html:42
+msgid "You are creating a re-run from:"
+msgstr "თქვენ ქმნით ახალ გაშვებას არსებულის საფუძველზე:"
+
+#: cms/templates/course-create-rerun.html:56
+msgid ""
+"Provide identifying information for this re-run of the course. The original "
+"course is not affected in any way by a re-run."
+msgstr ""
+"მიუთითეთ კურსის ხელახალი გაშვების საიდენტიფიკაციო ინფორმაცია. ხელახალი "
+"გაშვება არ მოქმედებს კურსის ორიგინალურ ვერსიაზე. "
+
+#: cms/templates/course-create-rerun.html:57
+msgid ""
+"Note: Together, the organization, course number, and course run must "
+"uniquely identify this new course instance."
+msgstr ""
+"შენიშვნა: ორგანიზაცია, კურსის ნომერი, კურსის გაშვება - ყველაფერი ერთად უნდა "
+"ახდენდეს კურსის ახალი ასლის იდენტიფიკაციას."
+
+#: cms/templates/course-create-rerun.html:72
+msgid "Required Information to Create a re-run of a course"
+msgstr "კურსის ხელახალი გაშვებისთვის აუცილებელი ინფორმაცია"
+
+#. Translators: This is an example name for a new course, seen when
+#. filling out the form to create a new course.
+#: cms/templates/course-create-rerun.html:77 cms/templates/index.html:75
+msgid "e.g. Introduction to Computer Science"
+msgstr "მაგ. კომპიუტერული მეცნიერების შესავალი"
+
+#: cms/templates/course-create-rerun.html:79
+msgid ""
+"The public display name for the new course. (This name is often the same as "
+"the original course name.)"
+msgstr ""
+"ახალი კურსის საჯაროდ ხილვადი სახელი. (ხშირად ის კურსის საწყის სახელს "
+"ემთხვევა.)"
+
+#: cms/templates/course-create-rerun.html:84 cms/templates/index.html:80
+#: cms/templates/index.html:156 cms/templates/settings.html:72
+msgid "Organization"
+msgstr "ორგანიზაცია"
+
+#. Translators: This is an example for the name of the organization sponsoring
+#. a course, seen when filling out the form to create a new course. The
+#. organization name cannot contain spaces.
+#. Translators: "e.g. UniversityX or OrganizationX" is a placeholder displayed
+#. when user put no data into this field.
+#: cms/templates/course-create-rerun.html:85 cms/templates/index.html:83
+#: cms/templates/index.html:157
+msgid "e.g. UniversityX or OrganizationX"
+msgstr "მაგ. X უნივერსიტეტი ან X ორგანიზაცია"
+
+#: cms/templates/course-create-rerun.html:87
+msgid ""
+"The name of the organization sponsoring the new course. (This name is often "
+"the same as the original organization name.)"
+msgstr ""
+"ორგანიზაციის სახელი, რომელიც ასპონსორებს ახალ კურსს. (ხშირად ეს სახელი "
+"ემთხვევა ორგანიზაციის საწყის სახელს.)"
+
+#: cms/templates/course-create-rerun.html:88
+#: cms/templates/course-create-rerun.html:108
+msgid "Note: No spaces or special characters are allowed."
+msgstr "შენიშვნა: ჰარი ან სპეციალური სიმბოლოები ნებადართული არ არის."
+
+#. Translators: This is an example for the number used to identify a course,
+#. seen when filling out the form to create a new course. The number here is
+#. short for "Computer Science 101". It can contain letters but cannot contain
+#. spaces.
+#: cms/templates/course-create-rerun.html:96 cms/templates/index.html:96
+msgid "e.g. CS101"
+msgstr "მაგ. CS101"
+
+#: cms/templates/course-create-rerun.html:98
+msgid ""
+"The unique number that identifies the new course within the organization.  "
+"(This number will be the same as the original course number and cannot be "
+"changed.)"
+msgstr ""
+
+#: cms/templates/course-create-rerun.html:104 cms/templates/index.html:105
+#: cms/templates/settings.html:84
+msgid "Course Run"
+msgstr "კურსის გაშვება"
+
+#. Translators: This is an example for the "run" used to identify different
+#. instances of a course, seen when filling out the form to create a new
+#. course.
+#: cms/templates/course-create-rerun.html:105 cms/templates/index.html:108
+msgid "e.g. 2014_T1"
+msgstr "მაგ. 2014_T1"
+
+#: cms/templates/course-create-rerun.html:107
+msgid ""
+"The term in which the new course will run. (This value is often different "
+"than the original course run value.)"
+msgstr ""
+"ახალი კურსის გაშვების პირობები. (ხშირად, იგი განსხვავდება კურსის საწყისი "
+"გაშვების მნიშვნელობისგან.)"
+
+#: cms/templates/course-create-rerun.html:120
+msgid "Create Re-run"
+msgstr "ხელახლა გაშვების შექმნა"
+
+#: cms/templates/course-create-rerun.html:130
+msgid "When will my course re-run start?"
+msgstr "როდის დაიწყება ჩემი განახლებული კურსი?"
+
+#: cms/templates/course-create-rerun.html:132
+msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
+msgstr ""
+"ახალი კურსის დაწყების თარიღი დანიშნულია 2030 წ. 1-ლი იანვრის შუაღამეს (UTC)."
+
+#: cms/templates/course-create-rerun.html:137
+msgid "What transfers from the original course?"
+msgstr "რა გადადის კურსის საწყისი ვერსიიდან?"
+
+#: cms/templates/course-create-rerun.html:139
+msgid ""
+"The new course has the same course outline and content as the original "
+"course. All problems, videos, announcements, and other files are duplicated "
+"to the new course."
+msgstr ""
+"ახალ კურსს იგივე სტრუქტურა და შინაარსი აქვს რაც კურსის საწყის ვერსიას. ახალი"
+" კურსისთვის შეიქმნა ყველა ამოცანის, ვიდეოს, განცხადებისა და სხვა ფაილების "
+"ასლები."
+
+#: cms/templates/course-create-rerun.html:144
+msgid "What does not transfer from the original course?"
+msgstr "რა არ გადადის კურსის საწყისი ვერსიიდან?"
+
+#: cms/templates/course-create-rerun.html:146
+msgid ""
+"You are the only member of the new course's staff. No students are enrolled "
+"in the course, and there is no student data. There is no content in the "
+"discussion topics or wiki."
+msgstr ""
+"თქვენ ხართ ახალი კურსის ერთადერთი თანამშრომელი. კურსზე არ ჩარიცხულა არცერთი "
+"სტუდენტი. შესაბამისად, მათ შესახებ ინფორმაცია არ გვაქვს. განხილვები და ვიკი "
+"ცნობარი ამჟამად ცარიელია."
+
+#: cms/templates/course-create-rerun.html:151
+msgid "Learn more about Course Re-runs"
+msgstr "გაიგეთ მეტი კურსის ხელახალი გამოშვების შესახებ"
+
+#: cms/templates/course_info.html:13 cms/templates/course_info.html:40
+msgid "Course Updates"
+msgstr "კურსის განახლებები"
+
+#: cms/templates/course_info.html:47
+msgid "New Update"
+msgstr "უახლესი განახლება"
+
+#: cms/templates/course_info.html:57
+msgid ""
+"Use course updates to notify students of important dates or exams, highlight"
+" particular discussions in the forums, announce schedule changes, and "
+"respond to student questions. You add or edit updates in HTML."
+msgstr ""
+"კურსის განახლებების საშუალებით შეატყობინეთ სტუდენტებს გამოცდების ან სხვა "
+"მნიშვნელოვანი თარიღები, გამოკვეთეთ ფორუმების დისკუსიები, დააანონსეთ განრიგის"
+" ცვლილებები და უპასუხეთ სტუდენტებს კითხვებს. განახლებების დამატება ან "
+"რედაქტირება შეგიძლიათ HTML ფორმატში."
+
+#: cms/templates/course_outline.html:51
+msgid ""
+"This course was created as a re-run. Some manual configuration is needed."
+msgstr ""
+"კურსი შეიქმნა არსებულის საფუძველზე და საჭიროებს ზოგიერთი პარამეტრის ხელით "
+"დაყენებას."
+
+#: cms/templates/course_outline.html:53
+msgid ""
+"No course content is currently visible, and no learners are enrolled. Be "
+"sure to review and reset all dates, including the Course Start Date; set up "
+"the course team; review course updates and other assets for dated material; "
+"and seed the discussions and wiki."
+msgstr ""
+"კურსის შინაარსი ამჟამად არ ჩანს. შესაბამისად, მსმენელები არ ჩარიცხულები არ "
+"არიან. აუცილებლად შეამოწმეთ და განაახლეთ თარიღები, მათ შორის კურსის დაწყების"
+" თარიღი; შექმენით კურსის გუნდი; განიხილეთ კურსის განახლებები და სხვა "
+"აქტივები თარიღიანი მასალებისთვის; ასევე წამოიწყეთ საბაზო დისკუსიები და "
+"ინფორმაცია ვიკიში."
+
+#: cms/templates/course_outline.html:74
+msgid "This course uses features that are no longer supported."
+msgstr "კურსი ისეთ ფუნქციებს იყენებს, რომელის მხარდაჭერაც გაუქმებულია"
+
+#: cms/templates/course_outline.html:78
+msgid "You must delete or replace the following components."
+msgstr "თქვენ უნდა წაშალოთ ან ჩაანაცვლოთ შემდეგი კომპონენტები."
+
+#: cms/templates/course_outline.html:79
+msgid "Unsupported Components"
+msgstr "კომპონენტები მხარდაჭერის გარეშე"
+
+#: cms/templates/course_outline.html:86
+msgid "Deprecated Component"
+msgstr "მოძველებული კომპონენტები"
+
+#: cms/templates/course_outline.html:98
+msgid ""
+"To avoid errors, {platform_name} strongly recommends that you remove "
+"unsupported features from the course advanced settings. To do this, go to "
+"the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
+"Module List\" setting, and then delete the following modules from the list."
+msgstr ""
+"შეცდომების თავიდან აცილებისთვის {platform_name}-ი გირჩევთ კურსის დამატებითი "
+"პარამეტრებიდან ამოიღოთ ის ფუნქციები, რომლებიც არ არის მხარდაჭერილი. "
+"ამისათვის, გადადით {link_start}გაფართოებული პარამეტრების "
+"გვერდზე{link_end}-ზე, მონახეთ „გაფართოებული მოდულების სია“ და წაშლეთ შემდეგი"
+" მოდულები. "
+
+#: cms/templates/course_outline.html:104
+msgid "Unsupported Advance Modules"
+msgstr "დამატებითი მოდულები, რომელიც არ არის მხარდაჭერილი"
+
+#: cms/templates/course_outline.html:132
+msgid "Click to add a new section"
+msgstr "დააწკაპუნეთ ახალი განყოფილების დასამატებლად"
+
+#: cms/templates/course_outline.html:133
+msgid "New Section"
+msgstr "ახალი განყოფილება"
+
+#: cms/templates/course_outline.html:138
+msgid "Reindex current course"
+msgstr "მიმდინარე კურსის ხელახალი ინდექსაცია"
+
+#: cms/templates/course_outline.html:139
+msgid "Reindex"
+msgstr "ხელახალი ინდექსაცია"
+
+#: cms/templates/course_outline.html:145
+msgid "Collapse All Sections"
+msgstr "ყველა განყოფილების აკეცვა"
+
+#: cms/templates/course_outline.html:146
+msgid "Expand All Sections"
+msgstr "ყველა განყოფილების ჩამოშლა"
+
+#: cms/templates/course_outline.html:151
+msgid "Click to open the courseware in the LMS in a new tab"
+msgstr "დააწკაპუნეთ, რომ კურსი LMS-ში, ახალ ფანჯარაში გაიხსნას"
+
+#: cms/templates/course_outline.html:151 cms/templates/edit-tabs.html:44
+msgid "View Live"
+msgstr "კურსის ნახვა"
+
+#: cms/templates/course_outline.html:215
+msgid "Creating your course organization"
+msgstr "თქვენი კურსის ორგანიზაციის შექმნა"
+
+#: cms/templates/course_outline.html:216
+msgid "You add sections, subsections, and units directly in the outline."
+msgstr ""
+"განყოფილებებს, ქვეგანყოფილებებსა და ბლოკებს ამატებთ უშუალოდ სტრუქტურაში."
+
+#: cms/templates/course_outline.html:217
+msgid ""
+"Create a section, then add subsections and units. Open a unit to add course "
+"components."
+msgstr ""
+"შექმენით განყოფილება, შემდეგ დაამატეთ ქვეგანყოფილებები და ბლოკები. კურსის "
+"კომპონენტების დასამატებლად გახსენით ბლოკი."
+
+#: cms/templates/course_outline.html:220
+msgid "Reorganizing your course"
+msgstr "თქვენი კურსის რეორგანიზება"
+
+#: cms/templates/course_outline.html:221
+msgid "Drag sections, subsections, and units to new locations in the outline."
+msgstr ""
+"გადაიტანეთ განყოფილებები, ქვეგანყოფილებები და ბლოკები სხვა ადგილზე ამ "
+"სტრუქტურაში."
+
+#: cms/templates/course_outline.html:223
+msgid "Learn more about the course outline"
+msgstr "გაიგეთ მეტი კურსის სტრუქტურის შესახებ"
+
+#: cms/templates/course_outline.html:227
+msgid "Setting release dates and grading policies"
+msgstr "გამოშვების თარიღისა და შეფასების პოლიტიკის განსაზღვრა"
+
+#: cms/templates/course_outline.html:228
+msgid ""
+"Select the Configure icon for a section or subsection to set its release "
+"date. When you configure a subsection, you can also set the grading policy "
+"and due date."
+msgstr ""
+"განყოფილების ან ქვეგანყოფილების გაშვების თარიღის დასაყენებლად დააწკაპუნეთ "
+"ღილაკზე „კონფიგურაცია“. ქვეგანყოფილების კონფიგურაციის დასრულების შემდეგ, "
+"ასევე შეგიძლიათ განსაზღვროთ შეფასების პოლიტიკა და ვადები."
+
+#: cms/templates/course_outline.html:230
+msgid "Learn more about grading policy settings"
+msgstr "გაიგეთ მეტი შეფასების პოლიტიკის პარამეტრების შესახებ"
+
+#: cms/templates/course_outline.html:234
+msgid "Changing the content learners see"
+msgstr "მსმენელისთვის ხილული შინაარსის შეცვლა"
+
+#: cms/templates/course_outline.html:235
+msgid ""
+"To publish draft content, select the Publish icon for a section, subsection,"
+" or unit."
+msgstr ""
+"შინაარსის პროექტის გამოსაქვეყნებლად, აირჩიეთ განყოფილების, ქვეგანყოფილების "
+"ან ბლოკის გამოქვეყნების ღილაკი."
+
+#: cms/templates/course_outline.html:236
+msgid ""
+"To make a section, subsection, or unit unavailable to learners, select the "
+"Configure icon for that level, then select the appropriate "
+"{em_start}Hide{em_end} option. Grades for hidden sections, subsections, and "
+"units are not included in grade calculations."
+msgstr ""
+"განყოფილებაზე, ქვეგანყოფილებასა და ბლოკებზე მოსაწავლეთა წვდომის "
+"გასაუქმებლად, აირჩიეთ კონფიგურაციის ღილაკი,  შემდეგ - შესაბამისი "
+"{em_start}დამალე{em_end} ოპერაცია. დამალული განყოფილების, ქვეგანყოფილებებისა"
+" და ბლოკების შეფასებები არ აისახება შეფასებათა გამოთვლებში."
+
+#: cms/templates/course_outline.html:237
+msgid ""
+"To hide the content of a subsection from learners after the subsection due "
+"date has passed, select the Configure icon for a subsection, then select "
+"{em_start}Hide content after due date{em_end}. Grades for the subsection "
+"remain included in grade calculations."
+msgstr ""
+"ქვეგანყოფილების ვადის გასვლის შემდეგ, მსმენელთათვის მისი შინაარსის დამალვის "
+"მიზნით, აირჩიეთ ქვეგანყოფილების „კონფიგურაციის“ ღილაკი, შემდეგ კი - "
+"{em_start}ვადის გასვლის შემდეგ შინაარსის დამალვა{em_end}. ქვეგანყოფილების "
+"შეფასებები კვლავაც ასახული იქნება შეფასებათა გამოთვლებში."
+
+#: cms/templates/course_outline.html:239
+msgid "Learn more about content visibility settings"
+msgstr "გაიგეთ მეტი შინაარსის ხილვადობის პარამეტრების შესახებ"
+
+#. Translators: Pages refer to the tabs that appear in the top navigation of
+#. each course.
+#: cms/templates/edit-tabs.html:11 cms/templates/edit-tabs.html:34
+#: cms/templates/export.html:201 cms/templates/widgets/header.html:67
+msgid "Pages"
+msgstr "გვერდები"
+
+#: cms/templates/edit-tabs.html:41
+msgid "New Page"
+msgstr "ახალი გვერდი"
+
+#: cms/templates/edit-tabs.html:56
+msgid ""
+"Note: Pages are publicly visible. If users know the URL of a page, they can "
+"view the page even if they are not registered for or logged in to your "
+"course."
+msgstr ""
+"შენიშვნა: გვერდები საჯაროა. გვერდის URL-ის ცოდნის შემთხვევაში, მომხმარებლებს"
+" კურსზე წვდომა ექნებათ რეგისტრაციისა და სისტემაში შესვლის გარეშე."
+
+#: cms/templates/edit-tabs.html:103
+msgid "Show this page"
+msgstr "მაჩვენეთ ეს გვერდი"
+
+#: cms/templates/edit-tabs.html:105 cms/templates/edit-tabs.html:107
+msgid "Show/hide page"
+msgstr "მაჩვენეთ/დამალეთ გვერდი"
+
+#: cms/templates/edit-tabs.html:121 cms/templates/edit-tabs.html:122
+msgid "This page cannot be reordered"
+msgstr "ეს გვერდი დახარისხებას არ ექვემდებარება"
+
+#: cms/templates/edit-tabs.html:135
+msgid "You can add additional custom pages to your course."
+msgstr "შეგიძლიათ თქვენს კურსს დამატებითი მორგებული გვერდები დაამატოთ."
+
+#: cms/templates/edit-tabs.html:135
+msgid "Add a New Page"
+msgstr "ახალი გვერდის დამატება"
+
+#: cms/templates/edit-tabs.html:143
+msgid "What are pages?"
+msgstr "რა არის გვერდები?"
+
+#: cms/templates/edit-tabs.html:144
+msgid ""
+"Pages are listed horizontally at the top of your course. Default pages "
+"(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
+" custom pages that you create."
+msgstr ""
+"თქვენი კურსის ზედა ნაწილში, ჰორიზონტალურად განლაგებულია გვერდების "
+"ჩამონათვალი. ნაგულისხმევ გვერდებს (მთავარი გვერდი, კურსი, დისკუსია, ვიკი და "
+"პროგრესი) მოყვება სახელმძღვანელოები და თქვენი შექმნილი მორგებული გვერდები."
+
+#: cms/templates/edit-tabs.html:147
+msgid "Custom pages"
+msgstr "მორგებული გვერდები"
+
+#: cms/templates/edit-tabs.html:148
+msgid ""
+"You can create and edit custom pages to provide students with additional "
+"course content. For example, you can create pages for the grading policy, "
+"course slides, and a course calendar. "
+msgstr ""
+"სტუდენტებისთვის დამატებითი მასალის მისაწოდებლად მორგებული გვერდების შექმნა "
+"და რედაქტირება შეგიძლიათ. მაგალითად, შეგიძლიათ შექმნათ შეფასების სქემის, "
+"კურსის სლაიდებისა და კურსის კალენდრის გვერდები."
+
+#: cms/templates/edit-tabs.html:151
+msgid "How do pages look to students in my course?"
+msgstr "როგორ გამოიყურება გვერდები ჩემი კურსის სტუდენტებისთვის?"
+
+#: cms/templates/edit-tabs.html:152
+msgid ""
+"Students see the default and custom pages at the top of your course and use "
+"these links to navigate."
+msgstr ""
+"სტუდენტები ხედავენ თქვენი კურსის ზედა ნაწილში განლაგებულ ნაგულისხმევ და "
+"მორგებულ გვერდებს და ამ ბმულებს ნავიგაციისთვის იყენებენ."
+
+#: cms/templates/edit-tabs.html:152
+msgid "See an example"
+msgstr "ნახეთ მაგალითი"
+
+#: cms/templates/edit-tabs.html:160
+msgid "Pages in Your Course"
+msgstr "თქვენი კურსის გვერდები"
+
+#: cms/templates/edit-tabs.html:162
+msgid "Preview of Pages in your course"
+msgstr "თქვენი კურსის გვერდების გადახედვა"
+
+#: cms/templates/edit-tabs.html:163
+msgid ""
+"Pages appear in your course's top navigation bar. The default pages (Home, "
+"Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
+" pages."
+msgstr ""
+"გვერდები განთავსებულია თქვენი კურსის ზედა ნავიგაციის ზოლში. სტანდარტულ "
+"გვერდებს (მთავარი გვერდი, კურსი, დისკუსია, ვიკი და პროგრესი) მოყვება "
+"სახელმძღვანელოები და მორგებული გვერდები."
+
+#: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182
+#: cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
+msgid "close modal"
+msgstr "მოდალური ფანჯრის დახურვა"
+
+#: cms/templates/error.html:13
+msgid "Internal Server Error"
+msgstr "სერვერის შიდა შეცდომა"
+
+#: cms/templates/error.html:20
+msgid "The Page You Requested Page Cannot be Found"
+msgstr "თქვენს მიერ მოთხოვნილი გვერდი ვერ მოიძებნა"
+
+#: cms/templates/error.html:21
+msgid ""
+"We're sorry. We couldn't find the {studio_name} page you're looking for. You"
+" may want to return to the {studio_name} Dashboard and try again."
+msgstr ""
+
+#: cms/templates/error.html:25
+msgid "The Server Encountered an Error"
+msgstr "დაფიქსირდა სერვერის შეცდომა"
+
+#: cms/templates/error.html:26
+msgid ""
+"We're sorry. There was a problem with the server while trying to process "
+"your last request. You may want to return to the {studio_name} Dashboard or "
+"try this request again."
+msgstr ""
+
+#: cms/templates/error.html:30
+msgid "Back to dashboard"
+msgstr "მართვის პანელში დაბრუნება"
+
+#: cms/templates/export.html:22 cms/templates/export.html:46
+msgid "Library Export"
+msgstr "ბიბლიოთეკის ექსპორტირება"
+
+#: cms/templates/export.html:24 cms/templates/export.html:48
+msgid "Course Export"
+msgstr "კურსის ექსპორტირება"
+
+#: cms/templates/export.html:60
+msgid "About Exporting Libraries"
+msgstr "ბიბლიოთეკების ექსპორტირების შესახებ"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:63
+msgid ""
+"You can export libraries and edit them outside of {studio_name}. The "
+"exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
+"Zip) that contains the library structure and content. You can also re-import"
+" libraries that you've exported."
+msgstr ""
+"თქვენ შეგიძლიათ ბიბლიოთეკების ექსპორტირება და მათი {studio_name}-ის გარეთ "
+"რედაქტირება. ექსპორტირებული ფაილი .tar.gz ფაილია (იგივეა რაც GNU Zip-ით "
+"კომპრესირებული .tar ფაილი), რომელიც შეიცავს ბიბლიოთეკის სტრუქტურასა და "
+"შინაარსს. ასევე, შეგიძლიათ თქვენს მიერ ექსპორტირებული ბიბლიოთეკის ხელახლა "
+"იმპორტირება."
+
+#: cms/templates/export.html:68
+msgid "About Exporting Courses"
+msgstr "კურსის ექსპორტირების შესახებ"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:71
+msgid ""
+"You can export courses and edit them outside of {studio_name}. The exported "
+"file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
+"contains the course structure and content. You can also re-import courses "
+"that you've exported."
+msgstr ""
+"თქვენ შეგიძლიათ კურსების ექსპორტირება და მათი {studio_name}-ის გარეთ "
+"რედაქტირება. ექსპორტირებული ფაილი .tar.gz ფაილია (იგივეა რაც GNU Zip-ით "
+"კომპრესირებული .tar ფაილი), რომელიც შეიცავს კურსის სტრუქტურასა და შინაარსს. "
+"ასევე, შეგიძლიათ თქვენს მიერ ექსპორტირებული კურსების ხელახლა იმპორტირება."
+
+#: cms/templates/export.html:74
+msgid ""
+"{em_start}Caution:{em_end} When you export a course, information such as "
+"MATLAB API keys, LTI passports, annotation secret token strings, and "
+"annotation storage URLs are included in the exported data. If you share your"
+" exported files, you may also be sharing sensitive or license-specific "
+"information."
+msgstr ""
+"{em_start}გაფრთხილება:{em_end} კურსის ექსპორტირებისას მოხდება შემდეგი "
+"მონაცემების გამოტანა: ინფორმაცია MATLAB API-ის ღილაკებზე, LTI პასპორტები, "
+"საიდუმლო ღილაკებისა და მეხსიერების URL-ების ანოტაცია. ექსპორტირებული "
+"ფაილების გაზიარების შემთხვევაში, შესაძლოა გააზიაროთ პირადი ინფორმაციის "
+"შემცველი ან ლიცენზირებული ინფორმაციაც."
+
+#: cms/templates/export.html:85
+msgid "Export My Library Content"
+msgstr "ჩემი ბიბლიოთეკის შინაარსის ექსპორტირება"
+
+#: cms/templates/export.html:87
+msgid "Export My Course Content"
+msgstr "ჩემი კურსის შინაარსის ექსპორტირება"
+
+#: cms/templates/export.html:96
+msgid "Export Library Content"
+msgstr "ბიბლიოთეკის შინაარსის ექსპორტირება"
+
+#: cms/templates/export.html:98
+msgid "Export Course Content"
+msgstr "კურსის შინაარსის ექსპორტირება"
+
+#: cms/templates/export.html:108
+msgid "Library Export Status"
+msgstr ""
+
+#: cms/templates/export.html:110
+msgid "Course Export Status"
+msgstr ""
+
+#: cms/templates/export.html:122
+msgid "Preparing"
+msgstr ""
+
+#: cms/templates/export.html:126
+msgid "Preparing to start the export"
+msgstr ""
+
+#: cms/templates/export.html:137
+msgid "Exporting"
+msgstr ""
+
+#: cms/templates/export.html:138
+msgid ""
+"Creating the export data files (You can now leave this page safely, but "
+"avoid making drastic changes to content until this export is complete)"
+msgstr ""
+
+#: cms/templates/export.html:149
+msgid "Compressing"
+msgstr ""
+
+#: cms/templates/export.html:150
+msgid "Compressing the exported data and preparing it for download"
+msgstr ""
+
+#: cms/templates/export.html:161 cms/templates/import.html:175
+msgid "Success"
+msgstr "წარმატება"
+
+#: cms/templates/export.html:166
+msgid "Your exported library can now be downloaded"
+msgstr ""
+
+#: cms/templates/export.html:168
+msgid "Your exported course can now be downloaded"
+msgstr ""
+
+#: cms/templates/export.html:176
+msgid "Download Exported Library"
+msgstr ""
+
+#: cms/templates/export.html:178
+msgid "Download Exported Course"
+msgstr ""
+
+#: cms/templates/export.html:192
+msgid "Data {em_start}exported with{em_end} your course:"
+msgstr "თქვენს {em_end}კურსთან ერთად ექსპორტირებული{em_start} მონაცემები:"
+
+#: cms/templates/export.html:197
+msgid ""
+"Values from Advanced Settings, including MATLAB API keys and LTI passports"
+msgstr ""
+"დამატებითი პარამეტრების მნიშვნელობა, MATLAB API ღილაკებისა და LTI "
+"პასპორტების ჩათვლით"
+
+#: cms/templates/export.html:198
+msgid "Course Content (all Sections, Sub-sections, and Units)"
+msgstr "კურსის შინაარსი (ყველა განყოფილება, ქვეგანყოფილება და ბლოკი)"
+
+#: cms/templates/export.html:199
+msgid "Course Structure"
+msgstr "კურსის სტრუქტურა"
+
+#: cms/templates/export.html:200
+msgid "Individual Problems"
+msgstr "ინდივიდუალური ამოცანები"
+
+#: cms/templates/export.html:202
+msgid "Course Assets"
+msgstr "კურსის მასალები"
+
+#: cms/templates/export.html:203
+msgid "Course Settings"
+msgstr "კურსის პარამეტრები"
+
+#: cms/templates/export.html:209
+msgid "Data {em_start}not exported{em_end} with your course:"
+msgstr ""
+"მონაცემები, რომელებიც {em_start}არ დაექსპორტდა{em_end} თქვენს კურსთან ერთად:"
+
+#: cms/templates/export.html:214
+msgid "User Data"
+msgstr "მომხმარებლის მონაცემები"
+
+#: cms/templates/export.html:215
+msgid "Course Team Data"
+msgstr "კურსის გუნდის მონაცემები"
+
+#: cms/templates/export.html:216
+msgid "Forum/discussion Data"
+msgstr "ფორუმის/დისკუსიის მონაცემები"
+
+#: cms/templates/export.html:226
+msgid "Why export a library?"
+msgstr "რატომ დავაექსპორტოთ ბიბლიოთეკა?"
+
+#: cms/templates/export.html:227
+msgid ""
+"You may want to edit the XML in your library directly, outside of "
+"{studio_name}. You may want to create a backup copy of your library. Or, you"
+" may want to create a copy of your library that you can later import into "
+"another library instance and customize."
+msgstr ""
+"შესაძლოა თქვენ XML ფორმატის რედაქტირება პირდაპირ თქვენს ბიბლიოთეკაში, "
+"{studio_name}-ის გარეთ გსურთ. ან შესაძლოა გსურთ თქვენი ბიბლიოთეკის ასლის "
+"შექმნა, მოგვიანებით მისი სხვა ბიბლიოთეკის ასლში იმპორტირებისა და "
+"მორგებისთვის."
+
+#: cms/templates/export.html:233 cms/templates/export.html:267
+msgid "Opening the downloaded file"
+msgstr "ჩამოტვირთული ფაილის გახსნა"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:235
+msgid ""
+"Use an archive program to extract the data from the .tar.gz file. Extracted "
+"data includes the library.xml file, as well as subfolders that contain "
+"library content."
+msgstr ""
+".tar.gz ფაილიდან მონაცემების ამოღების მიზნით გამოიყენეთ არქივატორის "
+"პროგრამა. ამოღებული მონაცემები მოიცავს როგორც library.xml ფაილს, ასევე "
+"საქაღლადეებს ბიბლიოთეკის შინაარსით."
+
+#: cms/templates/export.html:238
+msgid "Learn more about exporting a library"
+msgstr "გაიგე მეტი ბიბლიოთეკის ექსორტირების შესახებ"
+
+#: cms/templates/export.html:244
+msgid "Why export a course?"
+msgstr "რატომ დავაექსპორტოთ კურსი?"
+
+#: cms/templates/export.html:245
+msgid ""
+"You may want to edit the XML in your course directly, outside of "
+"{studio_name}. You may want to create a backup copy of your course. Or, you "
+"may want to create a copy of your course that you can later import into "
+"another course instance and customize."
+msgstr ""
+"შესაძლოა თქვენ XML ფორმატის რედაქტირება პირდაპირ თქვენს კურსში, "
+"{studio_name}-ს გარეთ გსურთ. შესაძლოა გინდათ თქვენი კურსის სარეზერვო ასლის "
+"შექმნა ან კურსის ასლის შექმნა, მოგვიანებით მისი სხვა კურსის ასლში შეტანისა "
+"და მორგებისთვის."
+
+#: cms/templates/export.html:251
+msgid "What content is exported?"
+msgstr "რა შინაარსი დაექსპორტდა?"
+
+#: cms/templates/export.html:252
+msgid "The following content is exported."
+msgstr ""
+
+#: cms/templates/export.html:254 cms/templates/import.html:230
+msgid "Course content and structure"
+msgstr ""
+
+#: cms/templates/export.html:255 cms/templates/import.html:231
+msgid "Course dates"
+msgstr ""
+
+#: cms/templates/export.html:256 cms/templates/import.html:232
+msgid "Grading policy"
+msgstr ""
+
+#: cms/templates/export.html:257 cms/templates/import.html:233
+msgid "Any group configurations"
+msgstr ""
+
+#: cms/templates/export.html:258 cms/templates/import.html:234
+msgid ""
+"Settings on the Advanced Settings page, including MATLAB API keys and LTI "
+"passports"
+msgstr ""
+
+#: cms/templates/export.html:260
+msgid "The following content is not exported."
+msgstr ""
+
+#: cms/templates/export.html:262 cms/templates/import.html:238
+msgid ""
+"Learner-specific content, such as learner grades and discussion forum data"
+msgstr ""
+
+#: cms/templates/export.html:263 cms/templates/import.html:239
+msgid "The course team"
+msgstr ""
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:269
+msgid ""
+"Use an archive program to extract the data from the .tar.gz file. Extracted "
+"data includes the course.xml file, as well as subfolders that contain course"
+" content."
+msgstr ""
+"არქივატორის პროგრამის საშუალებით ამოუღეთ მონაცემები .tar.gz ფაილიდან. ეს "
+"მონაცემები შეიცავს როგორც course.xml  ფაილებს, ასევე კურსის შინაარსის "
+"შემცველ საქაღალდეებს."
+
+#: cms/templates/export.html:272
+msgid "Learn more about exporting a course"
+msgstr "გაიგეთ მეტი კურსის ექსპორტირების შესახებ"
+
+#: cms/templates/export_git.html:11
+msgid "Export Course to Git"
+msgstr "კურსის Git-ში ექსპორტირება"
+
+#: cms/templates/export_git.html:19 cms/templates/export_git.html:46
+#: cms/templates/widgets/header.html:139
+msgid "Export to Git"
+msgstr "Git-ში ექსპორტირება"
+
+#: cms/templates/export_git.html:29
+msgid "About Export to Git"
+msgstr "Git-ში ექსპორტირების შესახებ"
+
+#: cms/templates/export_git.html:31
+msgid "Use this to export your course to its git repository."
+msgstr "გამოიყენეთ ეს თქვენი კურსის git საცავში ექსპორტირებისთვის."
+
+#: cms/templates/export_git.html:32
+msgid ""
+"This will then trigger an automatic update of the main LMS site and update "
+"the contents of your course visible there to students if automatic git "
+"imports are configured."
+msgstr ""
+"თუ დაყენებულია git-ის ავტომატურ რეჟიმში იმპორტირების კონფიგურაცია, ეს "
+"გამოიწვევს ძირითადი LMS საიტისა და თქვენი კურსის შინაარსის სტუდენტთათვის "
+"ხილული ნაწილის ავტომატურ განახლებას."
+
+#: cms/templates/export_git.html:37
+msgid "Export Course to Git:"
+msgstr "კურსის Git-ში ექსპორტირება"
+
+#: cms/templates/export_git.html:40
+msgid ""
+"giturl must be defined in your course settings before you can export to git."
+msgstr ""
+"giturl განსაზღვრული უნდა იყოს თქვენი კურსის პარამეტრებში, git ფორმატში "
+"ექსპორტირებამდე."
+
+#: cms/templates/export_git.html:55
+msgid "Export Failed"
+msgstr "ექსპორტირება ვერ მოხერხდა"
+
+#: cms/templates/export_git.html:57
+msgid "Export Succeeded"
+msgstr "ექსპორტირება წარმატებით დასრულდა"
+
+#: cms/templates/export_git.html:65
+msgid "Your course:"
+msgstr "თქვენი კურსი:"
+
+#: cms/templates/export_git.html:67
+msgid "Course git url:"
+msgstr "კურსის git url:"
+
+#: cms/templates/group_configurations.html:68
+#: cms/templates/group_configurations.html:107
+msgid "Experiment Group Configurations"
+msgstr "ექსპერიმენტული ჯგუფის კონფიგურაციები"
+
+#: cms/templates/group_configurations.html:72
+msgid "This module is disabled at the moment."
+msgstr "ამ მომენტისთვის მოდული გაუქმებულია"
+
+#: cms/templates/group_configurations.html:87
+msgid "Enrollment Track Groups"
+msgstr ""
+
+#: cms/templates/group_configurations.html:88
+msgid ""
+"Enrollment track groups allow you to offer different course content to "
+"learners in each enrollment track. Learners enrolled in each enrollment "
+"track in your course are automatically included in the corresponding "
+"enrollment track group."
+msgstr ""
+
+#: cms/templates/group_configurations.html:89
+msgid ""
+"On unit pages in the course outline, you can restrict access to components "
+"to learners based on their enrollment track."
+msgstr ""
+
+#: cms/templates/group_configurations.html:90
+msgid ""
+"You cannot edit enrollment track groups, but you can expand each group to "
+"view details of the course content that is designated for learners in the "
+"group."
+msgstr ""
+
+#: cms/templates/group_configurations.html:97
+msgid "Content Groups"
+msgstr "შინაარსის ჯგუფები"
+
+#: cms/templates/group_configurations.html:98
+msgid ""
+"If you have cohorts enabled in your course, you can use content groups to "
+"create cohort-specific courseware. In other words, you can customize the "
+"content that particular cohorts see in your course."
+msgstr ""
+"თქვენს კურსში ჯგუფების აქტივიაციის შემთხვევაში, შინაარსის ჯგუფების "
+"საშუალებით კონკრეტულ ჯგუფზე მორგებული კურსის შექმნას შეძლებთ. რაც გარკვეული "
+"ჯგუფებისთვის ხილული კურსის შინაარსის კონფიგურაციას გულისხმობს."
+
+#: cms/templates/group_configurations.html:99
+msgid ""
+"Each content group that you create can be associated with one or more "
+"cohorts. In addition to making course content available to all learners, you"
+" can restrict access to some content to learners in specific content groups."
+" Only learners in the cohorts that are associated with the specified content"
+" groups see the additional content."
+msgstr ""
+
+#: cms/templates/group_configurations.html:100
+msgid ""
+"Click {em_start}New content group{em_end} to add a new content group. To "
+"edit the name of a content group, hover over its box and click "
+"{em_start}Edit{em_end}. You can delete a content group only if it is not in "
+"use by a unit. To delete a content group, hover over its box and click the "
+"delete icon."
+msgstr ""
+"შინაარსის ახალი ჯგუფის დასამატებლად დააწკაპუნეთ ღილაკზე {em_start}შინაარსის "
+"ახალი ჯგუფი{em_end}. შინაარსის ჯგუფის სახელის რედაქტირებისთვის გადაატარეთ "
+"კურსორი და დააწკაპუნეთ {em_start}რედაქტირებაზე{em_end}. თქვენ შეგიძლიათ "
+"შინაარსის ჯგუფის წაშლა მხოლოდ მაშინ, თუ ის არ გამოიყენება არცერთ ბლოკში. "
+"შინაარსის ჯგუფის წასაშლელად, გადაატარეთ კურსორი და დააწკაპუნეთ წაშლის "
+"ხატულას."
+
+#: cms/templates/group_configurations.html:108
+msgid ""
+"Use experiment group configurations if you are conducting content "
+"experiments, also known as A/B testing, in your course. Experiment group "
+"configurations define how many groups of learners are in a content "
+"experiment. When you create a content experiment for a course, you select "
+"the group configuration to use."
+msgstr ""
+
+#: cms/templates/group_configurations.html:109
+msgid ""
+"Click {em_start}New Group Configuration{em_end} to add a new configuration. "
+"To edit a configuration, hover over its box and click "
+"{em_start}Edit{em_end}. You can delete a group configuration only if it is "
+"not in use in an experiment. To delete a configuration, hover over its box "
+"and click the delete icon."
+msgstr ""
+"ახალი კონფიგურაციის დასამატებლად დააწკაპუნეთ {em_start}ახალი ჯგუფის "
+"კონფიგურაცია{em_end}. კონფიგურაციის რედაქტირებისთვის გადაატარეთ კურსორი და "
+"დააწკაპუნეთ {em_start}რედაქტირება{em_end}-ზე. თქვენ შეგიძლიათ ჯგუფის "
+"კონფიგურაციის წაშლა, თუკი ის არ გამოიყენება ექსპერიმენტში. კონფიგურაციის "
+"წასაშლელად გადადით და დააწკაპუნეთ ღილაკზე „წაშლა“."
+
+#: cms/templates/howitworks.html:11
+msgid "Welcome"
+msgstr "მოგესალმებით"
+
+#: cms/templates/howitworks.html:19
+msgid "Welcome to {studio_name}"
+msgstr "მოგესალმებით {studio_name}-ში"
+
+#: cms/templates/howitworks.html:22
+msgid ""
+"{studio_name} helps manage your online courses, so you can focus on teaching"
+" them"
+msgstr ""
+"{studio_name} გეხმარებათ ონლაინ კურსების მართვაში, ასე, რომ შეგიძლიათ მთელი "
+"ყურადღება სწავლებაზე გადაიტანოთ"
+
+#: cms/templates/howitworks.html:32
+msgid "{studio_name}'s Many Features"
+msgstr "{studio_name}-ის მრავალი ფუნქცია"
+
+#: cms/templates/howitworks.html:39 cms/templates/howitworks.html:40
+msgid "{studio_name} Helps You Keep Your Courses Organized"
+msgstr "{studio_name} გეხმარებათ თქვენი კურსების ორგანიზებაში"
+
+#: cms/templates/howitworks.html:42 cms/templates/howitworks.html:87
+#: cms/templates/howitworks.html:121
+msgid "Enlarge image"
+msgstr "გამოსახულების გადიდება"
+
+#: cms/templates/howitworks.html:48
+msgid "Keeping Your Course Organized"
+msgstr "კურსის ორგანიზება"
+
+#: cms/templates/howitworks.html:49
+msgid ""
+"The backbone of your course is how it is organized. {studio_name} offers an "
+"{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
+"easy drag and drop to help you and your students stay organized."
+msgstr ""
+"თქვენს კურსში ყველაზე მნიშვნელოვანი მისი ორგანიზებაა. {studio_name} "
+"გთავაზობთ {strong_start}შიგთავსი{strong_end} რედაქტირების ხელსაწყოს, რომელიც"
+" მარტივი იერარქიისა და გადათრევისა და ჩააგდების ფუნქციების საშუალებით თქვენ "
+"და თქვენს სტუდენტებს დაგეხმარებათ იყოთ ორგანიზებულნი."
+
+#: cms/templates/howitworks.html:57
+msgid "Simple Organization For Content"
+msgstr "შინაარსის მარტივი სტრუქტურა"
+
+#: cms/templates/howitworks.html:58
+msgid ""
+"{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} "
+"and {strong_start}subsections{strong_end} to organize your content."
+msgstr ""
+"{studio_name}-ი თქვენი შინაარსის დასახარისხებლად "
+"{strong_start}სექციებისა{strong_end} და "
+"{strong_start}ქვესექციების{strong_end} მარტივ იერარქიას იყენებს."
+
+#: cms/templates/howitworks.html:66
+msgid "Change Your Mind Anytime"
+msgstr "შეცვალეთ გადაწყვეტილება ნებისმიერ დროს"
+
+#: cms/templates/howitworks.html:67
+msgid ""
+"Draft your outline and build content anywhere. Simple drag and drop tools "
+"let you reorganize quickly."
+msgstr ""
+"შექმენით სტრუქტურის მონახაზი ნებისმიერ ადგილას. ჩაავლებისა და ჩაგდების "
+"მარტივი ინსტრუმენტები გადაჯგუფების საშუალებას იძლევიან."
+
+#: cms/templates/howitworks.html:71
+msgid "Go A Week Or A Semester At A Time"
+msgstr "გადაანაწილეთ სწავლება კვირებზე და სემესტრებზე"
+
+#: cms/templates/howitworks.html:72
+msgid ""
+"Build and release {strong_start}sections{strong_end} to your students "
+"incrementally. You don't have to have it all done at once."
+msgstr ""
+"შექმენით და გაუშვით თქვენი სტუდენტებისთვის "
+"{strong_start}სექციები{strong_end} ეტაპობრივად. არ არის აუცილებელი ყველაფრის"
+" ერთდროულად გაკეთება."
+
+#: cms/templates/howitworks.html:84 cms/templates/howitworks.html:85
+#: cms/templates/howitworks.html:93
+msgid "Learning is More than Just Lectures"
+msgstr "სწავლა მეტია ვიდრე უბრალოდ ლექციების მოსმენა "
+
+#: cms/templates/howitworks.html:94
+msgid ""
+"{studio_name} lets you weave your content together in a way that reinforces "
+"learning. Insert videos, discussions, and a wide variety of exercises with "
+"just a few clicks."
+msgstr ""
+"{studio_name}-ის საშუალებით შინაარსის შექმნა ხელს უწყობს სწავლების "
+"გაუმჯობესებას. მხოლოდ რამოდენიმე დაწკაპუნებაა საჭირო ვიდეოების, დისკუსიებისა"
+" და მრავალფეროვანი სავაჯიშოების ჩასამატებლად."
+
+#: cms/templates/howitworks.html:98
+msgid "Create Learning Pathways"
+msgstr "მიმართული სწავლების შექმნა"
+
+#: cms/templates/howitworks.html:99
+msgid ""
+"Help your students understand one concept at a time with multimedia, HTML, "
+"and exercises."
+msgstr ""
+"დაეხმარეთ სტუდენტებს კონცეფციების გაგებაში მულტიმედიით, HTML-ითა და "
+"სავარჯიშოებით."
+
+#: cms/templates/howitworks.html:103
+msgid "Work Visually, Organize Quickly"
+msgstr "იმუშავეთ ვიზუალურად, დაგეგმეთ სწრაფად"
+
+#: cms/templates/howitworks.html:104
+msgid ""
+"Work visually and see exactly what your students will see. Reorganize all "
+"your content with drag and drop."
+msgstr ""
+"იმუშავეთ ვიზუალურად და გადაათვალიერეთ რას ხედავენ თქვენი სტუდენტები. "
+"მოახდინეთ თქვენი კურსის რეორგანიზება ჩავლებითა და ჩაგდებით."
+
+#: cms/templates/howitworks.html:108
+msgid "A Broad Library of Problem Types"
+msgstr "ამოცანების ტიპების ვრცელი ბიბლიოთეკა"
+
+#: cms/templates/howitworks.html:109
+msgid ""
+"It's more than just multiple choice. {studio_name} supports more than a "
+"dozen types of problems to challenge your learners."
+msgstr ""
+"ეს ბევრად მეტია ვიდრე არჩევანის სიმრავლე. {studio_name}-ის მიერ მხარდაჭერილი"
+" ათობით ტიპის ამოცანა მოსწავლეთათვის კარგ გამოწვევებს წარმოადგენს."
+
+#: cms/templates/howitworks.html:118 cms/templates/howitworks.html:119
+msgid ""
+"{studio_name} Gives You Simple, Fast, and Incremental Publishing. With "
+"Friends."
+msgstr ""
+"{studio_name}-ი მარტივი, სწრაფი და ეტაპობრივი გამოქვეყნების საშუალებას "
+"გაძლევთ. მეგობრებთან ერთად."
+
+#: cms/templates/howitworks.html:127
+msgid "Simple, Fast, and Incremental Publishing. With Friends."
+msgstr "მარტივი, სწრაფი და ეტაპობრივი გამოქვეყნება. მეგობრებთან ერთად."
+
+#: cms/templates/howitworks.html:128
+msgid ""
+"{studio_name} works like web applications you already know, yet understands "
+"how you build curriculum. Instant publishing to the web when you want it, "
+"incremental release when it makes sense. And with co-authors, you can have a"
+" whole team building a course, together."
+msgstr ""
+"{studio_name} თქვენთვის ნაცნობი ვებ აპლიკაციის მსგავსად მუშაობს და ხვდება, "
+"როგორ ქმნით თქვენს კურიკულუმს. მყისიერი გამოქვეყნება, როცა გსურთ და მასალის "
+"ეტაპობრივი მიწოდება, როცა ეს საჭიროა. ხოლო თანაავტორებთან ერთად შეგიძლიათ "
+"მთელი გუნდით, ერთდროულად იმუშაოთ კურსის შექმნაზე."
+
+#: cms/templates/howitworks.html:132
+msgid "Instant Changes"
+msgstr "მყისიერი ცვლილებები"
+
+#: cms/templates/howitworks.html:133
+msgid ""
+"Caught a bug? No problem. When you want, your changes go live when you click"
+" Save."
+msgstr ""
+"იპოვნეთ შეცდომაა? პრობლემა არ არის. თქვენ მიერ განხორციელებული ცვლილებები "
+"აისახება როგორც კი დააწკაპუნებთ ღილაკზე „შენახვა“."
+
+#: cms/templates/howitworks.html:137
+msgid "Release-On Date Publishing"
+msgstr "გამოშვების თარიღი"
+
+#: cms/templates/howitworks.html:138
+msgid ""
+"When you've finished a {strong_start}section{strong_end}, pick when you want"
+" it to go live and {studio_name} takes care of the rest. Build your course "
+"incrementally."
+msgstr ""
+"{strong_start}სექციის{strong_end} დასრულების შემდეგ მიუთითეთ როდის გსურთ "
+"მისი გაშვება. სხვა დანარჩენზე პასუხიმგებლობას {studio_name} იღებს. შექმენით "
+"თქვენი კურსი ეტაპობრივად."
+
+#: cms/templates/howitworks.html:146
+msgid "Work in Teams"
+msgstr "გუნდური მუშაობა"
+
+#: cms/templates/howitworks.html:147
+msgid ""
+"Co-authors have full access to all the same authoring tools. Make your "
+"course better through a team effort."
+msgstr ""
+"თანაავტორებს სრული წვდომა აქვთ ერთნაირ საავტორო ხელსაწყოებზე. გააუმჯობესეთ "
+"თქვენი კურსი გუნდური ძალისხმევით."
+
+#: cms/templates/howitworks.html:159
+msgid "Sign Up for {studio_name} Today!"
+msgstr "დარეგისტრირდით {studio_name}-ზე დღესვე!"
+
+#: cms/templates/howitworks.html:164
+msgid "Sign Up & Start Making Your {platform_name} Course"
+msgstr "დარეგისტრირდით და შექმენით თქვენი {platform_name} კურსი"
+
+#: cms/templates/howitworks.html:167
+msgid "Already have a {studio_name} Account? Sign In"
+msgstr "უკვე გაქვთ {studio_name} ანგარიში? შედით სისტემაში"
+
+#: cms/templates/howitworks.html:174
+msgid "Outlining Your Course"
+msgstr "თქვენი კურსის სტრუქტურის შექმნა"
+
+#: cms/templates/howitworks.html:177
+msgid ""
+"Simple two-level outline to organize your course. Drag and drop, and see "
+"your course at a glance."
+msgstr ""
+"მარიტივი ორდონიანი სტრუქტურა თქვენი კურსის ორგანიზებისათვის. გამოიყენეთ "
+"ჩავლება/ჩაგდება და ერთიანად გადახედეთ თქვენს კურსს."
+
+#: cms/templates/howitworks.html:187
+msgid "More than Just Lectures"
+msgstr "მეტი ვიდრე მხოლოდ ლექციები"
+
+#: cms/templates/howitworks.html:190
+msgid ""
+"Quickly create videos, text snippets, inline discussions, and a variety of "
+"problem types."
+msgstr ""
+"სწრაფად შექმენით ვიდეოები, ტექსტური ფრაგმენტები, ხაზსშიდა დისკუსიები და "
+"ამოცანათა სხვადასხვა ტიპები."
+
+#: cms/templates/howitworks.html:200
+msgid "Publishing on Date"
+msgstr "პუბლიკაციის თარიღი"
+
+#: cms/templates/howitworks.html:203
+msgid ""
+"Simply set the date of a section or subsection, and {studio_name} will "
+"publish it to your students for you."
+msgstr ""
+"უბრალოდ მიუთითეთ თარიღი განყოფილებებსა და ქვეგანყოფილებზე და {studio_name}-ი"
+" სტუდენტებისთვის მათ თქვენს ნაცვლად გამოაქვეყნებს."
+
+#: cms/templates/html_error.html:11
+msgid "We're having trouble rendering your component"
+msgstr "თქვენი კომპონენტის გამოთვლისას პრობლემები შეგვექმნა"
+
+#: cms/templates/html_error.html:14
+msgid ""
+"Students will not be able to access this component. Re-edit your component "
+"to fix the error."
+msgstr ""
+"სტუდენტებს ამ კომპონენტზე წვდომა არ ექნებათ. შეცდომის აღმოსაფხვრელად "
+"შეასწორეთ თქვენი კომპონენტი."
+
+#: cms/templates/import.html:21 cms/templates/import.html:35
+msgid "Library Import"
+msgstr "ბიბლიოთეკის იმპორტირება"
+
+#: cms/templates/import.html:23 cms/templates/import.html:37
+msgid "Course Import"
+msgstr "კურსის იმპორტირება"
+
+#: cms/templates/import.html:49
+msgid ""
+"Be sure you want to import a library before continuing. The contents of the "
+"imported library will replace the contents of the existing library. "
+"{em_start}You cannot undo a library import{em_end}. Before you proceed, we "
+"recommend that you export the current library, so that you have a backup "
+"copy of it."
+msgstr ""
+"სანამ გააგრძელებთ, დარწმუნდით რომ ბიბლიოთეკის შემოტანა გსურთ. შემოტანილი "
+"ბიბლიოთეკა ჩაანაცვლებს არესებული ბიბლიოთეკის შინაარსებს.  "
+"{em_start}ბიბლიოთეკის შემოტანას ვერ გააუქმებთ{em_end}. გირჩევთ, "
+"გაგრძელებამდე მიმდინარე ბიბლიოთეკა გაიტანოთ, რათა გქონდეთ მისი სარეზერვო "
+"ასლი."
+
+#: cms/templates/import.html:50
+msgid ""
+"The library that you import must be in a .tar.gz file (that is, a .tar file "
+"compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
+" It may also contain other files."
+msgstr ""
+"ბიბლიოთეკა, რომლის იმპორტირებაც გსურთ უნდა იყოს .tar.gz ფორმატის ფაილი "
+"(იგივეა რაც GNU Zip-ით კომპრესირებული .tar ფაილი). ეს .tar.gz ფაილი უნდა "
+"შეიცავდეს library.xml ფაილს. ასევე, შესაძლოა შეიცავდეს სხვა ფაილებსაც."
+
+#: cms/templates/import.html:51
+msgid ""
+"The import process has five stages. During the first two stages, you must "
+"stay on this page. You can leave this page after the Unpacking stage has "
+"completed. We recommend, however, that you don't make important changes to "
+"your library until the import operation has completed."
+msgstr ""
+"იმპორტის პროცესი 5 საფეხურისგან შედგება. საწყის ორ ეტაპზე სავალდებულოა "
+"თქვენი ამ გვერდზე ყოფნა. ფაილის ამოღების ეტაპის დასრულების შემდეგ, შეგიძლიათ"
+" ამ გვერდის დატოვება. თუმცა გირჩევთ, იმპორტის დასრულებამდე ბიბლიოთეკაზე "
+"მნიშვნელოვანი ცვლილებები არ განახორციელოთ."
+
+#: cms/templates/import.html:53
+msgid ""
+"Be sure you want to import a course before continuing. The contents of the "
+"imported course will replace the contents of the existing course. "
+"{em_start}You cannot undo a course import{em_end}. Before you proceed, we "
+"recommend that you export the current course, so that you have a backup copy"
+" of it."
+msgstr ""
+"გაგრძელებამდე დარწმუნდით, რომ გსურთ კურსის იმპორტირება. იმპორტირებული კურსის"
+" შინაარსი ჩაანაცვლებს არსებული კურსის შინაარსს. {em_start}თქვენ ვერ "
+"გააუქმებთ კურსის იმპორტირებას{em_end}. გირჩევთ, გაგრძელებამდე მიმდინარე "
+"კურსის სამარქაფო ასლი დააექსპორტოთ."
+
+#: cms/templates/import.html:54
+msgid ""
+"The course that you import must be in a .tar.gz file (that is, a .tar file "
+"compressed with GNU Zip). This .tar.gz file must contain a course.xml file. "
+"It may also contain other files."
+msgstr ""
+"კურსი რომლის იმპორტირებაც გსურთ უნდა იყოს .tar.gz ფორმატის ფაილი (იგივეა რაც"
+" GNU Zip-ით კომპრესირებული .tar ფაილი). ეს ფაილი უნდა შეიცავდეს course.xml "
+"ფაილს. ასევე, შესაძლოა შეიცავდეს სხვა ფაილებსაც."
+
+#: cms/templates/import.html:55
+msgid ""
+"The import process has five stages. During the first two stages, you must "
+"stay on this page. You can leave this page after the Unpacking stage has "
+"completed. We recommend, however, that you don't make important changes to "
+"your course until the import operation has completed."
+msgstr ""
+"იმპორტირების პროცესის 5 ეტაპია. პირველი ორი ეტაპის დროს, სავალდებულოა თქვენი"
+" ამ გვერდზე ყოფნა. ფაილის ამოღების ეტაპის დასრულების შემდეგ, შეგიძლიათ ამ "
+"გვერდის დატოვება. თუმცა გირჩევთ, იმპორტირების დასრულებამდე კურსზე "
+"მნიშვნელოვანი ცვლილებები არ განახორციელოთ."
+
+#: cms/templates/import.html:65
+msgid "Select a .tar.gz File to Replace Your Library Content"
+msgstr ""
+"თქვენი ბიბლიოთეკის შინაარსის ჩასანაცვლებლად აირჩიეთ .tar.gz ფორმატის ფაილი"
+
+#: cms/templates/import.html:67
+msgid "Select a .tar.gz File to Replace Your Course Content"
+msgstr "თქვენი კურსის შინაარსის ჩასანაცვლებლად აირჩიეთ .tar.gz ფორმატის ფაილი"
+
+#: cms/templates/import.html:75
+msgid "Choose a File to Import"
+msgstr "იმპორტირებისთვის აირჩიეთ ფაილი"
+
+#: cms/templates/import.html:80
+msgid "File Chosen:"
+msgstr "არჩეული ფაილი:"
+
+#: cms/templates/import.html:88
+msgid "Replace my library with the selected file"
+msgstr "ჩაანაცვლე ჩემი ბიბლიოთეკა არჩეული ფაილით"
+
+#: cms/templates/import.html:90
+msgid "Replace my course with the selected file"
+msgstr "ჩაანაცვლე ჩემი კურსი არჩეული ფაილით"
+
+#: cms/templates/import.html:98
+msgid "Library Import Status"
+msgstr "ბიბლიოთეკის იმპორტირების სტატუსი"
+
+#: cms/templates/import.html:100
+msgid "Course Import Status"
+msgstr "კურსის იმპორტირების სტატუსი"
+
+#: cms/templates/import.html:112
+msgid "Uploading"
+msgstr "ატვირთვა"
+
+#: cms/templates/import.html:116
+msgid "Transferring your file to our servers"
+msgstr "თქვენი ფაილების ჩვენს სერვერზე გადატანა"
+
+#: cms/templates/import.html:127
+msgid "Unpacking"
+msgstr "გახსნა"
+
+#: cms/templates/import.html:128
+msgid ""
+"Expanding and preparing folder/file structure (You can now leave this page "
+"safely, but avoid making drastic changes to content until this import is "
+"complete)"
+msgstr ""
+"მიმდინარეობს საქაღალდის/ფაილის სტრუქტურის ამოღება და მომზადება (ახლა უკვე "
+"შეგიძლიათ უსაფრთხოდ დატოვოთ გვერდი, თუმცა, იმპორტირების დასრულებამდე, "
+"შინაარსზე მკვეთრ ცვლილებებს ნუ განახორციელებთ) "
+
+#: cms/templates/import.html:140
+msgid "Verifying"
+msgstr "მიმდინარეობს  შემოწმება"
+
+#: cms/templates/import.html:141
+msgid "Reviewing semantics, syntax, and required data"
+msgstr "სემანტიკის, სინტაქსისა და სხვა სავალდებულო მონაცემების შემოწმება"
+
+#: cms/templates/import.html:154
+msgid "Updating Library"
+msgstr "ბიბლიოთეკის განახლება"
+
+#: cms/templates/import.html:156
+msgid "Updating Course"
+msgstr "კურსის განახლება"
+
+#: cms/templates/import.html:161
+msgid ""
+"Integrating your imported content into this library. This process might take"
+" longer with larger libraries."
+msgstr ""
+"მიმდინარეობს თქვენს მიერ შემოტანილი შინაარსის ბიბლიოთეკაში ინტეგრირება. "
+"ბიბლიოთეკის დიდი მოცულობის შემთხვევაში ამას შესაძლოა საგრძნობი დრო "
+"დასჭირდეს."
+
+#: cms/templates/import.html:163
+msgid ""
+"Integrating your imported content into this course. This process might take "
+"longer with larger courses."
+msgstr ""
+"მიმდინარეობს თქვენი შემოტანილი შინაარსის კურსში ინტეგრაცია. დიდი მოცულობის "
+"კურსებისთვის, ეს პროცესი შესაძლოა გახანგრძლივდეს."
+
+#: cms/templates/import.html:180
+msgid "Your imported content has now been integrated into this library"
+msgstr ""
+"თქვენს მიერ იმპორტირებული შინაარსი უკვე ინტეგრირებულია მოცემულ ბიბლიოთეკაში."
+
+#: cms/templates/import.html:182
+msgid "Your imported content has now been integrated into this course"
+msgstr ""
+"თქვენს მიერ იმპორტირებული შინაარსი უკვე ინტეგრირებულია მოცემულ კურსში."
+
+#: cms/templates/import.html:190
+msgid "View Updated Library"
+msgstr "განახლებული ბიბლიოთეკის დათვალიერება"
+
+#: cms/templates/import.html:192
+msgid "View Updated Outline"
+msgstr "განახლებული სტრუქტურის დათვალიერება"
+
+#: cms/templates/import.html:207
+msgid "Why import a library?"
+msgstr "რატომ გავაკეთოთ ბიბლიოთეკის იმპორტი?"
+
+#: cms/templates/import.html:208
+msgid ""
+"You might want to update an existing library to a new version, or replace an"
+" existing library entirely. You might also have developed a library outside "
+"of {studio_name}."
+msgstr ""
+"შესაძლოა გსურთ არსებული ბიბლიოთეკის ახალი ვერსიით განახლება, ან არსებულის "
+"სრულად ჩანაცვლება. ან შესაძლოა ბიბლიოთეკა {studio_name}-ის გარეთ დაამუშავეთ."
+
+#: cms/templates/import.html:212
+msgid "Note: Library content is not automatically updated in courses"
+msgstr "შენიშვნა: კურსებში ბიბლიოთეკის შინაარსი ავტომატურად არ განახლდება."
+
+#: cms/templates/import.html:213
+msgid ""
+"If you change and import a library that is referenced by randomized content "
+"blocks in one or more courses, those courses do not automatically use the "
+"updated content. You must manually refresh the randomized content blocks to "
+"bring them up to date with the latest library content."
+msgstr ""
+"თუ შეცვლით და შემოიტანთ ბიბლიოთეკას, რომელიც განსაზღვრულია ერთი ან მეტი "
+"კურსის შემთხვევითი ბლოკებისთვის, ის კურსები განახლებულ შინაარსს ავტომატურად "
+"არ გამოიყენებენ. თქვენ მანუალურად უნდა განაახლოთ შემთხვევითი შინაარსის "
+"ბლოკები და ბიბლიოთეკის უახლეს შინაარსს შეუსაბამოთ."
+
+#: cms/templates/import.html:216
+msgid "Learn more about importing a library"
+msgstr "გაიგე მეტი ბიბლიოთეკის იმპორტირების შესახებ"
+
+#: cms/templates/import.html:222
+msgid "Why import a course?"
+msgstr "რატომ გსურთ კურსის იმპორტირება?"
+
+#: cms/templates/import.html:223
+msgid ""
+"You may want to run a new version of an existing course, or replace an "
+"existing course altogether. Or, you may have developed a course outside "
+"{studio_name}."
+msgstr ""
+"შესაძლოა თქვენ გსურთ არსებული კურსის ახალი ვერსიის გაშვება ან მისი სრულად "
+"ჩანაცვლება, ან შესაძლოა თქვენ კურსი {studio_name}-ს გარეთ დაამუშავეთ."
+
+#: cms/templates/import.html:227
+msgid "What content is imported?"
+msgstr "რა შინაარსი დაიმპორტდა?"
+
+#: cms/templates/import.html:228
+msgid "The following content is imported."
+msgstr ""
+
+#: cms/templates/import.html:236
+msgid "The following content is not imported."
+msgstr ""
+
+#: cms/templates/import.html:244
+msgid "Warning: Importing while a course is running"
+msgstr "გაფრთხილება: იმპორტირება ხორციელდება კურსის მსვლელობისას"
+
+#: cms/templates/import.html:245
+msgid ""
+"If you perform an import while your course is running, and you change the "
+"URL names (or url_name nodes) of any Problem components, the student data "
+"associated with those Problem components may be lost. This data includes "
+"students' problem scores."
+msgstr ""
+"თუკი კურსის მსვლელობისას განახორციელებთ შემოტანას და ნებისმიერი ამოცანის "
+"ნაწილების URL დასახელებას (ან url_name კვანძებს) შეცვლით, იმ ამოცანის "
+"ნაწილებთან დაკავშირებული სტუდენტების მონაცემები შესაძლოა დაიკარგოს. ეს "
+"მონაცემები მოიცავს სტუდენტების ამოცანების ქულებსაც."
+
+#: cms/templates/import.html:248
+msgid "Learn more about importing a course"
+msgstr "გაიგე მეტი კურსის იმპორტირების შესახებ"
+
+#: cms/templates/index.html:14 cms/templates/index.html:26
+#: cms/templates/widgets/user_dropdown.html:22
+msgid "{studio_name} Home"
+msgstr "{studio_name} მთავარი გვერდი"
+
+#: cms/templates/index.html:35
+msgid "New Course"
+msgstr "ახალი კურსი"
+
+#: cms/templates/index.html:37
+msgid "Email staff to create course"
+msgstr "გაუგზავნეთ თანამშრომლებს ელფოსტის შეტყობინება, რომ შექმნან კურსი"
+
+#: cms/templates/index.html:41
+msgid "New Library"
+msgstr "ახალი ბიბლიოთეკა"
+
+#: cms/templates/index.html:60 cms/templates/index.html:135
+msgid "Please correct the highlighted fields below."
+msgstr "გთხოვთ, ჩაასწოროთ ინფორმაცია ქვემოთ ამონათებულ ველებში"
+
+#: cms/templates/index.html:65
+msgid "Create a New Course"
+msgstr "ახალი კურსის შექმნა"
+
+#: cms/templates/index.html:68
+msgid "Required Information to Create a New Course"
+msgstr "ახალი კურსის შესაქმნელად სავალდებულო ინფორმაცია"
+
+#: cms/templates/index.html:76
+msgid ""
+"The public display name for your course. This cannot be changed, but you can"
+" set a different display name in Advanced Settings later."
+msgstr ""
+"თქვენი კურსის საჯარო დასახელება. დასახელება შეცლას არ ექვემდებარება, თუმცა "
+"მოგვიანებით, დამატებითი პარამეტრებიდან შეძლებთ სხვა სახელის დარქმევას."
+
+#: cms/templates/index.html:84
+msgid ""
+"The name of the organization sponsoring the course. {strong_start}Note: The "
+"organization name is part of the course URL.{strong_end} This cannot be "
+"changed, but you can set a different display name in Advanced Settings "
+"later."
+msgstr ""
+"კურსის სპონსორი ორგანიზაციის დასახელება. {strong_start}შენიშვნა:ორგანიზაციის"
+" სახელი არის კურსის URL-ის ნაწილი.{strong_end} მის შეცვლა არ შეიძლება, "
+"მაგრამ მოგვიანებით შეგიძლიათ დამატებითი პარამეტრებიდან სხვა ხილვადი სახელის "
+"დაყენება."
+
+#: cms/templates/index.html:97
+msgid ""
+"The unique number that identifies your course within your organization. "
+"{strong_start}Note: This is part of your course URL, so no spaces or special"
+" characters are allowed and it cannot be changed.{strong_end}"
+msgstr ""
+"უნიკალური ნომერი, რომლის მიხედვითაც ხდება ორგანიზაციის ფარგლებში კურსის "
+"იდენტიფიცირება.  {strong_start}შენიშვნა: ეს თქვენი კურსის URL-ის ნაწილია, "
+"ასე რომ,  შორისების ან სპეციალური სიმბოლოების გამოყენება არ არის ნებადართული"
+" და მისი შეცვლა არ შეიძლება.{strong_end}"
+
+#: cms/templates/index.html:109
+msgid ""
+"The term in which your course will run. {strong_start}Note: This is part of "
+"your course URL, so no spaces or special characters are allowed and it "
+"cannot be changed.{strong_end}"
+msgstr ""
+"თქვენი კურსის მიმდინარეობის პირობა. {strong_start}შენიშვნა: ეს თქვენი კურსის"
+" URL მისამართის ნაწილია, დაშორებები ან სპეციალური სიმბოლოები ნებადართული არ "
+"არის და მისი მოგვიანებით შეცვლა ვერ მოხერხდება.{strong_end}"
+
+#: cms/templates/index.html:122 cms/templates/index.html:182
+msgid "Create"
+msgstr "შექმნა"
+
+#: cms/templates/index.html:140
+msgid "Create a New Library"
+msgstr "ახალი ბიბლიოთეკის შექმნა"
+
+#: cms/templates/index.html:143
+msgid "Required Information to Create a New Library"
+msgstr "ახალი ბიბლიოთეკის შესაქმნელად აუცილებელი ინფორმაცია"
+
+#: cms/templates/index.html:147
+msgid "Library Name"
+msgstr "ბიბლიოთეკის დასახელება"
+
+#. Translators: This is an example name for a new content library, seen when
+#. filling out the form to create a new library.
+#. (A library is a collection of content or problems.)
+#: cms/templates/index.html:151
+msgid "e.g. Computer Science Problems"
+msgstr "მაგ. კომპიუტერული მეცნიერების ამოცანები"
+
+#: cms/templates/index.html:152
+msgid "The public display name for your library."
+msgstr "თქვენი ბიბლიოთეკის საჯარო სახელწოდება."
+
+#: cms/templates/index.html:158
+msgid "The public organization name for your library."
+msgstr "თქვენი ბიბლიოთეკის ორგანიზაციის საჯარო დასახელება."
+
+#: cms/templates/index.html:158
+msgid "This cannot be changed."
+msgstr "შეცვლას არ ექვემდებარება."
+
+#: cms/templates/index.html:163
+msgid "Library Code"
+msgstr "ბიბლიოთეკის კოდი"
+
+#. Translators: This is an example for the "code" used to identify a library,
+#. seen when filling out the form to create a new library. This example is
+#. short
+#. for "Computer Science Problems". The example number may contain letters
+#. but must not contain spaces.
+#: cms/templates/index.html:168
+msgid "e.g. CSPROB"
+msgstr "მაგ. CSPROB"
+
+#: cms/templates/index.html:169
+msgid ""
+"The unique code that identifies this library. {strong_start}Note: This is "
+"part of your library URL, so no spaces or special characters are "
+"allowed.{strong_end} This cannot be changed."
+msgstr ""
+"უნიკალური კოდი, რომლის მიხედვითაც ხდება ბიბლიოთეკის იდენტიფიცირება. "
+"{strong_start}შენიშვნა: ეს თქვენი ბიბლიოთეკის URL მისამართის ნაწილია, "
+"დაშორებები ან სპეციალური სიმბოლოები დაშვებული არ არის.{strong_end} ეს არ "
+"შეიცვლება."
+
+#: cms/templates/index.html:191
+msgid "Organization and Library Settings"
+msgstr ""
+
+#: cms/templates/index.html:195
+msgid "Show all courses in organization:"
+msgstr ""
+
+#: cms/templates/index.html:197
+msgid "For example, MITx"
+msgstr ""
+
+#: cms/templates/index.html:211
+msgid "Courses Being Processed"
+msgstr "მიმდინარეობს კურსის დამუშავება"
+
+#: cms/templates/index.html:237
+msgid "This course run is currently being created."
+msgstr "მიმდინარეობს კურსის მსვლელობის შექმნა,"
+
+#. Translators: This is a status message, used to inform the user of
+#. what the system is doing. This status means that the user has
+#. requested to re-run an existing course, and the system is currently
+#. in the process of duplicating and configuring the existing course
+#. so that it can be re-run.
+#: cms/templates/index.html:245
+msgid "Configuring as re-run"
+msgstr "მიმდინარეობს ხელახლა გაშვების კონფიგურაცია"
+
+#: cms/templates/index.html:251
+msgid ""
+"The new course will be added to your course list in 5-10 minutes. Return to "
+"this page or {link_start}refresh it{link_end} to update the course list. The"
+" new course will need some manual configuration."
+msgstr ""
+"ახალი კურსი თქვენი კურსების სიას 5-10 წუთის განმავლობაში დაემატება. კურსის "
+"სიის გასაახლებლად დაბრუნდით ან {link_start}განაახლეთ{link_end} ეს გვერდი. "
+"ახალი კურსი საჭიროებს გარკვეული პარამეტრების ხელით დაყენებას."
+
+#. Translators: This is a status message for the course re-runs feature.
+#. When a course admin indicates that a course should be re-run, the system
+#. needs to process the request and prepare the new course. The status of
+#. the process will follow this text.
+#: cms/templates/index.html:287
+msgid "This re-run processing status:"
+msgstr "ხელახლა გაშვების დამუშავების სტატუსი:"
+
+#: cms/templates/index.html:290
+msgid "Configuration Error"
+msgstr "კონფიგურაციის შეცდომა"
+
+#: cms/templates/index.html:296
+msgid ""
+"A system error occurred while your course was being processed. Please go to "
+"the original course to try the re-run again, or contact your PM for "
+"assistance."
+msgstr ""
+"თქვენი კურსის დამუშავებისას დაფიქსირდა სისტემური შეცდომა. გთხოვთ, გადადით "
+"საწყის კურსზე და სცადეთ მისი ხელახლა გაშვება ან დახმარებისთვის დაუკავშირდით "
+"ტექნიკური მხარდაჭერის სერვისს."
+
+#: cms/templates/index.html:318
+msgid "Archived Courses"
+msgstr ""
+
+#: cms/templates/index.html:322 cms/templates/index.html:324
+msgid "Libraries"
+msgstr "ბიბლიოთეკები"
+
+#: cms/templates/index.html:348
+msgid "Are you staff on an existing {studio_name} course?"
+msgstr "{studio_name}-ის არსებული კურსის თანამშრომელი ბრძანდებით?"
+
+#: cms/templates/index.html:350
+msgid ""
+"The course creator must give you access to the course. Contact the course "
+"creator or administrator for the course you are helping to author."
+msgstr ""
+"კურსზე წვდომა კურსის შემქმნელმა უნდა მოგანიჭოთ. დაუკავშირდით შესაბამისი "
+"კურსის შემქმნელს ან ადმინისტრატორს."
+
+#: cms/templates/index.html:358 cms/templates/index.html:366
+msgid "Create Your First Course"
+msgstr "შექმენით თქვენი პირველი კურსი"
+
+#: cms/templates/index.html:360
+msgid "Your new course is just a click away!"
+msgstr "ერთი დაწკაპუნებაც და თქვენი ახალი კურსი შექმნილია!"
+
+#: cms/templates/index.html:379
+msgid "Becoming a Course Creator in {studio_name}"
+msgstr "შექმენით კურსი {studio_name}-ში"
+
+#: cms/templates/index.html:384
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team will evaluate your request and provide you feedback within 24 hours "
+"during the work week."
+msgstr ""
+"ჩვენი xConsortium-ის პარტნიორებისა და შერჩეული სტუმრებისთვის მართვის "
+"ძირითადი პლატფორმა {studio_name}-ია. კურსები, რომელთა გუნდის წევრიც ხართ, "
+"რედაქტირებისთვის ზედა ნაწილში გამოჩდება,ხოლო კურსის შემქმნელის პრივილეგიებს"
+"  {platform_name}-ი ანიჭებს. ჩვენი გუნდი შეაფასებს თქვენს მოთხოვნას და "
+"სამუშაო კვირაში, 24 საათის განმავლობაში გიპასუხებთ."
+
+#: cms/templates/index.html:389 cms/templates/index.html:414
+#: cms/templates/index.html:442
+msgid "Your Course Creator Request Status:"
+msgstr "კურსის ავტორობაზე თქვენი მოთხოვნის სტატუსი:"
+
+#: cms/templates/index.html:393
+msgid "Request the Ability to Create Courses"
+msgstr "მოთხოვნა კურსების შექმნის შესაძლებლობაზე"
+
+#: cms/templates/index.html:403 cms/templates/index.html:431
+msgid "Your Course Creator Request Status"
+msgstr "კურსის ავტორობაზე თქვენი მოთხოვნის სტატუსი"
+
+#: cms/templates/index.html:408
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team is has completed evaluating your request."
+msgstr ""
+"{studio_name} ჩვენი xConsortium პარტნიორებისა და სტუმართა ნაწილისთვის "
+"შექმნილი ონლაინ პროდუქტია. თქვენ შეგიძლიათ იმ კურსების რედაქტირება, რომელთა "
+"გუნდის წევრიც ხართ, კურსის შემქმნელის პრივილეგიებს  კი {platform_name}-ი "
+"ანიჭებს. ჩვენმა გუნდმა დაასრულა თქვენი მოთხოვნის განხილვა."
+
+#: cms/templates/index.html:417 cms/templates/index.html:445
+msgid "Your Course Creator request is:"
+msgstr "თქვენი კურსის შემქმნელის მოთხოვნაა:"
+
+#: cms/templates/index.html:420
+msgid "Denied"
+msgstr "უარყოფილი"
+
+#: cms/templates/index.html:421
+msgid ""
+"Your request did not meet the criteria/guidelines specified by "
+"{platform_name} Staff."
+msgstr ""
+"თქვენი მოთხოვნა არ აკმაყოფილებს {platform_name}-ის თანამშრომელთა მიერ "
+"გაწერილ კრიტერიუმებს/სახელმძღვანელოს."
+
+#: cms/templates/index.html:436
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team is currently  evaluating your request."
+msgstr ""
+"ჩვენი xConsortium-ის პარტნიორებისა და შერჩეული სტუმარებისთვის მართვის "
+"ძირითადი პლატფორმა {studio_name}-ია. კურსები, რომელთა გუნდის წევრიც ხართ, "
+"რედაქტირებისთვის ზედა ნაწილში გამოჩნდება, ხოლო, კურსის შემქმნელის "
+"პრივილეგიებს {platform_name}-ი ანიჭებს. ჩვენი გუნდი ამჟამად თქვენს "
+"მოთხოვნებს აფასებს."
+
+#: cms/templates/index.html:448
+msgid "Pending"
+msgstr "მომლოდინე"
+
+#: cms/templates/index.html:450
+msgid ""
+"Your request is currently being reviewed by {platform_name} staff and should"
+" be updated shortly."
+msgstr ""
+"ამჟამად თქვენს მოთხოვნას განიხილავენ {platform_name}-ის თანამშრომლები და "
+"მალე გიპასუხებენ."
+
+#: cms/templates/index.html:492
+msgid "Were you expecting to see a particular library here?"
+msgstr "თქვენ აქ კონკრეტული ბიბლიოთეკის ნახვას ელოდით?"
+
+#: cms/templates/index.html:494
+msgid ""
+"The library creator must give you access to the library. Contact the library"
+" creator or administrator for the library you are helping to author."
+msgstr ""
+"ბიბლიოთეკაზე წვდომა ბიბლიოთეკის შემქმნელმა უნდა მოგანიჭოთ. დაუკავშირდით "
+"შესაბამისი ბიბლიოთეკის შემქმნელს ან ადმინისტრატორს."
+
+#: cms/templates/index.html:501 cms/templates/index.html:509
+msgid "Create Your First Library"
+msgstr "თქვენი პირველი ბიბლიოთეკის შექმნა"
+
+#: cms/templates/index.html:503
+msgid ""
+"Libraries hold a pool of components that can be re-used across multiple "
+"courses. Create your first library with the click of a button!"
+msgstr ""
+"შესაძლოა ბიბლიოთეკების მთელი რიგი კომპონენტები სხვადასხვა კურსების მიერ "
+"იქნეს გამოყენებული. ღილაკზე დაწკაპუნებით შექმენით თქვენი პირველი ბიბლიოთეკა!"
+
+#: cms/templates/index.html:520
+msgid "New to {studio_name}?"
+msgstr "ახალი ხართ {studio_name}-ზე?"
+
+#: cms/templates/index.html:521
+msgid ""
+"Click Help in the upper-right corner to get more information about the "
+"{studio_name} page you are viewing. You can also use the links at the bottom"
+" of the page to access our continually updated documentation and other "
+"{studio_name} resources."
+msgstr ""
+"{studio_name}-ის გვერდის შესახებ მეტი ინფორმაციის მისაღებად დააწკაპუნეთ ზედა"
+" მარჯვენა კუთხეში დახმარებაზე. ასევე, გვერდის ქვემოთ განთავსებული ბმულების "
+"საშუალებით იხილეთ ჩვენი მუდმივად განახლებადი დოკუმენტები და {studio_name}-ის"
+" სხვა რესურსები."
+
+#: cms/templates/index.html:526
+msgid "Getting Started with {studio_name}"
+msgstr "ვიწყებთ {studio_name}-ში მუშაობას"
+
+#: cms/templates/index.html:533 cms/templates/index.html:545
+#: cms/templates/index.html:551
+msgid "Can I create courses in {studio_name}?"
+msgstr "შემიძლია {studio_name}-ში კურსების შექმნა?"
+
+#: cms/templates/index.html:534
+msgid ""
+"In order to create courses in {studio_name}, you must {link_start}contact "
+"{platform_name} staff to help you create a course{link_end}."
+msgstr ""
+"{studio_name}-ში კურსების შექმნის მიზნით, უნდა "
+"{link_start}დაუკავშირდეთ{platform_name}-ის თანამშრომლებს, რომლებიც "
+"კურსის{link_end} შექმნაში დაგეხმარებიან."
+
+#: cms/templates/index.html:546
+msgid ""
+"In order to create courses in {studio_name}, you must have course creator "
+"privileges to create your own course."
+msgstr ""
+"{studio_name}-ში საკუთარი კურსის შესაქმნელად კურსის შემქმნელის პრივილეგიებით"
+" უნდა სარგებლობდეთ."
+
+#: cms/templates/index.html:552
+msgid ""
+"Your request to author courses in {studio_name} has been denied. Please "
+"{link_start}contact {platform_name} Staff with further questions{link_end}."
+msgstr ""
+"თქვენი მოთხოვნა, იყოთ კურსების ავტორი {studio_name}-ში, უარყოფილია. "
+"დამატებითი კითხვების შემთხვევაში {link_start}გთხოვთ დაუკავშირდეთ "
+"{platform_name}-ის თანამშრომლებს{link_end}."
+
+#: cms/templates/index.html:569
+msgid "Thanks for signing up, {name}!"
+msgstr "გმადლობთ რეგისტრაციისთვის, {name}!"
+
+#: cms/templates/index.html:574
+msgid "We need to verify your email address"
+msgstr "ჩვენ გვჭირდება თქვენი ელფოსტის მისამართის დადასტურება"
+
+#: cms/templates/index.html:576
+msgid ""
+"Almost there! In order to complete your sign up we need you to verify your "
+"email address ({email}). An activation message and next steps should be "
+"waiting for you there."
+msgstr ""
+"თითქმის მზადაა! რეგისტრაციის დასრულებისთვის უნდა დაადასტუროთ თქვენი ელფოსტის"
+" მისამართი ({email}), რომელზეც უკვე გელოდებათ შეტყობინება აქტივიზაციისა და "
+"შემდეგი საფეხურების შესახებ."
+
+#: cms/templates/index.html:584
+msgid "Need help?"
+msgstr "გჭირდებათ დახმარება?"
+
+#: cms/templates/index.html:585
+msgid ""
+"Please check your Junk or Spam folders in case our email isn't in your "
+"INBOX. Still can't find the verification email? Request help via the link "
+"below."
+msgstr ""
+"თუკი ჩვენგან გამოგზავნილი ელექტრონული წერილი არ ჩანს თქვენს შემომავალ "
+"საქაღალდეში, გთხოვთ შეამოწმოთ არასასურველი ფოსტა ან სპამის საქაღალდეები. "
+"მაინც ვერ ნახეთ დადასტურების შეტყობინება? მოითხოვეთ დახმარება ქვემოთ "
+"განთავსებული და ბმულის საშუალებით."
+
+#: cms/templates/library.html:49
+msgid "Content Library"
+msgstr "შინაარსის ბიბლიოთეკა"
+
+#: cms/templates/library.html:61
+msgid "Add Component"
+msgstr "კომპონენტის დამატება"
+
+#: cms/templates/library.html:90
+msgid "Adding content to your library"
+msgstr "ბიბლიოთეკაში შინაარსის დამატება"
+
+#: cms/templates/library.html:91
+msgid ""
+"Add components to your library for use in courses, using Add New Component "
+"at the bottom of this page."
+msgstr ""
+"გვერდის ქვედა ნაწილში არსებული ღილაკის „დაამატე ახალი კომპონენტი“ "
+"საშუალებით, დაამატეთ ბიბლიოთეკაში კურსებში გამოსაყენებლი კომპონენტები."
+
+#: cms/templates/library.html:92
+msgid ""
+"Components are listed in the order in which they are added, with the most "
+"recently added at the bottom. Use the pagination arrows to navigate from "
+"page to page if you have more than one page of components in your library."
+msgstr ""
+"კომპონენტები ჩამოთვლილია მათი დამატების თანმიმდევრობის მიხედვით, ყველაზე "
+"ბოლოს დამატებულები ქვედა ნაწილშია. გვერდების დანომვრის ისრების საშუალებით "
+"გადადით გვერდიდან გვერდზე, თუ ბიბლიოთეკაში კომპონენტების ერთ გვერდზე მეტი "
+"გაქვთ."
+
+#: cms/templates/library.html:93
+msgid "Using library content in courses"
+msgstr "კურსებში ბიბლიოთეკის შინაარსის გამოყენება"
+
+#: cms/templates/library.html:94
+msgid ""
+"Use library content in courses by adding the "
+"{em_start}library_content{em_end} policy key to the Advanced Module List in "
+"the course's Advanced Settings, then adding a Randomized Content Block to "
+"your courseware. In the settings for each Randomized Content Block, select "
+"this library as the source library, and specify the number of problems to be"
+" randomly selected and displayed to each student."
+msgstr ""
+"კურსებში ბიბლიოთეკის შინაარსი გამოყენეთ, კურსის დამატებით პარამეტრებში "
+"\"Advanced Module List\"-ზე {em_start}library_content{em_end} მეთოდის "
+"ღილაკის დამატებით. შემდეგ კი თქვენს კურსს დაამატეთ შემთხვევითი შინაარსის "
+"ბლოკი. შემთხვევითი შინაარსის თითოეული ბლოკის პარამეტრებში ეს ბიბლიოთეკა "
+"მიუთითეთ ძირითად ბიბლიოთეკად. განსაზღვრეთ ამოცანათა რაოდენობა, რომლებიც "
+"შემთხვევითობის საფუძველზე შეირჩევა და ეკრანზე გამოვა ყოველი სტუდენტისთვის."
+
+#: cms/templates/library.html:101
+msgid "Learn more about content libraries"
+msgstr "გაიგეთ მეტი მასალის ბიბლიოთეკების შესახებ"
+
+#: cms/templates/manage_users.html:14
+msgid "Course Team Settings"
+msgstr "კურსის გუნდის პარამეტრები"
+
+#: cms/templates/manage_users.html:38 cms/templates/manage_users_lib.html:37
+msgid "New Team Member"
+msgstr "გუნდის ახალი წევრი"
+
+#: cms/templates/manage_users.html:53
+msgid "Add a User to Your Course's Team"
+msgstr "დაამატეთ მომხმარებელი თქვენი კურსის გუნდს"
+
+#: cms/templates/manage_users.html:56 cms/templates/manage_users_lib.html:55
+msgid "New Team Member Information"
+msgstr "ინფორმაცია გუნდის ახალი წევრებზე "
+
+#: cms/templates/manage_users.html:60 cms/templates/manage_users_lib.html:59
+msgid "User's Email Address"
+msgstr "მომხმარებლის ელფოსტის მისამართი"
+
+#: cms/templates/manage_users.html:62
+msgid "Provide the email address of the user you want to add as Staff"
+msgstr ""
+"მიუთითეთ იმ მომხმარებლის ელფოსტის მისამართი, რომლის თანამშრომლად დამატებაც "
+"გსურთ"
+
+#: cms/templates/manage_users.html:69 cms/templates/manage_users_lib.html:68
+msgid "Add User"
+msgstr "მომხმარებლის დამატება"
+
+#: cms/templates/manage_users.html:85
+msgid "Add Team Members to This Course"
+msgstr "კურსზე გუნდის წევრების დამატება"
+
+#: cms/templates/manage_users.html:87
+msgid ""
+"Adding team members makes course authoring collaborative. Users must be "
+"signed up for {studio_name} and have an active account."
+msgstr ""
+"გუნდის წევრების დამატება კურსის თანაავტორობის საშუალებას იძლევა. "
+"მომხმარებლები უნდა გაერთიანდნენ {studio_name}-ში და ჰქონდეთ გააქტიურებული "
+"ანგარიში."
+
+#: cms/templates/manage_users.html:93
+msgid "Add a New Team Member"
+msgstr "გუნდის ახალი წევრის დამატება"
+
+#: cms/templates/manage_users.html:102
+msgid "Course Team Roles"
+msgstr "კურსის გუნდის როლი"
+
+#: cms/templates/manage_users.html:103
+msgid ""
+"Course team members with the Staff role are course co-authors. They have "
+"full writing and editing privileges on all course content."
+msgstr ""
+"კურსის გუნდის წევრები თანამშრომლის როლით, კურსის თანაავტორები არიან. ისინი "
+"კურსის შინაარსის რედაქტირების სრული პრივილეგიებით სარგებლობენ."
+
+#: cms/templates/manage_users.html:105
+msgid ""
+"Admins are course team members who can add and remove other course team "
+"members."
+msgstr ""
+"ადმინისტრატორი კურსის გუნდის წევრია, რომელსაც კურსის გუნდის წევრების "
+"დამატება და წაშლა შეუძლია."
+
+#: cms/templates/manage_users.html:106
+msgid ""
+"All course team members can access content in Studio, the LMS, and Insights,"
+" but are not automatically enrolled in the course."
+msgstr ""
+"კურსის გუნდის ყველა წევრს შეუძლია Studio-ს, LMS-ისა და Insights-ის შინაარსზე"
+" წვდომა, მაგრამ კურსზე მათი ავტომატურად ჩარიცხვა არ ხდება."
+
+#: cms/templates/manage_users.html:111
+msgid "Transferring Ownership"
+msgstr "მფლობელობის გადაცემა"
+
+#: cms/templates/manage_users.html:113
+msgid ""
+"Every course must have an Admin. If you are the Admin and you want to "
+"transfer ownership of the course, click <strong>Add admin access</strong> to"
+" make another user the Admin, then ask that user to remove you from the "
+"Course Team list."
+msgstr ""
+"თითოეულ კურსს უნდა ჰყავდეს ადმინისტრატორი. თუ თქვენ ადმინისტრატორი ხართ და "
+"გსურთ კურსის მფოლებლობის გადაცემა, ადმინისტრირების უფლების სხვა "
+"მომხმარებლისთვის მისანიჭებლად დააწკაპუნეთ <strong>ადმინისტრირების უფლების "
+"მინიჭება</strong>-ზე, შემდეგ კი სთხოვეთ ამ მომხმარებელს, რომ წაგშალოთ კურსის"
+" გუნდის სიიდან."
+
+#: cms/templates/manage_users_lib.html:13
+msgid "Library User Access"
+msgstr "ბიბლიოთეკის მომხმარებლის წვდომა"
+
+#: cms/templates/manage_users_lib.html:29
+#: cms/templates/widgets/header.html:177
+msgid "User Access"
+msgstr "მომხმარებლის წვდომა"
+
+#: cms/templates/manage_users_lib.html:52
+msgid "Grant Access to This Library"
+msgstr "ამ ბიბლიოთეკაზე წვდომის მინიჭება"
+
+#: cms/templates/manage_users_lib.html:61
+msgid "Provide the email address of the user you want to add"
+msgstr "მიუთითეთ იმ მომხმარებლის ელფოსტის მისამართი, რომლის დამატებაც გსურთ"
+
+#: cms/templates/manage_users_lib.html:84
+msgid "Add More Users to This Library"
+msgstr "ბიბლიოთეკაში მეტი მომხმარებლის დამატება"
+
+#: cms/templates/manage_users_lib.html:86
+msgid ""
+"Grant other members of your course team access to this library. New library "
+"users must have an active {studio_name} account."
+msgstr ""
+"მიანიჭეთ თქვენი კურსის გუნდის სხვა წევრებს ბიბლიოთეკაზე წვდომა. ბიბლიოთეკის "
+"ახალ მომხმარებლებს უნდა ჰქონდეთ {studio_name}-ის აქტიური ანგარიში."
+
+#: cms/templates/manage_users_lib.html:92
+msgid "Add a New User"
+msgstr "ახალი მომხმარებლის დამატება"
+
+#: cms/templates/manage_users_lib.html:101
+msgid "Library Access Roles"
+msgstr "ბიბლიოთეკაზე წვდომის როლები"
+
+#: cms/templates/manage_users_lib.html:102
+msgid "There are three access roles for libraries: User, Staff, and Admin."
+msgstr ""
+"არსებობს ბიბლიოთეკაზე დაშვების სამი როლი: მომხმარებალი, თანამშრომელი და "
+"ადმინისტრატორი."
+
+#: cms/templates/manage_users_lib.html:103
+msgid ""
+"Library Users can view library content and can reference or use library "
+"components in their courses, but they cannot edit the contents of a library."
+msgstr ""
+"ბიბლიოთეკის მომხმარებლებს შეუძლიათ ბიბლიოთეკის შინაარსის ნახვა და მისი "
+"კომპონენტების საკუთარ კურსში გამოყენება, თუმცა მათ არ შეუძლიათ ბიბლიოთეკის "
+"შინაარსის რედაქტირება."
+
+#: cms/templates/manage_users_lib.html:104
+msgid ""
+"Library Staff are content co-authors. They have full editing privileges on "
+"the contents of a library."
+msgstr ""
+"ბიბლიოთეკის თანამშრომლები შინაარსის თანაავტორები არიან. მათ ბიბლიოთეკის "
+"შინაარსის რედაქტირების სრული პრივილეგიები აქვთ."
+
+#: cms/templates/manage_users_lib.html:105
+msgid ""
+"Library Admins have full editing privileges and can also add and remove "
+"other team members. There must be at least one user with the Admin role in a"
+" library."
+msgstr ""
+"ბიბლიოთეკის ადმინისტრატორს რედაქტირების სრული პრივილეგიები აქვს და ასევე "
+"შეუძლია დაამატოს და ამოშალოს გუნდის სხვა წევრები. ბიბლიოთეკაში, "
+"ადმინისტრატორის როლი, სულ ცოტა ერთ მომხმარებელს უნდა ჰქონდეს."
+
+#: cms/templates/settings.html:4
+msgid "Schedule & Details Settings"
+msgstr "განრიგი და დეტალების პარამეტრები"
+
+#: cms/templates/settings.html:55 cms/templates/widgets/header.html:92
+msgid "Schedule & Details"
+msgstr "განრიგი და დეტალები"
+
+#: cms/templates/settings.html:66
+msgid "Basic Information"
+msgstr "ძირითადი ინფორმაცია"
+
+#: cms/templates/settings.html:67
+msgid "The nuts and bolts of your course"
+msgstr "თქვენი კურსის პრაქტიკული მხარე"
+
+#: cms/templates/settings.html:73 cms/templates/settings.html:79
+#: cms/templates/settings.html:85 cms/templates/settings.html:153
+#: cms/templates/settings.html:164 cms/templates/settings.html:175
+msgid "This field is disabled: this information cannot be changed."
+msgstr "ეს ველი გაუქმებულია: ინფორმაცია შეცვლას არ ექვემდებარება"
+
+#: cms/templates/settings.html:92
+msgid "Course Summary Page"
+msgstr "კურსის შემაჯამებელი გვერდი"
+
+#: cms/templates/settings.html:92
+msgid "(for student enrollment and access)"
+msgstr "(სტუდენტთა ჩარიცხვისა და დაშვებისათვის)"
+
+#: cms/templates/settings.html:103
+msgid "Enroll in {course_display_name}"
+msgstr "{course_display_name}-ზე ჩარიცხვა"
+
+#: cms/templates/settings.html:106
+msgid ""
+"The course \"{course_display_name}\", provided by {platform_name}, is open "
+"for enrollment. Please navigate to this course at {link_for_about_page} to "
+"enroll."
+msgstr ""
+"{platform_name}-ის \"{course_display_name}\" კურსზე ჩარიცხვა დაწყებულია. "
+"კურსზე ჩასარიცხად გადადით {link_for_about_page}-ზე."
+
+#: cms/templates/settings.html:112
+msgid "Send a note to students via email"
+msgstr "გაუგზავნეთ სტუდენტებს შეტყობინება ელფოსტით"
+
+#: cms/templates/settings.html:114
+msgid "Invite your students"
+msgstr "მოიწვიეთ თქვენი სტუდენტები"
+
+#: cms/templates/settings.html:122
+msgid "Promoting Your Course with {platform_name}"
+msgstr "გაავრცელეთ ინფორმაცია {platform_name}-ში თქვენი კურსის შესახებ"
+
+#: cms/templates/settings.html:124
+msgid ""
+"Your course summary page will not be viewable until your course has been "
+"announced. To provide content for the page and preview it, follow the "
+"instructions provided by your Program Manager."
+msgstr ""
+"თქვენი კურსის შემაჯამებელი გვერდი არ გამოჩნდება კურსის გამოცხადებამდე. "
+"გვერდზე შინაარსის დასამატებლად და გადათვალიერებისთვის, მიჰყევით პროგრამის "
+"მენეჯერის მიერ მოწოდებულ ინსტრუქციებს."
+
+#: cms/templates/settings.html:128
+msgid ""
+"Please note that changes here may take up to a business day to appear on "
+"your course summary page."
+msgstr ""
+
+#: cms/templates/settings.html:141
+msgid "Course Credit Requirements"
+msgstr "კურსის კრედიტ ქულებთან დაკავშირებული მოთხოვნები"
+
+#: cms/templates/settings.html:142
+msgid "Steps required to earn course credit"
+msgstr "კურსის კრედიტ ქულების მოსაპოვებელი ნაბიჯები"
+
+#: cms/templates/settings.html:150 cms/templates/settings.html:152
+msgid "Minimum Grade"
+msgstr "შეფასების მინიმალური მაჩვენებელი"
+
+#: cms/templates/settings.html:161
+msgid "Successful Proctored Exam"
+msgstr "წარმატებული დაკვირვების ქვეშ გამოცდა "
+
+#: cms/templates/settings.html:163
+msgid "Proctored Exam {number}"
+msgstr "დაკვირვების ქვეშ გამოცდა {number}"
+
+#: cms/templates/settings.html:172
+msgid "ID Verification"
+msgstr "ID-ის შემოწმება"
+
+#: cms/templates/settings.html:174
+msgid "In-Course Reverification {number}"
+msgstr "პიროვნების ხელახალი დამოწმება {number}"
+
+#: cms/templates/settings.html:192
+msgid "Course Pacing"
+msgstr "კურსზე სწავლება"
+
+#: cms/templates/settings.html:193
+msgid "Set the pacing for this course"
+msgstr "კურსზე სწავლების ინტენსივობის განსაზღვრა"
+
+#: cms/templates/settings.html:201
+msgid "Instructor-Paced"
+msgstr "ინსტრუქტირებადი"
+
+#: cms/templates/settings.html:202
+msgid ""
+"Instructor-paced courses progress at the pace that the course author sets. "
+"You can configure release dates for course content and due dates for "
+"assignments."
+msgstr ""
+"ინსტრუქტირებადი კურსი, კურსის ავტორის მიერ დადგენილი მიმართულებით ვითარდება."
+" თქვენ შეგიძლიათ კურსის შინაარსის გამოქვეყნების თარიღისა და დავალებების "
+"საბოლოო ვადების განსაზღვრა. "
+
+#: cms/templates/settings.html:206
+msgid "Self-Paced"
+msgstr "თვითრეგულირებადი"
+
+#: cms/templates/settings.html:207
+msgid ""
+"Self-paced courses do not have release dates for course content or due dates"
+" for assignments. Learners can complete course material at any time before "
+"the course end date."
+msgstr ""
+"თვითრეგულირებად კურსს არ გააჩნია კურსის შინაარსის გამოქვეყნების თარიღი ან "
+"ვადები დავალებებზე. მსმენელებს შეუძლიათ კურსის მასალა კურსის დასრულებამდე "
+"ნებისმიერ დროს დაასრულონ."
+
+#: cms/templates/settings.html:217
+msgid "Course Schedule"
+msgstr "კურსის განრიგი"
+
+#: cms/templates/settings.html:218
+msgid "Dates that control when your course can be viewed"
+msgstr "ვადები, რომელიც მიუთითებს, როდის შეიძლება თქვენი კურსის ნახვა"
+
+#: cms/templates/settings.html:224
+msgid "Course Start Date"
+msgstr ""
+
+#: cms/templates/settings.html:226
+msgid "First day the course begins"
+msgstr "კურსის დაწყების პირველი დღე"
+
+#: cms/templates/settings.html:230
+msgid "Course Start Time"
+msgstr "კურსის დაწყების დრო"
+
+#: cms/templates/settings.html:232 cms/templates/settings.html:246
+#: cms/templates/settings.html:274 cms/templates/settings.html:296
+#: cms/templates/settings.html:316
+msgid "(UTC)"
+msgstr "(UTC)"
+
+#: cms/templates/settings.html:238
+msgid "Course End Date"
+msgstr ""
+
+#: cms/templates/settings.html:240
+msgid "Last day your course is active"
+msgstr "თქვენი კურსის აქტივობის ბოლო დღე"
+
+#: cms/templates/settings.html:244
+msgid "Course End Time"
+msgstr "კურსის დასრულების დრო"
+
+#: cms/templates/settings.html:255
+msgid "Certificates Available Date"
+msgstr ""
+
+#: cms/templates/settings.html:257
+msgid "By default, 48 hours after course end date"
+msgstr ""
+
+#: cms/templates/settings.html:266
+msgid "Enrollment Start Date"
+msgstr "ჩარიცხვის დაწყების თარიღი"
+
+#: cms/templates/settings.html:268
+msgid "First day students can enroll"
+msgstr "სტუდენტების ჩარიცხვის დაწყების პირველი დღე"
+
+#: cms/templates/settings.html:272
+msgid "Enrollment Start Time"
+msgstr "ჩარიცხვის დაწყების დრო"
+
+#: cms/templates/settings.html:283
+msgid "Enrollment End Date"
+msgstr "ჩარიცხვის დასრულების დრო"
+
+#: cms/templates/settings.html:286
+msgid "Last day students can enroll."
+msgstr "სტუდენტთა ჩარიცხვის ბოლო დღე"
+
+#: cms/templates/settings.html:288 cms/templates/settings.html:309
+msgid "Contact your edX partner manager to update these settings."
+msgstr ""
+"ამ პარამეტრების გასაახლებლად, დაუკავშირდით თქვენი edX პარტნიორის მენეჯერს."
+
+#: cms/templates/settings.html:294
+msgid "Enrollment End Time"
+msgstr "ჩარიცხვის დასრულების თარიღი"
+
+#: cms/templates/settings.html:305
+msgid "Upgrade Deadline Date"
+msgstr ""
+
+#: cms/templates/settings.html:308
+msgid "Last day students can upgrade to a verified enrollment."
+msgstr ""
+
+#: cms/templates/settings.html:314
+msgid "Upgrade Deadline Time"
+msgstr ""
+
+#: cms/templates/settings.html:326
+msgid "Course Details"
+msgstr "კურსის დეტალები"
+
+#: cms/templates/settings.html:327
+msgid "Provide useful information about your course"
+msgstr "მოგვაწოდეთ სასარგებლო ინფორმაცია თქვენი კურსის შესახებ"
+
+#: cms/templates/settings.html:331
+msgid "Course Language"
+msgstr "კურსის ენა"
+
+#: cms/templates/settings.html:338
+msgid ""
+"Identify the course language here. This is used to assist users find courses"
+" that are taught in a specific language. It is also used to localize the "
+"'From:' field in bulk emails."
+msgstr ""
+
+#: cms/templates/settings.html:349
+msgid "Introducing Your Course"
+msgstr "თქვენი კურსის შესავალი"
+
+#: cms/templates/settings.html:350
+msgid "Information for prospective students"
+msgstr "ინფორმაცია აბიტურიენტებისთვის"
+
+#: cms/templates/settings.html:358
+msgid "Course Title"
+msgstr "კურსის სათაური"
+
+#: cms/templates/settings.html:360
+msgid "Displayed as title on the course details page. Limit to 50 characters."
+msgstr "გამოჩნდება სათაურად კურსის დეტალების გვერდზე. ლიმიტი - 50 სიმბოლო."
+
+#: cms/templates/settings.html:363
+msgid "Course Subtitle"
+msgstr "კურსის ქვესათაური"
+
+#: cms/templates/settings.html:365
+msgid ""
+"Displayed as subtitle on the course details page. Limit to 150 characters."
+msgstr ""
+"გამოჩნდება ქვესათაურად კურსის დეტალების გვერდზე. ლიმიტი - 150 სიმბოლო."
+
+#: cms/templates/settings.html:368
+msgid "Course Duration"
+msgstr "კურსის ხანგრძლივობა"
+
+#: cms/templates/settings.html:370
+msgid "Displayed on the course details page. Limit to 50 characters."
+msgstr "ნაჩვენებია კურსის დეტალების გვერდზე. ლიმიტი - 50 სიმბოლო."
+
+#: cms/templates/settings.html:373
+msgid "Course Description"
+msgstr "კურსის აღწერა"
+
+#: cms/templates/settings.html:375
+msgid "Displayed on the course details page. Limit to 1000 characters."
+msgstr "ნაჩვენებია კურსის დეტალების გვერდზე. ლიმიტი - 1000 სიმბოლო."
+
+#: cms/templates/settings.html:381
+msgid "Course Short Description"
+msgstr "კურსის მოკლე აღწერა"
+
+#: cms/templates/settings.html:383
+msgid ""
+"Appears on the course catalog page when students roll over the course name. "
+"Limit to ~150 characters"
+msgstr ""
+"გამოჩნდება კურსის კატალოგის გვერდზე, როდესაც სტუდენტები კურსის სახელზე "
+"გადავლენ. შეზღუდვა ~150 სიმბოლო"
+
+#: cms/templates/settings.html:389
+msgid "Course Overview"
+msgstr "კურსის მიმოხილვა"
+
+#: cms/templates/settings.html:392
+msgid "HTML Code Editor"
+msgstr "HTML კოდის რედაქტორი"
+
+#: cms/templates/settings.html:395
+msgid ""
+"Introductions, prerequisites, FAQs that are used on {a_link_start}your "
+"course summary page{a_link_end} (formatted in HTML)"
+msgstr ""
+"{a_link_start}თქვენი კურსის შემაჯამებელ გვერდზე{a_link_end} განთავსებულია "
+"შესავალი, აუცილებელი წინაპირობები და ხშირად დასმული კითხვები (ფორმატირებულია"
+" HTML-ში)."
+
+#: cms/templates/settings.html:402
+msgid "Course About Sidebar HTML"
+msgstr ""
+
+#: cms/templates/settings.html:406
+msgid ""
+"Custom sidebar content for {a_link_start}your course summary "
+"page{a_link_end} (formatted in HTML)"
+msgstr ""
+
+#: cms/templates/settings.html:416 cms/templates/settings.html:420
+#: cms/templates/settings.html:432
+msgid "Course Card Image"
+msgstr "კურსის ბარათის გამოსახულება"
+
+#: cms/templates/settings.html:424 cms/templates/settings.html:459
+#: cms/templates/settings.html:492
+msgid ""
+"You can manage this image along with all of your other {a_link_start}files "
+"and uploads{a_link_end}"
+msgstr ""
+"შეგიძლიათ ამ გამოსახულების მართვა თქვენს სხვა დანარჩენ "
+"{a_link_start}ფაილებსა და ატვირთვებთან{a_link_end} ერთად."
+
+#: cms/templates/settings.html:434
+msgid ""
+"Your course currently does not have an image. Please upload one (JPEG or PNG"
+" format, and minimum suggested dimensions are 375px wide by 200px tall)"
+msgstr ""
+"ამჟამად თქვენს კურსს არ აქვს სურათი. გთხოვთ ატვირთოთ (JPEG ან PNG ფორმატში, "
+"რეკომენდირებული მინიმალური ზომით - 375px სიგანე 200px სიმაღლეზე)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course image
+#: cms/templates/settings.html:441
+msgid "Your course image URL"
+msgstr "თქვენი კურსის გამოსახულების URL"
+
+#: cms/templates/settings.html:442
+msgid ""
+"Please provide a valid path and name to your course image (Note: only JPEG "
+"or PNG format supported)"
+msgstr ""
+"გთხოვთ, მიუთითოთ თქვენი კურსის გამოსახულების აქტიური მისამართი და სახელი "
+"(შენიშვნა: მხარდაჭერილია მხოლოდ JPEG და PNG ფორმატები)"
+
+#: cms/templates/settings.html:444
+msgid "Upload Course Card Image"
+msgstr "ატვირთეთ კურსის ბარათის გამოსახულება"
+
+#: cms/templates/settings.html:451 cms/templates/settings.html:455
+#: cms/templates/settings.html:467
+msgid "Course Banner Image"
+msgstr "კურსის ბანერის გამოსახულება"
+
+#: cms/templates/settings.html:469
+msgid ""
+"Your course currently does not have an image. Please upload one (JPEG or PNG"
+" format, and minimum suggested dimensions are 1440px wide by 400px tall)"
+msgstr ""
+"ამჟამად თქვენს კურსს არ აქვს სურათი. გთხოვთ, ატვირთოთ (JPEG ან PNG ფორმატში,"
+" რეკომენდირებული მინიმალური ზომით - 1440px სიგანე 400px სიმაღლეზე) "
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course banner image
+#: cms/templates/settings.html:476
+msgid "Your banner image URL"
+msgstr "თქვენი ბანერის გამოსახულების URL-ი"
+
+#: cms/templates/settings.html:477
+msgid ""
+"Please provide a valid path and name to your banner image (Note: only JPEG "
+"or PNG format supported)"
+msgstr ""
+"გთხოვთ, მიუთითოთ თქვენი ბანერის გამოსახულების მოქმედი მისამართი და სახელი "
+"(შენიშვნა: მხარდაჭერილია მხოლოდ JPEG და PNG ფორმატები)"
+
+#: cms/templates/settings.html:479
+msgid "Upload Course Banner Image"
+msgstr "ატვირთეთ კურსის ბანერის გამოსახულება"
+
+#: cms/templates/settings.html:484
+msgid "Course Video Thumbnail Image"
+msgstr "კურსის ვიდეოს ესკიზის გამოსახულება"
+
+#: cms/templates/settings.html:488 cms/templates/settings.html:500
+msgid "Video Thumbnail Image"
+msgstr "ვიდეოს ესკიზის გამოსახულება"
+
+#: cms/templates/settings.html:502
+msgid ""
+"Your course currently does not have a video thumbnail image. Please upload "
+"one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
+"200px tall)"
+msgstr ""
+"ამჟამად თქვენს კურსს არ აქვს ვიდეოს ესკიზის გამოსახულება. გთხოვთ, ატვირთოთ "
+"(JPEG ან PNG ფორმატში, რეკომენდებული მინიმალური ზომა - 375px სიგანე 200px "
+"სიმაღლეზე)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course video thumbnail image
+#: cms/templates/settings.html:509
+msgid "Your video thumbnail image URL"
+msgstr "თქვენი ვიდეოს ესკიზის გამოსახულების URL-ი"
+
+#: cms/templates/settings.html:510
+msgid ""
+"Please provide a valid path and name to your video thumbnail image (Note: "
+"only JPEG or PNG format supported)"
+msgstr ""
+"გთხოვთ, მიუთითოთ თქვენი ვიდეოს ესკიზის გამოსახულების მოქმედი მისამართი და "
+"სახელი (შენიშვნა: მხარდაჭერილია მხოლოდ JPEG და PNG ფორმატები)"
+
+#: cms/templates/settings.html:512
+msgid "Upload Video Thumbnail Image"
+msgstr "ატვირთეთ ვიდეოს ესკიზის გამოსახულება"
+
+#: cms/templates/settings.html:519 cms/templates/settings.html:522
+msgid "Course Introduction Video"
+msgstr "კურსის შესავალი ვიდეო"
+
+#: cms/templates/settings.html:525
+msgid "Delete Current Video"
+msgstr "არსებული ვიდეოს წაშლა"
+
+#. Translators: This is the placeholder text for a field that requests a
+#. YouTube video ID for a course video
+#: cms/templates/settings.html:531
+msgid "your YouTube video's ID"
+msgstr "YouTube-ზე თქვენი ვიდეოს ID"
+
+#: cms/templates/settings.html:532
+msgid "Enter your YouTube video's ID (along with any restriction parameters)"
+msgstr ""
+"შეიყვანეთ თქვენი ვიდეოს YouTube-ის ID (ასევე, ნებისმიერი შემზღუდველი "
+"პარამეტრი)"
+
+#: cms/templates/settings.html:543
+msgid "Learning Outcomes"
+msgstr "სწავლების შედეგები"
+
+#: cms/templates/settings.html:544
+msgid "Add the learning outcomes for this course"
+msgstr "დაამატეთ კურსის სწავლების შედეგები"
+
+#: cms/templates/settings.html:551
+msgid "Add Learning Outcome"
+msgstr "დაამატეთ სწავლების შედეგი"
+
+#: cms/templates/settings.html:560
+msgid "Add details about the instructors for this course"
+msgstr "დაამატეთ ინფორმაცია კურსის ინსტრუქტორებზე"
+
+#: cms/templates/settings.html:567
+msgid "Add Instructor"
+msgstr "ინსტრუქტორის დამატება"
+
+#: cms/templates/settings.html:579
+msgid "Expectations of the students taking this course"
+msgstr "კურსის მსმენელთა მოლოდინები"
+
+#: cms/templates/settings.html:585
+msgid "Hours of Effort per Week"
+msgstr "ყოველკვირეული დატვირთვა საათებში"
+
+#: cms/templates/settings.html:587
+msgid "Time spent on all course work"
+msgstr "კურსის გასავლელად საჭირო დრო"
+
+#: cms/templates/settings.html:592
+msgid "Prerequisite Course"
+msgstr "სავალდებულო კურსი"
+
+#: cms/templates/settings.html:594
+msgid "None"
+msgstr "არცერთი"
+
+#: cms/templates/settings.html:599
+msgid "Course that students must complete before beginning this course"
+msgstr "კურსი, რომელიც სტუდენტებმა უნდა გაიარონ ამ კურსის დაწყებამდე"
+
+#: cms/templates/settings.html:600
+msgid "set pre-requisite course"
+msgstr "სავალდებულოდ გასავლელი კურსისი დაყენება"
+
+#: cms/templates/settings.html:605
+msgid "Entrance Exam"
+msgstr "მისაღები გამოცდა"
+
+#: cms/templates/settings.html:609
+msgid "Require students to pass an exam before beginning the course."
+msgstr "სავალდებულოა, კურსის დაწყებამდე სტუდენტებმა გამოცდა ჩააბარონ"
+
+#: cms/templates/settings.html:613
+msgid ""
+"You can now view and author your course entrance exam from the "
+"{link_start}Course Outline{link_end}."
+msgstr ""
+"ახლა თქვენ შეგიძლიათ დაათვალიეროთ და იმუშაოთ თქვენი კურსის მისაღებ გამოცდაზე"
+" {link_start}კურსის შიგთავსი{link_end}-დან."
+
+#: cms/templates/settings.html:617
+msgid "Grade Requirements"
+msgstr "გამსვლელი ქულა"
+
+#: cms/templates/settings.html:618
+msgid " %"
+msgstr "%"
+
+#: cms/templates/settings.html:619
+msgid ""
+"The score student must meet in order to successfully complete the entrance "
+"exam. "
+msgstr ""
+"ქულა, რომელიც სტუდენტმა გამოცდების წარმატებით ჩაბარებისთვის უნდა გადალახოს."
+
+#: cms/templates/settings.html:633
+msgid "Course Content License"
+msgstr "ლიცენზია კურსის შინაარსზე"
+
+#. Translators: At the course settings, the editor is able to select the
+#. default course content license.
+#. The course content will have this license set, some assets can override the
+#. license with their own.
+#. In the form, the license selector for course content is described using the
+#. following string:
+#: cms/templates/settings.html:637
+msgid "Select the default license for course content"
+msgstr "მონიშნეთ კურსის შინაარსის ნაგულისხმევი ლიცენზია"
+
+#: cms/templates/settings.html:651
+msgid "How are these settings used?"
+msgstr "როგორ გამოიყენება ეს პარამეტრები?"
+
+#: cms/templates/settings.html:652
+msgid ""
+"Your course's schedule determines when students can enroll in and begin a "
+"course."
+msgstr ""
+"თქვენი კურსის განრიგი განსაზღვრავს, თუ როდის შეუძლიათ სტუდენტებს ჩარიცხვა და"
+" კურსის დაწყება."
+
+#: cms/templates/settings.html:654
+msgid ""
+"Other information from this page appears on the About page for your course. "
+"This information includes the course overview, course image, introduction "
+"video, and estimated time requirements. Students use About pages to choose "
+"new courses to take."
+msgstr ""
+"ამ გვერდის სხვა ინფორმაცია გამოჩნდება თქვენი კურსის „შესახებ“ გვერდზე. "
+"ინფორმაცია მოიცავს კურსისი მიმოხილვას, გამოსახულებას, ვიდეო შესავალს და "
+"გასავლელად საჭირო სავარაუდო დროს. სტუდენტები „შესახებ“ გვერდებს, ახალი "
+"კურსების ასარჩევად იყენებენ."
+
+#: cms/templates/settings_advanced.html:52
+msgid "Your policy changes have been saved."
+msgstr "თქვენი განხორცილებული პოლიტიკის ცვლილებები შენახულია."
+
+#: cms/templates/settings_advanced.html:56
+msgid "There was an error saving your information. Please see below."
+msgstr "თქვენი ინფორმაციის შენახვისას დაფიქსირდა შეცდომა. იხილეთ ქვემოთ."
+
+#: cms/templates/settings_advanced.html:61
+msgid "Manual Policy Definition"
+msgstr "პოლიტიკის ხელით განსაზღვრა"
+
+#: cms/templates/settings_advanced.html:65
+msgid ""
+"{strong_start}Warning{strong_end}: Do not modify these policies unless you "
+"are familiar with their purpose."
+msgstr ""
+"{strong_start}გაფრთხილება{strong_end}: არ შეცვალოთ პოლიტიკა, თუ არ იცით მათი"
+" დანიშნულება."
+
+#: cms/templates/settings_advanced.html:73
+msgid "Show Deprecated Settings"
+msgstr "მოძველებული პარამეტრების გამოჩენა"
+
+#: cms/templates/settings_advanced.html:86
+msgid "What do advanced settings do?"
+msgstr "რისთვის არის საჭირო დამატებითი პარამეტრები?"
+
+#: cms/templates/settings_advanced.html:87
+msgid ""
+"Advanced settings control specific course functionality. On this page, you "
+"can edit manual policies, which are JSON-based key and value pairs that "
+"control specific course settings."
+msgstr ""
+"დამატებითი პარამეტრები აკონტროლებენ ცალკეული კურსის ფუნქციონალურობას. ამ "
+"გვერდზე, თქვენ შეგიძლიათ ხელით დააყენოთ პოლიტიკა, რაც წარმოადგენს JSON "
+"ფორმატში ჩაწერილ გასაღებისა და მნიშვნელობის წყვილებს და ცალკეული კურსის "
+"პარამეტრებს აკონტროლებს."
+
+#: cms/templates/settings_advanced.html:89
+msgid ""
+"Any policies you modify here override all other information you've defined "
+"elsewhere in {studio_name}. Do not edit policies unless you are familiar "
+"with both their purpose and syntax."
+msgstr ""
+"აქ თქვენს მიერ შეცვლილი ნებისმიერი სტანდარტი ჩაანაცვლებს ყველა სხვა "
+"ინფორმაციას, რომელიც განსაზღვრული გქონდათ {studio_name}-ში. არ დაარედაქტიროთ"
+" სტანდარტები, თუ კარგად არ იცით მათი მიზანი და სინტაქსი."
+
+#: cms/templates/settings_advanced.html:91
+msgid ""
+"{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
+" you use double quotation marks (\") around the string. Do not use single "
+"quotation marks (')."
+msgstr ""
+"{em_start}შენიშვნა:{em_end} პოლიტიკის პარამეტრების სტრიქონის მნიშვნელობების "
+"შეყვანის დროს აუცილებლად მოათავსეთ ისინი ორმაგ ბრჭყალებში (\") არ გამოიყენოთ"
+" ერთმაგი ბრჭყალები (')."
+
+#: cms/templates/settings_graders.html:4
+msgid "Grading Settings"
+msgstr "შეფასების პარამეტრები"
+
+#: cms/templates/settings_graders.html:57
+msgid "Overall Grade Range"
+msgstr "შეფასების საერთო დიაპაზონი"
+
+#: cms/templates/settings_graders.html:58
+msgid "Your overall grading scale for student final grades"
+msgstr "თქვენი შეფასების საერთო სკალა სტუდენტების საბოლოო შეფასებისთვის"
+
+#: cms/templates/settings_graders.html:64
+msgid "Add grade"
+msgstr "ნიშნის დამატება"
+
+#: cms/templates/settings_graders.html:93
+msgid "Credit Eligibility"
+msgstr "კრედიტ ქულების მოპოვების უფლება"
+
+#: cms/templates/settings_graders.html:94
+msgid "Settings for course credit eligibility"
+msgstr "კურსზე კრედიტ ქულების მოპოვების შესაძლებლობის პარამეტრები"
+
+#: cms/templates/settings_graders.html:99
+msgid "Minimum Credit-Eligible Grade:"
+msgstr "კრედიტ ქულების მოსაპოვებლად მინიმალური შეფასება:"
+
+#: cms/templates/settings_graders.html:102
+msgid "Must be greater than or equal to the course passing grade"
+msgstr "უნდა იყოს კურსის გამსვლელი შეფასების ტოლი ან მეტი"
+
+#: cms/templates/settings_graders.html:111
+msgid "Grading Rules & Policies"
+msgstr ""
+
+#: cms/templates/settings_graders.html:112
+msgid "Deadlines, requirements, and logistics around grading student work"
+msgstr ""
+"სტუდენტთა ნამუშევრების შეფასების ორგანიზება საბოლოო ვადები და მოთხოვნები"
+
+#: cms/templates/settings_graders.html:117
+msgid "Grace Period on Deadline:"
+msgstr "შეღავათით სარგებლობის ბოლო ვადა:"
+
+#: cms/templates/settings_graders.html:119
+msgid "Leeway on due dates"
+msgstr "ვადის გადაცილების შეღავათები"
+
+#: cms/templates/settings_graders.html:127
+msgid "Assignment Types"
+msgstr "დავალებათა ტიპები"
+
+#: cms/templates/settings_graders.html:128
+msgid "Categories and labels for any exercises that are gradable"
+msgstr "კატეგორიები და ლეიბლები ნებისმიერი შესაფასებელი სავარჯიშოსთვის"
+
+#: cms/templates/settings_graders.html:137
+msgid "New Assignment Type"
+msgstr "ახალი სახის დავალება"
+
+#: cms/templates/settings_graders.html:146
+msgid "What can I do on this page?"
+msgstr "რისი გაკეთება შემიძლია ამ გვერდზე?"
+
+#: cms/templates/settings_graders.html:147
+msgid ""
+"You can use the slider under Overall Grade Range to specify whether your "
+"course is pass/fail or graded by letter, and to establish the thresholds for"
+" each grade."
+msgstr ""
+"საერთო შეფასების კlასიფიკაციის ქვეშ სლაიდერის გამოყენებით შეგიძლიათ "
+"განსაზღვროთ კურსზე თქვენი სტატუსის - ჩაბარება/ჩაჭრა, შეფასების მაჩვენებელი. "
+"ასევე, თითოეული შეფასებისთვის შეგიძლიათ ზღვარის დაწესებაც."
+
+#: cms/templates/settings_graders.html:149
+msgid ""
+"You can specify whether your course offers students a grace period for late "
+"assignments."
+msgstr ""
+"თქვენს შეგიძლიათ განსაზღვროთ, ისარგებლებენ თუ არა კურსის სტუდენტები "
+"შეღავათებით დაგვიანებულ დავალებებზე."
+
+#: cms/templates/settings_graders.html:150
+msgid ""
+"You can also create assignment types, such as homework, labs, quizzes, and "
+"exams, and specify how much of a student's grade each assignment type is "
+"worth."
+msgstr ""
+"შეგიძლიათ სხვადასხვა ტიპის დავალებების შექმნა, როგორიცაა საშინაო დავალება, "
+"ლაბორატორიული სავარჯიშოები, ქვიზები, გამოცდები. ასევე, თითოეული ტიპის "
+"დავალებისთვის, შეგიძლიათ განსაზღვროთ სტუდენტის შეფასების ქულები."
+
+#: cms/templates/studio_xblock_wrapper.html:61
+#: cms/templates/studio_xblock_wrapper.html:63
+msgid "Expand or Collapse"
+msgstr "ჩამოშალე ან აკეცე"
+
+#: cms/templates/studio_xblock_wrapper.html:86
+msgid "Access Settings"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:88
+msgid "Set Access"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:141
+msgid "This block contains multiple components."
+msgstr "ეს ბლოკი მრავალ კომპონენტს შეიცავს."
+
+#: cms/templates/textbooks.html:10 cms/templates/textbooks.html:42
+#: cms/templates/widgets/header.html:73
+msgid "Textbooks"
+msgstr "სახელმძღვანელოები"
+
+#: cms/templates/textbooks.html:49
+msgid "New Textbook"
+msgstr "ახალი სახელმძღვანელო"
+
+#: cms/templates/textbooks.html:61
+msgid "Why should I break my textbook into chapters?"
+msgstr "რატომ უნდა დავყო ჩემი სახელმძღვანელო თავებად?"
+
+#: cms/templates/textbooks.html:62
+msgid ""
+"Breaking your textbook into multiple chapters reduces loading times for "
+"students, especially those with slow Internet connections. Breaking up "
+"textbooks into chapters can also help students more easily find topic-based "
+"information."
+msgstr ""
+"თქვენი სახელმძღვანელოს თავებად დაყოფა სტუდენტებისთვის ამცირებს ჩატვირთვის "
+"დროს, განსაკუთრებით კი მათთვის, ვისაც ნელი ინტერნეტ კავშირი აქვს. "
+"სახელმძღვანელოების თავებად დაყოფა ასევე დაეხმარება სტუდენტებს უფრო მარტივად "
+"იპოვონ ინფორმაცია თემაზე."
+
+#: cms/templates/textbooks.html:65
+msgid "What if my book isn't divided into chapters?"
+msgstr "როგორ მოვიქცე, თუ ჩემი წიგნი თავებად არ იყოფა?"
+
+#: cms/templates/textbooks.html:66
+msgid ""
+"If your textbook doesn't have individual chapters, you can upload the entire"
+" text as a single chapter and enter a name of your choice in the Chapter "
+"Name field."
+msgstr ""
+"თუკი თქვენი სახელმძღვანელო არ არის დაყოფილი თავებად, შეგიძლიათ ატვირთოთ "
+"მთელი ტექსტი და თავის სახელის ველში შეიყვანოთ თქვენ მიერ შერჩეული სახელი."
+
+#: cms/templates/textbooks.html:70
+msgid "Learn more about textbooks"
+msgstr "გაიგეთ მეტი სახელმძღვანელოების შესახებ"
+
+#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:58
+#: cms/templates/widgets/header.html:77
+msgid "Video Uploads"
+msgstr "ვიდეო ატვირთვები"
+
+#: cms/templates/videos_index.html:65
+msgid "Course Video Settings"
+msgstr ""
+
+#: cms/templates/videos_index_pagination.html:17
+msgid "Changing.."
+msgstr ""
+
+#: cms/templates/videos_index_pagination.html:19
+msgid "Videos per page:"
+msgstr ""
+
+#: cms/templates/videos_index_pagination.html:23
+msgid "Change"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:20
+#: cms/templates/visibility_editor.html:70
+msgid "Access is not restricted"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:23
+msgid ""
+"Access to this unit is not restricted, but visibility might be affected by "
+"inherited settings."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:25
+msgid ""
+"Access to this component is not restricted, but visibility might be affected"
+" by inherited settings."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:29
+msgid ""
+"You can restrict access to this unit to learners in specific enrollment "
+"tracks or content groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:31
+msgid ""
+"You can restrict access to this component to learners in specific enrollment"
+" tracks or content groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:35
+msgid ""
+"You can restrict access to this unit to learners in specific content groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:37
+msgid ""
+"You can restrict access to this component to learners in specific content "
+"groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:43
+msgid "Manage content groups"
+msgstr "შინაარსის ჯგუფების მართვა"
+
+#. Translators: Any text between {screen_reader_start} and {screen_reader_end}
+#. is only read by screen readers and never shown in the browser.
+#: cms/templates/visibility_editor.html:51
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} The unit that contains this"
+" component is hidden from learners. The unit setting overrides the component"
+" access settings defined here."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:75
+msgid "Access is restricted to:"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:81
+msgid "Restrict access to:"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:85
+msgid "Select a group type"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:87
+msgid "All Learners and Staff"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:101
+msgid "Select one or more groups:"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:113
+msgid "Deleted Group"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:115
+msgid ""
+"This group no longer exists.  Choose another group or remove the access "
+"restriction."
+msgstr ""
+
+#: cms/templates/emails/course_creator_admin_subject.txt:2
+msgid "{email} has requested {studio_name} course creator privileges on edge"
+msgstr ""
+"{email}-მა სასწრაფოდ მოითხოვა {studio_name}-ის კურსის შემქმნელის "
+"პრივილეგიები"
+
+#: cms/templates/emails/course_creator_admin_user_pending.txt:2
+msgid ""
+"User '{user}' with e-mail {email} has requested {studio_name} course creator"
+" privileges on edge."
+msgstr ""
+"მომხმარებელმა {user} ელფოსტით {email} სასწრაფოდ მოითხოვა {studio_name}-ის "
+"კურსის შემქმნელის პრივილეგიები."
+
+#: cms/templates/emails/course_creator_admin_user_pending.txt:5
+msgid "To grant or deny this request, use the course creator admin table."
+msgstr ""
+"ამ მოთხოვნის დასაკმაყოფილებლად ან უარსაყოფად გამოიყენეთ კურსის შემქმნელის "
+"ადმინისტრატორების ცხრილი."
+
+#: cms/templates/emails/course_creator_denied.txt:3
+msgid ""
+"Your request for course creation rights to {studio_name} have been denied. "
+"If you believe this was in error, please contact {email}"
+msgstr ""
+"თქვენი მოთხოვნა, {studio_name}-ში კურსის ავტორობის უფლებების მინიჭების "
+"შესახებ უარყოფილია. თუ ფიქრობთ, რომ ეს შეცდომაა, დაგვიკავშირდით {email}-ზე"
+
+#: cms/templates/emails/course_creator_granted.txt:3
+msgid ""
+"Your request for course creation rights to {studio_name} have been granted. To create your first course, visit\n"
+"\n"
+"{url}"
+msgstr ""
+"თქვენი მოთხოვნა {studio_name}-ში კურსის შექმნის უფლებების მონიჭების შესახებ დაკმაყოფილდა. თქვენი პირველი კურსის შესაქმნელად, ეწვიეთ\n"
+"\n"
+"{url}"
+
+#: cms/templates/emails/course_creator_revoked.txt:3
+msgid ""
+"Your course creation rights to {studio_name} have been revoked. If you "
+"believe this was in error, please contact {email}"
+msgstr ""
+"{studio_name}-ში კურსის შექმნის თქვენი უფლებები გაუქმებულია. თუ ფიქრობთ, რომ"
+" ეს შეცდომაა, დაგვიკავშირდით {email}-ზე"
+
+#: cms/templates/emails/course_creator_subject.txt:2
+msgid "Your course creator status for {studio_name}"
+msgstr "{studio_name}-ში თქვენი, როგორც კურსის შემქმნელის სტატუსი"
+
+#: cms/templates/emails/user_task_complete_email.txt:5
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Use "
+"this URL to view task details or download any files created: {detail_url}"
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email.txt:9
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Sign in"
+" to view the details of your task or download any files created."
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email_subject.txt:2
+msgid "{platform_name} {studio_name}: Task Status Update"
+msgstr ""
+
+#: cms/templates/maintenance/_announcement_delete.html:8
+#: cms/templates/maintenance/_announcement_delete.html:11
+msgid "Delete Announcement"
+msgstr ""
+
+#: cms/templates/maintenance/_announcement_delete.html:22
+msgid "Are you sure you want to delete this Announcement?"
+msgstr ""
+
+#: cms/templates/maintenance/_announcement_delete.html:35
+msgid "Confirm"
+msgstr ""
+
+#: cms/templates/maintenance/_announcement_edit.html:8
+#: cms/templates/maintenance/_announcement_edit.html:11
+msgid "Edit Announcement"
+msgstr ""
+
+#: cms/templates/maintenance/_announcement_index.html:42
+msgid "Create New"
+msgstr ""
+
+#: cms/templates/maintenance/_force_publish_course.html:12
+msgid "Required data to force publish course."
+msgstr "კურსის დაჩქარებული გამოქვეყნებისთვის აუცილებელი მონაცემები."
+
+#: cms/templates/maintenance/_force_publish_course.html:17
+msgid "course-v1:edX+DemoX+Demo_Course"
+msgstr "course-v1:edX+DemoX+Demo_Course"
+
+#: cms/templates/maintenance/_force_publish_course.html:24
+msgid "Force Publish Course"
+msgstr "კურსის დაჩქარებული გამოქვეყნება"
+
+#: cms/templates/maintenance/_force_publish_course.html:28
+msgid "Reset values"
+msgstr "მნიშვნელობების ჩამოყრა"
+
+#: cms/templates/maintenance/base.html:14
+#: cms/templates/maintenance/index.html:8
+msgid "Maintenance Dashboard"
+msgstr "ტექნიკური მომსახურების მართვის პანელი"
+
+#: cms/templates/registration/activation_complete.html:22
+msgid "Thanks for activating your account."
+msgstr ""
+
+#: cms/templates/registration/activation_complete.html:24
+msgid "This account has already been activated."
+msgstr ""
+
+#: cms/templates/registration/activation_complete.html:28
+msgid "Visit your {link_start}dashboard{link_end} to see your courses."
+msgstr ""
+
+#: cms/templates/registration/activation_complete.html:33
+msgid "You can now {link_start}sign in{link_end}."
+msgstr ""
+
+#: cms/templates/registration/activation_invalid.html:14
+msgid "Activation Invalid"
+msgstr ""
+
+#: cms/templates/registration/activation_invalid.html:17
+msgid ""
+"Something went wrong. Email programs sometimes split URLs into two lines, so"
+" make sure the URL you're using is formatted correctly. If you still have "
+"issues, send us an email message at {email_start}{email}{email_end}."
+msgstr ""
+
+#: cms/templates/registration/activation_invalid.html:25
+msgid "Return to the {link_start}home page{link_end}."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:20
+msgid "Support will be removed in an upcoming release."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:25
+msgid "Support will be removed on {expiration_date}."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:37
+msgid "This course uses a legacy storage format."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:41
+msgid ""
+"Please reach out to your support team contact, if you have any additional "
+"questions or concerns."
+msgstr ""
+
+#: cms/templates/widgets/footer.html:21
+msgid "Policies"
+msgstr ""
+
+#: cms/templates/widgets/footer.html:35
+msgid "Accessibility Accommodation Request"
+msgstr ""
+
+#: cms/templates/widgets/footer.html:39
+msgid "LMS"
+msgstr ""
+
+#: cms/templates/widgets/header.html:44
+msgid "Current Course:"
+msgstr "მიმდინარე კურსი:"
+
+#: cms/templates/widgets/header.html:52 cms/templates/widgets/header.html:168
+msgid "Course Navigation"
+msgstr "კურსის ნავიგაცია"
+
+#: cms/templates/widgets/header.html:61
+msgid "Outline"
+msgstr "სტრუქტურა"
+
+#: cms/templates/widgets/header.html:118
+msgid "Publisher"
+msgstr ""
+
+#: cms/templates/widgets/header.html:132 cms/templates/widgets/header.html:190
+msgid "Import"
+msgstr "იმპორტირება"
+
+#: cms/templates/widgets/header.html:135 cms/templates/widgets/header.html:193
+msgid "Export"
+msgstr "ექსპორტირება"
+
+#: cms/templates/widgets/header.html:160
+msgid "Current Library:"
+msgstr "მიმდინარე ბიბლიოთეკა:"
+
+#: cms/templates/widgets/header.html:172
+msgid "Library"
+msgstr "ბიბლიოთეკა"
+
+#: cms/templates/widgets/header.html:208
+msgid "Language preference"
+msgstr "ენის პარამეტრები"
+
+#: cms/templates/widgets/header.html:233 cms/templates/widgets/header.html:246
+msgid "Account Navigation"
+msgstr "ანგარიშის ნავიგაცია"
+
+#: cms/templates/widgets/header.html:236 cms/templates/widgets/header.html:249
+msgid "Contextual Online Help"
+msgstr "კონტექსტუალური ონლაინ დახმარება"
+
+#: cms/templates/widgets/header.html:253
+msgid "Sign Up"
+msgstr "რეგისტრაცია"
+
+#: cms/templates/widgets/header.html:257
+msgid "Sign In"
+msgstr ""
+
+#: cms/templates/widgets/metadata-edit.html:35
+msgid "Launch Latex Source Compiler"
+msgstr "Latex კომპილატორის გაშვება"
+
+#: cms/templates/widgets/problem-edit.html:18
+#: cms/templates/widgets/problem-edit.html:22
+#: cms/templates/widgets/problem-edit.html:87
+msgid "Heading"
+msgstr "სათაური"
+
+#: cms/templates/widgets/problem-edit.html:20
+#: cms/templates/widgets/problem-edit.html:86
+msgid "Insert a heading"
+msgstr "სათაურის ჩასმა"
+
+#: cms/templates/widgets/problem-edit.html:26
+#: cms/templates/widgets/problem-edit.html:30
+#: cms/templates/widgets/problem-edit.html:98
+msgid "Multiple Choice"
+msgstr "მრავლობითი არჩევანი"
+
+#: cms/templates/widgets/problem-edit.html:28
+#: cms/templates/widgets/problem-edit.html:97
+msgid "Add a multiple choice question"
+msgstr "დაამატეთ მრავალვარიანტიანი შეკითხვა"
+
+#: cms/templates/widgets/problem-edit.html:34
+#: cms/templates/widgets/problem-edit.html:38
+#: cms/templates/widgets/problem-edit.html:109
+msgid "Checkboxes"
+msgstr "მოსანიშნები"
+
+#: cms/templates/widgets/problem-edit.html:36
+#: cms/templates/widgets/problem-edit.html:108
+msgid "Add a question with checkboxes"
+msgstr "დაამატეთ შეკითხვა  მოსანიშნი ველებით"
+
+#: cms/templates/widgets/problem-edit.html:42
+#: cms/templates/widgets/problem-edit.html:46
+#: cms/templates/widgets/problem-edit.html:120
+msgid "Text Input"
+msgstr "ტექსტური ველი"
+
+#: cms/templates/widgets/problem-edit.html:44
+#: cms/templates/widgets/problem-edit.html:119
+msgid "Insert a text response"
+msgstr "ჩასვით ტექსტური პასუხი"
+
+#: cms/templates/widgets/problem-edit.html:50
+#: cms/templates/widgets/problem-edit.html:54
+#: cms/templates/widgets/problem-edit.html:131
+msgid "Numerical Input"
+msgstr "რიცხვითი ველი"
+
+#: cms/templates/widgets/problem-edit.html:52
+#: cms/templates/widgets/problem-edit.html:130
+msgid "Insert a numerical response"
+msgstr "ჩასვით რიცხობრივი პასუხი"
+
+#: cms/templates/widgets/problem-edit.html:58
+#: cms/templates/widgets/problem-edit.html:62
+#: cms/templates/widgets/problem-edit.html:141
+msgid "Dropdown"
+msgstr "ჩამოსაშლელი"
+
+#: cms/templates/widgets/problem-edit.html:60
+#: cms/templates/widgets/problem-edit.html:140
+msgid "Insert a dropdown response"
+msgstr "ჩასვით ჩამოსაშლელი პასუხი"
+
+#: cms/templates/widgets/problem-edit.html:66
+#: cms/templates/widgets/problem-edit.html:70
+#: cms/templates/widgets/problem-edit.html:156
+msgid "Explanation"
+msgstr "განმარტება"
+
+#: cms/templates/widgets/problem-edit.html:68
+#: cms/templates/widgets/problem-edit.html:155
+msgid "Add an explanation for this question"
+msgstr "დაამატეთ ამ შეკითხვის განმარტება"
+
+#: cms/templates/widgets/problem-edit.html:75
+msgid "Advanced Editor"
+msgstr "გაფართოებული შესაძლებლობების რედაქტორი"
+
+#: cms/templates/widgets/problem-edit.html:82
+msgid "Markdown Help"
+msgstr ""
+
+#: cms/templates/widgets/problem-edit.html:148
+msgid "Label"
+msgstr "ლეიბლი"
+
+#: cms/templates/widgets/sock_links.html:19
+msgid "Access the Open edX Portal"
+msgstr "Open edX პორტალის გახსნა"
+
+#: cms/templates/widgets/sock_links.html:20
+msgid "Open edX Portal"
+msgstr "Open edX პორტალი"
+
+#: cms/templates/widgets/user_dropdown.html:13
+msgid "Currently signed in as:"
+msgstr "ამჟამად, სისტემაში შესულია, როგორც:"
+
+#: cms/templates/widgets/user_dropdown.html:26
+msgid "Maintenance"
+msgstr "ტექნიკური მომსახურება"

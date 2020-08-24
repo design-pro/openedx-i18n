@@ -1,7 +1,7 @@
-# edX translation file.
+# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/).
 # Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # Abbas Sharifi Tabar <abbas.sharifi@gmail.com>, 2015
 # Asghar Feizi <asgharfeizi@yahoo.com>, 2017
@@ -23,10 +23,10 @@ msgstr ""
 "PO-Revision-Date: 2020-03-22 20:47+0000\n"
 "Last-Translator: Mohammad Reza Chavoshipor <mohammad.chavoshipor@gmail.com>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js:113
@@ -1752,7 +1752,9 @@ msgstr[1] ""
 msgid ""
 "Click on this button to mute or unmute this video or press UP or DOWN "
 "buttons to increase or decrease volume level."
-msgstr "روی این دکمه کلیک کنید تا صدای ویدیو را بسته یا باز کنید، یا دکمه بالا و پایین را فشار دهید تا صدا را افزایش یا کاهش دهید."
+msgstr ""
+"روی این دکمه کلیک کنید تا صدای ویدیو را بسته یا باز کنید، یا دکمه بالا و "
+"پایین را فشار دهید تا صدا را افزایش یا کاهش دهید."
 
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:70
 msgid "Adjust video volume"
@@ -2949,13 +2951,19 @@ msgstr ""
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
-msgstr "نام کاربری دانشجو یا پست الکترونیکی نیاز است و نمی تواند خالی باشد. لطفا نام کاربری یا پست الکترونیکی را پر کنید و سپس دکمه \"اضافه کردن به فهرست استثنا\" را فشار دهید."
+msgstr ""
+"نام کاربری دانشجو یا پست الکترونیکی نیاز است و نمی تواند خالی باشد. لطفا نام"
+" کاربری یا پست الکترونیکی را پر کنید و سپس دکمه \"اضافه کردن به فهرست "
+"استثنا\" را فشار دهید."
 
 #: lms/static/js/certificates/models/certificate_invalidation.js:28
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
-msgstr "‫نام کاربری دانشجو یا پست الکترونیکی نیاز است و نمی تواند خالی باشد. لطفا نام کاربری یا پست الکترونیکی را پر کنید و سپس دکمه “گواهی غیر معتبر” را فشار دهید"
+msgstr ""
+"‫نام کاربری دانشجو یا پست الکترونیکی نیاز است و نمی تواند خالی باشد. لطفا "
+"نام کاربری یا پست الکترونیکی را پر کنید و سپس دکمه “گواهی غیر معتبر” را فشار"
+" دهید"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js:83
 msgid "Uploaded file issues. Click on \"+\" to view."
@@ -4905,7 +4913,8 @@ msgstr "این درس هنوز برای دانشجویان قابل مشاهده
 msgid ""
 "You cannot view the course as a student or beta tester before the course "
 "release date."
-msgstr "شما به عنوان دانشجو نمی توانید این درس را قبل از تاریخ انتشار مشاهده نمایید."
+msgstr ""
+"شما به عنوان دانشجو نمی توانید این درس را قبل از تاریخ انتشار مشاهده نمایید."
 
 #: lms/templates/courseware/progress_graph.js:292
 msgid "Overall Score"

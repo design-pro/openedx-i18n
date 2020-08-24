@@ -1,0 +1,3685 @@
+# edX community translations have been downloaded from Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# abc Def <hdogan1974@gmail.com>, 2020
+# adem ÖZGÜR <admozgur@gmail.com>, 2015
+# Ali Işıngör <ali@artistanbul.io>, 2018-2020
+# ali selek <aliselek01@gmail.com>, 2015
+# arif altun <altunar@gmail.com>, 2017
+# Azmi Ozgen <azmican73@gmail.com>, 2014
+# baris <brscvs@gmail.com>, 2013
+# Burak Özalp <realburq@gmail.com>, 2013
+# Emrah Emirtekin <eemirtekin@gmail.com>, 2014-2015
+# Emre Saracoglu <hello@emresaracoglu.com>, 2014
+# Hakan Şenel <hgsenel@gmail.com>, 2014
+# Hakan Şenel <hgsenel@gmail.com>, 2014
+# İlker IŞIK <m.ilkerisik@hotmail.com>, 2015
+# Kerim Kaan <ben@kerimkaan.com>, 2013
+# Kubilay <kubilayinceoren10@gmail.com>, 2015
+# Mehmet Kokoç <kokocmehmet@gmail.com>, 2017
+# a56fc07028489bb2b53400de33ba6a83, 2013
+# Onur Bektas <mustafaonurbektas@gmail.com>, 2013
+# ElektrikAkar <volkan.kumtepeli@gmail.com>, 2014
+# Yasar Celep <yasar.celep@hotmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2020-07-12 20:45+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: cms/templates/404.html:19
+msgid "The page that you were looking for was not found."
+msgstr "Aradığınız sayfa bulunamadı."
+
+#: cms/templates/404.html:20
+msgid "Go back to the {homepage}."
+msgstr ""
+
+#: cms/templates/500.html:8
+msgid "{studio_name} Server Error"
+msgstr "{studio_name} Sunucu Hatası"
+
+#: cms/templates/500.html:19
+msgid "The {em_start}{studio_name}{em_end} servers encountered an error"
+msgstr "{em_start}{studio_name}{em_end} sunucularında bir hata oluştu"
+
+#: cms/templates/500.html:28
+msgid ""
+"An error occurred in {studio_name} and the page could not be loaded. Please "
+"try again in a few moments."
+msgstr ""
+"{studio_name} sunucusundaki hatadan dolayı sayfa yüklenemedi. Lütfen birkaç "
+"dakika sonra tekrar deneyin."
+
+#: cms/templates/500.html:31
+msgid ""
+"We've logged the error and our staff is currently working to resolve this "
+"error as soon as possible."
+msgstr ""
+"Bir hata tespit ettik ve hatayı bir an önce düzeltmek için üzerinde "
+"çalışıyoruz."
+
+#: cms/templates/accessibility.html:10
+msgid "Studio Accessibility Policy"
+msgstr "Studio Erişilebilirlik Politikası"
+
+#: cms/templates/asset_index.html:10 cms/templates/asset_index.html:28
+#: cms/templates/widgets/header.html:70
+msgid "Files & Uploads"
+msgstr "Dosyalar & Yüklemeler"
+
+#: cms/templates/certificates.html:16
+msgid "Course Certificates"
+msgstr "Ders Sertifikaları"
+
+#: cms/templates/certificates.html:58 cms/templates/certificates.html:68
+#: cms/templates/certificates.html:91 cms/templates/export.html:217
+#: cms/templates/widgets/header.html:113
+msgid "Certificates"
+msgstr "Sertifikalar"
+
+#: cms/templates/certificates.html:72
+msgid "This module is not enabled."
+msgstr "Bu modül etkin değil."
+
+#: cms/templates/certificates.html:78
+msgid "This course does not use a mode that offers certificates."
+msgstr "Bu ders sertifika sunan herhangi bir mod kullanmıyor."
+
+#: cms/templates/certificates.html:92
+msgid "Working with Certificates"
+msgstr "Sertifikalarla Çalışma"
+
+#: cms/templates/certificates.html:93
+msgid ""
+"Specify a course title to use on the certificate if the course's official "
+"title is too long to be displayed well."
+msgstr ""
+"Dersin resmi başlık iyi görüntülenmek için çok uzunsa sertifikada kullanmak "
+"için bir ders başlığı belirtin."
+
+#: cms/templates/certificates.html:94
+msgid ""
+"For verified certificates, specify between one and four signatories and "
+"upload the associated images."
+msgstr ""
+"Onaylanmış sertifikalar için, bir ila dört imzacı belirleyin ve ilgili "
+"görselleri yükleyin."
+
+#: cms/templates/certificates.html:95
+msgid ""
+"To edit or delete a certificate before it is activated, hover over the top "
+"right corner of the form and select {em_start}Edit{em_end} or the delete "
+"icon."
+msgstr ""
+"Etkinleştirilmeden önce sertifika düzenlemek ya da silmek için, formun sağ "
+"üst köşesinin üzerine gelerek {em_start}Düzenle{em_end}'yi seçin ya da "
+"simgeyi silin."
+
+#: cms/templates/certificates.html:96
+msgid ""
+"To view a sample certificate, choose a course mode and select "
+"{em_start}Preview Certificate{em_end}."
+msgstr ""
+"Bir örnek sertifikasını görüntülemek için, ders modunu seçin ve {em_start} "
+"Önizleme Belgesi {em_end} seçin. "
+
+#: cms/templates/certificates.html:98
+msgid "Issuing Certificates to Learners"
+msgstr "Öğrencilere Sertifika Veren"
+
+#: cms/templates/certificates.html:99
+msgid ""
+"To begin issuing course certificates, a course team member with either the "
+"Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
+"members with these roles can edit or delete an activated certificate."
+msgstr ""
+"Sertifikaların verilmesine başlamak için, yönetici rolüne sahip bir Yönetici"
+" veya Personel {em_start}Etkinleştir{em_end}'i seçebilir. Sadece bu "
+"yetkilere sahip üyeler etkinleştirilmiş bir sertifikayı düzenlebilir veya "
+"iptal edebilir."
+
+#: cms/templates/certificates.html:100
+msgid ""
+"{em_start}Do not{em_end} delete certificates after a course has started; "
+"learners who have already earned certificates will no longer be able to "
+"access them."
+msgstr ""
+"Bir ders başladıktan sonra sertifikaları {em_start}silmeyin{em_end}; "
+"kazanılan sertifikalara sahip öğrencilerin artık onlara erişmesi zaten "
+"mümkün olmayacak."
+
+#: cms/templates/certificates.html:101
+msgid "Learn more about certificates"
+msgstr "Sertifikalar hakkında daha fazla öğren"
+
+#: cms/templates/certificates.html:113 cms/templates/certificates.html:114
+#: cms/templates/group_configurations.html:124
+#: cms/templates/group_configurations.html:125 cms/templates/settings.html:665
+#: cms/templates/settings.html:666 cms/templates/settings_advanced.html:105
+#: cms/templates/settings_advanced.html:106
+#: cms/templates/settings_graders.html:162
+#: cms/templates/settings_graders.html:163
+msgid "Other Course Settings"
+msgstr "Diğer Ders Ayarları"
+
+#: cms/templates/certificates.html:116
+#: cms/templates/group_configurations.html:127
+#: cms/templates/settings_advanced.html:108
+#: cms/templates/settings_graders.html:165
+msgid "Details & Schedule"
+msgstr "Ayrıntılar & Takvim"
+
+#: cms/templates/certificates.html:117
+#: cms/templates/group_configurations.html:128 cms/templates/settings.html:668
+#: cms/templates/settings_advanced.html:109
+#: cms/templates/settings_graders.html:46 cms/templates/widgets/header.html:95
+msgid "Grading"
+msgstr "Notlandırma"
+
+#: cms/templates/certificates.html:118
+#: cms/templates/group_configurations.html:129
+#: cms/templates/manage_users.html:30 cms/templates/settings.html:669
+#: cms/templates/settings_advanced.html:110
+#: cms/templates/settings_graders.html:166
+#: cms/templates/widgets/header.html:98
+msgid "Course Team"
+msgstr "Ders Takımı"
+
+#: cms/templates/certificates.html:119
+#: cms/templates/group_configurations.html:130 cms/templates/settings.html:671
+#: cms/templates/settings_advanced.html:15
+#: cms/templates/settings_advanced.html:41
+#: cms/templates/settings_graders.html:168
+#: cms/templates/widgets/header.html:109
+msgid "Advanced Settings"
+msgstr "Gelişmiş Ayarlar"
+
+#: cms/templates/certificates.html:120
+#: cms/templates/group_configurations.html:18
+#: cms/templates/group_configurations.html:47 cms/templates/settings.html:670
+#: cms/templates/settings_advanced.html:111
+#: cms/templates/settings_graders.html:167
+#: cms/templates/widgets/header.html:101
+msgid "Group Configurations"
+msgstr "Grup Ayarları"
+
+#: cms/templates/certificates.html:122
+#: cms/templates/group_configurations.html:132 cms/templates/settings.html:673
+#: cms/templates/settings_advanced.html:113
+#: cms/templates/settings_graders.html:170
+#: cms/templates/widgets/header.html:105
+msgid "Proctored Exam Settings"
+msgstr ""
+
+#: cms/templates/checklists.html:15 cms/templates/checklists.html:33
+#: cms/templates/widgets/header.html:143
+msgid "Checklists"
+msgstr "Kontrol listeleri"
+
+#: cms/templates/checklists.html:32 cms/templates/export.html:43
+#: cms/templates/export_git.html:18 cms/templates/import.html:32
+#: cms/templates/widgets/header.html:127 cms/templates/widgets/header.html:184
+msgid "Tools"
+msgstr "Araçlar"
+
+#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:94
+#: cms/templates/studio_xblock_wrapper.html:96
+msgid "Duplicate"
+msgstr "Kopyasını Çıkar"
+
+#: cms/templates/component.html:19
+msgid "Duplicate this component"
+msgstr "Bu bileşenin kopyasını çıkarın"
+
+#: cms/templates/component.html:23 cms/templates/component.html:28
+#: cms/templates/studio_xblock_wrapper.html:102
+#: cms/templates/studio_xblock_wrapper.html:107
+msgid "Move"
+msgstr "Taşı"
+
+#: cms/templates/component.html:32
+#: cms/templates/studio_xblock_wrapper.html:115
+#: cms/templates/studio_xblock_wrapper.html:117
+msgid "Delete"
+msgstr "Sil"
+
+#: cms/templates/component.html:34
+msgid "Delete this component"
+msgstr "Bu bileşeni silin"
+
+#: cms/templates/component.html:39 cms/templates/edit-tabs.html:117
+#: cms/templates/edit-tabs.html:118
+#: cms/templates/studio_xblock_wrapper.html:123
+msgid "Drag to reorder"
+msgstr "Tekrar düzenlemek için sürükle"
+
+#: cms/templates/container.html:116 cms/templates/library.html:51
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#: cms/templates/container.html:123 cms/templates/container.html:124
+#: cms/templates/course-create-rerun.html:32
+#: cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:43
+#: cms/templates/course_info.html:44 cms/templates/course_outline.html:128
+#: cms/templates/course_outline.html:129 cms/templates/edit-tabs.html:37
+#: cms/templates/edit-tabs.html:38 cms/templates/index.html:29
+#: cms/templates/index.html:30 cms/templates/library.html:56
+#: cms/templates/library.html:57 cms/templates/manage_users.html:33
+#: cms/templates/manage_users.html:34 cms/templates/manage_users_lib.html:32
+#: cms/templates/manage_users_lib.html:33 cms/templates/textbooks.html:45
+#: cms/templates/textbooks.html:46 cms/templates/videos_index.html:62
+#: cms/templates/videos_index.html:63
+msgid "Page Actions"
+msgstr "Sayfa İşlemleri"
+
+#: cms/templates/container.html:128
+msgid "Open the courseware in the LMS"
+msgstr "LMS'deki ders içeriğini açın"
+
+#: cms/templates/container.html:129
+msgid "View Live Version"
+msgstr "Canlı Sürümü Görüntüle"
+
+#: cms/templates/container.html:133
+msgid "Preview the courseware in the LMS"
+msgstr "LMS'deki ders içeriğini önizle"
+
+#: cms/templates/container.html:134
+msgid "Preview"
+msgstr "Önizleme"
+
+#: cms/templates/container.html:166
+msgid "Adding components"
+msgstr "Bileşenler ekleniyor"
+
+#: cms/templates/container.html:167
+msgid ""
+"Select a component type under {strong_start}Add New Component{strong_end}. "
+"Then select a template."
+msgstr ""
+"{strong_start}Yeni Bileşen Ekle{strong_end} altından bir bileşen türünü "
+"seçin. Ardından bir şablon seçin."
+
+#: cms/templates/container.html:171
+msgid ""
+"The new component is added at the bottom of the page or group. You can then "
+"edit and move the component."
+msgstr ""
+"Sayfanın veya grubun altındaki yeni bileşen eklenir. Daha sonra "
+"düzenleyebilir ve bileşen taşıyabilirsiniz."
+
+#: cms/templates/container.html:172
+msgid "Editing components"
+msgstr "Bileşenler düzenleniyor"
+
+#: cms/templates/container.html:173
+msgid ""
+"Click the {strong_start}Edit{strong_end} icon in a component to edit its "
+"content."
+msgstr ""
+"Bileşen içindeki {strong_start}Düzenle{strong_end} simgesine tıklayarak "
+"içeriğini düzenleyebilirsiniz."
+
+#: cms/templates/container.html:177
+msgid "Reorganizing components"
+msgstr "Bileşenleri tekrar organize et"
+
+#: cms/templates/container.html:178
+msgid "Drag components to new locations within this component."
+msgstr "Bu bileşen kapsamında yeni yerlere sürükleyin bileşenleri."
+
+#: cms/templates/container.html:179
+msgid "For content experiments, you can drag components to other groups."
+msgstr ""
+"İçerik deneyleri için, diğer gruplara bileşenleri sürükleyebilirsiniz."
+
+#: cms/templates/container.html:180
+msgid "Working with content experiments"
+msgstr "İçerik deneyleri ile çalışma"
+
+#: cms/templates/container.html:181
+msgid ""
+"Confirm that you have properly configured content in each of your experiment"
+" groups."
+msgstr ""
+" Düzgün bir şekilde deneme gruplarınızın her birinin içeriğinin "
+"yapılandırılmış olduğunu doğrulayın."
+
+#: cms/templates/container.html:184
+msgid "Learn more about component containers"
+msgstr "İçerik taşıyıcıları hakkında daha fazla bilgi edinin"
+
+#: cms/templates/container.html:190
+msgid "Unit Location"
+msgstr "Ünite Yeri"
+
+#: cms/templates/container.html:192
+msgid "Location ID"
+msgstr "Konum ID"
+
+#: cms/templates/container.html:195
+msgid ""
+"To create a link to this unit from an HTML component in this course, enter "
+"\"/jump_to_id/<location ID>\" as the URL value."
+msgstr ""
+"Bu ders içindeki bir HTML bileşeninden bu üniteye bağlantı oluşturmak için, "
+"URL değeri olarak \"/jump_to_id/<location ID>\" girin."
+
+#: cms/templates/course-create-rerun.html:10
+msgid "Create a Course Rerun of:"
+msgstr "Dersleri Yeniden Çalıştırmak için Ders Oluşturun:"
+
+#: cms/templates/course-create-rerun.html:29
+msgid "Create a re-run of a course"
+msgstr "Bir dersin yeniden çalıştırmasını oluştur"
+
+#: cms/templates/course-create-rerun.html:36
+#: cms/templates/course-create-rerun.html:121 cms/templates/index.html:123
+#: cms/templates/index.html:183 cms/templates/manage_users.html:70
+#: cms/templates/manage_users_lib.html:69
+#: cms/templates/videos_index_pagination.html:15
+msgid "Cancel"
+msgstr "İptal"
+
+#: cms/templates/course-create-rerun.html:42
+msgid "You are creating a re-run from:"
+msgstr "Yeniden çalıştırma oluşturuyorsunuz:"
+
+#: cms/templates/course-create-rerun.html:56
+msgid ""
+"Provide identifying information for this re-run of the course. The original "
+"course is not affected in any way by a re-run."
+msgstr ""
+"Bu dersi yeniden çalıştırmak için tanımlayıcı bilgi veriniz. Özgün ders "
+"yeniden çalıştırmadan herhangi bir şekilde etkilenmez."
+
+#: cms/templates/course-create-rerun.html:57
+msgid ""
+"Note: Together, the organization, course number, and course run must "
+"uniquely identify this new course instance."
+msgstr ""
+"Not: Birlikte, kurum, ders sayısı ve ders çalıştırma benzersiz bir şekilde "
+"yeni ders örneğini tanımlamalıdır."
+
+#: cms/templates/course-create-rerun.html:72
+msgid "Required Information to Create a re-run of a course"
+msgstr " Dersin yeniden çalıştırılmasını oluşturmak için Gerekli Bilgiler"
+
+#. Translators: This is an example name for a new course, seen when
+#. filling out the form to create a new course.
+#: cms/templates/course-create-rerun.html:77 cms/templates/index.html:75
+msgid "e.g. Introduction to Computer Science"
+msgstr "örn. Bilgisayar Bilimlerine Giriş"
+
+#: cms/templates/course-create-rerun.html:79
+msgid ""
+"The public display name for the new course. (This name is often the same as "
+"the original course name.)"
+msgstr ""
+"Yeni ders için herkese görünen isim. (Bu isim genellikle asıl ders adıyla "
+"aynıdır)."
+
+#: cms/templates/course-create-rerun.html:84 cms/templates/index.html:80
+#: cms/templates/index.html:156 cms/templates/settings.html:72
+msgid "Organization"
+msgstr "Kurum"
+
+#. Translators: This is an example for the name of the organization sponsoring
+#. a course, seen when filling out the form to create a new course. The
+#. organization name cannot contain spaces.
+#. Translators: "e.g. UniversityX or OrganizationX" is a placeholder displayed
+#. when user put no data into this field.
+#: cms/templates/course-create-rerun.html:85 cms/templates/index.html:83
+#: cms/templates/index.html:157
+msgid "e.g. UniversityX or OrganizationX"
+msgstr "örn. ÜniversiteX veya KurumX"
+
+#: cms/templates/course-create-rerun.html:87
+msgid ""
+"The name of the organization sponsoring the new course. (This name is often "
+"the same as the original organization name.)"
+msgstr ""
+"Yeni dersi sunan kurumun adı. (Bu ad genellikle kurumun adıyla aynıdır.)"
+
+#: cms/templates/course-create-rerun.html:88
+#: cms/templates/course-create-rerun.html:108
+msgid "Note: No spaces or special characters are allowed."
+msgstr "Not: Boşluk veya özel karakter olmamalıdır."
+
+#. Translators: This is an example for the number used to identify a course,
+#. seen when filling out the form to create a new course. The number here is
+#. short for "Computer Science 101". It can contain letters but cannot contain
+#. spaces.
+#: cms/templates/course-create-rerun.html:96 cms/templates/index.html:96
+msgid "e.g. CS101"
+msgstr "örn. CS101"
+
+#: cms/templates/course-create-rerun.html:98
+msgid ""
+"The unique number that identifies the new course within the organization.  "
+"(This number will be the same as the original course number and cannot be "
+"changed.)"
+msgstr ""
+"Bu dersi kurumunuz içinde tanımlayan benzersiz numara. (Bu numara genellikle"
+" özgün ders numarasıyla aynıdır ve değiştirilemez.)"
+
+#: cms/templates/course-create-rerun.html:104 cms/templates/index.html:105
+#: cms/templates/settings.html:84
+msgid "Course Run"
+msgstr "Dersi Yayın Tarihi"
+
+#. Translators: This is an example for the "run" used to identify different
+#. instances of a course, seen when filling out the form to create a new
+#. course.
+#: cms/templates/course-create-rerun.html:105 cms/templates/index.html:108
+msgid "e.g. 2014_T1"
+msgstr "örn. 2014_YY1"
+
+#: cms/templates/course-create-rerun.html:107
+msgid ""
+"The term in which the new course will run. (This value is often different "
+"than the original course run value.)"
+msgstr ""
+"Yeni dersin yayında olacağı zaman aralığı. (Bu değer, özgün ders çalışma "
+"değerinden genellikle farklıdır.)"
+
+#: cms/templates/course-create-rerun.html:120
+msgid "Create Re-run"
+msgstr "Yeniden Çalıştırma Oluştur"
+
+#: cms/templates/course-create-rerun.html:130
+msgid "When will my course re-run start?"
+msgstr "Dersim ne zaman yeniden başlayacak?"
+
+#: cms/templates/course-create-rerun.html:132
+msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
+msgstr ""
+"Yeni ders 1 Ocak 2030 tarihinde geceyarısı (UTC) başlayacak şekilde "
+"ayarlanır."
+
+#: cms/templates/course-create-rerun.html:137
+msgid "What transfers from the original course?"
+msgstr "Asıl dersten ne aktarılacak?"
+
+#: cms/templates/course-create-rerun.html:139
+msgid ""
+"The new course has the same course outline and content as the original "
+"course. All problems, videos, announcements, and other files are duplicated "
+"to the new course."
+msgstr ""
+"Yeni ders asıl dersle aynı anahat ve içeriğe sahiptir. Asıl dersin tüm "
+"problem, video, duyuru ve diğer dosyaları yeni derse kopyalanır."
+
+#: cms/templates/course-create-rerun.html:144
+msgid "What does not transfer from the original course?"
+msgstr "Asıl dersten ne aktarılmaz?"
+
+#: cms/templates/course-create-rerun.html:146
+msgid ""
+"You are the only member of the new course's staff. No students are enrolled "
+"in the course, and there is no student data. There is no content in the "
+"discussion topics or wiki."
+msgstr ""
+"Siz sadece yeni dersin personel üyesisiniz. Hiçbir öğrenci derse kayıtlı "
+"değil ve hiçbir öğrenci verisi bulunmuyor. Tartışma konuları veya wiki'de "
+"hiçbir içerik yoktur."
+
+#: cms/templates/course-create-rerun.html:151
+msgid "Learn more about Course Re-runs"
+msgstr "Ders yeniden çalıştırması hakkında daha fazla bilgi edinin"
+
+#: cms/templates/course_info.html:13 cms/templates/course_info.html:40
+msgid "Course Updates"
+msgstr "Ders Güncellemeleri"
+
+#: cms/templates/course_info.html:47
+msgid "New Update"
+msgstr "Yeni Güncelleme"
+
+#: cms/templates/course_info.html:57
+msgid ""
+"Use course updates to notify students of important dates or exams, highlight"
+" particular discussions in the forums, announce schedule changes, and "
+"respond to student questions. You add or edit updates in HTML."
+msgstr ""
+"Ders güncellemelerini öğrencilerinize önemli tarihleri veya sınavları, "
+"forumlardaki dikkat çekici tartışmaları, zaman çizelgesindeki değişiklikleri"
+" ve öğrencilerin sorularına yanıt vermek için kullanın. Güncellemeleri HTML "
+"içinde değiştirebilir, yenilerini ekleyebilirsiniz."
+
+#: cms/templates/course_outline.html:51
+msgid ""
+"This course was created as a re-run. Some manual configuration is needed."
+msgstr ""
+"Bu ders yeniden çalıştırma olarak oluştrulmuştur. Bazı elle yapılandırma "
+"işlemleri gerekecek."
+
+#: cms/templates/course_outline.html:53
+msgid ""
+"No course content is currently visible, and no learners are enrolled. Be "
+"sure to review and reset all dates, including the Course Start Date; set up "
+"the course team; review course updates and other assets for dated material; "
+"and seed the discussions and wiki."
+msgstr ""
+"Hiçbir dersin içeriği şu anda görünür değil ve hiçbir öğrenci kayıtlı değil."
+" Ders Başlangıç Tarihi dâhil tüm tarihleri gözden geçirin ve sıfırlayın; "
+"ders ekibini kurun; ders güncellemeleri ile diğer zamanlanmış varlıklarınızı"
+"  gözden geçirin; ve forum ile wikinizi hareketlendirin."
+
+#: cms/templates/course_outline.html:74
+msgid "This course uses features that are no longer supported."
+msgstr "Bu dersin artık desteklenen özellikleri kullanır."
+
+#: cms/templates/course_outline.html:78
+msgid "You must delete or replace the following components."
+msgstr "Takip eden bileşenleri silmek ya da yerini değiştirmek zorundasınız."
+
+#: cms/templates/course_outline.html:79
+msgid "Unsupported Components"
+msgstr "Desteklenmeyen Bileşenler"
+
+#: cms/templates/course_outline.html:86
+msgid "Deprecated Component"
+msgstr "Onaylanmayan Bileşen"
+
+#: cms/templates/course_outline.html:98
+msgid ""
+"To avoid errors, {platform_name} strongly recommends that you remove "
+"unsupported features from the course advanced settings. To do this, go to "
+"the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
+"Module List\" setting, and then delete the following modules from the list."
+msgstr ""
+"Hatalardan kaçınmak için, {platform_name} desteklenmeyen özellikleri "
+"gelişmiş ders ayarlarından kaldırmanızı şiddetle tavsiye eder. Bunu yapmak "
+"için {link_start}Gelişmiş Ayarlar sayfasına{link_end} gidin, \"Gelişmiş "
+"Modül Listesi\" ayarını konumlandırın ve sonra ilgili modülleri listeden "
+"silin."
+
+#: cms/templates/course_outline.html:104
+msgid "Unsupported Advance Modules"
+msgstr "Desteklenmeyen Gelişmiş Modüller"
+
+#: cms/templates/course_outline.html:132
+msgid "Click to add a new section"
+msgstr "Yeni bölüm açmak için tıklayın"
+
+#: cms/templates/course_outline.html:133
+msgid "New Section"
+msgstr "Yeni Bölüm"
+
+#: cms/templates/course_outline.html:138
+msgid "Reindex current course"
+msgstr "Mevcut dersi yeniden indeksle"
+
+#: cms/templates/course_outline.html:139
+msgid "Reindex"
+msgstr "Yeniden indeksle"
+
+#: cms/templates/course_outline.html:145
+msgid "Collapse All Sections"
+msgstr "Bütün bölümleri daralt"
+
+#: cms/templates/course_outline.html:146
+msgid "Expand All Sections"
+msgstr "Bütün Bölümleri Genişlet"
+
+#: cms/templates/course_outline.html:151
+msgid "Click to open the courseware in the LMS in a new tab"
+msgstr "LMS'teki ders yazılımlarını yeni sekmede açmak için tıklayın"
+
+#: cms/templates/course_outline.html:151 cms/templates/edit-tabs.html:44
+msgid "View Live"
+msgstr "Canlı Görüntüle"
+
+#: cms/templates/course_outline.html:215
+msgid "Creating your course organization"
+msgstr "Ders organizasyonunuzu oluşturma"
+
+#: cms/templates/course_outline.html:216
+msgid "You add sections, subsections, and units directly in the outline."
+msgstr "Bölümleri, altbölümleri ve üniteleri doğrudan taslağa ekle."
+
+#: cms/templates/course_outline.html:217
+msgid ""
+"Create a section, then add subsections and units. Open a unit to add course "
+"components."
+msgstr ""
+"Bölüm oluşturun, sonra altbölümleri ve üniteleri ekleyin. Ders bileşenleri "
+"eklemek için bir ünite açın."
+
+#: cms/templates/course_outline.html:220
+msgid "Reorganizing your course"
+msgstr "Dersinizi yeniden düzenleme"
+
+#: cms/templates/course_outline.html:221
+msgid "Drag sections, subsections, and units to new locations in the outline."
+msgstr ""
+"Bölümleri, altbölümleri ve üniteleri taslaktaki yeni konuma sürükleyin."
+
+#: cms/templates/course_outline.html:223
+msgid "Learn more about the course outline"
+msgstr "Ders taslağı hakkında daha fazla bilgi edinin"
+
+#: cms/templates/course_outline.html:227
+msgid "Setting release dates and grading policies"
+msgstr "Sürüm tarihleri ve notlandırma ilkelerini ayarlama"
+
+#: cms/templates/course_outline.html:228
+msgid ""
+"Select the Configure icon for a section or subsection to set its release "
+"date. When you configure a subsection, you can also set the grading policy "
+"and due date."
+msgstr ""
+"Yayın tarihini ayarlamak için bir bölüm veya altbölüme ait Yapılandırma "
+"simgesini seçin. Bir altbölümü yapılandırırken, aynı zamanda notlandırma "
+"politikası ve bitiş tarihini de belirleyebilirsiniz."
+
+#: cms/templates/course_outline.html:230
+msgid "Learn more about grading policy settings"
+msgstr "Notlandırma politikası ayarları hakkında daha fazla bilgi edinin"
+
+#: cms/templates/course_outline.html:234
+msgid "Changing the content learners see"
+msgstr "Öğrencilerin göreceği içeriği değiştirme"
+
+#: cms/templates/course_outline.html:235
+msgid ""
+"To publish draft content, select the Publish icon for a section, subsection,"
+" or unit."
+msgstr ""
+"Taslak içeriği yayımlamak için bölüm, alt bölüm veya ünitenin \"Yayınla\" "
+"simgesini seçin."
+
+#: cms/templates/course_outline.html:236
+msgid ""
+"To make a section, subsection, or unit unavailable to learners, select the "
+"Configure icon for that level, then select the appropriate "
+"{em_start}Hide{em_end} option. Grades for hidden sections, subsections, and "
+"units are not included in grade calculations."
+msgstr ""
+"Bir bölüm, altbölüm veya üniteyi öğrencilerin görmemesi için gizlemek "
+"istediğiniz kısma gelin ve {em_start}Gizle{em_end} seçeneğini ayarlayın. "
+"Gizlenmiş bölüm, altbölüm ve üniteler notlama hesaplamalarında gözardı "
+"edilir."
+
+#: cms/templates/course_outline.html:237
+msgid ""
+"To hide the content of a subsection from learners after the subsection due "
+"date has passed, select the Configure icon for a subsection, then select "
+"{em_start}Hide content after due date{em_end}. Grades for the subsection "
+"remain included in grade calculations."
+msgstr ""
+"Altbölümün bitiş tarihi geçtiğinde bu içeriği öğrencilerden gizlemek "
+"istediğinizde, altbölümün Yapılandır simgesini seçin ve sonrasında "
+"{em_start}İçeriği bitiş tarihinden sonra gizle{em_end} seçeneğine tıklayın. "
+"Altbölümün notları genel not hesaplamasına dæhil edilecektir."
+
+#: cms/templates/course_outline.html:239
+msgid "Learn more about content visibility settings"
+msgstr "İçerik görünürlüğü ayarları hakkında daha fazla bilgi"
+
+#. Translators: Pages refer to the tabs that appear in the top navigation of
+#. each course.
+#: cms/templates/edit-tabs.html:11 cms/templates/edit-tabs.html:34
+#: cms/templates/export.html:201 cms/templates/widgets/header.html:67
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: cms/templates/edit-tabs.html:41
+msgid "New Page"
+msgstr "Yeni Sayfa"
+
+#: cms/templates/edit-tabs.html:56
+msgid ""
+"Note: Pages are publicly visible. If users know the URL of a page, they can "
+"view the page even if they are not registered for or logged in to your "
+"course."
+msgstr ""
+"Not: Sayfalar herkes tarafından görülebilir. Eğer kullanıcılar bir sayfanın "
+"URL'ini bilirse, derse kayıt yapmamış veya giriş yapmış olmasalar bile bu "
+"sayfayı görebilirler."
+
+#: cms/templates/edit-tabs.html:103
+msgid "Show this page"
+msgstr "Bu sayfayı göster"
+
+#: cms/templates/edit-tabs.html:105 cms/templates/edit-tabs.html:107
+msgid "Show/hide page"
+msgstr "Sayfayı göster/gizle"
+
+#: cms/templates/edit-tabs.html:121 cms/templates/edit-tabs.html:122
+msgid "This page cannot be reordered"
+msgstr "Bu sayfa yeniden sıralanamaz"
+
+#: cms/templates/edit-tabs.html:135
+msgid "You can add additional custom pages to your course."
+msgstr "Dersinize özel olarak yaptığınız sayfaları ekleyebilirsiniz."
+
+#: cms/templates/edit-tabs.html:135
+msgid "Add a New Page"
+msgstr "Yeni Bir Sayfa Ekle"
+
+#: cms/templates/edit-tabs.html:143
+msgid "What are pages?"
+msgstr "Sayfalar neye yarar?"
+
+#: cms/templates/edit-tabs.html:144
+msgid ""
+"Pages are listed horizontally at the top of your course. Default pages "
+"(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
+" custom pages that you create."
+msgstr ""
+"Sayfalar dersinizin üst kısmında yatay olarak sıralanmıştır. Varsayılan "
+"sayfaları (Anasayfa, Ders, Tartışma, Wiki ve İlerleme) ders kitapları ve "
+"oluşturduğunuz özel yapım sayfalar izlemektedir."
+
+#: cms/templates/edit-tabs.html:147
+msgid "Custom pages"
+msgstr "Özel yapılmış sayfalar"
+
+#: cms/templates/edit-tabs.html:148
+msgid ""
+"You can create and edit custom pages to provide students with additional "
+"course content. For example, you can create pages for the grading policy, "
+"course slides, and a course calendar. "
+msgstr ""
+"Öğrencilere ek ders içeriği sunmak için özel yapım sayfalar oluşturabilir ve"
+" var olanları değiştirebilirsiniz. Örneğin, notlandırma yöntemi, ders "
+"slaytları ve ders takvimi gibi sayfaları bu şekilde oluşturabilirsiniz."
+
+#: cms/templates/edit-tabs.html:151
+msgid "How do pages look to students in my course?"
+msgstr "Dersimde sayfalar öğrencilere nasıl görünüyor?"
+
+#: cms/templates/edit-tabs.html:152
+msgid ""
+"Students see the default and custom pages at the top of your course and use "
+"these links to navigate."
+msgstr ""
+"Öğrenciler varsayılan ve özel yapım sayfaları dersin üst kısmında görür ve "
+"bu bağlantıları gezinti için kullanırlar."
+
+#: cms/templates/edit-tabs.html:152
+msgid "See an example"
+msgstr "Bir örnek görün"
+
+#: cms/templates/edit-tabs.html:160
+msgid "Pages in Your Course"
+msgstr "Dersinizdeki Sayfalar"
+
+#: cms/templates/edit-tabs.html:162
+msgid "Preview of Pages in your course"
+msgstr "Dersinizdeki Sayfaları Önizle"
+
+#: cms/templates/edit-tabs.html:163
+msgid ""
+"Pages appear in your course's top navigation bar. The default pages (Home, "
+"Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
+" pages."
+msgstr ""
+"Dersinizin üst gezinti çubuğunda görünen sayfalar. Varsayılan sayfaları (Ana"
+" sayfa, Ders, Tartışma, Wiki ve İlerleme) ders kitapları ve özel yapım "
+"sayfalar izlemektedir."
+
+#: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182
+#: cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
+msgid "close modal"
+msgstr "kipi kapat"
+
+#: cms/templates/error.html:13
+msgid "Internal Server Error"
+msgstr "İç Sunucu Hatası"
+
+#: cms/templates/error.html:20
+msgid "The Page You Requested Page Cannot be Found"
+msgstr "Aradığınız sayfa bulunamadı"
+
+#: cms/templates/error.html:21
+msgid ""
+"We're sorry. We couldn't find the {studio_name} page you're looking for. You"
+" may want to return to the {studio_name} Dashboard and try again."
+msgstr ""
+
+#: cms/templates/error.html:25
+msgid "The Server Encountered an Error"
+msgstr "Sunucu bir Hatayla Karşılaştı"
+
+#: cms/templates/error.html:26
+msgid ""
+"We're sorry. There was a problem with the server while trying to process "
+"your last request. You may want to return to the {studio_name} Dashboard or "
+"try this request again."
+msgstr ""
+
+#: cms/templates/error.html:30
+msgid "Back to dashboard"
+msgstr "Kontrol paneline geri dön"
+
+#: cms/templates/export.html:22 cms/templates/export.html:46
+msgid "Library Export"
+msgstr "Kütüphane Dışa Aktarımı"
+
+#: cms/templates/export.html:24 cms/templates/export.html:48
+msgid "Course Export"
+msgstr "Dersi Dışa Aktar"
+
+#: cms/templates/export.html:60
+msgid "About Exporting Libraries"
+msgstr "Kütüphane Dışa Aktarımları Hakkında"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:63
+msgid ""
+"You can export libraries and edit them outside of {studio_name}. The "
+"exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
+"Zip) that contains the library structure and content. You can also re-import"
+" libraries that you've exported."
+msgstr ""
+"Derslerinizi dışa aktarabilir ve {studio_name} dışında değiştirebilirsiniz. "
+"Dersin yapısını ve içeriğini içeren dışa aktarılan dosya .tar.gz dosyasıdır "
+"(diğer bir deyişle, GNU Zip'le sıkıştırılmış .tar dosyasıdır). Dışa "
+"aktardığınız dosyaları yeniden içe aktarabilirsiniz."
+
+#: cms/templates/export.html:68
+msgid "About Exporting Courses"
+msgstr "Dersleri Dışarı Aktarma Hakkında"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:71
+msgid ""
+"You can export courses and edit them outside of {studio_name}. The exported "
+"file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
+"contains the course structure and content. You can also re-import courses "
+"that you've exported."
+msgstr ""
+"Derslerinizi dışa aktarabilir ve {studio_name} dışında değiştirebilirsiniz. "
+"Dersin yapısını ve içeriğini içeren dışa aktarılan dosya .tar.gz dosyasıdır "
+"(diğer bir deyişle, GNU Zip'le sıkıştırılmış .tar dosyasıdır). Dışa "
+"aktardığınız dosyaları yeniden içe aktarabilirsiniz."
+
+#: cms/templates/export.html:74
+msgid ""
+"{em_start}Caution:{em_end} When you export a course, information such as "
+"MATLAB API keys, LTI passports, annotation secret token strings, and "
+"annotation storage URLs are included in the exported data. If you share your"
+" exported files, you may also be sharing sensitive or license-specific "
+"information."
+msgstr ""
+"{em_start}Dikkat:{em_end} Bir dersi dışa aktardığınızda, MATLAB API "
+"anahtarları, LTI pasaportları, ipucu için gizli belirteç dizgesi ve ipucu "
+"depolama URL'leri gibi bilgiler de dışa aktarılan verilere dahildir. Dışa "
+"aktarılmış dosyaları paylaşırsanız, aynı zamanda hassas veya lisansa özgü "
+"bilgi paylaşıyor olabilirsiniz."
+
+#: cms/templates/export.html:85
+msgid "Export My Library Content"
+msgstr "Kütüphanemin İçeriğini Dışarı Aktar"
+
+#: cms/templates/export.html:87
+msgid "Export My Course Content"
+msgstr "Dersimin İçeriğini Dışarı Aktar"
+
+#: cms/templates/export.html:96
+msgid "Export Library Content"
+msgstr "Kütüphane İçeriğini Dışarı Aktar"
+
+#: cms/templates/export.html:98
+msgid "Export Course Content"
+msgstr "Ders İçeriğini Dışarı Aktar"
+
+#: cms/templates/export.html:108
+msgid "Library Export Status"
+msgstr "Kütüphane Dışa Aktarım Durumu"
+
+#: cms/templates/export.html:110
+msgid "Course Export Status"
+msgstr "Ders Dışa Aktarım Durumu"
+
+#: cms/templates/export.html:122
+msgid "Preparing"
+msgstr "Hazırlanıyor"
+
+#: cms/templates/export.html:126
+msgid "Preparing to start the export"
+msgstr "Dışa aktarıma hazırlanıyor"
+
+#: cms/templates/export.html:137
+msgid "Exporting"
+msgstr "Dışa aktarılıyor"
+
+#: cms/templates/export.html:138
+msgid ""
+"Creating the export data files (You can now leave this page safely, but "
+"avoid making drastic changes to content until this export is complete)"
+msgstr ""
+"Dışa aktarma dosyaları oluşturuluyor (Bu sayfayı güvenli şekilde terk "
+"edebilirsiniz fakat dışa aktarım tamamlanana kadar içerikte ciddi "
+"değişiklikler yapmayınız)"
+
+#: cms/templates/export.html:149
+msgid "Compressing"
+msgstr "Sıkıştırılıyor"
+
+#: cms/templates/export.html:150
+msgid "Compressing the exported data and preparing it for download"
+msgstr "Dışa aktarılan veri sıkıştırılıyor ve indirilmeye hazırlanıyor"
+
+#: cms/templates/export.html:161 cms/templates/import.html:175
+msgid "Success"
+msgstr "Başarı"
+
+#: cms/templates/export.html:166
+msgid "Your exported library can now be downloaded"
+msgstr "Dışa aktarılan veri şimdi indirilebilir"
+
+#: cms/templates/export.html:168
+msgid "Your exported course can now be downloaded"
+msgstr "Dışa aktarılan ders şimdi indirilebilir"
+
+#: cms/templates/export.html:176
+msgid "Download Exported Library"
+msgstr "Dışa Aktarılan Kütüphaneyi İndir"
+
+#: cms/templates/export.html:178
+msgid "Download Exported Course"
+msgstr "Dışa Aktarılan Dersi İndir "
+
+#: cms/templates/export.html:192
+msgid "Data {em_start}exported with{em_end} your course:"
+msgstr "Dersim {em_end} veri {em_start} ile dışarı aktarıldı."
+
+#: cms/templates/export.html:197
+msgid ""
+"Values from Advanced Settings, including MATLAB API keys and LTI passports"
+msgstr ""
+"MATLAB API tuşları ve DZD pasaport dahil Gelişmiş Ayarlar gelen değerler"
+
+#: cms/templates/export.html:198
+msgid "Course Content (all Sections, Sub-sections, and Units)"
+msgstr "Ders İçeriği (Bütün Bölümler, Alt-Bölümler ve Üniteler)"
+
+#: cms/templates/export.html:199
+msgid "Course Structure"
+msgstr "Ders Yapısı"
+
+#: cms/templates/export.html:200
+msgid "Individual Problems"
+msgstr "Bireysel Problemler"
+
+#: cms/templates/export.html:202
+msgid "Course Assets"
+msgstr "Ders Materyalleri"
+
+#: cms/templates/export.html:203
+msgid "Course Settings"
+msgstr "Ders Ayarları"
+
+#: cms/templates/export.html:209
+msgid "Data {em_start}not exported{em_end} with your course:"
+msgstr "Dersim {em_end} veri {em_start} ile dışarı aktarılmadı."
+
+#: cms/templates/export.html:214
+msgid "User Data"
+msgstr "Kullanıcı Verisi"
+
+#: cms/templates/export.html:215
+msgid "Course Team Data"
+msgstr "Ders Takım Verisi"
+
+#: cms/templates/export.html:216
+msgid "Forum/discussion Data"
+msgstr "Forum/tartışma Verisi"
+
+#: cms/templates/export.html:226
+msgid "Why export a library?"
+msgstr "Neden bir kütüphaneyi dışa aktarıyoruz?"
+
+#: cms/templates/export.html:227
+msgid ""
+"You may want to edit the XML in your library directly, outside of "
+"{studio_name}. You may want to create a backup copy of your library. Or, you"
+" may want to create a copy of your library that you can later import into "
+"another library instance and customize."
+msgstr ""
+"Dersinizdeki XML dosyalarını, {studio_name} dışında doğrudan değiştirmek "
+"isteyebilirsiniz. Dersinizin bir yedeğinizi almak isteyebilirsiniz veya "
+"dersinizin bir kopyasını çıkartır ve daha sonra diğer bir dersin içine "
+"aktarır ve değiştirirsiniz."
+
+#: cms/templates/export.html:233 cms/templates/export.html:267
+msgid "Opening the downloaded file"
+msgstr "İndirilmiş dosya açılıyor"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:235
+msgid ""
+"Use an archive program to extract the data from the .tar.gz file. Extracted "
+"data includes the library.xml file, as well as subfolders that contain "
+"library content."
+msgstr ""
+".tar.gz dosyasından verileri almak için bir arşiv programı kullanınız. "
+"Çıkarılan veriler içinde kütüphane.xml dosyası ve ders içeriğini barındıran "
+"alt dizinler olacaktır."
+
+#: cms/templates/export.html:238
+msgid "Learn more about exporting a library"
+msgstr "Bir kütüphaneyi dışa aktarma hakkında daha fazla bilgi edinin"
+
+#: cms/templates/export.html:244
+msgid "Why export a course?"
+msgstr "Neden deri dışarı aktarıyoruz?"
+
+#: cms/templates/export.html:245
+msgid ""
+"You may want to edit the XML in your course directly, outside of "
+"{studio_name}. You may want to create a backup copy of your course. Or, you "
+"may want to create a copy of your course that you can later import into "
+"another course instance and customize."
+msgstr ""
+"Dersinizdeki XML dosyalarını, {studio_name} dışında doğrudan değiştirmek "
+"isteyebilirsiniz. Dersinizin bir yedeğinizi almak isteyebilirsiniz veya "
+"dersinizin bir kopyasını çıkartır ve daha sonra diğer bir dersin içine "
+"aktarır ve değiştirirsiniz."
+
+#: cms/templates/export.html:251
+msgid "What content is exported?"
+msgstr "Hangi içerik dışa aktarıldı?"
+
+#: cms/templates/export.html:252
+msgid "The following content is exported."
+msgstr "Aşağıdaki içerik dışa aktarıldı."
+
+#: cms/templates/export.html:254 cms/templates/import.html:230
+msgid "Course content and structure"
+msgstr "Ders içeriği ve yapısı"
+
+#: cms/templates/export.html:255 cms/templates/import.html:231
+msgid "Course dates"
+msgstr "Ders tarihleri"
+
+#: cms/templates/export.html:256 cms/templates/import.html:232
+msgid "Grading policy"
+msgstr "Notlandırma koşulları"
+
+#: cms/templates/export.html:257 cms/templates/import.html:233
+msgid "Any group configurations"
+msgstr "Herhangi bir grup yapılandırması"
+
+#: cms/templates/export.html:258 cms/templates/import.html:234
+msgid ""
+"Settings on the Advanced Settings page, including MATLAB API keys and LTI "
+"passports"
+msgstr ""
+"MATLAB API anahtarları ve LTI pasaportları dâhil Gelişmiş Ayarlar "
+"sayfasındaki ayarlar"
+
+#: cms/templates/export.html:260
+msgid "The following content is not exported."
+msgstr "Aşağıdaki içerik dışarı aktarılmadı."
+
+#: cms/templates/export.html:262 cms/templates/import.html:238
+msgid ""
+"Learner-specific content, such as learner grades and discussion forum data"
+msgstr ""
+"Öğrenciye-özel içerik, öğrenci notları ve tartışma forum verileri gibi"
+
+#: cms/templates/export.html:263 cms/templates/import.html:239
+msgid "The course team"
+msgstr "Ders takımı"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:269
+msgid ""
+"Use an archive program to extract the data from the .tar.gz file. Extracted "
+"data includes the course.xml file, as well as subfolders that contain course"
+" content."
+msgstr ""
+".tar.gz dosyasından verileri almak için bir arşiv programı kullanınız. "
+"Çıkarılan veriler içinde ders.xml dosyası ve ders içeriğini barındıran alt "
+"dizinler olacaktır."
+
+#: cms/templates/export.html:272
+msgid "Learn more about exporting a course"
+msgstr "Bir dersi dışa aktarmak hakkında daha fazla bilgi edinin"
+
+#: cms/templates/export_git.html:11
+msgid "Export Course to Git"
+msgstr "Dersi Git'e Aktar"
+
+#: cms/templates/export_git.html:19 cms/templates/export_git.html:46
+#: cms/templates/widgets/header.html:139
+msgid "Export to Git"
+msgstr "Git'e Aktar"
+
+#: cms/templates/export_git.html:29
+msgid "About Export to Git"
+msgstr "Git'e Aktarma Hakkında"
+
+#: cms/templates/export_git.html:31
+msgid "Use this to export your course to its git repository."
+msgstr "Bunu dersinizi git havuzuna aktarmak için kullanınız."
+
+#: cms/templates/export_git.html:32
+msgid ""
+"This will then trigger an automatic update of the main LMS site and update "
+"the contents of your course visible there to students if automatic git "
+"imports are configured."
+msgstr ""
+"Bu, eğer otomatik git içe aktarma tanımlandıysa, ana LMs sitesinin otomatik "
+"güncellenmesini tetikleyecek ve dersinizin öğrencilere görülür içeriğini "
+"güncelleyecektir. "
+
+#: cms/templates/export_git.html:37
+msgid "Export Course to Git:"
+msgstr "Dersi Git'e Aktar:"
+
+#: cms/templates/export_git.html:40
+msgid ""
+"giturl must be defined in your course settings before you can export to git."
+msgstr ""
+"Git'e aktarmadan önce, dersinizin ayarlarında giturl tanımlanmış olmalıdır."
+
+#: cms/templates/export_git.html:55
+msgid "Export Failed"
+msgstr "Aktarma Başarısız"
+
+#: cms/templates/export_git.html:57
+msgid "Export Succeeded"
+msgstr "Aktarma Başarılı"
+
+#: cms/templates/export_git.html:65
+msgid "Your course:"
+msgstr "Dersiniz:"
+
+#: cms/templates/export_git.html:67
+msgid "Course git url:"
+msgstr "Dersin git url'si:"
+
+#: cms/templates/group_configurations.html:68
+#: cms/templates/group_configurations.html:107
+msgid "Experiment Group Configurations"
+msgstr "Grup Yapılandırmalarını Deneme"
+
+#: cms/templates/group_configurations.html:72
+msgid "This module is disabled at the moment."
+msgstr "Bu modül şu anda devre dışı bırakılmıştır."
+
+#: cms/templates/group_configurations.html:87
+msgid "Enrollment Track Groups"
+msgstr "Kayıtlanma Yolu Grupları"
+
+#: cms/templates/group_configurations.html:88
+msgid ""
+"Enrollment track groups allow you to offer different course content to "
+"learners in each enrollment track. Learners enrolled in each enrollment "
+"track in your course are automatically included in the corresponding "
+"enrollment track group."
+msgstr ""
+
+#: cms/templates/group_configurations.html:89
+msgid ""
+"On unit pages in the course outline, you can restrict access to components "
+"to learners based on their enrollment track."
+msgstr ""
+"Ders müfredatının ünite sayfalarındaki bileşenlere erişimi belli bir "
+"kayıtlanma yolundaki öğrencilere sınırlayabilirsiniz."
+
+#: cms/templates/group_configurations.html:90
+msgid ""
+"You cannot edit enrollment track groups, but you can expand each group to "
+"view details of the course content that is designated for learners in the "
+"group."
+msgstr ""
+"Kayıtlanma yolu gruplarını düzenleyemezsiniz ama her grubu o gruptaki "
+"öğrencilere yönelik içeriğin ayrıntılarını görüntüleyecek şekilde "
+"genişletebilirsiniz."
+
+#: cms/templates/group_configurations.html:97
+msgid "Content Groups"
+msgstr "İçerik Grupları"
+
+#: cms/templates/group_configurations.html:98
+msgid ""
+"If you have cohorts enabled in your course, you can use content groups to "
+"create cohort-specific courseware. In other words, you can customize the "
+"content that particular cohorts see in your course."
+msgstr ""
+"Eğer dersinizde topluluklar etkinse topluluğa özgü ders içeriği oluşturmak "
+"için içerik gruplarını kullanabilirsiniz. Başka bir deyişle, dersinizde "
+"belirli toplulukların gördüğü içeriği kişiselleştirebilirsiniz."
+
+#: cms/templates/group_configurations.html:99
+msgid ""
+"Each content group that you create can be associated with one or more "
+"cohorts. In addition to making course content available to all learners, you"
+" can restrict access to some content to learners in specific content groups."
+" Only learners in the cohorts that are associated with the specified content"
+" groups see the additional content."
+msgstr ""
+
+#: cms/templates/group_configurations.html:100
+msgid ""
+"Click {em_start}New content group{em_end} to add a new content group. To "
+"edit the name of a content group, hover over its box and click "
+"{em_start}Edit{em_end}. You can delete a content group only if it is not in "
+"use by a unit. To delete a content group, hover over its box and click the "
+"delete icon."
+msgstr ""
+"Yeni bir içerik grubu eklemek için {em_start}Yeni içerik grubu{em_end} "
+"ifadesine tıklayın. İçerik grubunun ismini düzenlemek için kutucuğun üzerine"
+" gelin ve {em_start}Düzenle{em_end} ifadesine tıklayın. Bir içerik grubunu "
+"yalnızca bir ünite tarafından kullanılmıyorsa silebilirsiniz. Bir içerik "
+"grubunu silmek için grubun olduğu kutucuğun üzerine gelin ve sil simgesine "
+"tıklayın."
+
+#: cms/templates/group_configurations.html:108
+msgid ""
+"Use experiment group configurations if you are conducting content "
+"experiments, also known as A/B testing, in your course. Experiment group "
+"configurations define how many groups of learners are in a content "
+"experiment. When you create a content experiment for a course, you select "
+"the group configuration to use."
+msgstr ""
+"İçerik deneyleri yürütüyorsanız, A/B testi olarak da bilinen deney grubu "
+"yapılandırmasını kullanın. Deney grubu yapılandırmaları kaç öğrenci grubunun"
+" içerik deneylerinde yer alacağını tanımlar. Bir ders için içerik deneyi "
+"oluşturduğunuzda, kullanılacak grup yapılandırmasını seçersiniz."
+
+#: cms/templates/group_configurations.html:109
+msgid ""
+"Click {em_start}New Group Configuration{em_end} to add a new configuration. "
+"To edit a configuration, hover over its box and click "
+"{em_start}Edit{em_end}. You can delete a group configuration only if it is "
+"not in use in an experiment. To delete a configuration, hover over its box "
+"and click the delete icon."
+msgstr ""
+"Yeni bir yapılandırma eklemek için {em_start}Yeni Grup "
+"Yapılandırması{em_end} ifadesine tıklayın. Bir yapılandırmayı düzenlemek "
+"için kutucuğun üzerine gelip {em_start}Düzenle{em_end} ifadesine tıklayın. "
+"Bir grup yapılandırmasını yalnızca bir deneyde kullanılmıyorsa "
+"silebilirsiniz. Yapılandırmayı silmek için kutucuğun üzerine gelin ve sil "
+"simgesine tıklayın. "
+
+#: cms/templates/howitworks.html:11
+msgid "Welcome"
+msgstr "Hoş geldiniz"
+
+#: cms/templates/howitworks.html:19
+msgid "Welcome to {studio_name}"
+msgstr "{studio_name}'ya Hoş Geldiniz"
+
+#: cms/templates/howitworks.html:22
+msgid ""
+"{studio_name} helps manage your online courses, so you can focus on teaching"
+" them"
+msgstr ""
+"{studio_name} çevrimiçi dersleri düzenlemenize yardım eder, böylece siz "
+"dersinizi öğretmeye odaklanabilirsiniz."
+
+#: cms/templates/howitworks.html:32
+msgid "{studio_name}'s Many Features"
+msgstr "{studio_name}'in Bir Çok Özelliği"
+
+#: cms/templates/howitworks.html:39 cms/templates/howitworks.html:40
+msgid "{studio_name} Helps You Keep Your Courses Organized"
+msgstr "{studio_name} Derslerinizi Düzenlemenize Yardım Eder"
+
+#: cms/templates/howitworks.html:42 cms/templates/howitworks.html:87
+#: cms/templates/howitworks.html:121
+msgid "Enlarge image"
+msgstr "Görseli büyüt"
+
+#: cms/templates/howitworks.html:48
+msgid "Keeping Your Course Organized"
+msgstr "Dersinizi Düzenli Tutar"
+
+#: cms/templates/howitworks.html:49
+msgid ""
+"The backbone of your course is how it is organized. {studio_name} offers an "
+"{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
+"easy drag and drop to help you and your students stay organized."
+msgstr ""
+"Dersinizin omurgası, dersinizi nasıl organize ettiğinizdir. {studio_name} "
+"basit hiyerarşi ve kolay sürükle ve bırak araçlarını sağlayan başarılı bir "
+"{strong_start}Taslak{strong_end} editörünü kullanımınıza sunar."
+
+#: cms/templates/howitworks.html:57
+msgid "Simple Organization For Content"
+msgstr "İçerik için Basit Düzenleme"
+
+#: cms/templates/howitworks.html:58
+msgid ""
+"{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} "
+"and {strong_start}subsections{strong_end} to organize your content."
+msgstr ""
+"{studio_name},  {strong_start}bölümler{strong_end} ve {strong_start}alt "
+"bölümler{strong_end}den oluşan basit bir hiyerarşi ile içerik oluşturmanıza "
+"yardımcı olur."
+
+#: cms/templates/howitworks.html:66
+msgid "Change Your Mind Anytime"
+msgstr "İstediğin Zaman Fikrini Değiştir"
+
+#: cms/templates/howitworks.html:67
+msgid ""
+"Draft your outline and build content anywhere. Simple drag and drop tools "
+"let you reorganize quickly."
+msgstr ""
+"Ders iskeletinin taslağını hazırla ve istediğin yerde içeriğini oluştur. "
+"Basit sürükle ve bırak araçları, derslerinizi hızlıca düzenlemenize yardımcı"
+" olacak."
+
+#: cms/templates/howitworks.html:71
+msgid "Go A Week Or A Semester At A Time"
+msgstr "Haftalık veya Yarı Dönemli İçerikler"
+
+#: cms/templates/howitworks.html:72
+msgid ""
+"Build and release {strong_start}sections{strong_end} to your students "
+"incrementally. You don't have to have it all done at once."
+msgstr ""
+"Ders içeriğinizi haftalık {strong_start}bölümler{strong_end} halinde "
+"yayınlayabilirsiniz. Tüm müfredatı bir kerede yayına almak zorunda "
+"değilsiniz."
+
+#: cms/templates/howitworks.html:84 cms/templates/howitworks.html:85
+#: cms/templates/howitworks.html:93
+msgid "Learning is More than Just Lectures"
+msgstr "Öğrenmek Sadece Derslerden İbaret Değildir."
+
+#: cms/templates/howitworks.html:94
+msgid ""
+"{studio_name} lets you weave your content together in a way that reinforces "
+"learning. Insert videos, discussions, and a wide variety of exercises with "
+"just a few clicks."
+msgstr ""
+"{studio_name} içeriği öğrenmeyi güçlü araçlarla işlemenizi sağlar. Videolar,"
+" forumlar ekleyin ve pek çok farklı türde olabilen alıştırma tiplerini "
+"birkaç tıklamayla kullanın."
+
+#: cms/templates/howitworks.html:98
+msgid "Create Learning Pathways"
+msgstr "Kazanım Yolları Oluştur"
+
+#: cms/templates/howitworks.html:99
+msgid ""
+"Help your students understand one concept at a time with multimedia, HTML, "
+"and exercises."
+msgstr ""
+"Çoklu ortam videoları, HTML ve egzersizleri kullanarak öğrencilerinizin bir "
+"seferde bir kavramı anlamasına yardım edin."
+
+#: cms/templates/howitworks.html:103
+msgid "Work Visually, Organize Quickly"
+msgstr "Görerek Çalış, Kolayca Düzenle"
+
+#: cms/templates/howitworks.html:104
+msgid ""
+"Work visually and see exactly what your students will see. Reorganize all "
+"your content with drag and drop."
+msgstr ""
+"Görerek çalışarak, öğrencilerinizin tam olarak ne görüntüleyeceğini bilin. "
+"Sürekleyip bırakarak bütün içeriği kolayca düzenleyebilirsiniz."
+
+#: cms/templates/howitworks.html:108
+msgid "A Broad Library of Problem Types"
+msgstr "Geniş Soru Tekniği Kütüphanesi"
+
+#: cms/templates/howitworks.html:109
+msgid ""
+"It's more than just multiple choice. {studio_name} supports more than a "
+"dozen types of problems to challenge your learners."
+msgstr ""
+"Çoklu seçenekten çok daha fazlası. {studio_name} öğrencilerinizi zorlamak "
+"için bir düzineden fazla soru/sınav tekniğine sahiptir."
+
+#: cms/templates/howitworks.html:118 cms/templates/howitworks.html:119
+msgid ""
+"{studio_name} Gives You Simple, Fast, and Incremental Publishing. With "
+"Friends."
+msgstr ""
+"{studio_name} Size Kolay, Hızlı ve Eklemeli Yayıncılık Sunar. Arkadaşlarınla"
+" Beraber."
+
+#: cms/templates/howitworks.html:127
+msgid "Simple, Fast, and Incremental Publishing. With Friends."
+msgstr "Kolay, Hızlı ve Zaman Yönetimli Yayıncılık. Arkadaşlarınla Beraber."
+
+#: cms/templates/howitworks.html:128
+msgid ""
+"{studio_name} works like web applications you already know, yet understands "
+"how you build curriculum. Instant publishing to the web when you want it, "
+"incremental release when it makes sense. And with co-authors, you can have a"
+" whole team building a course, together."
+msgstr ""
+"{studio_name} alışık olduğunuz web uygulamaları gibi çalışır ve ders üretimi"
+" konusunda yardımcı olur. İstediğiniz zaman anında web'de yayına başlar veya"
+" isterseniz haftalık bölümlere ayırarak yayınlarsınız. Yardımcı yazarlarla "
+"oluşturduğunuz ekiple birlikte bir dersi baştan sona oluşturabilirsiniz. "
+
+#: cms/templates/howitworks.html:132
+msgid "Instant Changes"
+msgstr "Anlık Değişiklikler"
+
+#: cms/templates/howitworks.html:133
+msgid ""
+"Caught a bug? No problem. When you want, your changes go live when you click"
+" Save."
+msgstr ""
+"Sorunla mı karşılaştınız? Sorun yok. Değişiklikleriniz ne zaman isterseniz, "
+"Kaydet düğmesine bastığınızda hemen yayına girecek."
+
+#: cms/templates/howitworks.html:137
+msgid "Release-On Date Publishing"
+msgstr "Zamanlanmış Yayınlar"
+
+#: cms/templates/howitworks.html:138
+msgid ""
+"When you've finished a {strong_start}section{strong_end}, pick when you want"
+" it to go live and {studio_name} takes care of the rest. Build your course "
+"incrementally."
+msgstr ""
+"Bir {strong_start}bölümü{strong_end} bitirdiğinizde, yayına almak "
+"istediğiniz tarihi seçin ve {studio_name} gerisini halletsin. Derslerinizi "
+"haftalık/aylık dilimler halinde de yayınlayabilirsiniz."
+
+#: cms/templates/howitworks.html:146
+msgid "Work in Teams"
+msgstr "Takım Halinde Çalış"
+
+#: cms/templates/howitworks.html:147
+msgid ""
+"Co-authors have full access to all the same authoring tools. Make your "
+"course better through a team effort."
+msgstr ""
+"Yardımcı yazarlar ders hazırlama araçlarına erişimde sizinle eş haklara "
+"sahiptir. Ekip çalışmasıyla daha iyi ders içerikleri hazırlayın."
+
+#: cms/templates/howitworks.html:159
+msgid "Sign Up for {studio_name} Today!"
+msgstr "Bugün {studio_name} için Oturum Aç!"
+
+#: cms/templates/howitworks.html:164
+msgid "Sign Up & Start Making Your {platform_name} Course"
+msgstr "Giriş Yap & {platform_name} Dersini Oluşturmaya Başla"
+
+#: cms/templates/howitworks.html:167
+msgid "Already have a {studio_name} Account? Sign In"
+msgstr "Zaten bir {studio_name} hesabınız var mı? Giriş yap"
+
+#: cms/templates/howitworks.html:174
+msgid "Outlining Your Course"
+msgstr "Dersinizin Taslağı Oluşturun"
+
+#: cms/templates/howitworks.html:177
+msgid ""
+"Simple two-level outline to organize your course. Drag and drop, and see "
+"your course at a glance."
+msgstr ""
+"Dersinizi organize etmek için basit iki seviyeli taslak. Sürükle ve bırak ve"
+" dersini anında gör."
+
+#: cms/templates/howitworks.html:187
+msgid "More than Just Lectures"
+msgstr "Derslerden daha fazlası"
+
+#: cms/templates/howitworks.html:190
+msgid ""
+"Quickly create videos, text snippets, inline discussions, and a variety of "
+"problem types."
+msgstr ""
+"Hızlıca videolar, metin parçaları, forum tartışmaları ve çeşitli türde "
+"problemler oluştur."
+
+#: cms/templates/howitworks.html:200
+msgid "Publishing on Date"
+msgstr "Belli Bir Tarihte Yayınla"
+
+#: cms/templates/howitworks.html:203
+msgid ""
+"Simply set the date of a section or subsection, and {studio_name} will "
+"publish it to your students for you."
+msgstr ""
+"Basitçe bölümün ya da altbölümün tarihini ayarla ve {studio_name} "
+"öğrencilerinize sizin için yayınlasın."
+
+#: cms/templates/html_error.html:11
+msgid "We're having trouble rendering your component"
+msgstr "Bileşeninizi göstermekte zorluk yaşıyoruz"
+
+#: cms/templates/html_error.html:14
+msgid ""
+"Students will not be able to access this component. Re-edit your component "
+"to fix the error."
+msgstr ""
+"Öğrenciler bu bileşene ulaşamayacaklar. Hatayı düzeltmek için bileşeninizi "
+"yeniden düzenleyiniz."
+
+#: cms/templates/import.html:21 cms/templates/import.html:35
+msgid "Library Import"
+msgstr "Kütüphane İçe Aktarımı"
+
+#: cms/templates/import.html:23 cms/templates/import.html:37
+msgid "Course Import"
+msgstr "Dersi İçe Aktarma"
+
+#: cms/templates/import.html:49
+msgid ""
+"Be sure you want to import a library before continuing. The contents of the "
+"imported library will replace the contents of the existing library. "
+"{em_start}You cannot undo a library import{em_end}. Before you proceed, we "
+"recommend that you export the current library, so that you have a backup "
+"copy of it."
+msgstr ""
+"Devam etmeden önce dersi içeri aktardığınıza emin olun. İçe aktarılan ders "
+"materyali, derste var olan içeriğin üzerine yazılır. {em_start}Dersi içe "
+"almayı geri alamazsınız{em_end}. Dersin yedeğini almak için dersi dışa "
+"aktarmayı tavsiye ediyoruz."
+
+#: cms/templates/import.html:50
+msgid ""
+"The library that you import must be in a .tar.gz file (that is, a .tar file "
+"compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
+" It may also contain other files."
+msgstr ""
+"İçer aktardığınız ders .tar.gz formatında (GNU Zip'le sıkıştırılmış .tar "
+"dosyası) olmalıdır. Bu .tar.gz dosyası course.xml isimli bir dosyayla "
+"birlikte diğer bazı dosyaları da içermelidir. "
+
+#: cms/templates/import.html:51
+msgid ""
+"The import process has five stages. During the first two stages, you must "
+"stay on this page. You can leave this page after the Unpacking stage has "
+"completed. We recommend, however, that you don't make important changes to "
+"your library until the import operation has completed."
+msgstr ""
+"İçe aktarma işlemi beş aşamadan oluşur. İlk iki aşama sırasında, sayfayı "
+"görüntülemeye devam etmeniz gerekir. Sayfayı, dosya açma işlemi bittikten "
+"sonra terk edebilirsiniz. Bununla birlikte, içe aktarma işlemi bitene kadar "
+"dersinizde önemli değişiklikler yapmamanızı öneririz."
+
+#: cms/templates/import.html:53
+msgid ""
+"Be sure you want to import a course before continuing. The contents of the "
+"imported course will replace the contents of the existing course. "
+"{em_start}You cannot undo a course import{em_end}. Before you proceed, we "
+"recommend that you export the current course, so that you have a backup copy"
+" of it."
+msgstr ""
+"Devam etmeden önce dersi içeri aktardığınıza emin olun. İçe aktarılan ders "
+"materyali, derste var olan içeriğin üzerine yazılır. {em_start}Dersi içe "
+"almayı geri alamazsınız{em_end}. Dersin yedeğini almak için dersi dışa "
+"aktarmayı tavsiye ediyoruz."
+
+#: cms/templates/import.html:54
+msgid ""
+"The course that you import must be in a .tar.gz file (that is, a .tar file "
+"compressed with GNU Zip). This .tar.gz file must contain a course.xml file. "
+"It may also contain other files."
+msgstr ""
+"İçer aktardığınız ders .tar.gz formatında (GNU Zip'le sıkıştırılmış .tar "
+"dosyası) olmalıdır. Bu .tar.gz dosyası course.xml isimli bir dosyayla "
+"birlikte diğer bazı dosyaları da içermelidir. "
+
+#: cms/templates/import.html:55
+msgid ""
+"The import process has five stages. During the first two stages, you must "
+"stay on this page. You can leave this page after the Unpacking stage has "
+"completed. We recommend, however, that you don't make important changes to "
+"your course until the import operation has completed."
+msgstr ""
+"İçe aktarma işlemi beş aşamadan oluşur. İlk iki aşama sırasında, sayfayı "
+"görüntülemeye devam etmeniz gerekir. Sayfayı, dosya açma işlemi bittikten "
+"sonra terk edebilirsiniz. Bununla birlikte, içe aktarma işlemi bitene kadar "
+"dersinizde önemli değişiklikler yapmamanızı öneririz."
+
+#: cms/templates/import.html:65
+msgid "Select a .tar.gz File to Replace Your Library Content"
+msgstr "Ders İçeriğinizin Yerine Yenisini Koymak için .tar.gz dosyası seçiniz"
+
+#: cms/templates/import.html:67
+msgid "Select a .tar.gz File to Replace Your Course Content"
+msgstr "Ders İçeriğinizin Yerine Yenisini Koymak için .tar.gz dosyası seçiniz"
+
+#: cms/templates/import.html:75
+msgid "Choose a File to Import"
+msgstr "İçe Aktarım için Bir dosya Seçin"
+
+#: cms/templates/import.html:80
+msgid "File Chosen:"
+msgstr "Seçili Dosya:"
+
+#: cms/templates/import.html:88
+msgid "Replace my library with the selected file"
+msgstr "Seçilen dosya ile benim kütüphanemi değiştirin"
+
+#: cms/templates/import.html:90
+msgid "Replace my course with the selected file"
+msgstr "Seçilen dosya ile benim dersimi değiştirin"
+
+#: cms/templates/import.html:98
+msgid "Library Import Status"
+msgstr "Kütüphane İçe Aktarımı Durumları"
+
+#: cms/templates/import.html:100
+msgid "Course Import Status"
+msgstr "Ders İçer Aktarım Durumu"
+
+#: cms/templates/import.html:112
+msgid "Uploading"
+msgstr "Yüklüyor"
+
+#: cms/templates/import.html:116
+msgid "Transferring your file to our servers"
+msgstr "Dosyanız sunucularımıza aktarılıyor"
+
+#: cms/templates/import.html:127
+msgid "Unpacking"
+msgstr "Açılıyor"
+
+#: cms/templates/import.html:128
+msgid ""
+"Expanding and preparing folder/file structure (You can now leave this page "
+"safely, but avoid making drastic changes to content until this import is "
+"complete)"
+msgstr ""
+"Dizin/dosya yapısı genişletiliyor ve hazırlanıyor (Sayfanızı güvenli şekilde"
+" terkedebilirsiniz fakat içe aktarım tamamlanana kadar içerikte ciddi "
+"değişiklikler yapmayınız)"
+
+#: cms/templates/import.html:140
+msgid "Verifying"
+msgstr "Doğrulanıyor"
+
+#: cms/templates/import.html:141
+msgid "Reviewing semantics, syntax, and required data"
+msgstr "Anlam, yazım kuralları ve gerekli veriler gözden geçiriliyor"
+
+#: cms/templates/import.html:154
+msgid "Updating Library"
+msgstr "Kütüphaneyi Güncelleme"
+
+#: cms/templates/import.html:156
+msgid "Updating Course"
+msgstr "Ders Güncelleniyor"
+
+#: cms/templates/import.html:161
+msgid ""
+"Integrating your imported content into this library. This process might take"
+" longer with larger libraries."
+msgstr ""
+"İçeri aktarılmış içeriğiniz bu kütüphaneyle bütünleştiriliyor. Büyük "
+"kütüphaneler için bu işlem zaman alabilir."
+
+#: cms/templates/import.html:163
+msgid ""
+"Integrating your imported content into this course. This process might take "
+"longer with larger courses."
+msgstr ""
+"İçer aktarılmış içerik bu ders ile bütülenleştiriliyor. Büyük dersler için "
+"bu işlem zaman alabilir."
+
+#: cms/templates/import.html:180
+msgid "Your imported content has now been integrated into this library"
+msgstr "İçe aktarılmış içerik bu kütüphaneye eklenmiş durumda"
+
+#: cms/templates/import.html:182
+msgid "Your imported content has now been integrated into this course"
+msgstr "İçe aktarılmış içerik bu derse eklenmiş durumda"
+
+#: cms/templates/import.html:190
+msgid "View Updated Library"
+msgstr "Güncellenmiş Kütüphaneyi Görüntüle"
+
+#: cms/templates/import.html:192
+msgid "View Updated Outline"
+msgstr "Güncellenmiş Taslağa Gözat"
+
+#: cms/templates/import.html:207
+msgid "Why import a library?"
+msgstr "Neden bir kütüphaneyi içe aktarıyoruz?"
+
+#: cms/templates/import.html:208
+msgid ""
+"You might want to update an existing library to a new version, or replace an"
+" existing library entirely. You might also have developed a library outside "
+"of {studio_name}."
+msgstr ""
+"Varolan bir kütüphaneyi yeni sürüme güncellemeyi ya da tamamen değiştirmeyi "
+"isteyebilirsiniz. Ayrıca {studio_name} dışında bir kütüphane de "
+"geliştirebilirsiniz."
+
+#: cms/templates/import.html:212
+msgid "Note: Library content is not automatically updated in courses"
+msgstr ""
+"Not: Derslerdeki kütüphane içeriği otomatik olarak güncellenmeyecektir."
+
+#: cms/templates/import.html:213
+msgid ""
+"If you change and import a library that is referenced by randomized content "
+"blocks in one or more courses, those courses do not automatically use the "
+"updated content. You must manually refresh the randomized content blocks to "
+"bring them up to date with the latest library content."
+msgstr ""
+"Eğer bir ya da daha fazla ders içerisinde rasgele sıralanmış içerik "
+"bloklarının referans ettiği bir kütüphaneyi değiştirir veya içe aktarırsanız"
+" bu dersler güncellenmiş içeriği otomatik olarak kullanmaz. Rasgele "
+"sıralanmış içerik bloklarını en yeni kütüphane içeriğiyle güncel hale "
+"getirmek için elle yenilemeniz gerekir."
+
+#: cms/templates/import.html:216
+msgid "Learn more about importing a library"
+msgstr "Bir kütüphaneyi içe aktarma hakkında daha fazla bilgi edinin"
+
+#: cms/templates/import.html:222
+msgid "Why import a course?"
+msgstr "Neden dersi içe aktarıyoruz?"
+
+#: cms/templates/import.html:223
+msgid ""
+"You may want to run a new version of an existing course, or replace an "
+"existing course altogether. Or, you may have developed a course outside "
+"{studio_name}."
+msgstr ""
+"Var olan dersin yeni bir sürümünü çalıştırmak isteyebilir veya bir dersin "
+"yerine toptan koyabilirsiniz. Veya, {studio_name} dışında da dersi "
+"geliştirmek isteyebilirsiniz."
+
+#: cms/templates/import.html:227
+msgid "What content is imported?"
+msgstr "Hangi içerik içe aktarıldı?"
+
+#: cms/templates/import.html:228
+msgid "The following content is imported."
+msgstr "Aşağıdaki içerik içeri aktarıldı."
+
+#: cms/templates/import.html:236
+msgid "The following content is not imported."
+msgstr "Aşağıdaki içerik içeri aktarılmadı."
+
+#: cms/templates/import.html:244
+msgid "Warning: Importing while a course is running"
+msgstr "Uyarı: Ders yayındayken içeri aktarım işlemi"
+
+#: cms/templates/import.html:245
+msgid ""
+"If you perform an import while your course is running, and you change the "
+"URL names (or url_name nodes) of any Problem components, the student data "
+"associated with those Problem components may be lost. This data includes "
+"students' problem scores."
+msgstr ""
+"Ders sürerken içe aktarma işlemini yaparsanız ve herhangi bir problem "
+"bileşeninin URL isimlerini (veya url_isim_düğümü) değiştirirseniz, Problem "
+"bileşenlerine bağlı veriyi kaybedebilirsiniz. Bu veriler arasında "
+"öğrencilerin problem notları bulunmaktadır. "
+
+#: cms/templates/import.html:248
+msgid "Learn more about importing a course"
+msgstr "Bir dersi içe aktarmak hakkında daha fazla bilgi edinin"
+
+#: cms/templates/index.html:14 cms/templates/index.html:26
+#: cms/templates/widgets/user_dropdown.html:22
+msgid "{studio_name} Home"
+msgstr "{studio_name} Anasayfa"
+
+#: cms/templates/index.html:35
+msgid "New Course"
+msgstr "Yeni Ders"
+
+#: cms/templates/index.html:37
+msgid "Email staff to create course"
+msgstr "Personele dersi oluşturmaları için e-posta at"
+
+#: cms/templates/index.html:41
+msgid "New Library"
+msgstr "Yeni Kütüphane"
+
+#: cms/templates/index.html:60 cms/templates/index.html:135
+msgid "Please correct the highlighted fields below."
+msgstr "Lütfen aşağıda gösterilen alanları düzeltin."
+
+#: cms/templates/index.html:65
+msgid "Create a New Course"
+msgstr "Yeni Ders Oluştur"
+
+#: cms/templates/index.html:68
+msgid "Required Information to Create a New Course"
+msgstr "Yeni Ders Oluşturmak için Gerekli Bilgiler"
+
+#: cms/templates/index.html:76
+msgid ""
+"The public display name for your course. This cannot be changed, but you can"
+" set a different display name in Advanced Settings later."
+msgstr ""
+"Dersiniz için genel görüntülenen isim. Bu değiştirilemez, fakat Gelişmiş "
+"Ayarlar bölümünden görüntülenen ismini değiştirebilirsiniz. "
+
+#: cms/templates/index.html:84
+msgid ""
+"The name of the organization sponsoring the course. {strong_start}Note: The "
+"organization name is part of the course URL.{strong_end} This cannot be "
+"changed, but you can set a different display name in Advanced Settings "
+"later."
+msgstr ""
+"Dersi sunan kurumun adı. {strong_start}Not: Kurum adı ders URL'inin bir "
+"parçasıdır.{strong_end} Bu değiştirilemez, ama sonrasında Gelişmiş Ayarlar "
+"bölümünden farklı bir görüntülenme adı verilebilir."
+
+#: cms/templates/index.html:97
+msgid ""
+"The unique number that identifies your course within your organization. "
+"{strong_start}Note: This is part of your course URL, so no spaces or special"
+" characters are allowed and it cannot be changed.{strong_end}"
+msgstr ""
+"Bu dersi kurumunuz içinde tanımlayan benzersiz numara. {strong_start}Not: Bu"
+" ders URL'inin bir parçasıdır, dolayısıyla boşluk ve özel karakterler "
+"barındıramaz ve değiştirilemez.{strong_end}"
+
+#: cms/templates/index.html:109
+msgid ""
+"The term in which your course will run. {strong_start}Note: This is part of "
+"your course URL, so no spaces or special characters are allowed and it "
+"cannot be changed.{strong_end}"
+msgstr ""
+"Dersin yayınlanacağı dönem. {strong_start}Not: Bu ders URL'inin bir "
+"parçasıdır, dolayısıyla boşluk ve özel karakterler barındıramaz ve "
+"değiştirilemez.{strong_end}"
+
+#: cms/templates/index.html:122 cms/templates/index.html:182
+msgid "Create"
+msgstr "Oluştur"
+
+#: cms/templates/index.html:140
+msgid "Create a New Library"
+msgstr "Yeni Kütüphane Oluştur"
+
+#: cms/templates/index.html:143
+msgid "Required Information to Create a New Library"
+msgstr "Yeni Bir Kütüphane Oluşturmak için Gerekli Bilgiler"
+
+#: cms/templates/index.html:147
+msgid "Library Name"
+msgstr "Kütüphane Adı"
+
+#. Translators: This is an example name for a new content library, seen when
+#. filling out the form to create a new library.
+#. (A library is a collection of content or problems.)
+#: cms/templates/index.html:151
+msgid "e.g. Computer Science Problems"
+msgstr "örn. Bilgisayar Bilimleri Problemleri"
+
+#: cms/templates/index.html:152
+msgid "The public display name for your library."
+msgstr "Kütüphaneniz için görünecek isim."
+
+#: cms/templates/index.html:158
+msgid "The public organization name for your library."
+msgstr "Kütüphaneniz için genel organizasyon ismi."
+
+#: cms/templates/index.html:158
+msgid "This cannot be changed."
+msgstr "Bu değiştirilemez."
+
+#: cms/templates/index.html:163
+msgid "Library Code"
+msgstr "Kütüphane Kodu"
+
+#. Translators: This is an example for the "code" used to identify a library,
+#. seen when filling out the form to create a new library. This example is
+#. short
+#. for "Computer Science Problems". The example number may contain letters
+#. but must not contain spaces.
+#: cms/templates/index.html:168
+msgid "e.g. CSPROB"
+msgstr "örn. CSPROB"
+
+#: cms/templates/index.html:169
+msgid ""
+"The unique code that identifies this library. {strong_start}Note: This is "
+"part of your library URL, so no spaces or special characters are "
+"allowed.{strong_end} This cannot be changed."
+msgstr ""
+"Bu kütüphaneyi kurumunuz içinde tanımlayan benzersiz numara. "
+"{strong_start}Not: Bu kütüphane URL'inin bir parçasıdır, dolayısıyla boşluk "
+"ve özel karakterler barındıramaz.{strong_end} Sonradan değiştirilemez."
+
+#: cms/templates/index.html:191
+msgid "Organization and Library Settings"
+msgstr "Kurum ve Kütüphane Ayarları"
+
+#: cms/templates/index.html:195
+msgid "Show all courses in organization:"
+msgstr "Organizasyon içindeki tüm dersleri göster:"
+
+#: cms/templates/index.html:197
+msgid "For example, MITx"
+msgstr "Örneğin, MITx"
+
+#: cms/templates/index.html:211
+msgid "Courses Being Processed"
+msgstr "İşlenmiş Olan Dersler"
+
+#: cms/templates/index.html:237
+msgid "This course run is currently being created."
+msgstr "Ders yayına alma şu anda oluşturuluyor."
+
+#. Translators: This is a status message, used to inform the user of
+#. what the system is doing. This status means that the user has
+#. requested to re-run an existing course, and the system is currently
+#. in the process of duplicating and configuring the existing course
+#. so that it can be re-run.
+#: cms/templates/index.html:245
+msgid "Configuring as re-run"
+msgstr "Yeniden yayına alma yapılandırılıyor"
+
+#: cms/templates/index.html:251
+msgid ""
+"The new course will be added to your course list in 5-10 minutes. Return to "
+"this page or {link_start}refresh it{link_end} to update the course list. The"
+" new course will need some manual configuration."
+msgstr ""
+"Yeni ders sizin ders listenize 5-10 dakika içinde eklenecektir. Bu sayfaya "
+"geri dönün veya ders listesini güncellemek için {link_start}sayfayı "
+"yenileyin{link_end}. Yeni ders, bazı elle yapılandırmalara ihtiyaç duyacak."
+
+#. Translators: This is a status message for the course re-runs feature.
+#. When a course admin indicates that a course should be re-run, the system
+#. needs to process the request and prepare the new course. The status of
+#. the process will follow this text.
+#: cms/templates/index.html:287
+msgid "This re-run processing status:"
+msgstr "Bu yeniden yayına alma işleminin durumu:"
+
+#: cms/templates/index.html:290
+msgid "Configuration Error"
+msgstr "Yapılandırma Hatası"
+
+#: cms/templates/index.html:296
+msgid ""
+"A system error occurred while your course was being processed. Please go to "
+"the original course to try the re-run again, or contact your PM for "
+"assistance."
+msgstr ""
+"Ders işlenirken bir sistem hatası oluştu. Tekrar yeniden çalıştırmayı "
+"deneyin veya yardım için PM ile temasa geçiniz."
+
+#: cms/templates/index.html:318
+msgid "Archived Courses"
+msgstr "Arşivlenmiş Dersler"
+
+#: cms/templates/index.html:322 cms/templates/index.html:324
+msgid "Libraries"
+msgstr "Kütüphane"
+
+#: cms/templates/index.html:348
+msgid "Are you staff on an existing {studio_name} course?"
+msgstr "Varolan bir {studio_name} dersinde personel misiniz?"
+
+#: cms/templates/index.html:350
+msgid ""
+"The course creator must give you access to the course. Contact the course "
+"creator or administrator for the course you are helping to author."
+msgstr ""
+"Dersi oluşturan kişi derse erişim vermelidir. Yazara yardımcı olduğunuz "
+"dersin oluşturucusu veya yöneticisiyle iletişime geçin. "
+
+#: cms/templates/index.html:358 cms/templates/index.html:366
+msgid "Create Your First Course"
+msgstr "İlk Dersinizi Oluşturun"
+
+#: cms/templates/index.html:360
+msgid "Your new course is just a click away!"
+msgstr "Yeni dersin sana bir tık uzaklıkta."
+
+#: cms/templates/index.html:379
+msgid "Becoming a Course Creator in {studio_name}"
+msgstr "{studio_name}' de Ders Oluşturucusu Olma"
+
+#: cms/templates/index.html:384
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team will evaluate your request and provide you feedback within 24 hours "
+"during the work week."
+msgstr ""
+"{studio_name} xConsortium paydaşları ve seçilmiş misafirlere sunulmuş bir "
+"çözümdür. Yukarıda takım üyesi olduğunuz için değiştirmenize izin verilen "
+"dersler görünmektedir ve ders oluşturma yetkileri {platform_name} tarafından"
+" verilir. Takımımız taleplerinizi değerlendirecek ve çalışma günlerinde 24 "
+"saat içinde cevap verecektir. "
+
+#: cms/templates/index.html:389 cms/templates/index.html:414
+#: cms/templates/index.html:442
+msgid "Your Course Creator Request Status:"
+msgstr "Ders Oluşturucusunun İstek Durumu:"
+
+#: cms/templates/index.html:393
+msgid "Request the Ability to Create Courses"
+msgstr "Ders Oluşturma Yetkisi Almayı Talep Et"
+
+#: cms/templates/index.html:403 cms/templates/index.html:431
+msgid "Your Course Creator Request Status"
+msgstr "Ders Oluşturucusunun Talep Durumu"
+
+#: cms/templates/index.html:408
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team is has completed evaluating your request."
+msgstr ""
+"{studio_name} xConsortium paydaşları ve seçilmiş misafirlere sunulmuş bir "
+"çözümdür. Yukarıda takım üyesi olduğunuz için değiştirmenize izin verilen "
+"dersler görünmektedir ve ders oluşturma yetkileri {platform_name} tarafından"
+" verilir. Takımımız talebinizi değerlendirmeyi tamamladı."
+
+#: cms/templates/index.html:417 cms/templates/index.html:445
+msgid "Your Course Creator request is:"
+msgstr "Ders oluşturucusunun isteği:"
+
+#: cms/templates/index.html:420
+msgid "Denied"
+msgstr "Red Edildi"
+
+#: cms/templates/index.html:421
+msgid ""
+"Your request did not meet the criteria/guidelines specified by "
+"{platform_name} Staff."
+msgstr ""
+"İsteğiniz {platform_name} personeli tarafından belirlenmiş ölçüt/kurallarla "
+"uyuşmadı."
+
+#: cms/templates/index.html:436
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team is currently  evaluating your request."
+msgstr ""
+"{studio_name} xConsortium paydaşları ve seçilmiş misafirlere sunulmuş bir "
+"çözümdür. Yukarıda takım üyesi olduğunuz için değiştirmenize izin verilen "
+"dersler görünmektedir ve ders oluşturma yetkileri {platform_name} tarafından"
+" verilir. Takımımız talebinizi değerlendiriyor. "
+
+#: cms/templates/index.html:448
+msgid "Pending"
+msgstr "Beklemede"
+
+#: cms/templates/index.html:450
+msgid ""
+"Your request is currently being reviewed by {platform_name} staff and should"
+" be updated shortly."
+msgstr ""
+"İsteğiniz {platform_name} çalışanları tarafından inceleniyor ve yakında "
+"güncellenecek."
+
+#: cms/templates/index.html:492
+msgid "Were you expecting to see a particular library here?"
+msgstr "Burada belirli bir kütüphaneyi görmeyi mi bekliyordunuz?"
+
+#: cms/templates/index.html:494
+msgid ""
+"The library creator must give you access to the library. Contact the library"
+" creator or administrator for the library you are helping to author."
+msgstr ""
+"Kütüphaneyi oluşturan kişi derse erişim vermelidir. Kütüphaneyi oluşturan "
+"kişi veya yönetici ile, yazara yardım eden ders için bağlantı kurun."
+
+#: cms/templates/index.html:501 cms/templates/index.html:509
+msgid "Create Your First Library"
+msgstr "İlk Kütüphanenizi Oluşturun"
+
+#: cms/templates/index.html:503
+msgid ""
+"Libraries hold a pool of components that can be re-used across multiple "
+"courses. Create your first library with the click of a button!"
+msgstr ""
+"Kütüphaneler çok sayıda ders için yeniden kullanılabilen bileşenlerden "
+"oluşan bir havuzdur. Bir düğmeye tıklayarak ilk kütüphanenizi oluşturun! "
+
+#: cms/templates/index.html:520
+msgid "New to {studio_name}?"
+msgstr "{studio_name}'da yeni misiniz?"
+
+#: cms/templates/index.html:521
+msgid ""
+"Click Help in the upper-right corner to get more information about the "
+"{studio_name} page you are viewing. You can also use the links at the bottom"
+" of the page to access our continually updated documentation and other "
+"{studio_name} resources."
+msgstr ""
+"Şu an görüntülediğiniz {studio_name} sayfasıyla ilgili daha fazla bilgiye "
+"ulaşmak için lütfen sağ üst köşedeki Yardım'a tıklayın. Bunun yanı sıra "
+"sürekli güncellenen belgelendirme ve diğer {studio_name} kaynaklarına "
+"erişmek için sayfanın en altında bulunan bağlantıları kullanabilirsiniz."
+
+#: cms/templates/index.html:526
+msgid "Getting Started with {studio_name}"
+msgstr "{studio_name} ile Başlarken"
+
+#: cms/templates/index.html:533 cms/templates/index.html:545
+#: cms/templates/index.html:551
+msgid "Can I create courses in {studio_name}?"
+msgstr "{studio_name}'de ders oluşturabilir miyim?"
+
+#: cms/templates/index.html:534
+msgid ""
+"In order to create courses in {studio_name}, you must {link_start}contact "
+"{platform_name} staff to help you create a course{link_end}."
+msgstr ""
+"{studio_name} içinde ders oluşturmak için, Personel ile bir {link_end} ders "
+"oluşturmaya yardım etmek için personel ile {link_start}bağlantı "
+"{platform_name} kurun."
+
+#: cms/templates/index.html:546
+msgid ""
+"In order to create courses in {studio_name}, you must have course creator "
+"privileges to create your own course."
+msgstr ""
+"{studio_name} içinde ders oluşturmak için, oluşturucu ayrıcalıklarına sahip "
+"olmalısınız."
+
+#: cms/templates/index.html:552
+msgid ""
+"Your request to author courses in {studio_name} has been denied. Please "
+"{link_start}contact {platform_name} Staff with further questions{link_end}."
+msgstr ""
+"{studio_name} içinde ders oluşturma isteğiniz reddedildi. Lütfen "
+"{link_start}daha fazla soru için {platform_name} personeli ile iletişime "
+"geçin{link_end}."
+
+#: cms/templates/index.html:569
+msgid "Thanks for signing up, {name}!"
+msgstr "Kayıt olduğun için teşekkür ederiz, {name}! "
+
+#: cms/templates/index.html:574
+msgid "We need to verify your email address"
+msgstr "E-posta adresinizi doğrulamamız gerekiyor."
+
+#: cms/templates/index.html:576
+msgid ""
+"Almost there! In order to complete your sign up we need you to verify your "
+"email address ({email}). An activation message and next steps should be "
+"waiting for you there."
+msgstr ""
+"Neredeyse tamam! Kaydınızı tamamlamak için ({email}) e-posta adresini "
+"doğrulamamız gerekiyor. Etkinleştirme iletisi ve ilerleyen aşamalar sizin "
+"için orada bekliyor olacak."
+
+#: cms/templates/index.html:584
+msgid "Need help?"
+msgstr "Yardıma İhtiyacın var mı ?"
+
+#: cms/templates/index.html:585
+msgid ""
+"Please check your Junk or Spam folders in case our email isn't in your "
+"INBOX. Still can't find the verification email? Request help via the link "
+"below."
+msgstr ""
+"E-postanızın kutunuzda olmama ihtimaline karşı lütgen junk ve spam e-posta "
+"kutularınızı kontrol edin. Hala e-posta doğrulamasını bulamadınız mı? "
+"Aşadağıdaki linkden yardım isteyin."
+
+#: cms/templates/library.html:49
+msgid "Content Library"
+msgstr "İçerik Kütüphanesi"
+
+#: cms/templates/library.html:61
+msgid "Add Component"
+msgstr "Bileşen Ekle"
+
+#: cms/templates/library.html:90
+msgid "Adding content to your library"
+msgstr "Kütüphanenize içerik ekleme"
+
+#: cms/templates/library.html:91
+msgid ""
+"Add components to your library for use in courses, using Add New Component "
+"at the bottom of this page."
+msgstr ""
+"Bu sayfanın altındaki Yeni Bileşen Ekle kutusunu kullanarak, derslerde "
+"kullanılmak üzere kütüphaneye bileşen ekleyin."
+
+#: cms/templates/library.html:92
+msgid ""
+"Components are listed in the order in which they are added, with the most "
+"recently added at the bottom. Use the pagination arrows to navigate from "
+"page to page if you have more than one page of components in your library."
+msgstr ""
+"Bileşenler, en son eklenen en altta bulunmak üzere eklenme sırasına göre "
+"listelenir. Kütüphanenizde birden fazla bileşen sayfası bulunuyorsa sayfalar"
+" arasında ilerlemek için sayfa değiştirme oklarına tıklayın.  "
+
+#: cms/templates/library.html:93
+msgid "Using library content in courses"
+msgstr "Derslerde kütüphane içeriği kullanma"
+
+#: cms/templates/library.html:94
+msgid ""
+"Use library content in courses by adding the "
+"{em_start}library_content{em_end} policy key to the Advanced Module List in "
+"the course's Advanced Settings, then adding a Randomized Content Block to "
+"your courseware. In the settings for each Randomized Content Block, select "
+"this library as the source library, and specify the number of problems to be"
+" randomly selected and displayed to each student."
+msgstr ""
+"Dersin Gelişmiş Ayarlar kısmında bulunan Gelişmiş Modül Listesi'ne "
+"{em_start}kütüphane_içeriği{em_end} politika anahtarını ekleyerek ve "
+"ardından Rasgele Sıralanmış İçerik Bloğunu ders yazılımına ekleyerek "
+"derslerdeki kütüphane içeriğini kullanın. Her Rasgele Sıralanmış İçerik "
+"Bloğu için olan ayarda, kaynak kütüphane olarak bu kütüphaneyi seçin, "
+"rasgele seçilecek ve her bir öğrenciye gösterilecek soru sayısını "
+"belirleyin. "
+
+#: cms/templates/library.html:101
+msgid "Learn more about content libraries"
+msgstr "İçerik kütüphaneleri hakkında daha fazla bilgi edinin"
+
+#: cms/templates/manage_users.html:14
+msgid "Course Team Settings"
+msgstr "Ders Ekip Ayarları"
+
+#: cms/templates/manage_users.html:38 cms/templates/manage_users_lib.html:37
+msgid "New Team Member"
+msgstr "Yeni Takım Üyesi"
+
+#: cms/templates/manage_users.html:53
+msgid "Add a User to Your Course's Team"
+msgstr "Dersinin Ekibine Yeni Bir Üye Ekle"
+
+#: cms/templates/manage_users.html:56 cms/templates/manage_users_lib.html:55
+msgid "New Team Member Information"
+msgstr "Yeni Ekip Üyesi Bilgileri"
+
+#: cms/templates/manage_users.html:60 cms/templates/manage_users_lib.html:59
+msgid "User's Email Address"
+msgstr "Kullanıcının E-posta Adresi"
+
+#: cms/templates/manage_users.html:62
+msgid "Provide the email address of the user you want to add as Staff"
+msgstr "Personel olarak eklemek istediğiniz kişinin e-posta adresini verin"
+
+#: cms/templates/manage_users.html:69 cms/templates/manage_users_lib.html:68
+msgid "Add User"
+msgstr "Kullanıcı Ekle"
+
+#: cms/templates/manage_users.html:85
+msgid "Add Team Members to This Course"
+msgstr "Bu Derse Yeni Ekip Üyeleri Ekle"
+
+#: cms/templates/manage_users.html:87
+msgid ""
+"Adding team members makes course authoring collaborative. Users must be "
+"signed up for {studio_name} and have an active account."
+msgstr ""
+"Takım elemanları eklemek ders üretimini daha işbirlikçi yapar. Kullanıcılar "
+"{studio_name} 'e kayıt yapmalı ve aktif hesapları olmalıdır."
+
+#: cms/templates/manage_users.html:93
+msgid "Add a New Team Member"
+msgstr "Yeni Bir Ekip Üyesi Ekle."
+
+#: cms/templates/manage_users.html:102
+msgid "Course Team Roles"
+msgstr "Ders Takım Rolleri"
+
+#: cms/templates/manage_users.html:103
+msgid ""
+"Course team members with the Staff role are course co-authors. They have "
+"full writing and editing privileges on all course content."
+msgstr ""
+"Ders takım elemanları veya personel dersin ortak yazarlarıdır. Bu kişiler "
+"bütün ders içeriği üzerinde yazma ve değiştirme yetkisine sahiptir."
+
+#: cms/templates/manage_users.html:105
+msgid ""
+"Admins are course team members who can add and remove other course team "
+"members."
+msgstr ""
+"Yöneticiler, dersteki diğer takım elemanlarını ekleyen ve çıkarabilen ders "
+"takım elemanlarıdır."
+
+#: cms/templates/manage_users.html:106
+msgid ""
+"All course team members can access content in Studio, the LMS, and Insights,"
+" but are not automatically enrolled in the course."
+msgstr ""
+"Tüm ders takım üyeleri Studio'da, LMS'de ve Insights'da içeriğe erişebilir, "
+"fakat derslere otomatik olarak kayıtlı olmazlar."
+
+#: cms/templates/manage_users.html:111
+msgid "Transferring Ownership"
+msgstr "Sahiplik Transfer Ediliyor"
+
+#: cms/templates/manage_users.html:113
+msgid ""
+"Every course must have an Admin. If you are the Admin and you want to "
+"transfer ownership of the course, click <strong>Add admin access</strong> to"
+" make another user the Admin, then ask that user to remove you from the "
+"Course Team list."
+msgstr ""
+"Her dersin bir Yöneticisi olmalıdır. Eğer yöneticiyseniz ve dersin "
+"sahipliğini başkasına aktarmak istiyorsanız, başka bir kullanıcıyı yönetici "
+"yapmak için <strong>Yönetici yetkisi ekle</strong>'ye tıklayın ve ardından "
+"bu kullanıcıdan sizi Ders Takım listesinden silmesini isteyin."
+
+#: cms/templates/manage_users_lib.html:13
+msgid "Library User Access"
+msgstr "Kütüphane Kullanıcısı Erişimi"
+
+#: cms/templates/manage_users_lib.html:29
+#: cms/templates/widgets/header.html:177
+msgid "User Access"
+msgstr "Kullanıcı Erişimi"
+
+#: cms/templates/manage_users_lib.html:52
+msgid "Grant Access to This Library"
+msgstr "Bu Kütüphaneye Erişim Ver"
+
+#: cms/templates/manage_users_lib.html:61
+msgid "Provide the email address of the user you want to add"
+msgstr " Eklemek istediğiniz kullanıcının e-posta adresini verin"
+
+#: cms/templates/manage_users_lib.html:84
+msgid "Add More Users to This Library"
+msgstr "Bu Kütüphaneye Daha Fazla Kullanıcı Ekle"
+
+#: cms/templates/manage_users_lib.html:86
+msgid ""
+"Grant other members of your course team access to this library. New library "
+"users must have an active {studio_name} account."
+msgstr ""
+"Dersin diğer üyelerine bu kütüphaneye erişim hakkı tanıyın. Yeni kütüphane "
+"kullanıcılarının aktif {studio_name} hesabı bulunmaktadır. "
+
+#: cms/templates/manage_users_lib.html:92
+msgid "Add a New User"
+msgstr "Yeni Bir Kullanıcı Ekle"
+
+#: cms/templates/manage_users_lib.html:101
+msgid "Library Access Roles"
+msgstr "Kütüphane Erişim Rolleri"
+
+#: cms/templates/manage_users_lib.html:102
+msgid "There are three access roles for libraries: User, Staff, and Admin."
+msgstr ""
+"Kütüphaneler için üç erişim rolü vardır: Kullanıcı, Personel ve Yönetici."
+
+#: cms/templates/manage_users_lib.html:103
+msgid ""
+"Library Users can view library content and can reference or use library "
+"components in their courses, but they cannot edit the contents of a library."
+msgstr ""
+"Kütüphane Kullanıcıları kütüphane içeriğini görevbilir ve derslerindeki "
+"kütüphane bileşenlerine referans edebilir veya kullanabilir, ancak kütüphane"
+" içeriğini düzenleyemezler."
+
+#: cms/templates/manage_users_lib.html:104
+msgid ""
+"Library Staff are content co-authors. They have full editing privileges on "
+"the contents of a library."
+msgstr ""
+"Kütüphane Personel içerik yazarları vardır.Onlar bir kütüphane içeriğinin "
+"tam düzenleme yetkilerine sahip."
+
+#: cms/templates/manage_users_lib.html:105
+msgid ""
+"Library Admins have full editing privileges and can also add and remove "
+"other team members. There must be at least one user with the Admin role in a"
+" library."
+msgstr ""
+"Kütüphane Yöneticileri tam düzenleme yetkilerine sahiptir ve diğer takım "
+"üyelerini ekleyebilir ya da çıkarabilir. Kütüphanede Yönetici olarak en az "
+"bir kullanıcı bulunmalıdır."
+
+#: cms/templates/settings.html:4
+msgid "Schedule & Details Settings"
+msgstr "Takvim & Detaylar Ayarları"
+
+#: cms/templates/settings.html:55 cms/templates/widgets/header.html:92
+msgid "Schedule & Details"
+msgstr "Takvim & Detaylar"
+
+#: cms/templates/settings.html:66
+msgid "Basic Information"
+msgstr "Temel Bilgiler"
+
+#: cms/templates/settings.html:67
+msgid "The nuts and bolts of your course"
+msgstr "Dersinizin ayrıntıları"
+
+#: cms/templates/settings.html:73 cms/templates/settings.html:79
+#: cms/templates/settings.html:85 cms/templates/settings.html:153
+#: cms/templates/settings.html:164 cms/templates/settings.html:175
+msgid "This field is disabled: this information cannot be changed."
+msgstr "Bölüm kapalı: bu bilgi değiştirilemez."
+
+#: cms/templates/settings.html:92
+msgid "Course Summary Page"
+msgstr "Ders Özet Sayfası"
+
+#: cms/templates/settings.html:92
+msgid "(for student enrollment and access)"
+msgstr "(öğrenci kaydı ve erişimi için)"
+
+#: cms/templates/settings.html:103
+msgid "Enroll in {course_display_name}"
+msgstr "{course_display_name} dersine kaydol"
+
+#: cms/templates/settings.html:106
+msgid ""
+"The course \"{course_display_name}\", provided by {platform_name}, is open "
+"for enrollment. Please navigate to this course at {link_for_about_page} to "
+"enroll."
+msgstr ""
+"{platform_name} tarafından sağlanan \"{course_display_name}\" dersi kayıt "
+"olmaya açıktır. Kayıt olmak için lütfen {link_for_about_page} bağlantısından"
+" ders sayfasına gidin."
+
+#: cms/templates/settings.html:112
+msgid "Send a note to students via email"
+msgstr "Öğrencilerine e-posta yoluyla not yolla"
+
+#: cms/templates/settings.html:114
+msgid "Invite your students"
+msgstr "Öğrencilerini davet et"
+
+#: cms/templates/settings.html:122
+msgid "Promoting Your Course with {platform_name}"
+msgstr "Dersini {platform_name} ile Yaygınlaştır"
+
+#: cms/templates/settings.html:124
+msgid ""
+"Your course summary page will not be viewable until your course has been "
+"announced. To provide content for the page and preview it, follow the "
+"instructions provided by your Program Manager."
+msgstr ""
+"Ders özeti sayfanız dersiniz duyrulana kadar görüntülenemeyecektir. Sayfa "
+"için içerik sağlamak ve önizlemek için Program Yöneticisi tarafından "
+"sağlanan yönergeleri takip edin."
+
+#: cms/templates/settings.html:128
+msgid ""
+"Please note that changes here may take up to a business day to appear on "
+"your course summary page."
+msgstr ""
+
+#: cms/templates/settings.html:141
+msgid "Course Credit Requirements"
+msgstr "Ders Kredisi Gereklilikleri"
+
+#: cms/templates/settings.html:142
+msgid "Steps required to earn course credit"
+msgstr "Ders kredisi kazanmak için gerekli adımlar"
+
+#: cms/templates/settings.html:150 cms/templates/settings.html:152
+msgid "Minimum Grade"
+msgstr "Minimum Not"
+
+#: cms/templates/settings.html:161
+msgid "Successful Proctored Exam"
+msgstr "Başarılı Gözetmenli Sınav"
+
+#: cms/templates/settings.html:163
+msgid "Proctored Exam {number}"
+msgstr "Gözetmenli Sınav {number}"
+
+#: cms/templates/settings.html:172
+msgid "ID Verification"
+msgstr "Kimlik Onaylama"
+
+#: cms/templates/settings.html:174
+msgid "In-Course Reverification {number}"
+msgstr "Ders İçinde yeniden doğrulama {number}"
+
+#: cms/templates/settings.html:192
+msgid "Course Pacing"
+msgstr "Ders Denetimi"
+
+#: cms/templates/settings.html:193
+msgid "Set the pacing for this course"
+msgstr "Bu dersi düzene sokmak"
+
+#: cms/templates/settings.html:201
+msgid "Instructor-Paced"
+msgstr "Eğitmen Tarafından Programlanan "
+
+#: cms/templates/settings.html:202
+msgid ""
+"Instructor-paced courses progress at the pace that the course author sets. "
+"You can configure release dates for course content and due dates for "
+"assignments."
+msgstr ""
+"Eğitmen tarafından programlanan dersler, ders yazarının belirlediği "
+"programda ilerler. Ders içerikleri ve görevlerin teslim tarihlerini siz "
+"yapılandırabilirsiniz."
+
+#: cms/templates/settings.html:206
+msgid "Self-Paced"
+msgstr "Bireysel Programlanan"
+
+#: cms/templates/settings.html:207
+msgid ""
+"Self-paced courses do not have release dates for course content or due dates"
+" for assignments. Learners can complete course material at any time before "
+"the course end date."
+msgstr ""
+"Bireysel programlanan derslerin ders içeriği veya görevler için bitiş "
+"tarihleri bulunmamaktadır. Öğrenciler dersin bitiş tarihinden önce ders "
+"materyallerini istedikleri zaman bitirebilir. "
+
+#: cms/templates/settings.html:217
+msgid "Course Schedule"
+msgstr "Ders Takvimi"
+
+#: cms/templates/settings.html:218
+msgid "Dates that control when your course can be viewed"
+msgstr "Dersinizin ne zaman görülebileceğini belirleyen tarihler"
+
+#: cms/templates/settings.html:224
+msgid "Course Start Date"
+msgstr ""
+
+#: cms/templates/settings.html:226
+msgid "First day the course begins"
+msgstr "Dersin başlayacağı ilk gün"
+
+#: cms/templates/settings.html:230
+msgid "Course Start Time"
+msgstr "Ders Başlangıç Saati"
+
+#: cms/templates/settings.html:232 cms/templates/settings.html:246
+#: cms/templates/settings.html:274 cms/templates/settings.html:296
+#: cms/templates/settings.html:316
+msgid "(UTC)"
+msgstr "(UTC)"
+
+#: cms/templates/settings.html:238
+msgid "Course End Date"
+msgstr ""
+
+#: cms/templates/settings.html:240
+msgid "Last day your course is active"
+msgstr "Dersinizin aktif olduğu son gün."
+
+#: cms/templates/settings.html:244
+msgid "Course End Time"
+msgstr "Ders Bitiş Günü"
+
+#: cms/templates/settings.html:255
+msgid "Certificates Available Date"
+msgstr "Sertifikaların Hazır Olma Tarihi"
+
+#: cms/templates/settings.html:257
+msgid "By default, 48 hours after course end date"
+msgstr "Öntanımlı olarak, dersin bitiş tarihinden 48 saat sonra"
+
+#: cms/templates/settings.html:266
+msgid "Enrollment Start Date"
+msgstr "Kayıt Başlangıç Tarihi"
+
+#: cms/templates/settings.html:268
+msgid "First day students can enroll"
+msgstr "Öğrencilerin kaydı için ilk gün"
+
+#: cms/templates/settings.html:272
+msgid "Enrollment Start Time"
+msgstr "Kayıt Başlangıç Tarihi"
+
+#: cms/templates/settings.html:283
+msgid "Enrollment End Date"
+msgstr "Kayıt Bitiş Tarihi"
+
+#: cms/templates/settings.html:286
+msgid "Last day students can enroll."
+msgstr "Öğrenci kaydı için son gün."
+
+#: cms/templates/settings.html:288 cms/templates/settings.html:309
+msgid "Contact your edX partner manager to update these settings."
+msgstr "Bu ayarları güncellemek için edX İş Ortağı Yöneticisi'ne başvurun."
+
+#: cms/templates/settings.html:294
+msgid "Enrollment End Time"
+msgstr "Kayıt Bitiş Tarihi"
+
+#: cms/templates/settings.html:305
+msgid "Upgrade Deadline Date"
+msgstr "Yükseltme İçin Son Tarih"
+
+#: cms/templates/settings.html:308
+msgid "Last day students can upgrade to a verified enrollment."
+msgstr "Doğrulanmış bir öğrenci kaydı için son yükseltme tarihi."
+
+#: cms/templates/settings.html:314
+msgid "Upgrade Deadline Time"
+msgstr "Yükseltme için Son Zaman"
+
+#: cms/templates/settings.html:326
+msgid "Course Details"
+msgstr "Ders Ayrıntıları"
+
+#: cms/templates/settings.html:327
+msgid "Provide useful information about your course"
+msgstr "Dersiniz hakkında yararlı bilgiler sunun"
+
+#: cms/templates/settings.html:331
+msgid "Course Language"
+msgstr "Dersin Dili"
+
+#: cms/templates/settings.html:338
+msgid ""
+"Identify the course language here. This is used to assist users find courses"
+" that are taught in a specific language. It is also used to localize the "
+"'From:' field in bulk emails."
+msgstr ""
+"Ders dilini belirleyin. Bu bilgi öğrencilere belli bir dildeki dersleri "
+"keşfetmelerinde yardımcı olur. Aynı zamanda yığın e-posta gönderimlerinde "
+"'Gönderen:' alanının yerelleştirilmesini sağlar."
+
+#: cms/templates/settings.html:349
+msgid "Introducing Your Course"
+msgstr "Dersinizi Tanıtın"
+
+#: cms/templates/settings.html:350
+msgid "Information for prospective students"
+msgstr "Öğrenci adayları için bilgi"
+
+#: cms/templates/settings.html:358
+msgid "Course Title"
+msgstr "Ders Başlığı"
+
+#: cms/templates/settings.html:360
+msgid "Displayed as title on the course details page. Limit to 50 characters."
+msgstr ""
+"Ders ayrıntıları sayfasında başlık olarak gösterilir. 50 karakterle "
+"sınırlıdır."
+
+#: cms/templates/settings.html:363
+msgid "Course Subtitle"
+msgstr "Ders Altbaşlığı"
+
+#: cms/templates/settings.html:365
+msgid ""
+"Displayed as subtitle on the course details page. Limit to 150 characters."
+msgstr ""
+"Ders ayrıntıları sayfasında altbaşlık olarak gösterilir. 150 karakterle "
+"sınırlıdır."
+
+#: cms/templates/settings.html:368
+msgid "Course Duration"
+msgstr "Ders Süresi"
+
+#: cms/templates/settings.html:370
+msgid "Displayed on the course details page. Limit to 50 characters."
+msgstr "Ders ayrıntıları sayfasında gösterilir. 50 karakterle sınırlıdır."
+
+#: cms/templates/settings.html:373
+msgid "Course Description"
+msgstr "Ders Açıklaması"
+
+#: cms/templates/settings.html:375
+msgid "Displayed on the course details page. Limit to 1000 characters."
+msgstr "Ders ayrıntıları sayfasında gösterilir. 1000 karakterle sınırlıdır."
+
+#: cms/templates/settings.html:381
+msgid "Course Short Description"
+msgstr "Dersin Kısa Tanımı"
+
+#: cms/templates/settings.html:383
+msgid ""
+"Appears on the course catalog page when students roll over the course name. "
+"Limit to ~150 characters"
+msgstr ""
+"Öğrenciler dersin ismine geldiklerinde dersin katalog sayfasında görülür.  "
+"~150 karakterle sınırlıdır"
+
+#: cms/templates/settings.html:389
+msgid "Course Overview"
+msgstr "Ders Özeti"
+
+#: cms/templates/settings.html:392
+msgid "HTML Code Editor"
+msgstr "HTML Kod Düzenleyicisi"
+
+#: cms/templates/settings.html:395
+msgid ""
+"Introductions, prerequisites, FAQs that are used on {a_link_start}your "
+"course summary page{a_link_end} (formatted in HTML)"
+msgstr ""
+"{a_link_start}Ders özeti sayfanızda{a_link_end} kullandığınız giriş, önkoşul"
+" ve SSS'ler (HTML formatında)"
+
+#: cms/templates/settings.html:402
+msgid "Course About Sidebar HTML"
+msgstr "Ders Hakkında Kenar Çubuğu HTML"
+
+#: cms/templates/settings.html:406
+msgid ""
+"Custom sidebar content for {a_link_start}your course summary "
+"page{a_link_end} (formatted in HTML)"
+msgstr ""
+"{a_link_start}Dersinizin özet sayfası{a_link_end} için özelleştirilmiş kenar"
+" çubuğu içeriği (HTML formatında)"
+
+#: cms/templates/settings.html:416 cms/templates/settings.html:420
+#: cms/templates/settings.html:432
+msgid "Course Card Image"
+msgstr "Ders Kartı Görseli"
+
+#: cms/templates/settings.html:424 cms/templates/settings.html:459
+#: cms/templates/settings.html:492
+msgid ""
+"You can manage this image along with all of your other {a_link_start}files "
+"and uploads{a_link_end}"
+msgstr ""
+"Bu görseli tüm diğer {a_link_start}dosyalar ve yüklemeler{a_link_end} gibi "
+"yönetebilirsiniz"
+
+#: cms/templates/settings.html:434
+msgid ""
+"Your course currently does not have an image. Please upload one (JPEG or PNG"
+" format, and minimum suggested dimensions are 375px wide by 200px tall)"
+msgstr ""
+"Dersiniz şu anda bir resme sahip değil. Lütfen bir tane yükleyiniz (JPEG "
+"veya PNG formatında ve minimum 375 pk en x 200 pk boy öçülerinde)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course image
+#: cms/templates/settings.html:441
+msgid "Your course image URL"
+msgstr "Dersinizin Resim URL'si"
+
+#: cms/templates/settings.html:442
+msgid ""
+"Please provide a valid path and name to your course image (Note: only JPEG "
+"or PNG format supported)"
+msgstr ""
+"Ders görseliniz için geçerli bir dosya yolu ve isim sağlayın (Not: sadece "
+"JPEG ve PNG formatları desteklenmektedir)"
+
+#: cms/templates/settings.html:444
+msgid "Upload Course Card Image"
+msgstr "Ders Kartı Görselini Yükleyin"
+
+#: cms/templates/settings.html:451 cms/templates/settings.html:455
+#: cms/templates/settings.html:467
+msgid "Course Banner Image"
+msgstr "Ders Banner Görseli"
+
+#: cms/templates/settings.html:469
+msgid ""
+"Your course currently does not have an image. Please upload one (JPEG or PNG"
+" format, and minimum suggested dimensions are 1440px wide by 400px tall)"
+msgstr ""
+"Dersiniz şu anda bir görsele sahip değil. Lütfen bir tane yükleyiniz (JPEG "
+"veya PNG formatında ve en az 1440 piksel en ile 400 piksel yüksekliğinde)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course banner image
+#: cms/templates/settings.html:476
+msgid "Your banner image URL"
+msgstr "Banner Görselinizin URL'i"
+
+#: cms/templates/settings.html:477
+msgid ""
+"Please provide a valid path and name to your banner image (Note: only JPEG "
+"or PNG format supported)"
+msgstr ""
+"Banner görseliniz için geçerli bir dosya yolu ve isim sağlayınız (Not: "
+"sadece JPEG ve PNG formatları desteklenmektedir)"
+
+#: cms/templates/settings.html:479
+msgid "Upload Course Banner Image"
+msgstr "Ders Banner Görselini Yükle"
+
+#: cms/templates/settings.html:484
+msgid "Course Video Thumbnail Image"
+msgstr "Ders Videosu Küçük Resmi"
+
+#: cms/templates/settings.html:488 cms/templates/settings.html:500
+msgid "Video Thumbnail Image"
+msgstr "Video Küçük Resmi"
+
+#: cms/templates/settings.html:502
+msgid ""
+"Your course currently does not have a video thumbnail image. Please upload "
+"one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
+"200px tall)"
+msgstr ""
+"Dersiniz şu anda bir video küçük resmine sahip değil. Lütfen bir tane "
+"yükleyiniz (JPEG veya PNG formatında ve en az 375 piksel en ile 200 piksel "
+"yüksekliğinde)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course video thumbnail image
+#: cms/templates/settings.html:509
+msgid "Your video thumbnail image URL"
+msgstr "Video küçük resminizin URL'i"
+
+#: cms/templates/settings.html:510
+msgid ""
+"Please provide a valid path and name to your video thumbnail image (Note: "
+"only JPEG or PNG format supported)"
+msgstr ""
+"Video küçük görseliniz için geçerli bir dosya yolu ve isim sağlayınız (Not: "
+"sadece JPEG ve PNG formatları desteklenmektedir)"
+
+#: cms/templates/settings.html:512
+msgid "Upload Video Thumbnail Image"
+msgstr "Video Küçük Resmini Yükle"
+
+#: cms/templates/settings.html:519 cms/templates/settings.html:522
+msgid "Course Introduction Video"
+msgstr "Ders Tanıtım Videosu"
+
+#: cms/templates/settings.html:525
+msgid "Delete Current Video"
+msgstr "Mevcut Videoyu Sil"
+
+#. Translators: This is the placeholder text for a field that requests a
+#. YouTube video ID for a course video
+#: cms/templates/settings.html:531
+msgid "your YouTube video's ID"
+msgstr "YouTube videonuzun ID'si"
+
+#: cms/templates/settings.html:532
+msgid "Enter your YouTube video's ID (along with any restriction parameters)"
+msgstr "YouTube video ID'sini gir (gerekli kısıtlama parametreleriyle)"
+
+#: cms/templates/settings.html:543
+msgid "Learning Outcomes"
+msgstr "Öğrenme Çıktıları"
+
+#: cms/templates/settings.html:544
+msgid "Add the learning outcomes for this course"
+msgstr "Bu derse öğrenme çıktıları ekle"
+
+#: cms/templates/settings.html:551
+msgid "Add Learning Outcome"
+msgstr "Öğrenme Çıktıları Ekle"
+
+#: cms/templates/settings.html:560
+msgid "Add details about the instructors for this course"
+msgstr "Bu dersin öğretim görevlileri konusunda ayrıntılı bilgi ekle"
+
+#: cms/templates/settings.html:567
+msgid "Add Instructor"
+msgstr "Eğitmen Ekle"
+
+#: cms/templates/settings.html:579
+msgid "Expectations of the students taking this course"
+msgstr "Bu dersi alan öğrencilerin beklentileri"
+
+#: cms/templates/settings.html:585
+msgid "Hours of Effort per Week"
+msgstr "Hafta Başına Saatlik Çaba"
+
+#: cms/templates/settings.html:587
+msgid "Time spent on all course work"
+msgstr "Tüm derslere harcanan toplam süre"
+
+#: cms/templates/settings.html:592
+msgid "Prerequisite Course"
+msgstr "Ön Koşul Dersi"
+
+#: cms/templates/settings.html:594
+msgid "None"
+msgstr "Hiçbiri"
+
+#: cms/templates/settings.html:599
+msgid "Course that students must complete before beginning this course"
+msgstr "Bu derse başlamadan önce öğrencilerin tamamlaması gereken ders"
+
+#: cms/templates/settings.html:600
+msgid "set pre-requisite course"
+msgstr "ders ön-koşulunu ayarlama"
+
+#: cms/templates/settings.html:605
+msgid "Entrance Exam"
+msgstr "Giriş Sınavı"
+
+#: cms/templates/settings.html:609
+msgid "Require students to pass an exam before beginning the course."
+msgstr "Derse başlamadan önce öğrencilerin bir sınavı geçmesi gerekir."
+
+#: cms/templates/settings.html:613
+msgid ""
+"You can now view and author your course entrance exam from the "
+"{link_start}Course Outline{link_end}."
+msgstr ""
+"Şimdi ders giriş sınavını {link_start}Ders Taslağı{link_end}'ndan görebilir "
+"ve yazabilirsiniz."
+
+#: cms/templates/settings.html:617
+msgid "Grade Requirements"
+msgstr "Not Gereklilikleri"
+
+#: cms/templates/settings.html:618
+msgid " %"
+msgstr " %"
+
+#: cms/templates/settings.html:619
+msgid ""
+"The score student must meet in order to successfully complete the entrance "
+"exam. "
+msgstr ""
+"Giriş sınavını başarıyla tamamlamak için öğrencinin alması gereken puan."
+
+#: cms/templates/settings.html:633
+msgid "Course Content License"
+msgstr "Ders İçeriği Lisansı"
+
+#. Translators: At the course settings, the editor is able to select the
+#. default course content license.
+#. The course content will have this license set, some assets can override the
+#. license with their own.
+#. In the form, the license selector for course content is described using the
+#. following string:
+#: cms/templates/settings.html:637
+msgid "Select the default license for course content"
+msgstr "Ders içeriği için öntanımlı lisansı seçin"
+
+#: cms/templates/settings.html:651
+msgid "How are these settings used?"
+msgstr "Bu ayarlar nasıl kullanılıyor?"
+
+#: cms/templates/settings.html:652
+msgid ""
+"Your course's schedule determines when students can enroll in and begin a "
+"course."
+msgstr ""
+"Dersinizin takvimi öğrencilerin ne zaman kayıt yaptıracaklarını ve derse "
+"başlayacaklarını belirler."
+
+#: cms/templates/settings.html:654
+msgid ""
+"Other information from this page appears on the About page for your course. "
+"This information includes the course overview, course image, introduction "
+"video, and estimated time requirements. Students use About pages to choose "
+"new courses to take."
+msgstr ""
+"Bu sayfadaki diğer bilgiler dersinizin Hakkında sayfasında görünür. Bu bilgi"
+" ders özeti, ders görseli, eğitim videosu ve tahmini zaman gereksinimlerini "
+"içermektektedir. Öğrenciler Hakkında sayfalarını alacakları yeni dersleri "
+"seçmek için kullanır."
+
+#: cms/templates/settings_advanced.html:52
+msgid "Your policy changes have been saved."
+msgstr "Politika değişiklikleriniz kayıt edildi."
+
+#: cms/templates/settings_advanced.html:56
+msgid "There was an error saving your information. Please see below."
+msgstr "Bilgilerinizi kaydederken bir hata oluştu. Lütfen aşağıya bakın."
+
+#: cms/templates/settings_advanced.html:61
+msgid "Manual Policy Definition"
+msgstr "Prensip ve ilke tanımları"
+
+#: cms/templates/settings_advanced.html:65
+msgid ""
+"{strong_start}Warning{strong_end}: Do not modify these policies unless you "
+"are familiar with their purpose."
+msgstr ""
+"{strong_start}Uyarı{strong_end}: Amacını bilmiyorsanız bu ilke ve ayarları "
+"değiştirmeyin."
+
+#: cms/templates/settings_advanced.html:73
+msgid "Show Deprecated Settings"
+msgstr "Kaldırılan Ayarları Göster"
+
+#: cms/templates/settings_advanced.html:86
+msgid "What do advanced settings do?"
+msgstr "Gelişmiş ayarlar ne yapıyor?"
+
+#: cms/templates/settings_advanced.html:87
+msgid ""
+"Advanced settings control specific course functionality. On this page, you "
+"can edit manual policies, which are JSON-based key and value pairs that "
+"control specific course settings."
+msgstr ""
+"Gelişmiş ayarlar dersin özel işlevselliğini değiştirmemizi sağlar. Bu "
+"sayfada, dersin spesifik ayarlarını kontrol eden JSON temelli anahtar ve "
+"değer çiftleri olan elle yapılan politikaları değiştirebilirsiniz."
+
+#: cms/templates/settings_advanced.html:89
+msgid ""
+"Any policies you modify here override all other information you've defined "
+"elsewhere in {studio_name}. Do not edit policies unless you are familiar "
+"with both their purpose and syntax."
+msgstr ""
+"Burada değiştirdiğiniz tüm politikalar {studio_name}'da tanımladığınız diğer"
+" yerlerdeki tüm bilgileri geçersiz hale getirir. Amaçlarını ve yazım "
+"kurallarını bilmediğiniz politikaları düzenlemeyin."
+
+#: cms/templates/settings_advanced.html:91
+msgid ""
+"{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
+" you use double quotation marks (\") around the string. Do not use single "
+"quotation marks (')."
+msgstr ""
+"{em_start}Not:{em_end} Prensip ve ilke değerlerini girerken, değerlerin "
+"dışına çift tırnak (\") eklediğinize emin olun. Tek tırnak (') kullanmayın."
+
+#: cms/templates/settings_graders.html:4
+msgid "Grading Settings"
+msgstr "Notlandırma Ayarları"
+
+#: cms/templates/settings_graders.html:57
+msgid "Overall Grade Range"
+msgstr "Genel Notlandırma Aralığı"
+
+#: cms/templates/settings_graders.html:58
+msgid "Your overall grading scale for student final grades"
+msgstr "Öğrenci final notları için genel notlandırma aralığı"
+
+#: cms/templates/settings_graders.html:64
+msgid "Add grade"
+msgstr "Not ekle"
+
+#: cms/templates/settings_graders.html:93
+msgid "Credit Eligibility"
+msgstr "Kredi Uygunluğu"
+
+#: cms/templates/settings_graders.html:94
+msgid "Settings for course credit eligibility"
+msgstr "Dersin kredi uygunluğu için ayarlar"
+
+#: cms/templates/settings_graders.html:99
+msgid "Minimum Credit-Eligible Grade:"
+msgstr "Asgari Kredi Uygun Sınıf:"
+
+#: cms/templates/settings_graders.html:102
+msgid "Must be greater than or equal to the course passing grade"
+msgstr "Ders geçme notundan büyük olmalıdır ya da eşit olmalıdır"
+
+#: cms/templates/settings_graders.html:111
+msgid "Grading Rules & Policies"
+msgstr ""
+
+#: cms/templates/settings_graders.html:112
+msgid "Deadlines, requirements, and logistics around grading student work"
+msgstr "Öğrenci notlandırmada son günler ve gereklilikler  "
+
+#: cms/templates/settings_graders.html:117
+msgid "Grace Period on Deadline:"
+msgstr "Son Teslim Tarihinden Sonra Verilecek Ek Süre"
+
+#: cms/templates/settings_graders.html:119
+msgid "Leeway on due dates"
+msgstr "Son günlerdeki esneklik"
+
+#: cms/templates/settings_graders.html:127
+msgid "Assignment Types"
+msgstr "Görev Türleri"
+
+#: cms/templates/settings_graders.html:128
+msgid "Categories and labels for any exercises that are gradable"
+msgstr "Notlandırılabilir tüm egzersizlerde kategoriler ve etiketler"
+
+#: cms/templates/settings_graders.html:137
+msgid "New Assignment Type"
+msgstr "Yeni Görev Türü"
+
+#: cms/templates/settings_graders.html:146
+msgid "What can I do on this page?"
+msgstr "Bu sayfada ne yapabilirim?"
+
+#: cms/templates/settings_graders.html:147
+msgid ""
+"You can use the slider under Overall Grade Range to specify whether your "
+"course is pass/fail or graded by letter, and to establish the thresholds for"
+" each grade."
+msgstr ""
+"Genel Notlandırma Aralığı bölümündeki kaydıracı kullanarak, dersinizin "
+"geçme/kalma veya harf değerlendirmesinin koşullarını belirleyebilir ve her "
+"bir not için belirlenmesi gereken barem aralıklarını girebilirsiniz."
+
+#: cms/templates/settings_graders.html:149
+msgid ""
+"You can specify whether your course offers students a grace period for late "
+"assignments."
+msgstr ""
+"Görevlerin geç teslimi için öğrencilere ek bir sürenin verilip "
+"verilmeyeceğini belirleyebilirsiniz."
+
+#: cms/templates/settings_graders.html:150
+msgid ""
+"You can also create assignment types, such as homework, labs, quizzes, and "
+"exams, and specify how much of a student's grade each assignment type is "
+"worth."
+msgstr ""
+"Aynı zamanda, ödev, lab, test ve sınavlar gibi görevleri oluşturabilir ve "
+"her bir görevin öğrencinin notuna ne kadar katkıda bulunacağını "
+"belirleyebilirsiniz."
+
+#: cms/templates/studio_xblock_wrapper.html:61
+#: cms/templates/studio_xblock_wrapper.html:63
+msgid "Expand or Collapse"
+msgstr "Genişlet veya Daralt"
+
+#: cms/templates/studio_xblock_wrapper.html:86
+msgid "Access Settings"
+msgstr "Erişim Ayarları"
+
+#: cms/templates/studio_xblock_wrapper.html:88
+msgid "Set Access"
+msgstr "Erişim Ver"
+
+#: cms/templates/studio_xblock_wrapper.html:141
+msgid "This block contains multiple components."
+msgstr "Bu blok çoklu bileşen içermektedir."
+
+#: cms/templates/textbooks.html:10 cms/templates/textbooks.html:42
+#: cms/templates/widgets/header.html:73
+msgid "Textbooks"
+msgstr "Ders Kitapları"
+
+#: cms/templates/textbooks.html:49
+msgid "New Textbook"
+msgstr "Yeni Ders Kitabı"
+
+#: cms/templates/textbooks.html:61
+msgid "Why should I break my textbook into chapters?"
+msgstr "Ders kitabımı neden ünitelere bölmeliyim?"
+
+#: cms/templates/textbooks.html:62
+msgid ""
+"Breaking your textbook into multiple chapters reduces loading times for "
+"students, especially those with slow Internet connections. Breaking up "
+"textbooks into chapters can also help students more easily find topic-based "
+"information."
+msgstr ""
+"Ders kitabınızı birden çok üniteye bölmeniz, özellikle yavaş İnternet "
+"bağlantısı olan öğrenciler için yükleme zamanını düşürmektedir. Ders "
+"kitaplarını ünitelere bölmek, öğrencilerin konu-temelli bilgiyi daha rahat "
+"bulmasına da yardımcı olacak. "
+
+#: cms/templates/textbooks.html:65
+msgid "What if my book isn't divided into chapters?"
+msgstr "Peki kitabım bölümlere ayrılmamışsa ne olur?"
+
+#: cms/templates/textbooks.html:66
+msgid ""
+"If your textbook doesn't have individual chapters, you can upload the entire"
+" text as a single chapter and enter a name of your choice in the Chapter "
+"Name field."
+msgstr ""
+"Eğer ders kitabınızda üniteler yoksa, bütün kitabı tek bir ünite olarak "
+"yükleyebilir ve tercihinizi Ünite İsmi alanında belirtebilirsiniz."
+
+#: cms/templates/textbooks.html:70
+msgid "Learn more about textbooks"
+msgstr "Ders kitapları hakkında daha fazla bilgi edinin"
+
+#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:58
+#: cms/templates/widgets/header.html:77
+msgid "Video Uploads"
+msgstr "Video Yüklemeleri"
+
+#: cms/templates/videos_index.html:65
+msgid "Course Video Settings"
+msgstr "Ders Video Ayarları"
+
+#: cms/templates/videos_index_pagination.html:17
+msgid "Changing.."
+msgstr "Değiştiriliyor.."
+
+#: cms/templates/videos_index_pagination.html:19
+msgid "Videos per page:"
+msgstr "Sayfada gösterilecek video sayısı:"
+
+#: cms/templates/videos_index_pagination.html:23
+msgid "Change"
+msgstr "Değiştir"
+
+#: cms/templates/visibility_editor.html:20
+#: cms/templates/visibility_editor.html:70
+msgid "Access is not restricted"
+msgstr "Erişim sınırlandırılmamış"
+
+#: cms/templates/visibility_editor.html:23
+msgid ""
+"Access to this unit is not restricted, but visibility might be affected by "
+"inherited settings."
+msgstr ""
+"Bu üniteye erişim kısıtlanmış değil ancak görünülük devralınan bazı "
+"ayarlardan etkilenmiş olabilir."
+
+#: cms/templates/visibility_editor.html:25
+msgid ""
+"Access to this component is not restricted, but visibility might be affected"
+" by inherited settings."
+msgstr ""
+"Bu bileşene erişim kısıtlanmış değil ancak görünülük devralınan bazı "
+"ayarlardan etkilenmiş olabilir."
+
+#: cms/templates/visibility_editor.html:29
+msgid ""
+"You can restrict access to this unit to learners in specific enrollment "
+"tracks or content groups."
+msgstr ""
+"Bu üniteye erişimi belli bir kayıtlanma ya da içerik grubundaki öğrencilere "
+"sınırlayabilirsiniz."
+
+#: cms/templates/visibility_editor.html:31
+msgid ""
+"You can restrict access to this component to learners in specific enrollment"
+" tracks or content groups."
+msgstr ""
+"Bu bileşene erişimi belli bir kayıtlanma ya da içerik grubundaki öğrencilere"
+" sınırlayabilirsiniz."
+
+#: cms/templates/visibility_editor.html:35
+msgid ""
+"You can restrict access to this unit to learners in specific content groups."
+msgstr ""
+"Bu üniteye erişimi belli bir içerik grubundaki öğrencilere "
+"sınırlayabilirsiniz."
+
+#: cms/templates/visibility_editor.html:37
+msgid ""
+"You can restrict access to this component to learners in specific content "
+"groups."
+msgstr ""
+"Bu bileşene erişimi belli bir içerik grubundaki öğrencilere "
+"sınırlayabilirsiniz."
+
+#: cms/templates/visibility_editor.html:43
+msgid "Manage content groups"
+msgstr "İçerik gruplarını yönetin"
+
+#. Translators: Any text between {screen_reader_start} and {screen_reader_end}
+#. is only read by screen readers and never shown in the browser.
+#: cms/templates/visibility_editor.html:51
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} The unit that contains this"
+" component is hidden from learners. The unit setting overrides the component"
+" access settings defined here."
+msgstr ""
+"{screen_reader_start}Warning:{screen_reader_end} Bu bileşeni içeren ünite "
+"öğrencilerden saklanmaktadır. Ünite ayarları, burada belirtilen bileşen "
+"erişim ayarlarını ezebilir."
+
+#: cms/templates/visibility_editor.html:75
+msgid "Access is restricted to:"
+msgstr "Bu erişim hakkı şuna özeldir:"
+
+#: cms/templates/visibility_editor.html:81
+msgid "Restrict access to:"
+msgstr "Erişim hakkını kısıtla:"
+
+#: cms/templates/visibility_editor.html:85
+msgid "Select a group type"
+msgstr "Grup türünü seçin"
+
+#: cms/templates/visibility_editor.html:87
+msgid "All Learners and Staff"
+msgstr "Tüm Öğrenciler ve Personeller"
+
+#: cms/templates/visibility_editor.html:101
+msgid "Select one or more groups:"
+msgstr "Bir ya da daha fazla grup seçin:"
+
+#: cms/templates/visibility_editor.html:113
+msgid "Deleted Group"
+msgstr "Silinmiş Grup"
+
+#: cms/templates/visibility_editor.html:115
+msgid ""
+"This group no longer exists.  Choose another group or remove the access "
+"restriction."
+msgstr ""
+"Bu grup artık mevcut değil. Başka bir grup seçin ya da erişim kısıtını "
+"kaldırın."
+
+#: cms/templates/emails/course_creator_admin_subject.txt:2
+msgid "{email} has requested {studio_name} course creator privileges on edge"
+msgstr ""
+"{email} edge üzerinde {studio_name}  ders yaratma önceliklerini talep etti"
+
+#: cms/templates/emails/course_creator_admin_user_pending.txt:2
+msgid ""
+"User '{user}' with e-mail {email} has requested {studio_name} course creator"
+" privileges on edge."
+msgstr ""
+"Kullanıcı  '{user}' {email} adresiyle edge üzerinde {studio_name} ders "
+"yaratma önceliklerini talep etti"
+
+#: cms/templates/emails/course_creator_admin_user_pending.txt:5
+msgid "To grant or deny this request, use the course creator admin table."
+msgstr ""
+"Bu talebi onaylamak veya reddetmek istiyorsanız, ders oluşturucu yönetim "
+"tablosunu kullanın."
+
+#: cms/templates/emails/course_creator_denied.txt:3
+msgid ""
+"Your request for course creation rights to {studio_name} have been denied. "
+"If you believe this was in error, please contact {email}"
+msgstr ""
+"{studio_name} ders yaratma hakları isteğiniz reddedildi. Bunun bir hata "
+"olduğunu düşünüyorsanız, lütfen {email} ile bağlantı kurun"
+
+#: cms/templates/emails/course_creator_granted.txt:3
+msgid ""
+"Your request for course creation rights to {studio_name} have been granted. To create your first course, visit\n"
+"\n"
+"{url}"
+msgstr ""
+"{studio_name} için ders oluşturma talebiniz onaylanmıştır. İlk dersinizi oluşturmak için, şu adrese tıklayın\n"
+"\n"
+"{url}"
+
+#: cms/templates/emails/course_creator_revoked.txt:3
+msgid ""
+"Your course creation rights to {studio_name} have been revoked. If you "
+"believe this was in error, please contact {email}"
+msgstr ""
+"{studio_name} için ders oluşturma haklarınız iptal edildi. Bunun bir hata "
+"olduğunu düşünüyorsanız lütfen {email} adresinden iletişim kurun."
+
+#: cms/templates/emails/course_creator_subject.txt:2
+msgid "Your course creator status for {studio_name}"
+msgstr "{studio_name} için ders oluşturucusu durumunuz"
+
+#: cms/templates/emails/user_task_complete_email.txt:5
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Use "
+"this URL to view task details or download any files created: {detail_url}"
+msgstr ""
+"{task_name} göreviniz '{task_status}' durumuyla tamamlandı. Görevinizin "
+"ayrıntılarını görmek veya oluşturulan dosyaları indirmek için lütfen bu "
+"bağlantıyı kullanın: {detail_url}"
+
+#: cms/templates/emails/user_task_complete_email.txt:9
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Sign in"
+" to view the details of your task or download any files created."
+msgstr ""
+"{task_name} göreviniz '{task_status}' durumuyla tamamlandı. Görevinizin "
+"ayrıntılarını görmek veya oluşturulan dosyaları indirmek için lütfen Giriş "
+"yapın."
+
+#: cms/templates/emails/user_task_complete_email_subject.txt:2
+msgid "{platform_name} {studio_name}: Task Status Update"
+msgstr "{platform_name} {studio_name}: Görev Durum Güncellemesi"
+
+#: cms/templates/maintenance/_announcement_delete.html:8
+#: cms/templates/maintenance/_announcement_delete.html:11
+msgid "Delete Announcement"
+msgstr "Duyuruyu Sil"
+
+#: cms/templates/maintenance/_announcement_delete.html:22
+msgid "Are you sure you want to delete this Announcement?"
+msgstr "Bu duyuruyu silmek istediğinize emin misiniz?"
+
+#: cms/templates/maintenance/_announcement_delete.html:35
+msgid "Confirm"
+msgstr "Onayla"
+
+#: cms/templates/maintenance/_announcement_edit.html:8
+#: cms/templates/maintenance/_announcement_edit.html:11
+msgid "Edit Announcement"
+msgstr "Duyuruyu Düzenle"
+
+#: cms/templates/maintenance/_announcement_index.html:42
+msgid "Create New"
+msgstr "Yeni Oluştur"
+
+#: cms/templates/maintenance/_force_publish_course.html:12
+msgid "Required data to force publish course."
+msgstr "Dersi yayınlamaya zorlamak için gerekli veri."
+
+#: cms/templates/maintenance/_force_publish_course.html:17
+msgid "course-v1:edX+DemoX+Demo_Course"
+msgstr "ders-v1:edX+DemoX+Demo_Ders"
+
+#: cms/templates/maintenance/_force_publish_course.html:24
+msgid "Force Publish Course"
+msgstr "Dersi Yayınlamaya Zorla"
+
+#: cms/templates/maintenance/_force_publish_course.html:28
+msgid "Reset values"
+msgstr "Değerleri sıfırla"
+
+#: cms/templates/maintenance/base.html:14
+#: cms/templates/maintenance/index.html:8
+msgid "Maintenance Dashboard"
+msgstr "Bakım Paneli"
+
+#: cms/templates/registration/activation_complete.html:22
+msgid "Thanks for activating your account."
+msgstr "Hesabınızı etkinleştirdiğiniz için teşekkürler."
+
+#: cms/templates/registration/activation_complete.html:24
+msgid "This account has already been activated."
+msgstr "Bu hesap zaten etkinleştirilmiş durumda."
+
+#: cms/templates/registration/activation_complete.html:28
+msgid "Visit your {link_start}dashboard{link_end} to see your courses."
+msgstr " {link_start}Ana panel{link_end}inizde derslerinizi görebilirsiniz. "
+
+#: cms/templates/registration/activation_complete.html:33
+msgid "You can now {link_start}sign in{link_end}."
+msgstr "Şimdi {link_start}giriş{link_end} yapabilirsiniz."
+
+#: cms/templates/registration/activation_invalid.html:14
+msgid "Activation Invalid"
+msgstr "Etkinleştirme Geçersiz"
+
+#: cms/templates/registration/activation_invalid.html:17
+msgid ""
+"Something went wrong. Email programs sometimes split URLs into two lines, so"
+" make sure the URL you're using is formatted correctly. If you still have "
+"issues, send us an email message at {email_start}{email}{email_end}."
+msgstr ""
+"Bir şeyler yanlış gitti. E-posta uygulamaları bazen URL'leri iki satıra "
+"ayırabiliyor, URL'in doğru yazıldığına lütfen emin olun. Hâlâ sorununuz "
+"devam ediyorsa, {email_start}{email}{email_end} adresine bize e-posta yazın."
+
+#: cms/templates/registration/activation_invalid.html:25
+msgid "Return to the {link_start}home page{link_end}."
+msgstr "{link_start}Ana sayfaya{link_end} geri dön."
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:20
+msgid "Support will be removed in an upcoming release."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:25
+msgid "Support will be removed on {expiration_date}."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:37
+msgid "This course uses a legacy storage format."
+msgstr ""
+
+#: cms/templates/widgets/deprecated-course-key-warning.html:41
+msgid ""
+"Please reach out to your support team contact, if you have any additional "
+"questions or concerns."
+msgstr ""
+
+#: cms/templates/widgets/footer.html:21
+msgid "Policies"
+msgstr "Politikalar"
+
+#: cms/templates/widgets/footer.html:35
+msgid "Accessibility Accommodation Request"
+msgstr "Erişilebilirlik Karşılama İsteği"
+
+#: cms/templates/widgets/footer.html:39
+msgid "LMS"
+msgstr "LMS"
+
+#: cms/templates/widgets/header.html:44
+msgid "Current Course:"
+msgstr "Mevcut Ders:"
+
+#: cms/templates/widgets/header.html:52 cms/templates/widgets/header.html:168
+msgid "Course Navigation"
+msgstr "Ders Navigasyonu"
+
+#: cms/templates/widgets/header.html:61
+msgid "Outline"
+msgstr "Taslak"
+
+#: cms/templates/widgets/header.html:118
+msgid "Publisher"
+msgstr "Yayımcı"
+
+#: cms/templates/widgets/header.html:132 cms/templates/widgets/header.html:190
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: cms/templates/widgets/header.html:135 cms/templates/widgets/header.html:193
+msgid "Export"
+msgstr "Dışa Aktar"
+
+#: cms/templates/widgets/header.html:160
+msgid "Current Library:"
+msgstr "Mevcut Kütüphane:"
+
+#: cms/templates/widgets/header.html:172
+msgid "Library"
+msgstr "Kütüphane"
+
+#: cms/templates/widgets/header.html:208
+msgid "Language preference"
+msgstr "Dil tercihi"
+
+#: cms/templates/widgets/header.html:233 cms/templates/widgets/header.html:246
+msgid "Account Navigation"
+msgstr "Hesap Navigasyonu"
+
+#: cms/templates/widgets/header.html:236 cms/templates/widgets/header.html:249
+msgid "Contextual Online Help"
+msgstr "İçerik Hakkında Çevrimiçi Yardım"
+
+#: cms/templates/widgets/header.html:253
+msgid "Sign Up"
+msgstr "Kayıt ol"
+
+#: cms/templates/widgets/header.html:257
+msgid "Sign In"
+msgstr "Giriş"
+
+#: cms/templates/widgets/metadata-edit.html:35
+msgid "Launch Latex Source Compiler"
+msgstr "Latex Kaynak Derleyicisini Başlat"
+
+#: cms/templates/widgets/problem-edit.html:18
+#: cms/templates/widgets/problem-edit.html:22
+#: cms/templates/widgets/problem-edit.html:87
+msgid "Heading"
+msgstr "Başlık"
+
+#: cms/templates/widgets/problem-edit.html:20
+#: cms/templates/widgets/problem-edit.html:86
+msgid "Insert a heading"
+msgstr "Başlık ekle"
+
+#: cms/templates/widgets/problem-edit.html:26
+#: cms/templates/widgets/problem-edit.html:30
+#: cms/templates/widgets/problem-edit.html:98
+msgid "Multiple Choice"
+msgstr "Çoktan Seçmeli"
+
+#: cms/templates/widgets/problem-edit.html:28
+#: cms/templates/widgets/problem-edit.html:97
+msgid "Add a multiple choice question"
+msgstr "Çoktan seçmeli soru ekle"
+
+#: cms/templates/widgets/problem-edit.html:34
+#: cms/templates/widgets/problem-edit.html:38
+#: cms/templates/widgets/problem-edit.html:109
+msgid "Checkboxes"
+msgstr "Seçenek Kutucukları"
+
+#: cms/templates/widgets/problem-edit.html:36
+#: cms/templates/widgets/problem-edit.html:108
+msgid "Add a question with checkboxes"
+msgstr "Seçenek kutucuklu soru ekle"
+
+#: cms/templates/widgets/problem-edit.html:42
+#: cms/templates/widgets/problem-edit.html:46
+#: cms/templates/widgets/problem-edit.html:120
+msgid "Text Input"
+msgstr "Metin Girişi"
+
+#: cms/templates/widgets/problem-edit.html:44
+#: cms/templates/widgets/problem-edit.html:119
+msgid "Insert a text response"
+msgstr "Metin tabanlı cevap girin"
+
+#: cms/templates/widgets/problem-edit.html:50
+#: cms/templates/widgets/problem-edit.html:54
+#: cms/templates/widgets/problem-edit.html:131
+msgid "Numerical Input"
+msgstr "Nümerik Girdi"
+
+#: cms/templates/widgets/problem-edit.html:52
+#: cms/templates/widgets/problem-edit.html:130
+msgid "Insert a numerical response"
+msgstr "Rakamsal bir cevap girin"
+
+#: cms/templates/widgets/problem-edit.html:58
+#: cms/templates/widgets/problem-edit.html:62
+#: cms/templates/widgets/problem-edit.html:141
+msgid "Dropdown"
+msgstr "Açılır Liste"
+
+#: cms/templates/widgets/problem-edit.html:60
+#: cms/templates/widgets/problem-edit.html:140
+msgid "Insert a dropdown response"
+msgstr "Açılır listeden cevap seçin"
+
+#: cms/templates/widgets/problem-edit.html:66
+#: cms/templates/widgets/problem-edit.html:70
+#: cms/templates/widgets/problem-edit.html:156
+msgid "Explanation"
+msgstr "Açıklama"
+
+#: cms/templates/widgets/problem-edit.html:68
+#: cms/templates/widgets/problem-edit.html:155
+msgid "Add an explanation for this question"
+msgstr "Bu soru için bir açıklama ekleyin"
+
+#: cms/templates/widgets/problem-edit.html:75
+msgid "Advanced Editor"
+msgstr "Gelişmiş Düzenleyici"
+
+#: cms/templates/widgets/problem-edit.html:82
+msgid "Markdown Help"
+msgstr "Markdown İşaretleme Dili Yardımı"
+
+#: cms/templates/widgets/problem-edit.html:148
+msgid "Label"
+msgstr "Etiket"
+
+#: cms/templates/widgets/sock_links.html:19
+msgid "Access the Open edX Portal"
+msgstr "Open edX Portal'ına Erişim"
+
+#: cms/templates/widgets/sock_links.html:20
+msgid "Open edX Portal"
+msgstr "Open edX Portalı"
+
+#: cms/templates/widgets/user_dropdown.html:13
+msgid "Currently signed in as:"
+msgstr "Şu an giriş yapılan hesap:"
+
+#: cms/templates/widgets/user_dropdown.html:26
+msgid "Maintenance"
+msgstr "Bakım"

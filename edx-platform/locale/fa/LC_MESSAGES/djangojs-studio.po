@@ -1,7 +1,7 @@
-# edX translation file.
+# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/).
 # Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # Abbas Sharifi Tabar <abbas.sharifi@gmail.com>, 2015
 # A. Khorshidi <akhorshidi@live.com>, 2016
@@ -30,10 +30,10 @@ msgstr ""
 "PO-Revision-Date: 2019-11-03 20:43+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: cms/static/cms/js/main.js:38
@@ -42,7 +42,9 @@ msgstr ""
 msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
-msgstr "عامل این اتفاق ممکن است سرور ما یا اتصال شما به اینترنت باشد. یک بار دیگر صفحه را باز کنید و یا از اتصال به اینترنت اطمینان حاصل نمایید."
+msgstr ""
+"عامل این اتفاق ممکن است سرور ما یا اتصال شما به اینترنت باشد. یک بار دیگر "
+"صفحه را باز کنید و یا از اتصال به اینترنت اطمینان حاصل نمایید."
 
 #: cms/static/cms/js/main.js:47
 msgid "Studio's having trouble saving your work"
@@ -76,7 +78,9 @@ msgstr "آیا می‌خواهید این گواهی را ویرایش کنید�
 msgid ""
 "This certificate has already been activated and is live. Are you sure you "
 "want to continue editing?"
-msgstr "این گواهی قبلاً فعال شده و هنوز معتبر است. آیا از ادامۀ ویرایش اطمینان دارید؟"
+msgstr ""
+"این گواهی قبلاً فعال شده و هنوز معتبر است. آیا از ادامۀ ویرایش اطمینان "
+"دارید؟"
 
 #: cms/static/js/certificates/views/certificate_details.js:47
 msgid "Yes, allow edits to the active Certificate"
@@ -148,7 +152,8 @@ msgstr "قبلا عضو گروه درسی بوده اید"
 msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
-msgstr "آیا مطمئنید که می‌خواهید {email} را از گروه درسی‌ “{container}” پاک کنید؟"
+msgstr ""
+"آیا مطمئنید که می‌خواهید {email} را از گروه درسی‌ “{container}” پاک کنید؟"
 
 #: cms/static/js/factories/manage_users.js:19
 #: cms/static/js/factories/manage_users_lib.js:21
@@ -167,7 +172,9 @@ msgstr "قبلا عضو گروه کتابخانه شده است."
 #: cms/static/js/factories/manage_users_lib.js:12
 msgid ""
 "Are you sure you want to delete {email} from the library “{container}”?"
-msgstr "آیا مطمئنید که می خواهید پست الکترونیکی {email} را از کتابخانه “{container}” پاک کنید؟"
+msgstr ""
+"آیا مطمئنید که می خواهید پست الکترونیکی {email} را از کتابخانه “{container}”"
+" پاک کنید؟"
 
 #: cms/static/js/factories/manage_users_lib.js:20
 msgid "Library User"
@@ -184,7 +191,9 @@ msgstr "نمایش تنظیماتی که در نسخه های بعدی نخوا�
 #: cms/static/js/factories/textbooks.js:19
 #: cms/static/js/views/pages/group_configurations.js:82
 msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr "شما تغییرات ذخیره نشده دارید. آیا مطمین هستید که می خواهد این صفحه را ترک کنید؟"
+msgstr ""
+"شما تغییرات ذخیره نشده دارید. آیا مطمین هستید که می خواهد این صفحه را ترک "
+"کنید؟"
 
 #: cms/static/js/features/import/factories/import.js:20
 msgid "There was an error during the upload process."
@@ -221,7 +230,9 @@ msgstr "ارسال فیل شما با مشکل مواجه شده است"
 
 #: cms/static/js/features/import/views/import.js:66
 msgid "Your import is in progress; navigating away will abort it."
-msgstr "در حال دریافت اطلاعات هستیم. خروج از این صفحه دریافت اطلاعات را قطع خواهد کرد."
+msgstr ""
+"در حال دریافت اطلاعات هستیم. خروج از این صفحه دریافت اطلاعات را قطع خواهد "
+"کرد."
 
 #: cms/static/js/features/import/views/import.js:253
 msgid "Error importing course"
@@ -404,7 +415,9 @@ msgstr "همه فصل ها باید دارای نام و ملحقات باشند
 msgid ""
 "Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
 "<%= fileExtensions %> to upload."
-msgstr "فقط فایل های <%= fileTypes %> می توانند بارگذاری شوند. لطفاً قسمت بارگذاری فایل را <%= fileExtensions %> در قسمت بارگذاری انتخاب نمایید."
+msgstr ""
+"فقط فایل های <%= fileTypes %> می توانند بارگذاری شوند. لطفاً قسمت بارگذاری "
+"فایل را <%= fileExtensions %> در قسمت بارگذاری انتخاب نمایید."
 
 #: cms/static/js/models/uploads.js:63
 msgid "or"
@@ -479,7 +492,10 @@ msgid ""
 "Are you sure you wish to delete this item. It cannot be reversed!\n"
 "\n"
 "Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
-msgstr "آیا شما مطمئن هستید که می خواهید این آیتم را حذف کنید. این عمل برگشت پذیر نخواهد بود!\n\nهمچنین هر یک از مطالب یا لینک یا اشاره به این آیتم دیگر کار نمی کنند (مثل تصاویر و یا لینکهای میانبر)"
+msgstr ""
+"آیا شما مطمئن هستید که می خواهید این آیتم را حذف کنید. این عمل برگشت پذیر نخواهد بود!\n"
+"\n"
+"همچنین هر یک از مطالب یا لینک یا اشاره به این آیتم دیگر کار نمی کنند (مثل تصاویر و یا لینکهای میانبر)"
 
 #: cms/static/js/views/asset.js:61
 msgid "Your file has been deleted."
@@ -501,7 +517,9 @@ msgstr "فایل {filename} بیشتر از  {maxFileSizeInMBs} مگابایت �
 msgid ""
 "Please follow the instructions here to upload a file elsewhere and link to "
 "it: {maxFileSizeRedirectUrl}"
-msgstr "لطفا راهنمای زیر را برای چگونگی بارگذاری یک فایل در جایی دیگر و یک ارتباط به آن ایجاد کنید : {maxFileSizeRedirectUrl}"
+msgstr ""
+"لطفا راهنمای زیر را برای چگونگی بارگذاری یک فایل در جایی دیگر و یک ارتباط به"
+" آن ایجاد کنید : {maxFileSizeRedirectUrl}"
 
 #: cms/static/js/views/assets.js:216
 msgid "Max file size exceeded"
@@ -591,7 +609,11 @@ msgid ""
 "recommended that you go to the edit page and repair the error before "
 "attempting another export. Please check that all components on the page are "
 "valid and do not display any error messages."
-msgstr "خطایی در استخراج حداقل یک جزء به فرمت XML به وجود آمده است. پیشنهاد می شود که شما به صفحه ویرایش بروید و خطا را رفع نمایید و بعد یکبار دیگر استخراج نمایید. لطفا بررسی نمایید که همه اجزاء صفحه معتبر هست و هیچ پیغام خطایی نمایش داده نمی شود"
+msgstr ""
+"خطایی در استخراج حداقل یک جزء به فرمت XML به وجود آمده است. پیشنهاد می شود "
+"که شما به صفحه ویرایش بروید و خطا را رفع نمایید و بعد یکبار دیگر استخراج "
+"نمایید. لطفا بررسی نمایید که همه اجزاء صفحه معتبر هست و هیچ پیغام خطایی "
+"نمایش داده نمی شود"
 
 #: cms/static/js/views/export.js:320
 msgid "Correct failed component"
@@ -606,7 +628,10 @@ msgid ""
 "Your library could not be exported to XML. There is not enough information "
 "to identify the failed component. Inspect your library to identify any "
 "problematic components and try again."
-msgstr "خطایی در کتابخانه به فرمت XML به وجود آمده است. متاسفانه، ما اطلاعات کافی برای کمک به شما برای تشخیص جزء ناصحیح در دست نداریم. پیشنهاد می شود که شما کتابخانه خود را برای شناسایی جزء ناصحیح بررسی کنید و دوباره تلاش کنید"
+msgstr ""
+"خطایی در کتابخانه به فرمت XML به وجود آمده است. متاسفانه، ما اطلاعات کافی "
+"برای کمک به شما برای تشخیص جزء ناصحیح در دست نداریم. پیشنهاد می شود که شما "
+"کتابخانه خود را برای شناسایی جزء ناصحیح بررسی کنید و دوباره تلاش کنید"
 
 #: cms/static/js/views/export.js:339
 msgid "Take me to the main library page"
@@ -617,7 +642,10 @@ msgid ""
 "Your course could not be exported to XML. There is not enough information to"
 " identify the failed component. Inspect your course to identify any "
 "problematic components and try again."
-msgstr "خطایی در استخراج درس به فرمت XML به وجود آمده است. متاسفانه، ما اطلاعات کافی برای کمک به شما برای تشخیص جزء ناصحیح در دست نداریم. پیشنهاد می شود که شما درس خود را برای شناسایی جزء ناصحیح بررسی کنید و دوباره تلاش کنید"
+msgstr ""
+"خطایی در استخراج درس به فرمت XML به وجود آمده است. متاسفانه، ما اطلاعات کافی"
+" برای کمک به شما برای تشخیص جزء ناصحیح در دست نداریم. پیشنهاد می شود که شما "
+"درس خود را برای شناسایی جزء ناصحیح بررسی کنید و دوباره تلاش کنید"
 
 #: cms/static/js/views/export.js:344
 msgid "Take me to the main course page"
@@ -692,7 +720,9 @@ msgstr "مجوز Creative Commons"
 
 #: cms/static/js/views/license.js:13
 msgid "You waive some rights for your work, such that others can use it too"
-msgstr "شما از برخی از حقوق کار خود صرف نظر می کنید تا دیگران نیز بتوانند از آن استفاده کنند"
+msgstr ""
+"شما از برخی از حقوق کار خود صرف نظر می کنید تا دیگران نیز بتوانند از آن "
+"استفاده کنند"
 
 #: cms/static/js/views/license.js:17
 msgid "Version"
@@ -707,7 +737,9 @@ msgid ""
 "Allow others to copy, distribute, display and perform your copyrighted work "
 "but only if they give credit the way you request. Currently, this option is "
 "required."
-msgstr "به دیگران اجازه دهید با ترتیباتی که شما معین کرده‌اید کاری را که به نام شما است کپی، توزیع، نمایش و بهره‌برداری کنند. در حال حاضر این گزینه اجباری است."
+msgstr ""
+"به دیگران اجازه دهید با ترتیباتی که شما معین کرده‌اید کاری را که به نام شما "
+"است کپی، توزیع، نمایش و بهره‌برداری کنند. در حال حاضر این گزینه اجباری است."
 
 #: cms/static/js/views/license.js:29
 msgid "Noncommercial"
@@ -717,7 +749,10 @@ msgstr "غیر تجاری"
 msgid ""
 "Allow others to copy, distribute, display and perform your work - and "
 "derivative works based upon it - but for noncommercial purposes only."
-msgstr "به دیگران اجازه دهید کاری را که به نام شما است -و همچنین کارهایی را که بر اساس آن ایجاد می‌شود - کپی، توزیع، نمایش و بهره‌برداری کنند. ولی فقط برای مقاصد غیر تجاری."
+msgstr ""
+"به دیگران اجازه دهید کاری را که به نام شما است -و همچنین کارهایی را که بر "
+"اساس آن ایجاد می‌شود - کپی، توزیع، نمایش و بهره‌برداری کنند. ولی فقط برای "
+"مقاصد غیر تجاری."
 
 #: cms/static/js/views/license.js:35
 msgid "No Derivatives"
@@ -769,7 +804,9 @@ msgstr "یک پست الکترونیکی معتبر نیاز است"
 
 #: cms/static/js/views/manage_users_and_roles.js:20
 msgid "You must enter a valid email address in order to add a new team member"
-msgstr "شما برای اضافه کردن عضو جدید به تیم باید از یک پست الکترونیکی معتبر استفاده کنید"
+msgstr ""
+"شما برای اضافه کردن عضو جدید به تیم باید از یک پست الکترونیکی معتبر استفاده "
+"کنید"
 
 #: cms/static/js/views/manage_users_and_roles.js:21
 msgid "Return and add email address"
@@ -929,7 +966,9 @@ msgstr "دور ریختن تغییرات"
 msgid ""
 "Are you sure you want to revert to the last published version of the unit? "
 "You cannot undo this action."
-msgstr "آیا مطمین هستید که می خواهید به آخرین ورژن منتشر شده ی این واحد برگردید؟ این کار قابل بازیابی نخواهد بود."
+msgstr ""
+"آیا مطمین هستید که می خواهید به آخرین ورژن منتشر شده ی این واحد برگردید؟ این"
+" کار قابل بازیابی نخواهد بود."
 
 #: cms/static/js/views/pages/container_subviews.js:186
 msgid "Discarding Changes"
@@ -957,7 +996,10 @@ msgid ""
 "If the unit was previously published and released to students, any changes "
 "you made to the unit when it was hidden will now be visible to students. Do "
 "you want to proceed?"
-msgstr "اگر واحد پیشتر برای دانشجویان منتشر شده بود، هر تغییری که در زمان مخفی بودن آن در آن داده بودید اکنون برای دانشجویان قابل مشاهده خواهد بود. آیا مایل به ادامه هستید؟"
+msgstr ""
+"اگر واحد پیشتر برای دانشجویان منتشر شده بود، هر تغییری که در زمان مخفی بودن "
+"آن در آن داده بودید اکنون برای دانشجویان قابل مشاهده خواهد بود. آیا مایل به "
+"ادامه هستید؟"
 
 #: cms/static/js/views/pages/container_subviews.js:246
 msgid "Making Visible to Students"
@@ -995,7 +1037,9 @@ msgstr ""
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
-msgstr "در حال نمایش  {currentItemRange} از {totalItemsCount}، فیلتر شده با {assetType}، مرتب شده بر اساس کاهش {sortName}"
+msgstr ""
+"در حال نمایش  {currentItemRange} از {totalItemsCount}، فیلتر شده با "
+"{assetType}، مرتب شده بر اساس کاهش {sortName}"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -1011,7 +1055,9 @@ msgstr ""
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
-msgstr "در حال نمایش  {currentItemRange} از {totalItemsCount}، مرتب شده بر اساس کاهش {sortName}"
+msgstr ""
+"در حال نمایش  {currentItemRange} از {totalItemsCount}، مرتب شده بر اساس کاهش"
+" {sortName}"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
@@ -1048,7 +1094,9 @@ msgstr ""
 msgid ""
 "Your changes will not take effect until you save your progress. Take care "
 "with key and value formatting, as validation is not implemented."
-msgstr "تا زمانی که شما مراحل خود را ذخیره ننمایید تغیرات شما هیچ تاثیری ندارد. مراقبت با کلید و فرمت کردن مقدار، به عنوان معتبرسازی اجرا نمی شود."
+msgstr ""
+"تا زمانی که شما مراحل خود را ذخیره ننمایید تغیرات شما هیچ تاثیری ندارد. "
+"مراقبت با کلید و فرمت کردن مقدار، به عنوان معتبرسازی اجرا نمی شود."
 
 #: cms/static/js/views/settings/advanced.js:117
 msgid "Your policy changes have been saved."
@@ -1101,7 +1149,9 @@ msgstr ""
 msgid ""
 "Deleting a textbook cannot be undone and once deleted any reference to it in"
 " your courseware's navigation will also be removed."
-msgstr "حذف یک کتاب درسی نمی تواند قابل بازگشت باشد و یک بار حذف هر گونه اشاره به آن پیمایش دروس شما نیز حذف خواهد شد."
+msgstr ""
+"حذف یک کتاب درسی نمی تواند قابل بازگشت باشد و یک بار حذف هر گونه اشاره به آن"
+" پیمایش دروس شما نیز حذف خواهد شد."
 
 #: cms/static/js/views/tabs.js:159
 msgid "Delete Page Confirmation"
@@ -1110,7 +1160,9 @@ msgstr "تایید حذف صفحه"
 #: cms/static/js/views/tabs.js:160
 msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
-msgstr "آیا مطمین هستید که می خواهید این صفحه را پاک کنید. این کار قابل بازیابی نخواهد بود."
+msgstr ""
+"آیا مطمین هستید که می خواهید این صفحه را پاک کنید. این کار قابل بازیابی "
+"نخواهد بود."
 
 #: cms/static/js/views/uploads.js:27
 msgid "Upload"
@@ -1124,13 +1176,17 @@ msgstr "متأسفیم، خطایی وجود دارد"
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%=limit%> characters."
-msgstr "اندازه ترکیب سازمان، تعداد درس، و زمینه های اجرایی درس نمی تواند بیشتر از <%=limit%> حرف باشد."
+msgstr ""
+"اندازه ترکیب سازمان، تعداد درس، و زمینه های اجرایی درس نمی تواند بیشتر از "
+"<%=limit%> حرف باشد."
 
 #: cms/static/js/views/utils/create_library_utils.js:8
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%=limit%> characters."
-msgstr "اندازه ترکیب سازمان و زمینه های کد کتابخانه نمی توانند بیشتر از <%=limit%> حرف باشند."
+msgstr ""
+"اندازه ترکیب سازمان و زمینه های کد کتابخانه نمی توانند بیشتر از <%=limit%> "
+"حرف باشند."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:32
 msgid "Success! \"{displayName}\" has been moved."
@@ -1203,7 +1259,8 @@ msgstr "شما تغییراتی ایجاد نموده اید"
 
 #: cms/static/js/views/validation.js:23
 msgid "Your changes will not take effect until you save your progress."
-msgstr "تا زمانی که شما مراحل خود را ذخیره ننمایید تغیرات شما هیچ تاثیری ندارد."
+msgstr ""
+"تا زمانی که شما مراحل خود را ذخیره ننمایید تغیرات شما هیچ تاثیری ندارد."
 
 #: cms/static/js/views/validation.js:24
 msgid "You've made some changes, but there are some errors"
@@ -1212,7 +1269,8 @@ msgstr "شما تغییراتی ایجاد نموده اید، اما خطاها
 #: cms/static/js/views/validation.js:25
 msgid ""
 "Please address the errors on this page first, and then save your progress."
-msgstr "لطفا اول، به اشتباهات در این صفحه رسیدگی و سپس پیشرفت خود را ذخیره نمایید . "
+msgstr ""
+"لطفا اول، به اشتباهات در این صفحه رسیدگی و سپس پیشرفت خود را ذخیره نمایید . "
 
 #: cms/static/js/views/validation.js:117
 msgid "Save Changes"
@@ -1259,7 +1317,9 @@ msgstr "فرمت url صحیح نمی باشد."
 msgid ""
 "Sorry, there was an error parsing the subtitles that you uploaded. Please "
 "check the format and try again."
-msgstr "متاسفیم. خواندن زیرنویس هایی که آپلود کردید با مشکل مواجه شد. لطفا فرمتشان را یک بار دیگر چک کنید و دوباره سعی کنید."
+msgstr ""
+"متاسفیم. خواندن زیرنویس هایی که آپلود کردید با مشکل مواجه شد. لطفا فرمتشان "
+"را یک بار دیگر چک کنید و دوباره سعی کنید."
 
 #: cms/static/js/views/video/translations_editor.js:168
 #: cms/static/js/views/video_transcripts.js:267

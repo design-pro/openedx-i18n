@@ -1,7 +1,7 @@
-# edX translation file
+# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)
 # Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # mmazaheri <me.mazaheri@gmail.com>, 2014
 # Mohammad Dehghani <dehghany.m@gmail.com>, 2016
@@ -19,12 +19,12 @@ msgstr ""
 "PO-Revision-Date: 2018-11-26 06:42+0000\n"
 "Last-Translator: mr ash <mrash14@gmail.com>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 1.3\n"
 
 #: wiki/admin.py:72 wiki/models/article.py:28
 msgid "created"
@@ -64,7 +64,10 @@ msgid ""
 "This is just the initial contents of your article. After creating it, you "
 "can use more complex features like adding plugins, meta data, related "
 "articles etc..."
-msgstr "این فقط نسخه ابتدایی، از محتوای مقاله شماست. بعد از ایجاد آن ، شما می توانید از  ویژگی های پیشرفته تر مانند اضافه کردن افزونه ها ، متاداده ها و مقالات مربوطه و ... استفاده کنید."
+msgstr ""
+"این فقط نسخه ابتدایی، از محتوای مقاله شماست. بعد از ایجاد آن ، شما می توانید"
+" از  ویژگی های پیشرفته تر مانند اضافه کردن افزونه ها ، متاداده ها و مقالات "
+"مربوطه و ... استفاده کنید."
 
 #: wiki/forms.py:46 wiki/forms.py:209
 msgid "Contents"
@@ -77,14 +80,18 @@ msgstr "خلاصه"
 #: wiki/forms.py:49
 msgid ""
 "Give a short reason for your edit, which will be stated in the revision log."
-msgstr "دلیل مختصری برای ویرایش بدهید. که در تاریخچه بازبینی نمایش داده میشود."
+msgstr ""
+"دلیل مختصری برای ویرایش بدهید. که در تاریخچه بازبینی نمایش داده میشود."
 
 #: wiki/forms.py:98
 msgid ""
 "While you were editing, someone else changed the revision. Your contents "
 "have been automatically merged with the new contents. Please review the text"
 " below."
-msgstr "در حالی که شما در حال ویرایش بودید.شخص دیگری بازبینی را تغییر داده است.مندرجات شما به صورت خودکار با مندرجات جدید ادغام شده است.لطفا متن زیر را بازبینی نمایید."
+msgstr ""
+"در حالی که شما در حال ویرایش بودید.شخص دیگری بازبینی را تغییر داده "
+"است.مندرجات شما به صورت خودکار با مندرجات جدید ادغام شده است.لطفا متن زیر را"
+" بازبینی نمایید."
 
 #: wiki/forms.py:100
 msgid "No changes made. Nothing to save."
@@ -593,7 +600,9 @@ msgstr ""
 msgid ""
 "The following files are available for this article. Copy the markdown tag to"
 " directly refer to a file from the article text."
-msgstr "فایل های مورد نظر در این مطلب قابل استفاده هستند. از تگ قرارگیری در پایین استفاده کنید تا مستقیما در متن مطلب شما افزوده شود."
+msgstr ""
+"فایل های مورد نظر در این مطلب قابل استفاده هستند. از تگ قرارگیری در پایین "
+"استفاده کنید تا مستقیما در متن مطلب شما افزوده شود."
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:26
 #: wiki/plugins/images/templates/wiki/plugins/images/index.html:19
@@ -650,7 +659,10 @@ msgstr "جستجو و افزودن فایل"
 msgid ""
 "You can reuse files from other articles. These files are subject to updates "
 "on other articles which may or may not be a good thing."
-msgstr "شما می توانید از فایل ها در مطالب دیگر مجددا استفاده نمایید. این فایلها جهت بروزرسانی در مطالب دیگر دارای عنوان می باشند که شاید و البته شاید فکر خوبی نباشد."
+msgstr ""
+"شما می توانید از فایل ها در مطالب دیگر مجددا استفاده نمایید. این فایلها جهت "
+"بروزرسانی در مطالب دیگر دارای عنوان می باشند که شاید و البته شاید فکر خوبی "
+"نباشد."
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:117
 msgid "Search"
@@ -721,7 +733,9 @@ msgstr ""
 msgid ""
 "To create a new wiki article, create a link to it. Clicking the link gives "
 "you the creation page."
-msgstr "برای ساخت یک مقاله در ویکی باید یک لینک به آن بسازید، بر روی لینکی که برای ساخت صفحات است کلیک کنید."
+msgstr ""
+"برای ساخت یک مقاله در ویکی باید یک لینک به آن بسازید، بر روی لینکی که برای "
+"ساخت صفحات است کلیک کنید."
 
 #: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:6
 #: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:19
@@ -751,7 +765,9 @@ msgstr ""
 msgid ""
 "New image %s was successfully uploaded. You can use it by selecting it from "
 "the list of available images."
-msgstr "تصویر جدید از %s با موفقیت آپلود شد. شما می توانید آن را با انتخاب آن از لیست تصاویر موجود استفاده کنید. "
+msgstr ""
+"تصویر جدید از %s با موفقیت آپلود شد. شما می توانید آن را با انتخاب آن از "
+"لیست تصاویر موجود استفاده کنید. "
 
 #: wiki/plugins/images/forms.py:59
 msgid "Are you sure?"
@@ -800,7 +816,8 @@ msgstr "%s را به عنوان حذف برانگیز گزارش شده است"
 #: wiki/plugins/images/views.py:120
 #, python-format
 msgid "%(file)s has been changed to revision #%(revision)d"
-msgstr "%(file)s بازدید کنندگان است به تجدید نظر #%(revision)d تغییر داده شده است"
+msgstr ""
+"%(file)s بازدید کنندگان است به تجدید نظر #%(revision)d تغییر داده شده است"
 
 #: wiki/plugins/images/views.py:158
 #, python-format
@@ -1045,13 +1062,17 @@ msgstr "مطلب اصلی را نمی توانید حذف کنید."
 msgid ""
 "You cannot delete this article because you do not have permission to delete "
 "articles with children. Try to remove the children manually one-by-one."
-msgstr "شما نمی توانید مطلبی را که دارای زیر مجموعه ای از مطالب می باشد را همزمان حذف کنید.جهت این کار مطالب زیر مجموعه را یک به یک حذف نمایید."
+msgstr ""
+"شما نمی توانید مطلبی را که دارای زیر مجموعه ای از مطالب می باشد را همزمان "
+"حذف کنید.جهت این کار مطالب زیر مجموعه را یک به یک حذف نمایید."
 
 #: wiki/templates/wiki/delete.html:22
 msgid ""
 "You are deleting an article. This means that its children will be deleted as"
 " well. If you choose to purge, children will also be purged!"
-msgstr "شما تلاش به حذف یک مطلب را دارید، که به این معناست که تمامی مطالب زیر مجموعه آن نیز به صورت دائمی حذف خواهند شد."
+msgstr ""
+"شما تلاش به حذف یک مطلب را دارید، که به این معناست که تمامی مطالب زیر مجموعه"
+" آن نیز به صورت دائمی حذف خواهند شد."
 
 #: wiki/templates/wiki/delete.html:24
 msgid "Articles that will be deleted"
@@ -1153,7 +1174,11 @@ msgid ""
 "to see how the article looked at this stage. At the bottom of this page, you"
 " can change to a particular revision or merge an old revision with the "
 "current one."
-msgstr "جهت مشاهده لیست خطوط ویرایش شده بر روی بازبینی هریک کلیک نمایید. جهت مشاهده نحوه نمایش مطلب در صفحه اصلی، بر روی دکمه پیش نمایش کلیک نمایید. در پایین این صفحه، شما می توانید بازبینی ویژه یا ادغام خط جاری بجای یک بازبینی قدیمی را تغییر دهید."
+msgstr ""
+"جهت مشاهده لیست خطوط ویرایش شده بر روی بازبینی هریک کلیک نمایید. جهت مشاهده "
+"نحوه نمایش مطلب در صفحه اصلی، بر روی دکمه پیش نمایش کلیک نمایید. در پایین "
+"این صفحه، شما می توانید بازبینی ویژه یا ادغام خط جاری بجای یک بازبینی قدیمی "
+"را تغییر دهید."
 
 #: wiki/templates/wiki/history.html:74
 msgid "no log message"
@@ -1195,7 +1220,9 @@ msgstr "ادغام با فعلی"
 msgid ""
 "When you merge a revision with the current, all data will be retained from "
 "both versions and merged at its approximate location from each revision."
-msgstr "زمانی که شما یک بازبینی را با مورد فعلی ادغام می نمایید، تمامی اطلاعات بازبینی شده قبلی و ادغام شده جدید بطورت مجزا نگهداری می شوند."
+msgstr ""
+"زمانی که شما یک بازبینی را با مورد فعلی ادغام می نمایید، تمامی اطلاعات "
+"بازبینی شده قبلی و ادغام شده جدید بطورت مجزا نگهداری می شوند."
 
 #: wiki/templates/wiki/history.html:170
 msgid "After this, it's important to do a manual review."
@@ -1390,7 +1417,9 @@ msgstr "این مقاله با تمامی محتویاتش بطورکامل حذ
 msgid ""
 "The article \"%s\" is now marked as deleted! Thanks for keeping the site "
 "free from unwanted material!"
-msgstr "مقاله \"%s\" بعنوان حذف شده علامت زده شده است!از اینکه سایت را از مطالب ناخواسته حفظ میکنید متشکریم!"
+msgstr ""
+"مقاله \"%s\" بعنوان حذف شده علامت زده شده است!از اینکه سایت را از مطالب "
+"ناخواسته حفظ میکنید متشکریم!"
 
 #: wiki/views/article.py:276
 msgid "Your changes were saved."

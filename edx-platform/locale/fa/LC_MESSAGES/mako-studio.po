@@ -1,7 +1,7 @@
-# edX translation file
+# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)
 # Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # arashdehghan <arashdehghan@gmail.com>, 2014
 # Mahyar Damavand <mahyar.d.zig@gmail.com>, 2016
@@ -21,12 +21,12 @@ msgstr ""
 "PO-Revision-Date: 2020-01-19 20:46+0000\n"
 "Last-Translator: saeed farzad <security.registered@gmail.com>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 1.3\n"
 
 #: cms/templates/404.html:19
 msgid "The page that you were looking for was not found."
@@ -36,7 +36,9 @@ msgstr "صفحه مورد نظر شما یافت نشد"
 msgid ""
 "Go back to the {homepage} or let us know about any pages that may have been "
 "moved at {email}."
-msgstr "به صفحه اصلی {homepage}  بروید و توسط {email} ما را از هر جابجایی در صفحات با خبر فرمایید."
+msgstr ""
+"به صفحه اصلی {homepage}  بروید و توسط {email} ما را از هر جابجایی در صفحات "
+"با خبر فرمایید."
 
 #: cms/templates/500.html:8
 msgid "{studio_name} Server Error"
@@ -50,17 +52,23 @@ msgstr "سرور {em_start} {studio_name} {em_end} با خطا مواجه شده
 msgid ""
 "An error occurred in {studio_name} and the page could not be loaded. Please "
 "try again in a few moments."
-msgstr "در حال حاضر به علت بروز خطایی در {studio_name}، صفحه مورد نظر شما در دسترس نمی باشد. لطفاً چند لحظه دیگر دوباره امتحان کنید."
+msgstr ""
+"در حال حاضر به علت بروز خطایی در {studio_name}، صفحه مورد نظر شما در دسترس "
+"نمی باشد. لطفاً چند لحظه دیگر دوباره امتحان کنید."
 
 #: cms/templates/500.html:31
 msgid ""
 "We've logged the error and our staff is currently working to resolve this "
 "error as soon as possible."
-msgstr "اشکالی وجود دارد، کارمندان ما در حال بر طرف کردن این مشکلات در اسرع وقت می باشند."
+msgstr ""
+"اشکالی وجود دارد، کارمندان ما در حال بر طرف کردن این مشکلات در اسرع وقت می "
+"باشند."
 
 #: cms/templates/500.html:32
 msgid "If the problem persists, please email us at {email_link}."
-msgstr "اگر هنوز مشکل پابرجاست،‌ لطفا با آدرس {email_link} به ما پست الکترونیکی بزنید."
+msgstr ""
+"اگر هنوز مشکل پابرجاست،‌ لطفا با آدرس {email_link} به ما پست الکترونیکی "
+"بزنید."
 
 #: cms/templates/accessibility.html:10
 msgid "Studio Accessibility Policy"
@@ -379,7 +387,9 @@ msgstr "به عنوان مثال: آشنایی با علوم کامپیوتر"
 msgid ""
 "The public display name for the new course. (This name is often the same as "
 "the original course name.)"
-msgstr "نام دوره جدید که به عموم نشان داده می شود. (این نام اغلب با نام اصلی دوره یکسان است.)"
+msgstr ""
+"نام دوره جدید که به عموم نشان داده می شود. (این نام اغلب با نام اصلی دوره "
+"یکسان است.)"
 
 #: cms/templates/course-create-rerun.html:84 cms/templates/index.html:80
 #: cms/templates/index.html:156 cms/templates/settings.html:70
@@ -578,7 +588,9 @@ msgstr "شما می توانید بخش، زیربخش، و واحدها را د
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
-msgstr "یک بخش ایجاد کنید پس از آن زیربخش ها و واحد را اضافه کنید. در واحد ها می توانید کامپوننت به دوره اضافه کنید."
+msgstr ""
+"یک بخش ایجاد کنید پس از آن زیربخش ها و واحد را اضافه کنید. در واحد ها می "
+"توانید کامپوننت به دوره اضافه کنید."
 
 #: cms/templates/course_outline.html:220
 msgid "Reorganizing your course"
@@ -615,7 +627,9 @@ msgstr ""
 msgid ""
 "To publish draft content, select the Publish icon for a section, subsection,"
 " or unit."
-msgstr "برای منتشر کردن محتوای پیش نویس، آیکون انتشار در بخش، زیربخش، یا واحد را انتخاب کنید."
+msgstr ""
+"برای منتشر کردن محتوای پیش نویس، آیکون انتشار در بخش، زیربخش، یا واحد را "
+"انتخاب کنید."
 
 #: cms/templates/course_outline.html:236
 msgid ""
@@ -1159,7 +1173,9 @@ msgstr "به {studio_name} خوش آمدید"
 msgid ""
 "{studio_name} helps manage your online courses, so you can focus on teaching"
 " them"
-msgstr "{studio_name} به شما در مدیریت دوره هایتان کمک می کند، بنابراین شما می توانید تمرکز خود را روی درس دادن بگذارید"
+msgstr ""
+"{studio_name} به شما در مدیریت دوره هایتان کمک می کند، بنابراین شما می "
+"توانید تمرکز خود را روی درس دادن بگذارید"
 
 #: cms/templates/howitworks.html:32
 msgid "{studio_name}'s Many Features"
@@ -1183,7 +1199,10 @@ msgid ""
 "The backbone of your course is how it is organized. {studio_name} offers an "
 "{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
 "easy drag and drop to help you and your students stay organized."
-msgstr "پیکر بندی دوره شما بر اساس ساختار آن است. {studio_name} یک ویرایشگر مربوط به {strong_start}طرح کلی{strong_end} درس با یک دسته بندی ساده برای کمک به شما و دانش آموزانتان ارائه می دهد."
+msgstr ""
+"پیکر بندی دوره شما بر اساس ساختار آن است. {studio_name} یک ویرایشگر مربوط به"
+" {strong_start}طرح کلی{strong_end} درس با یک دسته بندی ساده برای کمک به شما "
+"و دانش آموزانتان ارائه می دهد."
 
 #: cms/templates/howitworks.html:57
 msgid "Simple Organization For Content"
@@ -1193,7 +1212,10 @@ msgstr "سازمان دهی ساده برای محتوا"
 msgid ""
 "{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} "
 "and {strong_start}subsections{strong_end} to organize your content."
-msgstr "{studio_name} از یک ساختار ساده ی سلسله مراتبی از {strong_start}بخش ها{strong_end} و {strong_start}زیر بخش ها{strong_end} برای سازماندهی محتواهای شما استفادده می کند."
+msgstr ""
+"{studio_name} از یک ساختار ساده ی سلسله مراتبی از {strong_start}بخش "
+"ها{strong_end} و {strong_start}زیر بخش ها{strong_end} برای سازماندهی "
+"محتواهای شما استفادده می کند."
 
 #: cms/templates/howitworks.html:66
 msgid "Change Your Mind Anytime"
@@ -1203,7 +1225,9 @@ msgstr "در هر زمان ذهنتان را تغییر دهید"
 msgid ""
 "Draft your outline and build content anywhere. Simple drag and drop tools "
 "let you reorganize quickly."
-msgstr "طرح درس خود را آماده کنید و محتوای آن هر کجا که هستید بسازید. ابزار های drag & drop به شما توانایی سازماندهی سریع مطالب را می دهند."
+msgstr ""
+"طرح درس خود را آماده کنید و محتوای آن هر کجا که هستید بسازید. ابزار های drag"
+" & drop به شما توانایی سازماندهی سریع مطالب را می دهند."
 
 #: cms/templates/howitworks.html:71
 msgid "Go A Week Or A Semester At A Time"
@@ -1213,7 +1237,10 @@ msgstr "به یک هفته یا یک ترم در یک زمان بروید"
 msgid ""
 "Build and release {strong_start}sections{strong_end} to your students "
 "incrementally. You don't have to have it all done at once."
-msgstr "{strong_start}بخش های{strong_end} مختلف دوره ها را بطور تدریجی برای دانش آموزانتان آماده و ارائه دهید. مجبور نیستید تمامی بخش ها را به یکباره آماده کنید."
+msgstr ""
+"{strong_start}بخش های{strong_end} مختلف دوره ها را بطور تدریجی برای دانش "
+"آموزانتان آماده و ارائه دهید. مجبور نیستید تمامی بخش ها را به یکباره آماده "
+"کنید."
 
 #: cms/templates/howitworks.html:84 cms/templates/howitworks.html:85
 #: cms/templates/howitworks.html:93
@@ -1225,7 +1252,9 @@ msgid ""
 "{studio_name} lets you weave your content together in a way that reinforces "
 "learning. Insert videos, discussions, and a wide variety of exercises with "
 "just a few clicks."
-msgstr "{studio_name} به شما اجازه اتصال مطالب در جهت تقویت یادگیری را می دهد. می توانید تنها با چند کلیک ویدیو،‌ مناظرات، و تمارین متعدد را قرار دهید."
+msgstr ""
+"{studio_name} به شما اجازه اتصال مطالب در جهت تقویت یادگیری را می دهد. می "
+"توانید تنها با چند کلیک ویدیو،‌ مناظرات، و تمارین متعدد را قرار دهید."
 
 #: cms/templates/howitworks.html:98
 msgid "Create Learning Pathways"
@@ -1235,7 +1264,9 @@ msgstr "ایجاد مسیرهای یادگیری"
 msgid ""
 "Help your students understand one concept at a time with multimedia, HTML, "
 "and exercises."
-msgstr "با استفاده از محتوای چند رسانه ای، HTML،‌ و تمارین در یک لحظه به دانش آموزانتان در درک یک مفهوم کمک کنید."
+msgstr ""
+"با استفاده از محتوای چند رسانه ای، HTML،‌ و تمارین در یک لحظه به دانش "
+"آموزانتان در درک یک مفهوم کمک کنید."
 
 #: cms/templates/howitworks.html:103
 msgid "Work Visually, Organize Quickly"
@@ -1245,7 +1276,9 @@ msgstr "ظاهری کار کنید، به سرعت سازماندهی می شو�
 msgid ""
 "Work visually and see exactly what your students will see. Reorganize all "
 "your content with drag and drop."
-msgstr "بصری کار کنید و ببینید دقیقاً دانشجویانتان چه می بینند، دوباره  تمامی مزالب خود را با ویرایش دوباره سازماندهی نمایید."
+msgstr ""
+"بصری کار کنید و ببینید دقیقاً دانشجویانتان چه می بینند، دوباره  تمامی مزالب "
+"خود را با ویرایش دوباره سازماندهی نمایید."
 
 #: cms/templates/howitworks.html:108
 msgid "A Broad Library of Problem Types"
@@ -1255,7 +1288,9 @@ msgstr "کتابخانه وسیع از انواع مشکلات"
 msgid ""
 "It's more than just multiple choice. {studio_name} supports more than a "
 "dozen types of problems to challenge your learners."
-msgstr "بیش از چند انتخاب محدود دارید. {studio_name} بیش از هزار نوع مسئله را برای به چالش کشیدن دانش آموزانتان پشتیبانی می کند."
+msgstr ""
+"بیش از چند انتخاب محدود دارید. {studio_name} بیش از هزار نوع مسئله را برای "
+"به چالش کشیدن دانش آموزانتان پشتیبانی می کند."
 
 #: cms/templates/howitworks.html:118 cms/templates/howitworks.html:119
 msgid ""
@@ -1273,7 +1308,11 @@ msgid ""
 "how you build curriculum. Instant publishing to the web when you want it, "
 "incremental release when it makes sense. And with co-authors, you can have a"
 " whole team building a course, together."
-msgstr "{studio_name} مانند برنامه های اینترنتی دیگری که اطلاع دارید برای ساختن برنامه درسی به کار می رود. تغییرات و انتشار آنها در هر زمان و از طریق وب امکان پذیر است. و با همکاری سایر ویراستاران میتوانید در قالب یک تیم کامل، یک درس کامل را بسازید."
+msgstr ""
+"{studio_name} مانند برنامه های اینترنتی دیگری که اطلاع دارید برای ساختن "
+"برنامه درسی به کار می رود. تغییرات و انتشار آنها در هر زمان و از طریق وب "
+"امکان پذیر است. و با همکاری سایر ویراستاران میتوانید در قالب یک تیم کامل، یک"
+" درس کامل را بسازید."
 
 #: cms/templates/howitworks.html:132
 msgid "Instant Changes"
@@ -1283,7 +1322,9 @@ msgstr "تغییرات فوری"
 msgid ""
 "Caught a bug? No problem. When you want, your changes go live when you click"
 " Save."
-msgstr "با مشکل مواجه شدید؟ اشکالی ندارد. هر زمانی که خواستید تغییراتتان را با یک کلیک ذخیره کنید."
+msgstr ""
+"با مشکل مواجه شدید؟ اشکالی ندارد. هر زمانی که خواستید تغییراتتان را با یک "
+"کلیک ذخیره کنید."
 
 #: cms/templates/howitworks.html:137
 msgid "Release-On Date Publishing"
@@ -1294,7 +1335,10 @@ msgid ""
 "When you've finished a {strong_start}section{strong_end}, pick when you want"
 " it to go live and {studio_name} takes care of the rest. Build your course "
 "incrementally."
-msgstr "زمانی که یک {strong_start}بخش{strong_end} را به اتمام رسانیدید، زمان شروع دوره را انتخاب کنید و ادامه کار را به {studio_name} بسپارید. دوره خود را بصورت تدریجی بسازید."
+msgstr ""
+"زمانی که یک {strong_start}بخش{strong_end} را به اتمام رسانیدید، زمان شروع "
+"دوره را انتخاب کنید و ادامه کار را به {studio_name} بسپارید. دوره خود را "
+"بصورت تدریجی بسازید."
 
 #: cms/templates/howitworks.html:146
 msgid "Work in Teams"
@@ -1304,7 +1348,9 @@ msgstr "در گروه های مختلف کار کنید"
 msgid ""
 "Co-authors have full access to all the same authoring tools. Make your "
 "course better through a team effort."
-msgstr "کمک نویسندگان دارای دسترسی تمام به ابزار ها مانند آنچه نویسندگان دارند می باشند. با خوص کار گروهی دوره خود را بهتر نمایید."
+msgstr ""
+"کمک نویسندگان دارای دسترسی تمام به ابزار ها مانند آنچه نویسندگان دارند می "
+"باشند. با خوص کار گروهی دوره خود را بهتر نمایید."
 
 #: cms/templates/howitworks.html:159
 msgid "Sign Up for {studio_name} Today!"
@@ -1336,7 +1382,8 @@ msgstr "بیشتر از یک جلسه آموزشی"
 msgid ""
 "Quickly create videos, text snippets, inline discussions, and a variety of "
 "problem types."
-msgstr "به سرعت فیلم ها، خرده متن، بحث های درون خطی، و انواع مختلف تمرین ایجاد کنید."
+msgstr ""
+"به سرعت فیلم ها، خرده متن، بحث های درون خطی، و انواع مختلف تمرین ایجاد کنید."
 
 #: cms/templates/howitworks.html:200
 msgid "Publishing on Date"
@@ -1609,7 +1656,9 @@ msgstr "اطلاعات مورد نیاز برای ایجاد یک دوره جد�
 msgid ""
 "The public display name for your course. This cannot be changed, but you can"
 " set a different display name in Advanced Settings later."
-msgstr "نام دوره شما که به عموم نشان داده می شود. این نام قابل تغییر نیست، اما بعدا می توانید یک نام دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
+msgstr ""
+"نام دوره شما که به عموم نشان داده می شود. این نام قابل تغییر نیست، اما بعدا "
+"می توانید یک نام دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
 
 #: cms/templates/index.html:84
 msgid ""
@@ -1617,21 +1666,30 @@ msgid ""
 "organization name is part of the course URL.{strong_end} This cannot be "
 "changed, but you can set a different display name in Advanced Settings "
 "later."
-msgstr "نام سازمان حمایت کننده دوره. {strong_start}توجه: نام سازمان قسمتی از آدرس دوره است.{strong_end} این نام قابل تغییر نیست، اما بعداً می توانید یک نام دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
+msgstr ""
+"نام سازمان حمایت کننده دوره. {strong_start}توجه: نام سازمان قسمتی از آدرس "
+"دوره است.{strong_end} این نام قابل تغییر نیست، اما بعداً می توانید یک نام "
+"دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
 
 #: cms/templates/index.html:97
 msgid ""
 "The unique number that identifies your course within your organization. "
 "{strong_start}Note: This is part of your course URL, so no spaces or special"
 " characters are allowed and it cannot be changed.{strong_end}"
-msgstr "نام واحدی که مشخص کننده دوره شما در سازمان شماست. {strong_start}توجه: این قسمتی از آدرس دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر نیست.{strong_end}"
+msgstr ""
+"نام واحدی که مشخص کننده دوره شما در سازمان شماست. {strong_start}توجه: این "
+"قسمتی از آدرس دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر "
+"نیست.{strong_end}"
 
 #: cms/templates/index.html:109
 msgid ""
 "The term in which your course will run. {strong_start}Note: This is part of "
 "your course URL, so no spaces or special characters are allowed and it "
 "cannot be changed.{strong_end}"
-msgstr "ترمی که دوره شما در آن اجرا می شود. {strong_start}توجه: این قسمتی از آدرس دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر نیست.{strong_end}"
+msgstr ""
+"ترمی که دوره شما در آن اجرا می شود. {strong_start}توجه: این قسمتی از آدرس "
+"دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر "
+"نیست.{strong_end}"
 
 #: cms/templates/index.html:122 cms/templates/index.html:182
 msgid "Create"
@@ -1686,7 +1744,10 @@ msgid ""
 "The unique code that identifies this library. {strong_start}Note: This is "
 "part of your library URL, so no spaces or special characters are "
 "allowed.{strong_end} This cannot be changed."
-msgstr "کد واحدی که این کتابخانه را مشخص می کند. {strong_start}توجه: این قسمتی از آدرس کتابخانه شماست، باید بدون فاصله یا حروف خاص باشد.{strong_end} قابل تغییرر نیست."
+msgstr ""
+"کد واحدی که این کتابخانه را مشخص می کند. {strong_start}توجه: این قسمتی از "
+"آدرس کتابخانه شماست، باید بدون فاصله یا حروف خاص باشد.{strong_end} قابل "
+"تغییرر نیست."
 
 #: cms/templates/index.html:191
 msgid "Organization and Library Settings"
@@ -1759,7 +1820,9 @@ msgstr "آیا شما از اعضای یکی از دوره های {studio_name} 
 msgid ""
 "The course creator must give you access to the course. Contact the course "
 "creator or administrator for the course you are helping to author."
-msgstr "دسترسی به دوره را باید کسی که دوره را ایجاد کرده است، به شما بدهد. با او جهت دسترسی به دوره تماس حاصل فرمایید."
+msgstr ""
+"دسترسی به دوره را باید کسی که دوره را ایجاد کرده است، به شما بدهد. با او جهت"
+" دسترسی به دوره تماس حاصل فرمایید."
 
 #: cms/templates/index.html:354 cms/templates/index.html:362
 msgid "Create Your First Course"
@@ -1843,7 +1906,9 @@ msgstr "انتظار دیدن یک کتابخانه خاص را دارید؟"
 msgid ""
 "The library creator must give you access to the library. Contact the library"
 " creator or administrator for the library you are helping to author."
-msgstr "دسترسی به کتابخانه را باید کسی که کتابخانه را ایجاد کرده است، به شما بدهد. با او جهت دسترسی به کتابخانه تماس حاصل فرمایید."
+msgstr ""
+"دسترسی به کتابخانه را باید کسی که کتابخانه را ایجاد کرده است، به شما بدهد. "
+"با او جهت دسترسی به کتابخانه تماس حاصل فرمایید."
 
 #: cms/templates/index.html:497 cms/templates/index.html:505
 msgid "Create Your First Library"
@@ -1853,7 +1918,10 @@ msgstr "اولین کتابخانه خود را ایجاد کنید"
 msgid ""
 "Libraries hold a pool of components that can be re-used across multiple "
 "courses. Create your first library with the click of a button!"
-msgstr "کتابخانه ها مجموعه ای از کامپوننت ها را که می توانند مجدداً توسط دوره های مختلف استفاده شوند، نگه می دارند. با یک کلیک اولین کتابخانه خود را ایجاد کنید."
+msgstr ""
+"کتابخانه ها مجموعه ای از کامپوننت ها را که می توانند مجدداً توسط دوره های "
+"مختلف استفاده شوند، نگه می دارند. با یک کلیک اولین کتابخانه خود را ایجاد "
+"کنید."
 
 #: cms/templates/index.html:516
 msgid "New to {studio_name}?"
@@ -1865,7 +1933,11 @@ msgid ""
 "{studio_name} page you are viewing. You can also use the links at the bottom"
 " of the page to access our continually updated documentation and other "
 "{studio_name} resources."
-msgstr "برای اطلاعات بیشتر در مورد صفحه {studio_name} که در حال مشاهده آن هستید بر روی کمک که در گوشه بالا سمت راست صفحه قرار دارد کلیک کنید. همچنین می توانید از لینک های پایین صفحه برای دستیابی به مستندات ما که دائماً در حال بروزرسانی هستند و سایر منابع {studio_name} استفاده کنید."
+msgstr ""
+"برای اطلاعات بیشتر در مورد صفحه {studio_name} که در حال مشاهده آن هستید بر "
+"روی کمک که در گوشه بالا سمت راست صفحه قرار دارد کلیک کنید. همچنین می توانید "
+"از لینک های پایین صفحه برای دستیابی به مستندات ما که دائماً در حال بروزرسانی"
+" هستند و سایر منابع {studio_name} استفاده کنید."
 
 #: cms/templates/index.html:522
 msgid "Getting Started with {studio_name}"
@@ -1918,7 +1990,10 @@ msgid ""
 "Please check your Junk or Spam folders in case our email isn't in your "
 "INBOX. Still can't find the verification email? Request help via the link "
 "below."
-msgstr "در صورتی که پست الکترونیکی ما در قسمت پیام های دریافتی پست الکترونیکی شما نمی باشد لطفاً قسمت اسپم را چک نمایید، هنوز پست الکترونیکی تاییدیه را گیدا نکرده اید ؟ از طریق لینک ذیل درخواست کمک نمایید."
+msgstr ""
+"در صورتی که پست الکترونیکی ما در قسمت پیام های دریافتی پست الکترونیکی شما "
+"نمی باشد لطفاً قسمت اسپم را چک نمایید، هنوز پست الکترونیکی تاییدیه را گیدا "
+"نکرده اید ؟ از طریق لینک ذیل درخواست کمک نمایید."
 
 #: cms/templates/library.html:49
 msgid "Content Library"
@@ -1936,14 +2011,19 @@ msgstr "افزودن محتوا به کتابخانه"
 msgid ""
 "Add components to your library for use in courses, using Add New Component "
 "at the bottom of this page."
-msgstr "برای استفاده از کامپوننت ها در دوره ها، با استفاده از افزودن کامپوننت جدید در پایین صفحه، آنها را به کتابخانه خود اضافه کنید."
+msgstr ""
+"برای استفاده از کامپوننت ها در دوره ها، با استفاده از افزودن کامپوننت جدید "
+"در پایین صفحه، آنها را به کتابخانه خود اضافه کنید."
 
 #: cms/templates/library.html:92
 msgid ""
 "Components are listed in the order in which they are added, with the most "
 "recently added at the bottom. Use the pagination arrows to navigate from "
 "page to page if you have more than one page of components in your library."
-msgstr "کامپوننت ها به همان ترتیب که اضافه شده اند، لیست شده اند. اگر بیش از یک صفحه از کامپوننت ها در کتابخانه خود دارید، برای جابجایی میان صفحات از کلید های جابجایی استفاده کنید."
+msgstr ""
+"کامپوننت ها به همان ترتیب که اضافه شده اند، لیست شده اند. اگر بیش از یک صفحه"
+" از کامپوننت ها در کتابخانه خود دارید، برای جابجایی میان صفحات از کلید های "
+"جابجایی استفاده کنید."
 
 #: cms/templates/library.html:93
 msgid "Using library content in courses"
@@ -2409,7 +2489,9 @@ msgstr ""
 msgid ""
 "Your course currently does not have an image. Please upload one (JPEG or PNG"
 " format, and minimum suggested dimensions are 375px wide by 200px tall)"
-msgstr "دوره شما در حاضر دارای عکس نمی باشد. لطفاً یک عکس(با فرمتJPEG or PNG و با حداقل اندازه تقریبی375px wide by 200px tall) بارگذاری نمایید."
+msgstr ""
+"دوره شما در حاضر دارای عکس نمی باشد. لطفاً یک عکس(با فرمتJPEG or PNG و با "
+"حداقل اندازه تقریبی375px wide by 200px tall) بارگذاری نمایید."
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course image

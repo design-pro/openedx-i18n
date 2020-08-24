@@ -1,0 +1,1521 @@
+# edX community translations have been downloaded from Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# claudi <claudix.kernel@gmail.com>, 2014
+# mcolomer <mcmlilhity@gmail.com>, 2014
+# Miquel Oliver <miquel.oliver@upf.edu>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2018-07-23 07:15+0000\n"
+"Last-Translator: Juanjo Bote <juanjo.botev@ub.edu>\n"
+"Language-Team: Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: wiki/admin.py:72 wiki/models/article.py:28
+msgid "created"
+msgstr "creat"
+
+#: wiki/apps.py:9
+msgid "Wiki notifications"
+msgstr "Notificacions wiki"
+
+#: wiki/apps.py:15
+msgid "Wiki images"
+msgstr "Imatges wiki"
+
+#: wiki/apps.py:21
+msgid "Wiki attachments"
+msgstr "Annexos de Wiki"
+
+#: wiki/forms.py:31
+msgid "Only localhost... muahahaha"
+msgstr "Només hostes locals... muahahaha"
+
+#: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
+#: wiki/templates/wiki/dir.html:54
+msgid "Title"
+msgstr "Títol"
+
+#: wiki/forms.py:37
+msgid "Initial title of the article. May be overridden with revision titles."
+msgstr ""
+"Títol inicial de l'article. Pot ser sobreescrit amb revisions de títols."
+
+#: wiki/forms.py:38
+msgid "Type in some contents"
+msgstr "Escriu un contingut"
+
+#: wiki/forms.py:39
+msgid ""
+"This is just the initial contents of your article. After creating it, you "
+"can use more complex features like adding plugins, meta data, related "
+"articles etc..."
+msgstr ""
+"Aquest és només el contingut inicial del teu article. Després de crear-lo, "
+"pots utilitzar característiques més complexes com afegir plugins, meta "
+"dades, articles relacionats, etc..."
+
+#: wiki/forms.py:46 wiki/forms.py:209
+msgid "Contents"
+msgstr "Contingut"
+
+#: wiki/forms.py:49 wiki/forms.py:212
+msgid "Summary"
+msgstr "Resum"
+
+#: wiki/forms.py:49
+msgid ""
+"Give a short reason for your edit, which will be stated in the revision log."
+msgstr ""
+"Dóna un motiu breu de la teva edició, la qual es mostrarà en el diari de "
+"revisions."
+
+#: wiki/forms.py:98
+msgid ""
+"While you were editing, someone else changed the revision. Your contents "
+"have been automatically merged with the new contents. Please review the text"
+" below."
+msgstr ""
+"Mentre estaves editant, algú altre ha canviat la revisió. El teu contingut "
+"ha estat automàticament fusionat amb el nou contingut. Si us plau, revisa el"
+" text següent."
+
+#: wiki/forms.py:100
+msgid "No changes made. Nothing to save."
+msgstr "No s'han fet canvis. Res a guardar."
+
+#: wiki/forms.py:162
+msgid "Select an option"
+msgstr "Selecciona una opció"
+
+#: wiki/forms.py:207 wiki/templates/wiki/dir.html:55
+msgid "Slug"
+msgstr "URL amigable"
+
+#: wiki/forms.py:207
+msgid ""
+"This will be the address where your article can be found. Use only "
+"alphanumeric characters and - or _. Note that you cannot change the slug "
+"after creating the article."
+msgstr ""
+"Aquesta serà l'adreça on el teu article serà trobat. Utilitza només "
+"caràcters alfanumèrics i - o _. Tingues en compte que no podràs canviar la "
+"URL amigable després de crear l'article."
+
+#: wiki/forms.py:212
+msgid "Write a brief message for the article's history log."
+msgstr "Escriu un missatge breu per al diari de l'article."
+
+#: wiki/forms.py:222
+msgid "A slug may not begin with an underscore."
+msgstr "La URL amigable no hauria de començar amb guionet baix."
+
+#: wiki/forms.py:231
+#, python-format
+msgid "A deleted article with slug \"%s\" already exists."
+msgstr "Un article esborrat amb URL amigable \"%s\" ja existeix."
+
+#: wiki/forms.py:233
+#, python-format
+msgid "A slug named \"%s\" already exists."
+msgstr "Una URL amigable \"%s\" ja existeix."
+
+#: wiki/forms.py:246
+msgid "Yes, I am sure"
+msgstr "Sí, n'estic segur"
+
+#: wiki/forms.py:248 wiki/templates/wiki/deleted.html:46
+msgid "Purge"
+msgstr "Purgar"
+
+#: wiki/forms.py:249
+msgid ""
+"Purge the article: Completely remove it (and all its contents) with no undo."
+" Purging is a good idea if you want to free the slug such that users can "
+"create new articles in its place."
+msgstr ""
+"Purgar l'article: esborrar-lo completament (i tot el seu contingut) sense "
+"possibilitat de desfer els canvis. Purgar és una bona idea si vols alliberar"
+" URL amigables per a que siguin utilitzades per altres usuaris que creïn "
+"nous articles."
+
+#: wiki/forms.py:256 wiki/plugins/attachments/forms.py:24
+#: wiki/plugins/images/forms.py:64
+msgid "You are not sure enough!"
+msgstr "No estàs prou segur!"
+
+#: wiki/forms.py:258
+msgid "While you tried to delete this article, it was modified. TAKE CARE!"
+msgstr ""
+"Mentre provaves d'esborrar aquest article, ha estat modificat. VIGILA!"
+
+#: wiki/forms.py:264
+msgid "Lock article"
+msgstr "Bloquejar l'article"
+
+#: wiki/forms.py:264
+msgid "Deny all users access to edit this article."
+msgstr "Denegar l'accés de tots els usuaris a editar aquest article."
+
+#: wiki/forms.py:267
+msgid "Permissions"
+msgstr "Permisos"
+
+#: wiki/forms.py:271
+msgid "Owner"
+msgstr "Propietari"
+
+#: wiki/forms.py:272
+msgid "Enter the username of the owner."
+msgstr "Entra el nom d'usuari del propietari."
+
+#: wiki/forms.py:273
+msgid "(none)"
+msgstr "(cap)"
+
+#: wiki/forms.py:278
+msgid "Inherit permissions"
+msgstr "Heretar permisos"
+
+#: wiki/forms.py:278
+msgid ""
+"Check here to apply the above permissions recursively to articles under this"
+" one."
+msgstr ""
+"Marca aquí per aplicar els permisos anteriors als articles per sota d'aquest"
+" de manera recursiva."
+
+#: wiki/forms.py:283
+msgid "Permission settings for the article were updated."
+msgstr "S'han actualitzat els permisos de l'article."
+
+#: wiki/forms.py:285
+msgid "Your permission settings were unchanged, so nothing saved."
+msgstr "No s'han canviat els teus permisos. Res a guardar."
+
+#: wiki/forms.py:324
+msgid "No user with that username"
+msgstr "No hi ha cap usuari amb aquest nom"
+
+#: wiki/forms.py:346
+msgid "Article locked for editing"
+msgstr "Article bloquejat per editar"
+
+#: wiki/forms.py:353
+msgid "Article unlocked for editing"
+msgstr "Article desbloquejat per editar"
+
+#: wiki/forms.py:366
+msgid "Filter"
+msgstr "Filtrar"
+
+#: wiki/core/plugins/base.py:44
+msgid "Settings for plugin"
+msgstr "Configuració del plugin"
+
+#: wiki/models/article.py:23 wiki/models/pluginbase.py:158
+#: wiki/plugins/attachments/models.py:19
+msgid "current revision"
+msgstr "revisió actual"
+
+#: wiki/models/article.py:25
+msgid ""
+"The revision being displayed for this article. If you need to do a roll-"
+"back, simply change the value of this field."
+msgstr ""
+"La revisió mostrada per aquest article. Si necessites tirar enrere, "
+"simplement canvia el valor d'aquest camp."
+
+#: wiki/models/article.py:29
+msgid "modified"
+msgstr "modificat"
+
+#: wiki/models/article.py:30
+msgid "Article properties last modified"
+msgstr "Propietats de l'article darrerament modificades"
+
+#: wiki/models/article.py:32
+msgid "owner"
+msgstr "propietari"
+
+#: wiki/models/article.py:34
+msgid ""
+"The owner of the article, usually the creator. The owner always has both "
+"read and write access."
+msgstr ""
+"El propietari de l'article, normalment el creador. El propietari sempre té "
+"permisos de lectura i escriptura."
+
+#: wiki/models/article.py:36
+msgid "group"
+msgstr "grup"
+
+#: wiki/models/article.py:38
+msgid ""
+"Like in a UNIX file system, permissions can be given to a user according to "
+"group membership. Groups are handled through the Django auth system."
+msgstr ""
+"Com en un sistema d'arxius UNIX, els permisos es poden donar a un usuari "
+"d'acord amb la seva pertinença a un grup. Els grups es mantenen a través el "
+"sistema auth de Django."
+
+#: wiki/models/article.py:40
+msgid "group read access"
+msgstr "accés de lectura del grup"
+
+#: wiki/models/article.py:41
+msgid "group write access"
+msgstr "accés d'escriptura del grup"
+
+#: wiki/models/article.py:42
+msgid "others read access"
+msgstr "accés de lectura d'altres"
+
+#: wiki/models/article.py:43
+msgid "others write access"
+msgstr "accés d'escriptura d'altres"
+
+#: wiki/models/article.py:174
+#, python-format
+msgid "Article without content (%(id)d)"
+msgstr "Article sense contingut (%(id)d)"
+
+#: wiki/models/article.py:202
+msgid "content type"
+msgstr "tipus de contingut"
+
+#: wiki/models/article.py:204
+msgid "object ID"
+msgstr "ID d'objecte"
+
+#: wiki/models/article.py:210
+msgid "Article for object"
+msgstr "Article per l'objecte"
+
+#: wiki/models/article.py:211
+msgid "Articles for object"
+msgstr "Articles per l'objecte"
+
+#: wiki/models/article.py:220
+msgid "revision number"
+msgstr "número de revisió"
+
+#: wiki/models/article.py:226
+msgid "IP address"
+msgstr "Adreça IP"
+
+#: wiki/models/article.py:233
+msgid "user"
+msgstr "usuari"
+
+#: wiki/models/article.py:246
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:22
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:20
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
+#: wiki/templates/wiki/includes/revision_info.html:15
+msgid "deleted"
+msgstr "esborrat"
+
+#: wiki/models/article.py:247 wiki/templates/wiki/article.html:22
+#: wiki/templates/wiki/includes/revision_info.html:21
+msgid "locked"
+msgstr "bloquejat"
+
+#: wiki/models/article.py:266 wiki/models/pluginbase.py:38
+msgid "article"
+msgstr "article"
+
+#: wiki/models/article.py:269
+msgid "article contents"
+msgstr "contingut de l'article"
+
+#: wiki/models/article.py:273
+msgid "article title"
+msgstr "títol d'article"
+
+#: wiki/models/article.py:274
+msgid ""
+"Each revision contains a title field that must be filled out, even if the "
+"title has not changed"
+msgstr ""
+"Cada revisió conté un camp de títol que s'ha d'omplir, inclús si el títol no"
+" ha canviat"
+
+#: wiki/models/pluginbase.py:74
+msgid "original article"
+msgstr "article original"
+
+#: wiki/models/pluginbase.py:75
+msgid "Permissions are inherited from this article"
+msgstr "Els permisos s'hereten d'aquest article"
+
+#: wiki/models/pluginbase.py:133
+msgid "A plugin was changed"
+msgstr "S'ha canviat un plugin"
+
+#: wiki/models/pluginbase.py:160
+msgid ""
+"The revision being displayed for this plugin.If you need to do a roll-back, "
+"simply change the value of this field."
+msgstr ""
+"La revisió mostrada per aquest plugin. Si necessites fer-te enrere, "
+"simplement canvia el valor d'aquest camp."
+
+#: wiki/models/urlpath.py:41
+msgid "Cache lookup value for articles"
+msgstr "Valor de cerca d'articles en memòria"
+
+#: wiki/models/urlpath.py:47
+msgid "slug"
+msgstr "url amigable"
+
+#: wiki/models/urlpath.py:137
+msgid "(root)"
+msgstr "(arrel)"
+
+#: wiki/models/urlpath.py:147
+msgid "URL path"
+msgstr "Camí URL"
+
+#: wiki/models/urlpath.py:148
+msgid "URL paths"
+msgstr "Camins URL"
+
+#: wiki/models/urlpath.py:153
+msgid "Sorry but you cannot have a root article with a slug."
+msgstr "Ho sentim, no pots tenir un article arrel amb url amigable."
+
+#: wiki/models/urlpath.py:155
+msgid "A non-root note must always have a slug."
+msgstr "Una nota no-arrel ha de tenir sempre una url amigable."
+
+#: wiki/models/urlpath.py:158
+#, python-format
+msgid "There is already a root node on %s"
+msgstr "Ja hi ha un node arrel en %s"
+
+#: wiki/models/urlpath.py:262
+msgid ""
+"Articles who lost their parents\n"
+"===============================\n"
+"\n"
+"The children of this article have had their parents deleted. You should probably find a new home for them."
+msgstr ""
+"Articles que han perdut els seus pares\n"
+"===============================\n"
+"\n"
+"Als fills d'aquest article se'ls ha esborrat els pares. Els hi hauràs de buscar un nou origen."
+
+#: wiki/models/urlpath.py:265
+msgid "Lost and found"
+msgstr "Perduts i trobats"
+
+#: wiki/plugins/attachments/forms.py:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:13
+msgid "Description"
+msgstr "Descripció"
+
+#: wiki/plugins/attachments/forms.py:10
+msgid "A short summary of what the file contains"
+msgstr "Resum breu del contingut del fitxer"
+
+#: wiki/plugins/attachments/forms.py:19
+msgid "Yes I am sure..."
+msgstr "Sí, n'estic segur..."
+
+#: wiki/plugins/attachments/markdown_extensions.py:33
+msgid "Click to download file"
+msgstr "Clica per descarregar fitxer"
+
+#: wiki/plugins/attachments/models.py:21
+msgid ""
+"The revision of this attachment currently in use (on all articles using the "
+"attachment)"
+msgstr ""
+"La revisió d'aquest adjunt actualment en ús (en tots els articles que "
+"utilitzen l'adjunt)"
+
+#: wiki/plugins/attachments/models.py:24
+msgid "original filename"
+msgstr "nom de fitxer original"
+
+#: wiki/plugins/attachments/models.py:36
+msgid "attachment"
+msgstr "adjunt"
+
+#: wiki/plugins/attachments/models.py:37
+msgid "attachments"
+msgstr "adjunts"
+
+#: wiki/plugins/attachments/models.py:79
+msgid "file"
+msgstr "fitxer"
+
+#: wiki/plugins/attachments/models.py:85
+msgid "attachment revision"
+msgstr "revisió de l'adjunt"
+
+#: wiki/plugins/attachments/models.py:86
+msgid "attachment revisions"
+msgstr "revisions dels adjunts"
+
+#: wiki/plugins/attachments/views.py:49
+#, python-format
+msgid "%s was successfully added."
+msgstr "%s correctament afegit."
+
+#: wiki/plugins/attachments/views.py:51 wiki/plugins/attachments/views.py:116
+#, python-format
+msgid "Your file could not be saved: %s"
+msgstr "El teu fitxer no s'ha pogut guardar: %s"
+
+#: wiki/plugins/attachments/views.py:53 wiki/plugins/attachments/views.py:120
+msgid ""
+"Your file could not be saved, probably because of a permission error on the "
+"web server."
+msgstr ""
+"El teu fitxer no s'ha pogut guardar, probablement perquè hi ha hagut un "
+"error de permisos en el servidor web."
+
+#: wiki/plugins/attachments/views.py:114
+#, python-format
+msgid "%s uploaded and replaces old attachment."
+msgstr "%s carregat i substitueix l'antic adjunt."
+
+#: wiki/plugins/attachments/views.py:128
+msgid ""
+"Your new file will automatically be renamed to match the file already "
+"present. Files with different extensions are not allowed."
+msgstr ""
+"El teu nou fitxer es reanomenarà automàticament perquè coincideixi amb el "
+"fitxer present actualment. No es permeten fitxers amb diferents extensions."
+
+#: wiki/plugins/attachments/views.py:182
+#, python-format
+msgid "Current revision changed for %s."
+msgstr "La revisió actual ha canviat per %s."
+
+#: wiki/plugins/attachments/views.py:203
+#, python-format
+msgid "Added a reference to \"%(att)s\" from \"%(art)s\"."
+msgstr "Referència afegida a \"%(att)s\" des de \"%(art)s\"."
+
+#: wiki/plugins/attachments/views.py:233
+#, python-format
+msgid "The file %s was deleted."
+msgstr "El fitxer %s s'ha esborrat."
+
+#: wiki/plugins/attachments/views.py:236
+#, python-format
+msgid "This article is no longer related to the file %s."
+msgstr "Aquest article ja no està relacionat amb el fitxer %s."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:4
+#: wiki/plugins/attachments/wiki_plugin.py:30
+msgid "Attachments"
+msgstr "Adjunts"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was changed: %s"
+msgstr "S'ha canviat un fitxer: %s"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was deleted: %s"
+msgstr "S'ha esborrat un fitxer: %s"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
+#: wiki/templates/wiki/delete.html:7
+msgid "Delete"
+msgstr "Esborrar"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:13
+msgid ""
+"The file may be referenced on other articles. Deleting it means that they "
+"will loose their references to this file. The following articles reference "
+"this file:"
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:26
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:47
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:48
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:70
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:20
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:20
+#: wiki/templates/wiki/create.html:51 wiki/templates/wiki/delete.html:11
+#: wiki/templates/wiki/delete.html:48
+msgid "Go back"
+msgstr "Enrere"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:30
+msgid "Delete it!"
+msgstr "Esborreu-ho!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:36
+msgid "Remove"
+msgstr "Eliminar"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:40
+msgid ""
+"You can remove a reference to a file, but it will retain its references on "
+"other articles."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:51
+msgid "Remove reference"
+msgstr "Elimina la referència"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:8
+msgid "History of"
+msgstr "Història de"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:11
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:23
+msgid "Date"
+msgstr "Data"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:12
+msgid "User"
+msgstr "Usuari"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:14
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:21
+msgid "File"
+msgstr "Arxiu"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:15
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:28
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:25
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:21
+msgid "Size"
+msgstr "Mida"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:16
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:26
+msgid "Action"
+msgstr "Acció"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:32
+msgid "<em>No description</em>"
+msgstr "<em>Sense descripció</em>"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:35
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:50
+msgid "Download"
+msgstr "Descarregar"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:40
+msgid "Use this!"
+msgstr "Utilitza això!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr ""
+"Els següents fitxers estan disponibles per aquest article. Copia les "
+"etiquetes de marcat per fer referència al fitxer des del text de l'article."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:26
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:19
+msgid "Markdown tag"
+msgstr "Etiqueta de marcat"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:24
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:20
+msgid "Uploaded by"
+msgstr "Carregat per"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:8
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:31
+msgid "Replace"
+msgstr "Substituir"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:37
+msgid "Detach"
+msgstr "Desacoblar"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:44
+#: wiki/templates/wiki/deleted.html:24 wiki/templates/wiki/deleted.html:29
+msgid "Restore"
+msgstr "Restablir"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "File history"
+msgstr "Històric del fitxer"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "revisions"
+msgstr "revisions"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:69
+msgid "There are no attachments for this article."
+msgstr "No hi ha dades adjuntes per aquest article."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:83
+msgid "Upload new file"
+msgstr "Carregar un nou fitxer"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:95
+msgid "Upload file"
+msgstr "Carregar fitxer"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:106
+msgid "Search and add file"
+msgstr "Cercar i afegir fitxer"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:112
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr ""
+"Pots reutilitzar fitxers d'altres articles. Aquests fitxers estan subjectes "
+"a actualitzacions d'aquests articles, cosa que pot ser bo o dolent."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:117
+msgid "Search"
+msgstr "Cerca"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:13
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>. Please note "
+"that this attachment is in use on other articles, you may distort contents. "
+"However, do not hestitate to take advantage of this and make replacements "
+"for the listed articles where necessary. This way of working is more "
+"efficient...."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:15
+msgid "Articles using"
+msgstr "Articles que fan servir"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:24
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>."
+msgstr ""
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:37
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:24
+msgid "Upload replacement"
+msgstr "Reemplaçament de càrrega"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:4
+msgid "Add file to"
+msgstr "Afegeix un fitxer a"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:8
+msgid "Add attachment from other article"
+msgstr "Afegiu un fitxer adjunt d'un altre article"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:14
+msgid "Search files and articles"
+msgstr "Cercar fitxers i articles"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:22
+msgid "Main article"
+msgstr "Article principal"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:54
+msgid "Add to article"
+msgstr "Afegir a l'article"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:62
+msgid "Your search did not return any results"
+msgstr "La cerca no ha retornat cap resultat"
+
+#: wiki/plugins/help/wiki_plugin.py:12
+msgid "Help"
+msgstr "Ajut"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:1
+msgid "Adding new articles"
+msgstr "Afegint nous articles"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:3
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr ""
+"Per crear un nou article wiki, crea un enllaç al mateix. Fent clic l'enllaç "
+"et portarà a la pàgina de creació."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:6
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:19
+msgid "An external link"
+msgstr "Un enllaç extern"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:9
+msgid "Headers"
+msgstr "Capçaleres"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:10
+msgid ""
+"Use these codes for headers and to automatically generate Tables of "
+"Contents."
+msgstr ""
+"Utilitzeu aquests codis per als encapçalaments i per generar automàticament "
+"les Taules de Continguts."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:25
+msgid "Typography"
+msgstr "Tipografia"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:30
+msgid "Lists"
+msgstr "Llistes"
+
+#: wiki/plugins/images/forms.py:16
+#, python-format
+msgid ""
+"New image %s was successfully uploaded. You can use it by selecting it from "
+"the list of available images."
+msgstr ""
+"S'ha carregat una nova imatge %s. Podeu utilitzar-la seleccionant-la de la "
+"llista d'imatges disponibles."
+
+#: wiki/plugins/images/forms.py:59
+msgid "Are you sure?"
+msgstr "Estàs Segur/a?"
+
+#: wiki/plugins/images/models.py:40
+msgid "image"
+msgstr "imatge"
+
+#: wiki/plugins/images/models.py:41
+msgid "images"
+msgstr "imatges"
+
+#: wiki/plugins/images/models.py:45
+#, python-format
+msgid "Image: %s"
+msgstr "Imatge: %s"
+
+#: wiki/plugins/images/models.py:45
+msgid "Current revision not set!!"
+msgstr "No s'ha establert la revisió actual!!"
+
+#: wiki/plugins/images/models.py:92
+msgid "image revision"
+msgstr "revisió d'imatge"
+
+#: wiki/plugins/images/models.py:93
+msgid "image revisions"
+msgstr "revisions d'imatge"
+
+#: wiki/plugins/images/models.py:98
+#, python-format
+msgid "Image Revsion: %d"
+msgstr "Revisió d'imatge: %d"
+
+#: wiki/plugins/images/views.py:64
+#, python-format
+msgid "%s has been restored"
+msgstr "%s ha estat restablert"
+
+#: wiki/plugins/images/views.py:66
+#, python-format
+msgid "%s has been marked as deleted"
+msgstr "%s ha estat marcat com esborrat"
+
+#: wiki/plugins/images/views.py:120
+#, python-format
+msgid "%(file)s has been changed to revision #%(revision)d"
+msgstr "%(file)s ha estat canviat a la revisió #%(revision)d"
+
+#: wiki/plugins/images/views.py:158
+#, python-format
+msgid "%(file)s has been saved."
+msgstr "%(file)s ha estat guardat."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:4
+#: wiki/plugins/images/wiki_plugin.py:15
+msgid "Images"
+msgstr "Imatges"
+
+#: wiki/plugins/images/wiki_plugin.py:26
+#, python-format
+msgid "An image was added: %s"
+msgstr "S'ha afegit una imatge: %s"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:7
+msgid ""
+"The following images are available for this article. Copy the markdown tag "
+"to directly refer to an image from the article text."
+msgstr ""
+"Les següents imatges estan disponibles per a aquest article. Copieu "
+"l'etiqueta de marcat per referir-vos directament a una imatge del text de "
+"l'article."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:11
+msgid "Back to edit page"
+msgstr "Torna a editar la pàgina"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:18
+msgid "No file"
+msgstr "Sense fitxer"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:34
+msgid "Upload new image"
+msgstr "Penja una imatge nova"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:39
+msgid "Restore image"
+msgstr "Restaura la imatge"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:44
+msgid "Remove image"
+msgstr "Elimina la imatge"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:51
+msgid "Completely delete"
+msgstr "Esborra completament"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:65
+#: wiki/templates/wiki/history.html:4
+msgid "History"
+msgstr "Històric"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:84
+msgid "Revert to this version"
+msgstr "Torneu a aquesta versió"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:97
+msgid "There are no images for this article."
+msgstr "No hi ha cap imatge per a aquest article."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:4
+#: wiki/templates/wiki/deleted.html:39
+msgid "Purge deletion"
+msgstr "Purge deletion"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:13
+msgid "Purge image: Completely remove image file and all revisions."
+msgstr ""
+"Imatge de purga: elimina completament el fitxer d'imatge i totes les "
+"revisions."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:24
+msgid "Remove it completely!"
+msgstr "Elimina completament!"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/render.html:14
+msgid "Image not found"
+msgstr "No s'ha trobat la imatge"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:4
+msgid "Replace image"
+msgstr "Reemplaça la imatge"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:13
+msgid "Choose an image file to replace current image."
+msgstr "Trieu un fitxer d'imatge per substituir la imatge actual."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:27
+msgid "Image id"
+msgstr "Identificador de la imatge"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:29
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:13
+msgid "Insert"
+msgstr "Insereix"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:45
+msgid "No images found for this article"
+msgstr "Cap imatge trobada per aquest article"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:54
+msgid "Manage images"
+msgstr "Gestionar imatges"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:60
+msgid "Add new image"
+msgstr "Afegeix imatge nova"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:96
+msgid "Add image"
+msgstr "Afegeix imatge"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:104
+msgid "You do not have permissions to add images."
+msgstr "No teniu permisos per afegir imatges."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:111
+msgid "How to use images"
+msgstr "Com per utilitzar imatges"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:114
+msgid ""
+"After uploading an image, it is attached to this particular artice and can "
+"be used only here. Other users may replace the image, but older versions are"
+" kept. You probably want to show the image with a nice caption. To achieve "
+"this, press the Insert button and fill in the caption fields and possibly "
+"choose to have you image floating right or left of the content. You can use "
+"Markdown in the caption. The markdown code syntax for images looks like "
+"this, possible values for align are left/center/right:"
+msgstr ""
+"Després de pujar una imatge, s'adjunta a aquest article en particular i "
+"només es pot utilitzar aquí. Altres usuaris poden reemplaçar la imatge, però"
+" les versions anteriors es mantenen. És probable que vulgueu mostrar la "
+"imatge amb un bon títol. Per aconseguir-ho, premeu el botó Insereix i ompliu"
+" els camps de títol i, possiblement, tingueu l'opció de fer-vos que la "
+"imatge flotant a la dreta o a l'esquerra del contingut. Podeu utilitzar "
+"Markdown al títol. La sintaxi del codi de marcat per a les imatges es veu "
+"així, els valors possibles per alinear es troben a l'esquerra / centre / "
+"dreta:"
+
+#: wiki/plugins/links/wiki_plugin.py:21
+msgid "Links"
+msgstr "Enllaços"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:2
+msgid "Link to another wiki page"
+msgstr "Enllaç a una altra pàgina wiki"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:5
+msgid ""
+"Type in something from another wiki page's title and auto-complete will help"
+" you create a tag for you wiki link. Tags for links look like this:"
+msgstr ""
+"Escriviu una cosa des d'un altre títol de la pàgina wiki i l'auto-completat "
+"us ajudarà a crear una etiqueta per al vostre enllaç wiki. Les etiquetes "
+"d'enllaços són així:"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:22
+msgid ""
+"You can link to another website simply by inserting an address example.com "
+"or http://example.com or by using the markdown syntax:"
+msgstr ""
+"Podeu enllaçar a un altre lloc web simplement inserint una adreça "
+"example.com o http://example.com o utilitzant la sintaxi de baixada:"
+
+#: wiki/plugins/notifications/forms.py:13
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: wiki/plugins/notifications/forms.py:17
+msgid "When this article is edited"
+msgstr "Quan aquest article és editat"
+
+#: wiki/plugins/notifications/forms.py:18
+msgid "Also receive emails about article edits"
+msgstr "Rebre també emails sobre edicions d'article"
+
+#: wiki/plugins/notifications/forms.py:41
+msgid "Your notification settings were updated."
+msgstr "S'ha actualitzat la configuració de notificacions."
+
+#: wiki/plugins/notifications/forms.py:43
+msgid "Your notification settings were unchanged, so nothing saved."
+msgstr "La teva configuració de notificacions no han canviat. Res a guardar."
+
+#: wiki/plugins/notifications/models.py:17
+#, python-format
+msgid "%(user)s subscribing to %(article)s (%(type)s)"
+msgstr "%(user)s subscrit a %(article)s (%(type)s)"
+
+#: wiki/plugins/notifications/models.py:38
+#, python-format
+msgid "Article deleted: %s"
+msgstr "Article esborrat: %s"
+
+#: wiki/plugins/notifications/models.py:41
+#, python-format
+msgid "Article modified: %s"
+msgstr "Article modificat: %s"
+
+#: wiki/plugins/notifications/models.py:44
+#, python-format
+msgid "New article created: %s"
+msgstr "Nou article creat: %s"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:12
+msgid "notifications"
+msgstr "notificacions"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:17
+msgid "No notifications"
+msgstr "Sense notificacions"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:19
+msgid "Clear notifications list"
+msgstr "Esborra la llista de notificacions"
+
+#: wiki/templates/wiki/article.html:39
+msgid "This article was last modified:"
+msgstr "Aquest article es va modificar:"
+
+#: wiki/templates/wiki/base.html:113
+msgid "Search..."
+msgstr "Cerca..."
+
+#: wiki/templates/wiki/base.html:129
+msgid "Log out"
+msgstr "Tancar sessió"
+
+#: wiki/templates/wiki/accounts/login.html:3
+#: wiki/templates/wiki/accounts/signup.html:3
+#: wiki/templates/wiki/base.html:138
+msgid "Log in"
+msgstr "Iniciar Sessió"
+
+#: wiki/templates/wiki/accounts/login.html:18
+#: wiki/templates/wiki/accounts/signup.html:6
+#: wiki/templates/wiki/base.html:141
+msgid "Sign up"
+msgstr "Registra't"
+
+#: wiki/templates/wiki/create.html:4 wiki/templates/wiki/create.html:44
+msgid "Add new article"
+msgstr "Afegir nou article"
+
+#: wiki/templates/wiki/create.html:55
+msgid "Create article"
+msgstr "Crear article"
+
+#: wiki/templates/wiki/delete.html:4 wiki/templates/wiki/delete.html:52
+#: wiki/templates/wiki/edit.html:41
+msgid "Delete article"
+msgstr "Esborrar article"
+
+#: wiki/templates/wiki/delete.html:10
+msgid "You cannot delete a root article."
+msgstr "No pots esborrar un article arrel"
+
+#: wiki/templates/wiki/delete.html:16
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr ""
+"No pots esborrar aquest article perquè no tens permisos per esborrar "
+"articles amb fills. Prova d'esborrar els fills un per un."
+
+#: wiki/templates/wiki/delete.html:22
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr ""
+"Estàs esborrant un article. Això significa que els seus fills també "
+"s'esborraran. Si esculls l'opció de purgar, els fills també seran purgats!"
+
+#: wiki/templates/wiki/delete.html:24
+msgid "Articles that will be deleted"
+msgstr "Articles que seran esborrats"
+
+#: wiki/templates/wiki/delete.html:30
+msgid "...and more!"
+msgstr "... i més!"
+
+#: wiki/templates/wiki/delete.html:38
+msgid "You are deleting an article. Please confirm."
+msgstr "Estàs esborrant un article. Si us plau, confirma-ho."
+
+#: wiki/templates/wiki/deleted.html:4
+msgid "Article deleted"
+msgstr "Article esborrat"
+
+#: wiki/templates/wiki/deleted.html:13
+msgid "Article Deleted"
+msgstr "Article esborrat"
+
+#: wiki/templates/wiki/deleted.html:16
+msgid "The article you were looking for has been deleted."
+msgstr "L'article que cercàveu s'ha eliminat."
+
+#: wiki/templates/wiki/deleted.html:25
+msgid "You may restore this article and its children by clicking restore."
+msgstr ""
+"Podeu restablir aquest article i els seus fills fent clic a restablir."
+
+#: wiki/templates/wiki/deleted.html:40
+msgid ""
+"You may remove this article and any children permanently and free their "
+"slugs by clicking the below button. This action cannot be undone."
+msgstr ""
+"Podeu suprimir aquest article i qualsevol nen permanentment i alliberar les "
+"seves mantes fent clic al botó de sota. Aquesta acció no es pot desfer."
+
+#: wiki/templates/wiki/dir.html:4
+msgid "Listing articles in"
+msgstr "S'estan llistant articles a"
+
+#: wiki/templates/wiki/dir.html:16
+msgid "Up one level"
+msgstr "Pujar un nivell"
+
+#: wiki/templates/wiki/dir.html:21
+msgid "Add article"
+msgstr "Afegiu un article"
+
+#: wiki/templates/wiki/dir.html:28
+msgid "clear"
+msgstr "netejar"
+
+#: wiki/templates/wiki/dir.html:40 wiki/templates/wiki/dir.html:44
+msgid "article,articles"
+msgstr "article, articles"
+
+#: wiki/templates/wiki/dir.html:40
+msgid "matches,match"
+msgstr "coincidències,coincideix"
+
+#: wiki/templates/wiki/dir.html:42
+#, python-format
+msgid "%(cnt)s %(articles_plur)s in this level %(match_plur)s your search."
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:44
+msgid "is,are"
+msgstr "és,són"
+
+#: wiki/templates/wiki/dir.html:46
+#, python-format
+msgid "There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level."
+msgstr ""
+
+#: wiki/templates/wiki/dir.html:56
+msgid "Last modified"
+msgstr "Darrera modificació"
+
+#: wiki/templates/wiki/edit.html:4
+#: wiki/templates/wiki/includes/article_menu.html:34
+msgid "Edit"
+msgstr "Editar"
+
+#: wiki/templates/wiki/edit.html:31
+msgid "Preview"
+msgstr "Previsualitzar"
+
+#: wiki/templates/wiki/edit.html:35 wiki/templates/wiki/edit.html:57
+#: wiki/templates/wiki/settings.html:15
+msgid "Save changes"
+msgstr "Guardar els canvis"
+
+#: wiki/templates/wiki/edit.html:53
+msgid "Back to editor"
+msgstr "Tornar a l'editor"
+
+#: wiki/templates/wiki/history.html:55
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr ""
+"Clica cada revisió per veure una llista de línies editades. Clica en el botó"
+" Previsualitzar per veure com era l'article en aquest punt. Al final "
+"d'aquesta pàgina pots canviar a una revisió concreta o bé fusionar una "
+"revisió antiga amb aquesta."
+
+#: wiki/templates/wiki/history.html:74
+msgid "no log message"
+msgstr "no hi ha cap missatge de registre"
+
+#: wiki/templates/wiki/history.html:86 wiki/templates/wiki/history.html:91
+msgid "Preview this revision"
+msgstr "Previsualitzar aquesta revisió"
+
+#: wiki/templates/wiki/history.html:105
+msgid "Auto log:"
+msgstr "Auto diari:"
+
+#: wiki/templates/wiki/history.html:113
+msgid "Change"
+msgstr "Canviar"
+
+#: wiki/templates/wiki/history.html:131
+msgid "Merge selected with current..."
+msgstr "Combinar la seleccionada amb l'actual"
+
+#: wiki/templates/wiki/history.html:135
+msgid "Switch to selected version"
+msgstr "Canviar a la versió seleccionada"
+
+#: wiki/templates/wiki/history.html:151 wiki/templates/wiki/history.html:178
+msgid "Back to history view"
+msgstr "Torna a la vista d'històric"
+
+#: wiki/templates/wiki/history.html:156 wiki/templates/wiki/history.html:161
+msgid "Switch to this version"
+msgstr "Canvia a aquesta versió"
+
+#: wiki/templates/wiki/history.html:169
+msgid "Merge with current"
+msgstr "Combina amb l'actual"
+
+#: wiki/templates/wiki/history.html:170
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr ""
+"Quan fusioneu una revisió amb l'actual, totes les dades es conservaran a "
+"partir de les dues versions i es fusionaran a la seva ubicació aproximada "
+"des de cada revisió."
+
+#: wiki/templates/wiki/history.html:170
+msgid "After this, it's important to do a manual review."
+msgstr "Després d'això és important fer una revisió manual."
+
+#: wiki/templates/wiki/history.html:183 wiki/templates/wiki/history.html:188
+msgid "Create new merged version"
+msgstr "Crea una nova versió combinada"
+
+#: wiki/templates/wiki/permission_denied.html:7
+msgid "Permission Denied"
+msgstr "Permís denegat"
+
+#: wiki/templates/wiki/permission_denied.html:9
+msgid "Sorry, you don't have permission to view this page."
+msgstr "Ho sentim, no teniu permís per veure aquesta pàgina."
+
+#: wiki/templates/wiki/preview_inline.html:8
+msgid "Previewing revision"
+msgstr "Previsualització de la revisió"
+
+#: wiki/templates/wiki/preview_inline.html:15
+msgid "Previewing merge between"
+msgstr "Vista prèvia de fusió entre"
+
+#: wiki/templates/wiki/preview_inline.html:17
+msgid "and"
+msgstr "i"
+
+#: wiki/templates/wiki/preview_inline.html:26
+msgid "This revision has been deleted."
+msgstr "Aquesta revisió s'ha eliminat."
+
+#: wiki/templates/wiki/preview_inline.html:27
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "Si restabliu aquesta revisió marcareu l'article com esborrat."
+
+#: wiki/templates/wiki/includes/article_menu.html:9
+#: wiki/templates/wiki/settings.html:4
+msgid "Settings"
+msgstr "Configuració"
+
+#: wiki/templates/wiki/source.html:4
+msgid "Source of"
+msgstr "Font de"
+
+#: wiki/templates/wiki/source.html:9
+msgid "This article is currently locked for editing."
+msgstr "Aquest article està bloquejat actualment per editar-lo."
+
+#: wiki/templates/wiki/accounts/login.html:6
+msgid "Please log in"
+msgstr "Si us plau inicieu sessió"
+
+#: wiki/templates/wiki/accounts/login.html:12
+msgid "Log me in..."
+msgstr "Entreu en ..."
+
+#: wiki/templates/wiki/accounts/login.html:18
+msgid "Don't have an account?"
+msgstr "No teniu un compte?"
+
+#: wiki/templates/wiki/accounts/signup.html:12
+msgid "Sign me up..."
+msgstr "Dóna'm d'alta..."
+
+#: wiki/templates/wiki/article/create_root.html:4
+msgid "Create root article"
+msgstr "Crea un article arrel"
+
+#: wiki/templates/wiki/article/create_root.html:22
+msgid "Congratulations!"
+msgstr "Felicitacions"
+
+#: wiki/templates/wiki/article/create_root.html:24
+msgid ""
+"You have django-wiki installed... but there are no articles. So it's time to"
+" create the first one, the root article. In the beginning, it will only be "
+"editable by administrators, but you can define permissions after."
+msgstr ""
+"Teniu django-wiki instal·lat ... però no hi ha articles. Per tant, és el "
+"moment de crear el primer, l'article arrel. Al principi, els administradors "
+"només podran editar-los, però podeu definir permisos després."
+
+#: wiki/templates/wiki/article/create_root.html:27
+msgid "Root article"
+msgstr "Article arrel"
+
+#: wiki/templates/wiki/article/create_root.html:32
+msgid "Create root"
+msgstr "Crei l'arrel"
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:8
+#, python-format
+msgid ""
+"You need to <a href=\"%(login_url)s\">log in</a> or <a "
+"href=\"%(signup_url)s\">sign up</a> to use this function."
+msgstr ""
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:10
+msgid "You need to log in og sign up to use this function."
+msgstr "Heu d'iniciar sessió i registrar-vos per utilitzar aquesta funció."
+
+#: wiki/templates/wiki/includes/article_menu.html:26
+msgid "Changes"
+msgstr "Canvis"
+
+#: wiki/templates/wiki/includes/article_menu.html:41
+msgid "View Source"
+msgstr "Veure font"
+
+#: wiki/templates/wiki/includes/article_menu.html:49
+msgid "View"
+msgstr "Vista"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:16
+#: wiki/templates/wiki/includes/breadcrumbs.html:42
+msgid "Sub-articles for"
+msgstr "Sub articles per a"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:28
+msgid "No sub-articles"
+msgstr "Sense sub articles"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:31
+msgid "...and more"
+msgstr "...i més"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:35
+msgid "Browse articles in this level"
+msgstr "Cerca articles en aquest nivell"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:51
+msgid "New article next to"
+msgstr "Nou article al costat de"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:56
+msgid "New article below"
+msgstr "Nou article a continuació"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "by"
+msgstr "per"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "anonymous (IP logged)"
+msgstr "anònim (IP enregistrada)"
+
+#: wiki/templates/wiki/includes/revision_info.html:18
+msgid "restored"
+msgstr "restaurat"
+
+#: wiki/templates/wiki/includes/revision_info.html:24
+msgid "unlocked"
+msgstr "desbloquejat"
+
+#: wiki/views/accounts.py:25
+msgid "You are now sign up... and now you can sign in!"
+msgstr "Ja esteu enregistrat... ara podeu entrar!"
+
+#: wiki/views/accounts.py:32
+msgid "You are no longer logged in. Bye bye!"
+msgstr "Heu sortit del sistema. Adéu!"
+
+#: wiki/views/accounts.py:57
+msgid "You are now logged in! Have fun!"
+msgstr "Ja sou dins! Diverteix-te!"
+
+#: wiki/views/article.py:87
+#, python-format
+msgid "New article '%s' created."
+msgstr "S'ha creat un nou article '%s'."
+
+#: wiki/views/article.py:92
+#, python-format
+msgid "There was an error creating this article: %s"
+msgstr "Hi ha hagut un error creant l'article: %s"
+
+#: wiki/views/article.py:94
+msgid "There was an error creating this article."
+msgstr "Error creant l'article."
+
+#: wiki/views/article.py:175
+msgid ""
+"This article cannot be deleted because it has children or is a root article."
+msgstr ""
+"No s'ha pogut esborrar l'article perquè té fills o no és un article arrel."
+
+#: wiki/views/article.py:186
+msgid ""
+"This article together with all its contents are now completely gone! Thanks!"
+msgstr "L'article juntament amb el seu contingut s'han eliminat. Gràcies!"
+
+#: wiki/views/article.py:193
+#, python-format
+msgid ""
+"The article \"%s\" is now marked as deleted! Thanks for keeping the site "
+"free from unwanted material!"
+msgstr ""
+"L'article \"%s\" s'ha marcat com esborrat! Gràcies per mantenir el lloc "
+"lliure de material indesitjat!"
+
+#: wiki/views/article.py:276
+msgid "Your changes were saved."
+msgstr "S'han guardat els teus canvis."
+
+#: wiki/views/article.py:299
+msgid "A new revision of the article was successfully added."
+msgstr "S'ha afegit una nova revisió de l'article."
+
+#: wiki/views/article.py:356
+msgid "Restoring article"
+msgstr "Restablint l'article"
+
+#: wiki/views/article.py:358
+#, python-format
+msgid "The article \"%s\" and its children are now restored."
+msgstr "L'article \"%s\" i els seus fills s'han restablert."
+
+#: wiki/views/article.py:542
+#, python-format
+msgid ""
+"The article %(title)s is now set to display revision #%(revision_number)d"
+msgstr ""
+"L'article %(title)s s'ha configurat per mostrar la revisió "
+"#%(revision_number)d"
+
+#: wiki/views/article.py:607
+msgid "New title"
+msgstr "Nou títol"
+
+#: wiki/views/article.py:631
+#, python-format
+msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
+msgstr "Fusiona la Revisió #%(r1)d i la Revisió #%(r2)d"
+
+#: wiki/views/article.py:635
+#, python-format
+msgid ""
+"A new revision was created: Merge between Revision #%(r1)d and Revision "
+"#%(r2)d"
+msgstr ""
+"S'ha creat una nova revisió: fusió entre la Revisió #%(r1)d i la Revisió "
+"#%(r2)d"

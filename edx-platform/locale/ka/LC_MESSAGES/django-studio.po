@@ -1,0 +1,799 @@
+# edX community translations have been downloaded from Georgian (http://www.transifex.com/open-edx/edx-platform/language/ka/).
+# Copyright (C) 2020 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Giorgi Goderdzishvili <biggeorgian@gmail.com>, 2016
+# Giorgi Goderdzishvili <biggeorgian@gmail.com>, 2016
+# Lasha Kokilashvili, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2020-07-19 20:45+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Georgian (http://www.transifex.com/open-edx/edx-platform/language/ka/)\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: cms/djangoapps/api/v1/serializers/course_runs.py:52
+msgid "Course team user does not exist"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py:27
+msgid ""
+"The groups in this configuration can be mapped to cohorts in the Instructor "
+"Dashboard."
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py:30
+msgid "Content Groups"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py:65
+#: cms/djangoapps/contentstore/views/certificates.py:142
+msgid "invalid JSON"
+msgstr "არასწორი JSON"
+
+#: cms/djangoapps/contentstore/course_group_config.py:74
+msgid "must have name of the configuration"
+msgstr "აუცილებელია კონფიგურაციის სახელის მითითება"
+
+#: cms/djangoapps/contentstore/course_group_config.py:76
+msgid "must have at least one group"
+msgstr "აუცილებელია სულ მცირე ერთი ჯგუფის არსებობა"
+
+#: cms/djangoapps/contentstore/course_group_config.py:114
+msgid "unable to load this type of group configuration"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_info_model.py:73
+#: cms/djangoapps/contentstore/course_info_model.py:148
+msgid "Invalid course update id."
+msgstr "კურსის განახლების არასწორი იდენტიფიკატორი."
+
+#: cms/djangoapps/contentstore/course_info_model.py:115
+msgid "Course update not found."
+msgstr "კურსის განახლების მოძიება ვერ მოხერხდა."
+
+#: cms/djangoapps/contentstore/courseware_index.py:246
+msgid "Could not index item: {}"
+msgstr "{} ერთეულის ინდექსაცია ვერ მოხერხდა"
+
+#: cms/djangoapps/contentstore/courseware_index.py:268
+msgid "General indexing error occurred"
+msgstr "ინდექსაციის დროს წარმოიშვა შეცდომა"
+
+#: cms/djangoapps/contentstore/courseware_index.py:352
+msgid "(Unnamed)"
+msgstr "(სახელის გარეშე)"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:39
+#, python-brace-format
+msgid ""
+"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
+"configure a different path with GIT_REPO_EXPORT_DIR"
+msgstr ""
+"GIT_REPO_EXPORT_DIR ცვლადის მნიშვნელობა არ არის დაყენებული, ან კატალოგი {0} "
+"არ არსებობს. გთხოვთ შექმნათ ის, ან GIT_REPO_EXPORT_DIR ცვლადში მიუთითოთ სხვა"
+" კატალოგი"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:42
+msgid ""
+"Non writable git url provided. Expecting something like: "
+"git@github.com:edx/edx4edx_lite.git"
+msgstr ""
+
+#: cms/djangoapps/contentstore/git_export_utils.py:44
+msgid ""
+"If using http urls, you must provide the username and password in the url. "
+"Similar to https://user:pass@github.com/user/course."
+msgstr ""
+"თუ http მისამართებს იყენებთ, მაშინ საჭიროა მასში მომხმარებლის სახელისა და "
+"პაროლის მითითება. მაგალითად: https://user:pass@github.com/user/course."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:47
+msgid "Unable to determine branch, repo in detached HEAD mode"
+msgstr ""
+"განშტოების იდენტიფიცირება შეუძლებელია. საცავი გამორთულია HEAD რეჟიმიდან"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:48
+msgid "Unable to update or clone git repository."
+msgstr "git საცავის განახლება, ან კლონირება ვერ ხერხდება."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:49
+msgid "Unable to export course to xml."
+msgstr "კურსის xml ფორმატში ექსპორტი ვერ ხერხდება."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:50
+msgid "Unable to configure git username and password"
+msgstr "git მომხმარებლის სახელისა და პაროლის დაყენება ვერ ხერხდება"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:51
+msgid ""
+"Unable to commit changes. This is usually because there are no changes to be"
+" committed"
+msgstr ""
+"ცვლილებების გადატანა ვერ მოხერხდა. ძირითადად ეს ნიშნავს, რომ გადასატანი "
+"ცვლილებები არ არსებობს"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:53
+msgid ""
+"Unable to push changes.  This is usually because the remote repository "
+"cannot be contacted"
+msgstr ""
+"ცვლილებების გადაცემა ვერ მოხერხდა. ჩვეულებრვ ეს გამოწვეულია იმით, რომ "
+"საცავთან დაკავშირება ვერ მოხერხდა"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:55
+msgid "Bad course location provided"
+msgstr "მითითებულია კურსის არასწორი მდებარეობა"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:56
+msgid "Missing branch on fresh clone"
+msgstr "ახალ კლონში განშტოება არ არის"
+
+#: cms/djangoapps/contentstore/management/commands/git_export.py:35
+msgid ""
+"Take the specified course and attempt to export it to a git repository\n"
+". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
+msgstr ""
+"მოცემული კურსის აღება და მისი git საცავში გადატანის მცდელობა\n"
+". კურსის კატალოგი git საცავში უკვე უნდა არსებობდეს. გამოყენება: git_export <course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/tasks.py:247
+#: cms/djangoapps/contentstore/tasks.py:378
+#, python-brace-format
+msgid "Unknown User ID: {0}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py:251
+#: cms/djangoapps/contentstore/tasks.py:382
+msgid "Permission denied"
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py:406
+#: cms/djangoapps/contentstore/views/import_export.py:134
+msgid "We only support uploading a .tar.gz file."
+msgstr "მხარდაჭერილია მხოლოდ .tar.gz ფაილების ატვირთვა."
+
+#: cms/djangoapps/contentstore/tasks.py:419
+msgid "Tar file not found"
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py:465
+msgid "Unsafe tar file. Aborting import."
+msgstr ""
+
+#: cms/djangoapps/contentstore/tasks.py:498
+#, python-brace-format
+msgid "Could not find the {0} file in the package."
+msgstr "პაკეტში {0} ფაილის მოძიება ვერ მოხერხდა."
+
+#: cms/djangoapps/contentstore/utils.py:440
+msgid "Deleted Group"
+msgstr ""
+
+#. Translators: This is building up a list of groups. It is marked for
+#. translation because of the
+#. comma, which is used as a separator between each group.
+#: cms/djangoapps/contentstore/utils.py:505
+#, python-brace-format
+msgid "{previous_groups}, {current_group}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:44
+msgid "The image must have name, content type, and size information."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:46
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:50
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:54
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:61
+#: cms/djangoapps/contentstore/video_utils.py:63
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:66
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:74
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/video_utils.py:81
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/assets.py:431
+msgid "Upload completed"
+msgstr "ატვირთვა დასრულებულია"
+
+#: cms/djangoapps/contentstore/views/assets.py:475
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/certificates.py:165
+msgid "must have name of the certificate"
+msgstr "აუცილებელის სერტიფიკატის სახელის მითითება"
+
+#: cms/djangoapps/contentstore/views/certificates.py:250
+#, python-brace-format
+msgid "Certificate dict {0} missing value key '{1}'"
+msgstr "სერტიფიკატის ლექსიკონს {0} აკლია მნიშვნელობა '{1}' გასაღებში"
+
+#: cms/djangoapps/contentstore/views/certificates.py:355
+#: cms/djangoapps/contentstore/views/certificates.py:393
+#, python-brace-format
+msgid "PermissionDenied: Failed in authenticating {user}"
+msgstr "PermissionDenied: {user} მომხმარებლის ავტორიზაცია ვერ მოხერხდა"
+
+#: cms/djangoapps/contentstore/views/component.py:255
+#, python-brace-format
+msgid "{platform_name} Support Levels:"
+msgstr "{platform_name} მხარდაჭერის დონე:"
+
+#: cms/djangoapps/contentstore/views/component.py:260
+msgid "HTML"
+msgstr "HTML"
+
+#: cms/djangoapps/contentstore/views/component.py:261
+msgid "Problem"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py:262
+msgid "Video"
+msgstr "ვიდეო"
+
+#: cms/djangoapps/contentstore/views/component.py:290
+msgid "Blank"
+msgstr "ცარიელი"
+
+#: cms/djangoapps/contentstore/views/course.py:340
+msgid "Course has been successfully reindexed."
+msgstr "კურსის ხელახალი ინდექსაცია წარმატებით დასრულდა."
+
+#: cms/djangoapps/contentstore/views/course.py:645
+msgid "Set Date"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/course.py:820
+msgid ""
+"Special characters not allowed in organization, course number, and course "
+"run."
+msgstr ""
+"ორგანიზაციის დასახელებაში, კურსის ნომერსა და კურსის გაშვებაში სპეციალური "
+"სიმბოლოების გამოყენება დაუშვებელია."
+
+#: cms/djangoapps/contentstore/views/course.py:856
+msgid ""
+"There is already a course defined with the same organization and course "
+"number. Please change either organization or course number to be unique."
+msgstr ""
+"ამ ორგანიზაციისა და ნომრის მქონე კურსი უკვე არის. გთხოვთ, უნიკალური "
+"დასახელებისთვის, შეცვალოთ ორგანიზაციის, ან კურსის სახელწოდება."
+
+#: cms/djangoapps/contentstore/views/course.py:861
+#: cms/djangoapps/contentstore/views/course.py:864
+msgid ""
+"Please change either the organization or course number so that it is unique."
+msgstr ""
+"გთხოვთ, უნიკალური დასახელებისთვის, შეცვალოთ ორგანიზაციის, ან კურსის "
+"სახელწოდება."
+
+#: cms/djangoapps/contentstore/views/course.py:869
+#, python-brace-format
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"ვერ მოხერხდა '{name}' კურსის შექმნა.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/course.py:882
+msgid ""
+"You must link this course to an organization in order to continue. "
+"Organization you selected does not exist in the system, you will need to add"
+" it to the system"
+msgstr ""
+"გაგრძელებამდე, მოცემული კურსი ორგანიზაციას უნდა დაუკავშიროთ. თქვენი არცეული "
+"ორგანიზაცია სისტემაში რეგისტრირებული არ არის. თქვენ მისი სისტემაში დამატება "
+"დაგჭირდებათ."
+
+#: cms/djangoapps/contentstore/views/course.py:1168
+msgid "Invalid prerequisite course key"
+msgstr "სავალდებულო კურსის არასწორი გასაღები"
+
+#: cms/djangoapps/contentstore/views/course.py:1373
+msgid "An error occurred while trying to save your tabs"
+msgstr "თქვენი ჩანართების შენახვის მცდელობისას წარმოიშვა შეცდომა"
+
+#: cms/djangoapps/contentstore/views/course.py:1374
+msgid "Tabs Exception"
+msgstr "ჩანართების განახლების შეცდომა"
+
+#: cms/djangoapps/contentstore/views/course.py:1601
+msgid "This group configuration is in use and cannot be deleted."
+msgstr ""
+"ჯგუფების ეს კონფიგურაცია ამჟამად გამოიყენება და მისი წაშლა შეუძლებელია."
+
+#: cms/djangoapps/contentstore/views/course.py:1615
+msgid "This content group is in use and cannot be deleted."
+msgstr "შინაარსის ეს ჯგუფი გამოყენებაშია და მისი წაშლა შეუძლებელია."
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:159
+msgid "Entrance Exam - Subsection"
+msgstr "მისაღები გამოცდა - ქვეგანყოფილება"
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:253
+msgid "Completed Course Entrance Exam"
+msgstr "დასრულებული მისაღები გამოცდა"
+
+#: cms/djangoapps/contentstore/views/export_git.py:48
+msgid "Course successfully exported to git repository"
+msgstr "კურსი წარმატებით დაექსპორტდა git რეპოზიტორიუმში"
+
+#: cms/djangoapps/contentstore/views/helpers.py:135
+msgid "Vertical"
+msgstr "ვერტიკალური"
+
+#: cms/djangoapps/contentstore/views/helpers.py:139
+msgid "Section"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/helpers.py:141
+msgid "Subsection"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/import_export.py:172
+msgid "File upload corrupted. Please try again"
+msgstr "ატვირთული ფაილი დაზიანებულია. გთხოვთ ხელახლა სცადოთ"
+
+#: cms/djangoapps/contentstore/views/item.py:237
+#: cms/djangoapps/contentstore/views/item.py:725
+#, python-brace-format
+msgid "Libraries cannot have more than {limit} components"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:625
+msgid "Invalid data"
+msgstr "არასწორი მონაცემები"
+
+#: cms/djangoapps/contentstore/views/item.py:627
+#, python-brace-format
+msgid "Invalid data ({details})"
+msgstr "არასწორი მონაცემები ({details})"
+
+#: cms/djangoapps/contentstore/views/item.py:817
+#, python-brace-format
+msgid "You can not move {source_type} into {target_parent_type}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:822
+msgid "Item is already present in target location."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:824
+msgid "You can not move an item into itself."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:826
+msgid "You can not move an item into it's child."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:828
+msgid "You can not move an item directly into content experiment."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:830
+#, python-brace-format
+msgid "{source_usage_key} not found in {parent_usage_key}."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:838
+#, python-brace-format
+msgid ""
+"You can not move {source_usage_key} at an invalid index ({target_index})."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:843
+#, python-brace-format
+msgid "You must provide target_index ({target_index}) as an integer."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:902
+#, python-brace-format
+msgid "Duplicate of {0}"
+msgstr "{0}-ის ასლი"
+
+#: cms/djangoapps/contentstore/views/item.py:904
+#, python-brace-format
+msgid "Duplicate of '{0}'"
+msgstr "'{0}'-ის ასლი"
+
+#. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
+#. in many languages. This is used to avoid Transifex's misinterpreting of
+#. '% o'. The percent sign is also translatable as a standalone string.
+#: cms/djangoapps/contentstore/views/item.py:1204
+#, python-brace-format
+msgid ""
+"Students must score {score}{pct_sign} or higher to access course materials."
+msgstr ""
+"კურსის მასალასთან წვდომის მისაღებად, სტუდენტმა უნდა მოიპოვოს "
+"{score}{pct_sign} და მეტი ქულა."
+
+#. Translators: This is the percent sign. It will be used to represent
+#. a percent value out of 100, e.g. "58%" means "58/100".
+#: cms/djangoapps/contentstore/views/item.py:1208
+msgid "%"
+msgstr "%"
+
+#: cms/djangoapps/contentstore/views/item.py:1580
+#, python-brace-format
+msgid "{section_or_subsection} \"{display_name}\""
+msgstr "{section_or_subsection} \"{display_name}\""
+
+#: cms/djangoapps/contentstore/views/library.py:185
+#, python-brace-format
+msgid "Unable to create library - missing required field '{field}'"
+msgstr ""
+"ბიბლიოთეკის შექმნა ვერ ხერხდება - არ არის მითითებული სავალდებულო ველი "
+"'{field}'"
+
+#: cms/djangoapps/contentstore/views/library.py:190
+#, python-brace-format
+msgid ""
+"Unable to create library '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"ვერ ხერხდება '{name}' ბიბლიოთეკის შექმნა.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/library.py:196
+msgid ""
+"There is already a library defined with the same organization and library "
+"code. Please change your library code so that it is unique within your "
+"organization."
+msgstr ""
+"ამ ორგანიზაციის ბიბლიოთეკა მითითებული კოდით უკვე არსებობს. გთხოვთ, შეცვალეთ "
+"თქვენი ბიბლიოთეკის კოდი, რომ თქვენი ორგანიზაციის ფარგლებში უნიკალური იყოს."
+
+#: cms/djangoapps/contentstore/views/preview.py:288
+#, python-brace-format
+msgid "Access restricted to: {list_of_groups}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py:126
+msgid "The information you entered is incorrect."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:149
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:469
+msgid "Transcripts are supported only for \"video\" modules."
+msgstr "სუბტიტრები მხარდაჭერილია მხოლოდ „ვიდეო“ მოდულებისთვის."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:151
+msgid "Cannot find item by locator."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:172
+msgid "Video locator is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:176
+msgid "This transcript file type is not supported."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:178
+msgid "Video ID is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:461
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:503
+msgid "Incoming video data is empty."
+msgstr "შემომავალი ვიდეოს მონაცემები ცარიელია."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:466
+msgid "Can't find item by locator."
+msgstr "ლოკატორის მიხედვით ერთეულის მოძიება ვერ მოხერხდა."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:552
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:591
+msgid "No such transcript."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:562
+msgid "There is a problem with the chosen transcript file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:602
+msgid ""
+"There is a problem with the existing transcript file. Please upload a "
+"different file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:622
+msgid "YouTube ID is required."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:639
+msgid "There is a problem with the YouTube transcript file."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/user.py:108
+msgid "Insufficient permissions"
+msgstr "არასაკმარისი უფლებები"
+
+#: cms/djangoapps/contentstore/views/user.py:120
+#, python-brace-format
+msgid "Could not find user by email address '{email}'."
+msgstr "'{email}' მისამართის მიხედვით მომხმარებლის მოძიება ვერ მოხერხდა."
+
+#: cms/djangoapps/contentstore/views/user.py:159
+msgid "No `role` specified."
+msgstr "`role` არ არის მითითებული"
+
+#: cms/djangoapps/contentstore/views/user.py:164
+#, python-brace-format
+msgid "User {email} has registered but has not yet activated his/her account."
+msgstr ""
+"მომხმარებელი {email} დარეგისტრირდა, მაგრამ საკუთარი ანგარიშის აქტივაცია ჯერ "
+"არ მოუხდენია."
+
+#: cms/djangoapps/contentstore/views/user.py:185
+msgid "Invalid `role` specified."
+msgstr "მითითებულია არასწორი `role`"
+
+#: cms/djangoapps/contentstore/views/user.py:189
+msgid "You may not remove the last Admin. Add another Admin first."
+msgstr ""
+"თქვენ არ შეგიძლიათ ბოლო ადმინისტრატორის წაშლა. ჯერ ახალი ადმინისტრატორი "
+"დაამატეთ."
+
+#. Translators: This is the status of an active video upload
+#: cms/djangoapps/contentstore/views/videos.py:148
+msgid "Uploading"
+msgstr "ატვირთვა"
+
+#. Translators: This is the status for a video that the servers are currently
+#. processing
+#: cms/djangoapps/contentstore/views/videos.py:150
+msgid "In Progress"
+msgstr "მიმდინარეობს"
+
+#. Translators: This is the status for a video that the servers have
+#. successfully processed
+#: cms/djangoapps/contentstore/views/videos.py:152
+msgid "Ready"
+msgstr "მზადაა"
+
+#. Translators: This is the status for a video that is uploaded completely
+#: cms/djangoapps/contentstore/views/videos.py:154
+msgid "Uploaded"
+msgstr ""
+
+#. Translators: This is the status for a video that the servers have failed to
+#. process
+#: cms/djangoapps/contentstore/views/videos.py:156
+msgid "Failed"
+msgstr "ჩაიშალა"
+
+#. Translators: This is the status for a video that is cancelled during upload
+#. by user
+#: cms/djangoapps/contentstore/views/videos.py:158
+msgid "Cancelled"
+msgstr "გაუქმდა"
+
+#. Translators: This is the status for a video which has failed
+#. due to being flagged as a duplicate by an external or internal CMS
+#: cms/djangoapps/contentstore/views/videos.py:161
+msgid "Failed Duplicate"
+msgstr "არაფუნქციური ასლი"
+
+#. Translators: This is the status for a video which has duplicate token for
+#. youtube
+#: cms/djangoapps/contentstore/views/videos.py:163
+msgid "YouTube Duplicate"
+msgstr ""
+
+#. Translators: This is the status for a video for which an invalid
+#. processing token was provided in the course settings
+#: cms/djangoapps/contentstore/views/videos.py:166
+msgid "Invalid Token"
+msgstr "არასწორი ტოკენი"
+
+#. Translators: This is the status for a video that was included in a course
+#. import
+#: cms/djangoapps/contentstore/views/videos.py:168
+msgid "Imported"
+msgstr "შემოტანილი"
+
+#. Translators: This is the status for a video that is in an unknown state
+#: cms/djangoapps/contentstore/views/videos.py:170
+msgid "Unknown"
+msgstr "უცნობი"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py:172
+msgid "Transcription in Progress"
+msgstr ""
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py:174
+msgid "Transcript Ready"
+msgstr ""
+
+#. Translators: This is the status for a video whose transcription job was
+#. failed for some languages
+#: cms/djangoapps/contentstore/views/videos.py:176
+msgid "Partial Failure"
+msgstr ""
+
+#. Translators: This is the status for a video whose transcription job has
+#. failed altogether
+#: cms/djangoapps/contentstore/views/videos.py:178
+msgid "Transcript Failed"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/videos.py:263
+msgid "An image file is required."
+msgstr ""
+
+#. Translators: This is the header for a CSV file column
+#. containing URLs for video encodings for the named profile
+#. (e.g. desktop, mobile high quality, mobile low quality)
+#: cms/djangoapps/contentstore/views/videos.py:422
+#, python-brace-format
+msgid "{profile_name} URL"
+msgstr "{profile_name} URL"
+
+#: cms/djangoapps/contentstore/views/videos.py:428
+msgid "Duration"
+msgstr "ხანგრძლივობა"
+
+#: cms/djangoapps/contentstore/views/videos.py:429
+msgid "Date Added"
+msgstr "დამატების თარიღით"
+
+#. Translators: This is the suggested filename when downloading the URL
+#. listing for videos uploaded through Studio
+#: cms/djangoapps/contentstore/views/videos.py:467
+#, python-brace-format
+msgid "{course}_video_urls"
+msgstr "{course}_video_urls"
+
+#: cms/djangoapps/contentstore/views/videos.py:901
+msgid "A non zero positive integer is expected"
+msgstr ""
+
+#: cms/djangoapps/course_creators/models.py:38
+msgid "unrequested"
+msgstr "დაურეგისტრირებელი"
+
+#: cms/djangoapps/course_creators/models.py:39
+msgid "pending"
+msgstr "მოლოდინი"
+
+#: cms/djangoapps/course_creators/models.py:40
+msgid "granted"
+msgstr "მინიჭებული"
+
+#: cms/djangoapps/course_creators/models.py:41
+msgid "denied"
+msgstr "აკრძალულია"
+
+#: cms/djangoapps/course_creators/models.py:44
+msgid "Studio user"
+msgstr "სტუდიის მომხმარებელი"
+
+#: cms/djangoapps/course_creators/models.py:46
+msgid "The date when state was last updated"
+msgstr "მდგომარეობის უკანასკნელი ცვლილების თარიღი"
+
+#: cms/djangoapps/course_creators/models.py:48
+msgid "Current course creator state"
+msgstr "კურსის შემქმნელის ამჟამინდელი მდგომარეობა"
+
+#: cms/djangoapps/course_creators/models.py:49
+msgid ""
+"Optional notes about this user (for example, why course creation access was "
+"denied)"
+msgstr ""
+"დამატებითი ცნობები მომხმარებლის შესახებ (მაგალითად, რატომ შეეზღუდა კურსის "
+"შემქმელთან წვდომა)"
+
+#: cms/djangoapps/maintenance/views.py:37
+msgid "Force Publish Course"
+msgstr "კურსის დაჩქარებული გამოქვეყნება"
+
+#: cms/djangoapps/maintenance/views.py:40
+msgid ""
+"Sometimes the draft and published branches of a course can get out of sync. "
+"Force publish course command resets the published branch of a course to "
+"point to the draft branch, effectively force publishing the course. This "
+"view dry runs the force publish command"
+msgstr ""
+"ხანდახან კურსის მონახაზისა და გამოქვეყნებული განშტოებების სინქრონიზაცია "
+"ირღვევა. დაჩქარებული გამოქვეყნების ბრძანება გამოქვეყნებულ ვერსიას მონახაზის "
+"ვერსიამდე ჩამოყრის და მთლიანად აქვეყნებს ყველა ცვლილებას. ეს ხედი "
+"დაჩქარებული გამოქვეყნების იმიტაციის საშულებას იძლევა."
+
+#: cms/djangoapps/maintenance/views.py:47
+msgid "Edit Announcements"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:50
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:58
+msgid "Please provide course id."
+msgstr "გთხოვთ მიუთითოს კურსის იდენტიფიკატორი."
+
+#: cms/djangoapps/maintenance/views.py:59
+msgid "Invalid course key."
+msgstr "კურსის არასწორი გასაღები."
+
+#: cms/djangoapps/maintenance/views.py:60
+msgid "No matching course found."
+msgstr "შესაბამისი კურსის მოძიება ვერ მოხერხდა."
+
+#: cms/djangoapps/maintenance/views.py:201
+msgid "Force publishing course is not supported with old mongo courses."
+msgstr ""
+"იძულებითი გამოქვეყნება არ არის მხარდაჭერილი მონგო კურსების ძველ ვერსიაში."
+
+#: cms/djangoapps/maintenance/views.py:215
+msgid "Course is already in published state."
+msgstr "კურსი უკვე გამოქვეყნებულია."
+
+#: cms/djangoapps/models/settings/course_metadata.py:212
+#, python-brace-format
+msgid "Incorrect format for field '{name}'. {detailed_message}"
+msgstr "'{name}' ველის არასწორი ფორმატი. {detailed_message}"
+
+#: cms/lib/xblock/tagging/tagging.py:25
+msgid "Dictionary with the available tags"
+msgstr "ხელმისაწვდომი თეგების ლექსიკონი"
+
+#: cms/urls.py:24
+msgid "Studio Administration"
+msgstr ""

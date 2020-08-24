@@ -1,0 +1,1535 @@
+# edX community translations have been downloaded from Ukrainian (http://www.transifex.com/open-edx/edx-platform/language/uk/)
+# Copyright (C) 2020 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Alexey Yuriev <yurievac@gmail.com>, 2018
+# Andrey Kryachko, 2018
+# Irene Korotkova <irca.gav@gmail.com>, 2017
+# IvanPrimachenko <jastudent1@gmail.com>, 2014
+# Natalia Vynogradenko <tannaha@gmail.com>, 2017
+# Валентина Пицик <lushalusha007@gmail.com>, 2019
+# Ксенія Воронова <ksenya.voronova@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"PO-Revision-Date: 2019-03-05 13:08+0000\n"
+"Last-Translator: Валентина Пицик <lushalusha007@gmail.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/open-edx/edx-platform/language/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: wiki/admin.py:72 wiki/models/article.py:28
+msgid "created"
+msgstr "створено"
+
+#: wiki/apps.py:9
+msgid "Wiki notifications"
+msgstr "Вікі сповіщення"
+
+#: wiki/apps.py:15
+msgid "Wiki images"
+msgstr "Вікі зображення"
+
+#: wiki/apps.py:21
+msgid "Wiki attachments"
+msgstr "Вікі вкладення"
+
+#: wiki/forms.py:31
+msgid "Only localhost... muahahaha"
+msgstr "Тільки локальний комп'ютер ... муахахаха"
+
+#: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
+#: wiki/templates/wiki/dir.html:54
+msgid "Title"
+msgstr "Назва"
+
+#: wiki/forms.py:37
+msgid "Initial title of the article. May be overridden with revision titles."
+msgstr "Початкова назва статті. Може бути замінена заголовками інших версій."
+
+#: wiki/forms.py:38
+msgid "Type in some contents"
+msgstr "Додайте контент"
+
+#: wiki/forms.py:39
+msgid ""
+"This is just the initial contents of your article. After creating it, you "
+"can use more complex features like adding plugins, meta data, related "
+"articles etc..."
+msgstr ""
+"Це лише початковий контент вашої статті. Після її створення, ви зможете "
+"використовувати більш складні функції такі, як додавання плагінів, "
+"метаданих, пов'язаних статей і т.д."
+
+#: wiki/forms.py:46 wiki/forms.py:209
+msgid "Contents"
+msgstr "Контент"
+
+#: wiki/forms.py:49 wiki/forms.py:212
+msgid "Summary"
+msgstr "Резюме"
+
+#: wiki/forms.py:49
+msgid ""
+"Give a short reason for your edit, which will be stated in the revision log."
+msgstr ""
+"Коротко опишіть причину редагування, яка буде записана в журнал виправлень."
+
+#: wiki/forms.py:98
+msgid ""
+"While you were editing, someone else changed the revision. Your contents "
+"have been automatically merged with the new contents. Please review the text"
+" below."
+msgstr ""
+"Поки ви редагували, хтось вже вніс зміни в поточну версію. Ваш зміст було "
+"автоматично злито з новим контентом. Будь ласка, перевірте текст внизу."
+
+#: wiki/forms.py:100
+msgid "No changes made. Nothing to save."
+msgstr "Змін не було. Нічого зберігати."
+
+#: wiki/forms.py:162
+msgid "Select an option"
+msgstr "Оберіть опцію"
+
+#: wiki/forms.py:207 wiki/templates/wiki/dir.html:55
+msgid "Slug"
+msgstr "Slug-рядок"
+
+#: wiki/forms.py:207
+msgid ""
+"This will be the address where your article can be found. Use only "
+"alphanumeric characters and - or _. Note that you cannot change the slug "
+"after creating the article."
+msgstr ""
+"Це адреса, за якою буде доступна ваша стаття. Використовуйте тільки "
+"алфавітно-цифрові символи, та - або _. Пам'ятайте, що ви не зможете змінити "
+"посилання після створення статті."
+
+#: wiki/forms.py:212
+msgid "Write a brief message for the article's history log."
+msgstr "Напишіть коротке повідомлення для журналу історії статті."
+
+#: wiki/forms.py:222
+msgid "A slug may not begin with an underscore."
+msgstr "Slug-рядок не може починатися з символу підкреслення"
+
+#: wiki/forms.py:231
+#, python-format
+msgid "A deleted article with slug \"%s\" already exists."
+msgstr "Видалена стаття зі slug-рядком \"%s\" вже існує."
+
+#: wiki/forms.py:233
+#, python-format
+msgid "A slug named \"%s\" already exists."
+msgstr "Стаття зі slug-рядком \"%s\" вже існує."
+
+#: wiki/forms.py:246
+msgid "Yes, I am sure"
+msgstr "Так, я впевнений"
+
+#: wiki/forms.py:248 wiki/templates/wiki/deleted.html:46
+msgid "Purge"
+msgstr "Очищення"
+
+#: wiki/forms.py:249
+msgid ""
+"Purge the article: Completely remove it (and all its contents) with no undo."
+" Purging is a good idea if you want to free the slug such that users can "
+"create new articles in its place."
+msgstr ""
+"Очищення статті: Повне видалення (включаючи весь вміст) без можливості "
+"відновлення. Очищення підходить в тому випадку, коли ви хочете вивільнити "
+"коротку назву, щоб користувачі могли створювати нові статті на відповідному "
+"місці."
+
+#: wiki/forms.py:256 wiki/plugins/attachments/forms.py:24
+#: wiki/plugins/images/forms.py:64
+msgid "You are not sure enough!"
+msgstr "Не схоже, що ви впевнені!"
+
+#: wiki/forms.py:258
+msgid "While you tried to delete this article, it was modified. TAKE CARE!"
+msgstr ""
+"Поки ви намагалися видалити цю статтю, вона була змінена. БУДЬТЕ ОБЕРЕЖНІ!"
+
+#: wiki/forms.py:264
+msgid "Lock article"
+msgstr "Заблокувати статтю"
+
+#: wiki/forms.py:264
+msgid "Deny all users access to edit this article."
+msgstr "Заборонити всім користувачам редагувати цю статтю."
+
+#: wiki/forms.py:267
+msgid "Permissions"
+msgstr "Права доступу"
+
+#: wiki/forms.py:271
+msgid "Owner"
+msgstr "Власник"
+
+#: wiki/forms.py:272
+msgid "Enter the username of the owner."
+msgstr "Введіть ім'я користувача власника."
+
+#: wiki/forms.py:273
+msgid "(none)"
+msgstr "(немає)"
+
+#: wiki/forms.py:278
+msgid "Inherit permissions"
+msgstr "Успадковувати права доступу"
+
+#: wiki/forms.py:278
+msgid ""
+"Check here to apply the above permissions recursively to articles under this"
+" one."
+msgstr ""
+"Відзначте тут, щоб послідовно застосувати вищевказані права доступу до "
+"статей, які перебувають під цією."
+
+#: wiki/forms.py:283
+msgid "Permission settings for the article were updated."
+msgstr "Налаштування прав доступу для цієї статті були змінені."
+
+#: wiki/forms.py:285
+msgid "Your permission settings were unchanged, so nothing saved."
+msgstr "Ваші налаштування прав доступу не змінено, нічого зберігати."
+
+#: wiki/forms.py:324
+msgid "No user with that username"
+msgstr "Немає користувачів з таким ім'ям користувача"
+
+#: wiki/forms.py:346
+msgid "Article locked for editing"
+msgstr "Стаття заблокована для редагування"
+
+#: wiki/forms.py:353
+msgid "Article unlocked for editing"
+msgstr "Стаття розблокована для редагування"
+
+#: wiki/forms.py:366
+msgid "Filter"
+msgstr "Фільтр"
+
+#: wiki/core/plugins/base.py:44
+msgid "Settings for plugin"
+msgstr "Налаштування плагіна"
+
+#: wiki/models/article.py:23 wiki/models/pluginbase.py:158
+#: wiki/plugins/attachments/models.py:19
+msgid "current revision"
+msgstr "поточна версія"
+
+#: wiki/models/article.py:25
+msgid ""
+"The revision being displayed for this article. If you need to do a roll-"
+"back, simply change the value of this field."
+msgstr ""
+"Версія даної статті, що відображається. Якщо вам необхідно зробити відкат, "
+"просто змініть значення цього поля."
+
+#: wiki/models/article.py:29
+msgid "modified"
+msgstr "змінено"
+
+#: wiki/models/article.py:30
+msgid "Article properties last modified"
+msgstr "Властивості статті востаннє були змінені"
+
+#: wiki/models/article.py:32
+msgid "owner"
+msgstr "власник"
+
+#: wiki/models/article.py:34
+msgid ""
+"The owner of the article, usually the creator. The owner always has both "
+"read and write access."
+msgstr ""
+"Власник статті, зазвичай її автор. Власник завжди має права на читання і "
+"запис."
+
+#: wiki/models/article.py:36
+msgid "group"
+msgstr "група"
+
+#: wiki/models/article.py:38
+msgid ""
+"Like in a UNIX file system, permissions can be given to a user according to "
+"group membership. Groups are handled through the Django auth system."
+msgstr ""
+"Як і в файловій системі UNIX, користувачеві надаються ті ж права доступу до "
+"файлу, що і групі користувачів, до якої він належить. Управління групами "
+"організовано через систему авторизації Django."
+
+#: wiki/models/article.py:40
+msgid "group read access"
+msgstr "доступ групи на читання"
+
+#: wiki/models/article.py:41
+msgid "group write access"
+msgstr "доступ групи на запис"
+
+#: wiki/models/article.py:42
+msgid "others read access"
+msgstr "доступ на читання для інших користувачів"
+
+#: wiki/models/article.py:43
+msgid "others write access"
+msgstr "доступ на запис для інших користувачів"
+
+#: wiki/models/article.py:174
+#, python-format
+msgid "Article without content (%(id)d)"
+msgstr "Стаття без контенту (%(id)d)"
+
+#: wiki/models/article.py:202
+msgid "content type"
+msgstr "тип контенту"
+
+#: wiki/models/article.py:204
+msgid "object ID"
+msgstr "ID об'єкта"
+
+#: wiki/models/article.py:210
+msgid "Article for object"
+msgstr "Стаття для об'єкта"
+
+#: wiki/models/article.py:211
+msgid "Articles for object"
+msgstr "Статті для об'єкта"
+
+#: wiki/models/article.py:220
+msgid "revision number"
+msgstr "номер версії"
+
+#: wiki/models/article.py:226
+msgid "IP address"
+msgstr "IP адреса"
+
+#: wiki/models/article.py:233
+msgid "user"
+msgstr "користувач"
+
+#: wiki/models/article.py:246
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:22
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:20
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
+#: wiki/templates/wiki/includes/revision_info.html:15
+msgid "deleted"
+msgstr "видалено"
+
+#: wiki/models/article.py:247 wiki/templates/wiki/article.html:22
+#: wiki/templates/wiki/includes/revision_info.html:21
+msgid "locked"
+msgstr "заблоковано"
+
+#: wiki/models/article.py:266 wiki/models/pluginbase.py:38
+msgid "article"
+msgstr "стаття"
+
+#: wiki/models/article.py:269
+msgid "article contents"
+msgstr "контент статті"
+
+#: wiki/models/article.py:273
+msgid "article title"
+msgstr "заголовок статті"
+
+#: wiki/models/article.py:274
+msgid ""
+"Each revision contains a title field that must be filled out, even if the "
+"title has not changed"
+msgstr ""
+"Кожна версія містить поле заголовка, яке необхідно заповнити, навіть якщо "
+"заголовок не змінився"
+
+#: wiki/models/pluginbase.py:74
+msgid "original article"
+msgstr "оригінальний текст статті"
+
+#: wiki/models/pluginbase.py:75
+msgid "Permissions are inherited from this article"
+msgstr "Права доступу успадковані від даної статті"
+
+#: wiki/models/pluginbase.py:133
+msgid "A plugin was changed"
+msgstr "Плагін був змінений"
+
+#: wiki/models/pluginbase.py:160
+msgid ""
+"The revision being displayed for this plugin.If you need to do a roll-back, "
+"simply change the value of this field."
+msgstr ""
+"Показана версія для даного плагіна. Якщо Вам необхідно зробити відкат, "
+"просто змініть значення цього поля.  "
+
+#: wiki/models/urlpath.py:41
+msgid "Cache lookup value for articles"
+msgstr "Пошук за значенням кеша для статей"
+
+#: wiki/models/urlpath.py:47
+msgid "slug"
+msgstr "коротка назва"
+
+#: wiki/models/urlpath.py:137
+msgid "(root)"
+msgstr "(корінь)"
+
+#: wiki/models/urlpath.py:147
+msgid "URL path"
+msgstr "URL посилання"
+
+#: wiki/models/urlpath.py:148
+msgid "URL paths"
+msgstr "URL шляхи"
+
+#: wiki/models/urlpath.py:153
+msgid "Sorry but you cannot have a root article with a slug."
+msgstr ""
+"На жаль, коротке найменування для кореневої статті не може бути задане."
+
+#: wiki/models/urlpath.py:155
+msgid "A non-root note must always have a slug."
+msgstr "Некоренева замітка повинна завжди мати коротку назву."
+
+#: wiki/models/urlpath.py:158
+#, python-format
+msgid "There is already a root node on %s"
+msgstr "Вже існує кореневий вузол на %s"
+
+#: wiki/models/urlpath.py:262
+msgid ""
+"Articles who lost their parents\n"
+"===============================\n"
+"\n"
+"The children of this article have had their parents deleted. You should probably find a new home for them."
+msgstr ""
+"Статті, які втратили своїх батьків\n"
+"=============================== \n"
+"\n"
+"У нащадків цієї статті були видалені батьки. Напевно, Вам слід знайти їм новий будинок."
+
+#: wiki/models/urlpath.py:265
+msgid "Lost and found"
+msgstr "Бюро знахідок"
+
+#: wiki/plugins/attachments/forms.py:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:13
+msgid "Description"
+msgstr "Опис"
+
+#: wiki/plugins/attachments/forms.py:10
+msgid "A short summary of what the file contains"
+msgstr "Коротко про зміст файлу"
+
+#: wiki/plugins/attachments/forms.py:19
+msgid "Yes I am sure..."
+msgstr "Так, я впевнений ..."
+
+#: wiki/plugins/attachments/markdown_extensions.py:33
+msgid "Click to download file"
+msgstr "Натисніть, щоб завантажити файл"
+
+#: wiki/plugins/attachments/models.py:21
+msgid ""
+"The revision of this attachment currently in use (on all articles using the "
+"attachment)"
+msgstr ""
+"Версія цього додатка зараз використовується (у всіх статтях, що "
+"використовують цей додаток)"
+
+#: wiki/plugins/attachments/models.py:24
+msgid "original filename"
+msgstr "оригінальне ім'я файлу"
+
+#: wiki/plugins/attachments/models.py:36
+msgid "attachment"
+msgstr "вкладення"
+
+#: wiki/plugins/attachments/models.py:37
+msgid "attachments"
+msgstr "вкладення"
+
+#: wiki/plugins/attachments/models.py:79
+msgid "file"
+msgstr "файл"
+
+#: wiki/plugins/attachments/models.py:85
+msgid "attachment revision"
+msgstr "версія вкладення"
+
+#: wiki/plugins/attachments/models.py:86
+msgid "attachment revisions"
+msgstr "версії вкладення"
+
+#: wiki/plugins/attachments/views.py:49
+#, python-format
+msgid "%s was successfully added."
+msgstr "%s успішно додано."
+
+#: wiki/plugins/attachments/views.py:51 wiki/plugins/attachments/views.py:116
+#, python-format
+msgid "Your file could not be saved: %s"
+msgstr "Ваш файл не може бути збережений: %s"
+
+#: wiki/plugins/attachments/views.py:53 wiki/plugins/attachments/views.py:120
+msgid ""
+"Your file could not be saved, probably because of a permission error on the "
+"web server."
+msgstr ""
+"Ваш файл не може бути збережений, ймовірно, в результаті помилки прав "
+"доступу на веб-сервері."
+
+#: wiki/plugins/attachments/views.py:114
+#, python-format
+msgid "%s uploaded and replaces old attachment."
+msgstr "%s завантажено і замінило стару версію вкладення"
+
+#: wiki/plugins/attachments/views.py:128
+msgid ""
+"Your new file will automatically be renamed to match the file already "
+"present. Files with different extensions are not allowed."
+msgstr ""
+"Ваш новий файл буде автоматично перейменований відповідно до вже наявного "
+"файла. Файли з різними розширеннями не допускаються."
+
+#: wiki/plugins/attachments/views.py:182
+#, python-format
+msgid "Current revision changed for %s."
+msgstr "Поточна версія змінена на %s."
+
+#: wiki/plugins/attachments/views.py:203
+#, python-format
+msgid "Added a reference to \"%(att)s\" from \"%(art)s\"."
+msgstr "Додано посилання на \"%(att)s\" з \"%(art)s\"."
+
+#: wiki/plugins/attachments/views.py:233
+#, python-format
+msgid "The file %s was deleted."
+msgstr "Файл %s був видалений."
+
+#: wiki/plugins/attachments/views.py:236
+#, python-format
+msgid "This article is no longer related to the file %s."
+msgstr "Ця стаття більше не пов'язана з файлом %s."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:4
+#: wiki/plugins/attachments/wiki_plugin.py:30
+msgid "Attachments"
+msgstr "Вкладення"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was changed: %s"
+msgstr "Файл було змінено: %s"
+
+#: wiki/plugins/attachments/wiki_plugin.py:36
+#, python-format
+msgid "A file was deleted: %s"
+msgstr "Файл був видалений: %s"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
+#: wiki/templates/wiki/delete.html:7
+msgid "Delete"
+msgstr "Видалити"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:13
+msgid ""
+"The file may be referenced on other articles. Deleting it means that they "
+"will loose their references to this file. The following articles reference "
+"this file:"
+msgstr ""
+"Файл може посилатися на інші статті. Видалення означає, що вони втратять "
+"посилання на цей файл. Наступні статті посилаються на цей файл:"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:26
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:47
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:48
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:70
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:20
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:20
+#: wiki/templates/wiki/create.html:51 wiki/templates/wiki/delete.html:11
+#: wiki/templates/wiki/delete.html:48
+msgid "Go back"
+msgstr "Повернутись"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:30
+msgid "Delete it!"
+msgstr "Видалити це!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:36
+msgid "Remove"
+msgstr "Очистити"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:40
+msgid ""
+"You can remove a reference to a file, but it will retain its references on "
+"other articles."
+msgstr ""
+"Ви можете видалити посилання на файл, але він зберігатиме посилання на інші "
+"статті. "
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:51
+msgid "Remove reference"
+msgstr "Видалити посилання"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:8
+msgid "History of"
+msgstr "Історія про"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:11
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:23
+msgid "Date"
+msgstr "Дата"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:12
+msgid "User"
+msgstr "Користувач"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:14
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:21
+msgid "File"
+msgstr "Файл"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:15
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:28
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:25
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:21
+msgid "Size"
+msgstr "Розмір"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:16
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:26
+msgid "Action"
+msgstr "Дія"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:32
+msgid "<em>No description</em>"
+msgstr "<em>Без опису</em>"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:35
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:50
+msgid "Download"
+msgstr "Завантаження"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:40
+msgid "Use this!"
+msgstr "Використайте це!"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr ""
+"Наступні файли доступні для цієї статті. Скопіюйте тег markdown для прямого "
+"посилання на файл з тексту статті."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:26
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:19
+msgid "Markdown tag"
+msgstr "Тег markdown"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:27
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:24
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:20
+msgid "Uploaded by"
+msgstr "Вивантажено"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:33
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:8
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:31
+msgid "Replace"
+msgstr "Замінити"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:37
+msgid "Detach"
+msgstr "Від'єднати"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:44
+#: wiki/templates/wiki/deleted.html:24 wiki/templates/wiki/deleted.html:29
+msgid "Restore"
+msgstr "Відновити"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "File history"
+msgstr "Історія файлу"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:54
+msgid "revisions"
+msgstr "редакції"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:69
+msgid "There are no attachments for this article."
+msgstr "Для цієї статті немає доданків."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:83
+msgid "Upload new file"
+msgstr "Завантажити новий файл"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:95
+msgid "Upload file"
+msgstr "Вивантажити файл"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:106
+msgid "Search and add file"
+msgstr "Шукати та додати файл"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:112
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr ""
+"Ви можете повторно використовувати файли з інших статей. Ці файли можуть "
+"бути змінені в інших статтях, що може бути або не бути вдалим варіантом."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:117
+msgid "Search"
+msgstr "Пошук"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:13
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>. Please note "
+"that this attachment is in use on other articles, you may distort contents. "
+"However, do not hestitate to take advantage of this and make replacements "
+"for the listed articles where necessary. This way of working is more "
+"efficient...."
+msgstr ""
+"Заміна вкладення означає додавання нового файлу, який буде використовуватися"
+" на його місці. Всі посилання на файл будуть замінені на той, який ви "
+"завантажили, і файл буде завантажений як <strong>%(filename)s</strong>. Будь"
+" ласка, зауважте, що цей додаток використовується на інших статтях, ви "
+"можете деформувати контенти. Проте, не замислюйтеся скористатися цим і "
+"внести заміни у перелічені статті, де це необхідно. Цей спосіб роботи є "
+"більш ефективним."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:15
+msgid "Articles using"
+msgstr "Використання статей"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:24
+#, python-format
+msgid ""
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>."
+msgstr ""
+"Заміна вкладення означає додавання нового файлу, який буде використовуватися"
+" на його місці. Всі посилання на файл будуть замінені на той, який ви "
+"завантажили, і файл буде завантажений як <strong>%(filename)s</strong>."
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:37
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:24
+msgid "Upload replacement"
+msgstr "Завантажити заміну"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:4
+msgid "Add file to"
+msgstr "Додати файл до"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:8
+msgid "Add attachment from other article"
+msgstr "Додати вкладення з іншої статті"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:14
+msgid "Search files and articles"
+msgstr "Пошук файлів та статей"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:22
+msgid "Main article"
+msgstr "Головна стаття"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:54
+msgid "Add to article"
+msgstr "Додати до статті"
+
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:62
+msgid "Your search did not return any results"
+msgstr "Ваш пошук не дав результатів"
+
+#: wiki/plugins/help/wiki_plugin.py:12
+msgid "Help"
+msgstr "Допомога"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:1
+msgid "Adding new articles"
+msgstr "Додавання нових статтей"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:3
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr ""
+"Аби створити нову вікі статтю, створіть посилання на неї. Перехід за цим "
+"посиланням приведе вас до сторінки нової статті."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:6
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:19
+msgid "An external link"
+msgstr "Зовнішнє посилання"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:9
+msgid "Headers"
+msgstr "Заголовки"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:10
+msgid ""
+"Use these codes for headers and to automatically generate Tables of "
+"Contents."
+msgstr ""
+"Використовуйте ці коди для заголовків і для автоматичного генерування "
+"Таблиць Контенту."
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:25
+msgid "Typography"
+msgstr "Друкарня"
+
+#: wiki/plugins/help/templates/wiki/plugins/help/sidebar.html:30
+msgid "Lists"
+msgstr "Списки"
+
+#: wiki/plugins/images/forms.py:16
+#, python-format
+msgid ""
+"New image %s was successfully uploaded. You can use it by selecting it from "
+"the list of available images."
+msgstr ""
+"Нове зображення %s успішно завантажено. Ви можете використовувати його, "
+"вибравши зі списку доступних зображень."
+
+#: wiki/plugins/images/forms.py:59
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: wiki/plugins/images/models.py:40
+msgid "image"
+msgstr "зображення"
+
+#: wiki/plugins/images/models.py:41
+msgid "images"
+msgstr "зображення"
+
+#: wiki/plugins/images/models.py:45
+#, python-format
+msgid "Image: %s"
+msgstr "Зображення: %s"
+
+#: wiki/plugins/images/models.py:45
+msgid "Current revision not set!!"
+msgstr "Поточна версія не вказана!!"
+
+#: wiki/plugins/images/models.py:92
+msgid "image revision"
+msgstr "версія зображення"
+
+#: wiki/plugins/images/models.py:93
+msgid "image revisions"
+msgstr "версії зображення"
+
+#: wiki/plugins/images/models.py:98
+#, python-format
+msgid "Image Revsion: %d"
+msgstr "Версія зображення: %d"
+
+#: wiki/plugins/images/views.py:64
+#, python-format
+msgid "%s has been restored"
+msgstr "%s було відновлено"
+
+#: wiki/plugins/images/views.py:66
+#, python-format
+msgid "%s has been marked as deleted"
+msgstr "%s було відзначено як видалене"
+
+#: wiki/plugins/images/views.py:120
+#, python-format
+msgid "%(file)s has been changed to revision #%(revision)d"
+msgstr "%(file)s був змінений на версію #%(revision)d"
+
+#: wiki/plugins/images/views.py:158
+#, python-format
+msgid "%(file)s has been saved."
+msgstr "%(file)s був збережений."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:4
+#: wiki/plugins/images/wiki_plugin.py:15
+msgid "Images"
+msgstr "Зображення"
+
+#: wiki/plugins/images/wiki_plugin.py:26
+#, python-format
+msgid "An image was added: %s"
+msgstr "Було додано зображення: %s"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:7
+msgid ""
+"The following images are available for this article. Copy the markdown tag "
+"to directly refer to an image from the article text."
+msgstr ""
+"Наступні зображення доступні для цієї статті. Скопіюйте позначку мітки, щоб "
+"безпосередньо посилатися на зображення з тексту статті."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:11
+msgid "Back to edit page"
+msgstr "Назад до сторінки редагування"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:18
+msgid "No file"
+msgstr "Файлу немає"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:34
+msgid "Upload new image"
+msgstr "Завантажити нове зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:39
+msgid "Restore image"
+msgstr "Відновити зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:44
+msgid "Remove image"
+msgstr "Видалити зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:51
+msgid "Completely delete"
+msgstr "Повністю видалити"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:65
+#: wiki/templates/wiki/history.html:4
+msgid "History"
+msgstr "Історія"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:84
+msgid "Revert to this version"
+msgstr "Повернутися до цієї версії"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html:97
+msgid "There are no images for this article."
+msgstr "Немає жодного зображення для цієї статті."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:4
+#: wiki/templates/wiki/deleted.html:39
+msgid "Purge deletion"
+msgstr "Очистити видалення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:13
+msgid "Purge image: Completely remove image file and all revisions."
+msgstr "Очистити зображення: Повністю видалити файл зображення і всі зміни."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html:24
+msgid "Remove it completely!"
+msgstr "Видалення завершено!"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/render.html:14
+msgid "Image not found"
+msgstr "Зображення не знайдено"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:4
+msgid "Replace image"
+msgstr "Замінити Зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:13
+msgid "Choose an image file to replace current image."
+msgstr "Виберіть файл зображення, щоб замінити поточне зображення."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:27
+msgid "Image id"
+msgstr "ID Зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:29
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:13
+msgid "Insert"
+msgstr "Вставка"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:45
+msgid "No images found for this article"
+msgstr "Для цієї статті не знайдено жодного зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:54
+msgid "Manage images"
+msgstr "Керування зображеннями"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:60
+msgid "Add new image"
+msgstr "Додати нове зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:96
+msgid "Add image"
+msgstr "Додати зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:104
+msgid "You do not have permissions to add images."
+msgstr "У вас немає прав для додавання зображень."
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:111
+msgid "How to use images"
+msgstr "Як використати зображення"
+
+#: wiki/plugins/images/templates/wiki/plugins/images/sidebar.html:114
+msgid ""
+"After uploading an image, it is attached to this particular artice and can "
+"be used only here. Other users may replace the image, but older versions are"
+" kept. You probably want to show the image with a nice caption. To achieve "
+"this, press the Insert button and fill in the caption fields and possibly "
+"choose to have you image floating right or left of the content. You can use "
+"Markdown in the caption. The markdown code syntax for images looks like "
+"this, possible values for align are left/center/right:"
+msgstr ""
+"Після завантаження зображення, це буде прикріплено до конкретної статті і "
+"може бути використане тільки тут. Інші користувачі можуть замінити "
+"зображення, але старі версії зберігаються. Можливо, ви хочете показати "
+"зображення з гарним підписом. Щоб досягти цього, натисніть кнопку "
+"\"Вставити\", а потім заповніть в полі для підпису і, можливо, виберіть ваше"
+" зображення, яке має плаваючу сторону праворуч або ліворуч від контенту. У "
+"заголовку можна використовувати Розмітку. Синтаксичний код розмітки для "
+"зображень виглядає так,як можливі значення для вирівнювання ліворуч / центр "
+"/ справа:"
+
+#: wiki/plugins/links/wiki_plugin.py:21
+msgid "Links"
+msgstr "Посилання"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:2
+msgid "Link to another wiki page"
+msgstr "Посилання на іншу вікі-сторінку"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:5
+msgid ""
+"Type in something from another wiki page's title and auto-complete will help"
+" you create a tag for you wiki link. Tags for links look like this:"
+msgstr ""
+"Введіть щось з назви іншої вікі-сторінки та  автоматичне заповнення допоможе"
+" вам створити тег для вашого вікі посилання. Теги для посилань виглядають "
+"так:"
+
+#: wiki/plugins/links/templates/wiki/plugins/links/sidebar.html:22
+msgid ""
+"You can link to another website simply by inserting an address example.com "
+"or http://example.com or by using the markdown syntax:"
+msgstr ""
+"Ви можете посилатися на інший веб-сайт просто вставивши адресу example.com "
+"або http://example.com або використовуючи синтаксичні розмітки:"
+
+#: wiki/plugins/notifications/forms.py:13
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: wiki/plugins/notifications/forms.py:17
+msgid "When this article is edited"
+msgstr "Коли ця стаття відредагована"
+
+#: wiki/plugins/notifications/forms.py:18
+msgid "Also receive emails about article edits"
+msgstr "Також отримувати листи про правки статті"
+
+#: wiki/plugins/notifications/forms.py:41
+msgid "Your notification settings were updated."
+msgstr "Ваші налаштування повідомлень були оновлені."
+
+#: wiki/plugins/notifications/forms.py:43
+msgid "Your notification settings were unchanged, so nothing saved."
+msgstr "Ваші налаштування повідомлень не були змінені, тому нічого зберігати."
+
+#: wiki/plugins/notifications/models.py:17
+#, python-format
+msgid "%(user)s subscribing to %(article)s (%(type)s)"
+msgstr "%(user)s підписується на %(article)s (%(type)s)"
+
+#: wiki/plugins/notifications/models.py:38
+#, python-format
+msgid "Article deleted: %s"
+msgstr "Стаття видалена: %s"
+
+#: wiki/plugins/notifications/models.py:41
+#, python-format
+msgid "Article modified: %s"
+msgstr "Стаття змінена: %s"
+
+#: wiki/plugins/notifications/models.py:44
+#, python-format
+msgid "New article created: %s"
+msgstr "Створена нова стаття: %s"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:12
+msgid "notifications"
+msgstr "сповіщення"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:17
+msgid "No notifications"
+msgstr "Немає сповіщень"
+
+#: wiki/plugins/notifications/templates/wiki/plugins/notifications/menubaritem.html:19
+msgid "Clear notifications list"
+msgstr "Очистити список сповіщень"
+
+#: wiki/templates/wiki/article.html:39
+msgid "This article was last modified:"
+msgstr "Ця стаття була востаннє змінена:"
+
+#: wiki/templates/wiki/base.html:113
+msgid "Search..."
+msgstr "Пошук..."
+
+#: wiki/templates/wiki/base.html:129
+msgid "Log out"
+msgstr "Вийти"
+
+#: wiki/templates/wiki/accounts/login.html:3
+#: wiki/templates/wiki/accounts/signup.html:3
+#: wiki/templates/wiki/base.html:138
+msgid "Log in"
+msgstr "Увійти"
+
+#: wiki/templates/wiki/accounts/login.html:18
+#: wiki/templates/wiki/accounts/signup.html:6
+#: wiki/templates/wiki/base.html:141
+msgid "Sign up"
+msgstr "Зареєстроватися"
+
+#: wiki/templates/wiki/create.html:4 wiki/templates/wiki/create.html:44
+msgid "Add new article"
+msgstr "Додати нову статтю"
+
+#: wiki/templates/wiki/create.html:55
+msgid "Create article"
+msgstr "Створити статтю"
+
+#: wiki/templates/wiki/delete.html:4 wiki/templates/wiki/delete.html:52
+#: wiki/templates/wiki/edit.html:41
+msgid "Delete article"
+msgstr "Видалити статтю"
+
+#: wiki/templates/wiki/delete.html:10
+msgid "You cannot delete a root article."
+msgstr "Ви не можете видалити кореневу статтю."
+
+#: wiki/templates/wiki/delete.html:16
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr ""
+"Ви не можете видалити цю статтю, тому що ви не маєте прав для видалення "
+"статей із вкладеними статтями. Спробуйте видалити вкладені статті вручну "
+"одну за одною."
+
+#: wiki/templates/wiki/delete.html:22
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr ""
+"Ви видаляєте статтю. Це означає, що всі її вкладені статті будуть також "
+"видалені. Якщо ви оберете чистку, то вкладені статті також будуть вичищені."
+
+#: wiki/templates/wiki/delete.html:24
+msgid "Articles that will be deleted"
+msgstr "Стаття, яку будуть видалені"
+
+#: wiki/templates/wiki/delete.html:30
+msgid "...and more!"
+msgstr "...і ще!"
+
+#: wiki/templates/wiki/delete.html:38
+msgid "You are deleting an article. Please confirm."
+msgstr "Ви видаляєте статтю. Будь ласка, підтвердьте."
+
+#: wiki/templates/wiki/deleted.html:4
+msgid "Article deleted"
+msgstr "Статтю видалено"
+
+#: wiki/templates/wiki/deleted.html:13
+msgid "Article Deleted"
+msgstr "Статтю Видалено"
+
+#: wiki/templates/wiki/deleted.html:16
+msgid "The article you were looking for has been deleted."
+msgstr "Статтю, яку ви шукали, було видалено."
+
+#: wiki/templates/wiki/deleted.html:25
+msgid "You may restore this article and its children by clicking restore."
+msgstr ""
+"Ви можете відновити цю статтю та її підрозділи, натиснувши кнопку відновити."
+
+#: wiki/templates/wiki/deleted.html:40
+msgid ""
+"You may remove this article and any children permanently and free their "
+"slugs by clicking the below button. This action cannot be undone."
+msgstr ""
+"Ви можете видалити цю статтю та будь-які її підрозділи назавжди та звільнити"
+" їх слаги, натиснувши кнопку нижче. Цю дію не можна скасувати."
+
+#: wiki/templates/wiki/dir.html:4
+msgid "Listing articles in"
+msgstr "Список статей у"
+
+#: wiki/templates/wiki/dir.html:16
+msgid "Up one level"
+msgstr "Вгору на один рівень"
+
+#: wiki/templates/wiki/dir.html:21
+msgid "Add article"
+msgstr "Додати статтю"
+
+#: wiki/templates/wiki/dir.html:28
+msgid "clear"
+msgstr "чисто"
+
+#: wiki/templates/wiki/dir.html:40 wiki/templates/wiki/dir.html:44
+msgid "article,articles"
+msgstr "стаття, статті"
+
+#: wiki/templates/wiki/dir.html:40
+msgid "matches,match"
+msgstr "совпадають, совпадає"
+
+#: wiki/templates/wiki/dir.html:42
+#, python-format
+msgid "%(cnt)s %(articles_plur)s in this level %(match_plur)s your search."
+msgstr "%(cnt)s%(articles_plur)s на цьому рівні %(match_plur)sваш пошук."
+
+#: wiki/templates/wiki/dir.html:44
+msgid "is,are"
+msgstr "це, є"
+
+#: wiki/templates/wiki/dir.html:46
+#, python-format
+msgid "There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level."
+msgstr "Тут %(articles_plur_verb)s%(cnt)s%(articles_plur)sна цьому рівні."
+
+#: wiki/templates/wiki/dir.html:56
+msgid "Last modified"
+msgstr "Остання зміна"
+
+#: wiki/templates/wiki/edit.html:4
+#: wiki/templates/wiki/includes/article_menu.html:34
+msgid "Edit"
+msgstr "Редагувати"
+
+#: wiki/templates/wiki/edit.html:31
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: wiki/templates/wiki/edit.html:35 wiki/templates/wiki/edit.html:57
+#: wiki/templates/wiki/settings.html:15
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: wiki/templates/wiki/edit.html:53
+msgid "Back to editor"
+msgstr "Повернутись до редактору"
+
+#: wiki/templates/wiki/history.html:55
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr ""
+"Клацніть кожну редакцію щоб побачити список редагованих рядків. Клацніть "
+"кнопку перегляду щоб побачити як виглядає стаття на даний момент. Внизу "
+"сторінки ви можете перейти до конкретної редакції або з'єднати стару "
+"редакцію із поточною."
+
+#: wiki/templates/wiki/history.html:74
+msgid "no log message"
+msgstr "немає журналу повідомлень"
+
+#: wiki/templates/wiki/history.html:86 wiki/templates/wiki/history.html:91
+msgid "Preview this revision"
+msgstr "Переглянути поточну редакцію."
+
+#: wiki/templates/wiki/history.html:105
+msgid "Auto log:"
+msgstr "Автоматичний журнал:"
+
+#: wiki/templates/wiki/history.html:113
+msgid "Change"
+msgstr "Змінити"
+
+#: wiki/templates/wiki/history.html:131
+msgid "Merge selected with current..."
+msgstr "З'єднати обрану із поточною..."
+
+#: wiki/templates/wiki/history.html:135
+msgid "Switch to selected version"
+msgstr "Перейти до обраної редакції"
+
+#: wiki/templates/wiki/history.html:151 wiki/templates/wiki/history.html:178
+msgid "Back to history view"
+msgstr "Назад до історії"
+
+#: wiki/templates/wiki/history.html:156 wiki/templates/wiki/history.html:161
+msgid "Switch to this version"
+msgstr "Перейти до цієї редакції"
+
+#: wiki/templates/wiki/history.html:169
+msgid "Merge with current"
+msgstr "З'єднати з поточною"
+
+#: wiki/templates/wiki/history.html:170
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr ""
+"Коли ви з'єднуєте редакцію із поточною всі дані будуть збережені з обох "
+"версій та розташовані на приблизних позиціях з кожної редакції."
+
+#: wiki/templates/wiki/history.html:170
+msgid "After this, it's important to do a manual review."
+msgstr "Після цього важливо провести ручну перевірку."
+
+#: wiki/templates/wiki/history.html:183 wiki/templates/wiki/history.html:188
+msgid "Create new merged version"
+msgstr "Створити нову з'єднану редакцію."
+
+#: wiki/templates/wiki/permission_denied.html:7
+msgid "Permission Denied"
+msgstr "Право Доступу Відмовлено"
+
+#: wiki/templates/wiki/permission_denied.html:9
+msgid "Sorry, you don't have permission to view this page."
+msgstr "Нажаль, ви немаєте права доступу до перегляду цієї сторінки."
+
+#: wiki/templates/wiki/preview_inline.html:8
+msgid "Previewing revision"
+msgstr "Попередній перегляд"
+
+#: wiki/templates/wiki/preview_inline.html:15
+msgid "Previewing merge between"
+msgstr "Попередній перегляд об'єднання між "
+
+#: wiki/templates/wiki/preview_inline.html:17
+msgid "and"
+msgstr "і"
+
+#: wiki/templates/wiki/preview_inline.html:26
+msgid "This revision has been deleted."
+msgstr "Ця редакція була видалена."
+
+#: wiki/templates/wiki/preview_inline.html:27
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "Повернення до цієї редакції позначить статтю як видалену."
+
+#: wiki/templates/wiki/includes/article_menu.html:9
+#: wiki/templates/wiki/settings.html:4
+msgid "Settings"
+msgstr "Налаштування"
+
+#: wiki/templates/wiki/source.html:4
+msgid "Source of"
+msgstr "Джерело"
+
+#: wiki/templates/wiki/source.html:9
+msgid "This article is currently locked for editing."
+msgstr "Ця стаття на даний час заблокована для редагування."
+
+#: wiki/templates/wiki/accounts/login.html:6
+msgid "Please log in"
+msgstr "Будь ласка, увійдіть в систему"
+
+#: wiki/templates/wiki/accounts/login.html:12
+msgid "Log me in..."
+msgstr "Увійти до профілю ..."
+
+#: wiki/templates/wiki/accounts/login.html:18
+msgid "Don't have an account?"
+msgstr "Не маєте аккаунту?"
+
+#: wiki/templates/wiki/accounts/signup.html:12
+msgid "Sign me up..."
+msgstr "Зареєструйте мене до.."
+
+#: wiki/templates/wiki/article/create_root.html:4
+msgid "Create root article"
+msgstr "Створити кореневу статтю"
+
+#: wiki/templates/wiki/article/create_root.html:22
+msgid "Congratulations!"
+msgstr "Вітаємо!"
+
+#: wiki/templates/wiki/article/create_root.html:24
+msgid ""
+"You have django-wiki installed... but there are no articles. So it's time to"
+" create the first one, the root article. In the beginning, it will only be "
+"editable by administrators, but you can define permissions after."
+msgstr ""
+"У вас встановлено django-wiki ... але статей немає. Тому настав час створити"
+" першу, кореневу статтю. Спочатку її можна редагувати лише за допомогою "
+"адміністраторів, але після цього можна визначити дозволи."
+
+#: wiki/templates/wiki/article/create_root.html:27
+msgid "Root article"
+msgstr "Основна стаття"
+
+#: wiki/templates/wiki/article/create_root.html:32
+msgid "Create root"
+msgstr "Створити основу"
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:8
+#, python-format
+msgid ""
+"You need to <a href=\"%(login_url)s\">log in</a> or <a "
+"href=\"%(signup_url)s\">sign up</a> to use this function."
+msgstr ""
+"Щоб скористатися цією функцією, потрібно <a "
+"href=\"%(login_url)s\">ввійти</a> або <a "
+"href=\"%(signup_url)s\">зареєструватися</a>."
+
+#: wiki/templates/wiki/includes/anonymous_blocked.html:10
+msgid "You need to log in og sign up to use this function."
+msgstr "Щоб скористатися цією функцією, потрібно увійти або зареєструватися."
+
+#: wiki/templates/wiki/includes/article_menu.html:26
+msgid "Changes"
+msgstr "Зміни"
+
+#: wiki/templates/wiki/includes/article_menu.html:41
+msgid "View Source"
+msgstr "Переглянути Джерело"
+
+#: wiki/templates/wiki/includes/article_menu.html:49
+msgid "View"
+msgstr "Показати"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:16
+#: wiki/templates/wiki/includes/breadcrumbs.html:42
+msgid "Sub-articles for"
+msgstr "Підстатті для"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:28
+msgid "No sub-articles"
+msgstr "Немає підстаттей"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:31
+msgid "...and more"
+msgstr "...та більше"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:35
+msgid "Browse articles in this level"
+msgstr "Переглядайте статті на цьому рівні"
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:51
+msgid "New article next to"
+msgstr "Нова стаття наступна "
+
+#: wiki/templates/wiki/includes/breadcrumbs.html:56
+msgid "New article below"
+msgstr "Нова стаття нижче"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "by"
+msgstr "відповідно"
+
+#: wiki/templates/wiki/includes/revision_info.html:10
+msgid "anonymous (IP logged)"
+msgstr "анонім (IP записано)"
+
+#: wiki/templates/wiki/includes/revision_info.html:18
+msgid "restored"
+msgstr "відновлено"
+
+#: wiki/templates/wiki/includes/revision_info.html:24
+msgid "unlocked"
+msgstr "розблоковано"
+
+#: wiki/views/accounts.py:25
+msgid "You are now sign up... and now you can sign in!"
+msgstr "Ви зареєстровані ... і тепер можете увійти!"
+
+#: wiki/views/accounts.py:32
+msgid "You are no longer logged in. Bye bye!"
+msgstr "Ви вийшли з системи. До побачення!"
+
+#: wiki/views/accounts.py:57
+msgid "You are now logged in! Have fun!"
+msgstr "Ви увійшли! Розважайтеся!"
+
+#: wiki/views/article.py:87
+#, python-format
+msgid "New article '%s' created."
+msgstr "Нова стаття на '%s' створена."
+
+#: wiki/views/article.py:92
+#, python-format
+msgid "There was an error creating this article: %s"
+msgstr "При створенні статті: %s сталася помилка"
+
+#: wiki/views/article.py:94
+msgid "There was an error creating this article."
+msgstr "При створенні статті сталася помилка."
+
+#: wiki/views/article.py:175
+msgid ""
+"This article cannot be deleted because it has children or is a root article."
+msgstr ""
+"Ця стаття є кореневою або має дочірні статті, тому не може бути видалена."
+
+#: wiki/views/article.py:186
+msgid ""
+"This article together with all its contents are now completely gone! Thanks!"
+msgstr "Ця стаття разом з її контентом була повністю видалена! Дякуємо!"
+
+#: wiki/views/article.py:193
+#, python-format
+msgid ""
+"The article \"%s\" is now marked as deleted! Thanks for keeping the site "
+"free from unwanted material!"
+msgstr ""
+"Стаття \"%s\" позначена як видалена! Дякуємо за очищення даного сайту від "
+"небажаного матеріалу!"
+
+#: wiki/views/article.py:276
+msgid "Your changes were saved."
+msgstr "Ваші зміни були збережені."
+
+#: wiki/views/article.py:299
+msgid "A new revision of the article was successfully added."
+msgstr "Нова версія статті була успішно додана"
+
+#: wiki/views/article.py:356
+msgid "Restoring article"
+msgstr "Відновлення статті"
+
+#: wiki/views/article.py:358
+#, python-format
+msgid "The article \"%s\" and its children are now restored."
+msgstr "Стаття \"%s\" та її дочірні статті були відновлені."
+
+#: wiki/views/article.py:542
+#, python-format
+msgid ""
+"The article %(title)s is now set to display revision #%(revision_number)d"
+msgstr ""
+"Стаття %(title)sтепер налаштована на відображення версії "
+"#%(revision_number)d"
+
+#: wiki/views/article.py:607
+msgid "New title"
+msgstr "Новий заголовок"
+
+#: wiki/views/article.py:631
+#, python-format
+msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
+msgstr "Злиття версій #%(r1)d і #%(r2)d"
+
+#: wiki/views/article.py:635
+#, python-format
+msgid ""
+"A new revision was created: Merge between Revision #%(r1)d and Revision "
+"#%(r2)d"
+msgstr "Нова версія була створена: злиття версій #%(r1)d і #%(r2)d"
