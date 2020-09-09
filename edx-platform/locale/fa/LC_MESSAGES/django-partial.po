@@ -5466,7 +5466,7 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py
 #, python-brace-format
 msgid "{month} {day}, {year}"
-msgstr "{ماه} ,{روز} {سال}"
+msgstr "{month} {day}, {year}"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py
@@ -6524,7 +6524,7 @@ msgstr "خوب"
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt
 #, python-format
 msgid "%(comment_username)s replied to <b>%(thread_title)s</b>:"
-msgstr "%(comment_username)پاسخ دادم <b>%(thread_title)s</b>:"
+msgstr "%(comment_username)s پاسخ دادم <b>%(thread_title)s</b>:"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt
@@ -10814,7 +10814,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 #, python-brace-format
 msgid "\"{email}\" is not a valid email address."
-msgstr "پست الکترونیکیی که شما وارد کرده‌اید شکل متناسبی ندارد."
+msgstr "\"{email}\" پست الکترونیکیی که شما وارد کرده‌اید شکل متناسبی ندارد."
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py
 #, python-brace-format
@@ -11074,7 +11074,7 @@ msgid ""
 " user account at %(platform_name)s."
 msgstr ""
 "شما این نامه الکترونیکی را دریافت می کنید زیرا درخواست بازنشانی گذرواژه را "
-"برای خود کردیدنام کاربری هست %(platform_name)"
+"برای خود کردیدنام کاربری هست %(platform_name)s."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
