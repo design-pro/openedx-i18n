@@ -84,7 +84,7 @@ msgstr "خالی"
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 #, python-brace-format
 msgid "The following parameters are required: {missing}."
-msgstr "مقادیر زیر ضروری هستند {جا افتاده اند}"
+msgstr "مقادیر زیر ضروری هستند : {جا افتاده اند}"
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
