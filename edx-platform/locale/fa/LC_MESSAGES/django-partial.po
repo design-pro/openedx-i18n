@@ -4889,7 +4889,7 @@ msgid ""
 "Once you've created a password [below], you will be able to log in to "
 "%(platform_name)s with this email (%(email)s) and your new password."
 msgstr ""
-"پس از ایجاد رمز عبور [below] ، می توانید وارد سیستم شوید%(platform_name) با "
+"پس از ایجاد رمز عبور [below] ، می توانید وارد سیستم شوید %(platform_name)s با "
 "این پست الکترونیکی (%(email)s) و کلمه عبور جدید"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
@@ -4949,7 +4949,7 @@ msgid ""
 msgstr ""
 "اگر این درخواست را نکردید ، لازم نیست کاری انجام دهید. شما دریافت نخواهید "
 "کردهر پست الکترونیکی دیگری از ما لطفا به این پست الکترونیکی پاسخ ندهید؛ در "
-"صورت نیازکمک ، بخش راهنمایی وب سایت٪ (platform_name) را بررسی کنید."
+"صورت نیازکمک ، بخش راهنمایی وب سایت %(platform_name)s را بررسی کنید."
 
 #: common/templates/student/edx_ace/emailchange/email/subject.txt
 #, python-format
@@ -4993,7 +4993,7 @@ msgstr "ایجاد پست الکترونیک جهت بازیابی "
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt
 #, python-format
 msgid "You've registered this recovery email address for %(platform_name)s."
-msgstr "پست الکترونیکی شما برای بازیابی %(platform_name) ثبت شد."
+msgstr "پست الکترونیکی شما برای بازیابی %(platform_name)s ثبت شد."
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt
@@ -5015,7 +5015,7 @@ msgstr "تایید پست الکترونیکی"
 #: common/templates/student/edx_ace/recoveryemailcreate/email/subject.txt
 #, python-format
 msgid "Confirm your recovery email for %(platform_name)s"
-msgstr "پست الکترونیکی بازیابی خود را تأیید کنید %(platform_name) "
+msgstr "پست الکترونیکی بازیابی خود را تأیید کنید %(platform_name)s"
 
 #: lms/djangoapps/badges/events/course_complete.py
 #, python-brace-format
@@ -5466,7 +5466,7 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py
 #, python-brace-format
 msgid "{month} {day}, {year}"
-msgstr "{ماه} {روز}, {سال}"
+msgstr "{ماه} ,{روز} {سال}"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py
