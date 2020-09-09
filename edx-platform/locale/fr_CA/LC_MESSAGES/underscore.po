@@ -97,381 +97,380 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: cms/templates/js/add-xblock-component-menu-problem.underscore:55
-#: cms/templates/js/add-xblock-component-menu.underscore:29
-#: cms/templates/js/certificate-editor.underscore:47
-#: cms/templates/js/content-group-editor.underscore:32
-#: cms/templates/js/course_info_handouts.underscore:20
-#: cms/templates/js/course_info_update.underscore:15
-#: cms/templates/js/edit-textbook.underscore:26
-#: cms/templates/js/group-configuration-editor.underscore:46
-#: cms/templates/js/section-name-edit.underscore:4
-#: cms/templates/js/signatory-actions.underscore:4
-#: cms/templates/js/xblock-string-field-editor.underscore:14
-#: common/static/common/templates/discussion/templates.underscore:148
-#: common/static/common/templates/discussion/templates.underscore:246
-#: common/static/common/templates/discussion/templates.underscore:293
-#: common/static/common/templates/discussion/templates.underscore:429
-#: common/static/common/templates/discussion/templates.underscore:495
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:25
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:55
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:149
-#: lms/templates/learner_dashboard/verification_popover.underscore:10
+#: cms/templates/js/add-xblock-component-menu-problem.underscore
+#: cms/templates/js/add-xblock-component-menu.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/edit-textbook.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/section-name-edit.underscore
+#: cms/templates/js/signatory-actions.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/learner_dashboard/verification_popover.underscore
 msgid "Cancel"
 msgstr "Annuler"
 
-#: cms/templates/js/asset-library.underscore:19
-#: cms/templates/js/course-instructor-details.underscore:3
-#: cms/templates/js/previous-video-upload-list.underscore:14
-#: cms/templates/js/signatory-details.underscore:13
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:20
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/previous-video-upload-list.underscore
+#: cms/templates/js/signatory-details.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Name"
 msgstr "Nom"
 
-#: cms/templates/js/asset-library.underscore:26
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:7
+#: cms/templates/js/asset-library.underscore
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Type"
 msgstr "Type"
 
-#: cms/templates/js/asset-library.underscore:57
-#: cms/templates/js/basic-modal.underscore:24
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/basic-modal.underscore
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Actions"
 msgstr "Actions"
 
-#: cms/templates/js/certificate-details.underscore:64
-#: cms/templates/js/course_info_handouts.underscore:1
-#: cms/templates/js/course_info_update.underscore:20
-#: cms/templates/js/group-configuration-details.underscore:45
-#: cms/templates/js/partition-group-details.underscore:28
-#: cms/templates/js/show-textbook.underscore:40
-#: cms/templates/js/signatory-details.underscore:5
-#: cms/templates/js/xblock-string-field-editor.underscore:3
-#: common/static/common/templates/discussion/templates.underscore:840
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-details.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Edit"
 msgstr "Éditer"
 
-#: cms/templates/js/certificate-details.underscore:66
-#: cms/templates/js/certificate-details.underscore:67
-#: cms/templates/js/certificate-editor.underscore:50
-#: cms/templates/js/content-group-editor.underscore:36
-#: cms/templates/js/content-group-editor.underscore:37
-#: cms/templates/js/content-group-editor.underscore:41
-#: cms/templates/js/course-instructor-details.underscore:41
-#: cms/templates/js/course-outline.underscore:166
-#: cms/templates/js/course-outline.underscore:168
-#: cms/templates/js/course-settings-learning-fields.underscore:4
-#: cms/templates/js/course_grade_policy.underscore:33
-#: cms/templates/js/course_info_update.underscore:21
-#: cms/templates/js/group-configuration-details.underscore:49
-#: cms/templates/js/group-configuration-details.underscore:53
-#: cms/templates/js/group-configuration-editor.underscore:50
-#: cms/templates/js/group-configuration-editor.underscore:54
-#: cms/templates/js/partition-group-details.underscore:31
-#: cms/templates/js/partition-group-details.underscore:32
-#: cms/templates/js/partition-group-details.underscore:36
-#: cms/templates/js/show-textbook.underscore:43
-#: cms/templates/js/signatory-editor.underscore:5
-#: cms/templates/js/video-transcripts.underscore:47
-#: cms/templates/js/xblock-outline.underscore:31
-#: cms/templates/js/xblock-outline.underscore:33
-#: common/static/common/templates/discussion/templates.underscore:848
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-settings-learning-fields.underscore
+#: cms/templates/js/course_grade_policy.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-editor.underscore
+#: cms/templates/js/video-transcripts.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Delete"
 msgstr "Supprimer"
 
-#: cms/templates/js/certificate-editor.underscore:18
-#: cms/templates/js/group-configuration-editor.underscore:23
-#: lms/templates/verify_student/payment_confirmation_step.underscore:26
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "Description"
 
-#: cms/templates/js/certificate-editor.underscore:46
-#: cms/templates/js/content-group-editor.underscore:31
-#: cms/templates/js/course_info_handouts.underscore:19
-#: cms/templates/js/edit-textbook.underscore:25
-#: cms/templates/js/group-configuration-editor.underscore:45
-#: cms/templates/js/section-name-edit.underscore:3
-#: cms/templates/js/signatory-actions.underscore:3
-#: cms/templates/js/xblock-string-field-editor.underscore:13
-#: lms/templates/fields/field_dropdown.underscore:45
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:147
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:15
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:35
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/edit-textbook.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/section-name-edit.underscore
+#: cms/templates/js/signatory-actions.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: lms/templates/fields/field_dropdown.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Save"
 msgstr "Sauvegarder"
 
-#: cms/templates/js/course-instructor-details.underscore:9
-#: cms/templates/js/signatory-details.underscore:17
-#: common/static/common/templates/discussion/templates.underscore:136
-#: common/static/common/templates/discussion/templates.underscore:459
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/signatory-details.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Title"
 msgstr "Titre"
 
-#: cms/templates/js/course-outline.underscore:205
-#: cms/templates/js/publish-xblock.underscore:72
-#: lms/templates/ccx/schedule.underscore:93
-#: lms/templates/ccx/schedule.underscore:103
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
 msgid "Unscheduled"
 msgstr "Non programmé"
 
-#: cms/templates/js/course-video-settings.underscore:6
-#: common/static/common/templates/discussion/templates.underscore:417
-#: common/static/common/templates/discussion/templates.underscore:826
-#: common/static/common/templates/discussion/templates.underscore:828
-#: common/static/common/templates/discussion/templates.underscore:876
-#: common/static/common/templates/image-modal.underscore:19
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:3
+#: cms/templates/js/course-video-settings.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/image-modal.underscore
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid "Close"
 msgstr "Fermer"
 
-#: cms/templates/js/course_info_update.underscore:5
-#: lms/templates/verify_student/payment_confirmation_step.underscore:27
+#: cms/templates/js/course_info_update.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "Date"
 
-#: cms/templates/js/move-xblock-modal.underscore:6
-#: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
+#: cms/templates/js/move-xblock-modal.underscore
+#: openedx/features/course_search/static/course_search/templates/search_loading.underscore
 msgid "Loading"
 msgstr "Chargement"
 
-#: cms/templates/js/paging-header.underscore:7
-#: common/static/common/templates/components/paging-footer.underscore:2
-#: common/static/common/templates/discussion/templates.underscore:592
+#: cms/templates/js/paging-header.underscore
+#: common/static/common/templates/components/paging-footer.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Previous"
 msgstr "Précédent"
 
-#: cms/templates/js/paging-header.underscore:8
-#: common/static/common/templates/components/paging-footer.underscore:19
-#: common/static/common/templates/discussion/templates.underscore:616
+#: cms/templates/js/paging-header.underscore
+#: common/static/common/templates/components/paging-footer.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Next"
 msgstr "Suivant"
 
-#: cms/templates/js/previous-video-upload-list.underscore:19
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:32
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:25
+#: cms/templates/js/previous-video-upload-list.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Action"
 msgstr "Action"
 
-#: cms/templates/js/transcript-organization-credentials.underscore:33
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:20
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:20
+#: cms/templates/js/transcript-organization-credentials.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: cms/templates/js/video/metadata-translations-item.underscore:2
-#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore:14
+#: cms/templates/js/video/metadata-translations-item.underscore
+#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore
 msgid "Remove"
 msgstr "Supprimer"
 
-#: common/static/common/templates/image-modal.underscore:6
+#: common/static/common/templates/image-modal.underscore
 msgid "Fullscreen"
 msgstr "Plein écran"
 
-#: common/static/common/templates/image-modal.underscore:14
+#: common/static/common/templates/image-modal.underscore
 msgid "Large"
 msgstr "Grand"
 
-#: common/static/common/templates/image-modal.underscore:27
+#: common/static/common/templates/image-modal.underscore
 msgid "Zoom In"
 msgstr "Agrandir"
 
-#: common/static/common/templates/image-modal.underscore:35
+#: common/static/common/templates/image-modal.underscore
 msgid "Zoom Out"
 msgstr "Réduire"
 
-#: common/static/common/templates/components/paging-footer.underscore:6
+#: common/static/common/templates/components/paging-footer.underscore
 #, python-format
 msgid "Page number out of %(total_pages)s"
 msgstr "Numéro de page de %(total_pages)s"
 
-#: common/static/common/templates/components/paging-footer.underscore:11
+#: common/static/common/templates/components/paging-footer.underscore
 msgid "Enter the page number you'd like to quickly navigate to."
 msgstr ""
 "Entrer le numéro de page à laquelle vous voudrier vous rendre rapidement."
 
-#: common/static/common/templates/components/paging-header.underscore:11
+#: common/static/common/templates/components/paging-header.underscore
 msgid "Sorted by"
 msgstr "Trié par"
 
-#: common/static/common/templates/components/search-field.underscore:6
+#: common/static/common/templates/components/search-field.underscore
 msgid "Clear search"
 msgstr "Effacer la recherche"
 
-#: common/static/common/templates/components/search-field.underscore:7
-#: common/static/common/templates/components/search-field.underscore:10
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:9
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:4
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:19
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:3
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:11
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:3
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:11
+#: common/static/common/templates/components/search-field.underscore
+#: common/static/common/templates/components/search-field.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Search"
 msgstr "Recherche"
 
-#: common/static/common/templates/discussion/templates.underscore:15
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Response"
 msgstr "Ajouter une réponse"
 
-#: common/static/common/templates/discussion/templates.underscore:24
-#: common/static/common/templates/discussion/templates.underscore:635
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "This thread is closed."
 msgstr "Ce fil est fermé."
 
-#: common/static/common/templates/discussion/templates.underscore:28
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Add a response:"
 msgstr "Ajouter une réponse : "
 
-#: common/static/common/templates/discussion/templates.underscore:33
-#: common/static/common/templates/discussion/templates.underscore:168
-#: common/static/common/templates/discussion/templates.underscore:494
-#: lms/templates/verify_student/incourse_reverify.underscore:62
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Submit"
 msgstr "Soumettre"
 
-#: common/static/common/templates/discussion/templates.underscore:74
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
 msgstr "discussion postée %(time_ago)s par %(author)s"
 
-#: common/static/common/templates/discussion/templates.underscore:76
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
 msgstr "question postée %(time_ago)s par %(author)s"
 
-#: common/static/common/templates/discussion/templates.underscore:84
-#: common/static/common/templates/discussion/templates.underscore:330
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Pinned"
 msgstr "Épinglé"
 
-#: common/static/common/templates/discussion/templates.underscore:87
-#: common/static/common/templates/discussion/templates.underscore:218
-#: common/static/common/templates/discussion/templates.underscore:282
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Reported"
 msgstr "Reporté"
 
-#: common/static/common/templates/discussion/templates.underscore:90
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Closed"
 msgstr "Fermé"
 
-#: common/static/common/templates/discussion/templates.underscore:108
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
 msgstr "À propos de : %(courseware_title_linked)s"
 
-#: common/static/common/templates/discussion/templates.underscore:118
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post is visible only to %(group_name)s."
 msgstr "Ce message est visible seulement par %(group_name)s."
 
-#: common/static/common/templates/discussion/templates.underscore:124
+#: common/static/common/templates/discussion/templates.underscore
 msgid "This post is visible to everyone."
 msgstr "Ce message est visible par tous."
 
-#: common/static/common/templates/discussion/templates.underscore:131
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Editing post"
 msgstr "Editer le message"
 
-#: common/static/common/templates/discussion/templates.underscore:138
-#: common/static/common/templates/discussion/templates.underscore:461
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
 msgstr ""
 "Ajouter un titre clair et descriptif afin d'encourager la participation. "
 "(Requis)"
 
-#: common/static/common/templates/discussion/templates.underscore:144
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
 msgstr "Modifiez votre post ci-dessous."
 
-#: common/static/common/templates/discussion/templates.underscore:147
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Update post"
 msgstr "Mettre à jour le message"
 
-#: common/static/common/templates/discussion/templates.underscore:154
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
 msgstr[0] "Afficher le commentaire (%(num_comments)s)"
 msgstr[1] "Afficher les commentaires (%(num_comments)s)"
 
-#: common/static/common/templates/discussion/templates.underscore:164
-#: common/static/common/templates/discussion/templates.underscore:166
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
 msgstr "Ajouter un commentaire"
 
-#: common/static/common/templates/discussion/templates.underscore:189
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
 msgstr "marqué comme répondu %(time_ago)s par %(user)s"
 
-#: common/static/common/templates/discussion/templates.underscore:193
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s"
 msgstr "marqué comme répondu %(time_ago)s"
 
-#: common/static/common/templates/discussion/templates.underscore:199
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
 msgstr "approuvé %(time_ago)s par %(user)s"
 
-#: common/static/common/templates/discussion/templates.underscore:203
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
 msgstr "apprové %(time_ago)s"
 
-#: common/static/common/templates/discussion/templates.underscore:242
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
 msgstr "Editer la réponse"
 
-#: common/static/common/templates/discussion/templates.underscore:245
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Update response"
 msgstr "Mettre à jour la réponse"
 
-#: common/static/common/templates/discussion/templates.underscore:275
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
 msgstr "postée %(time_ago)s par %(author)s"
 
-#: common/static/common/templates/discussion/templates.underscore:289
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
 msgstr "Editer le commentaire"
 
-#: common/static/common/templates/discussion/templates.underscore:292
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Update comment"
 msgstr "Mettre à jour le commentaire"
 
-#: common/static/common/templates/discussion/templates.underscore:305
+#: common/static/common/templates/discussion/templates.underscore
 msgid "discussion"
 msgstr "discussion"
 
-#: common/static/common/templates/discussion/templates.underscore:309
+#: common/static/common/templates/discussion/templates.underscore
 msgid "answered question"
 msgstr "question répondue"
 
-#: common/static/common/templates/discussion/templates.underscore:313
+#: common/static/common/templates/discussion/templates.underscore
 msgid "unanswered question"
 msgstr "question non répondue"
 
-#: common/static/common/templates/discussion/templates.underscore:337
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Following"
 msgstr "Suivi"
 
-#: common/static/common/templates/discussion/templates.underscore:344
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Staff"
 msgstr "Équipe pédagogique"
 
-#: common/static/common/templates/discussion/templates.underscore:351
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
 msgstr "Assistant d'enseignement de la communauté"
 
-#: common/static/common/templates/discussion/templates.underscore:379
+#: common/static/common/templates/discussion/templates.underscore
 msgid "{unread_comments_count} new"
 msgstr "{unread_comments_count} nouveaux"
 
-#: common/static/common/templates/discussion/templates.underscore:398
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
@@ -480,21 +479,21 @@ msgstr ""
 "%(comments_count)s %(span_sr_open)scommentaires (%(unread_comments_count)s "
 "commentaires non lus)%(span_close)s"
 
-#: common/static/common/templates/discussion/templates.underscore:401
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
 msgstr "%(comments_count)s %(span_sr_open)s commentaires %(span_close)s"
 
-#: common/static/common/templates/discussion/templates.underscore:425
-#: common/static/common/templates/discussion/templates.underscore:565
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
 msgstr "Ajouter un  message"
 
-#: common/static/common/templates/discussion/templates.underscore:440
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
 msgstr "Visible pour"
 
-#: common/static/common/templates/discussion/templates.underscore:443
+#: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
@@ -503,90 +502,90 @@ msgstr ""
 "Assistants peuvent rendre leurs messages visibles à tous les étudiants ou "
 "spécifier un seul groupe."
 
-#: common/static/common/templates/discussion/templates.underscore:447
+#: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
 msgstr "Tous les groupes"
 
-#: common/static/common/templates/discussion/templates.underscore:470
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Your question or idea (required)"
 msgstr "Votre question ou idée (requis)"
 
-#: common/static/common/templates/discussion/templates.underscore:477
+#: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
 msgstr "suivre ce message"
 
-#: common/static/common/templates/discussion/templates.underscore:483
+#: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
 msgstr "poster anonymement"
 
-#: common/static/common/templates/discussion/templates.underscore:489
+#: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
 msgstr "poster anonymement à des camarades de classe"
 
-#: common/static/common/templates/discussion/templates.underscore:513
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Error posting your message."
 msgstr "Erreur lors du post de votre message."
 
-#: common/static/common/templates/discussion/templates.underscore:526
+#: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post will be visible only to %(group_name)s."
 msgstr "Ce message sera visible seulement par %(group_name)s."
 
-#: common/static/common/templates/discussion/templates.underscore:532
+#: common/static/common/templates/discussion/templates.underscore
 msgid "This post will be visible to everyone."
 msgstr "Ce post sera visible par tous."
 
-#: common/static/common/templates/discussion/templates.underscore:538
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Topic area"
 msgstr "Secteur thématique"
 
-#: common/static/common/templates/discussion/templates.underscore:541
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
 msgstr ""
 "Ajoutez votre message à un sujet pertinent afin d'aider les autres à le "
 "trouver. (Requis)"
 
-#: common/static/common/templates/discussion/templates.underscore:554
+#: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
 msgstr "(Assistant d'enseignement de la communauté)"
 
-#: common/static/common/templates/discussion/templates.underscore:556
+#: common/static/common/templates/discussion/templates.underscore
 msgid "(Staff)"
 msgstr "(Équipe pédagogique)"
 
-#: common/static/common/templates/discussion/templates.underscore:559
-#: common/static/common/templates/discussion/templates.underscore:630
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "anonymous"
 msgstr "anonyme"
 
-#: common/static/common/templates/discussion/templates.underscore:578
-#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
+#: common/static/common/templates/discussion/templates.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
 msgid "All Posts"
 msgstr "Tous les messages"
 
-#: common/static/common/templates/discussion/templates.underscore:579
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Return to all posts"
 msgstr "Revenir à tous les messages"
 
-#: common/static/common/templates/discussion/templates.underscore:598
-#: common/static/common/templates/discussion/templates.underscore:610
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "…"
 msgstr "…"
 
-#: common/static/common/templates/discussion/templates.underscore:642
+#: common/static/common/templates/discussion/templates.underscore
 msgid "View discussion"
 msgstr "Voir la discussion"
 
-#: common/static/common/templates/discussion/templates.underscore:703
-#: common/static/common/templates/discussion/templates.underscore:892
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Load more"
 msgstr "Afficher plus"
 
-#: common/static/common/templates/discussion/templates.underscore:713
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
 msgstr "Type de message"
 
-#: common/static/common/templates/discussion/templates.underscore:717
+#: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
@@ -594,134 +593,134 @@ msgstr ""
 "Les questions soulèvent des problèmes auxquels il faut répondre. Les "
 "discussions partagent des idées et démarrent des conversations. (Requis)"
 
-#: common/static/common/templates/discussion/templates.underscore:725
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
 msgstr "Question"
 
-#: common/static/common/templates/discussion/templates.underscore:733
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
 msgstr "Discussion"
 
-#: common/static/common/templates/discussion/templates.underscore:742
-#: common/static/common/templates/discussion/templates.underscore:744
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
 msgstr "Approuver"
 
-#: common/static/common/templates/discussion/templates.underscore:745
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
 msgstr "Ne plus approuver"
 
-#: common/static/common/templates/discussion/templates.underscore:754
-#: common/static/common/templates/discussion/templates.underscore:756
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
 msgstr "Marqué comme réponse"
 
-#: common/static/common/templates/discussion/templates.underscore:757
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Unmark as Answer"
 msgstr "Démarqué comme réponse"
 
-#: common/static/common/templates/discussion/templates.underscore:766
-#: common/static/common/templates/discussion/templates.underscore:768
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
 msgstr "Suivre"
 
-#: common/static/common/templates/discussion/templates.underscore:769
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Unfollow"
 msgstr "Ne plus suivre"
 
-#: common/static/common/templates/discussion/templates.underscore:782
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Vote for this post,"
 msgstr "Voter pour ce message,"
 
-#: common/static/common/templates/discussion/templates.underscore:798
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Report abuse"
 msgstr "Signaler un abus"
 
-#: common/static/common/templates/discussion/templates.underscore:800
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Report"
 msgstr "Signaler"
 
-#: common/static/common/templates/discussion/templates.underscore:801
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Unreport"
 msgstr "Ne pas signaler"
 
-#: common/static/common/templates/discussion/templates.underscore:812
-#: common/static/common/templates/discussion/templates.underscore:814
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Pin"
 msgstr "Épingler"
 
-#: common/static/common/templates/discussion/templates.underscore:815
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Unpin"
 msgstr "Détacher"
 
-#: common/static/common/templates/discussion/templates.underscore:829
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Open"
 msgstr "Ouvert"
 
-#: common/static/common/templates/discussion/templates.underscore:859
-#: common/static/common/templates/discussion/templates.underscore:860
-#: lms/templates/discovery/facet.underscore:10
-#: lms/templates/edxnotes/note-item.underscore:9
+#: common/static/common/templates/discussion/templates.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: lms/templates/discovery/facet.underscore
+#: lms/templates/edxnotes/note-item.underscore
 msgid "More"
 msgstr "Plus"
 
-#: common/static/common/templates/discussion/templates.underscore:885
-#: lms/templates/learner_dashboard/verification_popover.underscore:13
+#: common/static/common/templates/discussion/templates.underscore
+#: lms/templates/learner_dashboard/verification_popover.underscore
 msgid "OK"
 msgstr "OK"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:3
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
 msgstr "Page d'accueil des discussions"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:12
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 #, python-format
 msgid "How to use %(platform_name)s discussions"
 msgstr "Comment utiliser les discussions sur %(platform_name)s"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:18
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Find discussions"
 msgstr "Trouver des discussions"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:21
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Use the All Topics menu to find specific topics."
 msgstr "Utilisez le menu Tous les sujets pour trouver des sujets spécifiques."
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore
 msgid "Search all posts"
 msgstr "Recherche"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Filter and sort topics"
 msgstr "Filtrer et trier les sujets"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:33
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Engage with posts"
 msgstr "Intérargir avec les messages"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:36
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Vote for good posts and responses"
 msgstr "Voter en faveur des messages et bonnes réponses"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:40
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Report abuse, topics, and responses"
 msgstr "Signaler les abus, sujets, et réponses"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:44
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Follow or unfollow posts"
 msgstr "Suivre ou arrêter de suivre les messages"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:49
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Receive updates"
 msgstr "Recevoir des mises-à-jour"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:52
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Toggle Notifications Setting"
 msgstr "Bascule le paramètre des notifications"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:58
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid ""
 "Check this box to receive an email digest once a day notifying you about "
 "new, unread activity from posts you are following."
@@ -729,177 +728,177 @@ msgstr ""
 "Cochez cette case pour recevoir quotidiennement un courriel vous informant "
 "au sujet de nouvelles activités dans les messages que vous suivez."
 
-#: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore:4
+#: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore
 msgid "All Topics"
 msgstr "Tous les sujets"
 
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:10
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "username or email"
 msgstr "utilisateur ou courriel"
 
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:17
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "course id"
 msgstr "numéro de cours"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:23
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:16
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "No results"
 msgstr "Aucun résultat"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Course Key"
 msgstr "Clé de cours"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Status"
 msgstr "Statut"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download URL"
 msgstr "URL de téléchargement"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:10
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Grade"
 msgstr "Note"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:11
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Last Updated"
 msgstr "Dernière mise à jour"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:24
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download the user's certificate"
 msgstr "Téléchargez l'attestation de l'utilisateur"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:26
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
 msgstr "Non disponible"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:37
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate"
 msgstr "Regénérer"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:38
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate the user's certificate"
 msgstr "Regénérer l'attestation pour cet utilisateur"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:44
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Generate"
 msgstr "Générer"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:45
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Generate the user's certificate"
 msgstr "Générer l'attestation de l'utilisateur"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:4
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Current enrollment mode:"
 msgstr "Mode courant d'inscription : "
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:6
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "New enrollment mode:"
 msgstr "Nouveau mode d'inscription : "
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:14
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Reason for change:"
 msgstr "Raison pour le changement : "
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:16
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Choose One"
 msgstr "Choisir"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:21
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:22
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Explain if other."
 msgstr "Expliquer si autre."
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:24
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Submit enrollment change"
 msgstr "Soumettre la modification d'inscription"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:9
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:7
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Username or email address"
 msgstr "Nom d'utilisateur ou adresse courriel"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course ID"
 msgstr "Numéro du cours"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course Start"
 msgstr "Début du cours"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course End"
 msgstr "Fin du cours"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Upgrade Deadline"
 msgstr "Mettre à jour la date d'échéance"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:24
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Verification Deadline"
 msgstr "Date d'échéance de la validation d'identité"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:25
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Enrollment Date"
 msgstr "Date d'inscription"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:26
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Enrollment Mode"
 msgstr "Mode d'inscription"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:27
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Verified mode price"
 msgstr "Prix du mode vérifié"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:28
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Reason"
 msgstr "Raison"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:29
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Last modified by"
 msgstr "Dernière modification par"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:30
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Active"
 msgstr "Actif"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:45
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:46
-#: lms/templates/ccx/schedule.underscore:42
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "N/A"
 msgstr "S/O"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:54
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Change Enrollment"
 msgstr "Modifier l'inscription"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:21
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Email"
 msgstr "Courriel"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:22
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Date Joined"
 msgstr "Date d'inscription"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:23
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Password Status"
 msgstr "Statut du mot de passe"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:35
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Toggle Account Password (Usable/Unusable)"
 msgstr "Basculer le mot de passe du compte (utilisable / inutilisable)"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:7
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Your team could not be created."
 msgstr "Votre équipe n'a pu être créée."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:9
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Your team could not be updated."
 msgstr "Votre équipe n'a pu être mise à jour."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:23
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid ""
 "Enter information to describe your team. You cannot change these details "
 "after you create the team."
@@ -907,11 +906,11 @@ msgstr ""
 "Entrez l'information afin de décrire votre équipe. Vous ne pouvez pas "
 "changer ces détails après la création de l'équipe."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:35
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Optional Characteristics"
 msgstr "Caractéristiques optionnelles"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:38
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid ""
 "Help other learners decide whether to join your team by specifying some "
 "characteristics for your team. Choose carefully, because fewer people might "
@@ -922,106 +921,106 @@ msgstr ""
 "soigneusement, car moins de personnes seront intéressés à rejoindre votre "
 "équipe si votre équipe semble trop restrictive."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:49
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Create team."
 msgstr "Créer l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:51
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Update team."
 msgstr "Mettre à jour l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:57
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Cancel team creating."
 msgstr "Annuler la création de l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:59
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Cancel team updating."
 msgstr "Annuler la mise à jour de l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:3
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Instructor tools"
 msgstr "Outils de l'instructeur"
 
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:7
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Delete Team"
 msgstr "Supprimer l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:10
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Edit Membership"
 msgstr "Editer les inscriptions"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:5
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "View Current Team Memberships"
 msgstr "Voir les membres actuels de l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:17
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Download Memberships"
 msgstr "Télécharger les inscriptions"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:22
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Assign Team Memberships"
 msgstr "Attribuer des inscriptions à une équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:40
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Upload Memberships"
 msgstr "Télécharger les inscriptions"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:46
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Error assigning team memberships"
 msgstr "Erreur à l'attribution des équipes"
 
-#: lms/djangoapps/teams/static/teams/templates/team-actions.underscore:2
+#: lms/djangoapps/teams/static/teams/templates/team-actions.underscore
 msgid "Are you having trouble finding a team to join?"
 msgstr "Avez-vous de la difficulté à trouver une équipe à rejoindre?"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:4
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
 msgid "Join Team"
 msgstr "Rejoindre l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:11
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
 msgid "Edit Team"
 msgstr "Modifier l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:5
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Assignments"
 msgstr ""
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:18
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr "Détails de l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:21
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "You are a member of this team."
 msgstr "Vous êtes un membre de cette équipe."
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:26
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team member profiles"
 msgstr "Profils des membres de l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:32
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team capacity"
 msgstr "Capacité de l'équipe"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:38
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "The country that team members primarily identify with."
 msgstr "Le pays avec lequel les membres de l'équipe sont le plus proche."
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:47
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid ""
 "The language that team members primarily use to communicate with each other."
 msgstr ""
 "La langue utilisée par les membres de l'équipe pour communiquer entre eux."
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:57
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Leave Team"
 msgstr "Quitter l'équipe"
 
-#: lms/static/js/fixtures/donation.underscore:5
-#: lms/templates/dashboard/donation.underscore:5
+#: lms/static/js/fixtures/donation.underscore
+#: lms/templates/dashboard/donation.underscore
 msgid "Donate"
 msgstr "Faire un don"
 
-#: lms/templates/api_admin/catalog-error.underscore:2
+#: lms/templates/api_admin/catalog-error.underscore
 msgid ""
 "There was an error retrieving preview results for this catalog. Please check"
 " that your query is correct and try again."
@@ -1030,109 +1029,106 @@ msgstr ""
 "ce catalogue. Veuillez vérifier que votre requête est correcte et essayer de"
 " nouveau."
 
-#: lms/templates/api_admin/catalog-results.underscore:1
+#: lms/templates/api_admin/catalog-results.underscore
 msgid "This catalog's courses:"
 msgstr "Les cours de ce catalogue : "
 
-#: lms/templates/ccx/schedule.underscore:3
+#: lms/templates/ccx/schedule.underscore
 msgid "Expand All"
 msgstr "Tout développer"
 
-#: lms/templates/ccx/schedule.underscore:6
+#: lms/templates/ccx/schedule.underscore
 msgid "Collapse All"
 msgstr "Tout replier"
 
-#: lms/templates/ccx/schedule.underscore:13
-#: lms/templates/ccx/schedule.underscore:83
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
 msgid "Unit"
 msgstr "Unité"
 
-#: lms/templates/ccx/schedule.underscore:14
+#: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
 msgstr "Date de début"
 
-#: lms/templates/ccx/schedule.underscore:15
+#: lms/templates/ccx/schedule.underscore
 msgid "Due Date"
 msgstr "Date d'échéance"
 
-#: lms/templates/ccx/schedule.underscore:17
+#: lms/templates/ccx/schedule.underscore
 msgid "remove all"
 msgstr "tout supprimer"
 
-#: lms/templates/ccx/schedule.underscore:28
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "toggle chapter %(displayName)s"
 msgstr "basculer chapitre %(displayName)s"
 
-#: lms/templates/ccx/schedule.underscore:33
+#: lms/templates/ccx/schedule.underscore
 msgid "Section"
 msgstr "Section"
 
-#: lms/templates/ccx/schedule.underscore:38
-#: lms/templates/ccx/schedule.underscore:65
-#: lms/templates/ccx/schedule.underscore:71
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "Click to change"
 msgstr "Cliquez pour changer"
 
-#: lms/templates/ccx/schedule.underscore:45
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "Remove chapter %(chapterDisplayName)s"
 msgstr "Supprimer le chapitre %(chapterDisplayName)s"
 
-#: lms/templates/ccx/schedule.underscore:46
-#: lms/templates/ccx/schedule.underscore:76
-#: lms/templates/ccx/schedule.underscore:109
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "remove"
 msgstr "supprimer"
 
-#: lms/templates/ccx/schedule.underscore:56
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "toggle subsection %(displayName)s"
 msgstr "basculer sous-section %(displayName)s"
 
-#: lms/templates/ccx/schedule.underscore:60
+#: lms/templates/ccx/schedule.underscore
 msgid "Subsection"
 msgstr "Sous-section"
 
-#: lms/templates/ccx/schedule.underscore:75
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "Remove subsection %(subsectionDisplayName)s"
 msgstr "Supprimer la sous-section %(subsectionDisplayName)s"
 
-#: lms/templates/ccx/schedule.underscore:108
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr "Supprimer l'unité %(unitName)s"
 
-#: lms/templates/courseware/proctored-exam-controls.underscore:3
+#: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
 msgstr "Marquer l'examen comme complété"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:9
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Exam timer and end exam button"
 msgstr "Minuterie d'examen et bouton de fin d'examen"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:13
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "End My Exam"
 msgstr "Terminer mon examen"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:23
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Hide Timer"
 msgstr "Cacher le compteur"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:30
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr "Vous prenez \"{exam_link}\" en tant que {exam_type}."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:30
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "a timed exam"
 msgstr "un examen chronométré"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:32
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "The timer on the right shows the time remaining in the exam."
 msgstr "La minuterie à droite indique le temps restant à l'examen."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:33
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
@@ -1141,98 +1137,98 @@ msgstr ""
 "\"Soumettre\" pour chaque problème avant de sélectionner \"Terminer mon "
 "examen\"."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:35
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show More"
 msgstr "Afficher plus"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:35
-#: lms/templates/courseware/proctored-exam-status.underscore:36
+#: lms/templates/courseware/proctored-exam-status.underscore
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show Less"
 msgstr "Afficher moins"
 
-#: lms/templates/discovery/course_card.underscore:6
+#: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"
 msgstr "EN SAVOIR PLUS"
 
-#: lms/templates/discovery/course_card.underscore:17
+#: lms/templates/discovery/course_card.underscore
 #, python-format
 msgid "Starts: %(start_date)s"
 msgstr "Début : %(start_date)s"
 
-#: lms/templates/discovery/course_card.underscore:26
+#: lms/templates/discovery/course_card.underscore
 msgid "Starts"
 msgstr "Début"
 
-#: lms/templates/discovery/facet.underscore:13
-#: lms/templates/edxnotes/note-item.underscore:7
+#: lms/templates/discovery/facet.underscore
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Less"
 msgstr "Moins"
 
-#: lms/templates/discovery/filter_bar.underscore:3
+#: lms/templates/discovery/filter_bar.underscore
 msgid "Clear All"
 msgstr "Effacer tout"
 
-#: lms/templates/edxnotes/note-item.underscore:3
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Highlighted text"
 msgstr "Texte surligné"
 
-#: lms/templates/edxnotes/note-item.underscore:17
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Note"
 msgstr "Note"
 
-#: lms/templates/edxnotes/note-item.underscore:19
+#: lms/templates/edxnotes/note-item.underscore
 msgid "You commented..."
 msgstr "Vous avez commenté..."
 
-#: lms/templates/edxnotes/note-item.underscore:33
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Noted in:"
 msgstr "Noté dans : "
 
-#: lms/templates/edxnotes/note-item.underscore:40
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Last Edited:"
 msgstr "Dernière modification : "
 
-#: lms/templates/edxnotes/note-item.underscore:44
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Tags:"
 msgstr "Balises : "
 
-#: lms/templates/edxnotes/tab-item.underscore:10
+#: lms/templates/edxnotes/tab-item.underscore
 msgid "Clear search results"
 msgstr "Effacer les résultats de la recherche"
 
-#: lms/templates/fields/field_dropdown.underscore:38
-#: lms/templates/fields/field_dropdown_account.underscore:41
-#: lms/templates/fields/field_textarea.underscore:35
+#: lms/templates/fields/field_dropdown.underscore
+#: lms/templates/fields/field_dropdown_account.underscore
+#: lms/templates/fields/field_textarea.underscore
 msgid "Click to edit"
 msgstr "Cliquer pour modifier"
 
-#: lms/templates/fields/field_order_history.underscore:2
+#: lms/templates/fields/field_order_history.underscore
 msgid "Order Number"
 msgstr "Numéro de commande"
 
-#: lms/templates/fields/field_order_history.underscore:3
-#: lms/templates/fields/field_order_history.underscore:13
+#: lms/templates/fields/field_order_history.underscore
+#: lms/templates/fields/field_order_history.underscore
 msgid "Date Placed"
 msgstr "Date commandée"
 
-#: lms/templates/fields/field_order_history.underscore:4
-#: lms/templates/fields/field_order_history.underscore:14
+#: lms/templates/fields/field_order_history.underscore
+#: lms/templates/fields/field_order_history.underscore
 msgid "Cost"
 msgstr "Coût"
 
-#: lms/templates/fields/field_order_history.underscore:7
+#: lms/templates/fields/field_order_history.underscore
 msgid "Order Details"
 msgstr "Détails de la commande"
 
-#: lms/templates/fields/field_order_history.underscore:7
+#: lms/templates/fields/field_order_history.underscore
 msgid "for"
 msgstr "pour"
 
-#: lms/templates/fields/field_order_history.underscore:12
+#: lms/templates/fields/field_order_history.underscore
 msgid "Product Name"
 msgstr "Nom du produit"
 
-#: lms/templates/fields/field_textarea.underscore:52
+#: lms/templates/fields/field_textarea.underscore
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
@@ -1240,16 +1236,16 @@ msgstr ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} de "
 "{maxCharacters}"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:1
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:1
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid "Financial Assistance Application"
 msgstr "Demande d'assistance financière"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:14
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "About You"
 msgstr "À propos de vous"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:16
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid ""
 "The following information is already a part of your {platform} profile. "
 "We've included it here for your application."
@@ -1257,27 +1253,27 @@ msgstr ""
 "Les informations suivantes étaient dans votre profil sur {platform}. Nous "
 "les avons inclus ici pour votre demande."
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:24
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Email address"
 msgstr "Adresse courriel"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:28
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Legal name"
 msgstr "Nom légal"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:32
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Country of residence"
 msgstr "Pays de résidence"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:42
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Back to {platform} FAQs"
 msgstr "Retour vers la page FAQ de {platform}"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:45
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Submit Application"
 msgstr "Soumettre la demande"
 
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:3
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
@@ -1285,15 +1281,15 @@ msgstr ""
 "Merci d'avoir soumis votre demande d'aide financière pour {course_name}! "
 "Vous aurez une réponse dans 2-4 jours ouvrables."
 
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:7
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid "Go to Dashboard"
 msgstr "Aller au tableau de bord"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:1
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
 msgstr "Dérogations en lot"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:4
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid ""
 "Upload a comma separated values (.csv) file that contains the usernames or "
 "email addresses of learners who have been given exceptions. Include the "
@@ -1307,20 +1303,20 @@ msgstr ""
 "courriel dans le premier champ. Vous pouvez inclure une note optionnelle "
 "décrivant la raison pour cette dérogation dans le second champ."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:8
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Upload a CSV file"
 msgstr "Téléversez un fichier CSV"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:11
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Browse"
 msgstr "Parcourir"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:15
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:12
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Add to Exception List"
 msgstr "Ajouter à la liste de dérogation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid ""
 "To invalidate a certificate for a particular learner, add the username or "
 "email address below."
@@ -1328,40 +1324,40 @@ msgstr ""
 "Pour invalider une attestation pour un apprenant, ajouter le nom d'usager ou"
 " l'adresse courriel ci-dessous."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Add notes about this learner"
 msgstr "Ajouter des notes à propos de cet apprenant"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:16
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidate Certificate"
 msgstr "Invalider l'attestation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Student"
 msgstr "Étudiant"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:29
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidated By"
 msgstr "Invalidée par"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:30
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidated"
 msgstr "Invalidée"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:31
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Notes"
 msgstr "Notes"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:44
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Remove from Invalidation Table"
 msgstr "Supprimer de la table d'invalidation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:1
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Individual Exceptions"
 msgstr "Dérogations individuelles"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid ""
 "Enter the username or email address of each learner that you want to add as "
 "an exception."
@@ -1369,68 +1365,68 @@ msgstr ""
 "Saisir le nom d'utilisateur ou l'adresse courriel de chaque apprenant que "
 "vous désirez ajouter comme une dérogation."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:5
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Student email or username"
 msgstr "nom d'utilisateur ou adresse courriel"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:8
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:9
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Free text notes"
 msgstr "Explication pour la dérogation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:1
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:13
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate Exception Certificates"
 msgstr "Générer les attestations de dérogation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "All users on the Exception list who do not yet have a certificate"
 msgstr ""
 "Tous les utilisateurs sur la liste de dérogation qui n'ont pas encore une "
 "attestation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:10
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "All users on the Exception list"
 msgstr "Tous les utilisateurs sur la liste de dérogation"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:21
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "User Email"
 msgstr "Courriel de l'utilisateur"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:22
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Exception Granted"
 msgstr "Dérogation accordée"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:23
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Certificate Generated"
 msgstr "Attestation générée"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:37
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Remove from List"
 msgstr "Retirer de la liste"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore
 msgid "Divided"
 msgstr "Divisé"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Selected tab"
 msgstr "Onglet sélectionné"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Manage Learners"
 msgstr "Gérer les apprenants"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
 msgstr "Paramètres"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:12
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Add learners to this cohort"
 msgstr "Ajouter des apprenants à cette cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:15
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "Note: Learners can be in only one cohort. Adding learners to this group "
 "overrides any previous group assignment."
@@ -1439,7 +1435,7 @@ msgstr ""
 "d'apprenants à ce groupe prévaut sur toute affectation précédente à d'autres"
 " groupes."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "Enter email addresses and/or usernames, separated by new lines or commas, "
 "for the learners you want to add. *"
@@ -1448,16 +1444,16 @@ msgstr ""
 "par des retours à la ligne ou des virgules, pour les apprenants que vous "
 "voulez ajouter. *"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "(Required Field)"
 msgstr "(Champ requis)"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgstr "ex: johndoe@example.com, JaneDoe, joeydoe@example.com"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:33
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "You will not receive notification for emails that bounce, so double-check "
 "your spelling."
@@ -1465,66 +1461,66 @@ msgstr ""
 "Vous ne recevrez pas de notification pour les courriels rejetés, donc soyez "
 "doublement attentif à l'orthographe."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Add Learners"
 msgstr "Ajouter des apprenants"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Add a New Cohort"
 msgstr "Ajouter une cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Enter the name of the cohort"
 msgstr "Entrer le nom de la cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Cohort Name"
 msgstr "Nom de la cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:42
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Cohort Assignment Method"
 msgstr "Méthode d'affectation des cohortes"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:45
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Automatic"
 msgstr "Automatique"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:48
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Manual"
 msgstr "Manuel"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:54
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid ""
 "There must be one cohort to which students can automatically be assigned."
 msgstr ""
 "Il doit y avoir une cohorte à laquelle les étudiants peuvent être "
 "automatiquement assignés."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:60
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Associated Content Group"
 msgstr "Groupe de contenu associé"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:62
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "No Content Group"
 msgstr "Pas de groupe de contenu"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:64
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Select a Content Group"
 msgstr "Sélectionner un groupe de contenu"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:67
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Choose a content group to associate"
 msgstr "Choisissez un groupe de contenu à associer"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:69
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Not selected"
 msgstr "Non selectionné"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:91
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Deleted Content Group"
 msgstr "Groupe de contenu supprimé"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:102
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
@@ -1533,31 +1529,31 @@ msgstr ""
 "contenu sélectionné précédemment a été supprimé. Sélectionnez un autre "
 "groupe de contenu."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:121
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
 msgstr ""
 "{screen_reader_start}Avertissement : {screen_reader_end} Il n'existe aucun "
 "groupe de contenu."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:129
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Only the parent course staff of a CCX can create content groups."
 msgstr ""
 "Seul le personnel du cours parent d'un CCX peut créer des groupes de "
 "contenu."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Create a content group"
 msgstr "Créer un groupe de contenu"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
 msgstr[0] "(contient %(student_count)s étudiant)"
 msgstr[1] "(contient %(student_count)s étudiants)"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid ""
 "Learners are added to this cohort only when you provide their email "
 "addresses or usernames on this page."
@@ -1565,45 +1561,45 @@ msgstr ""
 "Les apprenants sont ajoutée à cette cohorte lorsque vous ajoutez leurs "
 "adresses courriels ou noms d'utilisateurs dans cette page."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:15
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:18
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "What does this mean?"
 msgstr "Qu'est ce que cela signifie?"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "Learners are added to this cohort automatically."
 msgstr "Les apprenants sont automatiquement ajoutés à cette cohorte."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 msgid "Select a cohort"
 msgstr "Selectionner une cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 #, python-format
 msgid "%(cohort_name)s (%(user_count)s)"
 msgstr "%(cohort_name)s (%(user_count)s)"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Enable Cohorts"
 msgstr "Activer les cohortes"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Select a cohort to manage"
 msgstr "Sélectionnez une cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "View Cohort"
 msgstr "Voir la cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:22
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Add Cohort"
 msgstr "Ajouter une cohorte"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Assign learners to cohorts by uploading a CSV file"
 msgstr "Affecter les apprenants aux cohortes en important un fichier CSV"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
@@ -1614,156 +1610,156 @@ msgstr ""
 "du cours ou les résultats des cohortes à partir de {link_start} la page de "
 "télechargement des données. {link_end}"
 
-#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
+#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore
 msgid "Specify whether discussion topics are divided"
 msgstr "Indique si les sujets de discussion sont divisés"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
 msgid "Course-Wide Discussion Topics"
 msgstr "Sujets de discussion globaux"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
 msgid "Select the course-wide discussion topics that you want to divide."
 msgstr ""
 "Sélectionnez les sujets de discussion du cours que vous souhaitez diviser."
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Content-Specific Discussion Topics"
 msgstr "Sujets de discussion spécifiques"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Specify whether content-specific discussion topics are divided."
 msgstr "Indique si les sujets de discussion spécifiques sont divisés."
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Always divide content-specific discussion topics"
 msgstr "Toujours diviser les sujets de discussion spécifiques"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Divide the selected content-specific discussion topics"
 msgstr "Diviser les sujets de discussion spécifiques sélectionnés"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "No content-specific discussion topics exist."
 msgstr "Aucun contenu spécifique des sujets de discussion n'existe."
 
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:3
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Code"
 msgstr "Code"
 
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:4
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Used"
 msgstr "Utilisé"
 
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Valid"
 msgstr "Valide"
 
-#: lms/templates/learner_dashboard/certificate_status.underscore:2
-#: lms/templates/learner_dashboard/upgrade_message.underscore:2
+#: lms/templates/learner_dashboard/certificate_status.underscore
+#: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Certificate Status:"
 msgstr "État de l'attestation :"
 
-#: lms/templates/learner_dashboard/certificate_status.underscore:4
+#: lms/templates/learner_dashboard/certificate_status.underscore
 msgid "Certificate Purchased"
 msgstr "Attestation achetée"
 
-#: lms/templates/learner_dashboard/course_card.underscore:21
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "Change or Leave Session"
 msgstr "Changer ou quitter la session"
 
-#: lms/templates/learner_dashboard/course_card.underscore:29
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "You must select a session by {expiration_date} to access the course."
 msgstr ""
 "Vous devez choisir une session d'ici le {expiration_date} pour accéder au "
 "cours."
 
-#: lms/templates/learner_dashboard/course_card.underscore:33
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "You can no longer change sessions."
 msgstr "Vous ne pouvez plus changer de session."
 
-#: lms/templates/learner_dashboard/course_card.underscore:35
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "You can change sessions until {expiration_date}."
 msgstr "Vous pouvez changer de session jusqu'au {expiration_date}."
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:5
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Archived Course"
 msgstr "Voir cours archivé"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:7
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Course"
 msgstr "Voir cours"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:15
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Select a session:"
 msgstr "Choisissez une session :"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:34
-#: lms/templates/learner_dashboard/course_enroll.underscore:38
+#: lms/templates/learner_dashboard/course_enroll.underscore
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Enroll Now"
 msgstr "Inscrivez-vous maintenant"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:44
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Coming Soon"
 msgstr "Bientôt"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:47
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Enrollment Opens on"
 msgstr "Les inscriptions ouvrent le "
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:54
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Not Currently Available"
 msgstr "Non disponible actuellement"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:4
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "More sessions coming soon."
 msgstr "Plus de sessions à venir bientôt."
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:7
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Change to a different session or leave the current session."
 msgstr "Changer de session ou quitter la session actuelle."
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:9
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "To access the course, select a session."
 msgstr "Pour accéder au cours, choisissez une session."
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:15
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Session Selection Dropdown for {courseName}"
 msgstr "Menu déroulant de choix de session pour {courseName}"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:19
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "{sessionDates} - Currently Selected"
 msgstr "{sessionDates} - Actuellement sélectionné"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:21
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "{sessionDates} (Open until {enrollmentEnd})"
 msgstr "{sessionDates} (Ouvert jusqu'au {enrollmentEnd})"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:27
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "More sessions coming soon"
 msgstr "Plus de sessions à venir bientôt"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:28
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Leave the current session and decide later"
 msgstr "Quitter la session actuelle et décider plus tard"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:32
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Change Session"
 msgstr "Changer la session"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:34
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Select Session"
 msgstr "Choisir la session"
 
-#: lms/templates/learner_dashboard/empty_programs_list.underscore:2
+#: lms/templates/learner_dashboard/empty_programs_list.underscore
 msgid "You are not enrolled in any programs yet."
 msgstr "Vous n'êtes pas encore inscrit dans un programme."
 
-#: lms/templates/learner_dashboard/empty_programs_list.underscore:5
+#: lms/templates/learner_dashboard/empty_programs_list.underscore
 msgid "Explore Programs"
 msgstr "Explorez les programmes"
 
-#: lms/templates/learner_dashboard/explore_new_programs.underscore:2
+#: lms/templates/learner_dashboard/explore_new_programs.underscore
 msgid ""
 "Browse recently launched courses and see what\\'s new in your favorite "
 "subjects"
@@ -1771,51 +1767,51 @@ msgstr ""
 "Parcourez les plus récents cours et voyez ce qui existe de nouveau dans vos "
 "sujets favoris"
 
-#: lms/templates/learner_dashboard/explore_new_programs.underscore:7
+#: lms/templates/learner_dashboard/explore_new_programs.underscore
 msgid "Explore New Programs"
 msgstr "Explorez les nouveaux programmes"
 
-#: lms/templates/learner_dashboard/program_card.underscore:16
-#: lms/templates/learner_dashboard/program_card.underscore:24
-#: lms/templates/learner_dashboard/program_card.underscore:32
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
+#: lms/templates/learner_dashboard/program_card.underscore
+#: lms/templates/learner_dashboard/program_card.underscore
+#: lms/templates/learner_dashboard/program_card.underscore
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Course"
 msgid_plural "Courses"
 msgstr[0] "Cours"
 msgstr[1] "Cours"
 
-#: lms/templates/learner_dashboard/program_card.underscore:18
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "Completed"
 msgstr "Terminé"
 
-#: lms/templates/learner_dashboard/program_card.underscore:26
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "In Progress"
 msgstr "En cours"
 
-#: lms/templates/learner_dashboard/program_card.underscore:34
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "Remaining"
 msgstr "Restants"
 
-#: lms/templates/learner_dashboard/program_card.underscore:60
+#: lms/templates/learner_dashboard/program_card.underscore
 #, python-format
 msgid "%(programName)s Home Page."
 msgstr "Page d'accueil %(programName)s"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Your {program} Certificate"
 msgstr "Votre attestation pour {program}"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
 msgstr ""
 "Consultez l'attestation que vous avez obtenu pour le programme %(title)s."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Program Record"
 msgstr "Dossier du programme"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid ""
 "Once you complete one of the program requirements you have a program record."
 " This record is marked complete once you meet all program requirements. A "
@@ -1828,32 +1824,32 @@ msgstr ""
 "être utilisé pour poursuivre votre parcours d'apprentissage et démontrer "
 "votre apprentissage aux autres."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "View Program Record"
 msgstr "Voir le dossier du programme"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:26
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Additional Credit Opportunities"
 msgstr "Opportunités de crédit supplémentaires"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:40
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:66
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Learn More"
 msgstr "En savoir plus"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:52
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Additional Professional Opportunities"
 msgstr "Opportunités professionnelles supplémentaires"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:6
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Congratulations!"
 msgstr "Félicitations!"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:14
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Your Program Journey"
 msgstr "Votre parcours de programme"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:21
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
@@ -1861,179 +1857,179 @@ msgstr ""
 "Pour compléter le programme, vous devez obtenir une attestation vérifiée "
 "pour chaque cours."
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:26
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
 msgstr "Mettre à niveau tous les cours restants ("
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:30
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "${listPrice}"
 msgstr "${listPrice}"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:36
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid " ${price} {currency} )"
 msgstr " ${price} {currency} )"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:47
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "COURSES IN PROGRESS"
 msgstr "COURS EN COURS"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:56
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "REMAINING COURSES"
 msgstr "COURS RESTANTS"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:64
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "COMPLETED COURSES"
 msgstr "COURS COMPLÉTÉS"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:71
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "As you complete courses, you will see them listed here."
 msgstr ""
 "Au fur et à mesure que vous complétez des cours, vous les verrez listés ici."
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:72
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
 msgstr ""
 "Complétez les cours à votre horaire pour vous assurer de vous démarquer dans"
 " votre domaine!"
 
-#: lms/templates/learner_dashboard/program_header_view.underscore:15
+#: lms/templates/learner_dashboard/program_header_view.underscore
 msgid "{organization}\\'s logo"
 msgstr "logo {organization}"
 
-#: lms/templates/learner_dashboard/upgrade_message.underscore:3
+#: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Needs verified certificate "
 msgstr "Nécessite une attestation vérifiée"
 
-#: lms/templates/learner_dashboard/upgrade_message.underscore:9
+#: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Upgrade to Verified"
 msgstr "Demander une attestation"
 
-#: lms/templates/student_account/account.underscore:2
+#: lms/templates/student_account/account.underscore
 msgid "New Address"
 msgstr "Nouvelle adresse"
 
-#: lms/templates/student_account/account.underscore:6
+#: lms/templates/student_account/account.underscore
 msgid "Password"
 msgstr "Mot de passe"
 
-#: lms/templates/student_account/account.underscore:11
+#: lms/templates/student_account/account.underscore
 msgid "Change My Email Address"
 msgstr "Changer mon adresse courriel"
 
-#: lms/templates/student_account/account.underscore:16
+#: lms/templates/student_account/account.underscore
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
 
-#: lms/templates/student_account/account_settings.underscore:8
+#: lms/templates/student_account/account_settings.underscore
 msgid "Switch Language Back"
 msgstr "Revenir à la langue précédente"
 
-#: lms/templates/student_account/account_settings.underscore:15
+#: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
-#: lms/templates/student_account/account_settings_section.underscore:27
+#: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "Une erreur est survenue. Merci de rafraîchir la page."
 
-#: lms/templates/student_account/form_field.underscore:136
+#: lms/templates/student_account/form_field.underscore
 msgid "Need help signing in?"
 msgstr ""
 
-#: lms/templates/student_account/form_field.underscore:138
+#: lms/templates/student_account/form_field.underscore
 msgid "Forgot my password"
 msgstr ""
 
-#: lms/templates/student_account/form_field.underscore:139
-#: lms/templates/student_account/form_field.underscore:147
+#: lms/templates/student_account/form_field.underscore
+#: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
 msgstr ""
 
-#: lms/templates/student_account/form_field.underscore:141
+#: lms/templates/student_account/form_field.underscore
 msgid "Sign in with your company or school"
 msgstr ""
 
-#: lms/templates/student_account/form_field.underscore:144
+#: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
 msgstr ""
 
-#: lms/templates/student_account/form_field.underscore:146
+#: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
 msgstr ""
 
-#: lms/templates/student_account/hinted_login.underscore:4
-#: lms/templates/student_account/login.underscore:55
+#: lms/templates/student_account/hinted_login.underscore
+#: lms/templates/student_account/login.underscore
 msgid "Sign in"
 msgstr "Se connecter"
 
-#: lms/templates/student_account/hinted_login.underscore:8
+#: lms/templates/student_account/hinted_login.underscore
 #, python-format
 msgid "Would you like to sign in using your %(providerName)s credentials?"
 msgstr ""
 "Voulez vous vous connecter en utilisant vos crédentiels %(providerName)s?"
 
-#: lms/templates/student_account/hinted_login.underscore:16
+#: lms/templates/student_account/hinted_login.underscore
 #, python-format
 msgid "Sign in using %(providerName)s"
 msgstr "Connectez vous en utilisant %(providerName)s"
 
-#: lms/templates/student_account/hinted_login.underscore:21
-#: lms/templates/student_account/institution_login.underscore:24
-#: lms/templates/student_account/institution_register.underscore:24
+#: lms/templates/student_account/hinted_login.underscore
+#: lms/templates/student_account/institution_login.underscore
+#: lms/templates/student_account/institution_register.underscore
 msgid "or"
 msgstr "ou"
 
-#: lms/templates/student_account/hinted_login.underscore:26
+#: lms/templates/student_account/hinted_login.underscore
 msgid "Show me other ways to sign in or register"
 msgstr "Montrez moi d'autres façons de se connecter ou de s'inscrire"
 
-#: lms/templates/student_account/institution_login.underscore:5
+#: lms/templates/student_account/institution_login.underscore
 msgid "Sign in with Institution/Campus Credentials"
 msgstr "Connectez vous avec les crédentiels d'institution ou de campus"
 
-#: lms/templates/student_account/institution_login.underscore:10
-#: lms/templates/student_account/institution_register.underscore:10
+#: lms/templates/student_account/institution_login.underscore
+#: lms/templates/student_account/institution_register.underscore
 msgid "Choose your institution from the list below:"
 msgstr "Sélectionner votre institution dans la liste ci-dessous : "
 
-#: lms/templates/student_account/institution_login.underscore:29
+#: lms/templates/student_account/institution_login.underscore
 msgid "Back to sign in"
 msgstr "Retour à la connexion"
 
-#: lms/templates/student_account/institution_register.underscore:5
+#: lms/templates/student_account/institution_register.underscore
 msgid "Register with Institution/Campus Credentials"
 msgstr "Inscription avec les crédentiels d'institution ou de campus"
 
-#: lms/templates/student_account/institution_register.underscore:29
-#: lms/templates/student_account/register.underscore:48
+#: lms/templates/student_account/institution_register.underscore
+#: lms/templates/student_account/register.underscore
 msgid "Create an Account"
 msgstr "Créer un compte"
 
-#: lms/templates/student_account/login.underscore:6
+#: lms/templates/student_account/login.underscore
 msgid "First time here?"
 msgstr "Est-ce votre première fois ici?"
 
-#: lms/templates/student_account/login.underscore:7
+#: lms/templates/student_account/login.underscore
 msgid "Create an Account."
 msgstr "Créer un compte."
 
-#: lms/templates/student_account/login.underscore:14
+#: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning as {email}"
 msgstr "Connectez-vous pour continuer à apprendre en tant que {email}"
 
-#: lms/templates/student_account/login.underscore:16
+#: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning"
 msgstr "Connectez-vous pour continuer à apprendre"
 
-#: lms/templates/student_account/login.underscore:19
+#: lms/templates/student_account/login.underscore
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
 msgstr ""
 "Vous avez déjà un compte EDUlib avec votre adresse courriel "
 "{enterprise_name}."
 
-#: lms/templates/student_account/login.underscore:21
+#: lms/templates/student_account/login.underscore
 msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
@@ -2041,7 +2037,7 @@ msgstr ""
 "À partir de maintenant, les informations de votre compte seront mises à jour"
 " et gérées par {enterprise_name}."
 
-#: lms/templates/student_account/login.underscore:23
+#: lms/templates/student_account/login.underscore
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
@@ -2049,15 +2045,15 @@ msgstr ""
 "Vous pouvez voir vos informations ou vous dissocier de {enterprise_name} à "
 "n'importe quel moment depuis les paramètres de votre compte."
 
-#: lms/templates/student_account/login.underscore:25
+#: lms/templates/student_account/login.underscore
 msgid "To continue learning with this account, sign in below."
 msgstr "Pour continuer à apprendre avec ce compte, connectez-vous ci-dessous."
 
-#: lms/templates/student_account/login.underscore:27
+#: lms/templates/student_account/login.underscore
 msgid "Sign In"
 msgstr "Connexion"
 
-#: lms/templates/student_account/login.underscore:34
+#: lms/templates/student_account/login.underscore
 msgid ""
 "Sign in here using your email address and password, or use one of the "
 "providers listed below."
@@ -2065,35 +2061,35 @@ msgstr ""
 "Connectez-vous avec votre courriel et mot de passe, ou utiliser l'un des "
 "fournisseurs ci-dessous."
 
-#: lms/templates/student_account/login.underscore:36
+#: lms/templates/student_account/login.underscore
 msgid "Sign in here using your email address and password."
 msgstr "Connectez-vous ici avec votre adresse courriel et mot de passe."
 
-#: lms/templates/student_account/login.underscore:38
+#: lms/templates/student_account/login.underscore
 msgid "If you do not yet have an account, use the button below to register."
 msgstr ""
 "Si vous n'avez pas encore de compte, utilisez le bouton ci-dessous pour vous"
 " inscrire."
 
-#: lms/templates/student_account/login.underscore:43
+#: lms/templates/student_account/login.underscore
 msgid "Use my university info"
 msgstr "Utilisez mes infos universitaires"
 
-#: lms/templates/student_account/login.underscore:48
-#: lms/templates/student_account/login.underscore:61
+#: lms/templates/student_account/login.underscore
+#: lms/templates/student_account/login.underscore
 msgid "or sign in with"
 msgstr "ou se connecter avec"
 
-#: lms/templates/student_account/login.underscore:74
+#: lms/templates/student_account/login.underscore
 #, python-format
 msgid "Sign in with %(providerName)s"
 msgstr "Se connecter avec %(providerName)s"
 
-#: lms/templates/student_account/password_reset.underscore:4
+#: lms/templates/student_account/password_reset.underscore
 msgid "Password assistance"
 msgstr "Aide mot de passe"
 
-#: lms/templates/student_account/password_reset.underscore:8
+#: lms/templates/student_account/password_reset.underscore
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
@@ -2101,74 +2097,74 @@ msgstr ""
 "Veuillez saisir votre adresse courriel de connexion ou de récupération ci-"
 "dessous et nous vous enverrons un courriel avec des instructions."
 
-#: lms/templates/student_account/password_reset.underscore:12
+#: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
 msgstr "Récupérer mon mot de passe"
 
-#: lms/templates/student_account/register.underscore:6
+#: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
 msgstr "Vous avez déjà un compte {platformName}?"
 
-#: lms/templates/student_account/register.underscore:7
+#: lms/templates/student_account/register.underscore
 msgid "Sign in."
 msgstr "Se connecter."
 
-#: lms/templates/student_account/register.underscore:18
+#: lms/templates/student_account/register.underscore
 msgid "Create an account using"
 msgstr "Créer un compte avec"
 
-#: lms/templates/student_account/register.underscore:31
+#: lms/templates/student_account/register.underscore
 #, python-format
 msgid "Create account using %(providerName)s."
 msgstr "Créer un compte en utilisant %(providerName)s."
 
-#: lms/templates/student_account/register.underscore:38
+#: lms/templates/student_account/register.underscore
 msgid "Use my institution/campus credentials"
 msgstr "Utiliser mes informations institution/campus"
 
-#: lms/templates/student_account/register.underscore:44
+#: lms/templates/student_account/register.underscore
 msgid "or create a new one here"
 msgstr "ou en créer un nouveau ici"
 
-#: lms/templates/student_account/register.underscore:60
+#: lms/templates/student_account/register.underscore
 msgid "Support education research by providing additional information"
 msgstr ""
 "Soutenez la recherche en éducation en fournissant des informations "
 "additionnelles"
 
-#: lms/templates/student_account/register.underscore:67
+#: lms/templates/student_account/register.underscore
 msgid "Create Account"
 msgstr "Créer un compte"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:3
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 #, python-format
 msgid "Congratulations! You are now verified on %(platformName)s!"
 msgstr ""
 "Félicitations! Votre identité est maintenant vérifié sur %(platformName)s!"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "You are now enrolled as a verified student for:"
 msgstr "Vous vous êtes maintenant engagé en tant qu'étudiant vérifié pour : "
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "A list of courses you have just enrolled in as a verified student"
 msgstr ""
 "Une liste de cours où vous venez de vous inscrire en tant qu'étudiant "
 "vérifié"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Explore your course!"
 msgstr "Explorez votre cours"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Go to your Dashboard"
 msgstr "Aller à votre tableau de bord"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:46
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Verified Status"
 msgstr "Statut vérifié"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:48
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 #, python-format
 msgid ""
 "Thank you for submitting your photos. We will review them shortly. You can "
@@ -2182,19 +2178,19 @@ msgstr ""
 " un an, vous devrez soumettre de nouvelles photos pour une nouvelle "
 "vérification."
 
-#: lms/templates/verify_student/error.underscore:6
+#: lms/templates/verify_student/error.underscore
 msgid "Error:"
 msgstr "Erreur : "
 
-#: lms/templates/verify_student/face_photo_step.underscore:4
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "What You Need for Verification"
 msgstr "Ce dont vous aurez besoin"
 
-#: lms/templates/verify_student/face_photo_step.underscore:6
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Device with Camera"
 msgstr "Appareil avec caméra"
 
-#: lms/templates/verify_student/face_photo_step.underscore:7
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "You need a device that has a webcam. If you receive a browser prompt for "
 "access to your camera, please make sure to click 'Allow'."
@@ -2203,22 +2199,22 @@ msgstr ""
 "notification de votre navigateur pour permettre l'accès à la caméra, "
 "veuillez sélectionnez «Permettre»."
 
-#: lms/templates/verify_student/face_photo_step.underscore:10
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
 msgstr "Photo d'identité"
 
-#: lms/templates/verify_student/face_photo_step.underscore:11
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "You need a valid ID that contains your full name and photo."
 msgstr ""
 "Vous avez besoin d'une pièce d'identité valide contenant votre nom complet "
 "et de votre photo."
 
-#: lms/templates/verify_student/face_photo_step.underscore:17
-#: lms/templates/verify_student/incourse_reverify.underscore:3
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Take Your Photo"
 msgstr "Prendre votre photo"
 
-#: lms/templates/verify_student/face_photo_step.underscore:19
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
@@ -2226,19 +2222,19 @@ msgstr ""
 "Lorsque votre visage est en position, utilisez le bouton «Prendre une photo "
 "{icon}» ci-dessous pour prendre une photo."
 
-#: lms/templates/verify_student/face_photo_step.underscore:25
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "To take a successful photo, make sure that:"
 msgstr "Pour prendre une bonne photo, assurez-vous que : "
 
-#: lms/templates/verify_student/face_photo_step.underscore:29
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Your face is well-lit."
 msgstr "votre visage est bien éclairé."
 
-#: lms/templates/verify_student/face_photo_step.underscore:30
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Your entire face fits inside the frame."
 msgstr "Votre visage est entièrement dans le cadre."
 
-#: lms/templates/verify_student/face_photo_step.underscore:33
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
@@ -2247,20 +2243,20 @@ msgstr ""
 "photo {icon}». Si vous voulez la reprendre, cliquez sur «Reprendre les "
 "photos»."
 
-#: lms/templates/verify_student/face_photo_step.underscore:38
-#: lms/templates/verify_student/id_photo_step.underscore:30
-#: lms/templates/verify_student/incourse_reverify.underscore:29
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Frequently Asked Questions"
 msgstr "Foire Aux Questions"
 
-#: lms/templates/verify_student/face_photo_step.underscore:42
-#: lms/templates/verify_student/id_photo_step.underscore:35
-#: lms/templates/verify_student/incourse_reverify.underscore:33
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid "Why does %(platformName)s need my photo?"
 msgstr "Pourquoi %(platformName)s a besoin de ma photo?"
 
-#: lms/templates/verify_student/face_photo_step.underscore:44
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "We use your verification photos to confirm your identity and ensure the "
 "validity of your certificate."
@@ -2268,15 +2264,15 @@ msgstr ""
 "Nous utilisons les photos de vérifications pour confirmer votre identité et "
 "assurer la validité de votre attestation."
 
-#: lms/templates/verify_student/face_photo_step.underscore:46
-#: lms/templates/verify_student/id_photo_step.underscore:41
-#: lms/templates/verify_student/incourse_reverify.underscore:37
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid "What does %(platformName)s do with this photo?"
 msgstr "Que fait %(platformName)s avec cette photo ?"
 
-#: lms/templates/verify_student/face_photo_step.underscore:49
-#: lms/templates/verify_student/id_photo_step.underscore:44
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
 #, python-format
 msgid ""
 "We securely encrypt your photo and send it to our authorization service for "
@@ -2288,9 +2284,9 @@ msgstr ""
 "pas sauvegardées et ne seront pas disponibles sur %(platformName)s après que"
 " le processus de vérification soit complété."
 
-#: lms/templates/verify_student/face_photo_step.underscore:52
-#: lms/templates/verify_student/id_photo_step.underscore:47
-#: lms/templates/verify_student/incourse_reverify.underscore:43
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "What if I can't see the camera image, or if I can't see my photo do "
 "determine which side is visible?"
@@ -2298,8 +2294,8 @@ msgstr ""
 "Que faire si je ne vois pas l'image de la caméra ou que je ne vois pas ma "
 "photo pour déterminer quel côté est visible?"
 
-#: lms/templates/verify_student/face_photo_step.underscore:55
-#: lms/templates/verify_student/incourse_reverify.underscore:46
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "You may be able to complete the image capture procedure without assistance, "
 "but it may take a couple of submission attempts to get the camera "
@@ -2315,9 +2311,9 @@ msgstr ""
 "approximativement de 30 à 45 centimètres (12 à 18 pouces) de la caméra, avec"
 " votre tête centrée relativement à celle-ci."
 
-#: lms/templates/verify_student/face_photo_step.underscore:56
-#: lms/templates/verify_student/id_photo_step.underscore:51
-#: lms/templates/verify_student/incourse_reverify.underscore:47
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "If the photos you submit are rejected, try moving the computer or camera "
 "orientation to change the lighting angle.  The most common reason for "
@@ -2328,8 +2324,8 @@ msgstr ""
 "raison de rejection la plus commune est l'incapacité de lire le texte sur la"
 " carte d'identité."
 
-#: lms/templates/verify_student/face_photo_step.underscore:59
-#: lms/templates/verify_student/incourse_reverify.underscore:50
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "What if I have difficulty holding my head in position relative to the "
 "camera?"
@@ -2337,9 +2333,9 @@ msgstr ""
 "Que faire si j'ai de la difficulté à tenir ma tête en position relativement "
 "à la caméra ?"
 
-#: lms/templates/verify_student/face_photo_step.underscore:62
-#: lms/templates/verify_student/id_photo_step.underscore:57
-#: lms/templates/verify_student/incourse_reverify.underscore:53
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid ""
 "If you require assistance with taking either photo for submission, contact "
@@ -2348,24 +2344,24 @@ msgstr ""
 "Si vous avez besoin d'assistance avec la prise des photos, contactez le "
 "support %(platformName)s pour des suggestions supplémentaires."
 
-#: lms/templates/verify_student/face_photo_step.underscore:77
-#: lms/templates/verify_student/id_photo_step.underscore:69
-#: lms/templates/verify_student/intro_step.underscore:80
-#: lms/templates/verify_student/payment_confirmation_step.underscore:151
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 #, python-format
 msgid "Next: %(nextStepTitle)s"
 msgstr "Suivant : %(nextStepTitle)s"
 
-#: lms/templates/verify_student/id_photo_step.underscore:3
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Take a Photo of Your ID"
 msgstr "Prenez une photo de votre pièce d'identité"
 
-#: lms/templates/verify_student/id_photo_step.underscore:5
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Use your webcam to take a photo of your ID."
 msgstr ""
 "Utilisez votre caméra web pour prendre un photo de votre pièce d'identité."
 
-#: lms/templates/verify_student/id_photo_step.underscore:13
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "You need an ID with your name and photo. A driver's license, passport, or ID"
 " are all acceptable."
@@ -2373,34 +2369,34 @@ msgstr ""
 "Vous avez besoin d'une pièce d'identité avec votre nom et votre photo. Un "
 "permis de conduire ou un passeport sont bons."
 
-#: lms/templates/verify_student/id_photo_step.underscore:15
-#: lms/templates/verify_student/incourse_reverify.underscore:13
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Tips on taking a successful photo"
 msgstr "Astuces pour prendre une photo réussie"
 
-#: lms/templates/verify_student/id_photo_step.underscore:19
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Ensure that you can see your photo and read your name"
 msgstr "Assurez-vous que vous pouvez voir votre photo et lire votre nom"
 
-#: lms/templates/verify_student/id_photo_step.underscore:20
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Make sure your ID is well-lit"
 msgstr ""
 "Assurez-vous que votre pièce d'identification officielle est bien éclairée"
 
-#: lms/templates/verify_student/id_photo_step.underscore:22
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
 "Lorsque vous êtes en position, utilisez le bouton «Prendre une photo {icon}»"
 " ci-dessous pour prendre une photo de votre pièce d'identité."
 
-#: lms/templates/verify_student/id_photo_step.underscore:24
-#: lms/templates/verify_student/incourse_reverify.underscore:23
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Use the Retake Photo button if you are not pleased with your photo"
 msgstr ""
 "Utilisez le bouton «Reprendre une photo» si vous n'êtes pas satisfait de "
 "votre photo"
 
-#: lms/templates/verify_student/id_photo_step.underscore:38
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "As part of the verification process, you take a photo of both your face and "
 "a photo ID. Our authorization service confirms your identity by comparing "
@@ -2411,7 +2407,7 @@ msgstr ""
 "d'authentification confirme votre identité en comparant la photo que vous "
 "prenez avec la photo sur votre pièce d'identité."
 
-#: lms/templates/verify_student/id_photo_step.underscore:50
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "You may be able to complete the image capture procedure without assistance, "
 "but it may take a couple of submission attempts to get the camera "
@@ -2427,24 +2423,24 @@ msgstr ""
 "approximativement de 30 à 45 centimètres (12 à 18 pouces) de la caméra, avec"
 " votre pièce d'identité centrée relativement à votre caméra."
 
-#: lms/templates/verify_student/id_photo_step.underscore:54
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "What if I have difficulty holding my ID in position relative to the camera?"
 msgstr ""
 "Que faire si j'ai de la difficulté à tenir ma pièce d'identité en position "
 "relativement à la caméra ?"
 
-#: lms/templates/verify_student/image_input.underscore:1
+#: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
 msgstr "Aperçu de l'image téléchargée"
 
-#: lms/templates/verify_student/image_input.underscore:3
+#: lms/templates/verify_student/image_input.underscore
 msgid "Upload an image or capture one with your web or phone camera."
 msgstr ""
 "Téléversez une photo ou prenez en une avec votre caméra web ou votre caméra "
 "de téléphone."
 
-#: lms/templates/verify_student/incourse_reverify.underscore:5
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "Use your webcam to take a photo of your face. We will match this photo with "
 "the photo on your ID."
@@ -2452,28 +2448,28 @@ msgstr ""
 "Utilisez votre caméra afin de prendre une photo de votre visage. Nous ferons"
 " une comparaison avec la photo de votre pièce d'identification officielle."
 
-#: lms/templates/verify_student/incourse_reverify.underscore:17
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Make sure your face is well-lit"
 msgstr "Soyez certain que votre visage est bien éclairé"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:18
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Be sure your entire face is inside the frame"
 msgstr "Soyez certain que tout votre visage est dans le cadre"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:20
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
 msgstr ""
 "Lorsque vous êtes en position, utilisez le bouton «Prendre une photo {icon}»"
 " ci-dessous pour prendre une photo."
 
-#: lms/templates/verify_student/incourse_reverify.underscore:22
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Can we match the photo you took with the one on your ID?"
 msgstr ""
 "Pouvons-nous faire une comparaison de la photo prise avec la photo de votre "
 "pièce d'identification officielle?"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:35
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "As part of the verification process, you take a photo of both your face and "
 "a government-issued photo ID. Our authorization service confirms your "
@@ -2484,7 +2480,7 @@ msgstr ""
 "service d'autorisation confirme votre identité en comparant la photo que "
 "vous prenez avec la photo sur votre pièce d'identification officielle."
 
-#: lms/templates/verify_student/incourse_reverify.underscore:40
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid ""
 "We use the highest levels of security available to encrypt your photo and "
@@ -2497,13 +2493,13 @@ msgstr ""
 "photo et les informations ne sont pas enregistrés ou visibles sur "
 "%(platformName)s après que le processus de vérification soit terminé."
 
-#: lms/templates/verify_student/intro_step.underscore:6
+#: lms/templates/verify_student/intro_step.underscore
 msgid "Thanks for returning to verify your ID in: {courseName}"
 msgstr ""
 "Merci d'être revenu faire la vérification de votre identité dans : "
 "{courseName}"
 
-#: lms/templates/verify_student/intro_step.underscore:19
+#: lms/templates/verify_student/intro_step.underscore
 msgid ""
 "You need to activate your account before you can enroll in courses. Check "
 "your inbox for an activation email. After you complete activation you can "
@@ -2513,22 +2509,22 @@ msgstr ""
 "Vérifier votre boîte de réception pour un courriel d'activation. Après "
 "l'activation vous pouvez revenir et rafraichir cette page."
 
-#: lms/templates/verify_student/intro_step.underscore:31
-#: lms/templates/verify_student/payment_confirmation_step.underscore:94
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Activate Your Account"
 msgstr "Activez votre compte"
 
-#: lms/templates/verify_student/intro_step.underscore:38
+#: lms/templates/verify_student/intro_step.underscore
 msgid "Check Your Email"
 msgstr "Vérifiez votre courriel"
 
-#: lms/templates/verify_student/intro_step.underscore:45
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
-#: lms/templates/verify_student/payment_confirmation_step.underscore:112
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Photo ID"
 msgstr "ID de la photo"
 
-#: lms/templates/verify_student/intro_step.underscore:53
+#: lms/templates/verify_student/intro_step.underscore
 msgid ""
 "A driver's license, passport, or other government-issued ID with your name "
 "and photo"
@@ -2536,30 +2532,30 @@ msgstr ""
 "Un permis de conduire, un passeport ou toute pièce d'identification "
 "officielle avec votre nom et photo."
 
-#: lms/templates/verify_student/intro_step.underscore:61
-#: lms/templates/verify_student/make_payment_step.underscore:77
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:105
-#: lms/templates/verify_student/payment_confirmation_step.underscore:128
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Webcam"
 msgstr "Caméra"
 
-#: lms/templates/verify_student/make_payment_step.underscore:6
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+#: lms/templates/verify_student/make_payment_step.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "You are enrolling in: {courseName}"
 msgstr "Vous demandez une attestation à : {courseName}"
 
-#: lms/templates/verify_student/make_payment_step.underscore:17
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "You are upgrading your enrollment for: {courseName}"
 msgstr "Vous demandez une attestation pour votre inscription à : {courseName}"
 
-#: lms/templates/verify_student/make_payment_step.underscore:26
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "You can now enter your payment information and complete your enrollment."
 msgstr ""
 "Vous pouvez maintenant entrer vos informations de paiement et terminer votre"
 " inscription."
 
-#: lms/templates/verify_student/make_payment_step.underscore:37
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these by {date} to qualify to earn a Verified "
@@ -2569,7 +2565,7 @@ msgstr ""
 "disponibles, mais vous devrez avoir ceux-ci avant {date} afin de vous "
 "qualifier pour l'obtention d'une attestation vérifiée."
 
-#: lms/templates/verify_student/make_payment_step.underscore:44
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "An email has been sent to {userEmail} with a link for you to activate your "
 "account."
@@ -2577,11 +2573,11 @@ msgstr ""
 "Un courriel a été envoyé à {userEmail} avec un lien vous permettant "
 "d'activer votre compte."
 
-#: lms/templates/verify_student/make_payment_step.underscore:48
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "Why activate?"
 msgstr "Pourquoi activer?"
 
-#: lms/templates/verify_student/make_payment_step.underscore:50
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "We ask you to activate your account to ensure it is really you creating the "
 "account and to prevent fraud."
@@ -2589,7 +2585,7 @@ msgstr ""
 "Nous vous demandons d'activer votre compte pour nous assurer que c'est bien "
 "vous qui créez le compte et afin de prévenir la fraude."
 
-#: lms/templates/verify_student/make_payment_step.underscore:53
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these to qualify to earn a Verified Certificate."
@@ -2597,18 +2593,18 @@ msgstr ""
 "Afin de vous qualifier, vous devrez fournir votre photo ainsi qu'une photo "
 "d'identité prises avec votre caméra."
 
-#: lms/templates/verify_student/make_payment_step.underscore:65
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "Government-Issued Photo ID"
 msgstr "Photo d'identité officielle"
 
-#: lms/templates/verify_student/make_payment_step.underscore:92
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "ID-Verification is not required for this Professional Education course."
 msgstr ""
 "La vérification d'identité n'est pas nécessaire pour ce cours de formation "
 "professionnelle."
 
-#: lms/templates/verify_student/make_payment_step.underscore:93
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "All professional education courses are fee-based, and require payment to "
 "complete the enrollment process."
@@ -2616,75 +2612,75 @@ msgstr ""
 "Les cours professionnels requièrent un paiement afin de terminer le "
 "processus d'inscription."
 
-#: lms/templates/verify_student/make_payment_step.underscore:97
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "You have already verified your ID!"
 msgstr "Vous avez déjà vérifié votre ID!"
 
-#: lms/templates/verify_student/make_payment_step.underscore:100
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "Your verification status is good until {verificationGoodUntil}."
 msgstr "Votre vérification est valable jusqu'au {verificationGoodUntil}."
 
-#: lms/templates/verify_student/make_payment_step.underscore:112
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "price"
 msgstr "prix"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Account Not Activated"
 msgstr "Compte inactivé"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Upgrade to a Verified Certificate for {courseName}"
 msgstr "Mettre à jour à une attestation vérifiée pour {courseName}"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
 "Before you upgrade to a certificate track, you must activate your account."
 msgstr ""
 "Avant de mettre à jour vers une attestation, vous devez activer votre "
 "compte."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Check your email for an activation message."
 msgstr "Vérifiez votre courriel pour un message d'activation."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:40
-#: lms/templates/verify_student/payment_confirmation_step.underscore:52
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Total"
 msgstr "Total"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr "Attestation professionnelle pour {courseName}"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Verified Certificate for {courseName}"
 msgstr "Attestation vérifiée pour {courseName}"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
 msgstr ""
 "Pour recevoir une attestation, vous devez aussi valider votre identité avant"
 " {date}."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "To receive a certificate, you must also verify your identity."
 msgstr ""
 "Pour recevoir une attestation, vous devez aussi valider votre identité."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
 "To verify your identity, you need a webcam and a government-issued photo ID."
 msgstr ""
 "Pour valider votre identité, vous devez posséder une caméra et une pièce "
 "d'identité avec photo."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
 "Your ID must be a government-issued photo ID that clearly shows your face."
 msgstr "Votre pièce d'identité doit clairement montrer votre visage."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid ""
 "You will use your webcam to take a picture of your face and of your "
 "government-issued photo ID."
@@ -2692,11 +2688,11 @@ msgstr ""
 "Vous utiliserez votre caméra afin de prendre une photo de votre visage et de"
 " votre pièce d'identité."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:5
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Thank you! We have received your payment for {courseName}."
 msgstr "Merci. Nous avons reçu votre paiement pour {courseName}."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:18
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
 "Please print this page for your records; it serves as your receipt. You will"
 " also receive an email with the same information."
@@ -2704,39 +2700,39 @@ msgstr ""
 "Veuillez imprimer et conserver cette page; elle vous servira de reçu. Vous "
 "recevrez également un courriel avec les mêmes informations."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:25
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Order No."
 msgstr "Commande N°"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:28
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Amount"
 msgstr "Montant"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:63
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Please Note"
 msgstr "Veuillez noter"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:65
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Crossed out items have been refunded."
 msgstr "Les éléments barrés ont été remboursés."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:72
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Billed to"
 msgstr "Facturé à"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:84
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "No receipt available"
 msgstr "Pas de reçu disponible"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:88
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "Étape suivante : Confirmer votre identité"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:101
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Check your email"
 msgstr "Vérifiez votre courriel"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:103
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
 "You need to activate your account before you can enroll in courses. Check "
 "your inbox for an activation email."
@@ -2744,7 +2740,7 @@ msgstr ""
 "Vous devez activer votre compte avant de vous inscrire à des cours. Vérifier"
 " votre boîte de réception."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:120
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
 "A driver's license, passport, or government-issued ID with your name and "
 "photo."
@@ -2752,7 +2748,7 @@ msgstr ""
 "Un permis de conduire, un passeport ou toute pièce d'identité avec votre nom"
 " et photo."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:142
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 #, python-format
 msgid ""
 "If you don't verify your identity now, you can still explore your course "
@@ -2763,15 +2759,15 @@ msgstr ""
 "parcourir vos cours depuis votre tableau de bord. Vous recevrez des rappels "
 "régulier de %(platformName)s pour vérifier votre identité."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:143
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Want to confirm your identity later?"
 msgstr "Voulez-vous confirmer votre identité plus tard?"
 
-#: lms/templates/verify_student/reverify_success_step.underscore:2
+#: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"
 msgstr "Vérification d'identité en cours"
 
-#: lms/templates/verify_student/reverify_success_step.underscore:5
+#: lms/templates/verify_student/reverify_success_step.underscore
 msgid ""
 "We have received your information and are verifying your identity. You will "
 "see a message on your dashboard when the verification process is complete "
@@ -2782,15 +2778,15 @@ msgstr ""
 "message sera visible sur votre tableau de bord (5-7 jours de délai). Entre "
 "temps, vous avez toujours accès à l'ensemble du cours."
 
-#: lms/templates/verify_student/reverify_success_step.underscore:9
+#: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Return to Your Dashboard"
 msgstr "Retour au Tableau de bord"
 
-#: lms/templates/verify_student/review_photos_step.underscore:3
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Review Your Photos"
 msgstr "Vérifiez vos photos"
 
-#: lms/templates/verify_student/review_photos_step.underscore:5
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid ""
 "Make sure we can verify your identity with the photos and information you "
 "have provided."
@@ -2798,65 +2794,65 @@ msgstr ""
 "Assurez-vous que nous pourrons vérifier votre identité avec les photos et "
 "les informations fournies."
 
-#: lms/templates/verify_student/review_photos_step.underscore:13
+#: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Photo of %(fullName)s"
 msgstr "Photo de %(fullName)s"
 
-#: lms/templates/verify_student/review_photos_step.underscore:18
+#: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Photo of %(fullName)s's ID"
 msgstr "Photo de l'ID de %(fullName)s"
 
-#: lms/templates/verify_student/review_photos_step.underscore:25
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photo requirements:"
 msgstr "Conditions requises pour la photo : "
 
-#: lms/templates/verify_student/review_photos_step.underscore:27
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the photo of you show your whole face?"
 msgstr "Votre photo montre-t-elle votre visage en entier ?"
 
-#: lms/templates/verify_student/review_photos_step.underscore:28
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Is your name on your ID readable?"
 msgstr "Le nom sur votre pièce d'identité est-il lisible ?"
 
-#: lms/templates/verify_student/review_photos_step.underscore:29
+#: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Does the name on your ID match your account name: %(fullName)s?"
 msgstr ""
 "Le nom sur votre pièce d'identité correspond-il à votre nom de compte : "
 "%(fullName)s?"
 
-#: lms/templates/verify_student/review_photos_step.underscore:33
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Edit Your Name"
 msgstr "Modifier votre nom"
 
-#: lms/templates/verify_student/review_photos_step.underscore:38
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid ""
 "Make sure that the full name on your account matches the name on your ID."
 msgstr ""
 "Assurez-vous que le nom complet de votre profil correspond au nom sur votre "
 "pièce d'identification officielle."
 
-#: lms/templates/verify_student/review_photos_step.underscore:50
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photos don't meet the requirements?"
 msgstr "Les photos ne rencontrent pas les exigences?"
 
-#: lms/templates/verify_student/review_photos_step.underscore:52
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Retake Your Photos"
 msgstr "Reprendre vos photos"
 
-#: lms/templates/verify_student/review_photos_step.underscore:63
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Before proceeding, please confirm that your details match"
 msgstr ""
 "Avant de continuer, veuillez vérifier que vos informations personnelles "
 "correspondent"
 
-#: lms/templates/verify_student/review_photos_step.underscore:69
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Confirm"
 msgstr "Confirmer"
 
-#: lms/templates/verify_student/webcam_photo.underscore:4
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid ""
 "Don't see your picture? Make sure to allow your browser to use your camera "
 "when it asks for permission."
@@ -2864,33 +2860,33 @@ msgstr ""
 "Vous ne voyez pas votre image? Soyez certain de permettre à votre navigateur"
 " d'utiliser votre caméra lorsqu'il en demande la permission."
 
-#: lms/templates/verify_student/webcam_photo.underscore:7
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid "Live view of webcam"
 msgstr "Vue en direct de la caméra"
 
-#: lms/templates/verify_student/webcam_photo.underscore:24
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid "Retake Photo"
 msgstr "Reprendre une photo"
 
-#: lms/templates/verify_student/webcam_photo.underscore:28
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid "Take Photo"
 msgstr "Prendre une photo"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "Bookmarked on"
 msgstr "Signet ajouté le "
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:29
-#: openedx/features/course_search/static/course_search/templates/course_search_item.underscore:2
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore:2
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
+#: openedx/features/course_search/static/course_search/templates/course_search_item.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore
 msgid "View"
 msgstr "Consulter"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "You have not bookmarked any courseware pages yet"
 msgstr "Vous n'avez pas encore ajouté de signet dans les pages de cours"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid ""
 "Use bookmarks to help you easily return to courseware pages. To bookmark a "
 "page, click \"Bookmark this page\" under the page title."
@@ -2899,66 +2895,66 @@ msgstr ""
 "cours. Pour ajouter un signet, sélectionnez Signets sous le titre de la "
 "page."
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:2
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:2
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Search Results"
 msgstr "Résultats de la recherche"
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:14
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Load next {num_items} result"
 msgid_plural "Load next {num_items} results"
 msgstr[0] "Afficher le prochain {num_items} résultat"
 msgstr[1] "Afficher les {num_items} prochains résultats"
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:26
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Sorry, no results were found."
 msgstr "Désolé, aucun résultat trouvé."
 
-#: openedx/features/course_search/static/course_search/templates/search_error.underscore:1
+#: openedx/features/course_search/static/course_search/templates/search_error.underscore
 msgid "There was an error, try searching again."
 msgstr "Une erreur est survenue, essayez à nouveau."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:13
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 #, python-format
 msgid "Share your \"%(display_name)s\" award"
 msgstr "Partager votre prix \"%(display_name)s\""
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:18
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 msgid "Share"
 msgstr "Partager"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:25
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 #, python-format
 msgid "Earned %(created)s."
 msgstr "%(created)s obtenus."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:6
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
 msgid "What's Your Next Accomplishment?"
 msgstr "Quel est votre prochain accomplissement?"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:7
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
 msgid "Start working toward your next learning goal."
 msgstr "Commencer à travailler vers votre prochain objectif d'apprentissage"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:8
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
 msgid "Find a course"
 msgstr "Trouver un cours"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore
 msgid "You are currently sharing a limited profile."
 msgstr "Vous partagez actuellement votre profil restreint."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore
 msgid "This learner is currently sharing a limited profile."
 msgstr "Cet apprenant partage actuellement un profil restreint."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:4
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid "Share on Mozilla Backpack"
 msgstr "Partager sur Mozilla Backpack"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:5
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid ""
 "To share your certificate on Mozilla Backpack, you must first have a "
 "Backpack account. Complete the following steps to add your certificate to "
@@ -2968,7 +2964,7 @@ msgstr ""
 "avoir un compte Bacpack. Compléter les étapes suivantes pour ajouter votre "
 "attestation à Backpack."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:12
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid ""
 "Create a {link_start}Mozilla Backpack{link_end} account, or log in to your "
 "existing account"
@@ -2976,7 +2972,7 @@ msgstr ""
 "Créer un compte {link_start}Mozilla Backpack{link_end}, ou connecter vous "
 "avec votre compte existant"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:23
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid ""
 "{download_link_start}Download this image (right-click or option-click, save "
 "as){link_end} and then {upload_link_start}upload{link_end} it to your "

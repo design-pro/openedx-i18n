@@ -33,11 +33,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: cms/templates/js/access-editor.underscore:3
+#: cms/templates/js/access-editor.underscore
 msgid "Limit Access"
 msgstr "Beschränkter Zugang"
 
-#: cms/templates/js/access-editor.underscore:7
+#: cms/templates/js/access-editor.underscore
 msgid ""
 "Select a prerequisite subsection and enter a minimum score percentage and "
 "minimum completion percentage to limit access to this subsection. Allowed "
@@ -48,216 +48,216 @@ msgstr ""
 " um den Zugang zu diesem Unterabschnitt einzuschränken. Erlaubte Werte sind "
 "0-100"
 
-#: cms/templates/js/access-editor.underscore:11
+#: cms/templates/js/access-editor.underscore
 msgid "Prerequisite:"
 msgstr "Vorraussetzungen:"
 
-#: cms/templates/js/access-editor.underscore:13
+#: cms/templates/js/access-editor.underscore
 msgid "No prerequisite"
 msgstr "Keine Vorraussetzungen"
 
-#: cms/templates/js/access-editor.underscore:22
+#: cms/templates/js/access-editor.underscore
 msgid "Minimum Score:"
 msgstr "Minimale Punktzahl:"
 
-#: cms/templates/js/access-editor.underscore:29
+#: cms/templates/js/access-editor.underscore
 msgid "Minimum Completion:"
 msgstr "Mindestabschluss:"
 
-#: cms/templates/js/access-editor.underscore:35
+#: cms/templates/js/access-editor.underscore
 msgid "The minimum score percentage must be a whole number between 0 and 100."
 msgstr ""
 "Die minimale Punktzahl bei der Benotung muss eine ganze Zahl zwischen 0 und "
 "100 sein."
 
-#: cms/templates/js/access-editor.underscore:38
+#: cms/templates/js/access-editor.underscore
 msgid ""
 "The minimum completion percentage must be a whole number between 0 and 100."
 msgstr ""
 "Die der Prozentsatz der minimalen Fertigstellung der Aufgaben muss eine "
 "ganze Nummer zwischen 0 und 100 ergeben."
 
-#: cms/templates/js/access-editor.underscore:43
+#: cms/templates/js/access-editor.underscore
 msgid "Use as a Prerequisite"
 msgstr "Als Vorbedingung nutzen:"
 
-#: cms/templates/js/access-editor.underscore:51
+#: cms/templates/js/access-editor.underscore
 msgid "Make this subsection available as a prerequisite to other content"
 msgstr "Lege diesen Unterabschnitt als Voraussetzung für andere Inhalte fest "
 
-#: cms/templates/js/active-video-upload-list.underscore:14
+#: cms/templates/js/active-video-upload-list.underscore
 msgid "Active Uploads"
 msgstr "Aktive Uploads"
 
-#: cms/templates/js/active-video-upload.underscore:8
+#: cms/templates/js/active-video-upload.underscore
 msgid "Read More"
 msgstr "Weiterlesen"
 
-#: cms/templates/js/active-video-upload.underscore:9
+#: cms/templates/js/active-video-upload.underscore
 msgid "details about the failure"
 msgstr "Details über das Scheitern"
 
-#: cms/templates/js/add-xblock-component-button.underscore:7
+#: cms/templates/js/add-xblock-component-button.underscore
 msgid "Add Component:"
 msgstr "Füge Komponente hinzu:"
 
-#: cms/templates/js/add-xblock-component-menu-problem.underscore:3
-#: cms/templates/js/add-xblock-component-menu.underscore:4
+#: cms/templates/js/add-xblock-component-menu-problem.underscore
+#: cms/templates/js/add-xblock-component-menu.underscore
 #, python-format
 msgid "%(type)s Component Template Menu"
 msgstr "%(type)s Component Template Menu"
 
-#: cms/templates/js/add-xblock-component-menu-problem.underscore:10
+#: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Common Problem Types"
 msgstr "Häufige Probleme"
 
-#: cms/templates/js/add-xblock-component-menu-problem.underscore:13
+#: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Advanced"
 msgstr "Erweitert"
 
-#: cms/templates/js/add-xblock-component-support-legend.underscore:9
+#: cms/templates/js/add-xblock-component-support-legend.underscore
 msgid "Supported"
 msgstr "Unterstützt"
 
-#: cms/templates/js/add-xblock-component-support-legend.underscore:13
+#: cms/templates/js/add-xblock-component-support-legend.underscore
 msgid "Provisional"
 msgstr "Vorläufig"
 
-#: cms/templates/js/add-xblock-component-support-legend.underscore:18
-#: cms/templates/js/add-xblock-component-support-level.underscore:9
+#: cms/templates/js/add-xblock-component-support-legend.underscore
+#: cms/templates/js/add-xblock-component-support-level.underscore
 msgid "Not Supported"
 msgstr "Nicht unterstützt"
 
-#: cms/templates/js/add-xblock-component-support-level.underscore:3
+#: cms/templates/js/add-xblock-component-support-level.underscore
 msgid "Fully Supported"
 msgstr "Komplett unterstützt"
 
-#: cms/templates/js/add-xblock-component-support-level.underscore:6
+#: cms/templates/js/add-xblock-component-support-level.underscore
 msgid "Provisionally Supported"
 msgstr "Vorläufig unterstützt"
 
-#: cms/templates/js/add-xblock-component.underscore:2
+#: cms/templates/js/add-xblock-component.underscore
 msgid "Add New Component"
 msgstr "Füge neuen Baustein hinzu"
 
-#: cms/templates/js/advanced_entry.underscore:13
+#: cms/templates/js/advanced_entry.underscore
 msgid "Deprecated"
 msgstr "Veralted"
 
-#: cms/templates/js/asset-library.underscore:5
+#: cms/templates/js/asset-library.underscore
 msgid "List of uploaded files and assets in this course"
 msgstr "Liste der hoch geladenen Dateien und Objekte in diesem Kurs"
 
-#: cms/templates/js/asset-library.underscore:16
+#: cms/templates/js/asset-library.underscore
 msgid "Preview"
 msgstr "Vorschau"
 
-#: cms/templates/js/asset-library.underscore:20
-#: cms/templates/js/asset-library.underscore:53
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/asset-library.underscore
 msgid "- Sortable"
 msgstr "- Sortierbar"
 
-#: cms/templates/js/asset-library.underscore:35
+#: cms/templates/js/asset-library.underscore
 msgid "Show All"
 msgstr "Alles anzeigen"
 
-#: cms/templates/js/asset-library.underscore:43
+#: cms/templates/js/asset-library.underscore
 msgid "Other"
 msgstr "Anderes"
 
-#: cms/templates/js/asset-library.underscore:52
-#: cms/templates/js/previous-video-upload-list.underscore:15
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Date Added"
 msgstr "Datum hinzugefügt"
 
-#: cms/templates/js/asset-library.underscore:56
+#: cms/templates/js/asset-library.underscore
 msgid "URL"
 msgstr "URL"
 
-#: cms/templates/js/asset-library.underscore:67
+#: cms/templates/js/asset-library.underscore
 msgid "You haven't added any assets to this course yet."
 msgstr "Sie haben diesem Kurs bisher noch kein Objekt hinzugefügt."
 
-#: cms/templates/js/asset-library.underscore:67
+#: cms/templates/js/asset-library.underscore
 msgid "Upload your first asset"
 msgstr "Aktualisieren Sie Ihr erstes Objekt"
 
-#: cms/templates/js/asset-upload-modal.underscore:2
+#: cms/templates/js/asset-upload-modal.underscore
 msgid "close"
 msgstr "schließen"
 
-#: cms/templates/js/asset-upload-modal.underscore:4
+#: cms/templates/js/asset-upload-modal.underscore
 msgid "Upload New File"
 msgstr "Neue Datei hochladen"
 
-#: cms/templates/js/asset-upload-modal.underscore:15
+#: cms/templates/js/asset-upload-modal.underscore
 msgid "Choose File"
 msgstr "Datei auswählen"
 
-#: cms/templates/js/asset.underscore:4
+#: cms/templates/js/asset.underscore
 msgid "No description available"
 msgstr "Keine Beschreibung verfügbar"
 
-#: cms/templates/js/asset.underscore:9
+#: cms/templates/js/asset.underscore
 msgid "Open/download this file"
 msgstr "Diese Datei öffnen/herunterladen"
 
-#: cms/templates/js/asset.underscore:23
+#: cms/templates/js/asset.underscore
 msgid "Studio:"
 msgstr "Studio:"
 
-#: cms/templates/js/asset.underscore:29
+#: cms/templates/js/asset.underscore
 msgid "Web:"
 msgstr "Web:"
 
-#: cms/templates/js/asset.underscore:39
+#: cms/templates/js/asset.underscore
 msgid "Delete this asset"
 msgstr "Lösche dieses Objekt"
 
-#: cms/templates/js/asset.underscore:42
+#: cms/templates/js/asset.underscore
 msgid "Lock this asset"
 msgstr "Objekt sperren"
 
-#: cms/templates/js/asset.underscore:43
+#: cms/templates/js/asset.underscore
 msgid "Lock/unlock file"
 msgstr "Datei sperren/entsperren"
 
-#: cms/templates/js/certificate-details.underscore:11
-#: cms/templates/js/group-configuration-details.underscore:14
-#: cms/templates/js/partition-group-details.underscore:14
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/partition-group-details.underscore
 msgid "ID"
 msgstr "ID"
 
-#: cms/templates/js/certificate-details.underscore:18
-#: cms/templates/js/certificate-editor.underscore:23
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Details"
 msgstr "Zertifikat Details"
 
-#: cms/templates/js/certificate-details.underscore:23
-#: cms/templates/js/certificate-editor.underscore:26
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid "Course Title"
 msgstr "Kurs Titel"
 
-#: cms/templates/js/certificate-details.underscore:28
-#: cms/templates/js/certificate-editor.underscore:30
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid "Course Title Override"
 msgstr "Kurstitel überschreiben"
 
-#: cms/templates/js/certificate-details.underscore:36
+#: cms/templates/js/certificate-details.underscore
 msgid "Course Number"
 msgstr "Kursnummer"
 
-#: cms/templates/js/certificate-details.underscore:42
+#: cms/templates/js/certificate-details.underscore
 msgid "Course Number Override"
 msgstr "Kursnummer Überschreibung"
 
-#: cms/templates/js/certificate-details.underscore:53
-#: cms/templates/js/certificate-editor.underscore:36
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Signatories"
 msgstr "Zertifikatsunterzeichner"
 
-#: cms/templates/js/certificate-details.underscore:55
-#: cms/templates/js/certificate-editor.underscore:38
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid ""
 "It is strongly recommended that you include four or fewer signatories. If "
 "you include additional signatories, preview the certificate in Print View to"
@@ -268,29 +268,29 @@ msgstr ""
 "Vorschau des Ausdrucks des Zertifikats. Gehen Sie sicher, dass das "
 "Zertifikat richtig, passend, auf einer Seite ausgedruckt wird."
 
-#: cms/templates/js/certificate-editor.underscore:11
+#: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Information"
 msgstr "Zertifikatinformationen"
 
-#: cms/templates/js/certificate-editor.underscore:13
+#: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Name"
 msgstr "Zertifikatname"
 
-#: cms/templates/js/certificate-editor.underscore:14
-#: cms/templates/js/certificate-editor.underscore:15
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid "Name of the certificate"
 msgstr "Name des Zertifikats"
 
-#: cms/templates/js/certificate-editor.underscore:19
-#: cms/templates/js/certificate-editor.underscore:20
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/certificate-editor.underscore
 msgid "Description of the certificate"
 msgstr "Beschreibung des Zertifikats"
 
-#: cms/templates/js/certificate-editor.underscore:31
+#: cms/templates/js/certificate-editor.underscore
 msgid "Course title"
 msgstr "Kurs Titel"
 
-#: cms/templates/js/certificate-editor.underscore:32
+#: cms/templates/js/certificate-editor.underscore
 msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
@@ -299,51 +299,51 @@ msgstr ""
 "erscheint. Lassen Sie dieses Feld leer, falls Sie den offiziellen Kurstitel "
 "nutzen wollen."
 
-#: cms/templates/js/certificate-editor.underscore:41
+#: cms/templates/js/certificate-editor.underscore
 msgid "Add Additional Signatory"
 msgstr "Weitere Unterzeichner hinzufügen"
 
-#: cms/templates/js/certificate-editor.underscore:42
+#: cms/templates/js/certificate-editor.underscore
 msgid "(Add signatories for a certificate)"
 msgstr "(Füge Unterzeichner für ein Zertifikat hinzu)"
 
-#: cms/templates/js/certificate-editor.underscore:46
-#: cms/templates/js/content-group-editor.underscore:31
-#: cms/templates/js/group-configuration-editor.underscore:45
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Create"
 msgstr "Erstellen"
 
-#: cms/templates/js/certificate-web-preview.underscore:1
+#: cms/templates/js/certificate-web-preview.underscore
 msgid "Choose mode"
 msgstr "Modus auswählen"
 
-#: cms/templates/js/certificate-web-preview.underscore:8
+#: cms/templates/js/certificate-web-preview.underscore
 msgid "Preview Certificate"
 msgstr "Vorschau des Zertifikats"
 
-#: cms/templates/js/certificate-web-preview.underscore:13
+#: cms/templates/js/certificate-web-preview.underscore
 msgid "Activate"
 msgstr "Aktivieren"
 
-#: cms/templates/js/certificate-web-preview.underscore:15
+#: cms/templates/js/certificate-web-preview.underscore
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
-#: cms/templates/js/container-access.underscore:7
+#: cms/templates/js/container-access.underscore
 msgid "unit"
 msgstr "Lerneinheit"
 
-#: cms/templates/js/container-access.underscore:9
+#: cms/templates/js/container-access.underscore
 msgid "component"
 msgstr "Baustein"
 
-#: cms/templates/js/container-access.underscore:16
+#: cms/templates/js/container-access.underscore
 msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
 msgstr ""
 "Der Zugang zu {blockType} ist nur den folgenden Gruppen erlaubt: "
 "{selectedGroupsLabel}"
 
-#: cms/templates/js/container-access.underscore:26
+#: cms/templates/js/container-access.underscore
 msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
@@ -351,7 +351,7 @@ msgstr ""
 "Der Zugang zu manchen Inhalten im {blockType} ist nur bestimmten "
 "Teilnehmergruppen erlaubt."
 
-#: cms/templates/js/container-message.underscore:5
+#: cms/templates/js/container-message.underscore
 msgid ""
 "Caution: The last published version of this unit is live. By publishing "
 "changes you will change the student experience."
@@ -360,51 +360,51 @@ msgstr ""
 "Durch die Veröffentlichung von Änderungen wirst du das Kurserlebnis der "
 "Teilnehmer stören."
 
-#: cms/templates/js/content-group-editor.underscore:10
+#: cms/templates/js/content-group-editor.underscore
 msgid "Content Group Name"
 msgstr "Name der Inhaltegruppe"
 
-#: cms/templates/js/content-group-editor.underscore:13
+#: cms/templates/js/content-group-editor.underscore
 msgid "Content Group ID"
 msgstr "Inhaltsgruppe ID"
 
-#: cms/templates/js/content-group-editor.underscore:18
+#: cms/templates/js/content-group-editor.underscore
 msgid "This is the name of the group"
 msgstr "Dies ist der Name der Gruppe"
 
-#: cms/templates/js/content-group-editor.underscore:25
+#: cms/templates/js/content-group-editor.underscore
 msgid "This content group is used in one or more units."
 msgstr "Diese Inhaltsgruppe wird in einer oder mehreren Einheiten verwendet."
 
-#: cms/templates/js/content-group-editor.underscore:40
-#: cms/templates/js/partition-group-details.underscore:35
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/partition-group-details.underscore
 msgid "Cannot delete when in use by a unit"
 msgstr ""
 "Kann nicht gelöscht werden, während es von einer Lerneinheit genutzt wird"
 
-#: cms/templates/js/content-visibility-editor.underscore:2
+#: cms/templates/js/content-visibility-editor.underscore
 msgid "Subsection Visibility"
 msgstr "Sichtbarkeit des Unterabschnitts"
 
-#: cms/templates/js/content-visibility-editor.underscore:7
+#: cms/templates/js/content-visibility-editor.underscore
 msgid "Show entire subsection"
 msgstr "Gesamten Unterabschnitt anzeigen"
 
-#: cms/templates/js/content-visibility-editor.underscore:9
+#: cms/templates/js/content-visibility-editor.underscore
 msgid "Learners see the published subsection and can access its content."
 msgstr ""
 "Teilnehmer sehen den veröffentlichten Unterabschnitt und können auf dessen "
 "Inhalt zugreifen."
 
-#: cms/templates/js/content-visibility-editor.underscore:13
+#: cms/templates/js/content-visibility-editor.underscore
 msgid "Hide content after course end date"
 msgstr "Kursinhalte nach Kursenddatum verbergen"
 
-#: cms/templates/js/content-visibility-editor.underscore:15
+#: cms/templates/js/content-visibility-editor.underscore
 msgid "Hide content after due date"
 msgstr "Kursinhalte nach Kursenddatum verbergen"
 
-#: cms/templates/js/content-visibility-editor.underscore:20
+#: cms/templates/js/content-visibility-editor.underscore
 msgid ""
 "After the course\\'s end date has passed, learners can no longer access "
 "subsection content. The subsection remains included in grade calculations."
@@ -413,7 +413,7 @@ msgstr ""
 " Inhalte des Unterabschnitts zugreifen. Der Unterabschnitt bleibt in der "
 "Notenberechnung einbezogen."
 
-#: cms/templates/js/content-visibility-editor.underscore:22
+#: cms/templates/js/content-visibility-editor.underscore
 msgid ""
 "After the subsection\\'s due date has passed, learners can no longer access "
 "its content. The subsection remains included in grade calculations."
@@ -422,11 +422,11 @@ msgstr ""
 "mehr auf den Inhalt zugreifen. Der Unterabschnitt bleibt in der "
 "Notenberechnung einbezogen."
 
-#: cms/templates/js/content-visibility-editor.underscore:27
+#: cms/templates/js/content-visibility-editor.underscore
 msgid "Hide entire subsection"
 msgstr "Kompletten Unterabschnitt verbergen"
 
-#: cms/templates/js/content-visibility-editor.underscore:30
+#: cms/templates/js/content-visibility-editor.underscore
 msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
@@ -434,7 +434,7 @@ msgstr ""
 "Die Lernenden sehen den Unterabschnitt nicht in der Kursübersicht. Der "
 "Unterabschnitt ist nicht in der Notenberechnung einbezogen."
 
-#: cms/templates/js/content-visibility-editor.underscore:36
+#: cms/templates/js/content-visibility-editor.underscore
 #, python-format
 msgid ""
 "If you select an option other than \"%(hide_label)s\", published units in "
@@ -445,77 +445,77 @@ msgstr ""
 "diesem Unterabschnitt veröffentlichten Einheiten den Lernenden zugänglich, "
 "es sei denn, sie werden explizit ausgeblendet."
 
-#: cms/templates/js/copy-clipboard-button.underscore:1
-#: cms/templates/js/copy-clipboard-button.underscore:3
+#: cms/templates/js/copy-clipboard-button.underscore
+#: cms/templates/js/copy-clipboard-button.underscore
 msgid "Copy Component Location"
 msgstr "Komponentenposition kopieren"
 
-#: cms/templates/js/course-highlights-enable.underscore:3
+#: cms/templates/js/course-highlights-enable.underscore
 msgid "Weekly Highlight Emails"
 msgstr "wöchentliche E-Mails über Neuigkeiten"
 
-#: cms/templates/js/course-highlights-enable.underscore:7
+#: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
 msgstr "Aktiviert"
 
-#: cms/templates/js/course-highlights-enable.underscore:9
+#: cms/templates/js/course-highlights-enable.underscore
 msgid "Enable Now"
 msgstr "Jetzt aktivieren"
 
-#: cms/templates/js/course-instructor-details.underscore:4
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Name"
 msgstr "Dozententitel"
 
-#: cms/templates/js/course-instructor-details.underscore:5
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Please add the instructor's name"
 msgstr "Bitte fügen Sie den Namen des Dozenten hinzu"
 
-#: cms/templates/js/course-instructor-details.underscore:10
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Title"
 msgstr "Dozententitel"
 
-#: cms/templates/js/course-instructor-details.underscore:11
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Please add the instructor's title"
 msgstr "Bitte fügen Sie den Titel des Dozenten hinzu"
 
-#: cms/templates/js/course-instructor-details.underscore:15
-#: cms/templates/js/signatory-details.underscore:21
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/signatory-details.underscore
 msgid "Organization"
 msgstr "Organsation"
 
-#: cms/templates/js/course-instructor-details.underscore:16
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Organization Name"
 msgstr "Name der Organisation"
 
-#: cms/templates/js/course-instructor-details.underscore:17
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Please add the institute where the instructor is associated"
 msgstr "Bitte fügen Sie das Institut mit dem der Dozent assoziiert ist hinzu"
 
-#: cms/templates/js/course-instructor-details.underscore:21
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Biography"
 msgstr "Biografie"
 
-#: cms/templates/js/course-instructor-details.underscore:22
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Biography"
 msgstr "Dozentenbiographie"
 
-#: cms/templates/js/course-instructor-details.underscore:23
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Please add the instructor's biography"
 msgstr "Bitte fügen Sie die Biographie des Dozenten an"
 
-#: cms/templates/js/course-instructor-details.underscore:27
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Photo"
 msgstr "Foto"
 
-#: cms/templates/js/course-instructor-details.underscore:29
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Photo"
 msgstr "Dozenten-Foto"
 
-#: cms/templates/js/course-instructor-details.underscore:33
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Photo URL"
 msgstr "URL Foto des Dozenten"
 
-#: cms/templates/js/course-instructor-details.underscore:34
+#: cms/templates/js/course-instructor-details.underscore
 msgid ""
 "Please add a photo of the instructor (Note: only JPEG or PNG format "
 "supported)"
@@ -523,38 +523,38 @@ msgstr ""
 "Bitte fügen Sie ein Bild des Dozent hinzu (beachten Sie: Nur JPEG oder PNG "
 "Dateiformate werden hier unterstützt)"
 
-#: cms/templates/js/course-instructor-details.underscore:36
+#: cms/templates/js/course-instructor-details.underscore
 msgid "Upload Photo"
 msgstr "Foto hochladen"
 
-#: cms/templates/js/course-outline.underscore:40
+#: cms/templates/js/course-outline.underscore
 #, python-format
 msgid "Prerequisite: %(prereq_display_name)s"
 msgstr "Voraussetzung: %(prereq_display_name)s"
 
-#: cms/templates/js/course-outline.underscore:48
+#: cms/templates/js/course-outline.underscore
 msgid "Contains staff only content"
 msgstr "Enthält nur für Kursmitarbeiter bestimmte Inhalte"
 
-#: cms/templates/js/course-outline.underscore:54
+#: cms/templates/js/course-outline.underscore
 msgid "Unpublished changes to live content"
 msgstr "Unveröffentlichte Änderungen am Live-Inhalt"
 
-#: cms/templates/js/course-outline.underscore:56
+#: cms/templates/js/course-outline.underscore
 msgid "Unpublished units will not be released"
 msgstr "Unveröffentlichte Lerneinheiten werden nicht freigegeben"
 
-#: cms/templates/js/course-outline.underscore:58
+#: cms/templates/js/course-outline.underscore
 msgid "Unpublished changes to content that will release in the future"
 msgstr ""
 "Unveröffentlichte Änderungen am Inhalt, die in der Zukunft freigeben werden"
 
-#: cms/templates/js/course-outline.underscore:66
+#: cms/templates/js/course-outline.underscore
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr ""
 "Der Zugriff auf dieses Gerät ist beschränkt auf: {selectedGroupsLabel}"
 
-#: cms/templates/js/course-outline.underscore:75
+#: cms/templates/js/course-outline.underscore
 msgid ""
 "Access to some content in this unit is restricted to specific groups of "
 "learners"
@@ -562,216 +562,216 @@ msgstr ""
 "Der Zugang zu einigen Inhalten in dieser Lektion ist auf bestimmte Gruppen "
 "von Lernenden beschränkt."
 
-#: cms/templates/js/course-outline.underscore:80
+#: cms/templates/js/course-outline.underscore
 msgid "Ungraded"
 msgstr "Unbenotet"
 
-#: cms/templates/js/course-outline.underscore:91
+#: cms/templates/js/course-outline.underscore
 msgid "Onboarding Exam"
 msgstr "Aufnahmeprüfung"
 
-#: cms/templates/js/course-outline.underscore:93
+#: cms/templates/js/course-outline.underscore
 msgid "Practice proctored Exam"
 msgstr "Beaufsichtigte Prüfung üben"
 
-#: cms/templates/js/course-outline.underscore:95
+#: cms/templates/js/course-outline.underscore
 msgid "Proctored Exam"
 msgstr "Beaufsichtigte Prüfung"
 
-#: cms/templates/js/course-outline.underscore:99
+#: cms/templates/js/course-outline.underscore
 msgid "Timed Exam"
 msgstr "Terminierte Prüfung"
 
-#: cms/templates/js/course-outline.underscore:112
-#: cms/templates/js/xblock-outline.underscore:11
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
 #, python-format
 msgid "Collapse/Expand this %(xblock_type)s"
 msgstr "%(xblock_type)s Ein- oder Ausfahren "
 
-#: cms/templates/js/course-outline.underscore:121
-#: cms/templates/js/course-outline.underscore:126
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Display Name"
 msgstr "Anzeigename"
 
-#: cms/templates/js/course-outline.underscore:135
-#: cms/templates/js/course-outline.underscore:136
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Proctoring Settings"
 msgstr "Einstellung der Beaufsichtigung"
 
-#: cms/templates/js/course-outline.underscore:142
-#: cms/templates/js/course-outline.underscore:144
-#: cms/templates/js/publish-xblock.underscore:121
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
 msgid "Publish"
 msgstr "Veröffentlichen"
 
-#: cms/templates/js/course-outline.underscore:150
-#: cms/templates/js/course-outline.underscore:152
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Configure"
 msgstr "Konfigurieren"
 
-#: cms/templates/js/course-outline.underscore:158
-#: cms/templates/js/course-outline.underscore:160
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Duplicate"
 msgstr "Dupliziere"
 
-#: cms/templates/js/course-outline.underscore:174
-#: cms/templates/js/course-outline.underscore:176
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Drag to reorder"
 msgstr "Für eine neue Reihenfolge, ziehen"
 
-#: cms/templates/js/course-outline.underscore:194
+#: cms/templates/js/course-outline.underscore
 msgid "Release Status:"
 msgstr "Freigabestatus:"
 
-#: cms/templates/js/course-outline.underscore:199
-#: cms/templates/js/publish-xblock.underscore:15
-#: cms/templates/js/xblock-outline.underscore:43
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: cms/templates/js/xblock-outline.underscore
 msgid "Released:"
 msgstr "Freigegeben:"
 
-#: cms/templates/js/course-outline.underscore:202
-#: cms/templates/js/publish-xblock.underscore:17
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
 msgid "Scheduled:"
 msgstr "Terminiert:"
 
-#: cms/templates/js/course-outline.underscore:220
-#: cms/templates/js/highlights-editor.underscore:2
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/highlights-editor.underscore
 msgid "Section Highlights"
 msgstr "Highlights des Abschnitts"
 
-#: cms/templates/js/course-outline.underscore:227
-#: cms/templates/js/course-outline.underscore:241
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Graded as:"
 msgstr "Benotet als:"
 
-#: cms/templates/js/course-outline.underscore:234
-#: cms/templates/js/course-outline.underscore:245
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
 msgid "Due:"
 msgstr "Bis:"
 
-#: cms/templates/js/course-outline.underscore:256
+#: cms/templates/js/course-outline.underscore
 msgid "Subsection is hidden after course end date"
 msgstr "Unterabschnitt ist nach Ablauf der Kurslaufzeit nicht mehr sichtbar"
 
-#: cms/templates/js/course-outline.underscore:258
+#: cms/templates/js/course-outline.underscore
 msgid "Subsection is hidden after due date"
 msgstr "Unterabschnitt wird nach dem Fälligkeitsdatum nicht mehr angezeigt."
 
-#: cms/templates/js/course-outline.underscore:280
-#: cms/templates/js/xblock-outline.underscore:57
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
 msgid "You haven't added any content to this course yet."
 msgstr "Du hast bisher keine Inhalte zu diesem Kurs hinzugefügt"
 
-#: cms/templates/js/course-outline.underscore:284
-#: cms/templates/js/course-outline.underscore:305
-#: cms/templates/js/xblock-outline.underscore:61
-#: cms/templates/js/xblock-outline.underscore:77
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
 #, python-format
 msgid "Click to add a new %(xblock_type)s"
 msgstr "Klicken Sie, um einen neuen %(xblock_type)s hinzuzufügen"
 
-#: cms/templates/js/course-settings-learning-fields.underscore:2
+#: cms/templates/js/course-settings-learning-fields.underscore
 msgid "Learning Outcome"
 msgstr "Lernergebnis"
 
-#: cms/templates/js/course-settings-learning-fields.underscore:3
+#: cms/templates/js/course-settings-learning-fields.underscore
 msgid "Add a learning outcome here"
 msgstr "Lernergebnis hinzufügen"
 
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:2
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:2
-#: cms/templates/js/publish-xblock.underscore:126
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore
+#: cms/templates/js/publish-xblock.underscore
 msgid "Discard Changes"
 msgstr "Änderungen verwerfen"
 
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 msgid "Press discard changes to discard your changes."
 msgstr ""
 "Klicken Sie auf 'Änderungen verwerfen', um Ihre Änderungen zu verwerfen."
 
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Update Settings"
 msgstr "Einstellungen aktualisieren"
 
-#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 msgid "Press update settings to update the information for your organization."
 msgstr ""
 "Klicken Sie 'Einstellungen aktualisieren', um die Informationen Ihrer "
 "Organisation zu aktualisieren."
 
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Press discard changes to discard changes."
 msgstr ""
 "Klicken Sie auf 'Änderungen verwerfen', um Ihre Änderungen zu verwerfen."
 
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Press update settings to update course video settings"
 msgstr ""
 "Klicken Sie 'Einstellungen aktualisieren', um die Informationen Ihrer "
 "Organisation zu aktualisieren."
 
-#: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore
 msgid "Last updated"
 msgstr "Zuletzt aktualisiert"
 
-#: cms/templates/js/course-video-settings.underscore:7
+#: cms/templates/js/course-video-settings.underscore
 msgid "Press close to hide course video settings"
 msgstr "Klicken Sie auf 'Schließen', um die Videoeinstellungen zu verbergen."
 
-#: cms/templates/js/course-video-settings.underscore:13
+#: cms/templates/js/course-video-settings.underscore
 msgid "Course Video Settings"
 msgstr "Videoeinstellungen"
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:3
+#: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Transcript Turnaround"
 msgstr "Transkript Wendepunkt"
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:8
+#: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Transcript Fidelity"
 msgstr "Genauigkeit des Transkripts"
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:13
+#: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Video Source Language"
 msgstr "Video-Originalsprache "
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:18
+#: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Transcript Languages"
 msgstr "Transkriptsprachen"
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:25
-#: cms/templates/js/metadata-dict-entry.underscore:6
-#: cms/templates/js/metadata-list-entry.underscore:9
-#: cms/templates/js/video/metadata-translations-entry.underscore:7
+#: cms/templates/js/course-video-transcript-preferences.underscore
+#: cms/templates/js/metadata-dict-entry.underscore
+#: cms/templates/js/metadata-list-entry.underscore
+#: cms/templates/js/video/metadata-translations-entry.underscore
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:25
+#: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Press Add to language"
 msgstr "Klicken Sie 'Zur Sprache hinzufügen'"
 
-#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
+#: cms/templates/js/course-video-transcript-provider-empty.underscore
 msgid "Automated Transcripts"
 msgstr "Automatisierte Transkripte"
 
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
+#: cms/templates/js/course-video-transcript-provider-selected.underscore
 msgid "Transcript Provider"
 msgstr "Transkriptanbieter"
 
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:5
+#: cms/templates/js/course-video-transcript-provider-selected.underscore
 msgid "Change"
 msgstr "Änderung"
 
-#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
+#: cms/templates/js/course-video-transcript-provider-selected.underscore
 msgid "Press change to change selected transcript provider."
 msgstr ""
 "Klicken Sie 'Ändern', um den ausgewählten Transkriptanbieter zu ändern."
 
-#: cms/templates/js/course_grade_policy.underscore:3
+#: cms/templates/js/course_grade_policy.underscore
 msgid "Assignment Type Name"
 msgstr "Aufgabentyp Name"
 
-#: cms/templates/js/course_grade_policy.underscore:5
+#: cms/templates/js/course_grade_policy.underscore
 msgid ""
 "The general category for this type of assignment, for example, Homework or "
 "Midterm Exam. This name is visible to learners."
@@ -779,11 +779,11 @@ msgstr ""
 "Die allgemeine Kategorie für diese Art von Aufgabe, z.B. Hausaufgaben oder "
 "Zwischenprüfungen. Dieser Name ist für die Lernenden sichtbar."
 
-#: cms/templates/js/course_grade_policy.underscore:9
+#: cms/templates/js/course_grade_policy.underscore
 msgid "Abbreviation"
 msgstr "Abkürzung"
 
-#: cms/templates/js/course_grade_policy.underscore:11
+#: cms/templates/js/course_grade_policy.underscore
 msgid ""
 "This short name for the assignment type (for example, HW or Midterm) appears"
 " next to assignments on a learner's Progress page."
@@ -791,11 +791,11 @@ msgstr ""
 "Diese Kurzbezeichnung für den Aufgabentyp (z.B. HW oder Midterm) erscheint "
 "neben den Aufgaben auf der Fortschrittsseite eines Lernenden."
 
-#: cms/templates/js/course_grade_policy.underscore:15
+#: cms/templates/js/course_grade_policy.underscore
 msgid "Weight of Total Grade"
 msgstr "Gewichtung der Gesamtnote"
 
-#: cms/templates/js/course_grade_policy.underscore:17
+#: cms/templates/js/course_grade_policy.underscore
 msgid ""
 "The weight of all assignments of this type as a percentage of the total "
 "grade, for example, 40. Do not include the percent symbol."
@@ -803,22 +803,22 @@ msgstr ""
 "Das Gewicht aller Aufgaben dieser Art in Prozent der Auswertung, z.B. 40. "
 "Das Prozentsymbol darf nicht enthalten sein."
 
-#: cms/templates/js/course_grade_policy.underscore:21
+#: cms/templates/js/course_grade_policy.underscore
 msgid "Total Number"
 msgstr "Gesamte Anzahl"
 
-#: cms/templates/js/course_grade_policy.underscore:23
+#: cms/templates/js/course_grade_policy.underscore
 msgid ""
 "The number of subsections in the course that contain problems of this "
 "assignment type."
 msgstr ""
 "Anzahl der Unterabschnitte im Kurs, die Aufgaben dieses typs enthalten."
 
-#: cms/templates/js/course_grade_policy.underscore:27
+#: cms/templates/js/course_grade_policy.underscore
 msgid "Number of Droppable"
 msgstr "Zahl der ablegbaren Objekte"
 
-#: cms/templates/js/course_grade_policy.underscore:29
+#: cms/templates/js/course_grade_policy.underscore
 msgid ""
 "The number of assignments of this type that will be dropped. The lowest "
 "scoring assignments are dropped first."
@@ -826,15 +826,15 @@ msgstr ""
 "Anzahl der Aufgaben dieses typs, welche wegfallen. Die mit der niedrigsten "
 "Punktezahl werden zuerst gelöscht."
 
-#: cms/templates/js/course_info_handouts.underscore:3
+#: cms/templates/js/course_info_handouts.underscore
 msgid "Course Handouts"
 msgstr "Kursmaterialien"
 
-#: cms/templates/js/course_info_handouts.underscore:9
+#: cms/templates/js/course_info_handouts.underscore
 msgid "You have no handouts defined"
 msgstr "Sie haben keine Informationsmaterialien definiert."
 
-#: cms/templates/js/course_info_handouts.underscore:13
+#: cms/templates/js/course_info_handouts.underscore
 msgid ""
 "There is invalid code in your content. Please check to make sure it is valid"
 " HTML."
@@ -842,112 +842,112 @@ msgstr ""
 "Es befindet sich invalider Code im Inhalt. Bitte stellen Sie sicher das es "
 "sich um validen HTML Code handelt."
 
-#: cms/templates/js/course_info_update.underscore:14
+#: cms/templates/js/course_info_update.underscore
 msgid "Post"
 msgstr "Beitrag"
 
-#: cms/templates/js/due-date-editor.underscore:3
+#: cms/templates/js/due-date-editor.underscore
 msgid "Due Date:"
 msgstr "Fälligkeitsdatum:"
 
-#: cms/templates/js/due-date-editor.underscore:9
+#: cms/templates/js/due-date-editor.underscore
 msgid "Due Time in UTC:"
 msgstr "Fälligkeitsuhrzeit in UTC:"
 
-#: cms/templates/js/due-date-editor.underscore:17
-#: cms/templates/js/due-date-editor.underscore:19
+#: cms/templates/js/due-date-editor.underscore
+#: cms/templates/js/due-date-editor.underscore
 msgid "Clear Grading Due Date"
 msgstr "Lösche Bewertungsfälligkeitsdatum"
 
-#: cms/templates/js/edit-chapter.underscore:3
+#: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Name"
 msgstr "Kapitelname"
 
-#: cms/templates/js/edit-chapter.underscore:4
+#: cms/templates/js/edit-chapter.underscore
 msgid "Chapter {order}"
 msgstr "Kapitel {order}"
 
-#: cms/templates/js/edit-chapter.underscore:5
+#: cms/templates/js/edit-chapter.underscore
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr ""
 "Gib den Titel/Namen des Kapitels an, der für die Navigation benutzt wird."
 
-#: cms/templates/js/edit-chapter.underscore:9
+#: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
 msgstr "Objekt des Kapitels"
 
-#: cms/templates/js/edit-chapter.underscore:10
+#: cms/templates/js/edit-chapter.underscore
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
 msgstr "path/to/introductionToCookieBaking-CH{order}.pdf"
 
-#: cms/templates/js/edit-chapter.underscore:11
+#: cms/templates/js/edit-chapter.underscore
 msgid "upload a PDF file or provide the path to a Studio asset file"
 msgstr ""
 "Laden Sie eine PDF Datei hoch oder geben Sie einen Pfad zu einer Studio "
 "Objekt Datei an"
 
-#: cms/templates/js/edit-chapter.underscore:12
+#: cms/templates/js/edit-chapter.underscore
 msgid "Upload PDF"
 msgstr "PDF hochladen"
 
-#: cms/templates/js/edit-chapter.underscore:14
+#: cms/templates/js/edit-chapter.underscore
 msgid "delete chapter"
 msgstr "Kapitel löschen"
 
-#: cms/templates/js/edit-textbook.underscore:10
+#: cms/templates/js/edit-textbook.underscore
 msgid "Textbook information"
 msgstr "Lehrbuch Information"
 
-#: cms/templates/js/edit-textbook.underscore:12
+#: cms/templates/js/edit-textbook.underscore
 msgid "Textbook Name"
 msgstr "Lehrbuch Name"
 
-#: cms/templates/js/edit-textbook.underscore:13
+#: cms/templates/js/edit-textbook.underscore
 msgid "Introduction to Cookie Baking"
 msgstr "Einführung zum Cookie-Backen"
 
-#: cms/templates/js/edit-textbook.underscore:14
+#: cms/templates/js/edit-textbook.underscore
 msgid ""
 "provide the title/name of the text book as you would like your students to "
 "see it"
 msgstr ""
 "Gib den Titel/Namen des Lehrbuchs so an, wie ihn die Teilnehmer sehen sollen"
 
-#: cms/templates/js/edit-textbook.underscore:18
+#: cms/templates/js/edit-textbook.underscore
 msgid "Chapter information"
 msgstr "Kapitel Information"
 
-#: cms/templates/js/edit-textbook.underscore:21
+#: cms/templates/js/edit-textbook.underscore
 msgid "Add a Chapter"
 msgstr "Kapitel hinzufügen"
 
-#: cms/templates/js/edit-title-button.underscore:1
+#: cms/templates/js/edit-title-button.underscore
 msgid "Edit Title"
 msgstr "Titel bearbeiten"
 
-#: cms/templates/js/grading-editor.underscore:1
+#: cms/templates/js/grading-editor.underscore
 msgid "Grading"
 msgstr "Bewertung"
 
-#: cms/templates/js/grading-editor.underscore:5
+#: cms/templates/js/grading-editor.underscore
 msgid "Grade as:"
 msgstr "Benote als:"
 
-#: cms/templates/js/grading-editor.underscore:7
+#: cms/templates/js/grading-editor.underscore
 msgid "Not Graded"
 msgstr "Unbenotet"
 
-#: cms/templates/js/group-configuration-details.underscore:52
-#: cms/templates/js/group-configuration-editor.underscore:53
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Cannot delete when in use by an experiment"
 msgstr ""
 "Während der Nutzung in einem Experiment, ist das Löschen nicht möglich"
 
-#: cms/templates/js/group-configuration-details.underscore:61
+#: cms/templates/js/group-configuration-details.underscore
 msgid "This Group Configuration is used in:"
 msgstr "Dieser Gruppenaufbau wird derzeit verwendet:"
 
-#: cms/templates/js/group-configuration-details.underscore:84
+#: cms/templates/js/group-configuration-details.underscore
 msgid ""
 "This Group Configuration is not in use. Start by adding a content experiment"
 " to any Unit via the {linkStart}Course Outline{linkEnd}."
@@ -956,48 +956,48 @@ msgstr ""
 " Testinhalt zu einer beliebigen Lerneinheit über die "
 "{linkStart}Kursübersicht{linkEnd} hinzufügen."
 
-#: cms/templates/js/group-configuration-details.underscore:88
-#: cms/templates/js/partition-group-details.underscore:63
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/partition-group-details.underscore
 msgid "Course Outline"
 msgstr "Kursübersicht"
 
-#: cms/templates/js/group-configuration-editor.underscore:9
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Group Configuration information"
 msgstr "Gruppenaufbauinformation"
 
-#: cms/templates/js/group-configuration-editor.underscore:11
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Group Configuration Name"
 msgstr "Gruppenaufbauname"
 
-#: cms/templates/js/group-configuration-editor.underscore:14
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Group Configuration ID"
 msgstr "Gruppenaufbau ID"
 
-#: cms/templates/js/group-configuration-editor.underscore:19
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "This is the Name of the Group Configuration"
 msgstr "Dies ist der Name des Gruppenaufbaus"
 
-#: cms/templates/js/group-configuration-editor.underscore:20
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Name or short description of the configuration"
 msgstr "Name oder Kurzbeschreibung des Aufbaus"
 
-#: cms/templates/js/group-configuration-editor.underscore:24
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "This is the Description of the Group Configuration"
 msgstr "Dies ist die Beschreibung des Gruppenaufbaus"
 
-#: cms/templates/js/group-configuration-editor.underscore:25
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Optional long description"
 msgstr "optionale lange Beschreibung"
 
-#: cms/templates/js/group-configuration-editor.underscore:29
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Group information"
 msgstr "Gruppeninformation"
 
-#: cms/templates/js/group-configuration-editor.underscore:30
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Groups"
 msgstr "Gruppen"
 
-#: cms/templates/js/group-configuration-editor.underscore:31
+#: cms/templates/js/group-configuration-editor.underscore
 msgid ""
 "Name of the groups that students will be assigned to, for example, Control, "
 "Video, Problems. You must have two or more groups."
@@ -1006,11 +1006,11 @@ msgstr ""
 "Steuerung, Video oder Fragestellungen. Es müssen zwei oder mehr Gruppen "
 "angelegt werden."
 
-#: cms/templates/js/group-configuration-editor.underscore:33
+#: cms/templates/js/group-configuration-editor.underscore
 msgid "Add another group"
 msgstr "Gruppe hinzufügen"
 
-#: cms/templates/js/group-configuration-editor.underscore:39
+#: cms/templates/js/group-configuration-editor.underscore
 msgid ""
 "This configuration is currently used in content experiments. If you make "
 "changes to the groups, you may need to edit those experiments."
@@ -1019,11 +1019,11 @@ msgstr ""
 "Änderungen an den Gruppen vornimmst, wirst du wahrscheinlich diese "
 "Experimente überarbeiten müssen."
 
-#: cms/templates/js/group-edit.underscore:4
+#: cms/templates/js/group-edit.underscore
 msgid "delete group"
 msgstr "Gruppe löschen"
 
-#: cms/templates/js/highlights-editor.underscore:7
+#: cms/templates/js/highlights-editor.underscore
 msgid ""
 "This feature is currently in testing. Course teams can enter highlights, but"
 " learners will not receive email messages."
@@ -1032,7 +1032,7 @@ msgstr ""
 "Highlights eingeben, aber die Lernenden erhalten keine E-Mail-"
 "Benachrichtigung."
 
-#: cms/templates/js/highlights-editor.underscore:11
+#: cms/templates/js/highlights-editor.underscore
 msgid ""
 "Enter 3-5 highlights to include in the email message that learners receive "
 "for this section (250 character limit)."
@@ -1041,129 +1041,129 @@ msgstr ""
 " sollen, die die Lernenden für diesen Abschnitt erhalten (maximal 250 "
 "Zeichen)."
 
-#: cms/templates/js/highlights-editor.underscore:42
-#: cms/templates/js/highlights-editor.underscore:55
+#: cms/templates/js/highlights-editor.underscore
+#: cms/templates/js/highlights-editor.underscore
 msgid "Highlight {highlight_index}"
 msgstr "Highlight {highlight_index}"
 
-#: cms/templates/js/highlights-editor.underscore:61
+#: cms/templates/js/highlights-editor.underscore
 msgid "A highlight to look forward to this week."
 msgstr "Ein Highlight, auf das Sie sich diese Woche freuen können."
 
-#: cms/templates/js/license-selector.underscore:3
+#: cms/templates/js/license-selector.underscore
 msgid "License Type"
 msgstr "Lizenztyp"
 
-#: cms/templates/js/license-selector.underscore:18
+#: cms/templates/js/license-selector.underscore
 msgid "Learn more about {license_name}"
 msgstr "Erfahre mehr über {license_name}"
 
-#: cms/templates/js/license-selector.underscore:34
+#: cms/templates/js/license-selector.underscore
 msgid "Options for {license_name}"
 msgstr "Optionen für {license_name}"
 
-#: cms/templates/js/license-selector.underscore:37
+#: cms/templates/js/license-selector.underscore
 msgid "The following options are available for the {license_name} license."
 msgstr "Die folgenden Optionen sind für die {license_name} Lizenz verfügbar."
 
-#: cms/templates/js/license-selector.underscore:74
+#: cms/templates/js/license-selector.underscore
 msgid "License Display"
 msgstr "Lizenzanzeige"
 
-#: cms/templates/js/license-selector.underscore:77
+#: cms/templates/js/license-selector.underscore
 msgid ""
 "The following message will be displayed at the bottom of the courseware "
 "pages within your course:"
 msgstr ""
 "Die folgende Nachricht wird im unteren Bereich Ihrers Kurses angezeigt. "
 
-#: cms/templates/js/license-selector.underscore:82
-#: cms/templates/js/license-selector.underscore:110
+#: cms/templates/js/license-selector.underscore
+#: cms/templates/js/license-selector.underscore
 msgid "All Rights Reserved"
 msgstr "All Rights Reserved"
 
-#: cms/templates/js/license-selector.underscore:101
+#: cms/templates/js/license-selector.underscore
 msgid "Creative Commons licensed content, with terms as follow:"
 msgstr "Creative Commons lizensierter Inhalte mit folgenden Bedingungen:"
 
-#: cms/templates/js/license-selector.underscore:105
+#: cms/templates/js/license-selector.underscore
 msgid "Some Rights Reserved"
 msgstr "Some Rights Reserved"
 
-#: cms/templates/js/list.underscore:7
+#: cms/templates/js/list.underscore
 #, python-format
 msgid "%(new_item_message)s"
 msgstr "%(new_item_message)s"
 
-#: cms/templates/js/list.underscore:17
+#: cms/templates/js/list.underscore
 #, python-format
 msgid "New %(item_type)s"
 msgstr "%(item_type)s erstellen"
 
-#: cms/templates/js/metadata-dict-entry.underscore:9
-#: cms/templates/js/metadata-file-uploader-entry.underscore:5
-#: cms/templates/js/metadata-list-entry.underscore:12
-#: cms/templates/js/metadata-number-entry.underscore:4
-#: cms/templates/js/metadata-option-entry.underscore:12
-#: cms/templates/js/metadata-string-entry.underscore:4
+#: cms/templates/js/metadata-dict-entry.underscore
+#: cms/templates/js/metadata-file-uploader-entry.underscore
+#: cms/templates/js/metadata-list-entry.underscore
+#: cms/templates/js/metadata-number-entry.underscore
+#: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear"
 msgstr "Lösche"
 
-#: cms/templates/js/metadata-dict-entry.underscore:11
-#: cms/templates/js/metadata-file-uploader-entry.underscore:6
-#: cms/templates/js/metadata-list-entry.underscore:14
-#: cms/templates/js/metadata-number-entry.underscore:5
-#: cms/templates/js/metadata-option-entry.underscore:13
-#: cms/templates/js/metadata-string-entry.underscore:5
+#: cms/templates/js/metadata-dict-entry.underscore
+#: cms/templates/js/metadata-file-uploader-entry.underscore
+#: cms/templates/js/metadata-list-entry.underscore
+#: cms/templates/js/metadata-number-entry.underscore
+#: cms/templates/js/metadata-option-entry.underscore
+#: cms/templates/js/metadata-string-entry.underscore
 msgid "Clear Value"
 msgstr "Wert löschen"
 
-#: cms/templates/js/metadata-file-uploader-item.underscore:1
-#: cms/templates/js/video-transcripts.underscore:45
-#: cms/templates/js/video/metadata-translations-item.underscore:5
+#: cms/templates/js/metadata-file-uploader-item.underscore
+#: cms/templates/js/video-transcripts.underscore
+#: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Replace"
 msgstr "Ersetzen"
 
-#: cms/templates/js/metadata-file-uploader-item.underscore:1
-#: cms/templates/js/video/metadata-translations-item.underscore:5
+#: cms/templates/js/metadata-file-uploader-item.underscore
+#: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Upload"
 msgstr "Hochladen"
 
-#: cms/templates/js/metadata-file-uploader-item.underscore:2
-#: cms/templates/js/video-transcripts.underscore:42
-#: cms/templates/js/video/metadata-translations-item.underscore:8
+#: cms/templates/js/metadata-file-uploader-item.underscore
+#: cms/templates/js/video-transcripts.underscore
+#: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Download"
 msgstr "Download"
 
-#: cms/templates/js/move-xblock-list.underscore:7
+#: cms/templates/js/move-xblock-list.underscore
 msgid "{categoryText} in {parentDisplayname}"
 msgstr "{categoryText} in {parentDisplayname}"
 
-#: cms/templates/js/move-xblock-list.underscore:28
+#: cms/templates/js/move-xblock-list.underscore
 msgid "Current location"
 msgstr "Aktueller Standort"
 
-#: cms/templates/js/move-xblock-list.underscore:32
+#: cms/templates/js/move-xblock-list.underscore
 msgid "View child items"
 msgstr "Untergeordnete Elemente anzeigen"
 
-#: cms/templates/js/move-xblock-list.underscore:41
+#: cms/templates/js/move-xblock-list.underscore
 msgid "Currently selected"
 msgstr "Aktuell ausgewählt"
 
-#: cms/templates/js/no-textbooks.underscore:2
+#: cms/templates/js/no-textbooks.underscore
 msgid "You haven't added any textbooks to this course yet."
 msgstr "Sie haben diesem Kurs bisher noch keine Lehrbücher hinzugefügt."
 
-#: cms/templates/js/no-textbooks.underscore:2
+#: cms/templates/js/no-textbooks.underscore
 msgid "Add your first textbook"
 msgstr "Sie haben Ihr erstes Lehrbuch hinzugefügt"
 
-#: cms/templates/js/partition-group-details.underscore:47
+#: cms/templates/js/partition-group-details.underscore
 msgid "This group controls access to:"
 msgstr "Diese Gruppe kontrolliert den Zugang zu:"
 
-#: cms/templates/js/partition-group-details.underscore:59
+#: cms/templates/js/partition-group-details.underscore
 msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
@@ -1171,82 +1171,82 @@ msgstr ""
 "Verwenden Sie diese Funktion in der {linkStart}Kursübersicht{linkEnd}, um "
 "den Zugriff auf eine Komponente zu steuern."
 
-#: cms/templates/js/previous-video-upload-list.underscore:2
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Previous Uploads"
 msgstr "Vorherige Hochladevorgänge"
 
-#: cms/templates/js/previous-video-upload-list.underscore:5
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Download available encodings (.csv)"
 msgstr "Verfügbare Verschlüsselungen herunterladen (.csv)"
 
-#: cms/templates/js/previous-video-upload-list.underscore:12
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Thumbnail"
 msgstr "Miniaturansicht"
 
-#: cms/templates/js/previous-video-upload-list.underscore:16
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Video ID"
 msgstr "Videokennung"
 
-#: cms/templates/js/previous-video-upload-list.underscore:17
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Transcripts"
 msgstr "Transskripte"
 
-#: cms/templates/js/previous-video-upload-list.underscore:18
+#: cms/templates/js/previous-video-upload-list.underscore
 msgid "Video Status"
 msgstr "Video Status"
 
-#: cms/templates/js/previous-video-upload.underscore:13
+#: cms/templates/js/previous-video-upload.underscore
 msgid "Remove this video"
 msgstr "Das Video entfernen"
 
-#: cms/templates/js/previous-video-upload.underscore:15
+#: cms/templates/js/previous-video-upload.underscore
 msgid "Remove {video_name} video"
 msgstr " {video_name} Video entfernen"
 
-#: cms/templates/js/publish-history.underscore:2
+#: cms/templates/js/publish-history.underscore
 msgid "Never published"
 msgstr "Bisher unveröffentlicht"
 
-#: cms/templates/js/publish-history.underscore:4
+#: cms/templates/js/publish-history.underscore
 #, python-format
 msgid "Last published %(last_published_date)s by %(publish_username)s"
 msgstr ""
 "Zuletzt veröffentlicht %(last_published_date)s von %(publish_username)s"
 
-#: cms/templates/js/publish-history.underscore:10
-#: cms/templates/js/publish-xblock.underscore:54
+#: cms/templates/js/publish-history.underscore
+#: cms/templates/js/publish-xblock.underscore
 msgid "Previously published"
 msgstr "zuvor veröffentlicht"
 
-#: cms/templates/js/publish-xblock.underscore:2
+#: cms/templates/js/publish-xblock.underscore
 msgid "Draft (Never published)"
 msgstr "Entwurf (bisher unveröffentlicht)"
 
-#: cms/templates/js/publish-xblock.underscore:4
+#: cms/templates/js/publish-xblock.underscore
 msgid "Visible to Staff Only"
 msgstr "Nur für Mitarbeiter sichtbar"
 
-#: cms/templates/js/publish-xblock.underscore:6
+#: cms/templates/js/publish-xblock.underscore
 msgid "Published and Live"
 msgstr "Veröffentlicht und live"
 
-#: cms/templates/js/publish-xblock.underscore:8
+#: cms/templates/js/publish-xblock.underscore
 msgid "Published (not yet released)"
 msgstr "Veröffentlicht (bisher nicht freigegeben)"
 
-#: cms/templates/js/publish-xblock.underscore:10
+#: cms/templates/js/publish-xblock.underscore
 msgid "Draft (Unpublished changes)"
 msgstr "Entwurf (unveröffentlichte Änderungen)"
 
-#: cms/templates/js/publish-xblock.underscore:13
+#: cms/templates/js/publish-xblock.underscore
 msgid "Release:"
 msgstr "Freigabe:"
 
-#: cms/templates/js/publish-xblock.underscore:23
+#: cms/templates/js/publish-xblock.underscore
 msgid "Publishing Status"
 msgstr "Veröffentlichungsstatus"
 
-#: cms/templates/js/publish-xblock.underscore:31
+#: cms/templates/js/publish-xblock.underscore
 msgid ""
 "Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
 "{editedByStart}{editedBy}{editedByEnd}"
@@ -1254,7 +1254,7 @@ msgstr ""
 "Entwurf gespeichert auf {lastSavedStart}{editedOn}{lastSavedEnd} von "
 "{editedByStart}{editedBy}{editedByEnd}"
 
-#: cms/templates/js/publish-xblock.underscore:43
+#: cms/templates/js/publish-xblock.underscore
 msgid ""
 "Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
 "{publishedByStart}{publishedBy}{publishedByEnd}"
@@ -1263,69 +1263,69 @@ msgstr ""
 "{lastPublishedStart}{publishedOn}{lastPublishedEnd} von "
 "{publishedByStart}{publishedBy}{publishedByEnd}"
 
-#: cms/templates/js/publish-xblock.underscore:67
+#: cms/templates/js/publish-xblock.underscore
 #, python-format
 msgid "with %(release_date_from)s"
 msgstr "mit %(release_date_from)s"
 
-#: cms/templates/js/publish-xblock.underscore:81
+#: cms/templates/js/publish-xblock.underscore
 msgid "Is Visible To:"
 msgstr "Ist sichtbar für:"
 
-#: cms/templates/js/publish-xblock.underscore:83
+#: cms/templates/js/publish-xblock.underscore
 msgid "Will Be Visible To:"
 msgstr "Wird sichtbar sein für:"
 
-#: cms/templates/js/publish-xblock.underscore:88
+#: cms/templates/js/publish-xblock.underscore
 msgid "Staff Only"
 msgstr "Nur für Mitarbeiter"
 
-#: cms/templates/js/publish-xblock.underscore:92
+#: cms/templates/js/publish-xblock.underscore
 #, python-format
 msgid "with %(section_or_subsection)s"
 msgstr "mit %(section_or_subsection)s"
 
-#: cms/templates/js/publish-xblock.underscore:98
+#: cms/templates/js/publish-xblock.underscore
 msgid "Staff and Learners"
 msgstr "Mitarbeiter und Teilnehmer"
 
-#: cms/templates/js/publish-xblock.underscore:108
-#: cms/templates/js/staff-lock-editor.underscore:12
+#: cms/templates/js/publish-xblock.underscore
+#: cms/templates/js/staff-lock-editor.underscore
 msgid "Hide from learners"
 msgstr "Vor Lernenden verbergen"
 
-#: cms/templates/js/publish-xblock.underscore:113
+#: cms/templates/js/publish-xblock.underscore
 msgid "Note: Do not hide graded assignments after they have been released."
 msgstr ""
 "Hinweis: Blenden Sie benotete Aufgaben nicht aus, nachdem sie freigegeben "
 "wurden."
 
-#: cms/templates/js/release-date-editor.underscore:1
+#: cms/templates/js/release-date-editor.underscore
 msgid "Release Date and Time"
 msgstr "Freigabedatum und Uhrzeit"
 
-#: cms/templates/js/release-date-editor.underscore:5
+#: cms/templates/js/release-date-editor.underscore
 msgid "Release Date:"
 msgstr "Freigabedatum:"
 
-#: cms/templates/js/release-date-editor.underscore:11
+#: cms/templates/js/release-date-editor.underscore
 msgid "Release Time in UTC:"
 msgstr "Freigabezeit in UTC:"
 
-#: cms/templates/js/release-date-editor.underscore:21
-#: cms/templates/js/release-date-editor.underscore:23
+#: cms/templates/js/release-date-editor.underscore
+#: cms/templates/js/release-date-editor.underscore
 msgid "Clear Release Date/Time"
 msgstr "Lösche Freigabedatum/Uhrzeit"
 
-#: cms/templates/js/show-correctness-editor.underscore:2
+#: cms/templates/js/show-correctness-editor.underscore
 msgid "Assessment Results Visibility"
 msgstr "Sichtbarkeit der Auswertungen"
 
-#: cms/templates/js/show-correctness-editor.underscore:7
+#: cms/templates/js/show-correctness-editor.underscore
 msgid "Always show assessment results"
 msgstr "Auswertungen immer zeigen"
 
-#: cms/templates/js/show-correctness-editor.underscore:10
+#: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "When learners submit an answer to an assessment, they immediately see "
 "whether the answer is correct or incorrect, and the score received."
@@ -1333,11 +1333,11 @@ msgstr ""
 "Nutzer sehen sofort nach einreichen ihrer Antworten, ob diese richtig oder "
 "falsch sind und welche Punkte sie erhalten."
 
-#: cms/templates/js/show-correctness-editor.underscore:14
+#: cms/templates/js/show-correctness-editor.underscore
 msgid "Never show assessment results"
 msgstr "Auswertungen nie zeigen"
 
-#: cms/templates/js/show-correctness-editor.underscore:17
+#: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "Learners never see whether their answers to assessments are correct or "
 "incorrect, nor the score received."
@@ -1345,11 +1345,11 @@ msgstr ""
 "Nutzer sehen nicht nach einreichen ihrer Antworten, ob diese richtig oder "
 "falsch sind und auch nicht, welche Punkte sie erhalten."
 
-#: cms/templates/js/show-correctness-editor.underscore:21
+#: cms/templates/js/show-correctness-editor.underscore
 msgid "Show assessment results when subsection is past due"
 msgstr "Auswertungen zeigen, nach bearbeitung des Unterabschnitt "
 
-#: cms/templates/js/show-correctness-editor.underscore:25
+#: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "Learners do not see whether their answers to assessments were correct or "
 "incorrect, nor the score received, until after the course end date has "
@@ -1358,7 +1358,7 @@ msgstr ""
 "Nutzer sehen erst die Auswertungen ihrer Antworten, nach Ablauf der "
 "Kurslaufzeit."
 
-#: cms/templates/js/show-correctness-editor.underscore:26
+#: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "If the course does not have an end date, learners always see their scores "
 "when they submit answers to assessments."
@@ -1366,7 +1366,7 @@ msgstr ""
 "Wenn der Kurs kein Enddatum hat, sehen Nutzer immer die Auswertung, nachdem "
 "Antworten eingereicht wurden."
 
-#: cms/templates/js/show-correctness-editor.underscore:28
+#: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "Learners do not see whether their answers to assessments were correct or "
 "incorrect, nor the score received, until after the due date for the "
@@ -1375,7 +1375,7 @@ msgstr ""
 "Nutzer sehen erst die Auswertung ihrer Antworten, nach Ablauf des "
 "Fälligkeitsdatum des Unterabschnitt."
 
-#: cms/templates/js/show-correctness-editor.underscore:29
+#: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "If the subsection does not have a due date, learners always see their scores"
 " when they submit answers to assessments."
@@ -1383,49 +1383,49 @@ msgstr ""
 "Wenn der Unterabschnitt kein Fälligkeitsdatum hat, sehen die Lernenden immer"
 " ihre Ergebnisse, wenn sie Antworten zur Bewertung abgeben."
 
-#: cms/templates/js/show-textbook.underscore:12
+#: cms/templates/js/show-textbook.underscore
 msgid "PDF Chapters"
 msgstr "PDF Kapitel"
 
-#: cms/templates/js/show-textbook.underscore:37
+#: cms/templates/js/show-textbook.underscore
 msgid "View Live"
 msgstr "Seite ansehen"
 
-#: cms/templates/js/signatory-details.underscore:9
-#: cms/templates/js/signatory-editor.underscore:8
+#: cms/templates/js/signatory-details.underscore
+#: cms/templates/js/signatory-editor.underscore
 msgid "Signatory"
 msgstr "Unterzeichner"
 
-#: cms/templates/js/signatory-details.underscore:28
-#: cms/templates/js/signatory-editor.underscore:37
+#: cms/templates/js/signatory-details.underscore
+#: cms/templates/js/signatory-editor.underscore
 msgid "Signature Image"
 msgstr "Bild der Unterschrift"
 
-#: cms/templates/js/signatory-editor.underscore:11
+#: cms/templates/js/signatory-editor.underscore
 msgid "Certificate Signatory Configuration"
 msgstr "Zertifikats-Unterzeichner-Konfiguration"
 
-#: cms/templates/js/signatory-editor.underscore:13
+#: cms/templates/js/signatory-editor.underscore
 msgid "Name "
 msgstr "Name"
 
-#: cms/templates/js/signatory-editor.underscore:14
+#: cms/templates/js/signatory-editor.underscore
 msgid "Name of the signatory"
 msgstr "Name des Unterzeichners"
 
-#: cms/templates/js/signatory-editor.underscore:15
+#: cms/templates/js/signatory-editor.underscore
 msgid "The name of this signatory as it should appear on certificates."
 msgstr "Der Name des Unterzeichners soll auf dem Zertifikat erscheinen."
 
-#: cms/templates/js/signatory-editor.underscore:21
+#: cms/templates/js/signatory-editor.underscore
 msgid "Title "
 msgstr "Titel"
 
-#: cms/templates/js/signatory-editor.underscore:22
+#: cms/templates/js/signatory-editor.underscore
 msgid "Title of the signatory"
 msgstr "Titel des Unterzeichners"
 
-#: cms/templates/js/signatory-editor.underscore:23
+#: cms/templates/js/signatory-editor.underscore
 msgid ""
 "Titles more than 100 characters may prevent students from printing their "
 "certificate on a single page."
@@ -1433,15 +1433,15 @@ msgstr ""
 "Titel mit mehr als 100 Zeichen können dazu führen, dass Zertifikate später "
 "nicht auf eine DINA4 Seite passen."
 
-#: cms/templates/js/signatory-editor.underscore:29
+#: cms/templates/js/signatory-editor.underscore
 msgid "Organization "
 msgstr "Organsation"
 
-#: cms/templates/js/signatory-editor.underscore:30
+#: cms/templates/js/signatory-editor.underscore
 msgid "Organization of the signatory"
 msgstr "Organisation des Unterzeichners"
 
-#: cms/templates/js/signatory-editor.underscore:31
+#: cms/templates/js/signatory-editor.underscore
 msgid ""
 "The organization that this signatory belongs to, as it should appear on "
 "certificates."
@@ -1449,27 +1449,27 @@ msgstr ""
 "Die Organisation, zu welcher der Unterzeichner gehört, soll auf dem "
 "Zertifikat erscheinen."
 
-#: cms/templates/js/signatory-editor.underscore:43
+#: cms/templates/js/signatory-editor.underscore
 msgid "Path to Signature Image"
 msgstr "Pfad zu dem Bild der Unterschrift"
 
-#: cms/templates/js/signatory-editor.underscore:44
+#: cms/templates/js/signatory-editor.underscore
 msgid "Image must be in PNG format"
 msgstr "Bilder müssen im PNG-Format sein"
 
-#: cms/templates/js/signatory-editor.underscore:46
+#: cms/templates/js/signatory-editor.underscore
 msgid "Upload Signature Image"
 msgstr "Bild der Unterschrift Hochladen"
 
-#: cms/templates/js/staff-lock-editor.underscore:4
+#: cms/templates/js/staff-lock-editor.underscore
 msgid "Unit Visibility"
 msgstr "Sichtbarkeit der Lerneinheit"
 
-#: cms/templates/js/staff-lock-editor.underscore:6
+#: cms/templates/js/staff-lock-editor.underscore
 msgid "Section Visibility"
 msgstr "Sichtbarkeit des Abschnitt"
 
-#: cms/templates/js/staff-lock-editor.underscore:17
+#: cms/templates/js/staff-lock-editor.underscore
 msgid ""
 "If the unit was previously published and released to learners, any changes "
 "you made to the unit when it was hidden will now be visible to learners."
@@ -1478,7 +1478,7 @@ msgstr ""
 "wurde, sind alle Änderungen, die Sie an der Lerneinheit vorgenommen haben, "
 "als sie noch ausgeblendet war, nun für alle Lernenden sichtbar."
 
-#: cms/templates/js/staff-lock-editor.underscore:19
+#: cms/templates/js/staff-lock-editor.underscore
 #, python-format
 msgid ""
 "If you make this %(xblockType)s visible to learners, learners will be able "
@@ -1492,45 +1492,45 @@ msgstr ""
 "Lernenden verborgen sind, bleiben verborgen, nachdem Sie diese Option für "
 "%(xblockType)s deaktiviert haben  ."
 
-#: cms/templates/js/team-member.underscore:4
+#: cms/templates/js/team-member.underscore
 msgid "Current Role:"
 msgstr "Aktuelle Rolle:"
 
-#: cms/templates/js/team-member.underscore:8
+#: cms/templates/js/team-member.underscore
 msgid "You!"
 msgstr "Sie!"
 
-#: cms/templates/js/team-member.underscore:19
+#: cms/templates/js/team-member.underscore
 msgid "send an email message to {email}"
 msgstr "E-Mail senden an {email}"
 
-#: cms/templates/js/team-member.underscore:32
+#: cms/templates/js/team-member.underscore
 msgid "Promote another member to Admin to remove your admin rights"
 msgstr ""
 "Ein weiteres Mitglied zum Administrator befördern, um eigene "
 "Administratorrechte zu entfernen"
 
-#: cms/templates/js/team-member.underscore:35
+#: cms/templates/js/team-member.underscore
 msgid "Add {role} Access"
 msgstr "{role} Zugang hinzufügen"
 
-#: cms/templates/js/team-member.underscore:35
+#: cms/templates/js/team-member.underscore
 msgid "Remove {role} Access"
 msgstr "{role} Zugang entfernen"
 
-#: cms/templates/js/team-member.underscore:44
+#: cms/templates/js/team-member.underscore
 msgid "Delete the user, {username}"
 msgstr "Den Benutzer {username} löschen"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:2
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Set as a Special Exam"
 msgstr "Als spezielle Prüfung einstellen"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:4
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Exam Types"
 msgstr "Prüfungsarten"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:9
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "This subsection was released to learners as a special exam, but was reverted"
 " back to a basic exam. You may not configure it as a special exam now. "
@@ -1541,7 +1541,7 @@ msgstr ""
 "zurückgewandelt. Die Prüfung kann jetzt nicht mehr als Sonderprüfung "
 "konfiguriert werden. Wenden Sie sich zur Unterstützung an den edX-Support."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:17
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "This special exam has been released to learners. You may not convert it to "
 "another type of special exam. You may revert this subsection back to being a"
@@ -1554,15 +1554,15 @@ msgstr ""
 "indem Sie \"None\" wählen. Sie können die Prüfung in Zukunft NICHT mehr als "
 "Sonderprüfung konfigurieren."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:23
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "None"
 msgstr "kein"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:30
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"
 msgstr "Terminiert"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:32
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Use a timed exam to limit the time learners can spend on problems in this "
 "subsection. Learners must submit answers before the time expires. You can "
@@ -1574,11 +1574,11 @@ msgstr ""
 "müssen vor Ablauf der Zeit ihre Antworten einreichen. Sie können den "
 "einzelnen Nutzern über die Dozent-Übersicht zusätzliche Zeit einräumen."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:39
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Proctored"
 msgstr "Beaufsichtigt"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:41
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Proctored exams are timed and they record video of each learner taking the "
 "exam. The videos are then reviewed to ensure that learners follow all "
@@ -1589,11 +1589,11 @@ msgstr ""
 "dann überprüft, um sicherzustellen, dass die Lernenden alle Prüfungsregeln "
 "einhalten."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:50
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Onboarding"
 msgstr "Aufnahmeprüfung"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:52
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Use Onboarding to introduce learners to proctoring, verify their identity, "
 "and create an onboarding profile. Learners must complete the onboarding "
@@ -1606,11 +1606,11 @@ msgstr ""
 "Onboarding-Profils absolvieren, bevor sie eine beaufsichtigte Prüfung "
 "ablegen können. Profilbewertungen dauern mehr als 2 Werktage."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:59
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Practice Proctored"
 msgstr "Beaufsichtigte Übungsprüfung"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:61
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Use a practice proctored exam to introduce learners to the proctoring tools "
 "and processes. Results of a practice exam do not affect a learner's grade."
@@ -1619,11 +1619,11 @@ msgstr ""
 "Werkzeuge und Prozesse des Aufsichtssystems heranzuführen. Die Ergebnisse "
 "einer Übungsprüfung haben keinen Einfluss auf die Note des Lernenden."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:68
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Time Allotted (HH:MM):"
 msgstr "Zugeteilte Zeit (HH:MM):"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:72
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Select a time allotment for the exam. If it is over 24 hours, type in the "
 "amount of time. You can grant individual learners extra time to complete the"
@@ -1634,11 +1634,11 @@ msgstr ""
 "über das Lehrer-Dashboard zusätzliche Zeit geben, um die Prüfung "
 "abzuschließen."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:78
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Review Rules"
 msgstr "Überprüfungsregeln"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:87
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Specify any rules or rule exceptions that the proctoring review team should "
 "enforce when reviewing the videos. For example, you could specify that "
@@ -1652,11 +1652,11 @@ msgstr ""
 "Lernenden sichtbar, bevor diese mit der Prüfung beginnen, zusammen mit den "
 "{linkStart}allgemein anerkannten Prüfungsregeln {linkEnd}."
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:91
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "General Proctored Exam Rules"
 msgstr "Allgemeine Regeln zu beaufsichtigten Prüfungen"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:96
+#: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Specify any rules or rule exceptions that the proctoring review team should "
 "enforce when reviewing the videos. For example, you could specify that "
@@ -1668,50 +1668,50 @@ msgstr ""
 "festlegen, dass Taschenrechner erlaubt sind. Diese festgelegten Regeln sind "
 "für die Lernenden sichtbar, bevor die Lernenden die Prüfung beginnen."
 
-#: cms/templates/js/transcript-organization-credentials.underscore:3
+#: cms/templates/js/transcript-organization-credentials.underscore
 msgid "Account"
 msgstr "Benutzerkonto"
 
-#: cms/templates/js/transcript-organization-credentials.underscore:5
+#: cms/templates/js/transcript-organization-credentials.underscore
 msgid ""
 "This action updates the {provider} information for your entire organization."
 msgstr ""
 "Diese Aktion aktualisiert die {provider} Informationen für Ihre gesamte "
 "Organisation."
 
-#: cms/templates/js/transcript-organization-credentials.underscore:7
+#: cms/templates/js/transcript-organization-credentials.underscore
 msgid "Enter the account information for your organization."
 msgstr "Geben Sie die Kontoinformationen für Ihre Organisation ein."
 
-#: cms/templates/js/transcript-organization-credentials.underscore:11
+#: cms/templates/js/transcript-organization-credentials.underscore
 msgid "API Key"
 msgstr "API Schlüssel"
 
-#: cms/templates/js/transcript-organization-credentials.underscore:22
+#: cms/templates/js/transcript-organization-credentials.underscore
 msgid "API Secret"
 msgstr "API Geheimnis"
 
-#: cms/templates/js/unit-access-editor.underscore:8
+#: cms/templates/js/unit-access-editor.underscore
 msgid "Unit Access"
 msgstr "Zugang zur Lerneinheit"
 
-#: cms/templates/js/unit-access-editor.underscore:11
+#: cms/templates/js/unit-access-editor.underscore
 msgid "Restrict access to:"
 msgstr "Beschränken Sie den Zugriff auf:"
 
-#: cms/templates/js/unit-access-editor.underscore:13
+#: cms/templates/js/unit-access-editor.underscore
 msgid "Select a group type"
 msgstr "Wählen Sie einen Gruppentyp aus"
 
-#: cms/templates/js/unit-access-editor.underscore:24
+#: cms/templates/js/unit-access-editor.underscore
 msgid "Select one or more groups:"
 msgstr "Wählen Sie eine oder mehrere Gruppen aus:"
 
-#: cms/templates/js/unit-access-editor.underscore:31
+#: cms/templates/js/unit-access-editor.underscore
 msgid "Deleted Group"
 msgstr "Gelöschte Gruppe"
 
-#: cms/templates/js/unit-access-editor.underscore:32
+#: cms/templates/js/unit-access-editor.underscore
 msgid ""
 "This group no longer exists. Choose another group or do not restrict access "
 "to this unit."
@@ -1719,11 +1719,11 @@ msgstr ""
 "Diese Gruppe existiert nicht mehr. Wählen Sie eine andere Gruppe oder "
 "beschränken Sie den Zugriff auf diese Lerneinheit nicht."
 
-#: cms/templates/js/upload-dialog.underscore:25
+#: cms/templates/js/upload-dialog.underscore
 msgid "File upload succeeded"
 msgstr "Datei erfolgreich hochgeladen"
 
-#: cms/templates/js/validation-error-modal.underscore:16
+#: cms/templates/js/validation-error-modal.underscore
 msgid ""
 "Please check the following validation feedbacks and reflect them in your "
 "course settings:"
@@ -1731,19 +1731,19 @@ msgstr ""
 "Bitte prüfe die folgenden Validierungsrückmeldungen und beachte sie in "
 "deinen Kurseinstellungen:"
 
-#: cms/templates/js/verification-access-editor.underscore:3
+#: cms/templates/js/verification-access-editor.underscore
 msgid "Verification Checkpoint"
 msgstr "Checkpoint zur Verifikation"
 
-#: cms/templates/js/verification-access-editor.underscore:19
+#: cms/templates/js/verification-access-editor.underscore
 msgid "Must complete verification checkpoint"
 msgstr "Zu erfüllende Kontrollpunkte der Verifikation"
 
-#: cms/templates/js/verification-access-editor.underscore:23
+#: cms/templates/js/verification-access-editor.underscore
 msgid "Verification checkpoint to be completed"
 msgstr "Kontrollpunkte zur Verifikation die abgeschlossen sein müssen"
 
-#: cms/templates/js/verification-access-editor.underscore:38
+#: cms/templates/js/verification-access-editor.underscore
 msgid ""
 "Learners who require verification must pass the selected checkpoint to see "
 "the content in this unit. Learners who do not require verification see this "
@@ -1753,7 +1753,7 @@ msgstr ""
 "Checkpoint durchlaufen, um den Inhalt dieser Lehreinheit zu sehen. Lernende,"
 " die keine Verifizierung benötigen, sehen diesen Inhalt standardmäßig."
 
-#: cms/templates/js/video-thumbnail.underscore:17
+#: cms/templates/js/video-thumbnail.underscore
 msgid ""
 "Recommended image resolution is {imageResolution}, maximum image file size "
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
@@ -1762,32 +1762,32 @@ msgstr ""
 "sollte {maxFileSize} sein und das Format muss eines von "
 "{supportedImageFormats} sein."
 
-#: cms/templates/js/video-transcript-upload-status.underscore:4
+#: cms/templates/js/video-transcript-upload-status.underscore
 msgid "Read more"
 msgstr "Mehr erfahren"
 
-#: cms/templates/js/video-transcripts.underscore:9
+#: cms/templates/js/video-transcripts.underscore
 msgid "No transcript uploaded."
 msgstr "Kein Transkript hochgeladen."
 
-#: cms/templates/js/video-transcripts.underscore:17
+#: cms/templates/js/video-transcripts.underscore
 msgid "Show transcripts ({totalTranscripts})"
 msgstr "Transkripte anzeigen ({totalTranscripts})"
 
-#: cms/templates/js/video-transcripts.underscore:27
+#: cms/templates/js/video-transcripts.underscore
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 
-#: cms/templates/js/xblock-access-editor.underscore:3
+#: cms/templates/js/xblock-access-editor.underscore
 msgid "Set Access"
 msgstr "Zugriff festlegen"
 
-#: cms/templates/js/xblock-string-field-editor.underscore:9
+#: cms/templates/js/xblock-string-field-editor.underscore
 #, python-format
 msgid "Edit %(display_name)s (required)"
 msgstr "Bearbeite %(display_name)s (benötigt)"
 
-#: cms/templates/js/maintenance/force-published-course-response.underscore:3
+#: cms/templates/js/maintenance/force-published-course-response.underscore
 msgid ""
 "You have done a dry run of force publishing the course. Nothing has changed."
 " Had you run it, the following course versions would have been change."
@@ -1796,7 +1796,7 @@ msgstr ""
 "nichts geändert. Hätten Sie ihn ausgeführt, wären die folgenden "
 "Kursversionen geändert worden."
 
-#: cms/templates/js/maintenance/force-published-course-response.underscore:7
+#: cms/templates/js/maintenance/force-published-course-response.underscore
 msgid ""
 "The published branch version, {published}, was reset to the draft branch "
 "version, {draft}."
@@ -1804,11 +1804,11 @@ msgstr ""
 "Die veröffentlichte Branch-Version, {published}, wurde auf den Entwurf der "
 "Branch-Version, {draft}, zurückgesetzt."
 
-#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Add URLs for additional versions"
 msgstr "URL für zusätzliche Versionen hinzufügen"
 
-#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:11
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid ""
 "To be sure all students can access the video, we recommend providing both an"
 " .mp4 and a .webm version of your video. Click below to add a URL for "
@@ -1822,16 +1822,16 @@ msgstr ""
 "aufgelistete Video, das mit dem Computer des Teilnehmers kompatibel ist, "
 "wird abgespielt."
 
-#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:25
+#: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Default Timed Transcript"
 msgstr "Standard, zeitbehaftetes Transkript"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:3
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Timed Transcript Conflict"
 msgstr "Konflikt beim zeitbehafteten Transkript"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
 msgid ""
 "The timed transcript for the first video file does not appear to be the same"
 " as the timed transcript for the second video file."
@@ -1839,30 +1839,30 @@ msgstr ""
 "Das zeitbehaftete Transkript für die erste Videodatei scheint nicht das "
 "gleiche zu sein, wie das zeitbehaftete Transkript für die zweite Videodatei."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:9
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
 msgid "Which timed transcript would you like to use?"
 msgstr "Welches zeitbehaftete Transkript möchtest du benutzen?"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:14
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:7
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:7
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:7
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:14
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:7
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Error."
 msgstr "Fehler."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:22
+#: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
 #, python-format
 msgid "Timed Transcript from %(filename)s"
 msgstr "Zeitbehaftetes Transkript von %(filename)s"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:1
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 msgid "Timed Transcript Found"
 msgstr "Zeitbehaftetes Transkript gefunden"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 msgid ""
 "EdX has a timed transcript for this video. If you want to edit this "
 "transcript, you can download, edit, and re-upload the existing transcript. "
@@ -1873,39 +1873,39 @@ msgstr ""
 "als ersetzendes Transkript erneut hochladen. Wenn du dieses Transkript "
 "ersetzen möchtest, lade eine neue .srt Transkriptdatei hoch."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:11
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:13
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:14
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:10
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:11
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:10
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:11
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:32
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:33
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:36
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Upload New Transcript"
 msgstr "Neues Tranksript hochladen"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:13
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "Upload New .srt Transcript"
 msgstr "Neues .srt-Transkript hochladen"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:13
-#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:14
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:13
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:14
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:13
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:14
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid "Download Transcript for Editing"
 msgstr "Transkript zur Bearbeitung herunterladen"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:1
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "No EdX Timed Transcript"
 msgstr "Kein zeitbehaftetes Transkript von edX"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid ""
 "EdX doesn't have a timed transcript for this video in Studio, but we found a"
 " transcript on YouTube. You can import the YouTube transcript or upload your"
@@ -1915,16 +1915,16 @@ msgstr ""
 "YouTube wurde ein Transkript gefunden. Sie können das YouTube-Transkript "
 "importieren oder Ihre eigene .srt-Transkriptdatei hochladen."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:10
-#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:11
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "Import YouTube Transcript"
 msgstr "YouTube-Transkript importieren"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:1
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
 msgid "No Timed Transcript"
 msgstr "Kein zeitbehaftetes Transkript"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
 msgid ""
 "EdX doesn\\'t have a timed transcript for this video. Please upload an .srt "
 "file."
@@ -1932,7 +1932,7 @@ msgstr ""
 "EdX hat kein zeitbehaftetes Transkript für dieses Video. Bitte lade eine "
 ".srt-Datei hoch."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid ""
 "The timed transcript for this video on edX is out of date, but YouTube has a"
 " current timed transcript for this video."
@@ -1940,21 +1940,21 @@ msgstr ""
 "Das zeitbehaftete Transkript für dieses Video auf edX ist veraltet, aber "
 "YouTube hat ein aktuelles zeitbehaftetes Transkript für dieses Video."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:9
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Do you want to replace the edX transcript with the YouTube transcript?"
 msgstr "Möchtest du das edX-Transkript durch das YouTube-Transkript ersetzen?"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:22
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:23
-#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:26
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Yes, replace the edX transcript with the YouTube transcript"
 msgstr "Ja, ersetze da sedX-Transkript durch das YouTube-Transkript"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:1
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid "Timed Transcript Uploaded Successfully"
 msgstr "Hochladen des zeitbehafteten Transkripts erfolgreich"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid ""
 "EdX has a timed transcript for this video. If you want to replace this "
 "transcript, upload a new .srt transcript file. If you want to edit this "
@@ -1965,11 +1965,11 @@ msgstr ""
 "Falls du dieses Transkript bearbeiten möchtest, kannst du es herunterladen, "
 "bearbeiten und als ersetzendes Transkript erneut hochladen."
 
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:3
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Confirm Timed Transcript"
 msgstr "Bestätige zeitbehaftetes Transkript"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:7
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid ""
 "You changed a video URL, but did not change the timed transcript file. Do "
 "you want to use the current timed transcript or upload a new .srt transcript"
@@ -1979,8 +1979,8 @@ msgstr ""
 "Transkriptdatei nicht geändert. Möchtest du das aktuelle zeitbehaftete "
 "Transkript benutzen, oder eine neue .srt-Transkriptdatei hochladen?"
 
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:21
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:22
-#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:25
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
+#: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "Nutze aktuelles Transkript"

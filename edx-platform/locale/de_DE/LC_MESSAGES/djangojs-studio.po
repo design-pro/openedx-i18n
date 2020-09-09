@@ -38,35 +38,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: cms/static/cms/js/main.js:47
+#: cms/static/cms/js/main.js
 msgid "Studio's having trouble saving your work"
 msgstr "Studio hat Probleme beim Speichern Ihrer Arbeit"
 
-#: cms/static/cms/js/xblock/cms.runtime.v1.js:98
+#: cms/static/cms/js/xblock/cms.runtime.v1.js
 msgid "OpenAssessment Save Error"
 msgstr "Speicherfehler offene Bewertungen"
 
-#: cms/static/js/base.js:99
+#: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
 msgstr "Dieser Link wird in einem neuen Browserfenster/Reiter geöffnet"
 
-#: cms/static/js/base.js:106
+#: cms/static/js/base.js
 msgid "This link will open in a modal window"
 msgstr "Dieser Link wird in einem Dialogfenster geöffnet"
 
-#: cms/static/js/certificates/models/certificate.js:77
+#: cms/static/js/certificates/models/certificate.js
 msgid "Certificate name is required."
 msgstr "Zertifikatname wird benötigt."
 
-#: cms/static/js/certificates/models/certificate.js:86
+#: cms/static/js/certificates/models/certificate.js
 msgid "Signatory field(s) has invalid data."
 msgstr "Signaturfeld(er) mit ungültigen Daten."
 
-#: cms/static/js/certificates/views/certificate_details.js:45
+#: cms/static/js/certificates/views/certificate_details.js
 msgid "Edit this certificate?"
 msgstr "Dieses Zertifikat bearbeiten?"
 
-#: cms/static/js/certificates/views/certificate_details.js:46
+#: cms/static/js/certificates/views/certificate_details.js
 msgid ""
 "This certificate has already been activated and is live. Are you sure you "
 "want to continue editing?"
@@ -74,57 +74,56 @@ msgstr ""
 "Dieses Zertifikat wurde bereits aktiviert und wird verwendet. Bist Du "
 "sicher, dass Du mit der Bearbeitung fortsetzen willst?"
 
-#: cms/static/js/certificates/views/certificate_details.js:47
+#: cms/static/js/certificates/views/certificate_details.js
 msgid "Yes, allow edits to the active Certificate"
 msgstr "Ja, erlaube das Editieren von aktiven Zertifikaten"
 
 #. Translators: This field pertains to the custom label for a certificate.
 #. Translators: this refers to a collection of certificates.
-#: cms/static/js/certificates/views/certificate_item.js:21
-#: cms/static/js/certificates/views/certificates_list.js:16
+#: cms/static/js/certificates/views/certificate_item.js
+#: cms/static/js/certificates/views/certificates_list.js
 msgid "certificate"
 msgstr "Zertifikat"
 
-#: cms/static/js/certificates/views/certificate_preview.js:41
+#: cms/static/js/certificates/views/certificate_preview.js
 msgid "Deactivating"
 msgstr "Deaktivieren"
 
-#: cms/static/js/certificates/views/certificates_list.js:18
+#: cms/static/js/certificates/views/certificates_list.js
 msgid "Set up your certificate"
 msgstr "Richten Sie sich Ihr Zertifikat ein"
 
 #. Translators: This line refers to the initial state of the form when no data
 #. has been inserted
-#: cms/static/js/certificates/views/certificates_list.js:21
+#: cms/static/js/certificates/views/certificates_list.js
 msgid "You have not created any certificates yet."
 msgstr "Du hast bislang keine Zertifikate erhalten."
 
-#: cms/static/js/certificates/views/signatory_editor.js:133
+#: cms/static/js/certificates/views/signatory_editor.js
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
 msgstr "\"<%- signatoryName %>\" von der Liste der Unterzeichner löschen?"
 
-#: cms/static/js/certificates/views/signatory_editor.js:136
-#: cms/static/js/views/course_info_update.js:237
+#: cms/static/js/certificates/views/signatory_editor.js
+#: cms/static/js/views/course_info_update.js
 msgid "This action cannot be undone."
 msgstr "Diese Aktion kann nicht widerrufen werden."
 
-#: cms/static/js/certificates/views/signatory_editor.js:142
-#: cms/static/js/views/course_info_update.js:248
-#: cms/static/js/views/list_item.js:62 cms/static/js/views/show_textbook.js:43
-#: cms/static/js/views/tabs.js:173
-#: cms/static/js/views/utils/xblock_utils.js:133
+#: cms/static/js/certificates/views/signatory_editor.js
+#: cms/static/js/views/course_info_update.js cms/static/js/views/list_item.js
+#: cms/static/js/views/show_textbook.js cms/static/js/views/tabs.js
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting"
 msgstr "Löscht gerade"
 
-#: cms/static/js/certificates/views/signatory_editor.js:176
+#: cms/static/js/certificates/views/signatory_editor.js
 msgid "Upload signature image."
 msgstr "Bild der Unterschrift hochladen"
 
-#: cms/static/js/certificates/views/signatory_editor.js:177
+#: cms/static/js/certificates/views/signatory_editor.js
 msgid "Image must be in PNG format."
 msgstr "Bild muss im PNG-Format sein."
 
-#: cms/static/js/collections/group.js:42
+#: cms/static/js/collections/group.js
 #, javascript-format
 msgid "Group %s"
 msgstr "Gruppe %s"
@@ -132,19 +131,19 @@ msgstr "Gruppe %s"
 #. Translators: Dictionary used for creation ids that are used in
 #. default group names. For example: A, B, AA in Group A,
 #. Group B, ..., Group AA, etc.
-#: cms/static/js/collections/group.js:62
+#: cms/static/js/collections/group.js
 msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-#: cms/static/js/factories/export.js:35
+#: cms/static/js/factories/export.js
 msgid "Your export has failed."
 msgstr "Ihr Export ist fehlgeschlagen."
 
-#: cms/static/js/factories/manage_users.js:10
+#: cms/static/js/factories/manage_users.js
 msgid "Already a course team member"
 msgstr "Bereits Teammitglied"
 
-#: cms/static/js/factories/manage_users.js:12
+#: cms/static/js/factories/manage_users.js
 msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
@@ -152,281 +151,281 @@ msgstr ""
 "Sind Sie sicher, dass Sie {email} aus dem Kursteam für “{container}” "
 "streichen möchten?"
 
-#: cms/static/js/factories/manage_users.js:19
-#: cms/static/js/factories/manage_users_lib.js:21
+#: cms/static/js/factories/manage_users.js
+#: cms/static/js/factories/manage_users_lib.js
 msgid "Staff"
 msgstr "Lehrender"
 
-#: cms/static/js/factories/manage_users.js:19
-#: cms/static/js/factories/manage_users_lib.js:22
+#: cms/static/js/factories/manage_users.js
+#: cms/static/js/factories/manage_users_lib.js
 msgid "Admin"
 msgstr "Administrator"
 
-#: cms/static/js/factories/manage_users_lib.js:10
+#: cms/static/js/factories/manage_users_lib.js
 msgid "Already a library team member"
 msgstr "Ist bereits Bibliotheksteammitglied"
 
-#: cms/static/js/factories/manage_users_lib.js:12
+#: cms/static/js/factories/manage_users_lib.js
 msgid ""
 "Are you sure you want to delete {email} from the library “{container}”?"
 msgstr ""
 "Sind Sie sicher, dass Sie {email} aus der Bibliothek “{container}” streichen"
 " möchten?"
 
-#: cms/static/js/factories/manage_users_lib.js:20
+#: cms/static/js/factories/manage_users_lib.js
 msgid "Library User"
 msgstr "Bibliotheks-Benutzer"
 
-#: cms/static/js/factories/settings_advanced.js:40
+#: cms/static/js/factories/settings_advanced.js
 msgid "Hide Deprecated Settings"
 msgstr "Veraltete Einstellungen verbergen"
 
-#: cms/static/js/factories/settings_advanced.js:44
+#: cms/static/js/factories/settings_advanced.js
 msgid "Show Deprecated Settings"
 msgstr "Zeige veraltete Einstellungen"
 
-#: cms/static/js/factories/textbooks.js:19
-#: cms/static/js/views/pages/group_configurations.js:82
+#: cms/static/js/factories/textbooks.js
+#: cms/static/js/views/pages/group_configurations.js
 msgid "You have unsaved changes. Do you really want to leave this page?"
 msgstr ""
 "Sie haben die Änderungen nicht gespeichert. Wollen Sie diese Seite "
 "tatsächlich verlassen?"
 
-#: cms/static/js/features/import/factories/import.js:20
+#: cms/static/js/features/import/factories/import.js
 msgid "There was an error during the upload process."
 msgstr "Beim Hochladen ist ein Fehler aufgetreten."
 
-#: cms/static/js/features/import/factories/import.js:21
+#: cms/static/js/features/import/factories/import.js
 msgid "There was an error while unpacking the file."
 msgstr "Beim Entpacken der Datei ist ein Fehler aufgetreten."
 
-#: cms/static/js/features/import/factories/import.js:22
+#: cms/static/js/features/import/factories/import.js
 msgid "There was an error while verifying the file you submitted."
 msgstr "Beim Prüfen Ihrer übertragenen Datei ist ein Fehler aufgetreten."
 
-#: cms/static/js/features/import/factories/import.js:31
+#: cms/static/js/features/import/factories/import.js
 msgid "Choose new file"
 msgstr "Neue Datei auswählen"
 
-#: cms/static/js/features/import/factories/import.js:46
+#: cms/static/js/features/import/factories/import.js
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
 msgstr ""
 "Dateiformat nicht unterstützt. Bitte laden Sie eine Datei mit der Endung "
 "{ext} hoch."
 
-#: cms/static/js/features/import/factories/import.js:54
+#: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new library to our database."
 msgstr ""
 "Beim Importieren der neuen Bibliothek in unsere Datenbank ist ein Fehler "
 "aufgetreten."
 
-#: cms/static/js/features/import/factories/import.js:56
+#: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new course to our database."
 msgstr ""
 "Beim Importieren des neuen Kurses in unsere Datenbank ist ein Fehler "
 "aufgetreten."
 
-#: cms/static/js/features/import/factories/import.js:119
+#: cms/static/js/features/import/factories/import.js
 msgid "Your import has failed."
 msgstr "Import fehlgeschlagen"
 
-#: cms/static/js/features/import/views/import.js:66
+#: cms/static/js/features/import/views/import.js
 msgid "Your import is in progress; navigating away will abort it."
 msgstr ""
 "Der Importvorgang wird durchgeführt, der Aufruf einer anderen Internetseite "
 "wird den Vorgang abbrechen."
 
-#: cms/static/js/features/import/views/import.js:253
+#: cms/static/js/features/import/views/import.js
 msgid "Error importing course"
 msgstr "Fehler beim Importieren des Kurses"
 
-#: cms/static/js/features/import/views/import.js:298
+#: cms/static/js/features/import/views/import.js
 msgid "There was an error with the upload"
 msgstr "Es gab einen Fehler beim Upload"
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:23
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Organization:"
 msgstr "Organisation:"
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:27
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Number:"
 msgstr "Kursnummer:"
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:32
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Run:"
 msgstr "Kurslaufzeit:"
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:37
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "(Read-only)"
 msgstr "(Nur Lesezugriff)"
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:50
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Re-run Course"
 msgstr "Neue Kurslaufzeit"
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:60
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "View Live"
 msgstr "Live betrachten"
 
-#: cms/static/js/maintenance/force_publish_course.js:75
+#: cms/static/js/maintenance/force_publish_course.js
 msgid "Internal Server Error."
 msgstr "Interner Server Fehler."
 
 #. Translators: This is the status of a video upload that is queued
 #. waiting for other uploads to complete
-#: cms/static/js/models/active_video_upload.js:9
+#: cms/static/js/models/active_video_upload.js
 msgid "Queued"
 msgstr "Eingereiht"
 
 #. Translators: This is the status of a video upload that has
 #. completed successfully
-#: cms/static/js/models/active_video_upload.js:14
+#: cms/static/js/models/active_video_upload.js
 msgid "Upload completed"
 msgstr "Hochladen fertiggestellt"
 
 #. Translators: This is the status of a video upload that has failed
-#: cms/static/js/models/active_video_upload.js:16
+#: cms/static/js/models/active_video_upload.js
 msgid "Upload failed"
 msgstr "Hochladen fehlgeschlagen"
 
-#: cms/static/js/models/chapter.js:35
+#: cms/static/js/models/chapter.js
 msgid "Chapter name and asset_path are both required"
 msgstr "Kapitelname und asset_path werden beide benötigt"
 
-#: cms/static/js/models/chapter.js:40
+#: cms/static/js/models/chapter.js
 msgid "Chapter name is required"
 msgstr "Kapitelname ist erforderlich"
 
-#: cms/static/js/models/chapter.js:45
+#: cms/static/js/models/chapter.js
 msgid "asset_path is required"
 msgstr "asset_path ist erforderlich"
 
-#: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
+#: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
 msgstr "Sie müssen einen Namen aufführen"
 
-#: cms/static/js/models/course_update.js:12
+#: cms/static/js/models/course_update.js
 msgid "Action required: Enter a valid date."
 msgstr "Aktion erforderlich: Gültiges Datum eintragen."
 
-#: cms/static/js/models/group.js:40
+#: cms/static/js/models/group.js
 msgid "Group name is required"
 msgstr "Gruppenname wird benötigt"
 
-#: cms/static/js/models/group_configuration.js:16
+#: cms/static/js/models/group_configuration.js
 msgid "Group A"
 msgstr "Gruppe A"
 
-#: cms/static/js/models/group_configuration.js:20
+#: cms/static/js/models/group_configuration.js
 msgid "Group B"
 msgstr "Gruppe B"
 
-#: cms/static/js/models/group_configuration.js:90
+#: cms/static/js/models/group_configuration.js
 msgid "Group Configuration name is required."
 msgstr "Name der Gruppenkonfiguration wird benötigt"
 
-#: cms/static/js/models/group_configuration.js:97
+#: cms/static/js/models/group_configuration.js
 msgid "There must be at least one group."
 msgstr "Es ist wenigstens eine Gruppe erforderlich."
 
-#: cms/static/js/models/group_configuration.js:114
+#: cms/static/js/models/group_configuration.js
 msgid "All groups must have a name."
 msgstr "Alle Gruppen benötigen einen Namen."
 
-#: cms/static/js/models/group_configuration.js:122
+#: cms/static/js/models/group_configuration.js
 msgid "All groups must have a unique name."
 msgstr "Alle Gruppen benötigen einen eindeutigen Namen."
 
-#: cms/static/js/models/settings/course_details.js:51
+#: cms/static/js/models/settings/course_details.js
 msgid "The course must have an assigned start date."
 msgstr "Ihrem Kurs muss ein Startdatum vergeben werden."
 
-#: cms/static/js/models/settings/course_details.js:55
+#: cms/static/js/models/settings/course_details.js
 msgid "The course end date must be later than the course start date."
 msgstr ""
 "Das Datum des Kursendes kann nicht vor dem Einschreibedatum des Kurses "
 "liegen."
 
-#: cms/static/js/models/settings/course_details.js:60
+#: cms/static/js/models/settings/course_details.js
 msgid "The course start date must be later than the enrollment start date."
 msgstr ""
 "Das Datum des Kursbeginns kann nicht vor dem Einschreibedatum des Kurses "
 "liegen."
 
-#: cms/static/js/models/settings/course_details.js:66
+#: cms/static/js/models/settings/course_details.js
 msgid "The enrollment start date cannot be after the enrollment end date."
 msgstr ""
 "Das Einschreibe Startdatum kann nicht nach dem Einschreibe Enddatum liegen."
 
-#: cms/static/js/models/settings/course_details.js:70
+#: cms/static/js/models/settings/course_details.js
 msgid "The enrollment end date cannot be after the course end date."
 msgstr ""
 "Das Enddatum für die Einschreibung kann nicht nach dem Kurs-Enddatum liegen."
 
-#: cms/static/js/models/settings/course_details.js:75
+#: cms/static/js/models/settings/course_details.js
 msgid "The certificate available date must be later than the course end date."
 msgstr ""
 "Das Austellungsdatum des Zertifikates muss später gesetzt werden als das "
 "Enddatum des Kurses."
 
-#: cms/static/js/models/settings/course_details.js:80
+#: cms/static/js/models/settings/course_details.js
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "Schlüssel sollten nur Buchstaben, Ziffern, _ oder - enthalten"
 
-#: cms/static/js/models/settings/course_details.js:91
+#: cms/static/js/models/settings/course_details.js
 msgid "Please enter an integer between %(min)s and %(max)s."
 msgstr "Bitte geben Sie eine ganze Zahl zwischen %(min)s und %(max)s ein."
 
-#: cms/static/js/models/settings/course_grader.js:27
+#: cms/static/js/models/settings/course_grader.js
 msgid "The assignment type must have a name."
 msgstr "Der Aufgabentyp muss einen Namen haben."
 
-#: cms/static/js/models/settings/course_grader.js:32
+#: cms/static/js/models/settings/course_grader.js
 msgid "There's already another assignment type with this name."
 msgstr "Es gibt bereits einen anderen Aufgabentyp mit diesem Namen."
 
-#: cms/static/js/models/settings/course_grader.js:39
+#: cms/static/js/models/settings/course_grader.js
 msgid "Please enter an integer between 0 and 100."
 msgstr "Bitte geben Sie eine ganze Zahl zwischen 0 und 100 ein."
 
-#: cms/static/js/models/settings/course_grader.js:54
+#: cms/static/js/models/settings/course_grader.js
 msgid "Please enter an integer greater than 0."
 msgstr "Bitte geben Sie einen Integer-Wert größer 0 ein."
 
-#: cms/static/js/models/settings/course_grader.js:61
+#: cms/static/js/models/settings/course_grader.js
 msgid "Please enter non-negative integer."
 msgstr "Bitte geben Sie einen nicht negativen Integer-Wert ein."
 
-#: cms/static/js/models/settings/course_grader.js:66
+#: cms/static/js/models/settings/course_grader.js
 msgid "Cannot drop more <%= types %> assignments than are assigned."
 msgstr ""
 "Es können nicht mehr <%= types %> Aufgabenzuordnungen gelöscht werden als "
 "zugeordnet sind."
 
-#: cms/static/js/models/settings/course_grading_policy.js:76
+#: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."
 msgstr "Abgabefrist muss im HH:MM Format festgelegt werden."
 
-#: cms/static/js/models/settings/course_grading_policy.js:87
+#: cms/static/js/models/settings/course_grading_policy.js
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr ""
 "Konnte die Bestehensgrenze nicht niedriger als %(minimum_grade_cutoff)s% "
 "setzen."
 
-#: cms/static/js/models/textbook.js:62
+#: cms/static/js/models/textbook.js
 msgid "Textbook name is required"
 msgstr "Name für das Textbook wird benötigt"
 
-#: cms/static/js/models/textbook.js:68
+#: cms/static/js/models/textbook.js
 msgid "Please add at least one chapter"
 msgstr "Bitte mindestens ein Kapitel einfügen"
 
-#: cms/static/js/models/textbook.js:81
+#: cms/static/js/models/textbook.js
 msgid "All chapters must have a name and asset"
 msgstr "Alle Kapitel benötigen einen Namen und Inhalte"
 
-#: cms/static/js/models/uploads.js:17
+#: cms/static/js/models/uploads.js
 msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
@@ -434,53 +433,52 @@ msgstr ""
 "Es können nur  <%- fileTypes %> Dateien hochgeladen werden. Bitte wählen Sie"
 " eine Datei mit der Endung <%- (fileExtensions) %> zum Hochladen aus."
 
-#: cms/static/js/models/uploads.js:63
+#: cms/static/js/models/uploads.js
 msgid "or"
 msgstr "oder"
 
-#: cms/static/js/models/xblock_validation.js:23
+#: cms/static/js/models/xblock_validation.js
 msgid "This unit has validation issues."
 msgstr "Diese Lerneinheit hat Validierungsprobleme."
 
-#: cms/static/js/models/xblock_validation.js:25
+#: cms/static/js/models/xblock_validation.js
 msgid "This component has validation issues."
 msgstr "Diese Komponente kann nicht validiert werden."
 
-#: cms/static/js/views/active_video_upload.js:41
-#: cms/static/js/views/assets.js:210
+#: cms/static/js/views/active_video_upload.js cms/static/js/views/assets.js
 msgid "Your file could not be uploaded"
 msgstr "Ihre Datei konnte nicht hochgeladen werden"
 
-#: cms/static/js/views/active_video_upload_list.js:27
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Upload Videos"
 msgstr "Videos hochladen"
 
-#: cms/static/js/views/active_video_upload_list.js:29
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
 msgstr "Drag&Drop oder {spanStart}vom Computer hochladen{spanEnd}."
 
-#: cms/static/js/views/active_video_upload_list.js:56
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Maximum file size: {maxFileSize} GB"
 msgstr "Maximale Dateigröße beträgt: {maxFileSize} GB"
 
-#: cms/static/js/views/active_video_upload_list.js:62
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Supported file types: {supportedVideoTypes}"
 msgstr "Unterstützte Dateitypen: {supportedVideoTypes}"
 
-#: cms/static/js/views/active_video_upload_list.js:155
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Your video uploads are not complete."
 msgstr "Der Video-Upload ist nicht komplett."
 
-#: cms/static/js/views/active_video_upload_list.js:296
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Upload completed for video {fileName}"
 msgstr "Upload für Video {fileName} abgeschlossen"
 
-#: cms/static/js/views/active_video_upload_list.js:330
-#: cms/static/js/views/active_video_upload_list.js:354
+#: cms/static/js/views/active_video_upload_list.js
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Upload failed for video {fileName}"
 msgstr "Upload der Videos {fileName} fehlgeschlagen"
 
-#: cms/static/js/views/active_video_upload_list.js:383
+#: cms/static/js/views/active_video_upload_list.js
 msgid ""
 "{filename} is not in a supported file format. Supported file formats are "
 "{supportedFileFormats}."
@@ -488,24 +486,24 @@ msgstr ""
 "{filename} gehört nicht zu den unterstützten Dateiformaten. Die "
 "unterstützten Dateiformate sind {supportedFileFormats}."
 
-#: cms/static/js/views/active_video_upload_list.js:390
+#: cms/static/js/views/active_video_upload_list.js
 msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
 msgstr ""
 "{filename} überschreitet die maximale Dateigröße von {maxFileSizeInGB} GB."
 
-#: cms/static/js/views/active_video_upload_list.js:425
+#: cms/static/js/views/active_video_upload_list.js
 msgid ": video upload complete."
 msgstr ": Hochladen des Videos erfolgreich abgeschlossen."
 
-#: cms/static/js/views/active_video_upload_list.js:434
+#: cms/static/js/views/active_video_upload_list.js
 msgid "Previous Uploads table has been updated."
 msgstr "Tabelle der vorherigen Uploads wurde aktualisiert."
 
-#: cms/static/js/views/asset.js:51
+#: cms/static/js/views/asset.js
 msgid "Delete File Confirmation"
 msgstr "Dateibestätigung löschen"
 
-#: cms/static/js/views/asset.js:52
+#: cms/static/js/views/asset.js
 msgid ""
 "Are you sure you wish to delete this item. It cannot be reversed!\n"
 "\n"
@@ -515,25 +513,25 @@ msgstr ""
 "⏎\n"
 "Des Weiteren werden alle Inhalte, die sich auf dieses Objekt beziehen nicht mehr laufen (z.B. Verweise auf Bilder und Links)."
 
-#: cms/static/js/views/asset.js:62
+#: cms/static/js/views/asset.js
 msgid "Your file has been deleted."
 msgstr "Die Datei wurde gelöscht."
 
-#: cms/static/js/views/assets.js:111
+#: cms/static/js/views/assets.js
 msgid "Date Added"
 msgstr "Datum hinzugefügt"
 
-#: cms/static/js/views/assets.js:112
+#: cms/static/js/views/assets.js
 msgid "Type"
 msgstr "Typ"
 
-#: cms/static/js/views/assets.js:197
+#: cms/static/js/views/assets.js
 msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
 msgstr ""
 "Die Datei {filename} überschreitet die maximale Größe von {maxFileSizeInMBs}"
 " MB"
 
-#: cms/static/js/views/assets.js:204
+#: cms/static/js/views/assets.js
 msgid ""
 "Please follow the instructions here to upload a file elsewhere and link to "
 "it: {maxFileSizeRedirectUrl}"
@@ -541,91 +539,91 @@ msgstr ""
 "Bitte befolgen Sie die Instruktionen, um eine Datei hochzuladen und dorthin "
 "zu verlinken: {maxFileSizeRedirectUrl}"
 
-#: cms/static/js/views/assets.js:216
+#: cms/static/js/views/assets.js
 msgid "Max file size exceeded"
 msgstr "Maximale Dateigröße überschritten"
 
-#: cms/static/js/views/assets.js:334 cms/static/js/views/assets.js:348
+#: cms/static/js/views/assets.js cms/static/js/views/assets.js
 msgid "Upload New File"
 msgstr "Neue Datei hochladen"
 
-#: cms/static/js/views/assets.js:339 cms/static/js/views/assets.js:353
+#: cms/static/js/views/assets.js cms/static/js/views/assets.js
 msgid "Load Another File"
 msgstr "Eine andere Datei laden"
 
-#: cms/static/js/views/components/add_xblock.js:70
-#: cms/static/js/views/utils/xblock_utils.js:51
+#: cms/static/js/views/components/add_xblock.js
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Adding"
 msgstr "Hinzufügen"
 
-#: cms/static/js/views/course_info_update.js:236
+#: cms/static/js/views/course_info_update.js
 msgid "Are you sure you want to delete this update?"
 msgstr "Wollen Sie wirklich die Aktualisierungen löschen?"
 
-#: cms/static/js/views/course_rerun.js:52
+#: cms/static/js/views/course_rerun.js
 msgid "Create Re-run"
 msgstr "Erstelle Wiederholungslauf"
 
-#: cms/static/js/views/course_rerun.js:59
+#: cms/static/js/views/course_rerun.js
 msgid "Processing Re-run Request"
 msgstr "Verarbeite die Anfrage auf Kurswiederholung"
 
-#: cms/static/js/views/course_video_settings.js:25
+#: cms/static/js/views/course_video_settings.js
 msgid "An error has occurred. Wait a few minutes, and then try again."
 msgstr ""
 "Ein Fehler ist aufgetreten. Warten Sie und versuchen Sie es später noch "
 "einmal."
 
-#: cms/static/js/views/course_video_settings.js:304
+#: cms/static/js/views/course_video_settings.js
 msgid "Select turnaround"
 msgstr "Wendepunkt auswählen"
 
-#: cms/static/js/views/course_video_settings.js:332
+#: cms/static/js/views/course_video_settings.js
 msgid "Select fidelity"
 msgstr "Treue auswählen"
 
-#: cms/static/js/views/course_video_settings.js:384
-#: cms/static/js/views/course_video_settings.js:420
+#: cms/static/js/views/course_video_settings.js
+#: cms/static/js/views/course_video_settings.js
 msgid "Select language"
 msgstr "Wählen Sie eine Sprache"
 
-#: cms/static/js/views/course_video_settings.js:472
+#: cms/static/js/views/course_video_settings.js
 msgid "Press Remove to remove language"
 msgstr "Klicken Sie auf Entfernen, um die Sprache zu entfernen"
 
-#: cms/static/js/views/course_video_settings.js:482
+#: cms/static/js/views/course_video_settings.js
 msgid "Settings updated"
 msgstr "Einstellungen aktualisiert"
 
-#: cms/static/js/views/course_video_settings.js:491
+#: cms/static/js/views/course_video_settings.js
 msgid "Last updated"
 msgstr "Zuletzt aktualisiert"
 
-#: cms/static/js/views/course_video_settings.js:554
+#: cms/static/js/views/course_video_settings.js
 msgid "Required"
 msgstr "Benötigt"
 
-#: cms/static/js/views/course_video_settings.js:681
+#: cms/static/js/views/course_video_settings.js
 msgid "Automatic transcripts are disabled."
 msgstr "Automatische Transkriptionen sind deaktiviert."
 
-#: cms/static/js/views/course_video_settings.js:718
+#: cms/static/js/views/course_video_settings.js
 msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} Anmeldeinformationen gespeichert"
 
-#: cms/static/js/views/edit_chapter.js:62
+#: cms/static/js/views/edit_chapter.js
 msgid "Upload a new PDF to “<%- name %>”"
 msgstr "Eine neue PDF zu “<%- name %>” hochladen "
 
-#: cms/static/js/views/edit_chapter.js:64
+#: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
 msgstr "Bitte wählen Sie eine PDF-Datei zum Hochladen aus"
 
-#: cms/static/js/views/export.js:312
+#: cms/static/js/views/export.js
 msgid "There has been an error while exporting."
 msgstr "Beim Export ist ein Fehler aufgetreten"
 
-#: cms/static/js/views/export.js:313
+#: cms/static/js/views/export.js
 msgid ""
 "There has been a failure to export to XML at least one component. It is "
 "recommended that you go to the edit page and repair the error before "
@@ -638,15 +636,15 @@ msgstr ""
 "Versuch unternimmst.Bitte prüfe, dass alle Komponenten auf der Seite als "
 "\"ok\" markiert sind und keine Fehlermeldungen angezeigt werden"
 
-#: cms/static/js/views/export.js:320
+#: cms/static/js/views/export.js
 msgid "Correct failed component"
 msgstr "Die fehlerhafte Komponente korrigieren"
 
-#: cms/static/js/views/export.js:327
+#: cms/static/js/views/export.js
 msgid "Return to Export"
 msgstr "Zum Export zurückkehren"
 
-#: cms/static/js/views/export.js:336
+#: cms/static/js/views/export.js
 msgid ""
 "Your library could not be exported to XML. There is not enough information "
 "to identify the failed component. Inspect your library to identify any "
@@ -657,11 +655,11 @@ msgstr ""
 " zu identifizieren. Prüfe deine Bibliothek, um fehlerhafte Komponenten zu "
 "identifizieren und versuche es anschließend erneut."
 
-#: cms/static/js/views/export.js:339
+#: cms/static/js/views/export.js
 msgid "Take me to the main library page"
 msgstr "Zurück zur Hauptseite der Bibliothek"
 
-#: cms/static/js/views/export.js:341
+#: cms/static/js/views/export.js
 msgid ""
 "Your course could not be exported to XML. There is not enough information to"
 " identify the failed component. Inspect your course to identify any "
@@ -672,28 +670,28 @@ msgstr ""
 "einzugrenzen. Prüfe deinen Kurs, um fehlerhafte Komponenten zu "
 "identifizieren und versuche es anschließend erneut."
 
-#: cms/static/js/views/export.js:344
+#: cms/static/js/views/export.js
 msgid "Take me to the main course page"
 msgstr "Zurück zur Hauptseite des Kurses"
 
-#: cms/static/js/views/export.js:346
+#: cms/static/js/views/export.js
 msgid "The raw error message is:"
 msgstr "Die ursprüngliche Fehlermeldung ist:"
 
-#: cms/static/js/views/export.js:348
+#: cms/static/js/views/export.js
 msgid "There has been an error with your export."
 msgstr "Beim Exportieren ist ein Fehler aufgetreten."
 
 #. Translators: 'count' is number of groups that the group
 #. configuration contains.
-#: cms/static/js/views/group_configuration_details.js:70
+#: cms/static/js/views/group_configuration_details.js
 msgid "Contains {count} group"
 msgid_plural "Contains {count} groups"
 msgstr[0] "Enthält {count} Gruppe"
 msgstr[1] "Enthält {count} Gruppen"
 
-#: cms/static/js/views/group_configuration_details.js:81
-#: cms/static/js/views/partition_group_details.js:66
+#: cms/static/js/views/group_configuration_details.js
+#: cms/static/js/views/partition_group_details.js
 msgid "Not in Use"
 msgstr "Nicht in Gebrauch"
 
@@ -701,63 +699,62 @@ msgstr "Nicht in Gebrauch"
 #. configuration is used in.
 #. Translators: 'count' is number of locations that the group
 #. configuration is used in.
-#: cms/static/js/views/group_configuration_details.js:89
-#: cms/static/js/views/partition_group_details.js:74
+#: cms/static/js/views/group_configuration_details.js
+#: cms/static/js/views/partition_group_details.js
 msgid "Used in {count} location"
 msgid_plural "Used in {count} locations"
 msgstr[0] "Benutzt in {count} Speicherort"
 msgstr[1] "Benutzt in {count} Speicherorten"
 
 #. Translators: this refers to a collection of groups.
-#: cms/static/js/views/group_configuration_item.js:26
-#: cms/static/js/views/group_configurations_list.js:18
+#: cms/static/js/views/group_configuration_item.js
+#: cms/static/js/views/group_configurations_list.js
 msgid "group configuration"
 msgstr "Gruppenkonfiguration"
 
-#: cms/static/js/views/group_configurations_list.js:20
+#: cms/static/js/views/group_configurations_list.js
 msgid "Add your first group configuration"
 msgstr "Fügen Sie Ihre erste Gruppenkonfiguration hinzu"
 
-#: cms/static/js/views/group_configurations_list.js:22
+#: cms/static/js/views/group_configurations_list.js
 msgid "You have not created any group configurations yet."
 msgstr "Sie haben noch keine Gruppenkonfigurationen erstellt."
 
-#: cms/static/js/views/instructor_info.js:77
+#: cms/static/js/views/instructor_info.js
 msgid "Upload instructor image."
 msgstr "Dozentenbild hochladen."
 
-#: cms/static/js/views/instructor_info.js:78
-#: cms/static/js/views/settings/main.js:445
+#: cms/static/js/views/instructor_info.js cms/static/js/views/settings/main.js
 msgid "Files must be in JPEG or PNG format."
 msgstr "Dateien müssen im JPEG oder PNG Format sein."
 
-#: cms/static/js/views/license.js:8
+#: cms/static/js/views/license.js
 msgid "All Rights Reserved"
 msgstr "Alle Rechte vorbehalten"
 
-#: cms/static/js/views/license.js:9
+#: cms/static/js/views/license.js
 msgid "You reserve all rights for your work"
 msgstr "Sie behalten sich alle Rechte für Ihre Arbeit vor"
 
-#: cms/static/js/views/license.js:12
+#: cms/static/js/views/license.js
 msgid "Creative Commons"
 msgstr "Creative Commons"
 
-#: cms/static/js/views/license.js:13
+#: cms/static/js/views/license.js
 msgid "You waive some rights for your work, such that others can use it too"
 msgstr ""
 "Sie verzichten auf einige Rechte für Ihre Arbeit, so dass auch andere diese "
 "nutzen können"
 
-#: cms/static/js/views/license.js:17
+#: cms/static/js/views/license.js
 msgid "Version"
 msgstr "Version"
 
-#: cms/static/js/views/license.js:22
+#: cms/static/js/views/license.js
 msgid "Attribution"
 msgstr "Attribution"
 
-#: cms/static/js/views/license.js:25
+#: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform your copyrighted work "
 "but only if they give credit the way you request. Currently, this option is "
@@ -768,11 +765,11 @@ msgstr ""
 "gewünschte Art und Weise Verweise geben. Derzeit ist diese Einstellung "
 "erforderlich."
 
-#: cms/static/js/views/license.js:29
+#: cms/static/js/views/license.js
 msgid "Noncommercial"
 msgstr "Nicht-kommerziell"
 
-#: cms/static/js/views/license.js:32
+#: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform your work - and "
 "derivative works based upon it - but for noncommercial purposes only."
@@ -781,11 +778,11 @@ msgstr ""
 " zu verbreiten, anzuzeigen und auszuführen, jedoch nur für nicht-"
 "kommerzielle Zwecke."
 
-#: cms/static/js/views/license.js:35
+#: cms/static/js/views/license.js
 msgid "No Derivatives"
 msgstr "No Derivatives"
 
-#: cms/static/js/views/license.js:38
+#: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform only verbatim copies "
 "of your work, not derivative works based upon it. This option is "
@@ -795,11 +792,11 @@ msgstr ""
 "verteilen, anzuzeigen und auszuführen, keine abgeleiteten Werke, die darauf "
 "basieren. Diese Einstellung ist nicht mit \"Share Alike\" kompatibel."
 
-#: cms/static/js/views/license.js:42
+#: cms/static/js/views/license.js
 msgid "Share Alike"
 msgstr "Share Alike"
 
-#: cms/static/js/views/license.js:45
+#: cms/static/js/views/license.js
 msgid ""
 "Allow others to distribute derivative works only under a license identical "
 "to the license that governs your work. This option is incompatible with \"No"
@@ -810,48 +807,48 @@ msgstr ""
 "Einstellung ist nicht kompatibel mit \"No Derivatives\"."
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
-#: cms/static/js/views/list_item.js:50
+#: cms/static/js/views/list_item.js
 msgid "Delete this %(item_display_name)s?"
 msgstr "%(item_display_name)s löschen?"
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
-#: cms/static/js/views/list_item.js:55
+#: cms/static/js/views/list_item.js
 msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
 msgstr ""
 "Die Löschung von %(item_display_name)s ist permanent und kann nicht "
 "rückgängig gemacht werden."
 
-#: cms/static/js/views/manage_users_and_roles.js:11
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "There was an error changing the user's role"
 msgstr "Es ist ein Fehler beim ändern der Benutzer-Rolle aufgetreten."
 
-#: cms/static/js/views/manage_users_and_roles.js:15
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "Error adding user"
 msgstr "Fehler beim Hinzufügen des Nutzers"
 
-#: cms/static/js/views/manage_users_and_roles.js:16
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "Error removing user"
 msgstr "Fehler beim Entfernen des Nutzers"
 
-#: cms/static/js/views/manage_users_and_roles.js:19
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "A valid email address is required"
 msgstr "Eine gültige E-Mail-Adresse ist erforderlich."
 
-#: cms/static/js/views/manage_users_and_roles.js:20
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "You must enter a valid email address in order to add a new team member"
 msgstr ""
 "Sie müssen eine gültige Email-Adresse angeben, um ein neues Team-Mitglied "
 "hinzuzufügen."
 
-#: cms/static/js/views/manage_users_and_roles.js:21
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "Return and add email address"
 msgstr "Zurückkehren und Email-Adresse angeben"
 
-#: cms/static/js/views/manage_users_and_roles.js:24
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "Already a member"
 msgstr "Bereits Mitglied"
 
-#: cms/static/js/views/manage_users_and_roles.js:25
+#: cms/static/js/views/manage_users_and_roles.js
 msgid ""
 "{email} is already on the {container} team. Recheck the email address if you"
 " want to add a new member."
@@ -859,150 +856,150 @@ msgstr ""
 "{email} ist bereits im {container} Team. Kontrollieren Sie noch einmal alle "
 "E-Mails, um ein neues Mitglied hinzuzufügen."
 
-#: cms/static/js/views/manage_users_and_roles.js:26
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "Return to team listing"
 msgstr "Zurück zur Teamliste"
 
-#: cms/static/js/views/manage_users_and_roles.js:30
+#: cms/static/js/views/manage_users_and_roles.js
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr ""
 "Sind Sie sicher, dass Sie den Zugang zu “{container}” für {email} "
 "einschränken wollen?"
 
-#: cms/static/js/views/modals/course_outline_modals.js:121
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "{display_name} Settings"
 msgstr "{display_name} Einstellungen"
 
-#: cms/static/js/views/modals/course_outline_modals.js:202
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Publish {display_name}"
 msgstr "{display_name} veröffentlichen"
 
-#: cms/static/js/views/modals/course_outline_modals.js:209
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Publish all unpublished changes for this {item}?"
 msgstr "Alle unveröffentlichten Änderungen für dieses {item} veröffentlichen?"
 
-#: cms/static/js/views/modals/course_outline_modals.js:215
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Publish"
 msgstr "Veröffentlichen"
 
-#: cms/static/js/views/modals/course_outline_modals.js:236
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Highlights for {display_name}"
 msgstr "Highlights für {display_name}"
 
-#: cms/static/js/views/modals/course_outline_modals.js:276
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Enable Weekly Highlight Emails"
 msgstr "wöchentliche E-Mails über Neuigkeiten aktivieren"
 
-#: cms/static/js/views/modals/course_outline_modals.js:294
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Enable"
 msgstr "aktivieren"
 
-#: cms/static/js/views/modals/course_outline_modals.js:295
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Not yet"
 msgstr "Noch nicht"
 
-#: cms/static/js/views/modals/course_outline_modals.js:759
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "All Learners and Staff"
 msgstr "Alle Teilnehmer und die Mitarbeiter"
 
-#: cms/static/js/views/modals/course_outline_modals.js:1065
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Basic"
 msgstr "Grundlegend"
 
-#: cms/static/js/views/modals/course_outline_modals.js:1070
+#: cms/static/js/views/modals/course_outline_modals.js
 msgid "Visibility"
 msgstr "Sichtbarkeit"
 
 #. Translators: "title" is the name of the current component being edited.
-#: cms/static/js/views/modals/edit_xblock.js:23
+#: cms/static/js/views/modals/edit_xblock.js
 msgid "Editing: {title}"
 msgstr "Bearbeiten: {title}"
 
-#: cms/static/js/views/modals/edit_xblock.js:98
+#: cms/static/js/views/modals/edit_xblock.js
 msgid "Plugins"
 msgstr "Plugins"
 
-#: cms/static/js/views/modals/edit_xblock.js:132
+#: cms/static/js/views/modals/edit_xblock.js
 msgid "Unit"
 msgstr "Lerneinheit"
 
-#: cms/static/js/views/modals/edit_xblock.js:134
+#: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
 msgstr "Baustein"
 
-#: cms/static/js/views/modals/move_xblock_modal.js:37
+#: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move"
 msgstr "Verschieben"
 
-#: cms/static/js/views/modals/move_xblock_modal.js:38
+#: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Choose a location to move your component to"
 msgstr ""
 "Wählen Sie einen Speicherort, wo Sie die Komponente hinbewegen möchten"
 
-#: cms/static/js/views/modals/move_xblock_modal.js:66
+#: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move: {displayName}"
 msgstr "Bewegen: {displayName}"
 
-#: cms/static/js/views/modals/validation_error_modal.js:16
+#: cms/static/js/views/modals/validation_error_modal.js
 msgid "Validation Error While Saving"
 msgstr "Validierungsfehler bei der Speicherung"
 
-#: cms/static/js/views/modals/validation_error_modal.js:21
+#: cms/static/js/views/modals/validation_error_modal.js
 msgid "Undo Changes"
 msgstr "Änderungen rückgangig machen"
 
-#: cms/static/js/views/modals/validation_error_modal.js:22
+#: cms/static/js/views/modals/validation_error_modal.js
 msgid "Change Manually"
 msgstr "Von Hand ändern"
 
-#: cms/static/js/views/move_xblock_list.js:33
+#: cms/static/js/views/move_xblock_list.js
 msgid "Sections"
 msgstr "Abschnitte"
 
-#: cms/static/js/views/move_xblock_list.js:34
+#: cms/static/js/views/move_xblock_list.js
 msgid "Subsections"
 msgstr "Unterabschnitte"
 
-#: cms/static/js/views/move_xblock_list.js:35
+#: cms/static/js/views/move_xblock_list.js
 msgid "Units"
 msgstr "Lerneinheiten"
 
-#: cms/static/js/views/move_xblock_list.js:36
+#: cms/static/js/views/move_xblock_list.js
 msgid "Components"
 msgstr "Komponenten"
 
-#: cms/static/js/views/move_xblock_list.js:37
+#: cms/static/js/views/move_xblock_list.js
 msgid "Groups"
 msgstr "Gruppen"
 
-#: cms/static/js/views/move_xblock_list.js:179
+#: cms/static/js/views/move_xblock_list.js
 msgid "This {parentCategory} has no {childCategory}"
 msgstr "Diese {parentCategory} hat keine {childCategory}"
 
-#: cms/static/js/views/move_xblock_list.js:196
+#: cms/static/js/views/move_xblock_list.js
 msgid "Course Outline"
 msgstr "Kursübersicht"
 
-#: cms/static/js/views/paged_container.js:260
+#: cms/static/js/views/paged_container.js
 msgid "Date added"
 msgstr "Datum hinzugefügt"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:201
+#: cms/static/js/views/pages/container.js
 msgid "Editing access for: {title}"
 msgstr "Zugangseinstellungen bearbeiten für: {title}"
 
-#: cms/static/js/views/pages/container_subviews.js:164
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
 msgstr "Veröffentlichen"
 
-#: cms/static/js/views/pages/container_subviews.js:182
-#: cms/static/js/views/pages/container_subviews.js:184
+#: cms/static/js/views/pages/container_subviews.js
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Discard Changes"
 msgstr "Änderungen verwerfen"
 
-#: cms/static/js/views/pages/container_subviews.js:183
+#: cms/static/js/views/pages/container_subviews.js
 msgid ""
 "Are you sure you want to revert to the last published version of the unit? "
 "You cannot undo this action."
@@ -1010,28 +1007,28 @@ msgstr ""
 "Bist du sicher, dass du die letzte veröffentlichte Version dieser Einheit "
 "wiederherstellen möchtest? Dieses kann nicht rückgängig gemacht werden."
 
-#: cms/static/js/views/pages/container_subviews.js:186
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Discarding Changes"
 msgstr "Änderungen verwerfen"
 
-#: cms/static/js/views/pages/container_subviews.js:233
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Hiding from Students"
 msgstr "Vor Teilnehmern verbergen"
 
-#: cms/static/js/views/pages/container_subviews.js:236
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Explicitly Hiding from Students"
 msgstr "Gezielt vor Teilnehmern verstecken"
 
-#: cms/static/js/views/pages/container_subviews.js:239
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Inheriting Student Visibility"
 msgstr "Sichtbarkeit für Teilnehmer vererben"
 
-#: cms/static/js/views/pages/container_subviews.js:242
-#: cms/static/js/views/pages/container_subviews.js:244
+#: cms/static/js/views/pages/container_subviews.js
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Make Visible to Students"
 msgstr "Für die Teilnehmer anzeigen lassen"
 
-#: cms/static/js/views/pages/container_subviews.js:243
+#: cms/static/js/views/pages/container_subviews.js
 msgid ""
 "If the unit was previously published and released to students, any changes "
 "you made to the unit when it was hidden will now be visible to students. Do "
@@ -1042,30 +1039,30 @@ msgstr ""
 "versteckt war, vorgenommen hast, für die Teilnehmer sichtbar. Möchtest du "
 "fortfahren?"
 
-#: cms/static/js/views/pages/container_subviews.js:246
+#: cms/static/js/views/pages/container_subviews.js
 msgid "Making Visible to Students"
 msgstr "Für die Teilnehmer sichtbar machen"
 
-#: cms/static/js/views/pages/course_outline.js:182
+#: cms/static/js/views/pages/course_outline.js
 msgid "Course Index"
 msgstr "Kursindex"
 
-#: cms/static/js/views/pages/course_outline.js:190
+#: cms/static/js/views/pages/course_outline.js
 msgid "There were errors reindexing course."
 msgstr "Es gab Fehler bei der Neuindizierung des Kurses."
 
-#: cms/static/js/views/pages/paged_container.js:45
+#: cms/static/js/views/pages/paged_container.js
 msgid "Hide Previews"
 msgstr "Vorschau verstecken"
 
-#: cms/static/js/views/pages/paged_container.js:45
+#: cms/static/js/views/pages/paged_container.js
 msgid "Show Previews"
 msgstr "Vorschau anzeigen"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
 #. ascending"
-#: cms/static/js/views/paging_header.js:52
+#: cms/static/js/views/paging_header.js
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
@@ -1076,7 +1073,7 @@ msgstr ""
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
 #. descending"
-#: cms/static/js/views/paging_header.js:56
+#: cms/static/js/views/paging_header.js
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
@@ -1086,7 +1083,7 @@ msgstr ""
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
-#: cms/static/js/views/paging_header.js:63
+#: cms/static/js/views/paging_header.js
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
@@ -1096,7 +1093,7 @@ msgstr ""
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
-#: cms/static/js/views/paging_header.js:67
+#: cms/static/js/views/paging_header.js
 msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
@@ -1106,31 +1103,31 @@ msgstr ""
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
-#: cms/static/js/views/paging_header.js:98
+#: cms/static/js/views/paging_header.js
 msgid "{totalItems} total"
 msgstr "insgesamt {totalItems}"
 
 #. Translators: This refers to a content group that can be linked to a student
 #. cohort.
-#: cms/static/js/views/partition_group_item.js:24
-#: cms/static/js/views/partition_group_list.js:21
+#: cms/static/js/views/partition_group_item.js
+#: cms/static/js/views/partition_group_list.js
 msgid "content group"
 msgstr "Inhaltsgruppe"
 
-#: cms/static/js/views/partition_group_list.js:23
+#: cms/static/js/views/partition_group_list.js
 msgid "Add your first content group"
 msgstr "Fügen Sie Ihre erste Inhaltsgruppe hinzu"
 
-#: cms/static/js/views/partition_group_list.js:25
+#: cms/static/js/views/partition_group_list.js
 msgid "You have not created any content groups yet."
 msgstr "Sie haben noch keine Inhaltsgruppen definiert."
 
-#: cms/static/js/views/previous_video_upload.js:76
+#: cms/static/js/views/previous_video_upload.js
 msgid "Are you sure you want to remove this video from the list?"
 msgstr ""
 "Sind Sie sicher, dass Sie dieses Video aus der Liste entfernen möchten?"
 
-#: cms/static/js/views/previous_video_upload.js:77
+#: cms/static/js/views/previous_video_upload.js
 msgid ""
 "Removing a video from this list does not affect course content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
@@ -1139,7 +1136,7 @@ msgstr ""
 "Kursinhalt. Alle Inhalte, die eine zuvor hochgeladene Video-ID verwenden, "
 "werden im Kurs weiterhin angezeigt."
 
-#: cms/static/js/views/settings/advanced.js:68
+#: cms/static/js/views/settings/advanced.js
 msgid ""
 "Your changes will not take effect until you save your progress. Take care "
 "with key and value formatting, as validation is not implemented."
@@ -1148,11 +1145,11 @@ msgstr ""
 "haben. Seien Sie vorsichtig mit der Formatierung von Schlüsseln und Werten, "
 "da keine Überprüfung statt findet."
 
-#: cms/static/js/views/settings/advanced.js:117
+#: cms/static/js/views/settings/advanced.js
 msgid "Your policy changes have been saved."
 msgstr "Die veränderten Rechte wurden gespeichert"
 
-#: cms/static/js/views/settings/advanced.js:118
+#: cms/static/js/views/settings/advanced.js
 msgid ""
 "No validation is performed on policy keys or value pairs. If you are having "
 "difficulties, check your formatting."
@@ -1161,47 +1158,47 @@ msgstr ""
 "durchgeführt. Wenn Sie Schwierigkeiten haben, überprüfen Sie Ihre "
 "Formatierung."
 
-#: cms/static/js/views/settings/grader.js:58
+#: cms/static/js/views/settings/grader.js
 msgid ""
 "For grading to work, you must change all {oldName} subsections to {newName}."
 msgstr ""
 "Damit die Bewertung funktioniert, müssen Sie alle {oldName} Unterabschnitte "
 "auf {newName} ändern."
 
-#: cms/static/js/views/settings/main.js:60
+#: cms/static/js/views/settings/main.js
 msgid "Course Credit Requirements"
 msgstr "Anforderungen Kurs Credits"
 
-#: cms/static/js/views/settings/main.js:61
+#: cms/static/js/views/settings/main.js
 msgid "The minimum grade for course credit is not set."
 msgstr "Es ist keine Mindestbenotung definiert."
 
-#: cms/static/js/views/settings/main.js:151
+#: cms/static/js/views/settings/main.js
 msgid "Course pacing cannot be changed once a course has started."
 msgstr ""
 "Das Kurstempo kann nicht geändert werden, nachdem der Kurs gestartet ist."
 
-#: cms/static/js/views/settings/main.js:218
+#: cms/static/js/views/settings/main.js
 msgid "{hours}:{minutes} (current UTC time)"
 msgstr "{hours}:{minutes} (current UTC time)"
 
-#: cms/static/js/views/settings/main.js:424
+#: cms/static/js/views/settings/main.js
 msgid "Upload your course image."
 msgstr "Laden Sie Ihr Kursbild hoch."
 
-#: cms/static/js/views/settings/main.js:430
+#: cms/static/js/views/settings/main.js
 msgid "Upload your banner image."
 msgstr "Laden Sie Ihr Bannerbild hoch. "
 
-#: cms/static/js/views/settings/main.js:436
+#: cms/static/js/views/settings/main.js
 msgid "Upload your video thumbnail image."
 msgstr "Laden Sie Ihr Videovorschaubild hoch."
 
-#: cms/static/js/views/show_textbook.js:33
+#: cms/static/js/views/show_textbook.js
 msgid "Delete “<%- name %>”?"
 msgstr "“<%- name %>” löschen?"
 
-#: cms/static/js/views/show_textbook.js:36
+#: cms/static/js/views/show_textbook.js
 msgid ""
 "Deleting a textbook cannot be undone and once deleted any reference to it in"
 " your courseware's navigation will also be removed."
@@ -1210,26 +1207,26 @@ msgstr ""
 "werden alle Referenzen auf das Textbuch in der Kursinhaltsnavigation auch "
 "gelöscht."
 
-#: cms/static/js/views/tabs.js:159
+#: cms/static/js/views/tabs.js
 msgid "Delete Page Confirmation"
 msgstr "Seitenbestätigung löschen"
 
-#: cms/static/js/views/tabs.js:160
+#: cms/static/js/views/tabs.js
 msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr ""
 "Sind Sie sicher, dass Sie diese Seite löschen wollen? Dies kann nicht "
 "rückgängig gemacht werden."
 
-#: cms/static/js/views/uploads.js:29
+#: cms/static/js/views/uploads.js
 msgid "Upload"
 msgstr "Hochladen"
 
-#: cms/static/js/views/uploads.js:121
+#: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
 msgstr "Wir bitten um Entschuldigung, ein Fehler ist aufgetreten"
 
-#: cms/static/js/views/utils/create_course_utils.js:8
+#: cms/static/js/views/utils/create_course_utils.js
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
@@ -1237,7 +1234,7 @@ msgstr ""
 "Die Gesamtlänge der Felder \"Organisation\", \"Kursnummer\" und \"Kurslauf\""
 " darf nicht mehr als <%- limit %> Zeichen enthalten."
 
-#: cms/static/js/views/utils/create_library_utils.js:8
+#: cms/static/js/views/utils/create_library_utils.js
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
@@ -1245,11 +1242,11 @@ msgstr ""
 "Die Gesamtlänge der Organisations- und Bibliothekscodefelder darf nicht mehr"
 " als <%- limit %> Zeichen enthalten."
 
-#: cms/static/js/views/utils/move_xblock_utils.js:32
+#: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Success! \"{displayName}\" has been moved."
 msgstr "Erfolgreich! \"{displayName}\" wurde verschoben."
 
-#: cms/static/js/views/utils/move_xblock_utils.js:57
+#: cms/static/js/views/utils/move_xblock_utils.js
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
@@ -1257,33 +1254,33 @@ msgstr ""
 "Bewegung abgebrochen. \"{sourceDisplayName}\" wurde wieder an seinen "
 "ursprünglichen Platz verschoben."
 
-#: cms/static/js/views/utils/move_xblock_utils.js:75
+#: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Undo move"
 msgstr "Bewegung rückgängig machen"
 
-#: cms/static/js/views/utils/move_xblock_utils.js:91
+#: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Take me to the new location"
 msgstr "Bringen Sie mich zu dem neuen Standort."
 
-#: cms/static/js/views/utils/xblock_utils.js:79
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Duplicating"
 msgstr "Duplizieren"
 
-#: cms/static/js/views/utils/xblock_utils.js:106
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Undo moving"
 msgstr "Bewegung rückgängig machen"
 
-#: cms/static/js/views/utils/xblock_utils.js:106
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Moving"
 msgstr "Bewegen"
 
-#: cms/static/js/views/utils/xblock_utils.js:147
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting this {xblock_type} is permanent and cannot be undone."
 msgstr ""
 "Das Löschen dieses {xblock_type} ist dauerhaft und kann nicht rückgängig "
 "gemacht werden."
 
-#: cms/static/js/views/utils/xblock_utils.js:153
+#: cms/static/js/views/utils/xblock_utils.js
 msgid ""
 "Any content that has listed this content as a prerequisite will also have "
 "access limitations removed."
@@ -1291,94 +1288,94 @@ msgstr ""
 "Für alle Inhalte, die diesen Inhalt als Voraussetzung aufgeführt haben, "
 "werden ebenfalls die Zugriffsbeschränkungen aufgehoben."
 
-#: cms/static/js/views/utils/xblock_utils.js:156
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type} (and prerequisite)?"
 msgstr "Dieses {xblock_type} (und Voraussetzung) löschen?"
 
-#: cms/static/js/views/utils/xblock_utils.js:162
-#: cms/static/js/views/utils/xblock_utils.js:177
+#: cms/static/js/views/utils/xblock_utils.js
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Yes, delete this {xblock_type}"
 msgstr "Ja, diese {xblock_type} löschen"
 
-#: cms/static/js/views/utils/xblock_utils.js:171
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type}?"
 msgstr "Dieses {xblock_type} löschen?"
 
-#: cms/static/js/views/utils/xblock_utils.js:263
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "section"
 msgstr "Abschnitt"
 
-#: cms/static/js/views/utils/xblock_utils.js:265
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "subsection"
 msgstr "Unterabschnitt"
 
-#: cms/static/js/views/utils/xblock_utils.js:267
+#: cms/static/js/views/utils/xblock_utils.js
 msgid "unit"
 msgstr "Lerneinheit"
 
-#: cms/static/js/views/validation.js:22
+#: cms/static/js/views/validation.js
 msgid "You've made some changes"
 msgstr "Sie haben einpaar Änderungen vorgenommen"
 
-#: cms/static/js/views/validation.js:23
+#: cms/static/js/views/validation.js
 msgid "Your changes will not take effect until you save your progress."
 msgstr ""
 "Ihre Änderungen haben keine Auswirkungen bis Sie ihren Fortschritt "
 "gespeichert haben."
 
-#: cms/static/js/views/validation.js:24
+#: cms/static/js/views/validation.js
 msgid "You've made some changes, but there are some errors"
 msgstr "Sie haben etwas geändert, aber es gibt einige Fehler."
 
-#: cms/static/js/views/validation.js:25
+#: cms/static/js/views/validation.js
 msgid ""
 "Please address the errors on this page first, and then save your progress."
 msgstr ""
 "Bitte beachten Sie zuerst die Fehlermeldungen auf dieser Seite und speichern"
 " Sie danach ihren Fortschritt."
 
-#: cms/static/js/views/validation.js:117
+#: cms/static/js/views/validation.js
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: cms/static/js/views/video/transcripts/file_uploader.js:114
+#: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Please select a file in .srt format."
 msgstr "Wählen Sie eine Datei im .srt-Format aus."
 
-#: cms/static/js/views/video/transcripts/file_uploader.js:193
+#: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Error: Uploading failed."
 msgstr "Fehler: Hochladen fehlgeschlagen."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:141
+#: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Import failed."
 msgstr "Fehler: Importieren fehlgeschlagen."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:155
+#: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Replacing failed."
 msgstr "Fehler: Das Ersetzen ist fehlgeschlagen."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:171
-#: cms/static/js/views/video/transcripts/message_manager.js:185
+#: cms/static/js/views/video/transcripts/message_manager.js
+#: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Choosing failed."
 msgstr "Fehler: Die Auswahl ist fehlgeschlagen."
 
-#: cms/static/js/views/video/transcripts/metadata_videolist.js:86
+#: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Error: Connection with server failed."
 msgstr "Fehlermeldung: Die Verbindung zum Server ist abgebrochen"
 
-#: cms/static/js/views/video/transcripts/metadata_videolist.js:357
+#: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Link types should be unique."
 msgstr "Link-Typen sollten eindeutig sein."
 
-#: cms/static/js/views/video/transcripts/metadata_videolist.js:370
+#: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Links should be unique."
 msgstr "Links sollten eindeutig sein."
 
-#: cms/static/js/views/video/transcripts/metadata_videolist.js:392
+#: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Incorrect url format."
 msgstr "Ungültiges URL-Format."
 
-#: cms/static/js/views/video/translations_editor.js:14
+#: cms/static/js/views/video/translations_editor.js
 msgid ""
 "Sorry, there was an error parsing the subtitles that you uploaded. Please "
 "check the format and try again."
@@ -1387,12 +1384,12 @@ msgstr ""
 " hochgeladen haben. Bitte kontrollieren Sie das Format und versuchen es "
 "erneut. "
 
-#: cms/static/js/views/video/translations_editor.js:171
-#: cms/static/js/views/video_transcripts.js:268
+#: cms/static/js/views/video/translations_editor.js
+#: cms/static/js/views/video_transcripts.js
 msgid "Are you sure you want to remove this transcript?"
 msgstr "Sind Sie sicher, dass Sie das Transkript entfernen möchten?"
 
-#: cms/static/js/views/video/translations_editor.js:172
+#: cms/static/js/views/video/translations_editor.js
 msgid ""
 "If you remove this transcript, the transcript will not be available for this"
 " component."
@@ -1400,24 +1397,24 @@ msgstr ""
 "Wenn Sie dieses Transkript entfernen, wird es nicht mehr erhältlich sein in "
 "dieser Komponente."
 
-#: cms/static/js/views/video/translations_editor.js:173
+#: cms/static/js/views/video/translations_editor.js
 msgid "Remove Transcript"
 msgstr "Transkript entfernen"
 
-#: cms/static/js/views/video/translations_editor.js:224
+#: cms/static/js/views/video/translations_editor.js
 msgid "Upload translation"
 msgstr "Übersetzung hochladen"
 
-#: cms/static/js/views/video_thumbnail.js:31
+#: cms/static/js/views/video_thumbnail.js
 msgid "Add Thumbnail"
 msgstr "Miniaturansicht hinzufügen"
 
-#: cms/static/js/views/video_thumbnail.js:35
+#: cms/static/js/views/video_thumbnail.js
 msgid "Edit Thumbnail"
 msgstr "Miniaturansicht bearbeiten"
 
 #. Translators: This is a 2 part text which tells the image requirements.
-#: cms/static/js/views/video_thumbnail.js:39
+#: cms/static/js/views/video_thumbnail.js
 msgid ""
 "{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
 "{videoImageSupportedFileFormats}{spanEnd}"
@@ -1425,12 +1422,12 @@ msgstr ""
 "{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
 "{videoImageSupportedFileFormats}{spanEnd}"
 
-#: cms/static/js/views/video_thumbnail.js:52
+#: cms/static/js/views/video_thumbnail.js
 msgid "Image upload failed"
 msgstr "Hochladen von Bild fehlgeschlagen"
 
 #. Translators: This is a 3 part text which tells the image requirements.
-#: cms/static/js/views/video_thumbnail.js:64
+#: cms/static/js/views/video_thumbnail.js
 msgid ""
 "{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
 " {videoImageSupportedFileFormats}{spanEnd}"
@@ -1439,67 +1436,67 @@ msgstr ""
 " {videoImageSupportedFileFormats}{spanEnd}"
 
 #. Translators: message will be like 1280x720 pixels
-#: cms/static/js/views/video_thumbnail.js:130
+#: cms/static/js/views/video_thumbnail.js
 msgid "{maxWidth}x{maxHeight} pixels"
 msgstr "{maxWidth}x{maxHeight} Pixel"
 
 #. Translators: message will be like Thumbnail for Arrow.mp4
-#: cms/static/js/views/video_thumbnail.js:138
+#: cms/static/js/views/video_thumbnail.js
 msgid "Thumbnail for {videoName}"
 msgstr "Miniaturansicht für {videoName}"
 
 #. Translators: message will be like Add Thumbnail - Arrow.mp4
-#: cms/static/js/views/video_thumbnail.js:146
+#: cms/static/js/views/video_thumbnail.js
 msgid "Add Thumbnail - {videoName}"
 msgstr "Miniaturansicht hinzufügen - {videoName}"
 
 #. Translators: humanizeDuration will be like 10 minutes, an hour and 20
 #. minutes etc
-#: cms/static/js/views/video_thumbnail.js:172
+#: cms/static/js/views/video_thumbnail.js
 msgid "Video duration is {humanizeDuration}"
 msgstr "Videolänge ist {humanizeDuration}"
 
-#: cms/static/js/views/video_thumbnail.js:189
+#: cms/static/js/views/video_thumbnail.js
 msgid "minutes"
 msgstr "Minuten"
 
-#: cms/static/js/views/video_thumbnail.js:189
+#: cms/static/js/views/video_thumbnail.js
 msgid "minute"
 msgstr "Minute"
 
 #. Translators: message will be like 15 minutes, 1 minute
-#: cms/static/js/views/video_thumbnail.js:192
+#: cms/static/js/views/video_thumbnail.js
 msgid "{minutes} {unit}"
 msgstr "{minutes} {unit}"
 
-#: cms/static/js/views/video_thumbnail.js:198
+#: cms/static/js/views/video_thumbnail.js
 msgid "seconds"
 msgstr "Sekunden"
 
-#: cms/static/js/views/video_thumbnail.js:198
+#: cms/static/js/views/video_thumbnail.js
 msgid "second"
 msgstr "Sekunde"
 
 #. Translators: message will be like 20 seconds, 1 second
-#: cms/static/js/views/video_thumbnail.js:201
+#: cms/static/js/views/video_thumbnail.js
 msgid "{seconds} {unit}"
 msgstr "{seconds} {unit}"
 
 #. Translators: `and` will be used to combine both miuntes and seconds like
 #. `13 minutes and 45 seconds`
-#: cms/static/js/views/video_thumbnail.js:207
+#: cms/static/js/views/video_thumbnail.js
 msgid " and "
 msgstr "und"
 
-#: cms/static/js/views/video_thumbnail.js:234
+#: cms/static/js/views/video_thumbnail.js
 msgid "Video image upload started"
 msgstr "Hochladen von Videobild begonnen"
 
-#: cms/static/js/views/video_thumbnail.js:246
+#: cms/static/js/views/video_thumbnail.js
 msgid "Video image upload completed"
 msgstr "Hochladen von Videobild abgeschlossen"
 
-#: cms/static/js/views/video_thumbnail.js:321
+#: cms/static/js/views/video_thumbnail.js
 msgid ""
 "This image file type is not supported. Supported file types are "
 "{supportedFileFormats}."
@@ -1508,36 +1505,36 @@ msgstr ""
 "{supportedFileFormats}."
 
 #. Translators: maxFileSizeInMB will be like 2 MB.
-#: cms/static/js/views/video_thumbnail.js:330
+#: cms/static/js/views/video_thumbnail.js
 msgid "The selected image must be smaller than {maxFileSizeInMB}."
 msgstr "Das ausgewählte Bild muss kleiner als {maxFileSizeInMB} sein."
 
 #. Translators: minFileSizeInKB will be like 2 KB.
-#: cms/static/js/views/video_thumbnail.js:338
+#: cms/static/js/views/video_thumbnail.js
 msgid "The selected image must be larger than {minFileSizeInKB}."
 msgstr "Das ausgewählte Bild muss größer als {minFileSizeInKB} sein."
 
-#: cms/static/js/views/video_thumbnail.js:366
+#: cms/static/js/views/video_thumbnail.js
 msgid "Could not upload the video image file"
 msgstr "Die Videobilddatei konnte nicht hochgeladen werden."
 
-#: cms/static/js/views/video_thumbnail.js:368
+#: cms/static/js/views/video_thumbnail.js
 msgid "Image upload failed. "
 msgstr "Hochladen von Bild fehlgeschlagen."
 
-#: cms/static/js/views/video_transcripts.js:32
+#: cms/static/js/views/video_transcripts.js
 msgid "The file could not be uploaded."
 msgstr "Die Datei konnte nicht hochgeladen werden."
 
-#: cms/static/js/views/video_transcripts.js:130
+#: cms/static/js/views/video_transcripts.js
 msgid "Hide transcripts ({transcriptCount})"
 msgstr "Transkript verbergen ({transcriptCount})"
 
-#: cms/static/js/views/video_transcripts.js:149
+#: cms/static/js/views/video_transcripts.js
 msgid "Show transcripts ({transcriptCount})"
 msgstr "Transkript anzeigen ({transcriptCount})"
 
-#: cms/static/js/views/video_transcripts.js:167
+#: cms/static/js/views/video_transcripts.js
 msgid ""
 "This file type is not supported. Supported file type is "
 "{supportedFileFormat}."
@@ -1545,11 +1542,11 @@ msgstr ""
 "Dieser Dateityp wird nicht unterstützt. Unterstützter Dateityp ist "
 "{supportedFileFormat}."
 
-#: cms/static/js/views/video_transcripts.js:228
+#: cms/static/js/views/video_transcripts.js
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 
-#: cms/static/js/views/video_transcripts.js:269
+#: cms/static/js/views/video_transcripts.js
 msgid ""
 "If you remove this transcript, the transcript will not be available for any "
 "components that use this video."
@@ -1557,18 +1554,18 @@ msgstr ""
 "Wenn Sie dieses Transkript entfernen, ist das Transkript für alle "
 "Komponenten, die dieses Video verwenden, nicht verfügbar."
 
-#: cms/static/js/views/xblock_editor.js:49
+#: cms/static/js/views/xblock_editor.js
 msgid "Editor"
 msgstr "Editor"
 
-#: cms/static/js/views/xblock_editor.js:50
+#: cms/static/js/views/xblock_editor.js
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: cms/static/js/views/xblock_outline.js:90
+#: cms/static/js/views/xblock_outline.js
 msgid "New {component_type}"
 msgstr " {component_type} erstellen"
 
-#: cms/static/js/xblock_asides/structured_tags.js:23
+#: cms/static/js/xblock_asides/structured_tags.js
 msgid "Updating Tags"
 msgstr "Tags aktualisieren"

@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "Delete"
+	Present in files ['lms/templates/wiki/delete.html', 'lms/templates/wiki/plugins/attachments/index.html', 'cms/templates/component.html', 'cms/templates/studio_xblock_wrapper.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Eliminar
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Borrar
+
+Multiple translations found for single string.
+	String "Preview"
+	Present in files ['lms/templates/wiki/edit.html', 'cms/templates/container.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Previsualizar
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Vista previa
+

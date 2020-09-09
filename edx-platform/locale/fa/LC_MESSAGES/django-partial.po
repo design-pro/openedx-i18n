@@ -4889,8 +4889,8 @@ msgid ""
 "Once you've created a password [below], you will be able to log in to "
 "%(platform_name)s with this email (%(email)s) and your new password."
 msgstr ""
-"پس از ایجاد رمز عبور [below] ، می توانید وارد سیستم شوید %(platform_name)s با "
-"این پست الکترونیکی (%(email)s) و کلمه عبور جدید"
+"پس از ایجاد رمز عبور [below] ، می توانید وارد سیستم شوید %(platform_name)s "
+"با این پست الکترونیکی (%(email)s) و کلمه عبور جدید"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt

@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "The language that team members primarily use to communicate with each other."
+	Present in files ['lms/djangoapps/teams/static/teams/js/views/edit_team.js', 'lms/djangoapps/teams/static/teams/templates/team-profile.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+Idioma principal que utilizan los miembros del equipo para comunicarse entre ellos.
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+El idioma principal que los miembros del equipo utilizan para comunicarse entre ellos.
+
+Multiple translations found for single string.
+	String "The country that team members primarily identify with."
+	Present in files ['lms/djangoapps/teams/static/teams/js/views/edit_team.js', 'lms/djangoapps/teams/static/teams/templates/team-profile.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+País principal con el que se identifican los miembros del equipo.
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+El país principal con el que los miembros del equipo se identifican.
+

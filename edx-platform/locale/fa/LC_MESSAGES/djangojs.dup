@@ -1,0 +1,18 @@
+Multiple translations found for single string.
+	String "View"
+	Present in files ['common/lib/xmodule/xmodule/js/src/html/edit.js', 'openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore', 'openedx/features/course_search/static/course_search/templates/course_search_item.underscore', 'openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+نمایش
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+نما
+
+Multiple translations found for single string.
+	String "Submit"
+	Present in files ['lms/djangoapps/support/static/support/jsx/logged_in_user.jsx', 'lms/templates/verify_student/incourse_reverify.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+ثبت 
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+ارائه 
+
