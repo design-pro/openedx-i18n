@@ -113,6 +113,7 @@
 # URJConline <online.mooc@urjc.es>, 2020
 # Juan Rodríguez de Vera Mouliaá <jrodriguez@um.es>, 2020
 # María González <mariagonzalezd14@gmail.com>, 2020
+# Silvia Gonzalez <silviagonzalez@magentaconsultoria.com>, 2020
 #
 msgid ""
 msgstr ""
@@ -120,7 +121,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2020-06-02 20:41+0000\n"
 "PO-Revision-Date: 2020-05-28 18:04+0000\n"
-"Last-Translator: María González <mariagonzalezd14@gmail.com>, 2020\n"
+"Last-Translator: Silvia Gonzalez <silviagonzalez@magentaconsultoria.com>, 2020\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/open-edx/teams/6205/es_ES/)\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"

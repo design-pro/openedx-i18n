@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-07-23 09:58+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
@@ -1031,44 +1031,44 @@ msgstr "Birimi kaldır %(unitName)s"
 msgid "Mark Exam As Completed"
 msgstr "Sınavı Tamamlandı Olarak İşaretle"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:9
+msgid "Exam timer and end exam button"
+msgstr "Sınav zamanlayıcısı ve sınav düğmesi"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:13
+msgid "End My Exam"
+msgstr "Sınavımı Bitir"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:23
+msgid "Hide Timer"
+msgstr "Süreyi Gizle"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr ""
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "a timed exam"
 msgstr "bir süreli sınav"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:13
+#: lms/templates/courseware/proctored-exam-status.underscore:32
 msgid "The timer on the right shows the time remaining in the exam."
 msgstr ""
 
-#: lms/templates/courseware/proctored-exam-status.underscore:14
+#: lms/templates/courseware/proctored-exam-status.underscore:33
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
 msgstr ""
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
+#: lms/templates/courseware/proctored-exam-status.underscore:35
 msgid "Show More"
 msgstr "Daha Fazla Göster"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
-#: lms/templates/courseware/proctored-exam-status.underscore:17
+#: lms/templates/courseware/proctored-exam-status.underscore:35
+#: lms/templates/courseware/proctored-exam-status.underscore:36
 msgid "Show Less"
 msgstr "Daha Az Göster"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:20
-msgid "Exam timer and end exam button"
-msgstr "Sınav zamanlayıcısı ve sınav düğmesi"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:24
-msgid "End My Exam"
-msgstr "Sınavımı Bitir"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:34
-msgid "Hide Timer"
-msgstr "Süreyi Gizle"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
@@ -1792,7 +1792,7 @@ msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
 msgstr "Alanınızda öne çıkmanızı sağlamak için derslerinizi tamamlayın!"
 
-#: lms/templates/learner_dashboard/program_header_view.underscore:14
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
 msgid "{organization}\\'s logo"
 msgstr "{organization} logosu"
 

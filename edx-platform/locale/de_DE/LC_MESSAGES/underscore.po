@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-07-21 15:50+0000\n"
 "Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
@@ -1052,21 +1052,33 @@ msgstr "%(unitName)s Lerneinheit entfernen"
 msgid "Mark Exam As Completed"
 msgstr "Markiere Prüfung als vollständig"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:9
+msgid "Exam timer and end exam button"
+msgstr "Zeitschaltuhr und Taste zum Beenden der Prüfung"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:13
+msgid "End My Exam"
+msgstr "Beende meine Prüfung"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:23
+msgid "Hide Timer"
+msgstr "Timer verbergen"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr "Sie führen \"{exam_link}\" als {exam_type} durch. "
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "a timed exam"
 msgstr "eine terminierte Prüfung"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:13
+#: lms/templates/courseware/proctored-exam-status.underscore:32
 msgid "The timer on the right shows the time remaining in the exam."
 msgstr ""
 "Der Timer auf der rechten Seite zeigt die verbleibende Zeit dieser Prüfung "
 "an."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:14
+#: lms/templates/courseware/proctored-exam-status.underscore:33
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
@@ -1074,26 +1086,14 @@ msgstr ""
 "Um Credits für Probleme zu erhalten, müssen Sie für jedes Problem \"Senden\""
 " auswählen, bevor Sie \"Meine Prüfung beenden\" wählen."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
+#: lms/templates/courseware/proctored-exam-status.underscore:35
 msgid "Show More"
 msgstr "Mehr zeigen"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
-#: lms/templates/courseware/proctored-exam-status.underscore:17
+#: lms/templates/courseware/proctored-exam-status.underscore:35
+#: lms/templates/courseware/proctored-exam-status.underscore:36
 msgid "Show Less"
 msgstr "Weniger zeigen"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:20
-msgid "Exam timer and end exam button"
-msgstr "Zeitschaltuhr und Taste zum Beenden der Prüfung"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:24
-msgid "End My Exam"
-msgstr "Beende meine Prüfung"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:34
-msgid "Hide Timer"
-msgstr "Timer verbergen"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
@@ -1841,7 +1841,7 @@ msgstr ""
 "Absolvieren Sie Kurse nach Ihrem Zeitplan, um sicherzustellen, dass Sie in "
 "Ihrem Bereich herausstechen!"
 
-#: lms/templates/learner_dashboard/program_header_view.underscore:14
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
 msgid "{organization}\\'s logo"
 msgstr "{organization}\\'s Logo"
 

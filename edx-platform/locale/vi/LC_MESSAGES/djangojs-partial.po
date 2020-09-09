@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-08-23 20:43+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-edx/edx-platform/language/vi/)\n"
@@ -1849,26 +1849,26 @@ msgstr "Mở menu ngôn ngữ"
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "Phụ đề sẽ xuất hiện khi bạn bắt đầu phát video."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:803
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:805
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr ""
 "Kích hoạt liên kết trong nhóm này sẽ nhảy đến điểm tương ứng trong video."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:806
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:808
 msgid "Video transcript"
 msgstr "Bản dịch video"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:809
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:811
 msgid "Start of transcript. Skip to the end."
 msgstr "Bắt đầu bản dịch. Tới cuối."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:813
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:815
 msgid "End of transcript. Skip to the start."
 msgstr "Kết thúc bản dịch. Về đầu."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:817
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:819
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
@@ -1878,23 +1878,23 @@ msgstr ""
 "lên và xuống để điều hướng các tùy chọn ngôn ngữ. Nhấn ENTER để đổi sang "
 "ngôn ngữ đã chọn."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1186
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1171
 msgid "Hide closed captions"
 msgstr "ẩn phụ đề"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1204
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1189
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Phụ đề sẽ được hiển thị khi bạn bắt đầu phát video)"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1211
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1196
 msgid "Turn on closed captioning"
 msgstr "Bật phụ đề chi tiết"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1294
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1302
 msgid "Turn on transcripts"
 msgstr "Bật bản dịch"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1307
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1315
 msgid "Turn off transcripts"
 msgstr "Tắt bản dịch"
 
@@ -4404,41 +4404,41 @@ msgstr "Đã bắt đầu {start}"
 msgid "Ends {end}"
 msgstr "Kết thúc {end}"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:205
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:206
 msgid "You must select a session to access the course."
 msgstr "Bạn phải chọn một phiên để truy cập khóa học."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:232
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:233
 msgid "There was an error. Please reload the page and try again."
 msgstr "Đã có lỗi xảy ra. Vui lòng tải lại trang và thử lại."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:269
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
 msgid "Change Session"
 msgstr "Đổi Phiên"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:269
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
 msgid "Select Session"
 msgstr "Chọn Phiên"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:271
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:272
 msgid "Leave Current Session"
 msgstr "Rời khỏi Phiên hiện tại"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:306
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
 msgid "Are you sure you want to select this session?"
 msgstr "Bạn có chắc muốn chọn Phiên này?"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:308
 msgid "Are you sure you want to change to a different session?"
 msgstr "Bạn có chắc muốn đổi phiên khác?"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:309
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:310
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:313
 msgid "Any course progress or grades from your current session will be lost."
 msgstr ""
 "Bất kỳ tiến trình khóa học hoặc điểm từ phiên hiện tại của bạn sẽ bị mất."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:311
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
 msgid "Are you sure that you want to leave this session?"
 msgstr "Bạn có chắc chắn muốn rời khỏi phiên này?"
 

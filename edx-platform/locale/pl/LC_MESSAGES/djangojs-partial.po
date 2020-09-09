@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-08-24 10:30+0000\n"
 "Last-Translator: Jerzy Pankiewicz <jerzy.pankiewicz@pwr.edu.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/open-edx/edx-platform/language/pl/)\n"
@@ -1841,48 +1841,48 @@ msgstr ""
 msgid "Transcript will be displayed when you start playing the video."
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:803
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:805
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:806
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:808
 msgid "Video transcript"
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:809
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:811
 msgid "Start of transcript. Skip to the end."
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:813
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:815
 msgid "End of transcript. Skip to the start."
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:817
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:819
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
 "language."
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1186
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1171
 msgid "Hide closed captions"
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1204
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1189
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1211
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1196
 msgid "Turn on closed captioning"
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1294
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1302
 msgid "Turn on transcripts"
 msgstr ""
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1307
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1315
 msgid "Turn off transcripts"
 msgstr ""
 
@@ -4512,40 +4512,40 @@ msgstr "Rozpoczął się {start}"
 msgid "Ends {end}"
 msgstr "Zakończy się {end}"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:205
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:206
 msgid "You must select a session to access the course."
 msgstr "Aby przejść do kursu, musisz wybrać dostępną sesję."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:232
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:233
 msgid "There was an error. Please reload the page and try again."
 msgstr "Wystąpił błąd. Proszę przeładować stronę i spróbować ponownie."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:269
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
 msgid "Change Session"
 msgstr "Zmień sesję"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:269
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
 msgid "Select Session"
 msgstr "Wybierz sesję"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:271
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:272
 msgid "Leave Current Session"
 msgstr "Opuść obecną sesję"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:306
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
 msgid "Are you sure you want to select this session?"
 msgstr "Czy na pewno decydujesz się na tę sesję kursu?"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:308
 msgid "Are you sure you want to change to a different session?"
 msgstr "Czy na pewno chcesz dokonać zmiany na inną sesję kursu?"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:309
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:310
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:313
 msgid "Any course progress or grades from your current session will be lost."
 msgstr "Twoje oceny i stan postępu z obecnej sesji kursu zostaną utracone."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:311
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
 msgid "Are you sure that you want to leave this session?"
 msgstr "Czy na pewno chcesz opuścić tę sesję kursu?"
 

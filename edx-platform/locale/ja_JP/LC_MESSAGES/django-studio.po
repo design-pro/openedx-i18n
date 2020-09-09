@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-07-19 20:45+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/open-edx/edx-platform/language/ja_JP/)\n"
@@ -569,119 +569,119 @@ msgid "You may not remove the last Admin. Add another Admin first."
 msgstr "一番最近の管理者を削除することができません。先に別の管理者を追加してください。"
 
 #. Translators: This is the status of an active video upload
-#: cms/djangoapps/contentstore/views/videos.py:148
+#: cms/djangoapps/contentstore/views/videos.py:149
 msgid "Uploading"
 msgstr "アップデート中"
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
-#: cms/djangoapps/contentstore/views/videos.py:150
+#: cms/djangoapps/contentstore/views/videos.py:151
 msgid "In Progress"
 msgstr "進行中"
 
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
-#: cms/djangoapps/contentstore/views/videos.py:152
+#: cms/djangoapps/contentstore/views/videos.py:153
 msgid "Ready"
 msgstr "準備完了"
 
 #. Translators: This is the status for a video that is uploaded completely
-#: cms/djangoapps/contentstore/views/videos.py:154
+#: cms/djangoapps/contentstore/views/videos.py:155
 msgid "Uploaded"
 msgstr "アップロード完了"
 
 #. Translators: This is the status for a video that the servers have failed to
 #. process
-#: cms/djangoapps/contentstore/views/videos.py:156
+#: cms/djangoapps/contentstore/views/videos.py:157
 msgid "Failed"
 msgstr "失敗"
 
 #. Translators: This is the status for a video that is cancelled during upload
 #. by user
-#: cms/djangoapps/contentstore/views/videos.py:158
+#: cms/djangoapps/contentstore/views/videos.py:159
 msgid "Cancelled"
 msgstr "キャンセルされました"
 
 #. Translators: This is the status for a video which has failed
 #. due to being flagged as a duplicate by an external or internal CMS
-#: cms/djangoapps/contentstore/views/videos.py:161
+#: cms/djangoapps/contentstore/views/videos.py:162
 msgid "Failed Duplicate"
 msgstr "複製に失敗しました"
 
 #. Translators: This is the status for a video which has duplicate token for
 #. youtube
-#: cms/djangoapps/contentstore/views/videos.py:163
+#: cms/djangoapps/contentstore/views/videos.py:164
 msgid "YouTube Duplicate"
 msgstr "YouTube 複製"
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
-#: cms/djangoapps/contentstore/views/videos.py:166
+#: cms/djangoapps/contentstore/views/videos.py:167
 msgid "Invalid Token"
 msgstr "無効なトークン"
 
 #. Translators: This is the status for a video that was included in a course
 #. import
-#: cms/djangoapps/contentstore/views/videos.py:168
+#: cms/djangoapps/contentstore/views/videos.py:169
 msgid "Imported"
 msgstr "インポート完了"
 
 #. Translators: This is the status for a video that is in an unknown state
-#: cms/djangoapps/contentstore/views/videos.py:170
+#: cms/djangoapps/contentstore/views/videos.py:171
 msgid "Unknown"
 msgstr "不明"
 
 #. Translators: This is the status for a video that is having its
 #. transcription in progress on servers
-#: cms/djangoapps/contentstore/views/videos.py:172
+#: cms/djangoapps/contentstore/views/videos.py:173
 msgid "Transcription in Progress"
 msgstr ""
 
 #. Translators: This is the status for a video whose transcription is complete
-#: cms/djangoapps/contentstore/views/videos.py:174
+#: cms/djangoapps/contentstore/views/videos.py:175
 msgid "Transcript Ready"
 msgstr ""
 
 #. Translators: This is the status for a video whose transcription job was
 #. failed for some languages
-#: cms/djangoapps/contentstore/views/videos.py:176
+#: cms/djangoapps/contentstore/views/videos.py:177
 msgid "Partial Failure"
 msgstr ""
 
 #. Translators: This is the status for a video whose transcription job has
 #. failed altogether
-#: cms/djangoapps/contentstore/views/videos.py:178
+#: cms/djangoapps/contentstore/views/videos.py:179
 msgid "Transcript Failed"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/videos.py:263
+#: cms/djangoapps/contentstore/views/videos.py:264
 msgid "An image file is required."
 msgstr "画像ファイルは必須です。"
 
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
 #. (e.g. desktop, mobile high quality, mobile low quality)
-#: cms/djangoapps/contentstore/views/videos.py:422
+#: cms/djangoapps/contentstore/views/videos.py:423
 #, python-brace-format
 msgid "{profile_name} URL"
 msgstr "{profile_name} URL"
 
-#: cms/djangoapps/contentstore/views/videos.py:428
+#: cms/djangoapps/contentstore/views/videos.py:429
 msgid "Duration"
 msgstr "期間"
 
-#: cms/djangoapps/contentstore/views/videos.py:429
+#: cms/djangoapps/contentstore/views/videos.py:430
 msgid "Date Added"
 msgstr "追加日"
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
-#: cms/djangoapps/contentstore/views/videos.py:467
+#: cms/djangoapps/contentstore/views/videos.py:485
 #, python-brace-format
 msgid "{course}_video_urls"
 msgstr "{course}_video_urls"
 
-#: cms/djangoapps/contentstore/views/videos.py:901
+#: cms/djangoapps/contentstore/views/videos.py:902
 msgid "A non zero positive integer is expected"
 msgstr ""
 

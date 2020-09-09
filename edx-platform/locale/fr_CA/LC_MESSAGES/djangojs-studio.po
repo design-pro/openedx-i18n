@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-08-02 20:47+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -1240,11 +1240,11 @@ msgstr ""
 "Êtes-vous sûr de vouloir supprimer cette page ? Cette action ne peut pas "
 "être annulée."
 
-#: cms/static/js/views/uploads.js:27
+#: cms/static/js/views/uploads.js:29
 msgid "Upload"
 msgstr "Téléversez"
 
-#: cms/static/js/views/uploads.js:119
+#: cms/static/js/views/uploads.js:121
 msgid "We're sorry, there was an error"
 msgstr "Désolé, il y a eu une erreur"
 
@@ -1364,16 +1364,16 @@ msgstr "Sélectionner un fichier au format .srt."
 msgid "Error: Uploading failed."
 msgstr "Erreur : Le téléversement a échoué."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:146
+#: cms/static/js/views/video/transcripts/message_manager.js:141
 msgid "Error: Import failed."
 msgstr "Erreur : L'import a échoué."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:160
+#: cms/static/js/views/video/transcripts/message_manager.js:155
 msgid "Error: Replacing failed."
 msgstr "Erreur : Le remplacement a échoué."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:176
-#: cms/static/js/views/video/transcripts/message_manager.js:190
+#: cms/static/js/views/video/transcripts/message_manager.js:171
+#: cms/static/js/views/video/transcripts/message_manager.js:185
 msgid "Error: Choosing failed."
 msgstr "Erreur : La sélection a échoué."
 

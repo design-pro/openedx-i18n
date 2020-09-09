@@ -11,13 +11,14 @@
 # Mariangeles Fernandez <mariangelesfm@gmail.com>, 2015
 # mercefan <mercefan@gmail.com>, 2018
 # Miguel Angel Cortizo Alvarez, 2020
+# Silvia Gonzalez <silviagonzalez@magentaconsultoria.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
-"PO-Revision-Date: 2020-04-06 10:59+0000\n"
-"Last-Translator: Miguel Angel Cortizo Alvarez\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
+"PO-Revision-Date: 2020-08-28 08:30+0000\n"
+"Last-Translator: Silvia Gonzalez <silviagonzalez@magentaconsultoria.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"

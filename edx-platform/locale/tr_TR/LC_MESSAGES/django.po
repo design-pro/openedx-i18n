@@ -39,7 +39,7 @@
 # 00f403b44f997af1c6042d2ed7dd6401_3a00d02 <b14bfe84763aae05bab3d218a58936aa_222192>, 2020
 # Gencay <gencayerdem@hotmail.com>, 2020
 # abc Def <hdogan1974@gmail.com>, 2020
-# Caner Başaran <basaran.caner@protonmail.com>, 2020
+# Caner Başaran <basaran.caner@gmail.com>, 2020
 # Emre B. <karivaara@turkcealtyazi.org>, 2020
 # Pelin Çılgın <pelincilgin@hotmail.com>, 2020
 # Nilgün Güleç <gulecnilgun@gmail.com>, 2020
@@ -77,6 +77,7 @@
 # ali selek <aliselek01@gmail.com>, 2020
 # İlker IŞIK <m.ilkerisik@hotmail.com>, 2020
 # adem ÖZGÜR <admozgur@gmail.com>, 2020
+# deniz demirci, 2020
 # Ali Işıngör <ali@artistanbul.io>, 2020
 #
 msgid ""
@@ -251,7 +252,7 @@ msgstr "Kimliği Doğrulanmış Şerit/Rozet"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as an honor code student"
-msgstr ""
+msgstr "Onur kodlu öğrencisi olarak kaydoldunuz."
 
 #: common/djangoapps/course_modes/helpers.py lms/djangoapps/branding/api.py
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
@@ -325,7 +326,7 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Honor"
-msgstr ""
+msgstr "Etik"
 
 #: common/djangoapps/course_modes/models.py
 msgid ""
@@ -368,31 +369,32 @@ msgstr "Ücretsiz"
 msgid ""
 "The time period before a course ends in which a course mode will expire"
 msgstr ""
+"Bir ders modunun süresinin dolacağı dersin bitişinden önceki zaman aralığı"
 
 #: common/djangoapps/course_modes/views.py
 #, python-brace-format
 msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr ""
+msgstr "Tebrikler! {course_name} dersine kayıt oldunuz."
 
 #: common/djangoapps/course_modes/views.py
 msgid "Enrollment is closed"
-msgstr ""
+msgstr "Kayıt kapandı"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Enrollment mode not supported"
-msgstr ""
+msgstr "Kayıt modu desteklenmiyor"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Invalid amount selected."
-msgstr ""
+msgstr "Geçersiz miktar seçildi."
 
 #: common/djangoapps/course_modes/views.py
 msgid "No selected price or selected price is too low."
-msgstr ""
+msgstr "Ücret seçilmedi veya seçili ücret çok düşük."
 
 #: common/djangoapps/student/admin.py
 msgid "User profile"
-msgstr ""
+msgstr "Kullanıcı profili"
 
 #: common/djangoapps/student/admin.py
 msgid "Account recovery"
@@ -417,6 +419,8 @@ msgid ""
 "Raw passwords are not stored, so there is no way to see this user's "
 "password."
 msgstr ""
+"Maskelenmemiş parolalar tutulmuyor, dolayısıyla bu kullanıcının parolasını "
+"göremezsiniz."
 
 #: common/djangoapps/student/admin.py
 #, python-format
@@ -435,7 +439,7 @@ msgstr ""
 #: common/djangoapps/student/admin.py
 #, python-brace-format
 msgid "Email doesn't have {domain_name} domain name."
-msgstr ""
+msgstr "E-posta {domain_name} alan adına sahip değil."
 
 #: common/djangoapps/student/admin.py
 msgid "User with this email doesn't exist in system."
@@ -445,12 +449,12 @@ msgstr ""
 #: common/djangoapps/student/helpers.py
 #, python-brace-format
 msgid "An account with the Public Username '{username}' already exists."
-msgstr ""
+msgstr "'{username}' kullanıcı adlı bir hesap zaten mevcut."
 
 #: common/djangoapps/student/helpers.py
 #, python-brace-format
 msgid "An account with the Email '{email}' already exists."
-msgstr ""
+msgstr "Bu '{email}' e-posta adresine ait bir hesap zaten bulunmaktadır."
 
 #: common/djangoapps/student/management/commands/manage_group.py
 msgid "Removed group: \"{}\""
@@ -458,12 +462,12 @@ msgstr "Silinen grup: \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py
 msgid "Did not find a group with name \"{}\" - skipping."
-msgstr ""
+msgstr "\"{}\" adında bir grup bulunamadı - atlanıyor."
 
 #: common/djangoapps/student/management/commands/manage_group.py
 #, python-brace-format
 msgid "Invalid group name: \"{group_name}\". {messages}"
-msgstr ""
+msgstr "Geçersiz grup adı: \"{group_name}\". {messages}"
 
 #: common/djangoapps/student/management/commands/manage_group.py
 msgid "Created new group: \"{}\""
@@ -476,18 +480,20 @@ msgstr "Mevcut grup bulundu: \"{}\""
 #: common/djangoapps/student/management/commands/manage_group.py
 #, python-brace-format
 msgid "Adding {codenames} permissions to group \"{group}\""
-msgstr ""
+msgstr "\"{group}\" grubuna {codenames} izinleri veriliyor"
 
 #: common/djangoapps/student/management/commands/manage_group.py
 #, python-brace-format
 msgid "Removing {codenames} permissions from group \"{group}\""
-msgstr ""
+msgstr "{codenames} izinleri \"{group}\" grubundan siliniyor"
 
 #: common/djangoapps/student/management/commands/manage_group.py
 msgid ""
 "Invalid permission option: \"{}\". Please specify permissions using the "
 "format: app_label:model_name:permission_codename."
 msgstr ""
+"Geçersiz izin seçeneği: \"{}\". Lütfen izinleri şu formatta tanımlayın: "
+"app_label:model_name:permission_codename."
 
 #: common/djangoapps/student/management/commands/manage_group.py
 #, python-brace-format
@@ -495,21 +501,27 @@ msgid ""
 "Invalid permission codename: \"{codename}\".  No such permission exists for "
 "the model {module}.{model_name}."
 msgstr ""
+"Geçersiz izin kodadı: \"{codename}\".  {module}.{model_name} modeli için "
+"herhangi bir izin verilmemiş."
 
 #: common/djangoapps/student/management/commands/manage_user.py
 #, python-brace-format
 msgid "Setting {attribute} for user \"{username}\" to \"{new_value}\""
 msgstr ""
+"\"{username}\" kullanıcısının {attribute} değeri \"{new_value}\" olarak "
+"ayarlanıyor"
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid ""
 "Skipping user \"{}\" because the specified and existing email addresses do "
 "not match."
 msgstr ""
+"Belirtilen ve mevcut e-posta adresleri eşleşmediği için \"{}\" kullanıcısı "
+"atlanıyor."
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Did not find a user with username \"{}\" - skipping."
-msgstr ""
+msgstr "\"{}\" adında bir kullanıcı bulunamadı - atlanıyor."
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Removing user: \"{}\""
@@ -517,33 +529,33 @@ msgstr "Kullanıcı siliniyor: \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Created new user: \"{}\""
-msgstr ""
+msgstr "Yeni kullanıcı oluşturuldu: \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Found existing user: \"{}\""
-msgstr ""
+msgstr "Mevcut kullanıcı bulundu: \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Setting unusable password for user \"{}\""
-msgstr ""
+msgstr "\"{}\" kullanıcısı için uygun olmayan bir parola ayarlanmış"
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Created new profile for user: \"{}\""
-msgstr ""
+msgstr "\"{}\" kullanıcısı için yeni profil oluşturuldu"
 
 #: common/djangoapps/student/management/commands/manage_user.py
 msgid "Could not find a group named \"{}\" - skipping."
-msgstr ""
+msgstr "\"{}\" adında bir grup bulunamadı - atlanıyor."
 
 #: common/djangoapps/student/management/commands/manage_user.py
 #, python-brace-format
 msgid "Adding user \"{username}\" to groups {group_names}"
-msgstr ""
+msgstr "\"{username}\" kullanıcısı {group_names} gruplarına ekleniyor"
 
 #: common/djangoapps/student/management/commands/manage_user.py
 #, python-brace-format
 msgid "Removing user \"{username}\" from groups {group_names}"
-msgstr ""
+msgstr "\"{username}\" kullanıcısı {group_names} gruplarından çıkarılıyor"
 
 #: common/djangoapps/student/middleware.py
 #, python-brace-format
@@ -551,71 +563,73 @@ msgid ""
 "Your account has been disabled. If you believe this was done in error, "
 "please contact us at {support_email}"
 msgstr ""
+"Hesabınız devre dışı bırakılmış. Bunun hatayla yapıldığını düşünüyorsanız, "
+"lütfen {support_email} adresiyle iletişime geçiniz"
 
 #: common/djangoapps/student/middleware.py
 msgid "Disabled Account"
-msgstr ""
+msgstr "Etkin Olmayan Hesap"
 
 #: common/djangoapps/student/models.py
 msgid "Male"
-msgstr ""
+msgstr "Erkek"
 
 #: common/djangoapps/student/models.py
 msgid "Female"
-msgstr ""
+msgstr "Kadın"
 
 #. Translators: 'Other' refers to the student's gender
 #: common/djangoapps/student/models.py
 msgid "Other/Prefer Not to Say"
-msgstr ""
+msgstr "Diğer/Söylememeyi Tercih Eder"
 
 #: common/djangoapps/student/models.py
 msgid "Doctorate"
-msgstr ""
+msgstr "Doktora derecesi"
 
 #: common/djangoapps/student/models.py
 msgid "Master's or professional degree"
-msgstr ""
+msgstr "Yüksek lisans veya profesyonel derece"
 
 #: common/djangoapps/student/models.py
 msgid "Bachelor's degree"
-msgstr ""
+msgstr "Lisans derecesi"
 
 #: common/djangoapps/student/models.py
 msgid "Associate degree"
-msgstr ""
+msgstr "Ön Lisans derecesi"
 
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
-msgstr ""
+msgstr "Orta Okul/Lise"
 
 #: common/djangoapps/student/models.py
 msgid "Junior secondary/junior high/middle school"
-msgstr ""
+msgstr "Üçüncü sınıf ortaokul/üçüncü sınıf lise/orta okul"
 
 #: common/djangoapps/student/models.py
 msgid "Elementary/primary school"
-msgstr ""
+msgstr "Temel/İlkokul"
 
 #. Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models.py
 msgid "No formal education"
-msgstr ""
+msgstr "Örgün olmayan eğitim"
 
 #. Translators: 'Other' refers to the student's level of education
 #: common/djangoapps/student/models.py
 msgid "Other education"
-msgstr ""
+msgstr "Diğer eğitim"
 
 #: common/djangoapps/student/models.py
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr ""
+msgstr "{course_name} eğitimi için {platform_name} Etik Kurallar Sertifikası"
 
 #: common/djangoapps/student/models.py
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr ""
+msgstr "{course_name} dersi için {platform_name} Onaylı Sertifika"
 
 #: common/djangoapps/student/models.py
 #, python-brace-format
@@ -642,7 +656,7 @@ msgstr ""
 
 #: common/djangoapps/student/models.py
 msgid "The ISO 639-1 language code for this language."
-msgstr ""
+msgstr "Bu dil için ISO 639-1 dil kodu."
 
 #: common/djangoapps/student/models.py
 msgid "Namespace of enrollment attribute"
@@ -711,39 +725,39 @@ msgstr ""
 
 #: common/djangoapps/student/views/dashboard.py
 msgid " and "
-msgstr ""
+msgstr " ve "
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "Photos are mismatched"
-msgstr ""
+msgstr "Fotoğraflar eşleşmiyor"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "Name missing from ID photo"
-msgstr ""
+msgstr "Kimlik fotoğrafındaki isim okunamıyor"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "ID photo not provided"
-msgstr ""
+msgstr "Kimlik fotoğrafı verilmemiş"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "ID is invalid"
-msgstr ""
+msgstr "Kimlik geçersiz"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "Learner photo is blurry"
-msgstr ""
+msgstr "Öğrenci fotoğrafı bulanık"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "Name on ID does not match name on account"
-msgstr ""
+msgstr "Kimlikteki ad hesaptaki ad ile eşleşmiyor"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "Learner photo not provided"
-msgstr ""
+msgstr "Öğrenci fotoğrafı tedarik edilmedi"
 
 #: common/djangoapps/student/views/dashboard.py
 msgid "ID photo is blurry"
-msgstr ""
+msgstr "Kimlik fotoğrafı bulanık"
 
 #: common/djangoapps/student/views/dashboard.py
 #, python-brace-format
@@ -802,15 +816,15 @@ msgstr ""
 
 #: common/djangoapps/student/views/management.py
 msgid "Enrollment action is invalid"
-msgstr ""
+msgstr "Kayıt işlemi geçersiz"
 
 #: common/djangoapps/student/views/management.py
 msgid "Please enter a username"
-msgstr ""
+msgstr "Lütfen yeni bir kullanıcı adı giriniz"
 
 #: common/djangoapps/student/views/management.py
 msgid "Please choose an option"
-msgstr ""
+msgstr "Lütfen bir seçenek seçiniz"
 
 #: common/djangoapps/student/views/management.py
 msgid "User with username {} does not exist"
@@ -872,25 +886,27 @@ msgstr ""
 
 #: common/djangoapps/third_party_auth/admin.py
 msgid "Deleted the selected configuration(s)."
-msgstr ""
+msgstr "Seçili yapılandırma(lar) silindi."
 
 #: common/djangoapps/third_party_auth/admin.py
 msgid "Delete the selected configuration"
-msgstr ""
+msgstr "Seçili yapılandırmayı sil"
 
 #: common/djangoapps/third_party_auth/middleware.py
 msgid "Unable to connect with the external provider, please try again"
-msgstr ""
+msgstr "Dışsal sağlayıcı ile bağlanılamıyor, lütfen tekrar deneyin"
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "Authentication with {} is currently unavailable."
-msgstr ""
+msgstr "{} ile doğrulama şu anda kullanılabilir değil."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
 "Secondary providers are displayed less prominently, in a separate list of "
 "\"Institution\" login providers."
 msgstr ""
+"İkincil sağlayıcılar, \"Kurumsal\" giriş sağlayıcıların ayrı bir listesinde "
+"daha az belirgin bir şekilde görüntülenir."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -900,7 +916,7 @@ msgstr ""
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "The Site that this provider configuration belongs to."
-msgstr ""
+msgstr "Bu sağlayıcı yapılandırmasının ait olduğu Site."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -916,18 +932,27 @@ msgid ""
 "(name, email, etc.) during the registration process. Only select this option"
 " for trusted providers that are known to provide accurate user information."
 msgstr ""
+"Eğer bu seçenek etkinleşirse, kullanıcılara, kayıt işlemi sırasında "
+"detayları (ad, e-posta vs.) onaylaması için soru sorulmayacak. Bu seçeneği, "
+"sadece doğru kullanıcı bilgisini sağlayan olarak bilinen güvenilir "
+"sağlayıcılar için seçin."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
 "If this option is selected, users will not be required to confirm their "
 "email, and their account will be activated immediately upon registration."
 msgstr ""
+"Bu seçenek seçilirse, kullanıcıların kendi e-postalarını teyit etmeleri "
+"gerekli olmayacak ve onların hesabı kayıt sırasında derhal devreye "
+"girecektir."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
 "If this option is selected, users will be sent a welcome email upon "
 "registration."
 msgstr ""
+"Bu seçenek seçiliyse, kullanıcılara kayıt sonrasında bir hoş geldiniz "
+"e-postası gönderilecek."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -935,6 +960,9 @@ msgid ""
 "provider as an option to authenticate with on the login screen, but manual "
 "authentication using the correct link is still possible."
 msgstr ""
+"Bu seçenek tercih edilmezse, kullanıcılara giriş ekranında sağlayıcılı "
+"kimlik doğrulama seçeneği sunulmaz, ancak doğru bağlantıyı kullanarak elle "
+"kimlik doğrulaması hala mümkündür."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -943,6 +971,11 @@ msgid ""
 "(zero), the session will expire upon the user closing their browser. If left"
 " blank, the Django platform session default length will be used."
 msgstr ""
+"Bu seçenek tercih edildiğinde, bu SSO sağlayıcısını kullanarak giriş yapan "
+"kullanıcıların oturum uzunlukları bu değerden daha uzun olmayacak şekilde "
+"sınırlandırılır. 0 (sıfır) olarak ayarlanırsa, kullanıcının tarayıcısını "
+"kapatmasıyla oturum sona erer. Boş bırakılırsa, Django platform oturumu "
+"varsayılan süresi kullanılır."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -950,6 +983,9 @@ msgid ""
 "immediately after authenticating with the third party instead of the login "
 "page."
 msgstr ""
+"Bu seçeneğin tercih edilmesi durumunda, kullanıcılar giriş sayfası yerine "
+"üçüncü taraf sağlayıcı ile doğrulama yaptıktan sonra doğrudan kayıt "
+"sayfasına yönlendirilecekler."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -958,20 +994,24 @@ msgid ""
 "address associated with their account is changed as a part of this "
 "synchronization."
 msgstr ""
+"Kimlik sağlayıcısından alınan kullanıcı profili verilerini her bir SSO "
+"girişindeki edX kullanıcı hesabıyla eşleştirin. Hesaplarıyla "
+"ilişkilendirilen e-posta adresi bu eşleştirmenin bir parçası olarak "
+"değiştirilirse kullanıcı bilgilendirilir."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "The Site that this SAML configuration belongs to."
-msgstr ""
+msgstr "Bu SAML yapılandırmasının ait olduğu Site."
 
 #: common/djangoapps/third_party_auth/models.py
 #, python-brace-format
 msgid "{platform_name} Support"
-msgstr ""
+msgstr "{platform_name} Destek"
 
 #: common/djangoapps/third_party_auth/templates/third_party_auth/post_custom_auth_entry.html
 #: lms/templates/student_account/finish_auth.html
 msgid "Please wait"
-msgstr ""
+msgstr "Lütfen bekleyin"
 
 #. Translators: the translation for "LONG_DATE_FORMAT" must be a format
 #. string for formatting dates in a long form.  For example, the
@@ -1010,7 +1050,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "am/pm indicator"
 msgid "AM"
-msgstr ""
+msgstr "ÖÖ"
 
 #. Translators: This is an AM/PM indicator for displaying times.  It is
 #. used for the %p directive in date-time formats. See http://strftime.org
@@ -1018,7 +1058,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "am/pm indicator"
 msgid "PM"
-msgstr ""
+msgstr "ÖS"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Monday Februrary 10, 2014". It is used for the %A
@@ -1026,7 +1066,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Monday"
-msgstr ""
+msgstr "Pazartesi"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Tuesday Februrary 11, 2014". It is used for the %A
@@ -1034,7 +1074,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Tuesday"
-msgstr ""
+msgstr "Salı"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Wednesday Februrary 12, 2014". It is used for the %A
@@ -1042,7 +1082,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Wednesday"
-msgstr ""
+msgstr "Çarşamba"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Thursday Februrary 13, 2014". It is used for the %A
@@ -1050,7 +1090,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Thursday"
-msgstr ""
+msgstr "Perşembe"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Friday Februrary 14, 2014". It is used for the %A
@@ -1058,7 +1098,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Friday"
-msgstr ""
+msgstr "Cuma"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Saturday Februrary 15, 2014". It is used for the %A
@@ -1066,7 +1106,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Saturday"
-msgstr ""
+msgstr "Cumartesi"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Sunday Februrary 16, 2014". It is used for the %A
@@ -1074,7 +1114,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "weekday name"
 msgid "Sunday"
-msgstr ""
+msgstr "Pazar"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Mon Feb 10, 2014". It is used for the %a
@@ -1082,7 +1122,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Mon"
-msgstr ""
+msgstr "Pzt"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Tue Feb 11, 2014". It is used for the %a
@@ -1090,7 +1130,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Tue"
-msgstr ""
+msgstr "Sal"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Wed Feb 12, 2014". It is used for the %a
@@ -1098,7 +1138,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Wed"
-msgstr ""
+msgstr "Çar"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Thu Feb 13, 2014". It is used for the %a
@@ -1106,7 +1146,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Thu"
-msgstr ""
+msgstr "Per"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Fri Feb 14, 2014". It is used for the %a
@@ -1114,7 +1154,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Fri"
-msgstr ""
+msgstr "Cum"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Sat Feb 15, 2014". It is used for the %a
@@ -1122,7 +1162,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Sat"
-msgstr ""
+msgstr "Cts"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Sun Feb 16, 2014". It is used for the %a
@@ -1130,7 +1170,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated weekday name"
 msgid "Sun"
-msgstr ""
+msgstr "Paz"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jan 10, 2014". It is used for the %b
@@ -1138,7 +1178,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jan"
-msgstr ""
+msgstr "Oca"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Feb 10, 2014". It is used for the %b
@@ -1146,7 +1186,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Feb"
-msgstr ""
+msgstr "Şub"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Mar 10, 2014". It is used for the %b
@@ -1154,7 +1194,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Apr 10, 2014". It is used for the %b
@@ -1162,7 +1202,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Apr"
-msgstr ""
+msgstr "Nis"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "May 10, 2014". It is used for the %b
@@ -1170,7 +1210,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jun 10, 2014". It is used for the %b
@@ -1178,7 +1218,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jun"
-msgstr ""
+msgstr "Haz"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jul 10, 2014". It is used for the %b
@@ -1186,7 +1226,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr ""
+msgstr "Tem"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
@@ -1194,7 +1234,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Aug"
-msgstr ""
+msgstr "Ağu"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Sep 10, 2014". It is used for the %b
@@ -1202,7 +1242,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Sep"
-msgstr ""
+msgstr "Eyl"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Oct 10, 2014". It is used for the %b
@@ -1210,7 +1250,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Oct"
-msgstr ""
+msgstr "Eki"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Nov 10, 2014". It is used for the %b
@@ -1218,7 +1258,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Nov"
-msgstr ""
+msgstr "Kas"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Dec 10, 2014". It is used for the %b
@@ -1226,7 +1266,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "abbreviated month name"
 msgid "Dec"
-msgstr ""
+msgstr "Ara"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "January 10, 2014". It is used for the %B directive in
@@ -1234,7 +1274,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "January"
-msgstr ""
+msgstr "Ocak"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "February 10, 2014". It is used for the %B directive in
@@ -1242,7 +1282,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "February"
-msgstr ""
+msgstr "Şubat"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "March 10, 2014". It is used for the %B directive in
@@ -1250,7 +1290,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "March"
-msgstr ""
+msgstr "Mart"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "April 10, 2014". It is used for the %B directive in
@@ -1258,7 +1298,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "April"
-msgstr ""
+msgstr "Nisan"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "May 10, 2014". It is used for the %B directive in
@@ -1266,7 +1306,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "May"
-msgstr ""
+msgstr "Mayıs"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "June 10, 2014". It is used for the %B directive in
@@ -1274,7 +1314,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "June"
-msgstr ""
+msgstr "Haziran"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "July 10, 2014". It is used for the %B directive in
@@ -1282,7 +1322,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "July"
-msgstr ""
+msgstr "Temmuz"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "August 10, 2014". It is used for the %B directive in
@@ -1290,7 +1330,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "August"
-msgstr ""
+msgstr "Ağustos"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "September 10, 2014". It is used for the %B directive in
@@ -1298,7 +1338,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "September"
-msgstr ""
+msgstr "Eylül"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "October 10, 2014". It is used for the %B directive in
@@ -1306,7 +1346,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "October"
-msgstr ""
+msgstr "Ekim"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "November 10, 2014". It is used for the %B directive in
@@ -1314,7 +1354,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "November"
-msgstr ""
+msgstr "Kasım"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "December 10, 2014". It is used for the %B directive in
@@ -1322,7 +1362,7 @@ msgstr ""
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "December"
-msgstr ""
+msgstr "Aralık"
 
 #: common/djangoapps/util/file.py
 #, python-brace-format

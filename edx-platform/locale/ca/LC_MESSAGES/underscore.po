@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-06-11 14:06+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/open-edx/edx-platform/language/ca/)\n"
@@ -1021,19 +1021,31 @@ msgstr "Eliminar la unitat %(unitName)s"
 msgid "Mark Exam As Completed"
 msgstr "Examen de marca com finalitzat"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
-msgid "You are taking \"{exam_link}\" as {exam_type}. "
-msgstr ""
-
-#: lms/templates/courseware/proctored-exam-status.underscore:11
-msgid "a timed exam"
+#: lms/templates/courseware/proctored-exam-status.underscore:9
+msgid "Exam timer and end exam button"
 msgstr ""
 
 #: lms/templates/courseware/proctored-exam-status.underscore:13
+msgid "End My Exam"
+msgstr "Finalitza el meu examen"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:23
+msgid "Hide Timer"
+msgstr "Amaga el temporitzador"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
+msgid "You are taking \"{exam_link}\" as {exam_type}. "
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
+msgid "a timed exam"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore:32
 msgid "The timer on the right shows the time remaining in the exam."
 msgstr ""
 
-#: lms/templates/courseware/proctored-exam-status.underscore:14
+#: lms/templates/courseware/proctored-exam-status.underscore:33
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
@@ -1041,26 +1053,14 @@ msgstr ""
 "Per rebre crèdit per problemes, heu de seleccionar \"Enviar\" per a cada "
 "problema abans de seleccionar \"Finalitza el meu examen\"."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
+#: lms/templates/courseware/proctored-exam-status.underscore:35
 msgid "Show More"
 msgstr ""
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
-#: lms/templates/courseware/proctored-exam-status.underscore:17
+#: lms/templates/courseware/proctored-exam-status.underscore:35
+#: lms/templates/courseware/proctored-exam-status.underscore:36
 msgid "Show Less"
 msgstr ""
-
-#: lms/templates/courseware/proctored-exam-status.underscore:20
-msgid "Exam timer and end exam button"
-msgstr ""
-
-#: lms/templates/courseware/proctored-exam-status.underscore:24
-msgid "End My Exam"
-msgstr "Finalitza el meu examen"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:34
-msgid "Hide Timer"
-msgstr "Amaga el temporitzador"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
@@ -1802,7 +1802,7 @@ msgstr ""
 "Completeu els cursos del vostre horari per assegurar-vos que us destaqui al "
 "vostre camp!"
 
-#: lms/templates/learner_dashboard/program_header_view.underscore:14
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
 msgid "{organization}\\'s logo"
 msgstr "logotip de l'{organization}\\'s "
 

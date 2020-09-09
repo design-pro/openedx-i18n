@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-08-02 16:58+0000\n"
 "Last-Translator: Faizar Septiawan <faizarsangster@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/open-edx/edx-platform/language/id/)\n"
@@ -1015,19 +1015,31 @@ msgstr ""
 msgid "Mark Exam As Completed"
 msgstr "Tandai Ujian Sebagai Selesai"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:9
+msgid "Exam timer and end exam button"
+msgstr "Timer ujian dan tombol akhiri ujian"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:13
+msgid "End My Exam"
+msgstr "Akhiri Ujian Saya"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:23
+msgid "Hide Timer"
+msgstr "Sembunyikan Timer"
+
+#: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr "Anda mengambil \"{exam_link}\" sebagai {exam_type}. "
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "a timed exam"
 msgstr "ujian berwaktu"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:13
+#: lms/templates/courseware/proctored-exam-status.underscore:32
 msgid "The timer on the right shows the time remaining in the exam."
 msgstr "Timer di sebelah kanan menunjukkan waktu yang tersisa untuk ujian"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:14
+#: lms/templates/courseware/proctored-exam-status.underscore:33
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
@@ -1035,26 +1047,14 @@ msgstr ""
 "Untuk menerima kredit untuk permasalahan, Anda harus memilih \"Kirim\" untuk"
 " setiap permasalahan sebelum Anda memilih \"Akhiri Ujian Saya\"."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
+#: lms/templates/courseware/proctored-exam-status.underscore:35
 msgid "Show More"
 msgstr "Tampilkan Lagi"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
-#: lms/templates/courseware/proctored-exam-status.underscore:17
+#: lms/templates/courseware/proctored-exam-status.underscore:35
+#: lms/templates/courseware/proctored-exam-status.underscore:36
 msgid "Show Less"
 msgstr "Tampilkan Lebih Sedikit"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:20
-msgid "Exam timer and end exam button"
-msgstr "Timer ujian dan tombol akhiri ujian"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:24
-msgid "End My Exam"
-msgstr "Akhiri Ujian Saya"
-
-#: lms/templates/courseware/proctored-exam-status.underscore:34
-msgid "Hide Timer"
-msgstr "Sembunyikan Timer"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
@@ -1762,7 +1762,7 @@ msgstr ""
 "Selesaikan kursus dalam jadwal Anda untuk memastikan Anda menonjol di bidang"
 " Anda!"
 
-#: lms/templates/learner_dashboard/program_header_view.underscore:14
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
 msgid "{organization}\\'s logo"
 msgstr "logo {organization}"
 

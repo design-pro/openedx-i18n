@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
 "PO-Revision-Date: 2020-08-02 20:47+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/open-edx/edx-platform/language/uk/)\n"
@@ -1172,11 +1172,11 @@ msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr "Ви впевнені, що хочете видалити цю сторінку? Ця дія є незворотньою."
 
-#: cms/static/js/views/uploads.js:27
+#: cms/static/js/views/uploads.js:29
 msgid "Upload"
 msgstr "Завантажити"
 
-#: cms/static/js/views/uploads.js:119
+#: cms/static/js/views/uploads.js:121
 msgid "We're sorry, there was an error"
 msgstr "Вибачте, сталася помилка"
 
@@ -1293,16 +1293,16 @@ msgstr "Будь ласка, виберіть файл у форматі .srt."
 msgid "Error: Uploading failed."
 msgstr "Помилка: Не вдалось завантажити."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:146
+#: cms/static/js/views/video/transcripts/message_manager.js:141
 msgid "Error: Import failed."
 msgstr "Помилка: Не вдалось імпортувати."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:160
+#: cms/static/js/views/video/transcripts/message_manager.js:155
 msgid "Error: Replacing failed."
 msgstr "Помилка: Не вдалось замінити."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:176
-#: cms/static/js/views/video/transcripts/message_manager.js:190
+#: cms/static/js/views/video/transcripts/message_manager.js:171
+#: cms/static/js/views/video/transcripts/message_manager.js:185
 msgid "Error: Choosing failed."
 msgstr "Помилка: Не вдалось вибрати."
 

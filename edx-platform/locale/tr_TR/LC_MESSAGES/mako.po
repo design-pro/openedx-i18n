@@ -11,7 +11,7 @@
 # baris <brscvs@gmail.com>, 2013
 # Burak Özalp <realburq@gmail.com>, 2013
 # Burak Özalp <realburq@gmail.com>, 2013
-# Caner Başaran <basaran.caner@protonmail.com>, 2014
+# Caner Başaran <basaran.caner@gmail.com>, 2014
 # Emrah Emirtekin <eemirtekin@gmail.com>, 2015-2016
 # emreusta <emreusta7@gmail.com>, 2014
 # Fatih Murat Topaloğlu <fmt344@gmail.com>, 2016
@@ -35,8 +35,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-23 20:42+0000\n"
-"PO-Revision-Date: 2020-08-16 20:47+0000\n"
+"POT-Creation-Date: 2020-09-06 20:42+0000\n"
+"PO-Revision-Date: 2020-09-06 20:44+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/open-edx/edx-platform/language/tr_TR/)\n"
 "Language: tr_TR\n"
@@ -699,7 +699,7 @@ msgid "Save Settings"
 msgstr "Ayarları Kaydet"
 
 #: lms/templates/ccx/enrollment.html:58 lms/templates/dashboard.html:374
-#: lms/templates/dashboard/_dashboard_course_listing.html:277
+#: lms/templates/dashboard/_dashboard_course_listing.html:282
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html:43
 #: lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html:29
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:65
@@ -1299,7 +1299,7 @@ msgid "Sequence"
 msgstr "Sıralı"
 
 #: lms/templates/courseware/dates.html:58 lms/templates/seq_module.html:70
-#: lms/templates/vert_module.html:22
+#: lms/templates/vert_module.html:28
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:55
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:92
 msgid "Completed"
@@ -1754,12 +1754,16 @@ msgstr ""
 "ayarlayın. Google Chrome altında bu Ctrl-artı Ctrl-eksi'ye basılarak "
 "yapılabilir."
 
-#: lms/templates/vert_module.html:17
+#: lms/templates/vert_module.html:18
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html:120
 msgid "{subsection_format} due {{date}}"
 msgstr "{subsection_format} {{date}} tarihine dek"
 
-#: lms/templates/courseware/dates.html:60 lms/templates/vert_module.html:24
+#: lms/templates/vert_module.html:22
+msgid "Due {date}"
+msgstr ""
+
+#: lms/templates/courseware/dates.html:60 lms/templates/vert_module.html:30
 msgid "Past Due"
 msgstr "Zaman Aşımına Uğramış"
 
@@ -2928,8 +2932,8 @@ msgstr "Facebook'ta paylaş"
 
 #: lms/templates/certificates/_accomplishment-banner.html:64
 #: lms/templates/certificates/_accomplishment-banner.html:66
-#: lms/templates/dashboard/_dashboard_course_listing.html:233
-#: lms/templates/dashboard/_dashboard_course_listing.html:239
+#: lms/templates/dashboard/_dashboard_course_listing.html:238
+#: lms/templates/dashboard/_dashboard_course_listing.html:244
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:39
 msgid "Share on Twitter"
 msgstr "Twitter'da paylaş"
@@ -3356,7 +3360,7 @@ msgid "Prerequisites"
 msgstr "Gereklilikler"
 
 #: lms/templates/courseware/course_about.html:228
-#: lms/templates/dashboard/_dashboard_course_listing.html:437
+#: lms/templates/dashboard/_dashboard_course_listing.html:442
 msgid ""
 "You must successfully complete {link_start}{prc_display}{link_end} before "
 "you begin this course."
@@ -4059,179 +4063,179 @@ msgstr ""
 "elimize geçmediğinden, onaylı {cert_name_short} veremiyoruz. Bunun yerine "
 "onur kodu {cert_name_short} verilmiştir."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:71
+#: lms/templates/dashboard/_dashboard_course_listing.html:72
 msgid "Course details"
 msgstr "Ders ayrıntıları"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:76
+#: lms/templates/dashboard/_dashboard_course_listing.html:77
 msgid "{course_number} {course_name} Home Page"
 msgstr "{course_number} {course_name} Ana Sayfa"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:80
-#: lms/templates/dashboard/_dashboard_course_listing.html:85
+#: lms/templates/dashboard/_dashboard_course_listing.html:81
+#: lms/templates/dashboard/_dashboard_course_listing.html:86
 msgid "{course_number} {course_name} Cover Image"
 msgstr "{course_number} {course_name} Kapak resmi"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:90
+#: lms/templates/dashboard/_dashboard_course_listing.html:91
 msgid "Enrolled as: "
 msgstr "Kaydolunan isim:"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:116
+#: lms/templates/dashboard/_dashboard_course_listing.html:117
 msgid "Coming Soon"
 msgstr "Yakında"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:121
+#: lms/templates/dashboard/_dashboard_course_listing.html:123
 msgid "Ended - {date}"
 msgstr "Sona Erdi - {date}"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:124
+#: lms/templates/dashboard/_dashboard_course_listing.html:126
 msgid "Started - {date}"
 msgstr "Başlangıç Tarihi - {date}"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:127
-#: lms/templates/dashboard/_dashboard_course_listing.html:131
+#: lms/templates/dashboard/_dashboard_course_listing.html:132
+#: lms/templates/dashboard/_dashboard_course_listing.html:136
 msgid "Starts - {date}"
 msgstr "Başlangıç Tarihi - {date}"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:142
+#: lms/templates/dashboard/_dashboard_course_listing.html:147
 msgid "for {course_display_name}"
 msgstr "{course_display_name} için"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:150
+#: lms/templates/dashboard/_dashboard_course_listing.html:155
 msgid "You must select a session by {expiration_date} to access the course."
 msgstr ""
 "Derse erişmek için {expiration_date} tarihine kadar oturum seçmelisiniz."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:152
+#: lms/templates/dashboard/_dashboard_course_listing.html:157
 msgid "You must select a session to access the course."
 msgstr "Derse erişmek için oturum seçmelisiniz."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:165
+#: lms/templates/dashboard/_dashboard_course_listing.html:170
 msgid "Change or Leave Session"
 msgstr "Oturumu Değiştir veya Terket"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:173
+#: lms/templates/dashboard/_dashboard_course_listing.html:178
 msgid "You can no longer change sessions."
 msgstr "Artık oturum değiştiremezsiniz."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:175
+#: lms/templates/dashboard/_dashboard_course_listing.html:180
 msgid "You can change sessions until {entitlement_expiration_date}."
 msgstr ""
 "Oturumlarınızı {entitlement_expiration_date} tarihine dek "
 "değiştirebilirsiniz."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:185
+#: lms/templates/dashboard/_dashboard_course_listing.html:190
 msgid "View Archived Course"
 msgstr "Arşivlenmiş Dersleri Görüntüle"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:205
+#: lms/templates/dashboard/_dashboard_course_listing.html:210
 msgid "I'm taking {course_name} online with {facebook_brand}. Check it out!"
 msgstr ""
 "Çevrimiçi {course_name} dersini {facebook_brand} ile alıyorum. Hadi sen de "
 "gel!"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:208
+#: lms/templates/dashboard/_dashboard_course_listing.html:213
 msgid "Share {course_name} on Facebook"
 msgstr "{course_name} dersini Facebook'ta paylaş"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:211
-#: lms/templates/dashboard/_dashboard_course_listing.html:217
+#: lms/templates/dashboard/_dashboard_course_listing.html:216
+#: lms/templates/dashboard/_dashboard_course_listing.html:222
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:33
 msgid "Share on Facebook"
 msgstr "Facebook'ta Paylaş"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:227
+#: lms/templates/dashboard/_dashboard_course_listing.html:232
 msgid "I'm taking {course_name} online with {twitter_brand}. Check it out!"
 msgstr ""
 "Çevrimiçi {course_name} dersini {twitter_brand} ile alıyorum. Hadi sen de "
 "gel!"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:230
+#: lms/templates/dashboard/_dashboard_course_listing.html:235
 msgid "Share {course_name} on Twitter"
 msgstr "{course_name} dersini Twitter'da paylaş"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:257
+#: lms/templates/dashboard/_dashboard_course_listing.html:262
 msgid "Course options for"
 msgstr ""
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:264
+#: lms/templates/dashboard/_dashboard_course_listing.html:269
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html:30
 msgid "Available Actions"
 msgstr "Kullanılabilir Faaliyetler"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:283
+#: lms/templates/dashboard/_dashboard_course_listing.html:288
 msgid ""
 "You are enrolled by your institution and you should reach out to your "
 "institution to drop this course."
 msgstr ""
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:289
+#: lms/templates/dashboard/_dashboard_course_listing.html:294
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html:57
 msgid "Email Settings"
 msgstr "E-posta Ayarları"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:328
+#: lms/templates/dashboard/_dashboard_course_listing.html:333
 msgid "Related Programs"
 msgstr "İlgili Programlar"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:357
+#: lms/templates/dashboard/_dashboard_course_listing.html:362
 msgid "Verification not yet complete."
 msgstr "Doğrulama henüz tamamlanmadı."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:358
+#: lms/templates/dashboard/_dashboard_course_listing.html:363
 msgid "You only have {days} day left to verify for this course."
 msgid_plural "You only have {days} days left to verify for this course."
 msgstr[0] ""
 msgstr[1] "Bu dersi doğrulamak için sadece {days} gününüz kaldı."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:364
+#: lms/templates/dashboard/_dashboard_course_listing.html:369
 msgid "Almost there!"
 msgstr "Neredeyse bitti!"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:365
+#: lms/templates/dashboard/_dashboard_course_listing.html:370
 msgid "You still need to verify for this course."
 msgstr "Bu ders için halen doğrulamaya ihtiyacınız var."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:369
+#: lms/templates/dashboard/_dashboard_course_listing.html:374
 msgid "Verify Now"
 msgstr "Şimdi Doğrula"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:372
+#: lms/templates/dashboard/_dashboard_course_listing.html:377
 msgid "You have submitted your verification information."
 msgstr "Doğrulama bilgilerinizi gönderdiniz."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:373
+#: lms/templates/dashboard/_dashboard_course_listing.html:378
 msgid ""
 "You will see a message on your dashboard when the verification process is "
 "complete (usually within 5-7 days)."
 msgstr ""
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:375
+#: lms/templates/dashboard/_dashboard_course_listing.html:380
 msgid "Your current verification will expire soon!"
 msgstr "Mevcut doğrulamanızın süresi yakında sona erecek!"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:376
+#: lms/templates/dashboard/_dashboard_course_listing.html:381
 msgid ""
 "You have submitted your reverification information. You will see a message "
 "on your dashboard when the verification process is complete (usually within "
 "5-7 days)."
 msgstr ""
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:378
+#: lms/templates/dashboard/_dashboard_course_listing.html:383
 msgid "You have successfully verified your ID with edX"
 msgstr "Kimliğinizi edX ile başarıyla doğruladınız"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:380
+#: lms/templates/dashboard/_dashboard_course_listing.html:385
 msgid "Your current verification is effective until {date}."
 msgstr "Mevcut doğrulamanız {date} tarihine dek geçerli."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:383
+#: lms/templates/dashboard/_dashboard_course_listing.html:388
 msgid "Your current verification will expire soon."
 msgstr "Mevcut doğrulamanız yakında geçerliliğini yitirecek."
 
 #. Translators: start_link and end_link will be replaced with HTML tags;
 #. please do not translate these.
-#: lms/templates/dashboard/_dashboard_course_listing.html:386
+#: lms/templates/dashboard/_dashboard_course_listing.html:391
 msgid ""
 "Your current verification will expire in {days} days. {start_link}Re-verify "
 "your identity now{end_link} using a webcam and a government-issued photo ID."
@@ -4240,7 +4244,7 @@ msgstr ""
 "tarafından verilmiş fotoğraflı bir kimlik belgesi ve web kamera kullanarak "
 "{start_link}kimliğinizi yeniden doğrulayın{end_link}."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:401
+#: lms/templates/dashboard/_dashboard_course_listing.html:406
 msgid ""
 "Pursue a {cert_name_long} to highlight the knowledge and skills you gain in "
 "this course."
@@ -4248,7 +4252,7 @@ msgstr ""
 "Derste kazandığınız bilgileri ve yetenekleri vurgulamak için "
 "{cert_name_long} takip edin."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:403
+#: lms/templates/dashboard/_dashboard_course_listing.html:408
 msgid ""
 "It's official. It's easily shareable. It's a proven motivator to complete "
 "the course. {line_break}{link_start}Learn more about the verified "
@@ -4258,7 +4262,7 @@ msgstr ""
 "kanıtlanmış bir motivasyon kaynağıdır. {line_break}{link_start}Doğrulanmış "
 "{cert_name_long} hakkında daha fazla bilgi edin{link_end}."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:423
+#: lms/templates/dashboard/_dashboard_course_listing.html:428
 msgid "Upgrade to Verified"
 msgstr "Onaylanmışa Yükselt"
 
@@ -5353,7 +5357,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:99
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:127
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:133
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:138
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:100
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:236
 msgid "Pending Tasks"
@@ -5361,7 +5365,7 @@ msgstr "Bekleyen Görevler"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:101
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:129
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:135
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:140
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:238
 msgid "The status for any active tasks appears in a table below."
 msgstr "Aşağıdaki tabloda aktif olan görevlerin durumu görülmektedir."
@@ -5676,17 +5680,27 @@ msgstr "Problem not raporu oluşturun"
 msgid "Generate ORA Data Report"
 msgstr "ORA Veri Raporu Oluştur"
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:103
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:98
+msgid ""
+"Click to generate a ZIP file that contains all submission texts and "
+"attachments."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:100
+msgid "Generate Submission Files Archive"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:108
 msgid "Reports Available for Download"
 msgstr "İndirme için Hazır Raporlar"
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:105
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:110
 msgid ""
 "The reports listed below are available for download, identified by UTC date "
 "and time of generation."
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:110
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:115
 msgid ""
 "The answer distribution report listed below is generated periodically by an "
 "automated background process. The report is cumulative, so answers submitted"
@@ -5698,7 +5712,7 @@ msgstr ""
 "işlem başladıktan sonra gönderilen cevaplar sonraki raporda yer almaktadır. "
 "Rapor günde birkaç kez üretilir."
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:116
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:121
 msgid ""
 "{strong_start}Note{strong_end}: {ul_start}{li_start}To keep student data "
 "secure, you cannot save or email these links for direct access. Copies of "
