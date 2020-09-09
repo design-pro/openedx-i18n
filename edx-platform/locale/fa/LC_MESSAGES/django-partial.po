@@ -4879,8 +4879,8 @@ msgid ""
 "We've restored access to your %(platform_name)s account using the recovery "
 "email you provided at registration."
 msgstr ""
-"ما با استفاده از بازیابی ، به حساب %(platform_name) شما احیا کردیمپست "
-"الکترونیکیی که در هنگام ثبت نام ارائه داده اید"
+"ما با استفاده از بازیابی ، به حساب %(platform_name)s شما احیا کردیمپست "
+"الکترونیکیی که در هنگام ثبت نام ارائه داده اید."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt
