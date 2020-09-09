@@ -695,7 +695,7 @@ msgid ""
 "link from {platform_name}. If you need help, contact "
 "{link_start}{platform_name} Support{link_end}."
 msgstr ""
-" پست الكترونيك {email_start} {email} {mail_end} صندوق ورودی برای فعال شدن "
+" پست الكترونيك {email_start} {email} {email_end} صندوق ورودی برای فعال شدن "
 "حسابلینک از {platform_name}. اگر به کمک نیاز دارید، "
 "با{link_start}{platform_name} Support{link_end}."
 
@@ -2522,7 +2522,7 @@ msgid ""
 "The selected proctoring provider, {proctoring_provider}, is not a valid "
 "provider. Please select from one of {available_providers}."
 msgstr ""
-"ارائه ناظر انتخاب شده {proorking_provider} معتبر فراهم نیست لطفا از یکی از "
+"ارائه ناظر انتخاب شده {proctoring_provider} معتبر فراهم نیست لطفا از یکی از "
 "{available_providers} را انتخاب کنید."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -4078,7 +4078,7 @@ msgstr ""
 "قبل از فیلم های دوره ای ، یک ویدیو به طول 5-10 ثانیه شناسایی کنید. شناسه "
 "فیلم را از صفحه Uploads Video و یک یا چند نسخه وارد کنیدپرونده ها در قالب "
 "زیر: {format} به عنوان مثال ، یک ورودی برای یک فیلم با دو نسخه مانند این "
-"است: {مثال)"
+"است: {example}"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Show Reset Button for Problems"
