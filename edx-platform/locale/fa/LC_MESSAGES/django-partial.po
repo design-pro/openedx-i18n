@@ -84,7 +84,7 @@ msgstr "خالی"
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 #, python-brace-format
 msgid "The following parameters are required: {missing}."
-msgstr "مقادیر زیر ضروری هستند : {جا افتاده اند}"
+msgstr "مقادیر زیر ضروری هستند: {missing}."
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
@@ -4879,7 +4879,7 @@ msgid ""
 "We've restored access to your %(platform_name)s account using the recovery "
 "email you provided at registration."
 msgstr ""
-"ما با استفاده از بازیابی ، به حساب٪ (platform_name) شما احیا کردیمپست "
+"ما با استفاده از بازیابی ، به حساب %(platform_name) شما احیا کردیمپست "
 "الکترونیکیی که در هنگام ثبت نام ارائه داده اید"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
