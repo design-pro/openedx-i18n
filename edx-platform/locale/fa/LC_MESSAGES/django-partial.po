@@ -2785,8 +2785,15 @@ msgid "Other Course Settings"
 msgstr "سایر تنظیمات دوره"
 
 #: common/lib/xmodule/xmodule/course_module.py:1019
-msgid "Any additional information about the course that the platform needs or that allows integration with external systems such as CRM software. Enter a dictionary of values in JSON format, such as { \"my_custom_setting\": \"value\", \"other_setting\": \"value\" }"
-msgstr "هرگونه اطلاعات اضافی در مورد دوره که مورد نیاز پلتفرم است یا امکان ادغام با سیستم‌های خارجی مانند نرم افزار CRM را می‌دهد. فرهنگ لغت مقادیر را در قالب JSON وارد کنید، مانند {\"my_custom_setting\": \"value\" ، \"other_setting\": \"value\"}"
+msgid ""
+"Any additional information about the course that the platform needs or that "
+"allows integration with external systems such as CRM software. Enter a "
+"dictionary of values in JSON format, such as { \"my_custom_setting\": "
+"\"value\", \"other_setting\": \"value\" }"
+msgstr ""
+"هرگونه اطلاعات اضافی در مورد دوره که مورد نیاز پلتفرم است"
+"یا امکان ادغام با سیستم‌های خارجی مانند نرم افزارCRM را می‌دهد."
+"فرهنگ لغت مقادیر را در قالب JSON وارد کنید، مانند {\"my_custom_setting\": \"value\" ، \"other_setting\": \"value\"}"
 
 #: common/lib/xmodule/xmodule/course_module.py:1077
 msgid "General"
