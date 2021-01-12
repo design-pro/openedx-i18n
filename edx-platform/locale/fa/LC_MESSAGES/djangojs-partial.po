@@ -1533,7 +1533,7 @@ msgstr "توضیح"
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js:331
 msgid "Sequence error! Cannot navigate to %(tab_name)s in the current SequenceModule. Please contact the course staff."
-msgstr "خطای توالی! نمیتوانید به %(tab_name)ها بروید. لطفا با مدیران دوره تماس بگیرید."
+msgstr "خطای توالی! نمیتوانید به %(tab_name)s ا بروید. لطفا با مدیران دوره تماس بگیرید."
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js:446 openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
 msgid "Bookmarked"
@@ -1647,20 +1647,20 @@ msgstr "توقف فیلم"
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:323
 msgid "%(value)s hour"
 msgid_plural "%(value)s hours"
-msgstr[0] "%(value) ساعت"
-msgstr[1] "%(value) ساعت"
+msgstr[0] "%(value)s ساعت"
+msgstr[1] "%(value)s ساعت"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:326
 msgid "%(value)s minute"
 msgid_plural "%(value)s minutes"
-msgstr[0] "%(value) دقیقه"
-msgstr[1] "%(value) دقیقه"
+msgstr[0] "%(value)s دقیقه"
+msgstr[1] "%(value)s دقیقه"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js:329
 msgid "%(value)s second"
 msgid_plural "%(value)s seconds"
-msgstr[0] "%(value) ثانیه"
-msgstr[1] "%(value) ثانیه"
+msgstr[0] "%(value)s ثانیه"
+msgstr[1] "%(value)s ثانیه"
 
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:69
 msgid "Click on this button to mute or unmute this video or press UP or DOWN buttons to increase or decrease volume level."
@@ -2834,7 +2834,7 @@ msgstr " فراگیر در دوره ثبت نام نشده و به لیست اس
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:49
 msgid "Certificate of <%= user %> has already been invalidated. Please check your spelling and retry."
-msgstr "گواهی <٪ = user٪> قبلاً نامعتبر شده است. لطفاً املاء خود را بررسی کنید و دوباره امتحان کنید."
+msgstr "گواهی <%= user %> قبلاً نامعتبر شده است. لطفاً املاء خود را بررسی کنید و دوباره امتحان کنید."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:58
 msgid "Certificate has been successfully invalidated for <%= user %>."
@@ -3559,7 +3559,7 @@ msgstr "در حال بازیابی وضعیت ثبت نام ..."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:117
 msgid "Error getting student progress url for '<%- student_id %>'. Make sure that the student identifier is spelled correctly."
-msgstr "خطا در دریافت url پیشرفت دانشجو برای \"<٪ - student_id٪>\". اطمینان حاصل کنید که شناسه دانشجو به درستی هجی شده است."
+msgstr "خطا در دریافت url پیشرفت دانشجو برای '<%- student_id %>'. اطمینان حاصل کنید که شناسه دانشجو به درستی هجی شده است."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:148 lms/static/js/instructor_dashboard/student_admin.js:190 lms/static/js/instructor_dashboard/student_admin.js:242
 #: lms/static/js/instructor_dashboard/student_admin.js:409 lms/static/js/instructor_dashboard/student_admin.js:461 lms/static/js/instructor_dashboard/student_admin.js:494
@@ -3573,15 +3573,15 @@ msgstr "موفق! تلاش‌ها برای حل مساله برای مساله '
 
 #: lms/static/js/instructor_dashboard/student_admin.js:156
 msgid "Error resetting problem attempts for problem '<%= problem_id %>' and student '<%- student_id %>'. Make sure that the problem and student identifiers are complete and correct."
-msgstr "خطا در بازنشانی تلاشهای حل مساله برای مسئله \"<٪ = problem_id٪>\" و دانشجو \"<٪ - student_id٪>\". اطمینان حاصل کنید که شناسه‌های مساله و دانشجو کامل و صحیح است."
+msgstr "خطا در بازنشانی تلاشهای حل مساله برای مسئله '<%= problem_id %>' و دانشجو '<%- student_id %>'. اطمینان حاصل کنید که شناسه‌های مساله و دانشجو کامل و صحیح است."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:193
 msgid "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
-msgstr "وضعیت دانشجو \"<٪ - student_id٪>\" در مورد مسئله \"<٪ - problem_id٪>\" حذف شود؟"
+msgstr "وضعیت دانشجو '<%- student_id %>'s در مورد مسئله '<%- problem_id %>' حذف شود؟"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:204
 msgid "Error deleting student '<%- student_id %>'s state on problem '<%- problem_id %>'. Make sure that the problem and student identifiers are complete and correct."
-msgstr "خطا در حذف وضعیت دانشجو \"<٪ - student_id٪>\" در مورد مساله \"<٪ - problem_id٪>\". اطمینان حاصل کنید که شناسه‌های مساله و دانشجو کامل و صحیح است."
+msgstr "خطا در حذف وضعیت دانشجو '<%- student_id %>'s در مورد مساله '<%- problem_id %>'. اطمینان حاصل کنید که شناسه‌های مساله و دانشجو کامل و صحیح است."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:215
 msgid "Module state successfully deleted."
@@ -3589,7 +3589,7 @@ msgstr "وضعیت ماژول با موفقیت حذف شد."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:249
 msgid "Error getting task history for problem '<%- problem_id %>' and student '<%- student_id %>'. Make sure that the problem and student identifiers are complete and correct."
-msgstr "خطا در دریافت سابقه کار برای مسئله \"<٪ - problem_id٪>\" و دانشجو '<%- student_id %>'. اطمینان حاصل کنید که شناسه‌های مساله و دانشجو کامل و صحیح است."
+msgstr "خطا در دریافت سابقه کار برای مسئله '<%- problem_id %>' و دانشجو '<%- student_id %>'. اطمینان حاصل کنید که شناسه‌های مساله و دانشجو کامل و صحیح است."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:286
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
@@ -3597,7 +3597,7 @@ msgstr "تلاش‌های آزمون وروی برای دانشجو '{student_id
 
 #: lms/static/js/instructor_dashboard/student_admin.js:294
 msgid "Error resetting entrance exam attempts for student '{student_id}'. Make sure student identifier is correct."
-msgstr "خطا در تنظیم مجدد تلاش‌های آزمون ورودی دانشجو \"{student_id}\". از درست بودن شناسه دانشجو اطمینان حاصل کنید."
+msgstr "خطا در تنظیم مجدد تلاش‌های آزمون ورودی دانشجو '{student_id}'. از درست بودن شناسه دانشجو اطمینان حاصل کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:312 lms/static/js/instructor_dashboard/student_admin.js:379
 msgid "Enter a student's username or email address."
@@ -3617,23 +3617,23 @@ msgstr "وضعیت آزمون ورودی برای دانشجو '{student_id}' ح
 
 #: lms/static/js/instructor_dashboard/student_admin.js:366
 msgid "Error deleting entrance exam state for student '{student_id}'. Make sure student identifier is correct."
-msgstr "خطا در حذف وضعیت آزمون ورودی برای دانشجو \"{student_id}\". از درست بودن شناسه دانشجو اطمینان حاصل کنید."
+msgstr "خطا در حذف وضعیت آزمون ورودی برای دانشجو '{student_id}'. از درست بودن شناسه دانشجو اطمینان حاصل کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:395
 msgid "Error getting entrance exam task history for student '{student_id}'. Make sure student identifier is correct."
-msgstr "خطا در دریافت سابقه کار آزمون ورودی برای دانشجو \"{student_id}\". از درست بودن شناسه دانشجو اطمینان حاصل کنید."
+msgstr "خطا در دریافت سابقه کار آزمون ورودی برای دانشجو '{student_id}'. از درست بودن شناسه دانشجو اطمینان حاصل کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:412
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
-msgstr "تلاش‌ها برای همه دانشجویان در مورد مسئله \"<٪ - problem_id٪>\" بازنشانی شود؟"
+msgstr "تلاش‌ها برای همه دانشجویان در مورد مسئله '<%- problem_id %>' بازنشانی شود؟"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:421
 msgid "Successfully started task to reset attempts for problem '<%- problem_id %>'. Click the 'Show Task Status' button to see the status of the task."
-msgstr "کار با موفقیت شروع شد تا تلاش برای مساله \"<٪ - problem_id٪>\" بازنشانی شود. برای دیدن وضعیت کار بر روی دکمه \"نمایش وضعیت کار\" کلیک کنید."
+msgstr "کار با موفقیت شروع شد تا تلاش برای مساله '<%- problem_id %>' بازنشانی شود. برای دیدن وضعیت کار بر روی دکمه \"نمایش وضعیت کار\" کلیک کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:425
 msgid "Error starting a task to reset attempts for all students on problem '<%- problem_id %>'. Make sure that the problem identifier is complete and correct."
-msgstr "خطا در شروع کار برای بازنشانی تلاش برای همه دانشجویان در مورد مسئله \"<٪ - problem_id٪>\". اطمینان حاصل کنید که شناسه مساله کامل و صحیح است."
+msgstr "خطا در شروع کار برای بازنشانی تلاش برای همه دانشجویان در مورد مسئله '<%- problem_id %>'. اطمینان حاصل کنید که شناسه مساله کامل و صحیح است."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:474
 msgid "Error listing task history for this student and problem."
@@ -3653,13 +3653,13 @@ msgstr "لطفا یک نمره وارد کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:556
 msgid "Started task to override the score for problem '<%- problem_id %>' and student '<%- student_id %>'. Click the 'Show Task Status' button to see the status of the task."
-msgstr "کار برای باطل کردن نمره برای مسئله \"<٪ - problem_id٪>\" و دانشجو \"<٪ - student_id٪>\"شروع شده‌است. برای دیدن وضعیت کار بر روی دکمه \"نمایش وضعیت کار\" کلیک کنید."
+msgstr "کار برای باطل کردن نمره برای مسئله '<%- problem_id %>' و دانشجو \"<٪ - student_id٪>\"شروع شده‌است. برای دیدن وضعیت کار بر روی دکمه \"نمایش وضعیت کار\" کلیک کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:561
 msgid ""
 "Error starting a task to override score for problem '<%- problem_id %>' for student '<%- student_id %>'. Make sure that the the score and the problem and student identifiers are complete and "
 "correct."
-msgstr "خطا در شروع کار برای باطل کردن نمره برای مسئله \"<٪ - problem_id٪>\" برای دانشجو \"<٪ - student_id٪>\". اطمینان حاصل کنید که نمره و مسئله و شناسه‌های دانشجو کامل و صحیح هستند."
+msgstr "خطا در شروع کار برای باطل کردن نمره برای مسئله '<%- problem_id %>' برای دانشجو \"<٪ - student_id٪>\". اطمینان حاصل کنید که نمره و مسئله و شناسه‌های دانشجو کامل و صحیح هستند."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:603
 msgid "Started entrance exam rescore task for student '{student_id}'. Click the 'Show Task Status' button to see the status of the task."
@@ -3667,7 +3667,7 @@ msgstr "باز نمره‌دهی آزمون ورودی برای دانشجو '{s
 
 #: lms/static/js/instructor_dashboard/student_admin.js:611
 msgid "Error starting a task to rescore entrance exam for student '{student_id}'. Make sure that entrance exam has problems in it and student identifier is correct."
-msgstr "خطا در شروع کار برای نمره‌دهی مجدد آزمون ورودی دانشجو \"{student_id}\". مطمئن شوید که در مسائل در آزمون ورودی وجود دارند و شناسه دانشجو درست است."
+msgstr "خطا در شروع کار برای نمره‌دهی مجدد آزمون ورودی دانشجو '{student_id}'. مطمئن شوید که در مسائل در آزمون ورودی وجود دارند و شناسه دانشجو درست است."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:631
 msgid "Rescore problem '<%- problem_id %>' for all students?"
@@ -3679,7 +3679,7 @@ msgstr "کار نمره‌دهی مجدد '<%- problem_id %>' برای همه د
 
 #: lms/static/js/instructor_dashboard/student_admin.js:645
 msgid "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that the problem identifier is complete and correct."
-msgstr "خطا در شروع نمره‌دهی مجدد به مساله \"<٪ - problem_id٪>\". اطمینان حاصل کنید که شناسه مساله کامل و صحیح است."
+msgstr "خطا در شروع نمره‌دهی مجدد به مساله '<%- problem_id %>'. اطمینان حاصل کنید که شناسه مساله کامل و صحیح است."
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -3982,7 +3982,7 @@ msgstr "پس از حذف حساب خود، نمی‌توانید از آن بر�
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:100 lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:120
 msgid "This includes access to {siteName} from your employer’s or university’s system{additionalSiteSpecificDeletionText}."
-msgstr "این شامل دسترسی به {siteName} از سیستم کارفرما یا دانشگاه شما {AdditionalSiteSpecificDeletionText} است."
+msgstr "این شامل دسترسی به {siteName} از سیستم کارفرما یا دانشگاه شما{AdditionalSiteSpecificDeletionText}. است."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:109
 msgid "We’re sorry to see you go!"
@@ -4230,7 +4230,7 @@ msgstr "زبان مورد نظر شما"
 
 #: lms/static/js/student_account/views/account_settings_factory.js:257
 msgid "We've sent a confirmation message to {new_secondary_email_address}. Click the link in the message to update your secondary email address."
-msgstr "ما یک پیام تأیید به {new_secondary_email_adrress} ارسال کرده‌ایم. برای به روزرسانی نشانی پست الکترونیک ثانویه خود، روی لینک موجود در پیام کلیک کنید."
+msgstr "ما یک پیام تأیید به {new_secondary_email_address} ارسال کرده‌ایم. برای به روزرسانی نشانی پست الکترونیک ثانویه خود، روی لینک موجود در پیام کلیک کنید."
 
 #: lms/static/js/student_account/views/account_settings_factory.js:305
 msgid "Social Media Links"
@@ -4525,7 +4525,7 @@ msgstr "نشانه‌گذاری این صفحه"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseGoals.js:25
 msgid "Thank you for setting your course goal to {goal}!"
-msgstr "از اینکه هدف دوره خود را روی {target} تعیین کردید متشکریم!"
+msgstr "از اینکه هدف دوره خود را روی {goal} تعیین کردید متشکریم!"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js:84
 msgid "You have successfully updated your goal."

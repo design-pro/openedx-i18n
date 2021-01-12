@@ -6641,7 +6641,7 @@ msgstr "تبریک می‌گوییم، {user_name}!"
 
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:22
 msgid "You worked hard to earn your certificate from {accomplishment_copy_course_org} {dash} share it with colleagues, friends, and family to get the word out about what you mastered in {accomplishment_course_title}."
-msgstr "شما سخت تلاش کردید تا گواهینامه خود را از طریق {{accomplishment_copy_course_org} {dash} به اشتراک بگذارید و آن را با همکاران، دوستان و خانواده خود به اشتراک بگذارید تا در مورد آنچه در {accomplishment_course_title} تسلط دارید صحبت کنید."
+msgstr "شما سخت تلاش کردید تا گواهینامه خود را از طریق {accomplishment_copy_course_org} {dash} به اشتراک بگذارید و آن را با همکاران، دوستان و خانواده خود به اشتراک بگذارید تا در مورد آنچه در {accomplishment_course_title} تسلط دارید صحبت کنید."
 
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:35
 msgid "Share this certificate on Facebook (opens a new tab/window)"
@@ -6677,7 +6677,7 @@ msgstr "کلیه حقوق برای گروه رسانه‌ای فانوس محف�
 
 #: themes/edx.org/lms/templates/course_modes/choose.html:123 themes/edx.org/lms/templates/course_modes/choose.html:163
 msgid "{b_start}Support our Mission: {b_end}EdX, a non-profit, relies on verified certificates to help fund affordable education to everyone globally."
-msgstr "{b_start} از مأموریت ما پشتیبانی کنید."
+msgstr "{b_start} از مأموریت ما پشتیبانی کنید.{b_end}"
 
 #: themes/edx.org/lms/templates/course_modes/choose.html:171
 msgid "{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified certificates to help fund free education for everyone globally"
