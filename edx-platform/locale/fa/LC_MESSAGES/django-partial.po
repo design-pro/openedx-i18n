@@ -2793,7 +2793,7 @@ msgid ""
 msgstr ""
 "هرگونه اطلاعات اضافی در مورد دوره که مورد نیاز پلتفرم است"
 "یا امکان ادغام با سیستم‌های خارجی مانند نرم افزارCRM را می‌دهد."
-"فرهنگ لغت مقادیر را در قالب JSON وارد کنید، مانند {\"my_custom_setting\": \"value\" ، \"other_setting\": \"value\"}"
+"فرهنگ لغت مقادیر را در قالب JSON وارد کنید، مانند { \"my_custom_setting\": \"value\" ، \"other_setting\": \"value\"}"
 
 #: common/lib/xmodule/xmodule/course_module.py:1077
 msgid "General"

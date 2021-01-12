@@ -1198,7 +1198,7 @@ msgstr "تغییر یا ترک جلسه"
 
 #: lms/templates/learner_dashboard/course_card.underscore:29
 msgid "You must select a session by {expiration_date} to access the course."
-msgstr "برای دسترسی به دوره باید یک جلسه تا تاریخ {expired_date} انتخاب کنید."
+msgstr "برای دسترسی به دوره باید یک جلسه تا تاریخ {expiration_date} انتخاب کنید."
 
 #: lms/templates/learner_dashboard/course_card.underscore:33
 msgid "You can no longer change sessions."
@@ -2280,4 +2280,4 @@ msgid ""
 "{upload_link_start}upload{link_end} it to your backpack."
 msgstr ""
 "{download_link_start} این تصویر را بارگیری کنید (راست کلیک یا کلیک گزینه، ذخیره به عنوان) {link_end} و سپس "
-"آن را {back_link_start} بارگذاری کنید {link_end} در کوله پشتی خود."
+"آن را {upload_link_start} بارگذاری کنید {link_end} در کوله پشتی خود."

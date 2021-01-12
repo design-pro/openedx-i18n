@@ -898,7 +898,7 @@ msgstr "تغییر پست الکترونیکی ثانویه انجام نشد"
 
 #: lms/templates/secondary_email_change_failed.html:17
 msgid "We were unable to activate your secondary email {secondary_email}"
-msgstr "ما نتوانستیم پست الکترونیکی ثانویه شما را فعال کنیم {second_email}"
+msgstr "ما نتوانستیم پست الکترونیکی ثانویه شما را فعال کنیم {secondary_email}"
 
 #: lms/templates/secondary_email_change_successful.html:12
 msgid "Secondary e-mail change successful!"
@@ -3001,7 +3001,7 @@ msgstr "برای {course_display_name}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:146
 msgid "You must select a session by {expiration_date} to access the course."
-msgstr "برای دسترسی به دوره باید یک جلسه تا تاریخ {expired_date} انتخاب کنید."
+msgstr "برای دسترسی به دوره باید یک جلسه تا تاریخ {expiration_date} انتخاب کنید."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:148
 msgid "You must select a session to access the course."
@@ -6641,7 +6641,7 @@ msgstr "تبریک می‌گوییم، {user_name}!"
 
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:22
 msgid "You worked hard to earn your certificate from {accomplishment_copy_course_org} {dash} share it with colleagues, friends, and family to get the word out about what you mastered in {accomplishment_course_title}."
-msgstr "شما سخت تلاش کردید تا گواهینامه خود را از طریق {{attompement_copy_course_org} {dash} به اشتراک بگذارید و آن را با همکاران، دوستان و خانواده خود به اشتراک بگذارید تا در مورد آنچه در {accomplishment_course_title} تسلط دارید صحبت کنید."
+msgstr "شما سخت تلاش کردید تا گواهینامه خود را از طریق {{accomplishment_copy_course_org} {dash} به اشتراک بگذارید و آن را با همکاران، دوستان و خانواده خود به اشتراک بگذارید تا در مورد آنچه در {accomplishment_course_title} تسلط دارید صحبت کنید."
 
 #: themes/edx.org/lms/templates/certificates/_accomplishment-banner.html:35
 msgid "Share this certificate on Facebook (opens a new tab/window)"
@@ -6681,7 +6681,7 @@ msgstr "{b_start} از مأموریت ما پشتیبانی کنید."
 
 #: themes/edx.org/lms/templates/course_modes/choose.html:171
 msgid "{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified certificates to help fund free education for everyone globally"
-msgstr "{b_start} از مأموریت ما پشتیبانی کنید"
+msgstr "{b_start} از مأموریت ما پشتیبانی کنید{b_end}"
 
 #: themes/edx.org/lms/templates/header/navbar-authenticated.html:27
 msgid "Find Courses"
@@ -6893,7 +6893,7 @@ msgstr "ما درخواستی برای تغییر پست الکترونیکی م
 
 #: themes/stanford-style/lms/templates/emails/reject_name_change.txt:5
 msgid "We are sorry. Our course staff did not approve your request to change your name from {old_name} to {new_name}. If you need further assistance, please e-mail the tech support at {email}"
-msgstr "متاسفیم. کارکنان دوره ما درخواست شما را برای تغییر نام شما از {old_name} به {new_name} تأیید نکردند. اگر به کمک بیشتری نیاز دارید، لطفاً به پشتیبانی فنی نامه الکترونیکی ارسال کنید"
+msgstr "متاسفیم. کارکنان دوره ما درخواست شما را برای تغییر نام شما از {old_name} به {new_name} تأیید نکردند. اگر به کمک بیشتری نیاز دارید، لطفاً به پشتیبانی فنی نامه الکترونیکی {email} ارسال کنید"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:12
 msgid "Put your Terms of Service here!"

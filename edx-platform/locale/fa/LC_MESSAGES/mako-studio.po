@@ -1644,7 +1644,7 @@ msgstr "انتقال مالکیت"
 
 #: cms/templates/manage_users.html:113
 msgid "Every course must have an Admin. If you are the Admin and you want to transfer ownership of the course, click <strong>Add admin access</strong> to make another user the Admin, then ask that user to remove you from the Course Team list."
-msgstr "هر دوره باید مدیر داشته باشد. اگر مدیر هستید و می‌خواهید مالکیت دوره را انتقال دهید، روی <strong> افزودن دسترسی مدیر </ strong> کلیک کنید تا کاربر دیگری به مدیر تبدیل شود، سپس از آن کاربر بخواهید شما را از لیست تیم دوره حذف کند."
+msgstr "هر دوره باید مدیر داشته باشد. اگر مدیر هستید و می‌خواهید مالکیت دوره را انتقال دهید، روی <strong> افزودن دسترسی مدیر </strong> کلیک کنید تا کاربر دیگری به مدیر تبدیل شود، سپس از آن کاربر بخواهید شما را از لیست تیم دوره حذف کند."
 
 #: cms/templates/manage_users_lib.html:11
 msgid "Library User Access"
