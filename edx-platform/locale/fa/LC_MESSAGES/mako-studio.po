@@ -1,4 +1,4 @@
-# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)
+# edX translation file
 # Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -18,1704 +18,1332 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2020-03-22 20:42+0000\n"
-"PO-Revision-Date: 2020-01-19 20:46+0000\n"
+"PO-Revision-Date: 2021-01-02 18:25+0330\n"
 "Last-Translator: saeed farzad <security.registered@gmail.com>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
-"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 1.3\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2\n"
 
-#: cms/templates/404.html
+#: cms/templates/404.html:19
 msgid "The page that you were looking for was not found."
-msgstr "صفحه مورد نظر شما یافت نشد"
+msgstr "صفحه مورد نظر شما یافت نشد."
 
-#: cms/templates/404.html
-msgid ""
-"Go back to the {homepage} or let us know about any pages that may have been "
-"moved at {email}."
-msgstr ""
-"به صفحه اصلی {homepage}  بروید و توسط {email} ما را از هر جابجایی در صفحات "
-"با خبر فرمایید."
+#: cms/templates/404.html:20
+msgid "Go back to the {homepage} or let us know about any pages that may have been moved at {email}."
+msgstr "به صفحه اصلی {homepage} بروید و توسط {email} ما را از هر جابجایی در صفحات با خبر فرمایید."
 
-#: cms/templates/500.html
+#: cms/templates/500.html:8
 msgid "{studio_name} Server Error"
 msgstr "خطای سرور {studio_name}"
 
-#: cms/templates/500.html
+#: cms/templates/500.html:19
 msgid "The {em_start}{studio_name}{em_end} servers encountered an error"
 msgstr "سرور {em_start} {studio_name} {em_end} با خطا مواجه شده است"
 
-#: cms/templates/500.html
-msgid ""
-"An error occurred in {studio_name} and the page could not be loaded. Please "
-"try again in a few moments."
-msgstr ""
-"در حال حاضر به علت بروز خطایی در {studio_name}، صفحه مورد نظر شما در دسترس "
-"نمی باشد. لطفاً چند لحظه دیگر دوباره امتحان کنید."
+#: cms/templates/500.html:28
+msgid "An error occurred in {studio_name} and the page could not be loaded. Please try again in a few moments."
+msgstr "در حال حاضر به علت بروز خطایی در {studio_name} صفحه مورد نظر شما در دسترس نمی‌باشد. لطفاً چند لحظه دیگر دوباره امتحان کنید."
 
-#: cms/templates/500.html
-msgid ""
-"We've logged the error and our staff is currently working to resolve this "
-"error as soon as possible."
-msgstr ""
-"اشکالی وجود دارد، کارمندان ما در حال بر طرف کردن این مشکلات در اسرع وقت می "
-"باشند."
+#: cms/templates/500.html:31
+msgid "We've logged the error and our staff is currently working to resolve this error as soon as possible."
+msgstr "اشکالی وجود دارد، کارمندان ما در حال بر طرف کردن این مشکلات در اسرع وقت می‌باشند."
 
-#: cms/templates/500.html
+#: cms/templates/500.html:32
 msgid "If the problem persists, please email us at {email_link}."
-msgstr ""
-"اگر هنوز مشکل پابرجاست،‌ لطفا با آدرس {email_link} به ما پست الکترونیکی "
-"بزنید."
+msgstr "اگر هنوز مشکل پابرجاست،‌ لطفا با آدرس {email_link} به ما ایمیل بزنید."
 
-#: cms/templates/accessibility.html
+#: cms/templates/accessibility.html:10
 msgid "Studio Accessibility Policy"
-msgstr ""
+msgstr "خط مشی دسترسی استودیو"
 
-#: cms/templates/asset_index.html cms/templates/asset_index.html
-#: cms/templates/widgets/header.html
+#: cms/templates/asset_index.html:10 cms/templates/asset_index.html:28 cms/templates/widgets/header.html:70
 msgid "Files & Uploads"
 msgstr "فایل‌ها و آپلودها"
 
-#: cms/templates/certificates.html
+#: cms/templates/certificates.html:14
 msgid "Course Certificates"
-msgstr "گواهینامه های دوره"
+msgstr "گواهینامه‌های دوره"
 
-#: cms/templates/certificates.html cms/templates/certificates.html
-#: cms/templates/certificates.html cms/templates/export.html
-#: cms/templates/widgets/header.html
+#: cms/templates/certificates.html:56 cms/templates/certificates.html:66 cms/templates/certificates.html:89 cms/templates/export.html:217 cms/templates/widgets/header.html:108
 msgid "Certificates"
-msgstr "گواهینامه ها"
+msgstr "گواهینامه‌ها"
 
-#: cms/templates/certificates.html
+#: cms/templates/certificates.html:70
 msgid "This module is not enabled."
 msgstr "این ماژول غیرفعال است."
 
-#: cms/templates/certificates.html
+#: cms/templates/certificates.html:76
 msgid "This course does not use a mode that offers certificates."
-msgstr ""
+msgstr "این دوره از حالتی که گواهینامه‌ها را ارائه می‌دهد استفاده نمی‌کند."
 
-#: cms/templates/certificates.html
+#: cms/templates/certificates.html:90
 msgid "Working with Certificates"
-msgstr ""
+msgstr "کار با گواهینامه‌ها"
 
-#: cms/templates/certificates.html
-msgid ""
-"Specify a course title to use on the certificate if the course's official "
-"title is too long to be displayed well."
-msgstr ""
+#: cms/templates/certificates.html:91
+msgid "Specify a course title to use on the certificate if the course's official title is too long to be displayed well."
+msgstr "اگر عنوان رسمی دوره خیلی طولانی است که به خوبی نمایش داده نمی‌شود، عنوان دوره را برای استفاده در گواهی مشخص کنید."
 
-#: cms/templates/certificates.html
-msgid ""
-"For verified certificates, specify between one and four signatories and "
-"upload the associated images."
-msgstr ""
+#: cms/templates/certificates.html:92
+msgid "For verified certificates, specify between one and four signatories and upload the associated images."
+msgstr "برای گواهی‌های تأیید‌شده، بین یک تا چهار امضا کننده مشخص کنید و تصاویر مرتبط را بارگذاری کنید."
 
-#: cms/templates/certificates.html
-msgid ""
-"To edit or delete a certificate before it is activated, hover over the top "
-"right corner of the form and select {em_start}Edit{em_end} or the delete "
-"icon."
-msgstr ""
+#: cms/templates/certificates.html:93
+msgid "To edit or delete a certificate before it is activated, hover over the top right corner of the form and select {em_start}Edit{em_end} or the delete icon."
+msgstr "برای ویرایش یا حذف گواهی قبل از فعال شدن، بالای گوشه سمت راست فرم قرار دهید و {em_start} ویرایش {em_end} یا نماد حذف را انتخاب کنید."
 
-#: cms/templates/certificates.html
-msgid ""
-"To view a sample certificate, choose a course mode and select "
-"{em_start}Preview Certificate{em_end}."
-msgstr ""
+#: cms/templates/certificates.html:94
+msgid "To view a sample certificate, choose a course mode and select {em_start}Preview Certificate{em_end}."
+msgstr "برای مشاهده نمونه گواهی، حالت دوره را انتخاب کنید و {em_start} گواهی پیش نمایش {em_end} را انتخاب کنید."
 
-#: cms/templates/certificates.html
+#: cms/templates/certificates.html:96
 msgid "Issuing Certificates to Learners"
-msgstr ""
+msgstr "صدور گواهینامه برای فراگیران"
 
-#: cms/templates/certificates.html
-msgid ""
-"To begin issuing course certificates, a course team member with either the "
-"Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
-"members with these roles can edit or delete an activated certificate."
-msgstr ""
+#: cms/templates/certificates.html:97
+msgid "To begin issuing course certificates, a course team member with either the Staff or Admin role selects {em_start}Activate{em_end}. Only course team members with these roles can edit or delete an activated certificate."
+msgstr "برای شروع صدور گواهینامه‌های دوره، یک عضو تیم دوره با عنوان شغلی کارمند یا مدیر، {em_start} فعال سازی {em_end} را انتخاب می‌کند. فقط اعضای تیم دوره با این نقش‌ها می‌توانند یک گواهی فعال شده را ویرایش یا حذف کنند."
 
-#: cms/templates/certificates.html
-msgid ""
-"{em_start}Do not{em_end} delete certificates after a course has started; "
-"learners who have already earned certificates will no longer be able to "
-"access them."
-msgstr ""
+#: cms/templates/certificates.html:98
+msgid "{em_start}Do not{em_end} delete certificates after a course has started; learners who have already earned certificates will no longer be able to access them."
+msgstr "{em_start} بعد از شروع دوره، {em_end} گواهی‌ها را حذف نکنید. فراگیرانی که قبلاً گواهینامه دریافت کرده‌اند دیگر نمی‌توانند به آن‌ها دسترسی پیدا کنند."
 
-#: cms/templates/certificates.html
+#: cms/templates/certificates.html:99
 msgid "Learn more about certificates"
-msgstr "درباره گواهینامه ها بیشتر بدانید"
+msgstr "درباره گواهینامه‌ها بیشتر بدانید"
 
-#: cms/templates/certificates.html cms/templates/certificates.html
-#: cms/templates/group_configurations.html
-#: cms/templates/group_configurations.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings_advanced.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
-#: cms/templates/settings_graders.html
+#: cms/templates/certificates.html:110 cms/templates/certificates.html:111 cms/templates/group_configurations.html:121 cms/templates/group_configurations.html:122 cms/templates/settings.html:662 cms/templates/settings.html:663 cms/templates/settings_advanced.html:102 cms/templates/settings_advanced.html:103
+#: cms/templates/settings_graders.html:158 cms/templates/settings_graders.html:159
 msgid "Other Course Settings"
 msgstr "سایر تنظیمات دوره"
 
-#: cms/templates/certificates.html cms/templates/group_configurations.html
-#: cms/templates/settings_advanced.html
+#: cms/templates/certificates.html:113 cms/templates/group_configurations.html:124 cms/templates/settings_advanced.html:105
 msgid "Details & Schedule"
-msgstr ""
+msgstr "جزئیات و برنامه"
 
-#: cms/templates/certificates.html cms/templates/group_configurations.html
-#: cms/templates/settings.html cms/templates/settings_advanced.html
-#: cms/templates/settings_graders.html cms/templates/widgets/header.html
+#: cms/templates/certificates.html:114 cms/templates/group_configurations.html:125 cms/templates/settings.html:665 cms/templates/settings_advanced.html:106 cms/templates/settings_graders.html:43 cms/templates/widgets/header.html:95
 msgid "Grading"
 msgstr "نمره دادن"
 
-#: cms/templates/certificates.html cms/templates/group_configurations.html
-#: cms/templates/manage_users.html cms/templates/settings.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
-#: cms/templates/widgets/header.html
+#: cms/templates/certificates.html:115 cms/templates/group_configurations.html:126 cms/templates/manage_users.html:30 cms/templates/settings.html:666 cms/templates/settings_advanced.html:107 cms/templates/settings_graders.html:162 cms/templates/widgets/header.html:98
 msgid "Course Team"
-msgstr "گروه دوره "
+msgstr "گروه دوره"
 
-#: cms/templates/certificates.html cms/templates/group_configurations.html
-#: cms/templates/settings.html cms/templates/settings_advanced.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
-#: cms/templates/widgets/header.html
+#: cms/templates/certificates.html:116 cms/templates/group_configurations.html:127 cms/templates/settings.html:668 cms/templates/settings_advanced.html:13 cms/templates/settings_advanced.html:39 cms/templates/settings_graders.html:164 cms/templates/widgets/header.html:104
 msgid "Advanced Settings"
 msgstr "تنظیمات پیشرفته"
 
-#: cms/templates/certificates.html cms/templates/group_configurations.html
-#: cms/templates/group_configurations.html cms/templates/settings.html
-#: cms/templates/settings_advanced.html cms/templates/settings_graders.html
-#: cms/templates/widgets/header.html
+#: cms/templates/certificates.html:117 cms/templates/group_configurations.html:16 cms/templates/group_configurations.html:45 cms/templates/settings.html:667 cms/templates/settings_advanced.html:108 cms/templates/settings_graders.html:163 cms/templates/widgets/header.html:101
 msgid "Group Configurations"
 msgstr "تنظیمات گروه"
 
-#: cms/templates/checklists.html cms/templates/checklists.html
-#: cms/templates/widgets/header.html
+#: cms/templates/checklists.html:15 cms/templates/checklists.html:33 cms/templates/widgets/header.html:138
 msgid "Checklists"
 msgstr "چک لیست"
 
-#: cms/templates/checklists.html cms/templates/export.html
-#: cms/templates/export_git.html cms/templates/import.html
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/checklists.html:32 cms/templates/export.html:43 cms/templates/export_git.html:18 cms/templates/import.html:32 cms/templates/widgets/header.html:122 cms/templates/widgets/header.html:179
 msgid "Tools"
-msgstr "ابزار"
+msgstr "ابزارها"
 
-#: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:94 cms/templates/studio_xblock_wrapper.html:96
 msgid "Duplicate"
 msgstr "تکراری"
 
-#: cms/templates/component.html
+#: cms/templates/component.html:19
 msgid "Duplicate this component"
-msgstr "این کامپوننت را کپی کن."
+msgstr "این مولفه را کپی کن"
 
-#: cms/templates/component.html cms/templates/component.html
-#: cms/templates/studio_xblock_wrapper.html
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/component.html:23 cms/templates/component.html:28 cms/templates/studio_xblock_wrapper.html:102 cms/templates/studio_xblock_wrapper.html:107
 msgid "Move"
 msgstr "انتقال"
 
-#: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/component.html:32 cms/templates/studio_xblock_wrapper.html:115 cms/templates/studio_xblock_wrapper.html:117
 msgid "Delete"
 msgstr "حذف"
 
-#: cms/templates/component.html
+#: cms/templates/component.html:34
 msgid "Delete this component"
-msgstr "این کامپوننت را حذف کن."
+msgstr "این مولفه را حذف کن"
 
-#: cms/templates/component.html cms/templates/edit-tabs.html
-#: cms/templates/edit-tabs.html cms/templates/studio_xblock_wrapper.html
+#: cms/templates/component.html:39 cms/templates/edit-tabs.html:117 cms/templates/edit-tabs.html:118 cms/templates/studio_xblock_wrapper.html:123
 msgid "Drag to reorder"
 msgstr "کشیدن برای ترتیب بندی مجدد"
 
-#: cms/templates/container.html cms/templates/library.html
+#: cms/templates/container.html:116 cms/templates/library.html:51
 msgid "Display Name"
 msgstr "نام را نشان بده"
 
-#: cms/templates/container.html cms/templates/container.html
-#: cms/templates/course-create-rerun.html
-#: cms/templates/course-create-rerun.html cms/templates/course_info.html
-#: cms/templates/course_info.html cms/templates/course_outline.html
-#: cms/templates/course_outline.html cms/templates/edit-tabs.html
-#: cms/templates/edit-tabs.html cms/templates/index.html
-#: cms/templates/index.html cms/templates/library.html
-#: cms/templates/library.html cms/templates/manage_users.html
-#: cms/templates/manage_users.html cms/templates/manage_users_lib.html
-#: cms/templates/manage_users_lib.html cms/templates/textbooks.html
-#: cms/templates/textbooks.html cms/templates/videos_index.html
-#: cms/templates/videos_index.html
+#: cms/templates/container.html:123 cms/templates/container.html:124 cms/templates/course-create-rerun.html:32 cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:43 cms/templates/course_info.html:44 cms/templates/course_outline.html:128 cms/templates/course_outline.html:129
+#: cms/templates/edit-tabs.html:37 cms/templates/edit-tabs.html:38 cms/templates/index.html:29 cms/templates/index.html:30 cms/templates/library.html:56 cms/templates/library.html:57 cms/templates/manage_users.html:33 cms/templates/manage_users.html:34 cms/templates/manage_users_lib.html:30
+#: cms/templates/manage_users_lib.html:31 cms/templates/textbooks.html:45 cms/templates/textbooks.html:46 cms/templates/videos_index.html:62 cms/templates/videos_index.html:63
 msgid "Page Actions"
 msgstr "صفحه عملیات"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:128
 msgid "Open the courseware in the LMS"
-msgstr ""
+msgstr "ابزار دوره در LMS را باز کنید"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:129
 msgid "View Live Version"
 msgstr "نمایش نسخه زنده"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:133
 msgid "Preview the courseware in the LMS"
-msgstr ""
+msgstr "پیش نمایش ابزار دوره آموزشی در LMS"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:134
 msgid "Preview"
 msgstr "پیش نمایش"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:166
 msgid "Adding components"
-msgstr "در حال افزودن کامپوننت ها"
+msgstr "در حال افزودن اجزاء"
 
-#: cms/templates/container.html
-msgid ""
-"Select a component type under {strong_start}Add New Component{strong_end}. "
-"Then select a template."
-msgstr ""
+#: cms/templates/container.html:167
+msgid "Select a component type under {strong_start}Add New Component{strong_end}. Then select a template."
+msgstr "نوع مولفه را در زیر {strong_start} اضافه کردن زیر مولفه جدید {strong_end} انتخاب کنید. سپس الگویی را انتخاب کنید."
 
-#: cms/templates/container.html
-msgid ""
-"The new component is added at the bottom of the page or group. You can then "
-"edit and move the component."
-msgstr ""
+#: cms/templates/container.html:171
+msgid "The new component is added at the bottom of the page or group. You can then edit and move the component."
+msgstr "مولفه جدید در پایین صفحه یا گروه اضافه می‌شود. سپس می‌توانید مولفه را ویرایش و منتقل کنید."
 
-#: cms/templates/container.html
+#: cms/templates/container.html:172
 msgid "Editing components"
-msgstr "ویرایش کامپوننت ها"
+msgstr "ویرایش مولفه‌ها"
 
-#: cms/templates/container.html
-msgid ""
-"Click the {strong_start}Edit{strong_end} icon in a component to edit its "
-"content."
-msgstr ""
+#: cms/templates/container.html:173
+msgid "Click the {strong_start}Edit{strong_end} icon in a component to edit its content."
+msgstr "برای ویرایش محتوای آن، روی نماد {strong_start} ویرایش {strong_end} در یک مولفه کلیک کنید."
 
-#: cms/templates/container.html
+#: cms/templates/container.html:177
 msgid "Reorganizing components"
-msgstr "سازماندهی مجدد کامپوننت ها"
+msgstr "سازماندهی مجدد مولفه‌ها"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:178
 msgid "Drag components to new locations within this component."
-msgstr ""
+msgstr "مولفه‌ها را به مکان‌های جدید درون این مولفه بکشید."
 
-#: cms/templates/container.html
+#: cms/templates/container.html:179
 msgid "For content experiments, you can drag components to other groups."
-msgstr ""
+msgstr "برای آزمایش محتوا، می‌توانید مولفه‌ها را به گروه‌های دیگر بکشید."
 
-#: cms/templates/container.html
+#: cms/templates/container.html:180
 msgid "Working with content experiments"
-msgstr ""
+msgstr "کار با آزمایش‌های محتوا"
 
-#: cms/templates/container.html
-msgid ""
-"Confirm that you have properly configured content in each of your experiment"
-" groups."
-msgstr ""
+#: cms/templates/container.html:181
+msgid "Confirm that you have properly configured content in each of your experiment groups."
+msgstr "تأیید کنید که هر یک از گروه‌های آزمایشی خود را به درستی پیکربندی کرده‌اید."
 
-#: cms/templates/container.html
+#: cms/templates/container.html:184
 msgid "Learn more about component containers"
-msgstr ""
+msgstr "درباره ظروف مولفه بیشتر بدانید"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:190
 msgid "Unit Location"
 msgstr "مکان واحد"
 
-#: cms/templates/container.html
+#: cms/templates/container.html:192
 msgid "Location ID"
 msgstr "شناسه مکان"
 
-#: cms/templates/container.html
-msgid ""
-"To create a link to this unit from an HTML component in this course, enter "
-"\"/jump_to_id/<location ID>\" as the URL value."
+#: cms/templates/container.html:195
+msgid "To create a link to this unit from an HTML component in this course, enter \"/jump_to_id/<location ID>\" as the URL value."
 msgstr ""
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:10
 msgid "Create a Course Rerun of:"
-msgstr ""
+msgstr "ایجاد یک دوره تکرار از:"
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:29
 msgid "Create a re-run of a course"
-msgstr ""
+msgstr "یک دوره را دوباره اجرا کنید"
 
-#: cms/templates/course-create-rerun.html
-#: cms/templates/course-create-rerun.html cms/templates/index.html
-#: cms/templates/index.html cms/templates/manage_users.html
-#: cms/templates/manage_users_lib.html
-#: cms/templates/videos_index_pagination.html
+#: cms/templates/course-create-rerun.html:36 cms/templates/course-create-rerun.html:121 cms/templates/index.html:123 cms/templates/index.html:183 cms/templates/manage_users.html:70 cms/templates/manage_users_lib.html:67 cms/templates/videos_index_pagination.html:15
 msgid "Cancel"
 msgstr "انصراف"
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:42
 msgid "You are creating a re-run from:"
-msgstr ""
+msgstr "شما در حال ایجاد یک اجرای مجدد از:"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"Provide identifying information for this re-run of the course. The original "
-"course is not affected in any way by a re-run."
-msgstr ""
+#: cms/templates/course-create-rerun.html:56
+msgid "Provide identifying information for this re-run of the course. The original course is not affected in any way by a re-run."
+msgstr "اطلاعات شناسایی را برای این دوره مجدد ارائه دهید. دوره اصلی به هیچ وجه تحت تأثیر اجرای مجدد قرار نمی‌گیرد."
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"Note: Together, the organization, course number, and course run must "
-"uniquely identify this new course instance."
-msgstr ""
+#: cms/templates/course-create-rerun.html:57
+msgid "Note: Together, the organization, course number, and course run must uniquely identify this new course instance."
+msgstr "توجه: با هم‌، سازمان‌، شماره دوره و دوره باید به طور منحصر به فرد این دوره جدید را مشخص کند."
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:72
 msgid "Required Information to Create a re-run of a course"
-msgstr ""
+msgstr "اطلاعات مورد نیاز برای ایجاد مجدد دوره"
 
 #. Translators: This is an example name for a new course, seen when
 #. filling out the form to create a new course.
-#: cms/templates/course-create-rerun.html cms/templates/index.html
+#: cms/templates/course-create-rerun.html:77 cms/templates/index.html:75
 msgid "e.g. Introduction to Computer Science"
 msgstr "به عنوان مثال: آشنایی با علوم کامپیوتر"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"The public display name for the new course. (This name is often the same as "
-"the original course name.)"
-msgstr ""
-"نام دوره جدید که به عموم نشان داده می شود. (این نام اغلب با نام اصلی دوره "
-"یکسان است.)"
+#: cms/templates/course-create-rerun.html:79
+msgid "The public display name for the new course. (This name is often the same as the original course name.)"
+msgstr "نام دوره جدید که به عموم نشان داده می شود. (این نام اغلب با نام اصلی دوره یکسان است.)"
 
-#: cms/templates/course-create-rerun.html cms/templates/index.html
-#: cms/templates/index.html cms/templates/settings.html
+#: cms/templates/course-create-rerun.html:84 cms/templates/index.html:80 cms/templates/index.html:156 cms/templates/settings.html:70
 msgid "Organization"
-msgstr "سازمان "
+msgstr "سازمان"
 
 #. Translators: This is an example for the name of the organization sponsoring
 #. a course, seen when filling out the form to create a new course. The
 #. organization name cannot contain spaces.
 #. Translators: "e.g. UniversityX or OrganizationX" is a placeholder displayed
 #. when user put no data into this field.
-#: cms/templates/course-create-rerun.html cms/templates/index.html
-#: cms/templates/index.html
+#: cms/templates/course-create-rerun.html:85 cms/templates/index.html:83 cms/templates/index.html:157
 msgid "e.g. UniversityX or OrganizationX"
-msgstr "به عنوان مثال: UniversityX or OrganizationX "
+msgstr "به عنوان مثال: UniversityX or OrganizationX"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"The name of the organization sponsoring the new course. (This name is often "
-"the same as the original organization name.)"
-msgstr ""
+#: cms/templates/course-create-rerun.html:87
+msgid "The name of the organization sponsoring the new course. (This name is often the same as the original organization name.)"
+msgstr "نام سازمان حامی دوره جدید. (این نام غالباً همان نام اصلی سازمان است.)"
 
-#: cms/templates/course-create-rerun.html
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:88 cms/templates/course-create-rerun.html:108
 msgid "Note: No spaces or special characters are allowed."
-msgstr "نکته: هیج حرف خاص یا فاصله مجاز نمی باشد."
+msgstr "نکته: هیج کاراکتر خاص یا فاصله مجاز نمی‌باشد."
 
 #. Translators: This is an example for the number used to identify a course,
 #. seen when filling out the form to create a new course. The number here is
 #. short for "Computer Science 101". It can contain letters but cannot contain
 #. spaces.
-#: cms/templates/course-create-rerun.html cms/templates/index.html
+#: cms/templates/course-create-rerun.html:96 cms/templates/index.html:96
 msgid "e.g. CS101"
 msgstr "به عنوان مثال: CS101"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"The unique number that identifies the new course within the organization.  "
-"(This number will be the same as the original course number and cannot be "
-"changed.)"
-msgstr ""
+#: cms/templates/course-create-rerun.html:98
+msgid "The unique number that identifies the new course within the organization.  (This number will be the same as the original course number and cannot be changed.)"
+msgstr "شماره منحصر به فردی که دوره جدید را درون سازمان مشخص می‌کند. (این شماره همان شماره اصلی دوره خواهد بود و قابل تغییر نیست)"
 
-#: cms/templates/course-create-rerun.html cms/templates/index.html
-#: cms/templates/settings.html
+#: cms/templates/course-create-rerun.html:104 cms/templates/index.html:105 cms/templates/settings.html:82
 msgid "Course Run"
 msgstr "دوره اجرا"
 
 #. Translators: This is an example for the "run" used to identify different
 #. instances of a course, seen when filling out the form to create a new
 #. course.
-#: cms/templates/course-create-rerun.html cms/templates/index.html
+#: cms/templates/course-create-rerun.html:105 cms/templates/index.html:108
 msgid "e.g. 2014_T1"
 msgstr "به عنوان مثال: 2014_T1"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"The term in which the new course will run. (This value is often different "
-"than the original course run value.)"
-msgstr ""
+#: cms/templates/course-create-rerun.html:107
+msgid "The term in which the new course will run. (This value is often different than the original course run value.)"
+msgstr "ترمی که دوره جدید در آن اجرا می‌شود. (این مقدار اغلب با مقدار اجرای دوره اصلی متفاوت است.)"
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:120
 msgid "Create Re-run"
 msgstr "اجرای دوباره را درست کن"
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:130
 msgid "When will my course re-run start?"
-msgstr ""
+msgstr "چه زمانی اجرای مجدد دوره من شروع می‌شود؟"
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:132
 msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
-msgstr ""
+msgstr "دوره جدید قرار است در تاریخ 1 ژانویه 2030 ساعت 24 (UTC) آغاز شود."
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:137
 msgid "What transfers from the original course?"
-msgstr ""
+msgstr "چه انتقالاتی از دوره اصلی است؟"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"The new course has the same course outline and content as the original "
-"course. All problems, videos, announcements, and other files are duplicated "
-"to the new course."
-msgstr ""
+#: cms/templates/course-create-rerun.html:139
+msgid "The new course has the same course outline and content as the original course. All problems, videos, announcements, and other files are duplicated to the new course."
+msgstr "دوره جدید دارای همان رئوس مطالب و محتوای دوره اصلی است. تمام مشکلات، فیلم‌ها، اطلاعیه‌ها و سایر فایل‌ها در دوره جدید کپی می‌شوند."
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:144
 msgid "What does not transfer from the original course?"
-msgstr ""
+msgstr "چه چیزی از دوره اصلی منتقل نمی‌شود؟"
 
-#: cms/templates/course-create-rerun.html
-msgid ""
-"You are the only member of the new course's staff. No students are enrolled "
-"in the course, and there is no student data. There is no content in the "
-"discussion topics or wiki."
-msgstr ""
+#: cms/templates/course-create-rerun.html:146
+msgid "You are the only member of the new course's staff. No students are enrolled in the course, and there is no student data. There is no content in the discussion topics or wiki."
+msgstr "شما تنها عضو کارکنان دوره جدید هستید. هیچ دانشجویی در این دوره ثبت نام نشده‌است و هیچ داده دانشجویی وجود ندارد. هیچ محتوایی در موضوعات گفت‌وگو یا ویکی وجود ندارد."
 
-#: cms/templates/course-create-rerun.html
+#: cms/templates/course-create-rerun.html:151
 msgid "Learn more about Course Re-runs"
-msgstr ""
+msgstr "درباره اجرای مجدد دوره‌ها بیشتر بدانید"
 
-#: cms/templates/course_info.html cms/templates/course_info.html
+#: cms/templates/course_info.html:13 cms/templates/course_info.html:40
 msgid "Course Updates"
-msgstr "به روز شده های دوره"
+msgstr "به روز شده‌های دوره"
 
-#: cms/templates/course_info.html
+#: cms/templates/course_info.html:47
 msgid "New Update"
-msgstr "به روز رسانی جدید "
+msgstr "به روز رسانی جدید"
 
-#: cms/templates/course_info.html
-msgid ""
-"Use course updates to notify students of important dates or exams, highlight"
-" particular discussions in the forums, announce schedule changes, and "
-"respond to student questions. You add or edit updates in HTML."
-msgstr ""
+#: cms/templates/course_info.html:57
+msgid "Use course updates to notify students of important dates or exams, highlight particular discussions in the forums, announce schedule changes, and respond to student questions. You add or edit updates in HTML."
+msgstr "با استفاده از به روزرسانی دوره‌ها دانشجویان را از تاریخ‌های مهم یا امتحانات مطلع کنید، گفت‌گوهای خاص را در انجمن‌ها برجسته کنید، تغییرات برنامه را اعلام کنید و به سوالات دانشجویان پاسخ دهید. شما به روزرسانی‌ها را در HTML اضافه یا ویرایش می‌کنید."
 
-#: cms/templates/course_outline.html
-msgid ""
-"This course was created as a re-run. Some manual configuration is needed."
-msgstr ""
+#: cms/templates/course_outline.html:51
+msgid "This course was created as a re-run. Some manual configuration is needed."
+msgstr "این دوره به عنوان یک دوره مجدد ایجاد شده است. به برخی از تنظیمات دستی نیاز است."
 
-#: cms/templates/course_outline.html
-msgid ""
-"No course content is currently visible, and no learners are enrolled. Be "
-"sure to review and reset all dates, including the Course Start Date; set up "
-"the course team; review course updates and other assets for dated material; "
-"and seed the discussions and wiki."
-msgstr ""
+#: cms/templates/course_outline.html:53
+msgid "No course content is currently visible, and no learners are enrolled. Be sure to review and reset all dates, including the Course Start Date; set up the course team; review course updates and other assets for dated material; and seed the discussions and wiki."
+msgstr "در حال حاضر هیچ محتوای درسی قابل مشاهده نیست و هیچ فراگیری نیز ثبت نام نمی‌کند. حتماً همه تاریخ‌ها، از جمله تاریخ شروع دوره را بررسی و تنظیم مجدد کنید. تیم دوره را تنظیم کنید به روزرسانی‌های دوره و سایر دارایی‌های مربوط به مطالب تاریخ را مرور کنید. و گفت‌وگو و ویکی را بکار ببرید."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:74
 msgid "This course uses features that are no longer supported."
-msgstr ""
+msgstr "این دوره از ویژگی‌هایی استفاده می‌کند که دیگر پشتیبانی نمی‌شوند."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:78
 msgid "You must delete or replace the following components."
-msgstr ""
+msgstr "شما باید اجزای زیر را حذف یا جایگزین کنید."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:79
 msgid "Unsupported Components"
-msgstr ""
+msgstr "اجزای پشتیبانی نشده"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:86
 msgid "Deprecated Component"
-msgstr "کامپوننت منسوخ شده"
+msgstr "اجزا منسوخ شده"
 
-#: cms/templates/course_outline.html
-msgid ""
-"To avoid errors, {platform_name} strongly recommends that you remove "
-"unsupported features from the course advanced settings. To do this, go to "
-"the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
-"Module List\" setting, and then delete the following modules from the list."
-msgstr ""
+#: cms/templates/course_outline.html:98
+msgid "To avoid errors, {platform_name} strongly recommends that you remove unsupported features from the course advanced settings. To do this, go to the {link_start}Advanced Settings page{link_end}, locate the \"Advanced Module List\" setting, and then delete the following modules from the list."
+msgstr "برای جلوگیری از خطا، {platform_name} اکیداً توصیه می‌کند ویژگی‌های پشتیبانی نشده را از تنظیمات پیشرفته دوره حذف کنید. برای این کار، به {link_start} صفحه تنظیمات پیشرفته {link_end} بروید، تنظیمات \"فهرست واحد پیشرفته\" را بیابید و واحدهای زیر را از فهرست حذف کنید."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:104
 msgid "Unsupported Advance Modules"
-msgstr ""
+msgstr "واحدهای پیشرفته پشتیبانی نشده"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:132
 msgid "Click to add a new section"
-msgstr ""
+msgstr "برای افزودن بخش جدید کلیک کنید"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:133
 msgid "New Section"
 msgstr "بخش جدید"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:138
 msgid "Reindex current course"
 msgstr "فهرست بندی مجدد دوره جاری"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:139
 msgid "Reindex"
 msgstr "فهرست بندی مجدد"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:145
 msgid "Collapse All Sections"
-msgstr "جمع کردن همه انتخاب شده ها"
+msgstr "جمع کردن همه انتخاب شده‌ها"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:146
 msgid "Expand All Sections"
-msgstr "گسترش تمامی انتخاب شده ها"
+msgstr "گسترش تمامی انتخاب شده‌ها"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:151
 msgid "Click to open the courseware in the LMS in a new tab"
-msgstr ""
+msgstr "برای باز کردن ابزار دوره‌های آموزشی در LMS در یک برگه جدید کلیک کنید"
 
-#: cms/templates/course_outline.html cms/templates/edit-tabs.html
+#: cms/templates/course_outline.html:151 cms/templates/edit-tabs.html:44
 msgid "View Live"
 msgstr "نمایش زنده"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:215
 msgid "Creating your course organization"
 msgstr "ایجاد ساختار دوره"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:216
 msgid "You add sections, subsections, and units directly in the outline."
-msgstr "شما می توانید بخش، زیربخش، و واحدها را در طرح کلی اضافه کنید."
+msgstr "شما می‌توانید بخش، زیربخش، و واحدها را در طرح کلی اضافه کنید."
 
-#: cms/templates/course_outline.html
-msgid ""
-"Create a section, then add subsections and units. Open a unit to add course "
-"components."
-msgstr ""
-"یک بخش ایجاد کنید پس از آن زیربخش ها و واحد را اضافه کنید. در واحد ها می "
-"توانید کامپوننت به دوره اضافه کنید."
+#: cms/templates/course_outline.html:217
+msgid "Create a section, then add subsections and units. Open a unit to add course components."
+msgstr "یک بخش ایجاد کنید پس از آن زیربخش‌ها و واحد را اضافه کنید. در واحد‌ها می توانید مولفه‌ها را به دوره اضافه کنید."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:220
 msgid "Reorganizing your course"
-msgstr "سازماندهی مجدد کامپوننت ها"
+msgstr "سازماندهی مجدد مولفه‌ها"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:221
 msgid "Drag sections, subsections, and units to new locations in the outline."
-msgstr "بخش ها، زیر بخش ها، و واحد ها را به مکان های جدید در طرح دوره بکشید."
+msgstr "بخش‌ها، زیر بخش‌ها، و واحدها را به مکان‌های جدید در طرح دوره بکشید."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:223
 msgid "Learn more about the course outline"
-msgstr ""
+msgstr "درباره طرح کلی دوره بیشتر بدانید"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:227
 msgid "Setting release dates and grading policies"
-msgstr ""
+msgstr "تنظیم تاریخ انتشار و سیاست‌های رتبه بندی"
 
-#: cms/templates/course_outline.html
-msgid ""
-"Select the Configure icon for a section or subsection to set its release "
-"date. When you configure a subsection, you can also set the grading policy "
-"and due date."
-msgstr ""
+#: cms/templates/course_outline.html:228
+msgid "Select the Configure icon for a section or subsection to set its release date. When you configure a subsection, you can also set the grading policy and due date."
+msgstr "برای تنظیم تاریخ انتشار، نماد پیکربندی را برای یک بخش یا بخش فرعی انتخاب کنید. هنگام پیکربندی یک زیربخش، می‌توانید خط مشی رتبه بندی و تاریخ سررسید را نیز تنظیم کنید."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:230
 msgid "Learn more about grading policy settings"
-msgstr ""
+msgstr "درباره تنظیمات خط مشی رتبه بندی بیشتر بیاموزید"
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:234
 msgid "Changing the content learners see"
-msgstr ""
+msgstr "تغییر محتوایی که فراگیران می‌بینند"
 
-#: cms/templates/course_outline.html
-msgid ""
-"To publish draft content, select the Publish icon for a section, subsection,"
-" or unit."
-msgstr ""
-"برای منتشر کردن محتوای پیش نویس، آیکون انتشار در بخش، زیربخش، یا واحد را "
-"انتخاب کنید."
+#: cms/templates/course_outline.html:235
+msgid "To publish draft content, select the Publish icon for a section, subsection, or unit."
+msgstr "برای منتشر کردن محتوای پیش نویس، آیکون انتشار در بخش، زیربخش، یا واحد را انتخاب کنید."
 
-#: cms/templates/course_outline.html
-msgid ""
-"To make a section, subsection, or unit unavailable to learners, select the "
-"Configure icon for that level, then select the appropriate "
-"{em_start}Hide{em_end} option. Grades for hidden sections, subsections, and "
-"units are not included in grade calculations."
-msgstr ""
+#: cms/templates/course_outline.html:236
+msgid "To make a section, subsection, or unit unavailable to learners, select the Configure icon for that level, then select the appropriate {em_start}Hide{em_end} option. Grades for hidden sections, subsections, and units are not included in grade calculations."
+msgstr "برای خارج کردن یک بخش، زیربخش یا واحد از دسترس فراگیران، نماد پیکربندی آن سطح را انتخاب کنید، سپس گزینه مناسب {em_start} مخفی کردن {em_end} را انتخاب کنید. نمرات بخش‌های پنهان، زیرمجموعه‌ها و واحدها در محاسبات رتبه لحاظ نمی‌شوند."
 
-#: cms/templates/course_outline.html
-msgid ""
-"To hide the content of a subsection from learners after the subsection due "
-"date has passed, select the Configure icon for a subsection, then select "
-"{em_start}Hide content after due date{em_end}. Grades for the subsection "
-"remain included in grade calculations."
-msgstr ""
+#: cms/templates/course_outline.html:237
+msgid "To hide the content of a subsection from learners after the subsection due date has passed, select the Configure icon for a subsection, then select {em_start}Hide content after due date{em_end}. Grades for the subsection remain included in grade calculations."
+msgstr "برای پنهان کردن محتوای یک زیرشاخه از فراگیران پس از سپری شدن تاریخ سررسید زیر بخش، نماد پیکربندی یک زیر بخش را انتخاب کنید، سپس {em_start} پنهان کردن محتوا پس از تاریخ سررسید {em_end} را انتخاب کنید. نمرات زیرمجموعه در محاسبات نمره باقی مانده است."
 
-#: cms/templates/course_outline.html
+#: cms/templates/course_outline.html:239
 msgid "Learn more about content visibility settings"
-msgstr ""
+msgstr "درباره تنظیمات قابلیت مشاهده محتوا بیشتر بیاموزید"
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
-#: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
-#: cms/templates/export.html cms/templates/widgets/header.html
+#: cms/templates/edit-tabs.html:11 cms/templates/edit-tabs.html:34 cms/templates/export.html:201 cms/templates/widgets/header.html:67
 msgid "Pages"
-msgstr ""
+msgstr "صفحات"
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:41
 msgid "New Page"
-msgstr "صفحه ی جدید"
+msgstr "صفحه‌ی جدید"
 
-#: cms/templates/edit-tabs.html
-msgid ""
-"Note: Pages are publicly visible. If users know the URL of a page, they can "
-"view the page even if they are not registered for or logged in to your "
-"course."
-msgstr ""
+#: cms/templates/edit-tabs.html:56
+msgid "Note: Pages are publicly visible. If users know the URL of a page, they can view the page even if they are not registered for or logged in to your course."
+msgstr "توجه: صفحات به صورت عمومی قابل مشاهده هستند. اگر کاربران نشانی اینترنتی یک صفحه را بدانند، حتی اگر در دوره شما ثبت نام نکرده باشند یا وارد سیستم نشوند، می‌توانند صفحه را مشاهده کنند."
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:103
 msgid "Show this page"
-msgstr ""
+msgstr "این صفحه را نشان بده"
 
-#: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:105 cms/templates/edit-tabs.html:107
 msgid "Show/hide page"
-msgstr ""
+msgstr "نمایش/مخفی کردن صفحه"
 
-#: cms/templates/edit-tabs.html cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:121 cms/templates/edit-tabs.html:122
 msgid "This page cannot be reordered"
-msgstr ""
+msgstr "ترتیب مجدد این صفحه امکان پذیر نیست"
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:135
 msgid "You can add additional custom pages to your course."
-msgstr ""
+msgstr "می‌توانید صفحات سفارشی دیگری را به دوره خود اضافه کنید."
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:135
 msgid "Add a New Page"
-msgstr ""
+msgstr "اضافه کردن صفحه جدید"
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:143
 msgid "What are pages?"
-msgstr ""
+msgstr "صفحات چه هستند؟"
 
-#: cms/templates/edit-tabs.html
-msgid ""
-"Pages are listed horizontally at the top of your course. Default pages "
-"(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
-" custom pages that you create."
-msgstr ""
+#: cms/templates/edit-tabs.html:144
+msgid "Pages are listed horizontally at the top of your course. Default pages (Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and custom pages that you create."
+msgstr "صفحات به صورت افقی در بالای دوره شما لیست شده‌اند. صفحات پیش‌فرض (صفحه اصلی، دوره، گفت‌وگو، ویکی و پیشرفت) توسط کتاب‌های درسی و صفحات سفارشی که ایجاد می‌کنید دنبال می‌شوند."
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:147
 msgid "Custom pages"
-msgstr ""
+msgstr "صفحات سفارشی"
 
-#: cms/templates/edit-tabs.html
-msgid ""
-"You can create and edit custom pages to provide students with additional "
-"course content. For example, you can create pages for the grading policy, "
-"course slides, and a course calendar. "
-msgstr ""
+#: cms/templates/edit-tabs.html:148
+msgid "You can create and edit custom pages to provide students with additional course content. For example, you can create pages for the grading policy, course slides, and a course calendar. "
+msgstr "می‌توانید صفحات سفارشی ایجاد و ویرایش کنید تا محتوای دوره اضافی در اختیار دانشجویان قرار گیرد. به عنوان مثال، می‌توانید برای خط‌ مشی رتبه بندی، اسلایدها و تقویم دروس صفحه ایجاد کنید. "
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:151
 msgid "How do pages look to students in my course?"
-msgstr ""
+msgstr "در دوره من صفحات برای دانشجویان چگونه به نظر می‌رسد؟"
 
-#: cms/templates/edit-tabs.html
-msgid ""
-"Students see the default and custom pages at the top of your course and use "
-"these links to navigate."
-msgstr ""
+#: cms/templates/edit-tabs.html:152
+msgid "Students see the default and custom pages at the top of your course and use these links to navigate."
+msgstr "دانشجویان صفحات پیش‌فرض و سفارشی را در بالای دوره شما می‌بینند و از این لینک‌ها برای پیمایش استفاده می‌کنند."
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:152
 msgid "See an example"
-msgstr ""
+msgstr "مشاهده یک نمونه"
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:160
 msgid "Pages in Your Course"
-msgstr ""
+msgstr "صفحات در دوره شما"
 
-#: cms/templates/edit-tabs.html
+#: cms/templates/edit-tabs.html:162
 msgid "Preview of Pages in your course"
-msgstr ""
+msgstr "بازبینی صفحات در دوره شما"
 
-#: cms/templates/edit-tabs.html
-msgid ""
-"Pages appear in your course's top navigation bar. The default pages (Home, "
-"Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
-" pages."
-msgstr ""
+#: cms/templates/edit-tabs.html:163
+msgid "Pages appear in your course's top navigation bar. The default pages (Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and custom pages."
+msgstr "صفحات در بالای نوار نشانی دوره شما ظاهر می‌شوند. صفحات پیش‌فرض (صفحه اصلی، دوره، گفت‌وگو، ویکی و پیشرفت) توسط کتاب‌های درسی و صفحات سفارشی دنبال می‌شوند."
 
-#: cms/templates/edit-tabs.html cms/templates/howitworks.html
-#: cms/templates/howitworks.html cms/templates/howitworks.html
+#: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182 cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
 msgid "close modal"
 msgstr "بستن مودال"
 
-#: cms/templates/error.html
+#: cms/templates/error.html:13
 msgid "Internal Server Error"
 msgstr "خطا در سرور اینترنت"
 
-#: cms/templates/error.html
+#: cms/templates/error.html:25
 msgid "The Page You Requested Page Cannot be Found"
 msgstr "صفحه مورد نظر شما یافت نشد"
 
-#: cms/templates/error.html
-msgid ""
-"We're sorry. We couldn't find the {studio_name} page you're looking for. You"
-" may want to return to the {studio_name} Dashboard and try again. If you are"
-" still having problems accessing things, please feel free to "
-"{link_start}contact {studio_name} support{link_end} for further help."
-msgstr ""
+#: cms/templates/error.html:26
+msgid "We're sorry. We couldn't find the {studio_name} page you're looking for. You may want to return to the {studio_name} Dashboard and try again. If you are still having problems accessing things, please feel free to {link_start}contact {studio_name} support{link_end} for further help."
+msgstr "ما متاسفیم. صفحه {studio_name} مورد نظر شما را پیدا نکردیم. ممکن است بخواهید به میزکار {studio_name} برگردید و دوباره امتحان کنید. اگر هنوز در دسترسی به مواردی با مشکل روبرو هستید، لطفاً برای راهنمایی بیشتر با {link_start} با {studio_name} پشتیبانی {link_end} تماس بگیرید."
 
-#: cms/templates/error.html
+#: cms/templates/error.html:32
 msgid "The Server Encountered an Error"
 msgstr "سرور با یک خطا مواجه شده است"
 
-#: cms/templates/error.html
-msgid ""
-"We're sorry. There was a problem with the server while trying to process "
-"your last request. You may want to return to the {studio_name} Dashboard or "
-"try this request again. If you are still having problems accessing things, "
-"please feel free to {link_start}contact {studio_name} support{link_end} for "
-"further help."
-msgstr ""
+#: cms/templates/error.html:33
+msgid "We're sorry. There was a problem with the server while trying to process your last request. You may want to return to the {studio_name} Dashboard or try this request again. If you are still having problems accessing things, please feel free to {link_start}contact {studio_name} support{link_end} for further help."
+msgstr "ما متاسفیم. هنگام پردازش آخرین درخواست شما، مشکلی در سرور وجود داشت. ممکن است بخواهید به میزکار{studio_name} برگردید یا این درخواست را دوباره امتحان کنید. اگر هنوز در دسترسی به مواردی با مشکل روبرو هستید، لطفاً برای راهنمایی بیشتر با {link_start} با {studio_name} پشتیبانی {link_end} تماس بگیرید."
 
-#: cms/templates/error.html
+#: cms/templates/error.html:39
 msgid "Back to dashboard"
-msgstr "بازگشت به صفحه کنترل"
+msgstr "بازگشت به داشبورد"
 
-#: cms/templates/export.html cms/templates/export.html
+#: cms/templates/export.html:22 cms/templates/export.html:46
 msgid "Library Export"
 msgstr "صدور کتابخانه"
 
-#: cms/templates/export.html cms/templates/export.html
+#: cms/templates/export.html:24 cms/templates/export.html:48
 msgid "Course Export"
 msgstr "صدور دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:60
 msgid "About Exporting Libraries"
 msgstr "درباره صادر کردن کتابخانه"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html
-msgid ""
-"You can export libraries and edit them outside of {studio_name}. The "
-"exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
-"Zip) that contains the library structure and content. You can also re-import"
-" libraries that you've exported."
-msgstr ""
+#: cms/templates/export.html:63
+msgid "You can export libraries and edit them outside of {studio_name}. The exported file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that contains the library structure and content. You can also re-import libraries that you've exported."
+msgstr "می‌توانید کتابخانه‌ها را صادر کرده و آن‌ها را خارج از {studio_name} ویرایش کنید. فایل صادر‌شده یک فایل .tar.gz (یعنی یک فایل .tar فشرده شده با GNU Zip) است که شامل ساختار و محتوای کتابخانه است. همچنین می‌توانید کتابخانه‌هایی را که صادر کرده‌اید دوباره وارد کنید."
 
-#: cms/templates/export.html
+#: cms/templates/export.html:68
 msgid "About Exporting Courses"
 msgstr "درباره اطلاعات دوره"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html
-msgid ""
-"You can export courses and edit them outside of {studio_name}. The exported "
-"file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
-"contains the course structure and content. You can also re-import courses "
-"that you've exported."
-msgstr ""
+#: cms/templates/export.html:71
+msgid "You can export courses and edit them outside of {studio_name}. The exported file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that contains the course structure and content. You can also re-import courses that you've exported."
+msgstr "می‌توانید دوره‌ها را خارج از {studio_name} صادر کرده و ویرایش کنید. فایل صادر شده یک فایل .tar.gz (یعنی یک فایل .tar فشرده شده با GNU Zip) است که شامل ساختار و محتوای دوره است. همچنین می‌توانید دوره‌هایی را که صادر کرده‌اید دوباره وارد کنید."
 
-#: cms/templates/export.html
-msgid ""
-"{em_start}Caution:{em_end} When you export a course, information such as "
-"MATLAB API keys, LTI passports, annotation secret token strings, and "
-"annotation storage URLs are included in the exported data. If you share your"
-" exported files, you may also be sharing sensitive or license-specific "
-"information."
-msgstr ""
+#: cms/templates/export.html:74
+msgid "{em_start}Caution:{em_end} When you export a course, information such as MATLAB API keys, LTI passports, annotation secret token strings, and annotation storage URLs are included in the exported data. If you share your exported files, you may also be sharing sensitive or license-specific information."
+msgstr "{em_start} احتیاط: {em_end} هنگام صادر کردن یک دوره، اطلاعاتی مانند کلیدهای MATLAB API ، گذرنامه‌های LTI، رشته‌های رمز حاشیه نویسی و URL های ذخیره سازی حاشیه نویسی در داده‌های صادر شده موجود است. اگر فایل‌های صادر شده خود را به اشتراک بگذارید، ممکن است اطلاعات حساس یا مختص مجوز را نیز به اشتراک بگذارید."
 
-#: cms/templates/export.html
+#: cms/templates/export.html:85
 msgid "Export My Library Content"
-msgstr ""
+msgstr "صادر کردن محتوای کتابخانه من"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:87
 msgid "Export My Course Content"
-msgstr ""
+msgstr "صادر کردن محتوای دوره من"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:96
 msgid "Export Library Content"
-msgstr ""
+msgstr "صادر کردن محتوای کتابخانه"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:98
 msgid "Export Course Content"
-msgstr ""
+msgstr "صادر کردن محتوای دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:108
 msgid "Library Export Status"
-msgstr ""
+msgstr "وضعیت صادر کردن کتابخانه"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:110
 msgid "Course Export Status"
-msgstr ""
+msgstr "وضعیت صادر کردن دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:122
 msgid "Preparing"
-msgstr ""
+msgstr "در حال آماده‌سازی"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:126
 msgid "Preparing to start the export"
-msgstr ""
+msgstr "در حال آماده‌سازی برای شروع صدور"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:137
 msgid "Exporting"
-msgstr ""
+msgstr "در حال صادر کردن"
 
-#: cms/templates/export.html
-msgid ""
-"Creating the export data files (You can now leave this page safely, but "
-"avoid making drastic changes to content until this export is complete)"
-msgstr ""
+#: cms/templates/export.html:138
+msgid "Creating the export data files (You can now leave this page safely, but avoid making drastic changes to content until this export is complete)"
+msgstr "ایجاد فایل‌های صدور داده (اکنون می‌توانید با خیال راحت از این صفحه خارج شوید، اما از انجام تغییرات شدید در محتوا تا پایان این صدور خودداری کنید)"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:149
 msgid "Compressing"
-msgstr ""
+msgstr "فشرده سازی"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:150
 msgid "Compressing the exported data and preparing it for download"
-msgstr ""
+msgstr "فشرده سازی داده‌های صادر شده و آماده سازی آنها برای بارگیری"
 
-#: cms/templates/export.html cms/templates/import.html
+#: cms/templates/export.html:161 cms/templates/import.html:175
 msgid "Success"
 msgstr "موفق"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:166
 msgid "Your exported library can now be downloaded"
-msgstr ""
+msgstr "کتابخانه صادر شده شما اکنون می‌تواند بارگیری شود"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:168
 msgid "Your exported course can now be downloaded"
-msgstr ""
+msgstr "دوره صادر شده شما اکنون می‌تواند بارگیری شود"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:176
 msgid "Download Exported Library"
-msgstr ""
+msgstr "بارگیری کتابخانه صادر شده"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:178
 msgid "Download Exported Course"
-msgstr ""
+msgstr "بارگیری دوره صادر شده"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:192
 msgid "Data {em_start}exported with{em_end} your course:"
-msgstr ""
+msgstr "داده‌های دوره شما {em_start} توسط{em_end} صادر شد:"
 
-#: cms/templates/export.html
-msgid ""
-"Values from Advanced Settings, including MATLAB API keys and LTI passports"
-msgstr ""
+#: cms/templates/export.html:197
+msgid "Values from Advanced Settings, including MATLAB API keys and LTI passports"
+msgstr "مقادیری از تنظیمات پیشرفته، از جمله کلیدهای API MATLAB و گذرنامه‌های LTI"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:198
 msgid "Course Content (all Sections, Sub-sections, and Units)"
-msgstr ""
+msgstr "محتوای دوره (همه بخش‌ها، زیربخش‌ها و واحدها)"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:199
 msgid "Course Structure"
-msgstr ""
+msgstr "ساختار دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:200
 msgid "Individual Problems"
 msgstr "مشکلات منفرد"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:202
 msgid "Course Assets"
-msgstr "دارایی های دوره"
+msgstr "دارایی‌های دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:203
 msgid "Course Settings"
-msgstr ""
+msgstr "تنظیمات دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:209
 msgid "Data {em_start}not exported{em_end} with your course:"
-msgstr ""
+msgstr "داده{em_start}همراه با دوره شما{em_end} صادر نشد:"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:214
 msgid "User Data"
-msgstr ""
+msgstr "داده کاربر"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:215
 msgid "Course Team Data"
-msgstr ""
+msgstr "داده تیم دوره"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:216
 msgid "Forum/discussion Data"
-msgstr ""
+msgstr "داده انجمن/گفت‌وگو"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:226
 msgid "Why export a library?"
-msgstr ""
+msgstr "چرا یک کتابخانه را صادر می‌کنیم؟"
 
-#: cms/templates/export.html
-msgid ""
-"You may want to edit the XML in your library directly, outside of "
-"{studio_name}. You may want to create a backup copy of your library. Or, you"
-" may want to create a copy of your library that you can later import into "
-"another library instance and customize."
-msgstr ""
+#: cms/templates/export.html:227
+msgid "You may want to edit the XML in your library directly, outside of {studio_name}. You may want to create a backup copy of your library. Or, you may want to create a copy of your library that you can later import into another library instance and customize."
+msgstr "ممکن است بخواهید XML را در کتابخانه خود مستقیماً خارج از {studio_name} ویرایش کنید. ممکن است بخواهید یک نسخه پشتیبان از کتابخانه خود ایجاد کنید. یا ممکن است بخواهید یک نسخه از کتابخانه خود ایجاد کنید که بعداً بتوانید آن را در نمونه کتابخانه دیگری وارد کرده و سفارشی سازی کنید."
 
-#: cms/templates/export.html cms/templates/export.html
+#: cms/templates/export.html:233 cms/templates/export.html:267
 msgid "Opening the downloaded file"
-msgstr ""
+msgstr "بازکردن فایل بارگیری شده"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html
-msgid ""
-"Use an archive program to extract the data from the .tar.gz file. Extracted "
-"data includes the library.xml file, as well as subfolders that contain "
-"library content."
-msgstr ""
+#: cms/templates/export.html:235
+msgid "Use an archive program to extract the data from the .tar.gz file. Extracted data includes the library.xml file, as well as subfolders that contain library content."
+msgstr "برای استخراج داده‌ها از فایل .tar.gz از یک برنامه بایگانی استفاده کنید. داده‌های استخراج شده شامل فایل library.xml و همچنین زیرپوشه‌هایی است که حاوی محتوای کتابخانه هستند."
 
-#: cms/templates/export.html
+#: cms/templates/export.html:238
 msgid "Learn more about exporting a library"
-msgstr ""
+msgstr "درباره صدور یک کتابخانه بیشتر بدانید"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:244
 msgid "Why export a course?"
-msgstr ""
+msgstr "چرا یک دوره را صادر می کنیم؟"
 
-#: cms/templates/export.html
-msgid ""
-"You may want to edit the XML in your course directly, outside of "
-"{studio_name}. You may want to create a backup copy of your course. Or, you "
-"may want to create a copy of your course that you can later import into "
-"another course instance and customize."
-msgstr ""
+#: cms/templates/export.html:245
+msgid "You may want to edit the XML in your course directly, outside of {studio_name}. You may want to create a backup copy of your course. Or, you may want to create a copy of your course that you can later import into another course instance and customize."
+msgstr "ممکن است بخواهید XML را در دوره خود مستقیماً خارج از {studio_name} ویرایش کنید. ممکن است بخواهید یک نسخه پشتیبان از دوره خود ایجاد کنید. یا ممکن است بخواهید نسخه ای از دوره خود ایجاد کنید که بعداً بتوانید آن را در دوره دیگری وارد کرده و سفارشی سازی کنید."
 
-#: cms/templates/export.html
+#: cms/templates/export.html:251
 msgid "What content is exported?"
-msgstr ""
+msgstr "چه محتوایی صادر می‌شود؟"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:252
 msgid "The following content is exported."
-msgstr ""
+msgstr "محتوای زیر صادر شد."
 
-#: cms/templates/export.html cms/templates/import.html
+#: cms/templates/export.html:254 cms/templates/import.html:230
 msgid "Course content and structure"
-msgstr ""
+msgstr "ساختار و محتوای دوره"
 
-#: cms/templates/export.html cms/templates/import.html
+#: cms/templates/export.html:255 cms/templates/import.html:231
 msgid "Course dates"
-msgstr ""
+msgstr "تاریخ‌های دوره"
 
-#: cms/templates/export.html cms/templates/import.html
+#: cms/templates/export.html:256 cms/templates/import.html:232
 msgid "Grading policy"
-msgstr ""
+msgstr "خط مشی رتبه‌بندی"
 
-#: cms/templates/export.html cms/templates/import.html
+#: cms/templates/export.html:257 cms/templates/import.html:233
 msgid "Any group configurations"
-msgstr ""
+msgstr "هرگونه پیکربندی گروه"
 
-#: cms/templates/export.html cms/templates/import.html
-msgid ""
-"Settings on the Advanced Settings page, including MATLAB API keys and LTI "
-"passports"
-msgstr ""
+#: cms/templates/export.html:258 cms/templates/import.html:234
+msgid "Settings on the Advanced Settings page, including MATLAB API keys and LTI passports"
+msgstr "تنظیمات در صفحه تنظیمات پیشرفته، از جمله کلیدهای API MATLAB و گذرنامه‌های LTI"
 
-#: cms/templates/export.html
+#: cms/templates/export.html:260
 msgid "The following content is not exported."
-msgstr ""
+msgstr "محتوای زیر صادر نشد."
 
-#: cms/templates/export.html cms/templates/import.html
-msgid ""
-"Learner-specific content, such as learner grades and discussion forum data"
-msgstr ""
+#: cms/templates/export.html:262 cms/templates/import.html:238
+msgid "Learner-specific content, such as learner grades and discussion forum data"
+msgstr "محتوای مختص فراگیر، مانند رتبه‌های فراگیر و داده انجمن گفت‌وگو"
 
-#: cms/templates/export.html cms/templates/import.html
+#: cms/templates/export.html:263 cms/templates/import.html:239
 msgid "The course team"
-msgstr ""
+msgstr "تیم دوره"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html
-msgid ""
-"Use an archive program to extract the data from the .tar.gz file. Extracted "
-"data includes the course.xml file, as well as subfolders that contain course"
-" content."
-msgstr ""
+#: cms/templates/export.html:269
+msgid "Use an archive program to extract the data from the .tar.gz file. Extracted data includes the course.xml file, as well as subfolders that contain course content."
+msgstr "برای استخراج داده‌ها از فایل .tar.gz از یک برنامه بایگانی استفاده کنید. داده‌های استخراج شده شامل فایل course.xml و همچنین زیر‌پوشه‌هایی است که حاوی محتوای دوره هستند."
 
-#: cms/templates/export.html
+#: cms/templates/export.html:272
 msgid "Learn more about exporting a course"
 msgstr "درباره صادر کردن یک دوره بیشتر بدانید"
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:11
 msgid "Export Course to Git"
 msgstr "صدور دوره به Git"
 
-#: cms/templates/export_git.html cms/templates/export_git.html
-#: cms/templates/widgets/header.html
+#: cms/templates/export_git.html:19 cms/templates/export_git.html:46 cms/templates/widgets/header.html:134
 msgid "Export to Git"
 msgstr "صدور به Git"
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:29
 msgid "About Export to Git"
 msgstr "درباره صادر کردن به Git"
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:31
 msgid "Use this to export your course to its git repository."
 msgstr "برای صدور دوره به مخزن Git از این گزینه استفاده کنید."
 
-#: cms/templates/export_git.html
-msgid ""
-"This will then trigger an automatic update of the main LMS site and update "
-"the contents of your course visible there to students if automatic git "
-"imports are configured."
-msgstr ""
+#: cms/templates/export_git.html:32
+msgid "This will then trigger an automatic update of the main LMS site and update the contents of your course visible there to students if automatic git imports are configured."
+msgstr "سپس این امر باعث بروزرسانی خودکار سایت LMS اصلی می‌شود و در صورت پیکربندی واردات خودکار git، محتوای دوره شما برای دانشجویان قابل مشاهده است."
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:37
 msgid "Export Course to Git:"
 msgstr "صدور دوره به Git:"
 
-#: cms/templates/export_git.html
-msgid ""
-"giturl must be defined in your course settings before you can export to git."
-msgstr ""
+#: cms/templates/export_git.html:40
+msgid "giturl must be defined in your course settings before you can export to git."
+msgstr "قبل از اینکه بتوانید به git صادر کنید، giturl باید در تنظیمات دوره شما تعریف شود."
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:55
 msgid "Export Failed"
 msgstr "صدور ناموفق بود"
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:57
 msgid "Export Succeeded"
 msgstr "صدور موفقیت آمیز بود"
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:65
 msgid "Your course:"
-msgstr ""
+msgstr "دوره شما:"
 
-#: cms/templates/export_git.html
+#: cms/templates/export_git.html:67
 msgid "Course git url:"
 msgstr ""
 
-#: cms/templates/group_configurations.html
-#: cms/templates/group_configurations.html
+#: cms/templates/group_configurations.html:66 cms/templates/group_configurations.html:105
 msgid "Experiment Group Configurations"
-msgstr ""
+msgstr "آزمایش پیکربندی گروه"
 
-#: cms/templates/group_configurations.html
+#: cms/templates/group_configurations.html:70
 msgid "This module is disabled at the moment."
-msgstr ""
+msgstr "در حال حاضر این واحد غیرفعال است."
 
-#: cms/templates/group_configurations.html
+#: cms/templates/group_configurations.html:85
 msgid "Enrollment Track Groups"
-msgstr "گروه های مسیر ثبت نام"
+msgstr "گروه‌های مسیر ثبت نام"
 
-#: cms/templates/group_configurations.html
-msgid ""
-"Enrollment track groups allow you to offer different course content to "
-"learners in each enrollment track. Learners enrolled in each enrollment "
-"track in your course are automatically included in the corresponding "
-"enrollment track group."
-msgstr ""
+#: cms/templates/group_configurations.html:86
+msgid "Enrollment track groups allow you to offer different course content to learners in each enrollment track. Learners enrolled in each enrollment track in your course are automatically included in the corresponding enrollment track group."
+msgstr "گروه‌های مسیر ثبت نام به شما امکان می‌دهند در هر مسیر ثبت نام محتوای دوره‌های مختلف را به فراگیران ارائه دهید. فراگیرانی که در هر مسیر ثبت‌نام در دوره شما ثبت نام می‌کنند، به طور خودکار در گروه مربوط به مسیر ثبت نام قرار می‌گیرند."
 
-#: cms/templates/group_configurations.html
-msgid ""
-"On unit pages in the course outline, you can restrict access to components "
-"to learners based on their enrollment track."
-msgstr ""
+#: cms/templates/group_configurations.html:87
+msgid "On unit pages in the course outline, you can restrict access to components to learners based on their enrollment track."
+msgstr "در صفحات واحد در طرح کلی دوره، می‌توانید دسترسی به مولفه‌ها را برای فراگیران براساس مسیر ثبت نام آنها محدود کنید."
 
-#: cms/templates/group_configurations.html
-msgid ""
-"You cannot edit enrollment track groups, but you can expand each group to "
-"view details of the course content that is designated for learners in the "
-"group."
-msgstr ""
+#: cms/templates/group_configurations.html:88
+msgid "You cannot edit enrollment track groups, but you can expand each group to view details of the course content that is designated for learners in the group."
+msgstr "شما نمی‌توانید گروه‌های مسیر ثبت نام را ویرایش کنید، اما می‌توانید هر گروه را گسترش دهید تا جزئیات محتوای دوره را که برای فراگیران در گروه تعیین شده است مشاهده کنید."
 
-#: cms/templates/group_configurations.html
+#: cms/templates/group_configurations.html:95
 msgid "Content Groups"
-msgstr ""
+msgstr "گروه‌های محتوایی"
 
-#: cms/templates/group_configurations.html
+#: cms/templates/group_configurations.html:96
+msgid "If you have cohorts enabled in your course, you can use content groups to create cohort-specific courseware. In other words, you can customize the content that particular cohorts see in your course."
+msgstr "اگر در دوره خود گروه‌های مختلفی را فعال کرده باشید، می‌توانید از گروه‌های محتوایی برای ایجاد دوره‌های آموزشی خاص گروه استفاده کنید. به عبارت دیگر، شما می‌توانید محتوایی را که گروه‌های خاص در دوره شما می‌بینند، شخصی سازی کنید."
+
+#: cms/templates/group_configurations.html:97
 msgid ""
-"If you have cohorts enabled in your course, you can use content groups to "
-"create cohort-specific courseware. In other words, you can customize the "
-"content that particular cohorts see in your course."
-msgstr ""
+"Each content group that you create can be associated with one or more cohorts. In addition to making course content available to all learners, you can restrict access to some content to learners in specific content groups. Only learners in the cohorts that are associated with the specified content groups see the "
+"additional content."
+msgstr "هر گروه محتوایی که ایجاد می‌کنید می‌تواند با یک یا چند گروه مرتبط باشد. علاوه بر اینکه محتوای دوره را در دسترس همه فراگیران قرار می‌دهید، می‌توانید دسترسی به برخی از مطالب را برای فراگیران در گروه‌های محتوایی خاص محدود کنید. فقط فراگیران در گروه‌هایی که با گروه‌های محتوای مشخص شده مرتبط هستند، محتوای اضافی را می‌بینند."
 
-#: cms/templates/group_configurations.html
-msgid ""
-"Each content group that you create can be associated with one or more "
-"cohorts. In addition to making course content available to all learners, you"
-" can restrict access to some content to learners in specific content groups."
-" Only learners in the cohorts that are associated with the specified content"
-" groups see the additional content."
+#: cms/templates/group_configurations.html:98
+msgid "Click {em_start}New content group{em_end} to add a new content group. To edit the name of a content group, hover over its box and click {em_start}Edit{em_end}. You can delete a content group only if it is not in use by a unit. To delete a content group, hover over its box and click the delete icon."
 msgstr ""
+"برای اضافه کردن گروه محتوای جدید، روی {em_start} گروه محتوای جدید {em_end} کلیک کنید. برای ویرایش نام یک گروه محتوایی، بالای جعبه آن بروید و روی {em_start} ویرایش {em_end} کلیک کنید. فقط درصورتی که از یک گروه محتوایی استفاده نکنید، می‌توانید آن را حذف کنید. برای حذف یک گروه محتوایی، بالای جعبه آن بروید و روی نماد حذف "
+"کلیک کنید."
 
-#: cms/templates/group_configurations.html
-msgid ""
-"Click {em_start}New content group{em_end} to add a new content group. To "
-"edit the name of a content group, hover over its box and click "
-"{em_start}Edit{em_end}. You can delete a content group only if it is not in "
-"use by a unit. To delete a content group, hover over its box and click the "
-"delete icon."
-msgstr ""
+#: cms/templates/group_configurations.html:106
+msgid "Use experiment group configurations if you are conducting content experiments, also known as A/B testing, in your course. Experiment group configurations define how many groups of learners are in a content experiment. When you create a content experiment for a course, you select the group configuration to use."
+msgstr "اگر در دوره خود آزمایشات محتوا را انجام می‌دهید که به آن آزمایش A / B نیز می‌گویند، از تنظیمات گروه آزمایش استفاده کنید. تنظیمات گروه آزمایش تعداد گروه‌های فراگیر را در یک آزمایش محتوا مشخص می‌کند. هنگامی که یک آزمایش محتوا برای یک دوره ایجاد می‌کنید، پیکربندی گروه را برای استفاده انتخاب می‌کنید."
 
-#: cms/templates/group_configurations.html
-msgid ""
-"Use experiment group configurations if you are conducting content "
-"experiments, also known as A/B testing, in your course. Experiment group "
-"configurations define how many groups of learners are in a content "
-"experiment. When you create a content experiment for a course, you select "
-"the group configuration to use."
-msgstr ""
+#: cms/templates/group_configurations.html:107
+msgid "Click {em_start}New Group Configuration{em_end} to add a new configuration. To edit a configuration, hover over its box and click {em_start}Edit{em_end}. You can delete a group configuration only if it is not in use in an experiment. To delete a configuration, hover over its box and click the delete icon."
+msgstr "برای افزودن پیکربندی جدید، روی {em_start} پیکربندی جدید گروه{em_end} کلیک کنید. برای ویرایش یک پیکربندی، بالای جعبه آن بروید و روی {em_start} ویرایش {em_end} کلیک کنید. فقط در صورت عدم استفاده از پیکربندی گروه، می‌توانید آن را حذف کنید. برای حذف پیکربندی، بالای جعبه آن بروید و روی نماد حذف کلیک کنید."
 
-#: cms/templates/group_configurations.html
-msgid ""
-"Click {em_start}New Group Configuration{em_end} to add a new configuration. "
-"To edit a configuration, hover over its box and click "
-"{em_start}Edit{em_end}. You can delete a group configuration only if it is "
-"not in use in an experiment. To delete a configuration, hover over its box "
-"and click the delete icon."
-msgstr ""
-
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:11
 msgid "Welcome"
 msgstr "خوش آمدید"
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:19
 msgid "Welcome to {studio_name}"
 msgstr "به {studio_name} خوش آمدید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"{studio_name} helps manage your online courses, so you can focus on teaching"
-" them"
-msgstr ""
-"{studio_name} به شما در مدیریت دوره هایتان کمک می کند، بنابراین شما می "
-"توانید تمرکز خود را روی درس دادن بگذارید"
+#: cms/templates/howitworks.html:22
+msgid "{studio_name} helps manage your online courses, so you can focus on teaching them"
+msgstr "{studio_name} به شما در مدیریت دوره‌هایتان کمک می‌کند، بنابراین شما می‌توانید تمرکز خود را روی درس دادن بگذارید"
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:32
 msgid "{studio_name}'s Many Features"
-msgstr ""
+msgstr "ویژگی‌های متعدد {studio_name}"
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
+#: cms/templates/howitworks.html:39 cms/templates/howitworks.html:40
 msgid "{studio_name} Helps You Keep Your Courses Organized"
-msgstr ""
+msgstr "{studio_name} به شما کمک می‌کند دوره‌های خود را مرتب کنید"
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:42 cms/templates/howitworks.html:87 cms/templates/howitworks.html:121
 msgid "Enlarge image"
-msgstr ""
+msgstr "بزرگ‌نمایی تصویر"
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:48
 msgid "Keeping Your Course Organized"
 msgstr "دوره خود را سازماندهی نمایید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"The backbone of your course is how it is organized. {studio_name} offers an "
-"{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
-"easy drag and drop to help you and your students stay organized."
-msgstr ""
-"پیکر بندی دوره شما بر اساس ساختار آن است. {studio_name} یک ویرایشگر مربوط به"
-" {strong_start}طرح کلی{strong_end} درس با یک دسته بندی ساده برای کمک به شما "
-"و دانش آموزانتان ارائه می دهد."
+#: cms/templates/howitworks.html:49
+msgid "The backbone of your course is how it is organized. {studio_name} offers an {strong_start}Outline{strong_end} editor, providing a simple hierarchy and easy drag and drop to help you and your students stay organized."
+msgstr "پیکر بندی دوره شما بر اساس ساختار آن است. {studio_name} یک ویرایشگر مربوط به {strong_start}طرح کلی{strong_end} درس با یک دسته بندی ساده برای کمک به شما و دانش آموزانتان ارائه می‌دهد."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:57
 msgid "Simple Organization For Content"
-msgstr "سازمان دهی ساده برای محتوا"
+msgstr "سازمان‌دهی ساده برای محتوا"
 
-#: cms/templates/howitworks.html
-msgid ""
-"{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} "
-"and {strong_start}subsections{strong_end} to organize your content."
-msgstr ""
-"{studio_name} از یک ساختار ساده ی سلسله مراتبی از {strong_start}بخش "
-"ها{strong_end} و {strong_start}زیر بخش ها{strong_end} برای سازماندهی "
-"محتواهای شما استفادده می کند."
+#: cms/templates/howitworks.html:58
+msgid "{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} and {strong_start}subsections{strong_end} to organize your content."
+msgstr "{studio_name} از یک ساختار ساده‌ی سلسله مراتبی از {strong_start}بخش‌ها{strong_end} و {strong_start}زیر بخش‌ها{strong_end} برای سازماندهی محتواهای شما استفادده می‌کند."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:66
 msgid "Change Your Mind Anytime"
 msgstr "در هر زمان ذهنتان را تغییر دهید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Draft your outline and build content anywhere. Simple drag and drop tools "
-"let you reorganize quickly."
-msgstr ""
-"طرح درس خود را آماده کنید و محتوای آن هر کجا که هستید بسازید. ابزار های drag"
-" & drop به شما توانایی سازماندهی سریع مطالب را می دهند."
+#: cms/templates/howitworks.html:67
+msgid "Draft your outline and build content anywhere. Simple drag and drop tools let you reorganize quickly."
+msgstr "طرح درس خود را آماده کنید و محتوای آن هر کجا که هستید بسازید. ابزارهای کشیدن و رها کردن به شما توانایی سازماندهی سریع مطالب را می‌دهند."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:71
 msgid "Go A Week Or A Semester At A Time"
 msgstr "به یک هفته یا یک ترم در یک زمان بروید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Build and release {strong_start}sections{strong_end} to your students "
-"incrementally. You don't have to have it all done at once."
-msgstr ""
-"{strong_start}بخش های{strong_end} مختلف دوره ها را بطور تدریجی برای دانش "
-"آموزانتان آماده و ارائه دهید. مجبور نیستید تمامی بخش ها را به یکباره آماده "
-"کنید."
+#: cms/templates/howitworks.html:72
+msgid "Build and release {strong_start}sections{strong_end} to your students incrementally. You don't have to have it all done at once."
+msgstr "{strong_start}بخش‌های{strong_end} مختلف دوره‌ها را بطور تدریجی برای دانش آموزانتان آماده و ارائه دهید. مجبور نیستید تمامی بخش‌ها را به یکباره آماده کنید."
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:84 cms/templates/howitworks.html:85 cms/templates/howitworks.html:93
 msgid "Learning is More than Just Lectures"
-msgstr "آموختن بیشتر از یک جلسه زمان می برد"
+msgstr "آموختن بیشتر از یک جلسه زمان می‌برد"
 
-#: cms/templates/howitworks.html
-msgid ""
-"{studio_name} lets you weave your content together in a way that reinforces "
-"learning. Insert videos, discussions, and a wide variety of exercises with "
-"just a few clicks."
-msgstr ""
-"{studio_name} به شما اجازه اتصال مطالب در جهت تقویت یادگیری را می دهد. می "
-"توانید تنها با چند کلیک ویدیو،‌ مناظرات، و تمارین متعدد را قرار دهید."
+#: cms/templates/howitworks.html:94
+msgid "{studio_name} lets you weave your content together in a way that reinforces learning. Insert videos, discussions, and a wide variety of exercises with just a few clicks."
+msgstr "{studio_name} به شما اجازه اتصال مطالب در جهت تقویت یادگیری را می‌دهد. می‌توانید تنها با چند کلیک ویدیو،‌ بحث و گفتگوها، و تمارین متعدد را قرار دهید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:98
 msgid "Create Learning Pathways"
 msgstr "ایجاد مسیرهای یادگیری"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Help your students understand one concept at a time with multimedia, HTML, "
-"and exercises."
-msgstr ""
-"با استفاده از محتوای چند رسانه ای، HTML،‌ و تمارین در یک لحظه به دانش "
-"آموزانتان در درک یک مفهوم کمک کنید."
+#: cms/templates/howitworks.html:99
+msgid "Help your students understand one concept at a time with multimedia, HTML, and exercises."
+msgstr "با استفاده از محتوای چند رسانه ای، HTML،‌ و تمارین در یک لحظه به دانش آموزانتان در درک یک مفهوم کمک کنید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:103
 msgid "Work Visually, Organize Quickly"
-msgstr "ظاهری کار کنید، به سرعت سازماندهی می شوید"
+msgstr "بصری کار کنید، به سرعت سازماندهی کنید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Work visually and see exactly what your students will see. Reorganize all "
-"your content with drag and drop."
-msgstr ""
-"بصری کار کنید و ببینید دقیقاً دانشجویانتان چه می بینند، دوباره  تمامی مزالب "
-"خود را با ویرایش دوباره سازماندهی نمایید."
+#: cms/templates/howitworks.html:104
+msgid "Work visually and see exactly what your students will see. Reorganize all your content with drag and drop."
+msgstr "بصری کار کنید و ببینید دقیقاً دانشجویانتان چه می‌بینند، دوباره  تمامی مطالب خود را با ویرایش دوباره سازماندهی نمایید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:108
 msgid "A Broad Library of Problem Types"
 msgstr "کتابخانه وسیع از انواع مشکلات"
 
-#: cms/templates/howitworks.html
-msgid ""
-"It's more than just multiple choice. {studio_name} supports more than a "
-"dozen types of problems to challenge your learners."
-msgstr ""
-"بیش از چند انتخاب محدود دارید. {studio_name} بیش از هزار نوع مسئله را برای "
-"به چالش کشیدن دانش آموزانتان پشتیبانی می کند."
+#: cms/templates/howitworks.html:109
+msgid "It's more than just multiple choice. {studio_name} supports more than a dozen types of problems to challenge your learners."
+msgstr "بیش از چند انتخاب محدود دارید. {studio_name} بیش از هزار نوع مسئله را برای به چالش کشیدن دانش آموزانتان پشتیبانی می‌کند."
 
-#: cms/templates/howitworks.html cms/templates/howitworks.html
-msgid ""
-"{studio_name} Gives You Simple, Fast, and Incremental Publishing. With "
-"Friends."
-msgstr ""
+#: cms/templates/howitworks.html:118 cms/templates/howitworks.html:119
+msgid "{studio_name} Gives You Simple, Fast, and Incremental Publishing. With Friends."
+msgstr "{studio_name} انتشاراتی ساده، سریع و افزایشی به شما می‌دهد. با دوستان."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:127
 msgid "Simple, Fast, and Incremental Publishing. With Friends."
-msgstr "ساده، سریع، و انتشارات فزاینده با دوستان "
+msgstr "ساده، سریع، و انتشارات فزاینده با دوستان."
 
-#: cms/templates/howitworks.html
-msgid ""
-"{studio_name} works like web applications you already know, yet understands "
-"how you build curriculum. Instant publishing to the web when you want it, "
-"incremental release when it makes sense. And with co-authors, you can have a"
-" whole team building a course, together."
-msgstr ""
-"{studio_name} مانند برنامه های اینترنتی دیگری که اطلاع دارید برای ساختن "
-"برنامه درسی به کار می رود. تغییرات و انتشار آنها در هر زمان و از طریق وب "
-"امکان پذیر است. و با همکاری سایر ویراستاران میتوانید در قالب یک تیم کامل، یک"
-" درس کامل را بسازید."
+#: cms/templates/howitworks.html:128
+msgid "{studio_name} works like web applications you already know, yet understands how you build curriculum. Instant publishing to the web when you want it, incremental release when it makes sense. And with co-authors, you can have a whole team building a course, together."
+msgstr "{studio_name} مانند برنامه‌های اینترنتی دیگری که اطلاع دارید برای ساختن برنامه درسی به کار می‌رود. تغییرات و انتشار آنها در هر زمان و از طریق وب امکان پذیر است. و با همکاری سایر ویراستاران میتوانید در قالب یک تیم کامل، یک درس کامل را بسازید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:132
 msgid "Instant Changes"
 msgstr "تغییرات فوری"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Caught a bug? No problem. When you want, your changes go live when you click"
-" Save."
-msgstr ""
-"با مشکل مواجه شدید؟ اشکالی ندارد. هر زمانی که خواستید تغییراتتان را با یک "
-"کلیک ذخیره کنید."
+#: cms/templates/howitworks.html:133
+msgid "Caught a bug? No problem. When you want, your changes go live when you click Save."
+msgstr "با مشکل مواجه شدید؟ اشکالی ندارد. هر زمانی که خواستید تغییراتتان را با یک کلیک ذخیره کنید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:137
 msgid "Release-On Date Publishing"
 msgstr "انتشار، به موقع در تاریخ مقرر نشر"
 
-#: cms/templates/howitworks.html
-msgid ""
-"When you've finished a {strong_start}section{strong_end}, pick when you want"
-" it to go live and {studio_name} takes care of the rest. Build your course "
-"incrementally."
-msgstr ""
-"زمانی که یک {strong_start}بخش{strong_end} را به اتمام رسانیدید، زمان شروع "
-"دوره را انتخاب کنید و ادامه کار را به {studio_name} بسپارید. دوره خود را "
-"بصورت تدریجی بسازید."
+#: cms/templates/howitworks.html:138
+msgid "When you've finished a {strong_start}section{strong_end}, pick when you want it to go live and {studio_name} takes care of the rest. Build your course incrementally."
+msgstr "زمانی که یک {strong_start}بخش{strong_end} را به اتمام رسانیدید، زمان شروع دوره را انتخاب کنید و ادامه کار را به {studio_name} بسپارید. دوره خود را بصورت تدریجی بسازید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:146
 msgid "Work in Teams"
-msgstr "در گروه های مختلف کار کنید"
+msgstr "در گروه‌های مختلف کار کنید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Co-authors have full access to all the same authoring tools. Make your "
-"course better through a team effort."
-msgstr ""
-"کمک نویسندگان دارای دسترسی تمام به ابزار ها مانند آنچه نویسندگان دارند می "
-"باشند. با خوص کار گروهی دوره خود را بهتر نمایید."
+#: cms/templates/howitworks.html:147
+msgid "Co-authors have full access to all the same authoring tools. Make your course better through a team effort."
+msgstr "کمک استادان، دارای دسترسی تمام به ابزارها مانند آنچه نویسندگان دارند هستند. با کار گروهی دوره خود را بهتر نمایید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:159
 msgid "Sign Up for {studio_name} Today!"
-msgstr "هم اکنون در {studio_name} ثبت نام کنید"
+msgstr "هم اکنون در {studio_name} ثبت نام کنید!"
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:164
 msgid "Sign Up & Start Making Your {platform_name} Course"
 msgstr "ثبت نام کنید و شروع به ساختن دوره {platform_name} خود کنید"
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:167
 msgid "Already have a {studio_name} Account? Sign In"
 msgstr "حساب کاربری {studio_name} دارید؟ وارد شوید"
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:174
 msgid "Outlining Your Course"
 msgstr "طرح ریزی کلی دوره خود را انجام دهید"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Simple two-level outline to organize your course. Drag and drop, and see "
-"your course at a glance."
-msgstr ""
+#: cms/templates/howitworks.html:177
+msgid "Simple two-level outline to organize your course. Drag and drop, and see your course at a glance."
+msgstr "طرح کلی دو سطحی ساده برای سازماندهی دوره شما. بکشید و رها کنید، و با یک نگاه مسیر خود را ببینید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:187
 msgid "More than Just Lectures"
-msgstr "بیشتر از یک جلسه آموزشی"
+msgstr "بیشتر از یک سخنرانی"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Quickly create videos, text snippets, inline discussions, and a variety of "
-"problem types."
-msgstr ""
-"به سرعت فیلم ها، خرده متن، بحث های درون خطی، و انواع مختلف تمرین ایجاد کنید."
+#: cms/templates/howitworks.html:190
+msgid "Quickly create videos, text snippets, inline discussions, and a variety of problem types."
+msgstr "به سرعت فیلم‌ها، خرده متن، بحث‌های درون خطی، و انواع مختلف تمرین ایجاد کنید."
 
-#: cms/templates/howitworks.html
+#: cms/templates/howitworks.html:200
 msgid "Publishing on Date"
 msgstr "انتشار به موقع"
 
-#: cms/templates/howitworks.html
-msgid ""
-"Simply set the date of a section or subsection, and {studio_name} will "
-"publish it to your students for you."
-msgstr ""
+#: cms/templates/howitworks.html:203
+msgid "Simply set the date of a section or subsection, and {studio_name} will publish it to your students for you."
+msgstr "به سادگی تاریخ یک بخش یا زیربخش را تعیین کنید و {studio_name} آن را از طرف شما برای دانشجویان شما منتشر می‌کند."
 
-#: cms/templates/html_error.html
+#: cms/templates/html_error.html:11
 msgid "We're having trouble rendering your component"
-msgstr ""
+msgstr "ما در ارائه و خروجی گرفتن مولفه شما مشکل داریم"
 
-#: cms/templates/html_error.html
-msgid ""
-"Students will not be able to access this component. Re-edit your component "
-"to fix the error."
-msgstr ""
+#: cms/templates/html_error.html:14
+msgid "Students will not be able to access this component. Re-edit your component to fix the error."
+msgstr "دانشجویان قادر نخواهند بود به این مولفه دسترسی داشته باشند. برای حل ای مشکل مولفه خود را دوباره ویرایش کنید."
 
-#: cms/templates/import.html cms/templates/import.html
+#: cms/templates/import.html:21 cms/templates/import.html:35
 msgid "Library Import"
-msgstr ""
+msgstr "وارد کردن کتابخانه"
 
-#: cms/templates/import.html cms/templates/import.html
+#: cms/templates/import.html:23 cms/templates/import.html:37
 msgid "Course Import"
-msgstr "دریافت دوره"
+msgstr "وارد کردن دوره"
 
-#: cms/templates/import.html
-msgid ""
-"Be sure you want to import a library before continuing. The contents of the "
-"imported library will replace the contents of the existing library. "
-"{em_start}You cannot undo a library import{em_end}. Before you proceed, we "
-"recommend that you export the current library, so that you have a backup "
-"copy of it."
-msgstr ""
+#: cms/templates/import.html:49
+msgid "Be sure you want to import a library before continuing. The contents of the imported library will replace the contents of the existing library. {em_start}You cannot undo a library import{em_end}. Before you proceed, we recommend that you export the current library, so that you have a backup copy of it."
+msgstr "قبل از ادامه مطمئن شوید که می‌خواهید یک کتابخانه وارد کنید. محتویات کتابخانه وارد شده جایگزین مطالب کتابخانه موجود خواهد شد. {em_start} نمی‌توانید وارد کردن کتابخانه را واگرد کنید {em_end}. قبل از شروع به کار، توصیه می‌کنیم کتابخانه فعلی را صادر کنید تا از آن یک نسخه پشتیبان تهیه کنید."
 
-#: cms/templates/import.html
-msgid ""
-"The library that you import must be in a .tar.gz file (that is, a .tar file "
-"compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
-" It may also contain other files."
-msgstr ""
+#: cms/templates/import.html:50
+msgid "The library that you import must be in a .tar.gz file (that is, a .tar file compressed with GNU Zip). This .tar.gz file must contain a library.xml file. It may also contain other files."
+msgstr "کتابخانه ای که وارد می‌کنید باید در یک فایل .tar.gz (یعنی یک فایل .tar که با GNU Zip فشرده شده) باشد. این فایل .tar.gz باید حاوی یک فایل library.xml باشد. همچنین ممکن است شامل فایل‌های دیگری نیز باشد."
 
-#: cms/templates/import.html
-msgid ""
-"The import process has five stages. During the first two stages, you must "
-"stay on this page. You can leave this page after the Unpacking stage has "
-"completed. We recommend, however, that you don't make important changes to "
-"your library until the import operation has completed."
-msgstr ""
+#: cms/templates/import.html:51
+msgid "The import process has five stages. During the first two stages, you must stay on this page. You can leave this page after the Unpacking stage has completed. We recommend, however, that you don't make important changes to your library until the import operation has completed."
+msgstr "فرآیند وارد کردن پنج مرحله دارد. در طی دو مرحله اول، شما باید در این صفحه بمانید. پس از پایان مرحله باز کردن بسته می‌توانید این صفحه را ترک کنید. با این حال توصیه می‌کنیم تا زمان انجام عملیات واردات، تغییرات مهمی در کتابخانه خود اعمال نکنید."
 
-#: cms/templates/import.html
-msgid ""
-"Be sure you want to import a course before continuing. The contents of the "
-"imported course will replace the contents of the existing course. "
-"{em_start}You cannot undo a course import{em_end}. Before you proceed, we "
-"recommend that you export the current course, so that you have a backup copy"
-" of it."
-msgstr ""
+#: cms/templates/import.html:53
+msgid "Be sure you want to import a course before continuing. The contents of the imported course will replace the contents of the existing course. {em_start}You cannot undo a course import{em_end}. Before you proceed, we recommend that you export the current course, so that you have a backup copy of it."
+msgstr "قبل از ادامه مطمئن شوید که می‌خواهید یک دوره را وارد کنید. مطالب دوره وارد شده جایگزین مطالب دوره موجود خواهد شد. {em_start} نمی‌توانید واردات دوره را واگرد کنید {em_end}. قبل از ادامه، توصیه می‌کنیم دوره فعلی را صادر کنید تا از آن نسخه پشتیبان تهیه کنید."
 
-#: cms/templates/import.html
-msgid ""
-"The course that you import must be in a .tar.gz file (that is, a .tar file "
-"compressed with GNU Zip). This .tar.gz file must contain a course.xml file. "
-"It may also contain other files."
-msgstr ""
+#: cms/templates/import.html:54
+msgid "The course that you import must be in a .tar.gz file (that is, a .tar file compressed with GNU Zip). This .tar.gz file must contain a course.xml file. It may also contain other files."
+msgstr "دوره‌ای که وارد می‌کنید باید در یک فایل .tar.gz باشد (یعنی یک فایل .tar که با GNU Zip فشرده شده). این فایل .tar.gz باید حاوی یک فایل course.xml باشد. همچنین ممکن است شامل فایل‌های دیگری نیز باشد."
 
-#: cms/templates/import.html
-msgid ""
-"The import process has five stages. During the first two stages, you must "
-"stay on this page. You can leave this page after the Unpacking stage has "
-"completed. We recommend, however, that you don't make important changes to "
-"your course until the import operation has completed."
-msgstr ""
+#: cms/templates/import.html:55
+msgid "The import process has five stages. During the first two stages, you must stay on this page. You can leave this page after the Unpacking stage has completed. We recommend, however, that you don't make important changes to your course until the import operation has completed."
+msgstr "فرآیند واردکردن پنج مرحله دارد. در طی دو مرحله اول، شما باید در این صفحه بمانید. پس از پایان مرحله باز کردن بسته می‌توانید این صفحه را ترک کنید. با این حال توصیه می‌کنیم تا زمان انجام عملیات واردات، تغییرات مهمی در دوره خود ایجاد نکنید."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:65
 msgid "Select a .tar.gz File to Replace Your Library Content"
-msgstr ""
+msgstr "برای جایگزینی محتوای کتابخانه خود، یک فایل .tar.gz انتخاب کنید"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:67
 msgid "Select a .tar.gz File to Replace Your Course Content"
-msgstr ""
+msgstr "برای جایگزینی محتوای دوره خود، یک فایل .tar.gz انتخاب کنید"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:75
 msgid "Choose a File to Import"
-msgstr ""
+msgstr "یک فایل برای وارد کردن انتخاب کنید"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:80
 msgid "File Chosen:"
 msgstr "فایل انتخاب شده:"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:88
 msgid "Replace my library with the selected file"
-msgstr ""
+msgstr "کتابخانه من را با فایل انتخابی جایگزین کن"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:90
 msgid "Replace my course with the selected file"
-msgstr ""
+msgstr "دوره من را با فایل انتخابی جایگزین کن"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:98
 msgid "Library Import Status"
-msgstr ""
+msgstr "وضعیت وارد کردن کتابخانه"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:100
 msgid "Course Import Status"
-msgstr "وضعیت دریافت دوره"
+msgstr "وضعیت وارد کردن دوره"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:112
 msgid "Uploading"
-msgstr "در حال آپلود..."
+msgstr "در حال بارگذاری"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:116
 msgid "Transferring your file to our servers"
 msgstr "انتقال فایل شما به سرور ما"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:127
 msgid "Unpacking"
-msgstr "باز کردن بسته "
+msgstr "باز کردن بسته"
 
-#: cms/templates/import.html
-msgid ""
-"Expanding and preparing folder/file structure (You can now leave this page "
-"safely, but avoid making drastic changes to content until this import is "
-"complete)"
-msgstr ""
+#: cms/templates/import.html:128
+msgid "Expanding and preparing folder/file structure (You can now leave this page safely, but avoid making drastic changes to content until this import is complete)"
+msgstr "گسترش و آماده سازی ساختار پوشه/ فایل (اکنون می‌توانید با خیال راحت این صفحه را ترک کنید، اما از ایجاد تغییرات شدید در محتوا تا پایان این واردات خودداری کنید)"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:140
 msgid "Verifying"
 msgstr "تایید کردن"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:141
 msgid "Reviewing semantics, syntax, and required data"
-msgstr ""
+msgstr "مرور معناشناسی، ترکیب و داده‌های مورد نیاز"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:154
 msgid "Updating Library"
-msgstr ""
+msgstr "در حال به روز رسانی کتابخانه"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:156
 msgid "Updating Course"
 msgstr "به روز رسانی دوره"
 
-#: cms/templates/import.html
-msgid ""
-"Integrating your imported content into this library. This process might take"
-" longer with larger libraries."
-msgstr ""
+#: cms/templates/import.html:161
+msgid "Integrating your imported content into this library. This process might take longer with larger libraries."
+msgstr "ادغام محتوای وارد شده شما در این کتابخانه. این فرایند ممکن است با کتابخانه‌های بزرگ‌تر بیشتر طول بکشد."
 
-#: cms/templates/import.html
-msgid ""
-"Integrating your imported content into this course. This process might take "
-"longer with larger courses."
-msgstr ""
+#: cms/templates/import.html:163
+msgid "Integrating your imported content into this course. This process might take longer with larger courses."
+msgstr "ادغام محتوای وارد شده شما در این دوره. این فرایند ممکن است با دوره‌های بزرگ‌تر بیشتر طول بکشد."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:180
 msgid "Your imported content has now been integrated into this library"
-msgstr ""
+msgstr "محتوای وارد شده شما اکنون در این کتابخانه ادغام شده است"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:182
 msgid "Your imported content has now been integrated into this course"
-msgstr ""
+msgstr "محتوای وارد شده شما اکنون در این دوره ادغام شده است"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:190
 msgid "View Updated Library"
-msgstr ""
+msgstr "مشاهده کتابخانه به روز شده"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:192
 msgid "View Updated Outline"
 msgstr "مشاهده بروز رسانی نمای کلی"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:207
 msgid "Why import a library?"
-msgstr ""
+msgstr "چرا یک کتابخانه را وارد می‌کنیم؟"
 
-#: cms/templates/import.html
-msgid ""
-"You might want to update an existing library to a new version, or replace an"
-" existing library entirely. You might also have developed a library outside "
-"of {studio_name}."
-msgstr ""
+#: cms/templates/import.html:208
+msgid "You might want to update an existing library to a new version, or replace an existing library entirely. You might also have developed a library outside of {studio_name}."
+msgstr "ممکن است بخواهید کتابخانه موجود را به نسخه جدید به روز کنید یا کتابخانه موجود را کاملاً جایگزین کنید. همچنین ممکن است شما کتابخانه‌ای خارج از {studio_name} ایجاد کرده باشید."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:212
 msgid "Note: Library content is not automatically updated in courses"
-msgstr ""
+msgstr "توجه: محتوای کتابخانه به طور خودکار در دوره‌ها به روز نمی‌شود"
 
-#: cms/templates/import.html
-msgid ""
-"If you change and import a library that is referenced by randomized content "
-"blocks in one or more courses, those courses do not automatically use the "
-"updated content. You must manually refresh the randomized content blocks to "
-"bring them up to date with the latest library content."
-msgstr ""
+#: cms/templates/import.html:213
+msgid "If you change and import a library that is referenced by randomized content blocks in one or more courses, those courses do not automatically use the updated content. You must manually refresh the randomized content blocks to bring them up to date with the latest library content."
+msgstr "اگر کتابخانه‌ای را که توسط بلوک‌های محتوای تصادفی در یک یا چند دوره به آن مراجعه می‌شود تغییر دهید و وارد کنید، آن دوره‌ها به طور خودکار از محتوای به روز شده استفاده نمی‌کنند. شما باید بلوک‌های محتوای تصادفی را به صورت دستی تازه کنید تا آن‌ها را با جدیدترین محتوای کتابخانه به روز کنید."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:216
 msgid "Learn more about importing a library"
 msgstr "درباره وارد کردن کتابخانه بیشتر بدانید"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:222
 msgid "Why import a course?"
-msgstr ""
+msgstr "چرا یک دوره را وارد می‌کنیم؟"
 
-#: cms/templates/import.html
-msgid ""
-"You may want to run a new version of an existing course, or replace an "
-"existing course altogether. Or, you may have developed a course outside "
-"{studio_name}."
-msgstr ""
+#: cms/templates/import.html:223
+msgid "You may want to run a new version of an existing course, or replace an existing course altogether. Or, you may have developed a course outside {studio_name}."
+msgstr "ممکن است بخواهید نسخه جدیدی از یک دوره موجود را اجرا کنید یا کلاً یک دوره موجود را جایگزین کنید. یا ممکن است دوره‌ای خارج از {studio_name} ایجاد کرده باشید."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:227
 msgid "What content is imported?"
-msgstr ""
+msgstr "چه محتوایی وارد می‌شود؟"
 
-#: cms/templates/import.html
+#: cms/templates/import.html:228
 msgid "The following content is imported."
-msgstr ""
+msgstr "محتوای زیر وارد شد."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:236
 msgid "The following content is not imported."
-msgstr ""
+msgstr "محتوای زیر وارد نشد."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:244
 msgid "Warning: Importing while a course is running"
-msgstr ""
+msgstr "هشدار: وارد کردن در زمانی که دوره در حال اجراست"
 
-#: cms/templates/import.html
-msgid ""
-"If you perform an import while your course is running, and you change the "
-"URL names (or url_name nodes) of any Problem components, the student data "
-"associated with those Problem components may be lost. This data includes "
-"students' problem scores."
-msgstr ""
+#: cms/templates/import.html:245
+msgid "If you perform an import while your course is running, and you change the URL names (or url_name nodes) of any Problem components, the student data associated with those Problem components may be lost. This data includes students' problem scores."
+msgstr "اگر در حالی که دوره شما در حال اجرا است وارداتی انجام دهید و نام URL (یا گره‌های url_name) هر یک از اجزای مسئله را تغییر دهید، ممکن است داده‌های دانشجویی مرتبط با آن مولفه‌های مساله از بین بروند. این داده‌ها شامل نمرات آزمون‌های دانشجویان است."
 
-#: cms/templates/import.html
+#: cms/templates/import.html:248
 msgid "Learn more about importing a course"
 msgstr "درباره وارد کردن دوره بیشتر بدانید"
 
-#: cms/templates/index.html cms/templates/index.html
-#: cms/templates/widgets/user_dropdown.html
-#: cms/templates/widgets/user_dropdown.html
+#: cms/templates/index.html:14 cms/templates/index.html:26 cms/templates/widgets/user_dropdown.html:31 cms/templates/widgets/user_dropdown.html:55
 msgid "{studio_name} Home"
 msgstr "صفحه اصلی {studio_name}"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:35
 msgid "New Course"
 msgstr "دوره جدید"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:37
 msgid "Email staff to create course"
 msgstr "پست الکترونیکی پرسنل برای ایجاد دوره"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:41
 msgid "New Library"
 msgstr "کتابخانه جدید"
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:60 cms/templates/index.html:135
 msgid "Please correct the highlighted fields below."
-msgstr "لطفا گزینه هایلایت شده زیر را حل کنید"
+msgstr "لطفا گزینه هایلایت شده زیر را حل کنید."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:65
 msgid "Create a New Course"
 msgstr "ایجاد یک دوره جدید"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:68
 msgid "Required Information to Create a New Course"
 msgstr "اطلاعات مورد نیاز برای ایجاد یک دوره جدید"
 
-#: cms/templates/index.html
-msgid ""
-"The public display name for your course. This cannot be changed, but you can"
-" set a different display name in Advanced Settings later."
-msgstr ""
-"نام دوره شما که به عموم نشان داده می شود. این نام قابل تغییر نیست، اما بعدا "
-"می توانید یک نام دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
+#: cms/templates/index.html:76
+msgid "The public display name for your course. This cannot be changed, but you can set a different display name in Advanced Settings later."
+msgstr "نام دوره شما که به عموم نشان داده می‌شود. این نام قابل تغییر نیست، اما بعدا می‌توانید یک نام دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
 
-#: cms/templates/index.html
-msgid ""
-"The name of the organization sponsoring the course. {strong_start}Note: The "
-"organization name is part of the course URL.{strong_end} This cannot be "
-"changed, but you can set a different display name in Advanced Settings "
-"later."
-msgstr ""
-"نام سازمان حمایت کننده دوره. {strong_start}توجه: نام سازمان قسمتی از آدرس "
-"دوره است.{strong_end} این نام قابل تغییر نیست، اما بعداً می توانید یک نام "
-"دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
+#: cms/templates/index.html:84
+msgid "The name of the organization sponsoring the course. {strong_start}Note: The organization name is part of the course URL.{strong_end} This cannot be changed, but you can set a different display name in Advanced Settings later."
+msgstr "نام سازمان حمایت کننده دوره. {strong_start}توجه: نام سازمان قسمتی از آدرس دوره است.{strong_end} این نام قابل تغییر نیست، اما بعداً می‌توانید یک نام دیگر برای نمایش در تنظیمات پیشرفته وارد کنید."
 
-#: cms/templates/index.html
-msgid ""
-"The unique number that identifies your course within your organization. "
-"{strong_start}Note: This is part of your course URL, so no spaces or special"
-" characters are allowed and it cannot be changed.{strong_end}"
-msgstr ""
-"نام واحدی که مشخص کننده دوره شما در سازمان شماست. {strong_start}توجه: این "
-"قسمتی از آدرس دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر "
-"نیست.{strong_end}"
+#: cms/templates/index.html:97
+msgid "The unique number that identifies your course within your organization. {strong_start}Note: This is part of your course URL, so no spaces or special characters are allowed and it cannot be changed.{strong_end}"
+msgstr "نام واحدی که مشخص کننده دوره شما در سازمان شماست. {strong_start}توجه: این قسمتی از آدرس دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر نیست.{strong_end}"
 
-#: cms/templates/index.html
-msgid ""
-"The term in which your course will run. {strong_start}Note: This is part of "
-"your course URL, so no spaces or special characters are allowed and it "
-"cannot be changed.{strong_end}"
-msgstr ""
-"ترمی که دوره شما در آن اجرا می شود. {strong_start}توجه: این قسمتی از آدرس "
-"دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر "
-"نیست.{strong_end}"
+#: cms/templates/index.html:109
+msgid "The term in which your course will run. {strong_start}Note: This is part of your course URL, so no spaces or special characters are allowed and it cannot be changed.{strong_end}"
+msgstr "ترمی که دوره شما در آن اجرا می‌شود. {strong_start}توجه: این قسمتی از آدرس دوره شماست، پس باید بدون فاصله یا حروف خاص باشد و قابل تغییر نیست.{strong_end}"
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:122 cms/templates/index.html:182
 msgid "Create"
-msgstr "ایجاد "
+msgstr "ایجاد"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:140
 msgid "Create a New Library"
 msgstr "ایجاد کتابخانه جدید"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:143
 msgid "Required Information to Create a New Library"
 msgstr "اطلاعات خواسته شده برای ایجاد یک کتابخانه جدید"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:147
 msgid "Library Name"
 msgstr "نام کتابخانه"
 
 #. Translators: This is an example name for a new content library, seen when
 #. filling out the form to create a new library.
 #. (A library is a collection of content or problems.)
-#: cms/templates/index.html
+#: cms/templates/index.html:151
 msgid "e.g. Computer Science Problems"
 msgstr "به عنوان مثال: مشکلات علوم کامپیوتر"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:152
 msgid "The public display name for your library."
-msgstr "نام کتابخانه شما که به عموم نشان داده می شود."
+msgstr "نام کتابخانه شما که به عموم نشان داده می‌شود."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:158
 msgid "The public organization name for your library."
 msgstr "نام سازمان کتابخانه شما."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:158
 msgid "This cannot be changed."
-msgstr "قابل تغییر نیست"
+msgstr "قابل تغییر نیست."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:163
 msgid "Library Code"
 msgstr "کد کتابخانه"
 
@@ -1724,932 +1352,783 @@ msgstr "کد کتابخانه"
 #. short
 #. for "Computer Science Problems". The example number may contain letters
 #. but must not contain spaces.
-#: cms/templates/index.html
+#: cms/templates/index.html:168
 msgid "e.g. CSPROB"
 msgstr "به عنوان مثال: CSPROB"
 
-#: cms/templates/index.html
-msgid ""
-"The unique code that identifies this library. {strong_start}Note: This is "
-"part of your library URL, so no spaces or special characters are "
-"allowed.{strong_end} This cannot be changed."
-msgstr ""
-"کد واحدی که این کتابخانه را مشخص می کند. {strong_start}توجه: این قسمتی از "
-"آدرس کتابخانه شماست، باید بدون فاصله یا حروف خاص باشد.{strong_end} قابل "
-"تغییرر نیست."
+#: cms/templates/index.html:169
+msgid "The unique code that identifies this library. {strong_start}Note: This is part of your library URL, so no spaces or special characters are allowed.{strong_end} This cannot be changed."
+msgstr "کد واحدی که این کتابخانه را مشخص می کند. {strong_start}توجه: این قسمتی از آدرس کتابخانه شماست، باید بدون فاصله یا حروف خاص باشد.{strong_end} قابل تغییر نیست."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:191
 msgid "Organization and Library Settings"
-msgstr ""
+msgstr "تنظیمات سازمان و کتابخانه"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:195
 msgid "Show all courses in organization:"
-msgstr ""
+msgstr "نمایش همه دوره‌ها در سازمان:"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:197
 msgid "For example, MITx"
-msgstr ""
+msgstr "برای مثال MITx"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:211
 msgid "Courses Being Processed"
-msgstr ""
+msgstr "در حال پردازش دوره‌ها"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:237
 msgid "This course run is currently being created."
-msgstr ""
+msgstr "اجرای این دوره به درستی ایجاد شده است."
 
 #. Translators: This is a status message, used to inform the user of
 #. what the system is doing. This status means that the user has
 #. requested to re-run an existing course, and the system is currently
 #. in the process of duplicating and configuring the existing course
 #. so that it can be re-run.
-#: cms/templates/index.html
+#: cms/templates/index.html:245
 msgid "Configuring as re-run"
-msgstr ""
+msgstr "در حال پیکربندی اجرای مجدد"
 
-#: cms/templates/index.html
-msgid ""
-"The new course will be added to your course list in 5-10 minutes. Return to "
-"this page or {link_start}refresh it{link_end} to update the course list. The"
-" new course will need some manual configuration."
-msgstr ""
+#: cms/templates/index.html:251
+msgid "The new course will be added to your course list in 5-10 minutes. Return to this page or {link_start}refresh it{link_end} to update the course list. The new course will need some manual configuration."
+msgstr "دوره جدید در ۵-۱۰ دقیقه به فهرست دوره‌های شما اضافه می‌شود. برای به روزرسانی فهرست دوره‌ها، به این صفحه برگردید یا {link_start} آن را تازه کنید {link_end}. دوره جدید به برخی تنظیمات دستی نیاز دارد."
 
 #. Translators: This is a status message for the course re-runs feature.
 #. When a course admin indicates that a course should be re-run, the system
 #. needs to process the request and prepare the new course. The status of
 #. the process will follow this text.
-#: cms/templates/index.html
+#: cms/templates/index.html:287
 msgid "This re-run processing status:"
-msgstr ""
+msgstr "وضعیت پردازش این اجرای مجدد:"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:290
 msgid "Configuration Error"
-msgstr ""
+msgstr "خطای پیکربندی"
 
-#: cms/templates/index.html
-msgid ""
-"A system error occurred while your course was being processed. Please go to "
-"the original course to try the re-run again, or contact your PM for "
-"assistance."
-msgstr ""
+#: cms/templates/index.html:296
+msgid "A system error occurred while your course was being processed. Please go to the original course to try the re-run again, or contact your PM for assistance."
+msgstr "هنگام پردازش دوره شما یک خطای سیستم رخ داد. لطفاً برای اجرای مجدد دوره به دوره اصلی بروید یا برای کمک به PM خود تماس بگیرید."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:318
 msgid "Archived Courses"
-msgstr ""
+msgstr "دوره‌های بایگانی شده"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:321
 msgid "Libraries"
-msgstr "کتابخانه ها"
+msgstr "کتابخانه‌ها"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:344
 msgid "Are you staff on an existing {studio_name} course?"
-msgstr "آیا شما از اعضای یکی از دوره های {studio_name} هستید؟"
+msgstr "آیا شما از اعضای یکی از دوره‌های {studio_name} هستید؟"
 
-#: cms/templates/index.html
-msgid ""
-"The course creator must give you access to the course. Contact the course "
-"creator or administrator for the course you are helping to author."
-msgstr ""
-"دسترسی به دوره را باید کسی که دوره را ایجاد کرده است، به شما بدهد. با او جهت"
-" دسترسی به دوره تماس حاصل فرمایید."
+#: cms/templates/index.html:346
+msgid "The course creator must give you access to the course. Contact the course creator or administrator for the course you are helping to author."
+msgstr "دسترسی به دوره را باید کسی که دوره را ایجاد کرده است، به شما بدهد. با او جهت دسترسی به دوره تماس حاصل فرمایید."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:354 cms/templates/index.html:362
 msgid "Create Your First Course"
 msgstr "ایجاد اولین دوره"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:356
 msgid "Your new course is just a click away!"
 msgstr "با ساخت اولین دوره فقط یک کلیک فاصله دارید!"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:375
 msgid "Becoming a Course Creator in {studio_name}"
-msgstr ""
+msgstr "تبدیل شدن به یک سازنده دوره در {studio_name}"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:380
 msgid ""
-"{studio_name} is a hosted solution for our xConsortium partners and selected"
-" guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
-"team will evaluate your request and provide you feedback within 24 hours "
-"during the work week."
-msgstr ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected guests. Courses for which you are a team member appear above for you to edit, while course creator privileges are granted by {platform_name}. Our team will evaluate your request and provide you feedback within 24 hours during the work week."
+msgstr "{studio_name} یک راه حل میزبان برای شرکا و مهمانان انتخاب شده ما است. دوره‌هایی که برای آنها عضو تیم هستید در بالا برای ویرایش ظاهر می‌شوند، در حالی که امتیازات ایجاد کننده دوره توسط {platform_name} اعطا می‌شود. تیم ما در طول هفته کاری درخواست شما را ارزیابی کرده و در طی ۲۴ساعت نظرات شما را ارائه می‌دهد."
 
-#: cms/templates/index.html cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:385 cms/templates/index.html:410 cms/templates/index.html:438
 msgid "Your Course Creator Request Status:"
-msgstr "وضعیت درخواست ایجاد کننده دوره خود "
+msgstr "وضعیت درخواست ایجاد کننده دوره خود:"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:389
 msgid "Request the Ability to Create Courses"
-msgstr "درخواست قابلیت ایجاد دوره های آموزشی"
+msgstr "درخواست قابلیت ایجاد دوره‌های آموزشی"
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:399 cms/templates/index.html:427
 msgid "Your Course Creator Request Status"
 msgstr "وضعیت درخواست ایجاد کننده دوره شما"
 
-#: cms/templates/index.html
-msgid ""
-"{studio_name} is a hosted solution for our xConsortium partners and selected"
-" guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
-"team is has completed evaluating your request."
-msgstr ""
+#: cms/templates/index.html:404
+msgid "{studio_name} is a hosted solution for our xConsortium partners and selected guests. Courses for which you are a team member appear above for you to edit, while course creator privileges are granted by {platform_name}. Our team is has completed evaluating your request."
+msgstr "{studio_name} یک راه حل میزبان برای شرکا و مهمانان انتخاب شده ما است. دوره‌هایی که در آن‌ها عضو تیم هستید در بالا برای ویرایش ظاهر می‌شوند، در حالی که امتیازات ایجاد کننده دوره توسط {platform_name} اعطا می‌شود. تیم ما ارزیابی درخواست شما را به پایان رسانده است."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:413 cms/templates/index.html:441
 msgid "Your Course Creator request is:"
 msgstr "درخواست ایجاد کننده دوره شما:"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:416
 msgid "Denied"
 msgstr "ممنوع"
 
-#: cms/templates/index.html
-msgid ""
-"Your request did not meet the criteria/guidelines specified by "
-"{platform_name} Staff."
-msgstr ""
+#: cms/templates/index.html:417
+msgid "Your request did not meet the criteria/guidelines specified by {platform_name} Staff."
+msgstr "درخواست شما با معیارها/ دستورالعمل‌های مشخص شده توسط کارکنان {platform_name} مطابقت نداشت."
 
-#: cms/templates/index.html
-msgid ""
-"{studio_name} is a hosted solution for our xConsortium partners and selected"
-" guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
-"team is currently  evaluating your request."
-msgstr ""
+#: cms/templates/index.html:432
+msgid "{studio_name} is a hosted solution for our xConsortium partners and selected guests. Courses for which you are a team member appear above for you to edit, while course creator privileges are granted by {platform_name}. Our team is currently  evaluating your request."
+msgstr "{studio_name} یک راه حل میزبان برای شرکا و مهمانان انتخاب شده ما است. دوره‌هایی که برای آن‌ها عضوی از تیم هستید در بالا برای ویرایش ظاهر می‌شوند، در حالی که امتیازات ایجاد کننده دوره توسط {platform_name} اعطا می‌شود. تیم ما در حال ارزیابی درخواست شما است."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:444
 msgid "Pending"
 msgstr "در انتظار"
 
-#: cms/templates/index.html
-msgid ""
-"Your request is currently being reviewed by {platform_name} staff and should"
-" be updated shortly."
-msgstr ""
+#: cms/templates/index.html:446
+msgid "Your request is currently being reviewed by {platform_name} staff and should be updated shortly."
+msgstr "درخواست شما در حال حاضر توسط کارکنان {platform_name} در حال بررسی است و باید به زودی به روز شود."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:488
 msgid "Were you expecting to see a particular library here?"
 msgstr "انتظار دیدن یک کتابخانه خاص را دارید؟"
 
-#: cms/templates/index.html
-msgid ""
-"The library creator must give you access to the library. Contact the library"
-" creator or administrator for the library you are helping to author."
-msgstr ""
-"دسترسی به کتابخانه را باید کسی که کتابخانه را ایجاد کرده است، به شما بدهد. "
-"با او جهت دسترسی به کتابخانه تماس حاصل فرمایید."
+#: cms/templates/index.html:490
+msgid "The library creator must give you access to the library. Contact the library creator or administrator for the library you are helping to author."
+msgstr "دسترسی به کتابخانه را باید کسی که کتابخانه را ایجاد کرده است، به شما بدهد. با او جهت دسترسی به کتابخانه تماس حاصل فرمایید."
 
-#: cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:497 cms/templates/index.html:505
 msgid "Create Your First Library"
 msgstr "اولین کتابخانه خود را ایجاد کنید"
 
-#: cms/templates/index.html
-msgid ""
-"Libraries hold a pool of components that can be re-used across multiple "
-"courses. Create your first library with the click of a button!"
-msgstr ""
-"کتابخانه ها مجموعه ای از کامپوننت ها را که می توانند مجدداً توسط دوره های "
-"مختلف استفاده شوند، نگه می دارند. با یک کلیک اولین کتابخانه خود را ایجاد "
-"کنید."
+#: cms/templates/index.html:499
+msgid "Libraries hold a pool of components that can be re-used across multiple courses. Create your first library with the click of a button!"
+msgstr "کتابخانه‌ها مجموعه‌ای از مولفه‌ها را که می‌توانند مجدداً توسط دوره‌های مختلف استفاده شوند، نگه می‌دارند. با یک کلیک اولین کتابخانه خود را ایجاد کنید!"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:516
 msgid "New to {studio_name}?"
-msgstr "تازه با {studio_name} آشنا شده اید؟"
+msgstr "تازه با {studio_name} آشنا شده‌اید؟"
 
-#: cms/templates/index.html
-msgid ""
-"Click Help in the upper-right corner to get more information about the "
-"{studio_name} page you are viewing. You can also use the links at the bottom"
-" of the page to access our continually updated documentation and other "
-"{studio_name} resources."
-msgstr ""
-"برای اطلاعات بیشتر در مورد صفحه {studio_name} که در حال مشاهده آن هستید بر "
-"روی کمک که در گوشه بالا سمت راست صفحه قرار دارد کلیک کنید. همچنین می توانید "
-"از لینک های پایین صفحه برای دستیابی به مستندات ما که دائماً در حال بروزرسانی"
-" هستند و سایر منابع {studio_name} استفاده کنید."
+#: cms/templates/index.html:517
+msgid "Click Help in the upper-right corner to get more information about the {studio_name} page you are viewing. You can also use the links at the bottom of the page to access our continually updated documentation and other {studio_name} resources."
+msgstr "برای اطلاعات بیشتر در مورد صفحه {studio_name} که در حال مشاهده آن هستید بر روی کمک که در گوشه بالا سمت راست صفحه قرار دارد کلیک کنید. همچنین می توانید از لینک های پایین صفحه برای دستیابی به مستندات ما که دائماً در حال بروزرسانی هستند و سایر منابع {studio_name} استفاده کنید."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:522
 msgid "Getting Started with {studio_name}"
 msgstr "شروع کار با {studio_name}"
 
-#: cms/templates/index.html cms/templates/index.html cms/templates/index.html
+#: cms/templates/index.html:529 cms/templates/index.html:541 cms/templates/index.html:547
 msgid "Can I create courses in {studio_name}?"
-msgstr ""
+msgstr "آیا من می‌توانم در {studio_name} دوره ایجاد کنم؟"
 
-#: cms/templates/index.html
-msgid ""
-"In order to create courses in {studio_name}, you must {link_start}contact "
-"{platform_name} staff to help you create a course{link_end}."
-msgstr ""
+#: cms/templates/index.html:530
+msgid "In order to create courses in {studio_name}, you must {link_start}contact {platform_name} staff to help you create a course{link_end}."
+msgstr "برای ایجاد دوره‌های آموزشی در {studio_name}، باید {link_start} با کارکنان {platform_name} تماس بگیرید تا به شما کمک کنند یک دوره ایجاد کنید {link_end}."
 
-#: cms/templates/index.html
-msgid ""
-"In order to create courses in {studio_name}, you must have course creator "
-"privileges to create your own course."
-msgstr ""
+#: cms/templates/index.html:542
+msgid "In order to create courses in {studio_name}, you must have course creator privileges to create your own course."
+msgstr "برای ایجاد دوره‌های آموزشی در {studio_name}، باید امتیازات ایجاد کننده دوره را داشته باشید تا دوره خود را ایجاد کنید."
 
-#: cms/templates/index.html
-msgid ""
-"Your request to author courses in {studio_name} has been denied. Please "
-"{link_start}contact {platform_name} Staff with further questions{link_end}."
-msgstr ""
+#: cms/templates/index.html:548
+msgid "Your request to author courses in {studio_name} has been denied. Please {link_start}contact {platform_name} Staff with further questions{link_end}."
+msgstr "درخواست شما برای تالیف دوره‌ در {studio_name} رد شده است. لطفاً با سوالات بیشتر {link_start} با {platform_name} کارکنان تماس بگیرید {link_end}."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:565
 msgid "Thanks for signing up, {name}!"
-msgstr "{name}، با تشکر از ثبت نام شما"
+msgstr "{name}، با تشکر از ثبت نام شما!"
 
-#: cms/templates/index.html
+#: cms/templates/index.html:570
 msgid "We need to verify your email address"
-msgstr "نیازبه تایید آدرس پست الکترونیکی شما می باشد"
+msgstr "نیازبه تایید آدرس پست الکترونیکی شما می‌باشد"
 
-#: cms/templates/index.html
-msgid ""
-"Almost there! In order to complete your sign up we need you to verify your "
-"email address ({email}). An activation message and next steps should be "
-"waiting for you there."
-msgstr ""
+#: cms/templates/index.html:572
+msgid "Almost there! In order to complete your sign up we need you to verify your email address ({email}). An activation message and next steps should be waiting for you there."
+msgstr "تقریباً تمام است! برای تکمیل ثبت نام شما باید نشانی پست الکترونیکی خود را تأیید کنید ({email}). یک پیام فعال‌سازی و مراحل بعدی باید در آنجا منتظر شما باشد."
 
-#: cms/templates/index.html
+#: cms/templates/index.html:580
 msgid "Need help?"
 msgstr "به کمک نیاز دارید؟"
 
-#: cms/templates/index.html
-msgid ""
-"Please check your Junk or Spam folders in case our email isn't in your "
-"INBOX. Still can't find the verification email? Request help via the link "
-"below."
-msgstr ""
-"در صورتی که پست الکترونیکی ما در قسمت پیام های دریافتی پست الکترونیکی شما "
-"نمی باشد لطفاً قسمت اسپم را چک نمایید، هنوز پست الکترونیکی تاییدیه را گیدا "
-"نکرده اید ؟ از طریق لینک ذیل درخواست کمک نمایید."
+#: cms/templates/index.html:581
+msgid "Please check your Junk or Spam folders in case our email isn't in your INBOX. Still can't find the verification email? Request help via the link below."
+msgstr "در صورتی که پست الکترونیکی ما در قسمت پیام‌های دریافتی پست الکترونیکی شما نمی‌باشد لطفاً قسمت اسپم را چک نمایید، هنوز پست الکترونیکی تاییدیه را پیدا نکرده‌اید؟ از طریق لینک ذیل درخواست کمک نمایید."
 
-#: cms/templates/library.html
+#: cms/templates/library.html:49
 msgid "Content Library"
 msgstr "کتابخانه محتوا"
 
-#: cms/templates/library.html
+#: cms/templates/library.html:61
 msgid "Add Component"
-msgstr "افزودن کامپوننت"
+msgstr "افزودن مولفه"
 
-#: cms/templates/library.html
+#: cms/templates/library.html:90
 msgid "Adding content to your library"
 msgstr "افزودن محتوا به کتابخانه"
 
-#: cms/templates/library.html
-msgid ""
-"Add components to your library for use in courses, using Add New Component "
-"at the bottom of this page."
-msgstr ""
-"برای استفاده از کامپوننت ها در دوره ها، با استفاده از افزودن کامپوننت جدید "
-"در پایین صفحه، آنها را به کتابخانه خود اضافه کنید."
+#: cms/templates/library.html:91
+msgid "Add components to your library for use in courses, using Add New Component at the bottom of this page."
+msgstr "برای استفاده از مولفه‌ها در دوره‌ها، با استفاده از افزودن مولفه جدید در پایین صفحه، آنها را به کتابخانه خود اضافه کنید."
 
-#: cms/templates/library.html
-msgid ""
-"Components are listed in the order in which they are added, with the most "
-"recently added at the bottom. Use the pagination arrows to navigate from "
-"page to page if you have more than one page of components in your library."
-msgstr ""
-"کامپوننت ها به همان ترتیب که اضافه شده اند، لیست شده اند. اگر بیش از یک صفحه"
-" از کامپوننت ها در کتابخانه خود دارید، برای جابجایی میان صفحات از کلید های "
-"جابجایی استفاده کنید."
+#: cms/templates/library.html:92
+msgid "Components are listed in the order in which they are added, with the most recently added at the bottom. Use the pagination arrows to navigate from page to page if you have more than one page of components in your library."
+msgstr "مولفه‌ها به همان ترتیب که اضافه شده‌اند، لیست شده‌اند. اگر بیش از یک صفحه از مولفه‌ها در کتابخانه خود دارید، برای جابجایی میان صفحات از کلید‌های جابجایی استفاده کنید."
 
-#: cms/templates/library.html
+#: cms/templates/library.html:93
 msgid "Using library content in courses"
-msgstr "استفاده از محتوای کتابخانه در دوره ها"
+msgstr "استفاده از محتوای کتابخانه در دوره‌ها"
 
-#: cms/templates/library.html
+#: cms/templates/library.html:94
 msgid ""
-"Use library content in courses by adding the "
-"{em_start}library_content{em_end} policy key to the Advanced Module List in "
-"the course's Advanced Settings, then adding a Randomized Content Block to "
-"your courseware. In the settings for each Randomized Content Block, select "
-"this library as the source library, and specify the number of problems to be"
-" randomly selected and displayed to each student."
+"Use library content in courses by adding the {em_start}library_content{em_end} policy key to the Advanced Module List in the course's Advanced Settings, then adding a Randomized Content Block to your courseware. In the settings for each Randomized Content Block, select this library as the source library, and specify "
+"the number of problems to be randomly selected and displayed to each student."
 msgstr ""
+"با افزودن کلید خط مشی {em_start} library_content {em_end} به فهرست ماژول‌های پیشرفته در تنظیمات پیشرفته دوره، از محتوای کتابخانه در دوره‌ها استفاده کنید و سپس بلوک محتوای تصادفی را به برنامه خود اضافه کنید. در تنظیمات مربوط به هر بلوک محتوای تصادفی، این کتابخانه را به عنوان کتابخانه منبع انتخاب کنید و تعداد مشکلاتی را "
+"که باید به صورت تصادفی انتخاب و برای هر دانشجو نمایش داده شود، مشخص کنید."
 
-#: cms/templates/library.html
+#: cms/templates/library.html:101
 msgid "Learn more about content libraries"
-msgstr "درباره کتابخانه های محتوا بیشتر بدانید"
+msgstr "درباره کتابخانه‌های محتوا بیشتر بدانید"
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:14
 msgid "Course Team Settings"
-msgstr "تنظیمات گروه دوره "
+msgstr "تنظیمات گروه دوره"
 
-#: cms/templates/manage_users.html cms/templates/manage_users_lib.html
+#: cms/templates/manage_users.html:38 cms/templates/manage_users_lib.html:35
 msgid "New Team Member"
 msgstr "عضو جدید گروه"
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:53
 msgid "Add a User to Your Course's Team"
 msgstr "اضافه کردن کاربر به تیم دوره شما"
 
-#: cms/templates/manage_users.html cms/templates/manage_users_lib.html
+#: cms/templates/manage_users.html:56 cms/templates/manage_users_lib.html:53
 msgid "New Team Member Information"
 msgstr "اطلاعات عضو جدید تیم"
 
-#: cms/templates/manage_users.html cms/templates/manage_users_lib.html
+#: cms/templates/manage_users.html:60 cms/templates/manage_users_lib.html:57
 msgid "User's Email Address"
 msgstr "آدرس پست الکترونیک کاربر"
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:62
 msgid "Provide the email address of the user you want to add as Staff"
-msgstr ""
+msgstr "نشانی پست الکترونیکی کاربری را که می‌خواهید به عنوان کارمند اضافه کنید ارائه دهید"
 
-#: cms/templates/manage_users.html cms/templates/manage_users_lib.html
+#: cms/templates/manage_users.html:69 cms/templates/manage_users_lib.html:66
 msgid "Add User"
 msgstr "اضافه کردن کاربر"
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:85
 msgid "Add Team Members to This Course"
 msgstr "اضافه کردن اعضای تیم به این دوره"
 
-#: cms/templates/manage_users.html
-msgid ""
-"Adding team members makes course authoring collaborative. Users must be "
-"signed up for {studio_name} and have an active account."
-msgstr ""
+#: cms/templates/manage_users.html:87
+msgid "Adding team members makes course authoring collaborative. Users must be signed up for {studio_name} and have an active account."
+msgstr "افزودن اعضای تیم باعث می‌شود که تالیف دوره به صورت مشترک باشد. کاربران باید در {studio_name} ثبت نام کرده و یک حساب فعال داشته باشند."
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:93
 msgid "Add a New Team Member"
 msgstr "اضافه کردن یک عضو تیم جدید"
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:102
 msgid "Course Team Roles"
-msgstr ""
+msgstr "نقش‌های اعضای تیم دوره"
 
-#: cms/templates/manage_users.html
-msgid ""
-"Course team members with the Staff role are course co-authors. They have "
-"full writing and editing privileges on all course content."
-msgstr ""
+#: cms/templates/manage_users.html:103
+msgid "Course team members with the Staff role are course co-authors. They have full writing and editing privileges on all course content."
+msgstr "اعضای تیم دوره با نقش کارکنان از مولفین دوره هستند. آنها دارای حق نوشتن و ویرایش کامل در مورد تمام مطالب دوره هستند."
 
-#: cms/templates/manage_users.html
-msgid ""
-"Admins are course team members who can add and remove other course team "
-"members."
-msgstr ""
+#: cms/templates/manage_users.html:105
+msgid "Admins are course team members who can add and remove other course team members."
+msgstr "مدیرها اعضای تیم دوره هستند که می‌توانند سایر اعضای تیم دوره را اضافه و حذف کنند."
 
-#: cms/templates/manage_users.html
-msgid ""
-"All course team members can access content in Studio, the LMS, and Insights,"
-" but are not automatically enrolled in the course."
-msgstr ""
+#: cms/templates/manage_users.html:106
+msgid "All course team members can access content in Studio, the LMS, and Insights, but are not automatically enrolled in the course."
+msgstr "همه اعضای تیم دوره می‌توانند به مطالب موجود در استودیو، LMS و بینش‌ها دسترسی داشته باشند، اما به طور خودکار در دوره ثبت نام نمی‌شوند."
 
-#: cms/templates/manage_users.html
+#: cms/templates/manage_users.html:111
 msgid "Transferring Ownership"
-msgstr ""
+msgstr "انتقال مالکیت"
 
-#: cms/templates/manage_users.html
-msgid ""
-"Every course must have an Admin. If you are the Admin and you want to "
-"transfer ownership of the course, click <strong>Add admin access</strong> to"
-" make another user the Admin, then ask that user to remove you from the "
-"Course Team list."
-msgstr ""
+#: cms/templates/manage_users.html:113
+msgid "Every course must have an Admin. If you are the Admin and you want to transfer ownership of the course, click <strong>Add admin access</strong> to make another user the Admin, then ask that user to remove you from the Course Team list."
+msgstr "هر دوره باید مدیر داشته باشد. اگر مدیر هستید و می‌خواهید مالکیت دوره را انتقال دهید، روی <strong> افزودن دسترسی مدیر </ strong> کلیک کنید تا کاربر دیگری به مدیر تبدیل شود، سپس از آن کاربر بخواهید شما را از لیست تیم دوره حذف کند."
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:11
 msgid "Library User Access"
-msgstr ""
+msgstr "دسترسی کاربر به کتابخانه"
 
-#: cms/templates/manage_users_lib.html cms/templates/widgets/header.html
+#: cms/templates/manage_users_lib.html:27 cms/templates/widgets/header.html:172
 msgid "User Access"
-msgstr ""
+msgstr "دسترسی کاربر"
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:50
 msgid "Grant Access to This Library"
-msgstr ""
+msgstr "اجازه دسترسی به این کتابخانه را بدهید"
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:59
 msgid "Provide the email address of the user you want to add"
-msgstr ""
+msgstr "نشانی پست الکترونیکی کاربری را که می‌خواهید اضافه کنید ارائه دهید"
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:82
 msgid "Add More Users to This Library"
-msgstr ""
+msgstr "کاربران بیشتری به این کتابخانه اضافه کنید"
 
-#: cms/templates/manage_users_lib.html
-msgid ""
-"Grant other members of your course team access to this library. New library "
-"users must have an active {studio_name} account."
-msgstr ""
+#: cms/templates/manage_users_lib.html:84
+msgid "Grant other members of your course team access to this library. New library users must have an active {studio_name} account."
+msgstr "به سایر اعضای تیم دوره خود اجازه دسترسی به این کتابخانه را بدهید. کاربران جدید کتابخانه باید دارای یک حساب فعال {studio_name} باشند."
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:90
 msgid "Add a New User"
-msgstr ""
+msgstr "کاربر جدیدی اضافه کنید"
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:99
 msgid "Library Access Roles"
-msgstr ""
+msgstr "نقش‌های دسترسی به کتابخانه"
 
-#: cms/templates/manage_users_lib.html
+#: cms/templates/manage_users_lib.html:100
 msgid "There are three access roles for libraries: User, Staff, and Admin."
-msgstr ""
+msgstr "سه نقش دسترسی برای کتابخانه‌ها وجود دارد: کاربر، کارکنان و مدیر."
 
-#: cms/templates/manage_users_lib.html
-msgid ""
-"Library Users can view library content and can reference or use library "
-"components in their courses, but they cannot edit the contents of a library."
-msgstr ""
+#: cms/templates/manage_users_lib.html:101
+msgid "Library Users can view library content and can reference or use library components in their courses, but they cannot edit the contents of a library."
+msgstr "کاربران کتابخانه می‌توانند محتوای کتابخانه را مشاهده کنند و می‌توانند از اجزای کتابخانه در دوره‌‌های خود استفاده کنند یا به آن ارجاع دهند، اما نمی‌توانند محتوای کتابخانه را ویرایش کنند."
 
-#: cms/templates/manage_users_lib.html
-msgid ""
-"Library Staff are content co-authors. They have full editing privileges on "
-"the contents of a library."
-msgstr ""
+#: cms/templates/manage_users_lib.html:102
+msgid "Library Staff are content co-authors. They have full editing privileges on the contents of a library."
+msgstr "کارکنان کتابخانه از مولفین مشترک مطالب هستند. آنها دارای حق ویرایش کامل در مطالب کتابخانه هستند."
 
-#: cms/templates/manage_users_lib.html
-msgid ""
-"Library Admins have full editing privileges and can also add and remove "
-"other team members. There must be at least one user with the Admin role in a"
-" library."
-msgstr ""
+#: cms/templates/manage_users_lib.html:103
+msgid "Library Admins have full editing privileges and can also add and remove other team members. There must be at least one user with the Admin role in a library."
+msgstr "سرپرستان كتابخانه از حق ویرایش كامل برخوردار هستند و همچنین می‌توانند سایر اعضای تیم را اضافه و حذف كنند. حداقل باید یک کاربر با نقش مدیر در یک کتابخانه وجود داشته باشد."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:4
 msgid "Schedule & Details Settings"
-msgstr ""
+msgstr "تنظیمات برنامه و جزئیات"
 
-#: cms/templates/settings.html cms/templates/widgets/header.html
+#: cms/templates/settings.html:53 cms/templates/widgets/header.html:92
 msgid "Schedule & Details"
 msgstr "برنامه زمان بندی و اطلاعات"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:64
 msgid "Basic Information"
 msgstr "اطلاعات پایه"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:65
 msgid "The nuts and bolts of your course"
 msgstr "پیچ و مهره دوره شما"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html:71 cms/templates/settings.html:77 cms/templates/settings.html:83 cms/templates/settings.html:151 cms/templates/settings.html:162 cms/templates/settings.html:173
 msgid "This field is disabled: this information cannot be changed."
-msgstr "این قسمت از کار افتاده است، این اطلاعات غیر قابل تغییر می باشد."
+msgstr "این قسمت از کار افتاده است، این اطلاعات غیر قابل تغییر می‌باشد."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:90
 msgid "Course Summary Page"
 msgstr "صفحه خلاصه دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:90
 msgid "(for student enrollment and access)"
 msgstr "(برای ثبت نام دانش آموزان و دسترسی)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:101
 msgid "Enroll in {course_display_name}"
-msgstr ""
+msgstr "ثبت‌نام در {course_display_name}"
 
-#: cms/templates/settings.html
-msgid ""
-"The course \"{course_display_name}\", provided by {platform_name}, is open "
-"for enrollment. Please navigate to this course at {link_for_about_page} to "
-"enroll."
-msgstr ""
+#: cms/templates/settings.html:104
+msgid "The course \"{course_display_name}\", provided by {platform_name}, is open for enrollment. Please navigate to this course at {link_for_about_page} to enroll."
+msgstr "دوره \"{course_display_name}\"، ارایه شده از {platform_name}، برای ثبت‌نام باز است. لطفا برای ثبت‌نام در این دوره به{link_for_about_page} بروید."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:110
 msgid "Send a note to students via email"
 msgstr "ارسال متن برای دانشجویان توسط پست الکترونیکی"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:112
 msgid "Invite your students"
-msgstr "دعوتکردن دانشجویان"
+msgstr "دعوت کردن دانشجویان"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:120
 msgid "Promoting Your Course with {platform_name}"
-msgstr ""
+msgstr "ارتقا دوره خود با {platform_name}"
 
-#: cms/templates/settings.html
-msgid ""
-"Your course summary page will not be viewable until your course has been "
-"announced. To provide content for the page and preview it, follow the "
-"instructions provided by your Program Manager."
-msgstr ""
+#: cms/templates/settings.html:122
+msgid "Your course summary page will not be viewable until your course has been announced. To provide content for the page and preview it, follow the instructions provided by your Program Manager."
+msgstr "صفحه خلاصه دوره شما تا زمان اعلام دوره قابل مشاهده نخواهد بود. برای تهیه محتوای صفحه و پیش نمایش آن، دستورالعمل‌های ارائه شده توسط مدیر برنامه خود را دنبال کنید."
 
-#: cms/templates/settings.html
-msgid ""
-"Please note that changes here may take up to a business day to appear on "
-"your course summary page."
-msgstr ""
+#: cms/templates/settings.html:126
+msgid "Please note that changes here may take up to a business day to appear on your course summary page."
+msgstr "لطفا توجه داشته باشید که تغییرات در اینجا ممکن است یک روز کاری طول بکشد تا در صفحه خلاصه دوره شما ظاهر شود."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:139
 msgid "Course Credit Requirements"
-msgstr "این دوره نیاز به اعتبار دارد."
+msgstr "این دوره نیاز به اعتبار دارد"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:140
 msgid "Steps required to earn course credit"
-msgstr ""
+msgstr "مراحل کسب اعتبار دوره"
 
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html:148 cms/templates/settings.html:150
 msgid "Minimum Grade"
-msgstr ""
+msgstr "حداقل نمره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:159
 msgid "Successful Proctored Exam"
-msgstr ""
+msgstr "امتحان نظارت شده موفق"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:161
 msgid "Proctored Exam {number}"
-msgstr ""
+msgstr "آزمون نظارت شده {number}"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:170
 msgid "ID Verification"
 msgstr "تأیید مدارک شناسایی"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:172
 msgid "In-Course Reverification {number}"
-msgstr ""
+msgstr "تأیید صحت درون دوره‌ای {number}"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:190
 msgid "Course Pacing"
-msgstr ""
+msgstr "مسیریابی دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:191
 msgid "Set the pacing for this course"
-msgstr ""
+msgstr "تنظیم مسیریابی برای این دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:199
 msgid "Instructor-Paced"
-msgstr ""
+msgstr "سرعت تعیین شده توسط مربی"
 
-#: cms/templates/settings.html
-msgid ""
-"Instructor-paced courses progress at the pace that the course author sets. "
-"You can configure release dates for course content and due dates for "
-"assignments."
-msgstr ""
+#: cms/templates/settings.html:200
+msgid "Instructor-paced courses progress at the pace that the course author sets. You can configure release dates for course content and due dates for assignments."
+msgstr "دوره‌های مربی با سرعتی که مولف دوره تنظیم می‌کند پیشرفت می‌کنند. شما می‌توانید تاریخ انتشار را برای محتوای دوره و سررسید برای تکالیف را پیکربندی کنید."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:204
 msgid "Self-Paced"
-msgstr ""
+msgstr "سرعت تعیین شده توسط خود"
 
-#: cms/templates/settings.html
-msgid ""
-"Self-paced courses do not have release dates for course content or due dates"
-" for assignments. Learners can complete course material at any time before "
-"the course end date."
-msgstr ""
+#: cms/templates/settings.html:205
+msgid "Self-paced courses do not have release dates for course content or due dates for assignments. Learners can complete course material at any time before the course end date."
+msgstr "دوره‌های خود محور، تاریخ انتشار محتوای دوره یا سررسید تعیین تکالیف را ندارند. فراگیران می‌توانند در هر زمان قبل از تاریخ پایان دوره، مطالب دوره را تکمیل کنند."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:215
 msgid "Course Schedule"
 msgstr "برنامه زمان بندی دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:216
 msgid "Dates that control when your course can be viewed"
-msgstr ""
+msgstr "تاریخ‌هایی که زمان مشاهده دوره شما را کنترل می‌کنند"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:224
 msgid "First day the course begins"
-msgstr "اولین روز دوره شروع شده است."
+msgstr "اولین روز دوره شروع شده است"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:228
 msgid "Course Start Time"
-msgstr "زمان شروعی دوره"
+msgstr "زمان شروع دوره"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html
+#: cms/templates/settings.html:230 cms/templates/settings.html:244 cms/templates/settings.html:272 cms/templates/settings.html:294 cms/templates/settings.html:314
 msgid "(UTC)"
-msgstr ""
+msgstr "(UTC)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:238
 msgid "Last day your course is active"
 msgstr "آخرین روز فعال بودن دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:242
 msgid "Course End Time"
 msgstr "زمان پایان دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:253
 msgid "Certificates Available Date"
-msgstr ""
+msgstr "تاریخی که گواهی‌نامه ها موجود هستند"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:255
 msgid "By default, 48 hours after course end date"
-msgstr ""
+msgstr "به طور پیش فرض، ۴۸ساعت پس از تاریخ پایان دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:264
 msgid "Enrollment Start Date"
 msgstr "زمان شروع ثبت نام"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:266
 msgid "First day students can enroll"
 msgstr "اولین روزی که دانشجویان میتوانند ثبت نام نمایند"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:270
 msgid "Enrollment Start Time"
-msgstr "زمان شروع ثبت نام"
+msgstr "زمان شروع ثبت‌نام"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:281
 msgid "Enrollment End Date"
-msgstr "زمان پایان ثبت نام"
+msgstr "زمان پایان ثبت‌نام"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:284
 msgid "Last day students can enroll."
-msgstr ""
+msgstr "آخرین روزی که دانشجویان می‌توانند ثبت‌نام کنند."
 
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html:286 cms/templates/settings.html:307
 msgid "Contact your edX partner manager to update these settings."
-msgstr ""
+msgstr "برای به روزرسانی این تنظیمات با مدیر شریک آکادمی خود تماس بگیرید."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:292
 msgid "Enrollment End Time"
-msgstr "زمان اخرین ثبت نام"
+msgstr "زمان اخرین ثبت‌نام"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:303
 msgid "Upgrade Deadline Date"
-msgstr ""
+msgstr "به روز رسانی تاریخ سررسید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:306
 msgid "Last day students can upgrade to a verified enrollment."
-msgstr ""
+msgstr "آخرین روزی که دانشجویان می‌توانند به ثبت‌نام تایید شده ارتقا پیدا کنند."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:312
 msgid "Upgrade Deadline Time"
-msgstr ""
+msgstr "به روز رسانی زمان سررسید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:324
 msgid "Course Details"
-msgstr ""
+msgstr "جزئیات دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:325
 msgid "Provide useful information about your course"
-msgstr ""
+msgstr "اطلاعات مفیدی درباره دوره خود ارائه دهید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:329
 msgid "Course Language"
 msgstr "زبان دوره آموزشی"
 
-#: cms/templates/settings.html
-msgid ""
-"Identify the course language here. This is used to assist users find courses"
-" that are taught in a specific language. It is also used to localize the "
-"'From:' field in bulk emails."
-msgstr ""
+#: cms/templates/settings.html:336
+msgid "Identify the course language here. This is used to assist users find courses that are taught in a specific language. It is also used to localize the 'From:' field in bulk emails."
+msgstr "زبان دوره را در اینجا مشخص کنید. این برای کمک به کاربران در یافتن دوره‌هایی که به یک زبان خاص تدریس می‌شود استفاده می‌شود. همچنین برای محلی سازی قسمت 'From:' در پست‌های الکترونیکی انبوه استفاده می‌شود."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:347
 msgid "Introducing Your Course"
 msgstr "معرفی دوره شما"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:348
 msgid "Information for prospective students"
 msgstr "اطلاعات برای دانش آموزان آینده نگر"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:356
 msgid "Course Title"
-msgstr ""
+msgstr "عنوان دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:358
 msgid "Displayed as title on the course details page. Limit to 50 characters."
-msgstr ""
+msgstr "به صورت عنوان در صفحه جزئیات دوره نمایش داده می‌شود. محدود به ۵۰ کاراکتر."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:361
 msgid "Course Subtitle"
-msgstr ""
+msgstr "زیرعنوان دوره"
 
-#: cms/templates/settings.html
-msgid ""
-"Displayed as subtitle on the course details page. Limit to 150 characters."
-msgstr ""
+#: cms/templates/settings.html:363
+msgid "Displayed as subtitle on the course details page. Limit to 150 characters."
+msgstr "به صورت زیرعنوان در صفحه جزئیات دوره نمایش داده می‌شود. محدود به ۱۵۰ کاراکتر."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:366
 msgid "Course Duration"
-msgstr ""
+msgstr "مدت دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:368
 msgid "Displayed on the course details page. Limit to 50 characters."
-msgstr ""
+msgstr "در صفحه جزئیات دوره نمایش داده می‌شود. محدود به ۵۰ کاراکتر."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:371
 msgid "Course Description"
-msgstr ""
+msgstr "توضیحات دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:373
 msgid "Displayed on the course details page. Limit to 1000 characters."
-msgstr ""
+msgstr "در صفحه جزئیات دوره نمایش داده می‌شود. محدود به ۱۰۰ کاراکتر."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:379
 msgid "Course Short Description"
-msgstr ""
+msgstr "توضیح کوتاه دوره"
 
-#: cms/templates/settings.html
-msgid ""
-"Appears on the course catalog page when students roll over the course name. "
-"Limit to ~150 characters"
-msgstr ""
+#: cms/templates/settings.html:381
+msgid "Appears on the course catalog page when students roll over the course name. Limit to ~150 characters"
+msgstr "هنگامی که دانشجویان به دنبال نام دوره می‌گردند، در صفحه فهرست دوره ظاهر می‌شود. محدود به حدود ۱۵۰ کاراکتر"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:387
 msgid "Course Overview"
 msgstr "مرور دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:390
 msgid "HTML Code Editor"
-msgstr ""
+msgstr "ویرایشگر کد HTML"
 
-#: cms/templates/settings.html
-msgid ""
-"Introductions, prerequisites, FAQs that are used on {a_link_start}your "
-"course summary page{a_link_end} (formatted in HTML)"
-msgstr ""
+#: cms/templates/settings.html:393
+msgid "Introductions, prerequisites, FAQs that are used on {a_link_start}your course summary page{a_link_end} (formatted in HTML)"
+msgstr "مقدمه‌ها، پیش‌نیازها، سوالات متداول که در {a_link_start} صفحه خلاصه دوره شما {a_link_end} استفاده می‌شود (قالب بندی شده در HTML)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:400
 msgid "Course About Sidebar HTML"
 msgstr ""
 
-#: cms/templates/settings.html
-msgid ""
-"Custom sidebar content for {a_link_start}your course summary "
-"page{a_link_end} (formatted in HTML)"
-msgstr ""
+#: cms/templates/settings.html:404
+msgid "Custom sidebar content for {a_link_start}your course summary page{a_link_end} (formatted in HTML)"
+msgstr "محتوای نوار کناری سفارشی برای {a_link_start} صفحه خلاصه دوره شما {a_link_end} (قالب بندی شده در HTML)"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html
+#: cms/templates/settings.html:414 cms/templates/settings.html:418 cms/templates/settings.html:430
 msgid "Course Card Image"
-msgstr ""
+msgstr "تصویر کارت دوره"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html
-msgid ""
-"You can manage this image along with all of your other {a_link_start}files "
-"and uploads{a_link_end}"
-msgstr ""
+#: cms/templates/settings.html:422 cms/templates/settings.html:457 cms/templates/settings.html:490
+msgid "You can manage this image along with all of your other {a_link_start}files and uploads{a_link_end}"
+msgstr "می‌توانید این تصویر را به همراه سایر فایل‌ها و بارگذای‌های {a_link_start} {a_link_end} خود مدیریت کنید"
 
-#: cms/templates/settings.html
-msgid ""
-"Your course currently does not have an image. Please upload one (JPEG or PNG"
-" format, and minimum suggested dimensions are 375px wide by 200px tall)"
-msgstr ""
-"دوره شما در حاضر دارای عکس نمی باشد. لطفاً یک عکس(با فرمتJPEG or PNG و با "
-"حداقل اندازه تقریبی375px wide by 200px tall) بارگذاری نمایید."
+#: cms/templates/settings.html:432
+msgid "Your course currently does not have an image. Please upload one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by 200px tall)"
+msgstr "دوره شما در حال حاضر دارای عکس نمی‌باشد. لطفاً یک عکس(با فرمتJPEG or PNG و با حداقل اندازه تقریبی375px wide by 200px tall) بارگذاری نمایید."
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course image
-#: cms/templates/settings.html
+#: cms/templates/settings.html:439
 msgid "Your course image URL"
-msgstr ""
+msgstr "URL تصویر دوره"
 
-#: cms/templates/settings.html
-msgid ""
-"Please provide a valid path and name to your course image (Note: only JPEG "
-"or PNG format supported)"
-msgstr ""
+#: cms/templates/settings.html:440
+msgid "Please provide a valid path and name to your course image (Note: only JPEG or PNG format supported)"
+msgstr "لطفاً یک مسیر و نام معتبر برای تصویر دوره خود وارد کنید (توجه: فقط از قالب JPEG یا PNG پشتیبانی می‌شود)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:442
 msgid "Upload Course Card Image"
-msgstr ""
+msgstr "تصویر کارت دوره را بارگذاری کنید"
 
-#: cms/templates/settings.html cms/templates/settings.html
-#: cms/templates/settings.html
+#: cms/templates/settings.html:449 cms/templates/settings.html:453 cms/templates/settings.html:465
 msgid "Course Banner Image"
-msgstr "البته تصویر بنر"
+msgstr "تصویر بنر دوره"
 
-#: cms/templates/settings.html
-msgid ""
-"Your course currently does not have an image. Please upload one (JPEG or PNG"
-" format, and minimum suggested dimensions are 1440px wide by 400px tall)"
-msgstr ""
+#: cms/templates/settings.html:467
+msgid "Your course currently does not have an image. Please upload one (JPEG or PNG format, and minimum suggested dimensions are 1440px wide by 400px tall)"
+msgstr "دوره شما در حال حاضر تصویری ندارد. لطفاً یکی را بارگذاری کنید (قالب JPEG یا PNG ، و حداقل ابعاد پیشنهادی 1440px عرض در 400px قد)"
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course banner image
-#: cms/templates/settings.html
+#: cms/templates/settings.html:474
 msgid "Your banner image URL"
-msgstr ""
+msgstr "URL تصویر بنر شما"
 
-#: cms/templates/settings.html
-msgid ""
-"Please provide a valid path and name to your banner image (Note: only JPEG "
-"or PNG format supported)"
-msgstr ""
+#: cms/templates/settings.html:475
+msgid "Please provide a valid path and name to your banner image (Note: only JPEG or PNG format supported)"
+msgstr "لطفاً یک مسیر و نام معتبر برای تصویر بنر خود ارائه دهید (توجه: فقط از قالب JPEG یا PNG پشتیبانی می‌شود)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:477
 msgid "Upload Course Banner Image"
-msgstr ""
+msgstr "بارگذاری تصویر بنر دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:482
 msgid "Course Video Thumbnail Image"
 msgstr "البته ویدئو تصویر کوچک"
 
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html:486 cms/templates/settings.html:498
 msgid "Video Thumbnail Image"
-msgstr ""
+msgstr "تصویر بندانگشتی ویدئو"
 
-#: cms/templates/settings.html
-msgid ""
-"Your course currently does not have a video thumbnail image. Please upload "
-"one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
-"200px tall)"
-msgstr ""
+#: cms/templates/settings.html:500
+msgid "Your course currently does not have a video thumbnail image. Please upload one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by 200px tall)"
+msgstr "دوره شما در حال حاضر تصویر کوچک بندانگشتی ندارد. لطفاً یکی را بارگذاری کنید (قالب JPEG یا PNG ، و حداقل ابعاد پیشنهادی 375 پیکسل عرض در 200 پیکسل بلند است)"
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course video thumbnail image
-#: cms/templates/settings.html
+#: cms/templates/settings.html:507
 msgid "Your video thumbnail image URL"
-msgstr ""
+msgstr "URL تصویر کوچک بندانگشتی ویدیوی شما"
 
-#: cms/templates/settings.html
-msgid ""
-"Please provide a valid path and name to your video thumbnail image (Note: "
-"only JPEG or PNG format supported)"
-msgstr ""
+#: cms/templates/settings.html:508
+msgid "Please provide a valid path and name to your video thumbnail image (Note: only JPEG or PNG format supported)"
+msgstr "لطفاً یک مسیر و نام معتبر برای تصویر بندانگشتی ویدیوی خود ارائه دهید (توجه: فقط از قالب JPEG یا PNG پشتیبانی می‌شود)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:510
 msgid "Upload Video Thumbnail Image"
-msgstr ""
+msgstr "تصویر کوچک بندانگشتی را بارگذاری کنید"
 
-#: cms/templates/settings.html cms/templates/settings.html
+#: cms/templates/settings.html:517 cms/templates/settings.html:520
 msgid "Course Introduction Video"
-msgstr "دوره معرفی فیلمدوره "
+msgstr "فیلم معرفی دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:523
 msgid "Delete Current Video"
 msgstr "حذف ویدیو"
 
 #. Translators: This is the placeholder text for a field that requests a
 #. YouTube video ID for a course video
-#: cms/templates/settings.html
+#: cms/templates/settings.html:529
 msgid "your YouTube video's ID"
-msgstr ""
+msgstr "شناسه ویدیوی YouTube شما"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:530
 msgid "Enter your YouTube video's ID (along with any restriction parameters)"
 msgstr "ID ویدیو یوتیوب خود را وارد کنید (همراه با پارامترهای محدود)"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:541
 msgid "Learning Outcomes"
-msgstr ""
+msgstr "نتایج یادگیری"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:542
 msgid "Add the learning outcomes for this course"
-msgstr ""
+msgstr "نتایج یادگیری را برای این دوره اضافه کنید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:549
 msgid "Add Learning Outcome"
-msgstr ""
+msgstr "نتیجه یادگیری را اضافه کنید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:558
 msgid "Add details about the instructors for this course"
-msgstr ""
+msgstr "جزئیات مربوط به مدرسان این دوره را اضافه کنید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:565
 msgid "Add Instructor"
 msgstr "اضافه کردن استاد"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:577
 msgid "Expectations of the students taking this course"
 msgstr "انتظارات از دانش آموزان دارای این دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:583
 msgid "Hours of Effort per Week"
 msgstr "اضافه کاری در هر هفته"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:585
 msgid "Time spent on all course work"
 msgstr "زمان صرف شده در تمام دوره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:590
 msgid "Prerequisite Course"
-msgstr ""
+msgstr "دوره پیش‌نیاز"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:592
 msgid "None"
 msgstr "هیچکدام"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:597
 msgid "Course that students must complete before beginning this course"
-msgstr ""
+msgstr "دوره‌ای که دانشجویان باید قبل از شروع این دوره بگذرانند"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:598
 msgid "set pre-requisite course"
-msgstr ""
+msgstr "دوره پیش‌نیاز را تنظیم کنید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:603
 msgid "Entrance Exam"
 msgstr "آزمون ورودی"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:607
 msgid "Require students to pass an exam before beginning the course."
-msgstr ""
+msgstr "قبل از شروع دوره دانشجویان را ملزم به قبولی در امتحان کنید."
 
-#: cms/templates/settings.html
-msgid ""
-"You can now view and author your course entrance exam from the "
-"{link_start}Course Outline{link_end}."
-msgstr ""
+#: cms/templates/settings.html:611
+msgid "You can now view and author your course entrance exam from the {link_start}Course Outline{link_end}."
+msgstr "اکنون می‌توانید آزمون ورودی دوره خود را از {link_start} رئوس مطالب دوره {link_end} مشاهده و تألیف کنید."
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:615
 msgid "Grade Requirements"
-msgstr ""
+msgstr "الزامات نمره"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:616
 msgid " %"
-msgstr ""
+msgstr " %"
 
-#: cms/templates/settings.html
-msgid ""
-"The score student must meet in order to successfully complete the entrance "
-"exam. "
-msgstr ""
+#: cms/templates/settings.html:617
+msgid "The score student must meet in order to successfully complete the entrance exam. "
+msgstr "نمره‌ای که دانشجو باید کسب کند تا با موفقیت از آزمون ورودی عبور کند. "
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:631
 msgid "Course Content License"
-msgstr ""
+msgstr "مجوز محتوای دوره"
 
 #. Translators: At the course settings, the editor is able to select the
 #. default course content license.
@@ -2657,615 +2136,530 @@ msgstr ""
 #. license with their own.
 #. In the form, the license selector for course content is described using the
 #. following string:
-#: cms/templates/settings.html
+#: cms/templates/settings.html:635
 msgid "Select the default license for course content"
-msgstr ""
+msgstr "مجوز پیش‌فرض را برای محتوای دوره انتخاب کنید"
 
-#: cms/templates/settings.html
+#: cms/templates/settings.html:649
 msgid "How are these settings used?"
-msgstr ""
+msgstr "چگونه از این تنظیمات استفاده می‌شود؟"
 
-#: cms/templates/settings.html
-msgid ""
-"Your course's schedule determines when students can enroll in and begin a "
-"course."
-msgstr ""
+#: cms/templates/settings.html:650
+msgid "Your course's schedule determines when students can enroll in and begin a course."
+msgstr "برنامه دوره شما زمان ثبت‌نام دانشجویان و شروع دوره را مشخص می‌کند."
 
-#: cms/templates/settings.html
-msgid ""
-"Other information from this page appears on the About page for your course. "
-"This information includes the course overview, course image, introduction "
-"video, and estimated time requirements. Students use About pages to choose "
-"new courses to take."
-msgstr ""
+#: cms/templates/settings.html:652
+msgid "Other information from this page appears on the About page for your course. This information includes the course overview, course image, introduction video, and estimated time requirements. Students use About pages to choose new courses to take."
+msgstr "سایر اطلاعات این صفحه در صفحه درباره دوره شما ظاهر می‌شود. این اطلاعات شامل مرور کلی دوره، تصویر دوره، فیلم معرفی و زمان مورد نیاز است. دانشجویان از صفحات درباره برای انتخاب دوره‌های جدید استفاده می‌کنند."
 
-#: cms/templates/settings_advanced.html
+#: cms/templates/settings_advanced.html:50
 msgid "Your policy changes have been saved."
 msgstr "تغییر سیاست شما ذخیره شده است."
 
-#: cms/templates/settings_advanced.html
+#: cms/templates/settings_advanced.html:54
 msgid "There was an error saving your information. Please see below."
-msgstr "خطایی در ذخیره اطلاعات شما وجود دارد. لطفا پایین را ببینید"
+msgstr "خطایی در ذخیره اطلاعات شما وجود دارد. لطفا پایین را ببینید."
 
-#: cms/templates/settings_advanced.html
+#: cms/templates/settings_advanced.html:59
 msgid "Manual Policy Definition"
 msgstr "تعریف خط مشی دستی"
 
-#: cms/templates/settings_advanced.html
-msgid ""
-"{strong_start}Warning{strong_end}: Do not modify these policies unless you "
-"are familiar with their purpose."
-msgstr ""
+#: cms/templates/settings_advanced.html:63
+msgid "{strong_start}Warning{strong_end}: Do not modify these policies unless you are familiar with their purpose."
+msgstr "{strong_start} هشدار {strong_end}: این خط مشی‌ها را اصلاح نکنید مگر اینکه با هدف آن‌ها آشنا باشید."
 
-#: cms/templates/settings_advanced.html
+#: cms/templates/settings_advanced.html:71
 msgid "Show Deprecated Settings"
-msgstr "نمایش تنظیماتی که در نسخه های بعدی نخواهند بود"
+msgstr "نمایش تنظیماتی که در نسخه‌های بعدی نخواهند بود"
 
-#: cms/templates/settings_advanced.html
+#: cms/templates/settings_advanced.html:84
 msgid "What do advanced settings do?"
-msgstr ""
+msgstr "تنظیمات پیشرفته چه کاری انجام می‌دهند؟"
 
-#: cms/templates/settings_advanced.html
-msgid ""
-"Advanced settings control specific course functionality. On this page, you "
-"can edit manual policies, which are JSON-based key and value pairs that "
-"control specific course settings."
-msgstr ""
+#: cms/templates/settings_advanced.html:85
+msgid "Advanced settings control specific course functionality. On this page, you can edit manual policies, which are JSON-based key and value pairs that control specific course settings."
+msgstr "تنظیمات پیشرفته قابلیت خاص دوره را کنترل می‌کند. در این صفحه، می‌توانید خط مشی‌های دستی را که جفت کلید و مقدار مبتنی بر JSON هستند و تنظیمات خاصی دوره را کنترل می‌کنند، ویرایش کنید."
 
-#: cms/templates/settings_advanced.html
-msgid ""
-"Any policies you modify here override all other information you've defined "
-"elsewhere in {studio_name}. Do not edit policies unless you are familiar "
-"with both their purpose and syntax."
-msgstr ""
+#: cms/templates/settings_advanced.html:87
+msgid "Any policies you modify here override all other information you've defined elsewhere in {studio_name}. Do not edit policies unless you are familiar with both their purpose and syntax."
+msgstr "هر خط مشی که در اینجا اصلاح کنید تمام اطلاعات دیگری را که در جای دیگر در {studio_name} تعریف کرده‌اید نادیده می‌گیرد. خط مشی‌ها را ویرایش نکنید، مگر اینکه با هدف و معنای آن‌ها آشنا باشید."
 
-#: cms/templates/settings_advanced.html
-msgid ""
-"{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
-" you use double quotation marks (\") around the string. Do not use single "
-"quotation marks (')."
-msgstr ""
+#: cms/templates/settings_advanced.html:89
+msgid "{em_start}Note:{em_end} When you enter strings as policy values, ensure that you use double quotation marks (\") around the string. Do not use single quotation marks (')."
+msgstr "{em_start} توجه: {em_end} وقتی رشته‌ها را به عنوان مقادیر خط مشی وارد می‌کنید، اطمینان حاصل کنید که از دو علامت نقل قول (\") در اطراف رشته استفاده می‌کنید. از نقل قول‌های تک (') استفاده نکنید."
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:3
 msgid "Grading Settings"
 msgstr "تنظیمات نمرات"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:54
 msgid "Overall Grade Range"
 msgstr "محدوده کلی نمره"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:55
 msgid "Your overall grading scale for student final grades"
 msgstr "مقیاس نمره کلی شما برای نمرات نهایی دانش آموزان"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:61
 msgid "Add grade"
-msgstr ""
+msgstr "اضافه کردن نمره"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:90
 msgid "Credit Eligibility"
-msgstr ""
+msgstr "واجد شرایط بودن اعتبار"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:91
 msgid "Settings for course credit eligibility"
-msgstr ""
+msgstr "تنظیمات واجد شرایط بودن اعتبار دوره"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:96
 msgid "Minimum Credit-Eligible Grade:"
-msgstr ""
+msgstr "حداقل نمره مجاز اعتبار:"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:99
 msgid "Must be greater than or equal to the course passing grade"
-msgstr ""
+msgstr "باید بزرگ‌تر یا برابر با نمره قبولی دوره باشد"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:108
 msgid "Grading Rules &amp; Policies"
 msgstr "&amp; قوانین و سیاست های نمره دهی"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:109
 msgid "Deadlines, requirements, and logistics around grading student work"
-msgstr "ضرب العجل ها، الزامات و تدارکات در مورد روش نمره دهی دانش آموزان"
+msgstr "ضرب العجل‌ها، الزامات و تدارکات در مورد روش نمره‌دهی دانش آموزان"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:114
 msgid "Grace Period on Deadline:"
-msgstr "مهلت آخرین فرصت :"
+msgstr "مهلت آخرین فرصت:"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:116
 msgid "Leeway on due dates"
 msgstr "انحراف تاریخ به دلیل"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:124
 msgid "Assignment Types"
-msgstr "انواع تکلیف "
+msgstr "انواع تکلیف"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:125
 msgid "Categories and labels for any exercises that are gradable"
-msgstr "دسته بندی و برچسب ها برای هر تمرین که قابل نمره گذاری است"
+msgstr "دسته بندی و برچسب‌ها برای هر تمرین که قابل نمره گذاری است"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:134
 msgid "New Assignment Type"
 msgstr "نوع جدید تکلیف"
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:143
 msgid "What can I do on this page?"
-msgstr ""
+msgstr "چه کاری می‌توانم در این صفحه انجام دهم؟"
 
-#: cms/templates/settings_graders.html
-msgid ""
-"You can use the slider under Overall Grade Range to specify whether your "
-"course is pass/fail or graded by letter, and to establish the thresholds for"
-" each grade."
-msgstr ""
+#: cms/templates/settings_graders.html:144
+msgid "You can use the slider under Overall Grade Range to specify whether your course is pass/fail or graded by letter, and to establish the thresholds for each grade."
+msgstr "شما می‌توانید از نوار لغزنده زیر محدوده نمره کل برای تعیین اینکه دوره شما قبولی یا شکست دارد یا رتبه‌بندی شده با نامه استفاده کنید و آستانه‌های هر پایه را تعیین کنید."
 
-#: cms/templates/settings_graders.html
-msgid ""
-"You can specify whether your course offers students a grace period for late "
-"assignments."
-msgstr ""
+#: cms/templates/settings_graders.html:146
+msgid "You can specify whether your course offers students a grace period for late assignments."
+msgstr "شما می‌توانید تعیین کنید که آیا دوره شما به دانشجویان برای انجام کارهای دیررس مهلت می‌دهد یا خیر."
 
-#: cms/templates/settings_graders.html
-msgid ""
-"You can also create assignment types, such as homework, labs, quizzes, and "
-"exams, and specify how much of a student's grade each assignment type is "
-"worth."
-msgstr ""
+#: cms/templates/settings_graders.html:147
+msgid "You can also create assignment types, such as homework, labs, quizzes, and exams, and specify how much of a student's grade each assignment type is worth."
+msgstr "همچنین می‌توانید انواع تکالیف مانند تکالیف درسی، آزمایشگاه‌ها، آزمون‌ها و امتحانات را ایجاد کنید و مشخص کنید که ارزش هر نوع تکلیف دانشجو چقدر است."
 
-#: cms/templates/settings_graders.html
+#: cms/templates/settings_graders.html:161
 msgid "Details &amp; Schedule"
-msgstr "اطلاعات و برنامه ها&amp;"
+msgstr "جزئیات و &amp; برنامه"
 
-#: cms/templates/studio_xblock_wrapper.html
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/studio_xblock_wrapper.html:61 cms/templates/studio_xblock_wrapper.html:63
 msgid "Expand or Collapse"
-msgstr ""
+msgstr "پخش کردن یا جمع کردن"
 
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/studio_xblock_wrapper.html:86
 msgid "Access Settings"
-msgstr ""
+msgstr "تنظیمات دسترسی"
 
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/studio_xblock_wrapper.html:88
 msgid "Set Access"
-msgstr ""
+msgstr "تنظیم دسترسی"
 
-#: cms/templates/studio_xblock_wrapper.html
+#: cms/templates/studio_xblock_wrapper.html:141
 msgid "This block contains multiple components."
-msgstr "این قسمت شامل چندین کامپوننت است."
+msgstr "این قسمت شامل چندین مولفه است."
 
-#: cms/templates/textbooks.html cms/templates/textbooks.html
-#: cms/templates/widgets/header.html
+#: cms/templates/textbooks.html:10 cms/templates/textbooks.html:42 cms/templates/widgets/header.html:73
 msgid "Textbooks"
-msgstr "کتاب های درسی"
+msgstr "کتاب‌های درسی"
 
-#: cms/templates/textbooks.html
+#: cms/templates/textbooks.html:49
 msgid "New Textbook"
-msgstr "کتاب های جدید"
+msgstr "کتاب‌های جدید"
 
-#: cms/templates/textbooks.html
+#: cms/templates/textbooks.html:61
 msgid "Why should I break my textbook into chapters?"
-msgstr ""
+msgstr "چرا باید کتاب درسی خود را به فصول تقسیم‌بندی کنم؟"
 
-#: cms/templates/textbooks.html
-msgid ""
-"Breaking your textbook into multiple chapters reduces loading times for "
-"students, especially those with slow Internet connections. Breaking up "
-"textbooks into chapters can also help students more easily find topic-based "
-"information."
-msgstr ""
+#: cms/templates/textbooks.html:62
+msgid "Breaking your textbook into multiple chapters reduces loading times for students, especially those with slow Internet connections. Breaking up textbooks into chapters can also help students more easily find topic-based information."
+msgstr "تقسیم کتاب درسی به چندین فصل، زمان بارگذاری دانشجویان را کاهش می‌دهد، به ویژه دانشجویان با اتصال اینترنت کند. تقسیم کتب درسی به فصل‌ها همچنین می‌تواند به دانشجویان در یافتن اطلاعات مبتنی بر موضوع کمک کند."
 
-#: cms/templates/textbooks.html
+#: cms/templates/textbooks.html:65
 msgid "What if my book isn't divided into chapters?"
 msgstr "اگر کتاب من به فصول تقسیم نباشد؟"
 
-#: cms/templates/textbooks.html
-msgid ""
-"If your textbook doesn't have individual chapters, you can upload the entire"
-" text as a single chapter and enter a name of your choice in the Chapter "
-"Name field."
-msgstr ""
+#: cms/templates/textbooks.html:66
+msgid "If your textbook doesn't have individual chapters, you can upload the entire text as a single chapter and enter a name of your choice in the Chapter Name field."
+msgstr "اگر کتاب درسی شما دارای فصول جداگانه نیست، می‌توانید کل متن را به صورت یک فصل واحد بارگذاری کرده و در قسمت نام فصل‌، نام دلخواه خود را وارد کنید."
 
-#: cms/templates/textbooks.html
+#: cms/templates/textbooks.html:70
 msgid "Learn more about textbooks"
-msgstr ""
+msgstr "درباره کتاب‌های درسی بیشتر بیاموزید"
 
-#: cms/templates/videos_index.html cms/templates/videos_index.html
-#: cms/templates/widgets/header.html
+#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:58 cms/templates/widgets/header.html:77
 msgid "Video Uploads"
-msgstr ""
+msgstr "بارگذاری‌های ویدئو"
 
-#: cms/templates/videos_index.html
+#: cms/templates/videos_index.html:65
 msgid "Course Video Settings"
-msgstr ""
+msgstr "تنظیماتت ویدئویی دوره"
 
-#: cms/templates/videos_index_pagination.html
+#: cms/templates/videos_index_pagination.html:17
 msgid "Changing.."
-msgstr ""
+msgstr "در حال تغییر.."
 
-#: cms/templates/videos_index_pagination.html
+#: cms/templates/videos_index_pagination.html:19
 msgid "Videos per page:"
-msgstr ""
+msgstr "تعداد ویدئو در هر صفحه:"
 
-#: cms/templates/videos_index_pagination.html
+#: cms/templates/videos_index_pagination.html:23
 msgid "Change"
 msgstr "تغییر"
 
-#: cms/templates/visibility_editor.html cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:20 cms/templates/visibility_editor.html:70
 msgid "Access is not restricted"
-msgstr ""
+msgstr "دسترسی محدود نشده است"
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"Access to this unit is not restricted, but visibility might be affected by "
-"inherited settings."
-msgstr ""
+#: cms/templates/visibility_editor.html:23
+msgid "Access to this unit is not restricted, but visibility might be affected by inherited settings."
+msgstr "دسترسی به این واحد محدود نیست، اما ممکن است تنظیمات ارثی بر قابلیت مشاهده تأثیر بگذارند."
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"Access to this component is not restricted, but visibility might be affected"
-" by inherited settings."
-msgstr ""
+#: cms/templates/visibility_editor.html:25
+msgid "Access to this component is not restricted, but visibility might be affected by inherited settings."
+msgstr "دسترسی به این مولفه محدود نیست، اما ممکن است تنظیمات ارثی بر قابلیت مشاهده تأثیر بگذارند."
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"You can restrict access to this unit to learners in specific enrollment "
-"tracks or content groups."
-msgstr ""
+#: cms/templates/visibility_editor.html:29
+msgid "You can restrict access to this unit to learners in specific enrollment tracks or content groups."
+msgstr "می‌توانید دسترسی به این واحد را برای فراگیران موجود در مسیرهای ثبت‌نام خاص یا گروه‌های محتوا محدود کنید."
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"You can restrict access to this component to learners in specific enrollment"
-" tracks or content groups."
-msgstr ""
+#: cms/templates/visibility_editor.html:31
+msgid "You can restrict access to this component to learners in specific enrollment tracks or content groups."
+msgstr "شما می‌توانید دسترسی به این مولفه را برای فراگیران موجود در مسیرهای ثبت‌نام خاص یا گروه‌های محتوایی محدود کنید."
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"You can restrict access to this unit to learners in specific content groups."
-msgstr ""
+#: cms/templates/visibility_editor.html:35
+msgid "You can restrict access to this unit to learners in specific content groups."
+msgstr "شما می‌توانید دسترسی به این واحد را برای فراگیران در گروه‌های محتوای خاص محدود کنید."
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"You can restrict access to this component to learners in specific content "
-"groups."
-msgstr ""
+#: cms/templates/visibility_editor.html:37
+msgid "You can restrict access to this component to learners in specific content groups."
+msgstr "شما می‌توانید دسترسی به این مولفه را فقط برای فراگیران گروه‌های محتوای خاص محدود کنید."
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:43
 msgid "Manage content groups"
-msgstr ""
+msgstr "مدیریت گروه‌های محتوایی"
 
 #. Translators: Any text between {screen_reader_start} and {screen_reader_end}
 #. is only read by screen readers and never shown in the browser.
-#: cms/templates/visibility_editor.html
-msgid ""
-"{screen_reader_start}Warning:{screen_reader_end} The unit that contains this"
-" component is hidden from learners. The unit setting overrides the component"
-" access settings defined here."
-msgstr ""
+#: cms/templates/visibility_editor.html:51
+msgid "{screen_reader_start}Warning:{screen_reader_end} The unit that contains this component is hidden from learners. The unit setting overrides the component access settings defined here."
+msgstr "{screen_reader_start} هشدار: {screen_reader_end} واحدی که حاوی این مولفه است برای فراگیران پنهان است. تنظیمات واحد تنظیمات دسترسی مولفه‌های تعریف شده در اینجا را لغو می‌کند."
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:75
 msgid "Access is restricted to:"
-msgstr ""
+msgstr "دسترسی محدود برای:"
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:81
 msgid "Restrict access to:"
-msgstr ""
+msgstr "محدود کردن دسترسی برای:"
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:85
 msgid "Select a group type"
-msgstr ""
+msgstr "یک نوع گروه را انتخاب کنید"
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:87
 msgid "All Learners and Staff"
-msgstr ""
+msgstr "تمام فراگیران و کارمندان"
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:101
 msgid "Select one or more groups:"
-msgstr ""
+msgstr "یک گروه با بیشتر را انتخاب کنید:"
 
-#: cms/templates/visibility_editor.html
+#: cms/templates/visibility_editor.html:113
 msgid "Deleted Group"
-msgstr ""
+msgstr "گروه حذف شده"
 
-#: cms/templates/visibility_editor.html
-msgid ""
-"This group no longer exists.  Choose another group or remove the access "
-"restriction."
-msgstr ""
+#: cms/templates/visibility_editor.html:115
+msgid "This group no longer exists.  Choose another group or remove the access restriction."
+msgstr "این گروه دیگر وجود ندارد. گروه دیگری را انتخاب کنید یا محدودیت دسترسی را بردارید."
 
-#: cms/templates/emails/course_creator_admin_subject.txt
+#: cms/templates/emails/course_creator_admin_subject.txt:2
 msgid "{email} has requested {studio_name} course creator privileges on edge"
-msgstr ""
+msgstr "{email} از مجوزهای ایجاد کننده دوره {studio_name} درخواست کرده‌است"
 
-#: cms/templates/emails/course_creator_admin_user_pending.txt
-msgid ""
-"User '{user}' with e-mail {email} has requested {studio_name} course creator"
-" privileges on edge."
-msgstr ""
+#: cms/templates/emails/course_creator_admin_user_pending.txt:2
+msgid "User '{user}' with e-mail {email} has requested {studio_name} course creator privileges on edge."
+msgstr "کاربر \"{user}\" با پست الکترونیکی {email} حق ایجاد محتوای دوره {studio_name} درخواست کرده است."
 
-#: cms/templates/emails/course_creator_admin_user_pending.txt
+#: cms/templates/emails/course_creator_admin_user_pending.txt:5
 msgid "To grant or deny this request, use the course creator admin table."
-msgstr ""
+msgstr "برای تأیید یا رد این درخواست، از جدول مدیر ایجاد کننده دوره استفاده کنید."
 
-#: cms/templates/emails/course_creator_denied.txt
-msgid ""
-"Your request for course creation rights to {studio_name} have been denied. "
-"If you believe this was in error, please contact {email}"
-msgstr ""
+#: cms/templates/emails/course_creator_denied.txt:3
+msgid "Your request for course creation rights to {studio_name} have been denied. If you believe this was in error, please contact {email}"
+msgstr "درخواست شما به {studio_name} برای حق ایجاد دوره رد شده است. اگر فکر می‌کنید این اشتباه بوده است، لطفاً با {email} تماس بگیرید"
 
-#: cms/templates/emails/course_creator_granted.txt
+#: cms/templates/emails/course_creator_granted.txt:3
 msgid ""
 "Your request for course creation rights to {studio_name} have been granted. To create your first course, visit\n"
 "\n"
 "{url}"
 msgstr ""
+"درخواست شما به {studio_name} برای حق ایجاد دوره پذیرفته شده است. برای ایجاد اولین دوره خود، بازدید کنید\n"
+"\n"
+"{url}"
 
-#: cms/templates/emails/course_creator_revoked.txt
-msgid ""
-"Your course creation rights to {studio_name} have been revoked. If you "
-"believe this was in error, please contact {email}"
-msgstr ""
+#: cms/templates/emails/course_creator_revoked.txt:3
+msgid "Your course creation rights to {studio_name} have been revoked. If you believe this was in error, please contact {email}"
+msgstr "حقوق ایجاد دوره شما برای {studio_name} لغو شده است. اگر فکر می‌کنید این اشتباه بوده است، لطفاً با {email} تماس بگیرید"
 
-#: cms/templates/emails/course_creator_subject.txt
+#: cms/templates/emails/course_creator_subject.txt:2
 msgid "Your course creator status for {studio_name}"
-msgstr ""
+msgstr "وضعیت تهیه کنندگی دوره شما برای {studio_name}"
 
-#: cms/templates/emails/user_task_complete_email.txt
-msgid ""
-"Your {task_name} task has completed with the status '{task_status}'. Use "
-"this URL to view task details or download any files created: {detail_url}"
-msgstr ""
+#: cms/templates/emails/user_task_complete_email.txt:5
+msgid "Your {task_name} task has completed with the status '{task_status}'. Use this URL to view task details or download any files created: {detail_url}"
+msgstr "وظیفه {task_name} شما با وضعیت \"{task_status}\" به پایان رسیده است. برای مشاهده جزئیات کار یا بارگیری فایل‌های ایجاد شده از این URL استفاده کنید: {detail_url}"
 
-#: cms/templates/emails/user_task_complete_email.txt
-msgid ""
-"Your {task_name} task has completed with the status '{task_status}'. Sign in"
-" to view the details of your task or download any files created."
-msgstr ""
+#: cms/templates/emails/user_task_complete_email.txt:9
+msgid "Your {task_name} task has completed with the status '{task_status}'. Sign in to view the details of your task or download any files created."
+msgstr "وظیفه {task_name} شما با وضعیت \"{task_status}\" به پایان رسیده است. برای مشاهده جزئیات کار خود یا بارگیری فایل‌های ایجاد شده وارد سیستم شوید."
 
-#: cms/templates/emails/user_task_complete_email_subject.txt
+#: cms/templates/emails/user_task_complete_email_subject.txt:2
 msgid "{platform_name} {studio_name}: Task Status Update"
-msgstr ""
+msgstr "{platform_name} {studio_name}: به روزرسانی وضعیت کار"
 
-#: cms/templates/maintenance/_announcement_delete.html
-#: cms/templates/maintenance/_announcement_delete.html
+#: cms/templates/maintenance/_announcement_delete.html:8 cms/templates/maintenance/_announcement_delete.html:11
 msgid "Delete Announcement"
-msgstr ""
+msgstr "حذف اعلان"
 
-#: cms/templates/maintenance/_announcement_delete.html
+#: cms/templates/maintenance/_announcement_delete.html:22
 msgid "Are you sure you want to delete this Announcement?"
-msgstr ""
+msgstr "آیا شما مطمئن هستید که میخواهید این اطلاعیه را حذف کنید؟"
 
-#: cms/templates/maintenance/_announcement_delete.html
+#: cms/templates/maintenance/_announcement_delete.html:35
 msgid "Confirm"
 msgstr "تایید کردن"
 
-#: cms/templates/maintenance/_announcement_edit.html
-#: cms/templates/maintenance/_announcement_edit.html
+#: cms/templates/maintenance/_announcement_edit.html:8 cms/templates/maintenance/_announcement_edit.html:11
 msgid "Edit Announcement"
-msgstr ""
+msgstr "ویرایش اعلان"
 
-#: cms/templates/maintenance/_announcement_index.html
+#: cms/templates/maintenance/_announcement_index.html:42
 msgid "Create New"
-msgstr ""
+msgstr "ایجاد جدید"
 
-#: cms/templates/maintenance/_force_publish_course.html
+#: cms/templates/maintenance/_force_publish_course.html:12
 msgid "Required data to force publish course."
-msgstr ""
+msgstr "داده‌های مورد نیاز برای انتشار اجباری دوره."
 
-#: cms/templates/maintenance/_force_publish_course.html
+#: cms/templates/maintenance/_force_publish_course.html:17
 msgid "course-v1:edX+DemoX+Demo_Course"
 msgstr ""
 
-#: cms/templates/maintenance/_force_publish_course.html
+#: cms/templates/maintenance/_force_publish_course.html:24
 msgid "Force Publish Course"
-msgstr "نیروی انتشار دوره"
+msgstr ""
 
-#: cms/templates/maintenance/_force_publish_course.html
+#: cms/templates/maintenance/_force_publish_course.html:28
 msgid "Reset values"
-msgstr ""
+msgstr "بازنشانی مقادیر"
 
-#: cms/templates/maintenance/base.html cms/templates/maintenance/index.html
+#: cms/templates/maintenance/base.html:14 cms/templates/maintenance/index.html:8
 msgid "Maintenance Dashboard"
-msgstr ""
+msgstr "میزکار تعمیر و نگهداری"
 
-#: cms/templates/registration/activation_complete.html
+#: cms/templates/registration/activation_complete.html:22
 msgid "Thanks for activating your account."
 msgstr "با تشکر از اینکه حساب کاربریتان را فعال کردید."
 
-#: cms/templates/registration/activation_complete.html
+#: cms/templates/registration/activation_complete.html:24
 msgid "This account has already been activated."
 msgstr "حساب مورد نظر شما قبلاً فعال شده است."
 
-#: cms/templates/registration/activation_complete.html
+#: cms/templates/registration/activation_complete.html:28
 msgid "Visit your {link_start}dashboard{link_end} to see your courses."
-msgstr "برای دیدن دوره هایتان به {link_start}dashboard{link_end} مراجعه کنید."
+msgstr "برای دیدن دوره‌هایتان به {link_start}dashboard{link_end} مراجعه کنید."
 
-#: cms/templates/registration/activation_complete.html
+#: cms/templates/registration/activation_complete.html:33
 msgid "You can now {link_start}sign in{link_end}."
-msgstr "{link_start}ورود{link_end} به حساب کاربری"
+msgstr "{link_start}ورود{link_end} به حساب کاربری."
 
-#: cms/templates/registration/activation_invalid.html
+#: cms/templates/registration/activation_invalid.html:14
 msgid "Activation Invalid"
-msgstr "فعال سازی اشتباه "
+msgstr "فعال‌سازی اشتباه"
 
-#: cms/templates/registration/activation_invalid.html
-msgid ""
-"Something went wrong. Email programs sometimes split URLs into two lines, so"
-" make sure the URL you're using is formatted correctly. If you still have "
-"issues, send us an email message at {email_start}{email}{email_end}."
-msgstr ""
+#: cms/templates/registration/activation_invalid.html:17
+msgid "Something went wrong. Email programs sometimes split URLs into two lines, so make sure the URL you're using is formatted correctly. If you still have issues, send us an email message at {email_start}{email}{email_end}."
+msgstr "مشکلی پیش آمد برنامه‌های پست الکترونیکی گاهی URL ها را به دو خط تقسیم می‌کنند، بنابراین مطمئن شوید URL مورد استفاده شما به درستی قالب‌بندی شده باشد. اگر هنوز مشکلی دارید، از طریق {email_start} {email} {email_end} برای ما پیام الکترونیکی ارسال کنید."
 
-#: cms/templates/registration/activation_invalid.html
+#: cms/templates/registration/activation_invalid.html:25
 msgid "Return to the {link_start}home page{link_end}."
-msgstr ""
+msgstr "بازگشت به{link_start} صفحه خانه {link_end}."
 
-#: cms/templates/widgets/footer.html
+#: cms/templates/widgets/footer.html:21
 msgid "Policies"
-msgstr ""
+msgstr "خط مشی‌ها"
 
-#: cms/templates/widgets/footer.html
+#: cms/templates/widgets/footer.html:35
 msgid "Accessibility Accommodation Request"
-msgstr ""
+msgstr "درخواست تطابق دسترسی"
 
-#: cms/templates/widgets/footer.html
+#: cms/templates/widgets/footer.html:39
 msgid "LMS"
-msgstr ""
+msgstr "LMS"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:44
 msgid "Current Course:"
 msgstr "دوره جاری:"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:52 cms/templates/widgets/header.html:163
 msgid "Course Navigation"
 msgstr "کنترل دوره"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:61
 msgid "Outline"
-msgstr "مطالب "
+msgstr "مطالب"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:113
 msgid "Publisher"
-msgstr ""
+msgstr "ناشر"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:127 cms/templates/widgets/header.html:185
 msgid "Import"
-msgstr "دریافت "
+msgstr "وارد کردن"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:130 cms/templates/widgets/header.html:188
 msgid "Export"
 msgstr "صادر کردن"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:155
 msgid "Current Library:"
-msgstr ""
+msgstr "کتابخانه موجود:"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:167
 msgid "Library"
 msgstr "کتابخانه"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:203
 msgid "Language preference"
-msgstr ""
+msgstr "اولویت‌های زبان"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:228 cms/templates/widgets/header.html:241
 msgid "Account Navigation"
-msgstr ""
+msgstr "مسیریابی حساب"
 
-#: cms/templates/widgets/header.html cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:231 cms/templates/widgets/header.html:244
 msgid "Contextual Online Help"
-msgstr ""
+msgstr "راهنمای مفهومی آنلاین"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:248
 msgid "Sign Up"
 msgstr "ثبت نام"
 
-#: cms/templates/widgets/header.html
+#: cms/templates/widgets/header.html:252
 msgid "Sign In"
 msgstr "ورود"
 
-#: cms/templates/widgets/metadata-edit.html
+#: cms/templates/widgets/metadata-edit.html:35
 msgid "Launch Latex Source Compiler"
-msgstr "راه اندازی لاتکس منبع کامپایلر"
+msgstr ""
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:18 cms/templates/widgets/problem-edit.html:22 cms/templates/widgets/problem-edit.html:87
 msgid "Heading"
-msgstr ""
+msgstr "تیتر"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:20 cms/templates/widgets/problem-edit.html:86
 msgid "Insert a heading"
-msgstr ""
+msgstr "یک تیتر وارد کنید"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:26 cms/templates/widgets/problem-edit.html:30 cms/templates/widgets/problem-edit.html:98
 msgid "Multiple Choice"
-msgstr "چند گزینه ای"
+msgstr "چند گزینه‌ای"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:28 cms/templates/widgets/problem-edit.html:97
 msgid "Add a multiple choice question"
-msgstr "سوال چند گزینه ای اضافه کن"
+msgstr "سوال چند گزینه‌ای اضافه کن"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:34 cms/templates/widgets/problem-edit.html:38 cms/templates/widgets/problem-edit.html:109
 msgid "Checkboxes"
-msgstr "جعبه های علامتگذاری"
+msgstr "جعبه‌های علامتگذاری"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:36 cms/templates/widgets/problem-edit.html:108
 msgid "Add a question with checkboxes"
-msgstr ""
+msgstr "سوالی را با کادرهای انتخاب اضافه کنید"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:42 cms/templates/widgets/problem-edit.html:46 cms/templates/widgets/problem-edit.html:120
 msgid "Text Input"
 msgstr "ورودی متن"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:44 cms/templates/widgets/problem-edit.html:119
 msgid "Insert a text response"
-msgstr ""
+msgstr "یک پاسخ متنی وارد کنید"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:50 cms/templates/widgets/problem-edit.html:54 cms/templates/widgets/problem-edit.html:131
 msgid "Numerical Input"
 msgstr "ورودی عددی"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:52 cms/templates/widgets/problem-edit.html:130
 msgid "Insert a numerical response"
-msgstr ""
+msgstr "یک پاسخ عددی وارد کتید"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:58 cms/templates/widgets/problem-edit.html:62 cms/templates/widgets/problem-edit.html:141
 msgid "Dropdown"
 msgstr "کرکره"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:60 cms/templates/widgets/problem-edit.html:140
 msgid "Insert a dropdown response"
-msgstr ""
+msgstr "یک پاسخ کشویی وارد کنید"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:66 cms/templates/widgets/problem-edit.html:70 cms/templates/widgets/problem-edit.html:156
 msgid "Explanation"
 msgstr "توضیح"
 
-#: cms/templates/widgets/problem-edit.html
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:68 cms/templates/widgets/problem-edit.html:155
 msgid "Add an explanation for this question"
 msgstr "به این سوال، توضیح اضافه کن"
 
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:75
 msgid "Advanced Editor"
 msgstr "ویرایشگر پیشرفته"
 
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:82
 msgid "Markdown Help"
-msgstr ""
+msgstr "راهنمای تخفیف"
 
-#: cms/templates/widgets/problem-edit.html
+#: cms/templates/widgets/problem-edit.html:148
 msgid "Label"
 msgstr "برچسب"
 
-#: cms/templates/widgets/sock_links.html
+#: cms/templates/widgets/sock_links.html:19
 msgid "Access the Open edX Portal"
-msgstr ""
+msgstr "دسترسی به پورتال آکادمی"
 
-#: cms/templates/widgets/sock_links.html
+#: cms/templates/widgets/sock_links.html:20
 msgid "Open edX Portal"
-msgstr ""
+msgstr "پورتال آکادمی"
 
-#: cms/templates/widgets/user_dropdown.html
-#: cms/templates/widgets/user_dropdown.html
+#: cms/templates/widgets/user_dropdown.html:19 cms/templates/widgets/user_dropdown.html:46
 msgid "Currently signed in as:"
-msgstr "در حال حاضر وارد شده ابد به عنوان:"
+msgstr "در حال حاضر وارد شده‌اید به عنوان:"
 
-#: cms/templates/widgets/user_dropdown.html
+#: cms/templates/widgets/user_dropdown.html:59
 msgid "Maintenance"
-msgstr ""
+msgstr "نگهداری"
