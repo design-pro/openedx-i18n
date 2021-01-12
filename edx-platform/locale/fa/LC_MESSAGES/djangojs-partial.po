@@ -3653,13 +3653,13 @@ msgstr "لطفا یک نمره وارد کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:556
 msgid "Started task to override the score for problem '<%- problem_id %>' and student '<%- student_id %>'. Click the 'Show Task Status' button to see the status of the task."
-msgstr "کار برای باطل کردن نمره برای مسئله '<%- problem_id %>' و دانشجو \"<٪ - student_id٪>\"شروع شده‌است. برای دیدن وضعیت کار بر روی دکمه \"نمایش وضعیت کار\" کلیک کنید."
+msgstr "کار برای باطل کردن نمره برای مسئله '<%- problem_id %>' و دانشجو '<%- student_id %>'"شروع شده‌است. برای دیدن وضعیت کار بر روی دکمه \"نمایش وضعیت کار\" کلیک کنید."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:561
 msgid ""
 "Error starting a task to override score for problem '<%- problem_id %>' for student '<%- student_id %>'. Make sure that the the score and the problem and student identifiers are complete and "
 "correct."
-msgstr "خطا در شروع کار برای باطل کردن نمره برای مسئله '<%- problem_id %>' برای دانشجو \"<٪ - student_id٪>\". اطمینان حاصل کنید که نمره و مسئله و شناسه‌های دانشجو کامل و صحیح هستند."
+msgstr "خطا در شروع کار برای باطل کردن نمره برای مسئله '<%- problem_id %>' برای دانشجو '<%- student_id %>'". اطمینان حاصل کنید که نمره و مسئله و شناسه‌های دانشجو کامل و صحیح هستند."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:603
 msgid "Started entrance exam rescore task for student '{student_id}'. Click the 'Show Task Status' button to see the status of the task."
