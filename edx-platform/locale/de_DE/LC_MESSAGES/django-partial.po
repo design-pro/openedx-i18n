@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -36,6 +36,7 @@
 # Simon D. <hardys972@googlemail.com>, 2014
 # Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>, 2018-2020
 # Tim <steuer.tim@gmail.com>, 2015
+# Tobi, 2020
 # Vassili Simon <vassifht@googlemail.com>, 2014
 # Waheed Ahmed <waheed@edx.org>, 2019
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
@@ -43,8 +44,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-09-06 20:43+0000\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2020-12-20 20:43+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "Language: de_DE\n"
@@ -60,6 +61,16 @@ msgstr ""
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py
 msgid "Discussion"
 msgstr "Forum"
+
+#: cms/djangoapps/contentstore/views/component.py
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Problem"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/component.py
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Video"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
 #: common/lib/xmodule/xmodule/video_module/video_module.py
@@ -121,11 +132,6 @@ msgstr "Name"
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video ID"
 msgstr "Videokennung"
-
-#: cms/djangoapps/contentstore/views/videos.py
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Status"
-msgstr "Status"
 
 #. Translators: This is listed as the duration for a video that has not
 #. yet reached the point in its processing by the servers where its
@@ -271,10 +277,6 @@ msgid ""
 msgstr ""
 "Dieses ist die rohe SKU (stock keeping unit) dieser Einschreibeart beim "
 "externen E-Commerce Service."
-
-#: common/djangoapps/course_modes/models.py
-msgid "Honor"
-msgstr "Teilnahmemodus"
 
 #: common/djangoapps/course_modes/models.py
 msgid ""
@@ -583,21 +585,10 @@ msgstr "{platform_name} Professionelles Zertifikat für {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid ""
-"The company identifier for the LinkedIn Add-to-Profile button e.g "
-"0_0dPSPyS070e0HsE9HNz_13_d11_"
+"Your organization ID (if your organization has an existing page on LinkedIn)"
+" e.g 1337. If not provided, will default to sending Platform Name (e.g. edX)"
+" instead."
 msgstr ""
-"Die Firmen ID für die Schaltfläche LinkedIn Add-to-Profile, z.B. "
-"0_0dPSPyS070e0HsE9HNz_13_d11_d11_"
-
-#: common/djangoapps/student/models.py
-msgid ""
-"Short identifier for the LinkedIn partner used in the tracking code.  "
-"(Example: 'edx')  If no value is provided, tracking codes will not be sent "
-"to LinkedIn."
-msgstr ""
-"Kurzkennung für den LinkedIn-Partner, der im Tracking-Code verwendet wird. "
-"(Beispiel:'edx') Wenn kein Wert angegeben wird, werden Tracking-Codes nicht "
-"an LinkedIn gesendet."
 
 #: common/djangoapps/student/models.py
 #, python-brace-format
@@ -690,11 +681,12 @@ msgstr ""
 msgid ""
 "It expect that the data will be provided in a csv file format with"
 "                     first row being the header and columns will be as "
-"follows:                     username, email, new_email"
+"follows:                     username, current_email, desired_email"
 msgstr ""
-"Die Daten werden in einem csv-Dateiformat bereitgestellt, wobei"
-"                     die erste Zeile die Kopfzeile ist und die Spalten wie "
-"folgt lauten:                     Benutzername, E-Mail, new_email"
+
+#: common/djangoapps/student/models.py
+msgid "Add a reason"
+msgstr ""
 
 #: common/djangoapps/student/views/dashboard.py
 msgid " and "
@@ -3492,26 +3484,13 @@ msgid "Teams Configuration"
 msgstr "Konfiguration der Teams"
 
 #: common/lib/xmodule/xmodule/course_module.py
-#, python-brace-format
 msgid ""
-"Specify the maximum team size and topics for teams inside the provided set "
-"of curly braces. Make sure that you enclose all of the sets of topic values "
-"within a set of square brackets, with a comma after the closing curly brace "
-"for each topic, and another comma after the closing square brackets. For "
-"example, to specify that teams should have a maximum of 5 participants and "
-"provide a list of 2 topics, enter the configuration in this format: "
-"{example_format}. If no max_size is provided, it will default to "
-"{default_max}In \"id\" values, the only supported special characters are "
-"underscore, hyphen, and period."
+"Configure team sets, limit team sizes, and set visibility settings using "
+"JSON. See <a target=\"&#95;blank\" "
+"href=\"https://edx.readthedocs.io/projects/edx-partner-course-"
+"staff/en/latest/course_features/teams/teams_setup.html#enable-and-configure-"
+"teams\">teams configuration documentation</a> for help and examples."
 msgstr ""
-"Geben Sie die maximale Teamgröße und die Themen für Teams innerhalb der "
-"geschweiften Klammern an. Achten Sie darauf, dass alle angegebenen Themen "
-"jeweils in eckigen Klammern geschrieben sind, welche anschließend durch "
-"Komma getrennt hintereinander aufgelistet werden. Um beispielsweise "
-"festzulegen, dass Teams maximal 5 Teilnehmer haben und eine Liste mit 2 "
-"Themen enthalten soll, geben Sie folgendes ein: {example_format}. Beachten "
-"Sie, dass unterstützte Sonderzeichen in den {default_max} \"id\" Werten "
-"Unterstrich, Bindestrich und Punkt sind."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Proctored Exams"
@@ -3957,17 +3936,22 @@ msgstr ""
 " verwendet werden sollen."
 
 #: common/lib/xmodule/xmodule/library_sourced_block.py
-msgid "Library Block"
+msgid "Library Blocks List"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/library_sourced_block.py
-msgid "Enter the IDs of the library XBlock that you wish to use."
+msgid "Enter the IDs of the library XBlocks that you wish to use."
+msgstr ""
+
+#: common/lib/xmodule/xmodule/library_sourced_block.py
+#, python-brace-format
+msgid "A maximum of {0} components may be added."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/library_sourced_block.py
 msgid ""
-"No XBlock has been configured for this component. Enter the target ID below "
-"or in the editor"
+"No XBlock has been configured for this component. Use the editor to select "
+"the target blocks."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/library_sourced_block.py
@@ -4714,11 +4698,19 @@ msgstr "Home"
 
 #: common/lib/xmodule/xmodule/tabs.py lms/djangoapps/courseware/tabs.py
 #: lms/djangoapps/courseware/views/views.py
-#: lms/djangoapps/shoppingcart/reports.py
-#: lms/djangoapps/shoppingcart/reports.py
 #: openedx/features/course_experience/__init__.py
 msgid "Course"
 msgstr "Kurs"
+
+#: common/lib/xmodule/xmodule/templates/library-sourced-block-studio-view.html
+msgid "Save and Import"
+msgstr ""
+
+#: common/lib/xmodule/xmodule/templates/library-sourced-block-studio-view.html
+#: lms/templates/oauth2_provider/authorize.html
+#: openedx/core/djangoapps/user_api/admin.py
+msgid "Cancel"
+msgstr "Abbrechen"
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 #, python-brace-format
@@ -6122,7 +6114,7 @@ msgstr ""
 "Automatische Genehmigung gültiger Rückerstattungsanträge ohne manuelle "
 "Bearbeitung"
 
-#: lms/djangoapps/commerce/utils.py lms/djangoapps/shoppingcart/models.py
+#: lms/djangoapps/commerce/utils.py
 msgid "[Refund] User-Requested Refund"
 msgstr "[Refund] Von User beantragte Rückerstattung"
 
@@ -6647,6 +6639,16 @@ msgstr ""
 "noch nicht verifiziert wurde."
 
 #: lms/djangoapps/courseware/views/views.py
+msgid "Your certificate will be available soon!"
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py
+msgid ""
+"After this course officially ends, you will receive an email notification "
+"with your certificate."
+msgstr ""
+
+#: lms/djangoapps/courseware/views/views.py
 msgid "Your certificate is available"
 msgstr "Dein Zertifikat ist verfügbar"
 
@@ -6664,6 +6666,7 @@ msgid "{sign_in_link} or {register_link}."
 msgstr "{sign_in_link} oder {register_link}."
 
 #: lms/djangoapps/courseware/views/views.py
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
 #: openedx/features/course_experience/views/course_home_messages.py
 msgid "Sign in"
 msgstr "Anmelden"
@@ -6897,15 +6900,6 @@ msgstr "Website-Statistik"
 msgid "Total number of users"
 msgstr "Gesamtanzahl der Nutzer"
 
-#: lms/djangoapps/dashboard/sysadmin.py lms/djangoapps/dashboard/sysadmin.py
-#: lms/djangoapps/support/views/manage_user.py
-msgid "username"
-msgstr "Nutzername"
-
-#: lms/djangoapps/dashboard/sysadmin.py lms/djangoapps/dashboard/sysadmin.py
-msgid "email"
-msgstr "E-Mail"
-
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Create User Results"
 msgstr "Erstelle Nutzerergebnisse"
@@ -6954,7 +6948,7 @@ msgstr "Informationen zu allen Kursen"
 msgid "Deleted"
 msgstr "Gelöscht"
 
-#: lms/djangoapps/dashboard/sysadmin.py lms/djangoapps/dashboard/sysadmin.py
+#: lms/djangoapps/dashboard/sysadmin.py
 msgid "course_id"
 msgstr "Kurs-ID"
 
@@ -6973,14 +6967,6 @@ msgstr "Dozenten"
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Enrollment information for all courses"
 msgstr "Einschreibeinformationen für alle Kurse"
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "role"
-msgstr "Rolle"
-
-#: lms/djangoapps/dashboard/sysadmin.py
-msgid "full_name"
-msgstr "kompletter Name"
 
 #: lms/djangoapps/discussion/django_comment_client/base/views.py
 #: lms/djangoapps/discussion/django_comment_client/base/views.py
@@ -7167,6 +7153,12 @@ msgid ""
 msgstr ""
 "Die Anzahl der Sekunden bis zur Verzögerung / Timeout-Wartezeit, um Cookie-"
 "Werte von sailthru zu erhalten."
+
+#: lms/djangoapps/grades/rest_api/v1/gradebook_views.py
+msgid ""
+"Cannot override subsection grade: subsection is not available for target "
+"learner."
+msgstr ""
 
 #: lms/djangoapps/instructor/services.py
 #, python-brace-format
@@ -8219,817 +8211,6 @@ msgstr ""
 msgid "One of user or external_user_key must not be null."
 msgstr "Einer von Benutzer oder externaö_user_key darf nicht null sein."
 
-#: lms/djangoapps/shoppingcart/models.py
-msgid "Order Payment Confirmation"
-msgstr "Zahlungsbestätigung für Bestellung"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid ""
-"Confirmation and Registration Codes for the following courses: "
-"{course_name_list}"
-msgstr ""
-"Bestätigungs- und Anmeldecodes für die folgenden Kurse: {course_name_list}"
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid "Trying to add a different currency into the cart"
-msgstr "Versuche, eine andere Währung zum Warenkorb hinzuzufügen"
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid "Internal reference code for this invoice."
-msgstr "Interne Referenznummer für diese Rechnung."
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid "Customer's reference code for this invoice."
-msgstr "Kundenreferenznummer für diese Rechnung."
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid ""
-"The amount of the transaction.  Use positive amounts for payments and "
-"negative amounts for refunds."
-msgstr ""
-"Der Betrag der Transaktion. Verwenden Sie positive Beträge für Zahlungen und"
-" negative Beträge für Rückerstattungen."
-
-#: lms/djangoapps/shoppingcart/models.py lms/djangoapps/shoppingcart/models.py
-msgid "Lower-case ISO currency codes"
-msgstr "Kleingeschriebene ISO-Währungscodes"
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid "Optional: provide additional information for this transaction"
-msgstr ""
-"Optional: Fügen Sie zusätzliche Informationen zu dieser Transaktion hinzu."
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid ""
-"The status of the payment or refund. 'started' means that payment is "
-"expected, but money has not yet been transferred. 'completed' means that the"
-" payment or refund was received. 'cancelled' means that payment or refund "
-"was expected, but was cancelled before money was transferred. "
-msgstr ""
-"Der Status der Zahlung oder Rückerstattung. \"gestartet\" bedeutet, dass "
-"eine Zahlung erwartet wird, aber noch kein Geld überwiesen wurde. "
-"\"abgeschlossen\" bedeutet, dass die Zahlung oder Rückerstattung eingegangen"
-" ist. \"storniert\" bedeutet, dass eine Zahlung oder Rückerstattung erwartet"
-" wurde, aber storniert wurde, bevor das Geld überwiesen wurde. "
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid "The number of items sold."
-msgstr "Anzahl der verkauften Artikel."
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid "The price per item sold, including discounts."
-msgstr "Der Preis pro verkauftem Artikel, einschließlich Rabatte."
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "Registration for Course: {course_name}"
-msgstr "Registration für Kurs: {course_name}"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid ""
-"Please visit your {link_start}dashboard{link_end} to see your new course."
-msgstr ""
-"Bitte besuchen Sie die Seite {link_start}Meine Kurse{link_end} um Ihre neuen"
-" Kurse zu sehen."
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "Enrollment codes for Course: {course_name}"
-msgstr "Einschreibecodes für Kurs: {course_name}"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "Mode {mode} does not exist for {course_id}"
-msgstr "Modus {mode} existiert nicht für {course_id}"
-
-#. Translators: In this particular case, mode_name refers to a
-#. particular mode (i.e. Honor Code Certificate, Verified Certificate, etc)
-#. by which a user could enroll in the given course.
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "{mode_name} for course {course}"
-msgstr "{mode_name} für Kurs {course}"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid ""
-"To receive a refund you may unenroll from the course on your edX Dashboard "
-"({dashboard_url}) up to 14 days after your payment or 14 days after your "
-"course starts (up to six months after your payment).\n"
-msgstr ""
-"Um eine Rückerstattung zu erhalten, können Sie sich über Ihr Dashboard "
-"({dashboard_url}) bis zu 14 Tage nach Ihrer Zahlung oder 14 Tage nach "
-"Kursbeginn (bis zu sechs Monate nach Ihrer Zahlung) vom Kurs abmelden.\n"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid ""
-"If you haven't verified your identity yet, please start the verification "
-"process ({verification_url})."
-msgstr ""
-"Wenn Sie noch nicht verifieziert sind, starten Sie bitte den "
-"Verifizierungsprozess ({verification_url}). "
-
-#: lms/djangoapps/shoppingcart/models.py
-msgid ""
-"You can unenroll in the course and receive a full refund for 2 days after "
-"the course start date.\n"
-msgstr ""
-"Sie können sich aus dem Kurs ausschreiben und erhalten eine volle "
-"Rückerstattung für 2 Tage nach Kursbeginn. \n"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid ""
-"{refund_reminder_msg}For help unenrolling, Please see How do I unenroll from"
-" a course? ({how_to_unenroll_link}) in our edX HelpCenter."
-msgstr ""
-"{refund_reminder_msg}Hilfe bei der Kursabmeldung finden Sie unter, Wie melde"
-" ich mich von einem Kurs ab? ({how_to_unenroll_link}) in unserem edX "
-"HilfeCenter."
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid ""
-"We greatly appreciate this generous contribution and your support of the "
-"{platform_name} mission.  This receipt was prepared to support charitable "
-"contributions for tax purposes.  We confirm that neither goods nor services "
-"were provided in exchange for this gift."
-msgstr ""
-"Wir danken Ihnen für diesen großzügigen Beitrag und Ihre Unterstützung der "
-"Mission von {platform_name}. Diese Quittung wurde erstellt, um gemeinnützige"
-" Spenden für Steuerzwecke zu unterstützen. Wir bestätigen, dass gegen dieses"
-" Geschenk weder Waren noch Dienstleistungen erbracht wurden."
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "Could not find a course with the ID '{course_id}'"
-msgstr "Kurs mit der Kennung '{course_id}' nicht gefunden"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "Donation for {course}"
-msgstr "Spende für {course}"
-
-#: lms/djangoapps/shoppingcart/models.py
-#, python-brace-format
-msgid "Donation for {platform_name}"
-msgstr "Spende für {platform_name}"
-
-#. Translators: this text appears when an unfamiliar error code occurs during
-#. payment,
-#. for which we don't know a user-friendly message to display in advance.
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "UNKNOWN REASON"
-msgstr "UNBEKANNTE URSACHE"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid "The payment processor did not return a required parameter: {parameter}"
-msgstr ""
-"Der Zahlungsverarbeiter lieferte einen benötigten Parameter nicht zurück: "
-"{parameter}"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"The payment processor returned a badly-typed value {value} for parameter "
-"{parameter}."
-msgstr ""
-"Der Zahlungsverarbeiter lieferte eine schlecht typisierten Wert {value} für "
-"den Parameter {parameter} zurück."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"The payment processor accepted an order whose number is not in our system."
-msgstr ""
-"Der Bezahlprozess hat einen Auftrag akzeptiert, dessen Nummer nicht in "
-"unserem System vorhanden ist."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"The amount charged by the processor {charged_amount} "
-"{charged_amount_currency} is different than the total cost of the order "
-"{total_cost} {total_cost_currency}."
-msgstr ""
-"Der durch den Verarbeiter belastete Betrag {charged_amount} "
-"{charged_amount_currency} unterscheidet sich von den Gesamtkosten der "
-"Bestellung {total_cost} {total_cost_currency}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"Sorry! Our payment processor did not accept your payment.  The decision they"
-" returned was {decision}, and the reason was {reason}.  You were not "
-"charged. Please try a different form of payment.  Contact us with payment-"
-"related questions at {email}."
-msgstr ""
-"Entschuldigung! Unser Bezahlungsprozessor hat ihre Bezahlung nicht akzeptiert.\n"
-"Das Urteil, das sie zurückgesendet haben war {decision},\n"
-"und der Grund war {reason}.\n"
-"Ihre Zahlung wurde nicht durchgeführt. Bitte versuchen sie eine andere Art der Zahlung. \n"
-"Konatktieren Sie uns mit Fragen bezüglich Ihrer Zahlung unter {email}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"Sorry! Our payment processor sent us back a payment confirmation that had "
-"inconsistent data! We apologize that we cannot verify whether the charge "
-"went through and take further action on your order. The specific error "
-"message is: {msg} Your credit card may possibly have been charged.  Contact "
-"us with payment-specific questions at {email}."
-msgstr ""
-"Entschuldigung! Unser Zahlungsdienstleister hat uns eine Zahlungsbestätigung"
-" mit inkonsistenten Daten zurückgeschickt! Wir entschuldigen uns, dass wir "
-"nicht überprüfen können, ob die Gebühr durchgegangen ist und weitere "
-"Maßnahmen für Ihre Bestellung ergreifen können. Die spezifische "
-"Fehlermeldung lautet: {msg} Möglicherweise wurde Ihre Kreditkarte belastet. "
-"Kontaktieren Sie uns bei zahlungsspezifischen Fragen unter {email}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"Sorry! Due to an error your purchase was charged for a different amount than"
-" the order total! The specific error message is: {msg}. Your credit card has"
-" probably been charged. Contact us with payment-specific questions at "
-"{email}."
-msgstr ""
-"Entschuldigung! Aufgrund eines Fehlers wurde Ihr Kauf mit einem anderen "
-"Betrag als dem Bestellwert berechnet! Die spezifische Fehlermeldung lautet: "
-"{msg}. Ihre Kreditkarte wurde wahrscheinlich belastet. Kontaktieren Sie uns "
-"bei zahlungsspezifischen Fragen unter {email}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"Sorry! Our payment processor sent us back a corrupted message regarding your"
-" charge, so we are unable to validate that the message actually came from "
-"the payment processor. The specific error message is: {msg}. We apologize "
-"that we cannot verify whether the charge went through and take further "
-"action on your order. Your credit card may possibly have been charged. "
-"Contact us with payment-specific questions at {email}."
-msgstr ""
-"Entschuldigung! Unser Zahlungsabwickler hat uns eine beschädigte Nachricht "
-"bezüglich Ihrer Gebühr zurückgeschickt, so dass wir nicht bestätigen können,"
-" dass die Nachricht tatsächlich vom Zahlungsabwickler stammt. Die "
-"spezifische Fehlermeldung lautet: {msg}. Wir entschuldigen uns, dass wir "
-"nicht überprüfen können, ob die Gebühr durchgegangen ist und weitere "
-"Maßnahmen für Ihre Bestellung ergreifen können. Möglicherweise wurde Ihre "
-"Kreditkarte belastet. Kontaktieren Sie uns bei zahlungsspezifischen Fragen "
-"unter {email}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"Sorry! Our payment processor sent us back a message saying that you have "
-"cancelled this transaction. The items in your shopping cart will exist for "
-"future purchase. If you feel that this is in error, please contact us with "
-"payment-specific questions at {email}."
-msgstr ""
-"Entschuldigung! Unser Zahlungsdienstleister hat uns eine Nachricht "
-"zurückgeschickt, dass Sie diese Transaktion storniert haben. Die Artikel in "
-"Ihrem Warenkorb sind für einen späteren Kauf vorhanden. Wenn Sie der Meinung"
-" sind, dass dies ein Fehler ist, kontaktieren Sie uns bitte mit "
-"zahlungsspezifischen Fragen unter {email}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"We're sorry, but this payment was declined. The items in your shopping cart "
-"have been saved. If you have any questions about this transaction, please "
-"contact us at {email}."
-msgstr ""
-"Es tut uns leid, aber diese Zahlung wurde abgelehnt. Die Artikel in Ihrem "
-"Warenkorb wurden gespeichert. Wenn Sie Fragen zu dieser Transaktion haben, "
-"kontaktieren Sie uns bitte unter {email}."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"Sorry! Your payment could not be processed because an unexpected exception "
-"occurred. Please contact us at {email} for assistance."
-msgstr ""
-"Entschuldigung! Ihre Zahlung konnte nicht bearbeitet werden, da eine "
-"unerwarteter Fehler aufgetreten ist. Bitte kontaktieren Sie uns unter "
-"{email} für Hilfe."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Successful transaction."
-msgstr "Erfolgreiche Transaktion."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The request is missing one or more required fields."
-msgstr "Bei der Anfrage fehlen ein oder mehrere notwendige Felder."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "One or more fields in the request contains invalid data."
-msgstr "Ein oder mehrere Felder Ihrer Anfrage enthalten ungültige Daten"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The merchant reference code for this authorization request matches the merchant reference code of another\n"
-"            authorization request that you sent within the past 15 minutes.\n"
-"            Possible action: Resend the request with a unique merchant reference code.\n"
-"            "
-msgstr ""
-"\n"
-"Der Händler-Referenzcode für diese Authorisierungsanfrage stimmt mit dem Händler-Referenzcode einer anderen\n"
-"Autorisierungsanfrage, die Sie innerhalb der letzten 15 Minuten gesendet haben, überein.\n"
-"Mögliche Maßnahmen: Senden Sie die Anfrage erneut mit einem eindeutigen Händler-Referenzcode."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Only a partial amount was approved."
-msgstr "Nur ein Teilbetrag wurde genehmigt."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "General system failure."
-msgstr "Allgemeiner Systemfehler"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The request was received but there was a server timeout. This error does not include timeouts between the\n"
-"            client and the server.\n"
-"            "
-msgstr ""
-"\n"
-"Die Anfrage wurde empfangen, aber es gab ein Server-Timeout. Dieser Fehler beinhaltet keine Zeitüberschreitungen zwischen dem\n"
-"Client und dem Server."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"The request was received, but a service did not finish running in time."
-msgstr ""
-"Die Anfrage wurde empfangen, aber ein Dienst wurde nicht rechtzeitig "
-"beendet."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The authorization request was approved by the issuing bank but declined by CyberSource\n"
-"            because it did not pass the Address Verification System (AVS).\n"
-"            "
-msgstr ""
-"\n"
-"            Die Autorisierungsanfrage wurde von der ausgebenden Bank genehmigt, aber von CyberSource abgelehnt,\n"
-"            da sie das Anschriftenverifikationssystem (AVS) nicht passieren konnte.\n"
-"            "
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The issuing bank has questions about the request. You do not receive an\n"
-"            authorization code programmatically, but you might receive one verbally by calling the processor.\n"
-"            Possible action: retry with another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"Die ausstellende Bank hat Fragen zu dem Antrag. Einen Berechtigungscode erhalten Sie nicht\n"
-" automatisch, sondern eventuell mündlich durch Anruf beim Sachbearbeiter. \n"
-"Mögliche Aktion: Wiederholen Sie den Versuch mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            Expired card. You might also receive this if the expiration date you\n"
-"            provided does not match the date the issuing bank has on file.\n"
-"            Possible action: retry with another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"            Abgelaufene Karte. Möglicherweise erhältst du diese Nachricht, falls\n"
-"            das von dir angegebene Ablaufdatum nicht mit dem von der Bank gespeichertem übereinstimmt.\n"
-"            Mögliche Lösung: Versuche es mit einer anderen Bezahlmöglichkeit erneut\n"
-"            "
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            General decline of the card. No other information provided by the issuing bank.\n"
-"            Possible action: retry with another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"Allgemeine Ablehnung der Karte. Keine weiteren Informationen der ausstellenden Bank.\n"
-"Mögliche Aktion: Versuchen Sie es erneut mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"Insufficient funds in the account. Possible action: retry with another form "
-"of payment."
-msgstr ""
-"Zu wenig Guthaben auf dem Konto. Mögliche Aktion: Versuchen Sie es erneut "
-"mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Stolen or lost card."
-msgstr "Gestohlene oder verlorene Karte."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"Issuing bank unavailable. Possible action: retry again after a few minutes."
-msgstr ""
-"Ausgebende Bank nicht verfügbar. Mögliche Aktion: Nach ein paar Minuten "
-"erneut versuchen."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            Inactive card or card not authorized for card-not-present transactions.\n"
-"            Possible action: retry with another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"            Inaktive Karte oder Karte die nur für Vorzeigetransaktionen autorisiert ist.\n"
-"            Mögliche Lösung: Versuche es mit einer andere Bezahlmöglichkeit erneut\n"
-"            "
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "CVN did not match."
-msgstr "CVN stimmte nicht überein."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"The card has reached the credit limit. Possible action: retry with another "
-"form of payment."
-msgstr ""
-"Die Karte hat das Kreditlimit erreicht. Mögliche Aktion: Versuchen Sie es "
-"erneut mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"Invalid card verification number (CVN). Possible action: retry with another "
-"form of payment."
-msgstr ""
-"Ungültige Kartenprüfnummer (CVN). Mögliche Aktion: Versuchen Sie es erneut "
-"mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The customer matched an entry on the processors negative file."
-msgstr ""
-"Der Kunde passt zu einem Eintrag in einer Negativliste des Verarbeiters."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Account frozen. Possible action: retry with another form of payment."
-msgstr ""
-"Konto gesperrt. Mögliche Aktion: Versuchen Sie es erneut mit einer anderen "
-"Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The authorization request was approved by the issuing bank but declined by\n"
-"            CyberSource because it did not pass the CVN check.\n"
-"            Possible action: retry with another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"            Die Autorisierungsanfrage wurde durch die ausstellende Bank genehmigt, aber durch\n"
-"            CyberSource abgelehnt, da sie die CVN-Überprüfung nicht bestanden hat.\n"
-"            Mögliche Lösung: Versuche es mit einer anderen Art der Bezahlung erneut.\n"
-"            "
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"Invalid account number. Possible action: retry with another form of payment."
-msgstr ""
-"Ungültige Kontonummer. Mögliche Aktion: Versuchen Sie es erneut mit einer "
-"anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The card type is not accepted by the payment processor.\n"
-"            Possible action: retry with another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"Die Kartenart wird vom Zahlungsanbieter nicht akzeptiert.\n"
-"Mögliche Aktion: Versuchen Sie es erneut mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"General decline by the processor.  Possible action: retry with another form "
-"of payment."
-msgstr ""
-"Allgemeine Ablehnung durch den Prozessor. Mögliche Aktion: Versuchen Sie es "
-"erneut mit einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-#, python-brace-format
-msgid ""
-"There is a problem with the information in your CyberSource account.  Please"
-" let us know at {0}"
-msgstr ""
-"Es gibt ein Problem mit den Informationen in Ihrem CyberSource-Konto. Bitte "
-"lassen Sie es uns wissen unter {0}"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The requested capture amount exceeds the originally authorized amount."
-msgstr ""
-"Der angeforderte Capture-Betrag übersteigt den ursprünglich genehmigten "
-"Betrag."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Processor Failure.  Possible action: retry the payment"
-msgstr "Prozessorausfall. Mögliche Aktion: Wiederholung der Zahlung"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The authorization has already been reversed."
-msgstr "Die Authorisierung wurde bereits rückgängig gemacht."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The authorization has already been captured."
-msgstr "Die Authorisierung wurde bereits erfasst"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"The requested transaction amount must match the previous transaction amount."
-msgstr ""
-"Der angefragte Transaktionsbetrag muss dem vorherigen Transaktionsbetrag "
-"entsprechen."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The card type sent is invalid or does not correlate with the credit card number.\n"
-"            Possible action: retry with the same card or another form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"Die gesendete Kartenart ist ungültig oder stimmt nicht mit der Kreditkartennummer überein.\n"
-"Mögliche Aktion: Wiederholen Sie den Versuch mit derselben Karte oder einer anderen Zahlungsart."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The request ID is invalid."
-msgstr "Die Anfrage ID ist ungültig."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            You requested a capture, but there is no corresponding, unused authorization record. Occurs if there was\n"
-"            not a previously successful authorization request or if the previously successful authorization has already\n"
-"            been used by another capture request.\n"
-"            "
-msgstr ""
-"\n"
-"Sie haben eine Datenerfassung angefordert, aber es gibt keinen entsprechenden, unbenutzten Berechtigungsdatensatz. Dies geschieht, \n"
-"wenn es bisher noch keine Berechtigungsanforderung gab oder wenn die zuvor erteilte Berechtigung \n"
-"bereits von einer anderen Datenerfassungsanforderung verwendet wurde."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The transaction has already been settled or reversed."
-msgstr "Die Transaktion wurde bereits versendet oder zurückgenommen."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            Either the capture or credit is not voidable because the capture or credit information has already been\n"
-"            submitted to your processor, or you requested a void for a type of transaction that cannot be voided.\n"
-"            "
-msgstr ""
-"\n"
-"Entweder ist die Datenerfassung oder die Gutschrift nicht annullierbar, weil die Erfassungs- oder Kreditinformationen bereits an Ihren Bearbeiter übermittelt wurden, \n"
-"oder Sie haben eine Annullierung für eine Art von Transaktion beantragt, die nicht annulliert werden kann."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "You requested a credit for a capture that was previously voided."
-msgstr ""
-"Sie haben eine Gutschrift für eine bereits annullierte Aufzeichnung "
-"beantragt."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"The request was received, but there was a timeout at the payment processor."
-msgstr ""
-"Die Anfrage wurde empfangen, aber es gab einen Timeout bei der "
-"Zahlungsverarbeitung."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Stand-alone credits are not allowed."
-msgstr "Unabhängige bzw. eigenständige Credits sind nicht zulässig."
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "The cardholder is enrolled for payer authentication"
-msgstr "Der Karteninhaber ist eingeschrieben für die Zahler-Authentifikation"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid "Payer authentication could not be authenticated"
-msgstr "Die Zahler-Authentifikation konnte nicht authentifiziert werden"
-
-#: lms/djangoapps/shoppingcart/processors/CyberSource2.py
-msgid ""
-"\n"
-"            The authorization request was approved by the issuing bank but declined by CyberSource based\n"
-"            on your legacy Smart Authorization settings.\n"
-"            Possible action: retry with a different form of payment.\n"
-"            "
-msgstr ""
-"\n"
-"            Die Autorisierungsanfrage wurde durch die ausgebende Bank genehmigt, aber durch CyberSource\n"
-"            aufgrund deiner rechtlichen Smart-Autorisationseinstellungen abgelehnt.\n"
-"            Mögliche Lösung: Versuche es erneut mit einer anderen Bezahlmethode.\n"
-"            "
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Order Number"
-msgstr "Bestellnummer"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Customer Name"
-msgstr "Name des Kunden"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Date of Original Transaction"
-msgstr "Datum der ursprünglichen Transaktion"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Date of Refund"
-msgstr "Datum der Rückerstattung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Amount of Refund"
-msgstr "Betrag der Rückerstattung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Service Fees (if any)"
-msgstr "Servicegebühren (falls zutreffend)"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Purchase Time"
-msgstr "Kaufzeitpunkt"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Order ID"
-msgstr "Bestellnummer"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Quantity"
-msgstr "Menge"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Unit Cost"
-msgstr "Lerneinheitpreis"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Total Cost"
-msgstr "Gesamtpreis"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Currency"
-msgstr "Währung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Description"
-msgstr "Beschreibung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Comments"
-msgstr "Kommentare"
-
-#: lms/djangoapps/shoppingcart/reports.py
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "University"
-msgstr "Universität"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Course Announce Date"
-msgstr "Kursankündigungsdatum"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Course Start Date"
-msgstr "Startdatum"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Course Registration Close Date"
-msgstr "Letztmögliches Datum zur Registrierung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Course Registration Period"
-msgstr "Registrierungszeitraum des Kurs"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Total Enrolled"
-msgstr "Insgesamt eingeschrieben"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Audit Enrollment"
-msgstr "Gasthörer Einschreibung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Honor Code Enrollment"
-msgstr "Einschreibung Teilnahmemodus"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Verified Enrollment"
-msgstr "Verifizierte Einschreibung"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Gross Revenue"
-msgstr "Bruttoumsatz"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Gross Revenue over the Minimum"
-msgstr "Bruttoumsatz oberhalb des Minimums"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Number of Verified Students Contributing More than the Minimum"
-msgstr ""
-"Anzahl der verifizierten Teilnehmer, die mehr als das Minimum beitragen"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Number of Refunds"
-msgstr "Anzahl der Rückerstattungen"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Dollars Refunded"
-msgstr "Zurückerstattete Dollar"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Number of Transactions"
-msgstr "Anzahl der Transaktionen"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Total Payments Collected"
-msgstr "Gesamte erhaltene Zahlungen"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Number of Successful Refunds"
-msgstr "Anzahl erfolgreicher Rückerstattungen"
-
-#: lms/djangoapps/shoppingcart/reports.py
-msgid "Total Amount of Refunds"
-msgstr "Gesamtsumme der Rückerstattungen"
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid "You must be logged-in to add to a shopping cart"
-msgstr "Sie müssen eingeloggt sein um in den Warenkorb hinzuzufügen"
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid "The course you requested does not exist."
-msgstr "Der Kurs den Sie angefragt haben existiert nicht."
-
-#: lms/djangoapps/shoppingcart/views.py
-#, python-brace-format
-msgid "The course {course_id} is already in your cart."
-msgstr "Der Kurs {course_id} befindet sich bereits in Ihrem Warenkorb."
-
-#: lms/djangoapps/shoppingcart/views.py
-#, python-brace-format
-msgid "You are already registered in course {course_id}."
-msgstr "Sie sind bereits in dem Kurs {course_id} registriert."
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid "Course added to cart."
-msgstr "Kurs wurde zum Warenkorb hinzugefügt."
-
-#: lms/djangoapps/shoppingcart/views.py lms/djangoapps/shoppingcart/views.py
-#, python-brace-format
-msgid "Discount does not exist against code '{code}'."
-msgstr "Es wird kein Rabatt mit dem Code '{code}' gewährt."
-
-#: lms/djangoapps/shoppingcart/views.py
-#, python-brace-format
-msgid "This enrollment code ({enrollment_code}) is no longer valid."
-msgstr "Dieser Einschreibungscode ({enrollment_code}) ist nicht mehr gültig."
-
-#: lms/djangoapps/shoppingcart/views.py
-#, python-brace-format
-msgid "This enrollment code ({enrollment_code}) is not valid."
-msgstr "Dieser Einschreibungscode ({enrollment_code}) ist ungültig."
-
-#: lms/djangoapps/shoppingcart/views.py
-#, python-brace-format
-msgid ""
-"Code '{registration_code}' is not valid for any course in the shopping cart."
-msgstr ""
-"Der Code '{registration_code}' ist für keinen Kurs im Warenkorb gültig."
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid ""
-"Cart item quantity should not be greater than 1 when applying activation "
-"code"
-msgstr ""
-"Die Menge der Warenkorbartikel sollte bei der Anwendung des "
-"Aktivierungscodes nicht größer als 1 sein."
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid "Only one coupon redemption is allowed against an order"
-msgstr "Es ist nur eine Couponeinlösung gegen eine Bestellung möglich."
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid "success"
-msgstr "Erfolgreich"
-
-#: lms/djangoapps/shoppingcart/views.py
-msgid "You do not have permission to view this page."
-msgstr "Sie haben nicht die Erlaubnis, diese Seite anzusehen."
-
 #: lms/djangoapps/support/views/index.py
 msgid "View and regenerate certificates."
 msgstr "Zertifikate anzeigen und neu erstellen "
@@ -9082,6 +8263,10 @@ msgstr "Tool zum Verfolgen der Programmeinschreibungen"
 msgid "Find information related to a learner's program enrollments"
 msgstr ""
 "Erhalten Sie Informationen zu den Programmeinschreibungen von Teilnehmern"
+
+#: lms/djangoapps/support/views/manage_user.py
+msgid "username"
+msgstr "Nutzername"
 
 #: lms/djangoapps/support/views/manage_user.py
 msgid "user_support_url"
@@ -9244,10 +8429,6 @@ msgid "Make payment"
 msgstr "Bezahlen"
 
 #: lms/djangoapps/verify_student/views.py
-msgid "Payment confirmation"
-msgstr "Bezahlbestätigung"
-
-#: lms/djangoapps/verify_student/views.py
 msgid "Take photo"
 msgstr "Bild aufnehmen"
 
@@ -9287,10 +8468,6 @@ msgstr ""
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
 msgstr "Fehlender Pflichtparameter face_image"
-
-#: lms/djangoapps/verify_student/views.py
-msgid "Invalid course key"
-msgstr "Ungültiger Kursschlüssel"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "No profile found for user"
@@ -9789,11 +8966,6 @@ msgstr ""
 "Schaltfläche \"Abbrechen\", um diese Berechtigungen zurückzuhalten."
 
 #: lms/templates/oauth2_provider/authorize.html
-#: openedx/core/djangoapps/user_api/admin.py
-msgid "Cancel"
-msgstr "Abbrechen"
-
-#: lms/templates/oauth2_provider/authorize.html
 msgid "Allow"
 msgstr "Erlauben"
 
@@ -9825,10 +8997,8 @@ msgstr "Ihre %(platform_name)s ID Verifikationsfotos wurden bestätigt"
 #, python-format
 msgid ""
 "Your approval status remains valid for one year, and it will expire "
-"%(expiry_date)s."
+"%(expiration_datetime)s."
 msgstr ""
-"Ihre Verifikation ist ein Jahr lang gültig und wird am %(expiry_date)s "
-"ablaufen."
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt
@@ -10572,7 +9742,6 @@ msgstr "Lesezeichen mit usage_id: {usage_id} existiert nicht."
 
 #: openedx/core/djangoapps/catalog/models.py
 #: openedx/core/djangoapps/video_pipeline/models.py
-#: openedx/core/djangoapps/video_pipeline/models.py
 msgid "Internal API URL"
 msgstr "Interne API URL"
 
@@ -10714,7 +9883,64 @@ msgid "Learning Sequences"
 msgstr "Lernsequenzen"
 
 #: openedx/core/djangoapps/content_libraries/api.py
+msgid "Cannot change or remove the access level for the only admin."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api.py
+#, python-brace-format
+msgid ""
+"You may not change a library's type to {library_type} if it still has "
+"unpublished changes."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api.py
+#, python-brace-format
+msgid ""
+"You can only set a library to {library_type} if all existing blocks are of "
+"that type. Found incompatible block {block_id} with type {block_type}."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api.py
+#, python-brace-format
+msgid ""
+"Block type \"{block_type}\" is not compatible with library type "
+"\"{library_type}\"."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/api.py
 msgid "Library cannot have more than {} XBlocks"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Complex"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "All Rights Reserved."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Creative Commons Attribution 4.0"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Creative Commons Attribution-NonCommercial 4.0"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Creative Commons Attribution-NoDerivatives 4.0"
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/constants.py
+msgid "Creative Commons Attribution-ShareAlike 4.0"
 msgstr ""
 
 #: openedx/core/djangoapps/content_libraries/models.py
@@ -10732,6 +9958,14 @@ msgstr "Nur Lesezugriff"
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "One and only one of 'user' and 'group' must be set."
 msgstr "Es muss entweder ein 'Benutzer' oder eine 'Gruppe' festgelegt werden."
+
+#: openedx/core/djangoapps/content_libraries/views.py
+msgid "We could not find a user with that email address."
+msgstr ""
+
+#: openedx/core/djangoapps/content_libraries/views.py
+msgid "This user already has access to this library."
+msgstr ""
 
 #: openedx/core/djangoapps/cors_csrf/models.py
 msgid ""
@@ -10953,6 +10187,34 @@ msgstr "Das ist eine Testwarnung"
 #: openedx/core/djangoapps/debug/views.py
 msgid "This is a test error"
 msgstr "Das ist ein Testfehler"
+
+#. Translators: A key specifying a course, library, program, website, or some
+#. other collection of content where learning happens.
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Learning Context Key"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid ""
+"If disabled, the discussions in the associated learning context/course will "
+"be disabled."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The LTI configuration data for this context/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The plugin configuration data for this context/provider."
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "Discussion provider"
+msgstr ""
+
+#: openedx/core/djangoapps/discussions/models.py
+msgid "The discussion tool/provider's id"
+msgstr ""
 
 #: openedx/core/djangoapps/django_comment_common/models.py
 msgid "Administrator"
@@ -11466,6 +10728,7 @@ msgid "You are eligible to upgrade in these courses:"
 msgstr "Sie können Ihren Gasthörermodus in folgenden Kursen upgraden:"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html
+#: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html
 msgid "Example of a verified certificate"
 msgstr "Beispiel eines verifizierten Zertifikates"
 
@@ -11870,6 +11133,33 @@ msgstr ""
 msgid "Password reset on %(platform_name)s"
 msgstr "Passwort wurde zurückgesetzt für %(platform_name)s"
 
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
+msgid "Password Reset Success"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
+#, python-format
+msgid "Hello %(name)s,"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt
+#, python-format
+msgid ""
+"This is to confirm that you have successfully changed your password "
+"associated with %(platform_name)s account. Please sign-in to your account."
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt
+#, python-format
+msgid "Hello %(name)s, "
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/subject.txt
+#, python-format
+msgid "Password reset completed on %(platform_name)s"
+msgstr ""
+
 #: openedx/core/djangoapps/user_authn/views/auto_auth.py
 msgid "Superuser creation not allowed"
 msgstr "Erstellung eines Superusers nicht erlaubt"
@@ -11893,17 +11183,10 @@ msgid ""
 "your dashboard. {blank_lines}If you don't have an account on {platform_name}"
 " yet, click {register_label_strong} at the top of the page."
 msgstr ""
-"Du hast dich erfolgreich in deinem {provider_name} Konto angemeldet, aber "
-"dieses Konto ist noch nicht mit deinem {platform_name} Konto verknüpft. "
-"{blank_lines}Verwenden Sie Ihren {platform_name} Benutzernamen und Ihr "
-"Passwort, um sich unten bei {platform_name} anzumelden, und verknüpfen Sie "
-"dann Ihr {platform_name} Konto mit {provider_name} aus Ihrer 'Meine Kurse' "
-"Übersicht. {blank_lines}Wenn Sie noch kein Konto bei {platform_name} haben, "
-"klicken Sie auf {register_label_strong} oben auf der Seite."
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Register"
-msgstr "Registrieren"
+msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "There was an error receiving your login information. Please email us."
@@ -11926,15 +11209,9 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
 msgid ""
-"In order to sign in, you need to activate your account.{blank_lines}We just "
-"sent an activation link to {email_strong}. If you do not receive an email, "
-"check your spam folders or {link_start}contact {platform_name} "
-"Support{link_end}."
+"To protect your account, it’s been temporarily locked. Try again in {locked_out_period} minutes.\n"
+"To be on the safe side, you can reset your password {link_start}here{link_end} before you try again.\n"
 msgstr ""
-"Um sich anzumelden, müssen Sie Ihr Konto aktivieren.{blank_lines}Wir haben "
-"gerade einen Aktivierungslink an {email_strong} geschickt. Wenn Sie keine "
-"E-Mail erhalten, überprüfen Sie Ihre Spam-Ordner oder "
-"{link_start}kontaktieren Sie den {platform_name} Support{link_end}."
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
@@ -11959,6 +11236,14 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
 msgid ""
+"Email or password is incorrect.\n"
+"You have {remaining_attempts} more sign-in attempts before your account is temporarily locked.\n"
+"If you{quote}ve forgotten your password, click {link_start}here{link_end} to reset.\n"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
 "As {allowed_domain} user, You must login with your {allowed_domain} "
 "{link_start}{provider} account{link_end}."
 msgstr ""
@@ -11977,10 +11262,6 @@ msgid "The email address you used to register with {platform_name}"
 msgstr ""
 "Die E-Mail-Adresse, mit der Sie sich für die {platform_name} registriert "
 "haben."
-
-#: openedx/core/djangoapps/user_authn/views/login_form.py
-msgid "Create Account"
-msgstr "Konto erstellen"
 
 #. Translators: This example email address is used as a placeholder in
 #. a field on the password reset form meant to hold the user's email address.
@@ -12243,6 +11524,10 @@ msgstr ""
 "Ich stimme den {platform_name} "
 "{tos_link_start}{terms_of_service}{tos_link_end} zu."
 
+#: openedx/core/djangoapps/user_authn/views/utils.py
+msgid "Create Account"
+msgstr "Konto erstellen"
+
 #: openedx/core/djangoapps/util/user_messages.py
 #, python-brace-format
 msgid "{header_open}{title}{header_close}{body}"
@@ -12262,21 +11547,6 @@ msgid "The course key for the course we would like to be auto-cohorted."
 msgstr ""
 "Der Schlüssel des Kurses, in welchem automatisch Cohorte angelegt werden "
 "sollen."
-
-#: openedx/core/djangoapps/video_pipeline/models.py
-msgid "Oauth client name of video pipeline service."
-msgstr "Oauth Client Name des Video-Pipeline-Service."
-
-#: openedx/core/djangoapps/video_pipeline/models.py
-msgid "edx-video-pipeline API URL."
-msgstr "edx-video-pipeline API URL."
-
-#: openedx/core/djangoapps/video_pipeline/models.py
-msgid ""
-"Username created for Video Pipeline Integration, e.g. veda_service_user."
-msgstr ""
-"Benutzername erstellt für die Video Pipeline Integration, z.B. "
-"veda_service_user."
 
 #: openedx/core/djangoapps/video_pipeline/models.py
 msgid "Oauth client name of VEM service."
@@ -12571,10 +11841,6 @@ msgstr ""
 msgid "Updates"
 msgstr "Aktuelles"
 
-#: openedx/features/course_experience/plugins.py
-msgid "Reviews"
-msgstr "Bewertungen"
-
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
 msgid "{sign_in_link} or {register_link} and then enroll in this course."
@@ -12791,6 +12057,27 @@ msgid ""
 "To participate in this assignment, the suggested schedule for your course "
 "needs updating. Don’t worry, we’ll shift all the due dates for you and you "
 "won’t lose any of your progress."
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "Try again ({attempts} attempt remaining)"
+msgid_plural "Try again ({attempts} attempts remaining)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "You have used {attempts} of {max_attempts} attempts for this problem."
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+msgid "Try again (unlimited attempts)"
+msgstr ""
+
+#: openedx/features/personalized_learner_schedules/call_to_action.py
+#, python-brace-format
+msgid "You have used {attempts} of unlimited attempts for this problem."
 msgstr ""
 
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt

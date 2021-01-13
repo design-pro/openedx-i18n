@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -34,8 +34,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-08-02 20:47+0000\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2020-12-06 20:43+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)\n"
 "Language: es_ES\n"
@@ -531,6 +531,10 @@ msgstr "Cargar otro fichero"
 msgid "Adding"
 msgstr ""
 
+#: cms/static/js/views/container.js
+msgid "{startTag}{requestToken}{endTag}{selector}"
+msgstr ""
+
 #: cms/static/js/views/course_info_update.js
 msgid "Are you sure you want to delete this update?"
 msgstr "¿Estás seguro de que quieres borrar esta actualización?"
@@ -828,7 +832,7 @@ msgid "Highlights for {display_name}"
 msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js
-msgid "Enable Weekly Highlight Emails"
+msgid "Enable Course Highlight Emails"
 msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js

@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -29,8 +29,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-06-14 20:45+0000\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2020-12-06 20:44+0000\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/open-edx/edx-platform/language/es_ES/)\n"
 "Language: es_ES\n"
@@ -277,6 +277,11 @@ msgid "Name of the certificate"
 msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+msgid "Description"
+msgstr ""
+
+#: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Description of the certificate"
 msgstr ""
@@ -424,7 +429,7 @@ msgid "Copy Component Location"
 msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
-msgid "Weekly Highlight Emails"
+msgid "Course Highlight Emails"
 msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
@@ -789,6 +794,10 @@ msgstr ""
 msgid ""
 "There is invalid code in your content. Please check to make sure it is valid"
 " HTML."
+msgstr ""
+
+#: cms/templates/js/course_info_update.underscore
+msgid "Date"
 msgstr ""
 
 #: cms/templates/js/course_info_update.underscore

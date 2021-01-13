@@ -1,4 +1,4 @@
-# edX translation file
+# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)
 # Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
@@ -17,2267 +17,2458 @@ msgstr ""
 "PO-Revision-Date: 2021-01-02 18:25+0330\n"
 "Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 1.3\n"
 "X-Generator: Poedit 2.2\n"
 
-#: cms/templates/js/add-xblock-component-menu-problem.underscore:55
-#: cms/templates/js/add-xblock-component-menu.underscore:29 cms/templates/js/certificate-editor.underscore:47
-#: cms/templates/js/content-group-editor.underscore:32 cms/templates/js/course_info_handouts.underscore:20
-#: cms/templates/js/course_info_update.underscore:15 cms/templates/js/edit-textbook.underscore:26
-#: cms/templates/js/group-configuration-editor.underscore:46 cms/templates/js/section-name-edit.underscore:4
-#: cms/templates/js/signatory-actions.underscore:4 cms/templates/js/xblock-string-field-editor.underscore:14
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:25
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:55
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:149
-#: lms/templates/learner_dashboard/verification_popover.underscore:10
+#: cms/templates/js/add-xblock-component-menu-problem.underscore
+#: cms/templates/js/add-xblock-component-menu.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/edit-textbook.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/section-name-edit.underscore
+#: cms/templates/js/signatory-actions.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/learner_dashboard/verification_popover.underscore
 msgid "Cancel"
 msgstr "انصراف"
 
-#: cms/templates/js/asset-library.underscore:19 cms/templates/js/course-instructor-details.underscore:3
-#: cms/templates/js/previous-video-upload-list.underscore:14 cms/templates/js/signatory-details.underscore:13
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:20
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/previous-video-upload-list.underscore
+#: cms/templates/js/signatory-details.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Name"
 msgstr "نام"
 
-#: cms/templates/js/asset-library.underscore:26
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:7
+#: cms/templates/js/asset-library.underscore
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Type"
 msgstr "نوع"
 
-#: cms/templates/js/asset-library.underscore:57 cms/templates/js/basic-modal.underscore:24
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/basic-modal.underscore
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Actions"
 msgstr "عملیات"
 
-#: cms/templates/js/certificate-editor.underscore:18 cms/templates/js/group-configuration-editor.underscore:23
-#: lms/templates/commerce/receipt.underscore:23
-#: lms/templates/verify_student/payment_confirmation_step.underscore:26
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Description"
 msgstr "توصیف"
 
-#: cms/templates/js/certificate-editor.underscore:46 cms/templates/js/content-group-editor.underscore:31
-#: cms/templates/js/course_info_handouts.underscore:19 cms/templates/js/edit-textbook.underscore:25
-#: cms/templates/js/group-configuration-editor.underscore:45 cms/templates/js/section-name-edit.underscore:3
-#: cms/templates/js/signatory-actions.underscore:3 cms/templates/js/xblock-string-field-editor.underscore:13
-#: lms/templates/fields/field_dropdown.underscore:45
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:147
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:15
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:35
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/edit-textbook.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/section-name-edit.underscore
+#: cms/templates/js/signatory-actions.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: lms/templates/fields/field_dropdown.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Save"
 msgstr "ذخیره"
 
-#: cms/templates/js/course-outline.underscore:205 cms/templates/js/publish-xblock.underscore:72
-#: lms/templates/ccx/schedule.underscore:93 lms/templates/ccx/schedule.underscore:103
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
 msgid "Unscheduled"
 msgstr "برنامه‌ریزی نشده"
 
-#: cms/templates/js/course-video-settings.underscore:6 common/static/common/templates/image-modal.underscore:19
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:3
+#: cms/templates/js/course-video-settings.underscore
+#: common/static/common/templates/image-modal.underscore
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid "Close"
 msgstr "بستن"
 
-#: cms/templates/js/course_info_update.underscore:5 lms/templates/commerce/receipt.underscore:24
-#: lms/templates/verify_student/payment_confirmation_step.underscore:27
+#: cms/templates/js/course_info_update.underscore
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Date"
 msgstr "تاریخ"
 
-#: cms/templates/js/move-xblock-modal.underscore:6
-#: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
+#: cms/templates/js/move-xblock-modal.underscore
+#: openedx/features/course_search/static/course_search/templates/search_loading.underscore
 msgid "Loading"
 msgstr "در حال بارگذاری"
 
-#: cms/templates/js/paging-header.underscore:7
-#: common/static/common/templates/components/paging-footer.underscore:2
+#: cms/templates/js/paging-header.underscore
+#: common/static/common/templates/components/paging-footer.underscore
 msgid "Previous"
 msgstr "قبلی"
 
-#: cms/templates/js/paging-header.underscore:8
-#: common/static/common/templates/components/paging-footer.underscore:19
+#: cms/templates/js/paging-header.underscore
+#: common/static/common/templates/components/paging-footer.underscore
 msgid "Next"
 msgstr "بعدی"
 
-#: cms/templates/js/previous-video-upload-list.underscore:19
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:32
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:25
+#: cms/templates/js/previous-video-upload-list.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Action"
 msgstr "فعالیت"
 
-#: cms/templates/js/transcript-organization-credentials.underscore:33
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:20
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:20
+#: cms/templates/js/transcript-organization-credentials.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Username"
 msgstr "نام کاربری"
 
-#: cms/templates/js/video/metadata-translations-item.underscore:2
-#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore:14
+#: cms/templates/js/video/metadata-translations-item.underscore
+#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore
 msgid "Remove"
 msgstr "حذف"
 
-#: common/static/common/templates/image-modal.underscore:6
+#: common/static/common/templates/image-modal.underscore
 msgid "Fullscreen"
 msgstr "تمام صفحه"
 
-#: common/static/common/templates/image-modal.underscore:14
+#: common/static/common/templates/image-modal.underscore
 msgid "Large"
 msgstr "بزرگتر"
 
-#: common/static/common/templates/image-modal.underscore:27
+#: common/static/common/templates/image-modal.underscore
 msgid "Zoom In"
 msgstr "بزرگنمایی"
 
-#: common/static/common/templates/image-modal.underscore:35
+#: common/static/common/templates/image-modal.underscore
 msgid "Zoom Out"
 msgstr "کوچک نمایی"
 
-#: common/static/common/templates/components/paging-footer.underscore:6
+#: common/static/common/templates/components/paging-footer.underscore
 #, python-format
 msgid "Page number out of %(total_pages)s"
 msgstr "شماره صفحه از %(total_pages)s"
 
-#: common/static/common/templates/components/paging-footer.underscore:11
+#: common/static/common/templates/components/paging-footer.underscore
 msgid "Enter the page number you'd like to quickly navigate to."
 msgstr "شماره صفحه‌ای که می‌خواهید سریعا به آن بروید را وارد کنید."
 
-#: common/static/common/templates/components/paging-header.underscore:11
+#: common/static/common/templates/components/paging-header.underscore
 msgid "Sorted by"
 msgstr "مرتب شده بر اساس"
 
-#: common/static/common/templates/components/search-field.underscore:6
+#: common/static/common/templates/components/search-field.underscore
 msgid "Clear search"
 msgstr "پاک کردن جستجو"
 
-#: common/static/common/templates/components/search-field.underscore:7
-#: common/static/common/templates/components/search-field.underscore:10
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:9
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:4
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:19
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:3
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:11
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:3
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:11
+#: common/static/common/templates/components/search-field.underscore
+#: common/static/common/templates/components/search-field.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Search"
 msgstr "جست و جو"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:3
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
 msgstr "صفحه اصلی بحث و گفتگو"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:12
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 #, python-format
 msgid "How to use %(platform_name)s discussions"
 msgstr "چگونه از گفت‌وگوهای %(platform_name)s استفاده کنیم"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:18
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Find discussions"
 msgstr "یافتن بحث و گفتگو"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:21
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Use the All Topics menu to find specific topics."
 msgstr "برای یافتن عناوین خاص از منوی همه مباحث استفاده کنید."
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore
 msgid "Search all posts"
 msgstr "جستجوی همه پست‌ها"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Filter and sort topics"
 msgstr "عناوین را وارد و مرتب کنبد"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:33
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Engage with posts"
 msgstr "یا پست‌ها مشغول شوید"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:36
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Vote for good posts and responses"
 msgstr "به پست‌ها و پاسخ‌های خوب رای دهید"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:40
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Report abuse, topics, and responses"
 msgstr "گزارش سواستفاده، موضوعات، و پاسخ‌ها"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:44
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Follow or unfollow posts"
 msgstr "پست‌ها را پیگیری یا لغو پیگیری کنید"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:49
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Receive updates"
 msgstr "دریافت به روز رسانی‌ها"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:52
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Toggle Notifications Setting"
 msgstr "تنظیمات تغییر وضعیت اطلاعیه‌ها"
 
-#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:58
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid ""
-"Check this box to receive an email digest once a day notifying you about new, unread activity from posts you "
-"are following."
+"Check this box to receive an email digest once a day notifying you about "
+"new, unread activity from posts you are following."
 msgstr ""
-"این کادر را علامت بزنید تا یک بار در روز پیام الکترونیکی خلاصه‌ای از فعالیت‌های جدید و خوانده نشده از پست‌هایی "
-"که دنبال می‌کنید به شما اطلاع داده شود."
+"این کادر را علامت بزنید تا یک بار در روز پیام الکترونیکی خلاصه‌ای از "
+"فعالیت‌های جدید و خوانده نشده از پست‌هایی که دنبال می‌کنید به شما اطلاع داده"
+" شود."
 
-#: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore:4
+#: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore
 msgid "All Topics"
 msgstr "تمام مباحث"
 
-#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
+#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
 msgid "All Posts"
 msgstr "تمام پست‌ها"
 
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:10
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "username or email"
 msgstr "نام کاربری یا پست الکترونیکی"
 
-#: lms/djangoapps/support/static/support/templates/certificates.underscore:17
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "course id"
 msgstr "شناسه دوره"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:23
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:16
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "No results"
 msgstr "هیچ نتیجه‌ای نیست"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Course Key"
 msgstr "کلید دوره"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Status"
 msgstr "وضعیت"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download URL"
 msgstr "بارگیری URL"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:10
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Grade"
 msgstr "مقطع تحصیلی"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:11
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Last Updated"
 msgstr "آخرین به روز رسانی"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:24
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download the user's certificate"
 msgstr "بارگیری گواهی کاربر"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:26
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
 msgstr "در دسترس نیست"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:37
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate"
 msgstr "بازسازی"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:38
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate the user's certificate"
 msgstr "بازسازی گواهی کاربر"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:44
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Generate"
 msgstr "ساختن"
 
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:45
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Generate the user's certificate"
 msgstr "ساختن گواهی کاربر"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:4
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Current enrollment mode:"
 msgstr "حالت کنونی ثبت‌نام:"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:6
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "New enrollment mode:"
 msgstr "حالت جدید ثبت‌نام:"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:14
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Reason for change:"
 msgstr "دلیل تغییر:"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:16
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Choose One"
 msgstr "یکی را انتخاب کنید"
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:21
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:22
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Explain if other."
 msgstr "در غیر این صورت توضیح دهید."
 
-#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:24
+#: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore
 msgid "Submit enrollment change"
 msgstr "تغییر ثبت‌نام را بفرستید"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:9
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:7
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Username or email address"
 msgstr "نام کاربری یا پست الکترونیکی"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course ID"
 msgstr "شناسه دوره"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course Start"
 msgstr "شروع دوره"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course End"
 msgstr "پایان دوره"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Upgrade Deadline"
 msgstr "آخرین مهلت به روز رسانی"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:24
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Verification Deadline"
 msgstr "آخرین فرصت تایید"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:25
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Enrollment Date"
 msgstr "تاریخ ثبت نام"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:26
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Enrollment Mode"
 msgstr "حالت ثبت نام"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:27
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Verified mode price"
 msgstr "قیمت حالت تایید شده"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:28
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Reason"
 msgstr "دلیل"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:29
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Last modified by"
 msgstr "آخرین اصلاح توسط"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:30
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Active"
 msgstr "فعال"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:45
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:46
-#: lms/templates/ccx/schedule.underscore:42
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "N/A"
 msgstr "N/A"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:54
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Change Enrollment"
 msgstr "تغییر ثبت‌نام"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:21
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Email"
 msgstr "پست الکترونیکی"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:22
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Date Joined"
 msgstr "روز عضویت"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:23
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Password Status"
 msgstr "وضعیت رمز عبور"
 
-#: lms/djangoapps/support/static/support/templates/manage_user.underscore:35
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Toggle Account Password (Usable/Unusable)"
 msgstr "تغییر رمز ورود حساب (قابل استفاده / غیرقابل استفاده)"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:7
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Your team could not be created."
 msgstr "امکان ایجاد تیم شما وجود ندارد."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:9
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Your team could not be updated."
 msgstr "امکان به روز رسانی تیم شما وجود ندارد."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:23
-msgid "Enter information to describe your team. You cannot change these details after you create the team."
-msgstr "برای توصیف تیم خود اطلاعات وارد کنید. بعد از ایجاد تیم نمی‌توانید این جزئیات را تغییر دهید."
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid ""
+"Enter information to describe your team. You cannot change these details "
+"after you create the team."
+msgstr ""
+"برای توصیف تیم خود اطلاعات وارد کنید. بعد از ایجاد تیم نمی‌توانید این جزئیات"
+" را تغییر دهید."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:35
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Optional Characteristics"
 msgstr "ویژگی‌های اختیاری"
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:38
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid ""
-"Help other learners decide whether to join your team by specifying some characteristics for your team. "
-"Choose carefully, because fewer people might be interested in joining your team if it seems too restrictive."
+"Help other learners decide whether to join your team by specifying some "
+"characteristics for your team. Choose carefully, because fewer people might "
+"be interested in joining your team if it seems too restrictive."
 msgstr ""
-"با تعیین برخی از ویژگی‌های تیم خود، به سایر فراگیران کمک کنید تا تصمیم بگیرند که به تیم شما بپیوندند یا نه. "
-"با دقت انتخاب کنید، زیرا اگر بسیار محدود کننده به نظر برسند افراد کمتری می‌خواهند به تیم شما بپیوندند."
+"با تعیین برخی از ویژگی‌های تیم خود، به سایر فراگیران کمک کنید تا تصمیم "
+"بگیرند که به تیم شما بپیوندند یا نه. با دقت انتخاب کنید، زیرا اگر بسیار "
+"محدود کننده به نظر برسند افراد کمتری می‌خواهند به تیم شما بپیوندند."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:49
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Create team."
 msgstr "ایجاد تیم."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:51
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Update team."
 msgstr "به روز رسانی تیم."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:57
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Cancel team creating."
 msgstr "لغو ایجاد تیم."
 
-#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:59
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Cancel team updating."
 msgstr "لغو به روز رسانی تیم."
 
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:3
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Instructor tools"
 msgstr "ابزارهای مربی"
 
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:7
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Delete Team"
 msgstr "حذف تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:10
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Edit Membership"
 msgstr "ویرایش عضویت"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:5
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "View Current Team Memberships"
 msgstr "مشاهده عضویت فعلی تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:17
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Download Memberships"
 msgstr "بارگیری عضویت‌ها"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:22
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Assign Team Memberships"
 msgstr "اختصاص عضویت در تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:37
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Upload Memberships"
 msgstr "بارگذاری عضویت‌ها"
 
-#: lms/djangoapps/teams/static/teams/templates/manage.underscore:43
+#: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Error assigning team memberships"
 msgstr "خطا در تخصیص عضویت در تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/team-actions.underscore:2
+#: lms/djangoapps/teams/static/teams/templates/team-actions.underscore
 msgid "Are you having trouble finding a team to join?"
 msgstr "شما در یافتن تیم برای محلق شدن مشکل دارید؟"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:4
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
 msgid "Join Team"
 msgstr "عضویت در تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:11
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
 msgid "Edit Team"
 msgstr "ویرایش تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:11
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team Details"
 msgstr "جزئیات تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:14
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "You are a member of this team."
 msgstr "شما عضوی از این تیم هستید."
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:19
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team member profiles"
 msgstr "نمایه‌های اعضای تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:25
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Team capacity"
 msgstr "ظرفیت تیم"
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:31
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "The country that team members primarily identify with."
 msgstr "کشوری که اعضای تیم خود را با آن می‌شناسند."
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:40
-msgid "The language that team members primarily use to communicate with each other."
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid ""
+"The language that team members primarily use to communicate with each other."
 msgstr "زبانی که اعضای تیم برای گفتگو با هم استفاده می‌کنند."
 
-#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore:50
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "Leave Team"
 msgstr "ترک تیم"
 
-#: lms/static/js/fixtures/donation.underscore:5 lms/templates/dashboard/donation.underscore:5
+#: lms/static/js/fixtures/donation.underscore
+#: lms/templates/dashboard/donation.underscore
 msgid "Donate"
 msgstr "کمک مالی"
 
-#: lms/templates/api_admin/catalog-error.underscore:2
+#: lms/templates/api_admin/catalog-error.underscore
 msgid ""
-"There was an error retrieving preview results for this catalog. Please check that your query is correct and "
-"try again."
+"There was an error retrieving preview results for this catalog. Please check"
+" that your query is correct and try again."
 msgstr ""
-"در بازیابی نتایج پیش‌نمایش برای این کاتالوگ خطایی رخ داد. لطفاً صحت سوال خود را بررسی کنید و دوباره امتحان "
-"کنید."
+"در بازیابی نتایج پیش‌نمایش برای این کاتالوگ خطایی رخ داد. لطفاً صحت سوال خود"
+" را بررسی کنید و دوباره امتحان کنید."
 
-#: lms/templates/api_admin/catalog-results.underscore:1
+#: lms/templates/api_admin/catalog-results.underscore
 msgid "This catalog's courses:"
 msgstr "دوره‌های این کاتالوگ:"
 
-#: lms/templates/ccx/schedule.underscore:3
+#: lms/templates/ccx/schedule.underscore
 msgid "Expand All"
 msgstr "بازکردن همه"
 
-#: lms/templates/ccx/schedule.underscore:6
+#: lms/templates/ccx/schedule.underscore
 msgid "Collapse All"
 msgstr "بستن همه"
 
-#: lms/templates/ccx/schedule.underscore:13 lms/templates/ccx/schedule.underscore:83
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
 msgid "Unit"
 msgstr "واحد"
 
-#: lms/templates/ccx/schedule.underscore:14
+#: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
 msgstr "تاریخ شروع"
 
-#: lms/templates/ccx/schedule.underscore:15
+#: lms/templates/ccx/schedule.underscore
 msgid "Due Date"
 msgstr "زمان مقرر"
 
-#: lms/templates/ccx/schedule.underscore:17
+#: lms/templates/ccx/schedule.underscore
 msgid "remove all"
 msgstr "حذف همه"
 
-#: lms/templates/ccx/schedule.underscore:28
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "toggle chapter %(displayName)s"
 msgstr "تغییر فصل%(displayName)s"
 
-#: lms/templates/ccx/schedule.underscore:33
+#: lms/templates/ccx/schedule.underscore
 msgid "Section"
 msgstr "بخش"
 
-#: lms/templates/ccx/schedule.underscore:38 lms/templates/ccx/schedule.underscore:65
-#: lms/templates/ccx/schedule.underscore:71
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "Click to change"
 msgstr "برای تغییر کلیک کنید"
 
-#: lms/templates/ccx/schedule.underscore:45
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "Remove chapter %(chapterDisplayName)s"
 msgstr "حذف فصل %(chapterDisplayName)s"
 
-#: lms/templates/ccx/schedule.underscore:46 lms/templates/ccx/schedule.underscore:76
-#: lms/templates/ccx/schedule.underscore:109
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "remove"
 msgstr "حذف"
 
-#: lms/templates/ccx/schedule.underscore:56
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "toggle subsection %(displayName)s"
 msgstr "تغییر زیربخش‌ه %(displayName)s"
 
-#: lms/templates/ccx/schedule.underscore:60
+#: lms/templates/ccx/schedule.underscore
 msgid "Subsection"
 msgstr "زیر بخش"
 
-#: lms/templates/ccx/schedule.underscore:75
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "Remove subsection %(subsectionDisplayName)s"
 msgstr "حذف زیربخش%(subsectionDisplayName)s"
 
-#: lms/templates/ccx/schedule.underscore:108
+#: lms/templates/ccx/schedule.underscore
 #, python-format
 msgid "Remove unit %(unitName)s"
 msgstr "حذف واحد %(unitName)s"
 
-#: lms/templates/commerce/provider.underscore:4
-#, python-format
-msgid "You still need to visit the %(display_name)s website to complete the credit process."
-msgstr "برای تکمیل فرآیند اعتبار هنوز باید از وب سایت %(display_name)sبازدید کنید."
-
-#: lms/templates/commerce/provider.underscore:10
+#: lms/templates/commerce/provider.underscore
 #, python-format
 msgid ""
-"To finalize course credit, %(display_name)s requires %(platform_name)s learners to submit a credit request."
+"You still need to visit the %(display_name)s website to complete the credit "
+"process."
 msgstr ""
-"برای نهایی کردن اعتبار دوره ،%(display_name)s لازم است دانشجویان به%(platform_name)s درخواست اعتبار ارائه "
-"دهند."
+"برای تکمیل فرآیند اعتبار هنوز باید از وب سایت %(display_name)sبازدید کنید."
 
-#: lms/templates/commerce/provider.underscore:25
+#: lms/templates/commerce/provider.underscore
+#, python-format
+msgid ""
+"To finalize course credit, %(display_name)s requires %(platform_name)s "
+"learners to submit a credit request."
+msgstr ""
+"برای نهایی کردن اعتبار دوره ،%(display_name)s لازم است دانشجویان "
+"به%(platform_name)s درخواست اعتبار ارائه دهند."
+
+#: lms/templates/commerce/provider.underscore
 msgid "Get Credit"
 msgstr "اعتبار بگیرید"
 
-#: lms/templates/commerce/receipt.underscore:5
+#: lms/templates/commerce/receipt.underscore
 #, python-format
-msgid "Thank you %(full_name)s! We have received your payment for %(course_name)s."
-msgstr "%(full_name)s متشکریم! ما پرداخت شما برای %(course_name)s را دریافت کردیم."
-
-#: lms/templates/commerce/receipt.underscore:15
-#: lms/templates/verify_student/payment_confirmation_step.underscore:18
 msgid ""
-"Please print this page for your records; it serves as your receipt. You will also receive an email with the "
-"same information."
+"Thank you %(full_name)s! We have received your payment for %(course_name)s."
 msgstr ""
-"لطفا این صفحه را جهت بایگانی خود چاپ نمایید؛ این به عنوان رسید شما عمل می‌کند. همچنین یک پیام الکترونیکی با "
-"همین اطلاعات دریافت خواهید کرد."
+"%(full_name)s متشکریم! ما پرداخت شما برای %(course_name)s را دریافت کردیم."
 
-#: lms/templates/commerce/receipt.underscore:22
-#: lms/templates/verify_student/payment_confirmation_step.underscore:25
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr ""
+"لطفا این صفحه را جهت بایگانی خود چاپ نمایید؛ این به عنوان رسید شما عمل "
+"می‌کند. همچنین یک پیام الکترونیکی با همین اطلاعات دریافت خواهید کرد."
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Order No."
 msgstr "شماره سفارش."
 
-#: lms/templates/commerce/receipt.underscore:25
-#: lms/templates/verify_student/payment_confirmation_step.underscore:28
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Amount"
 msgstr "میزان"
 
-#: lms/templates/commerce/receipt.underscore:49
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:40
-#: lms/templates/verify_student/payment_confirmation_step.underscore:52
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Total"
 msgstr "مجموع"
 
-#: lms/templates/commerce/receipt.underscore:61
-#: lms/templates/verify_student/payment_confirmation_step.underscore:63
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Please Note"
 msgstr "لطفا توجه کنید"
 
-#: lms/templates/commerce/receipt.underscore:63
-#: lms/templates/verify_student/payment_confirmation_step.underscore:65
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Crossed out items have been refunded."
 msgstr "موارد خط خورده بازپرداخت شده است."
 
-#: lms/templates/commerce/receipt.underscore:71
-#: lms/templates/verify_student/payment_confirmation_step.underscore:72
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Billed to"
 msgstr "صورت حساب داده شده برای"
 
-#: lms/templates/commerce/receipt.underscore:87
-#: lms/templates/verify_student/payment_confirmation_step.underscore:84
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "No receipt available"
 msgstr "هیچ رسیدی در دسترس نیست"
 
-#: lms/templates/commerce/receipt.underscore:92
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:7
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid "Go to Dashboard"
 msgstr "برو به داشبورد"
 
-#: lms/templates/commerce/receipt.underscore:94
+#: lms/templates/commerce/receipt.underscore
 msgid ""
-"If you don't verify your identity now, you can still explore your course from your dashboard. You will "
-"receive periodic reminders from {platformName} to verify your identity."
+"If you don't verify your identity now, you can still explore your course "
+"from your dashboard. You will receive periodic reminders from {platformName}"
+" to verify your identity."
 msgstr ""
-"اگر اکنون هویت خود را تأیید نکنید، هنوز می‌توانید دوره خود را از داشبورد خود کاوش کنید. برای تأیید هویت خود، "
-"از {platformName} یادآوری‌های دوره‌ای دریافت خواهید کرد."
+"اگر اکنون هویت خود را تأیید نکنید، هنوز می‌توانید دوره خود را از داشبورد خود"
+" کاوش کنید. برای تأیید هویت خود، از {platformName} یادآوری‌های دوره‌ای "
+"دریافت خواهید کرد."
 
-#: lms/templates/commerce/receipt.underscore:95
-#: lms/templates/verify_student/payment_confirmation_step.underscore:143
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Want to confirm your identity later?"
 msgstr "می‌خواهید هویت خود را بعدا تایید کنید؟"
 
-#: lms/templates/commerce/receipt.underscore:102
+#: lms/templates/commerce/receipt.underscore
 msgid "Verify Now"
 msgstr "الان تایید کن"
 
-#: lms/templates/courseware/proctored-exam-controls.underscore:3
+#: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
 msgstr "آزمون را به عنوان تکمیل شده علامت بزید"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
 msgstr "شما آزمون \"{exam_link}\" را به عنوان {exam_type} می‌دهید. "
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "a timed exam"
 msgstr "یک آزمون زمان‌دار"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:13
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "The timer on the right shows the time remaining in the exam."
 msgstr "زمان‌سنج سمت راست زمان باقی مانده در امتحان را نشان می‌دهد."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:14
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid ""
-"To receive credit for problems, you must select \"Submit\" for each problem before you select \"End My Exam"
-"\"."
+"To receive credit for problems, you must select \"Submit\" for each problem "
+"before you select \"End My Exam\"."
 msgstr ""
-"برای دریافت اعتبار برای مشکلات، قبل از انتخاب \"پایان آزمون من\" باید \"ارسال\" را برای هر مشکل انتخاب کنید."
+"برای دریافت اعتبار برای مشکلات، قبل از انتخاب \"پایان آزمون من\" باید "
+"\"ارسال\" را برای هر مشکل انتخاب کنید."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show More"
 msgstr "نمایش بیش‌تر"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:16
-#: lms/templates/courseware/proctored-exam-status.underscore:17
+#: lms/templates/courseware/proctored-exam-status.underscore
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show Less"
 msgstr "نمایش کم‌تر"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:20
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Exam timer and end exam button"
 msgstr "زمان‌سنج آزمون و دکمه پایان آزمون"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:24
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "End My Exam"
 msgstr "پایان آزمون من"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:34
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Hide Timer"
 msgstr "مخفی کردن زمان‌سنج"
 
-#: lms/templates/discovery/course_card.underscore:6
+#: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"
 msgstr "بیشتر بدانید"
 
-#: lms/templates/discovery/course_card.underscore:17
+#: lms/templates/discovery/course_card.underscore
 #, python-format
 msgid "Starts: %(start_date)s"
 msgstr "شروع: %(start_date)s"
 
-#: lms/templates/discovery/course_card.underscore:26
+#: lms/templates/discovery/course_card.underscore
 msgid "Starts"
 msgstr "شروع"
 
-#: lms/templates/discovery/facet.underscore:10 lms/templates/edxnotes/note-item.underscore:9
+#: lms/templates/discovery/facet.underscore
+#: lms/templates/edxnotes/note-item.underscore
 msgid "More"
 msgstr "بیشتر"
 
-#: lms/templates/discovery/facet.underscore:13 lms/templates/edxnotes/note-item.underscore:7
+#: lms/templates/discovery/facet.underscore
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Less"
 msgstr "کمتر"
 
-#: lms/templates/discovery/filter_bar.underscore:3
+#: lms/templates/discovery/filter_bar.underscore
 msgid "Clear All"
 msgstr "پاک کردن همه"
 
-#: lms/templates/edxnotes/note-item.underscore:3
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Highlighted text"
 msgstr "متن برجسته"
 
-#: lms/templates/edxnotes/note-item.underscore:17
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Note"
 msgstr "یادداشت"
 
-#: lms/templates/edxnotes/note-item.underscore:19
+#: lms/templates/edxnotes/note-item.underscore
 msgid "You commented..."
 msgstr "شما نظر دادید..."
 
-#: lms/templates/edxnotes/note-item.underscore:33
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Noted in:"
 msgstr "اشاره شده در:"
 
-#: lms/templates/edxnotes/note-item.underscore:40
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Last Edited:"
 msgstr "آخرین ویرایش:"
 
-#: lms/templates/edxnotes/note-item.underscore:44
+#: lms/templates/edxnotes/note-item.underscore
 msgid "Tags:"
 msgstr "برچسب‌ها:"
 
-#: lms/templates/edxnotes/tab-item.underscore:10
+#: lms/templates/edxnotes/tab-item.underscore
 msgid "Clear search results"
 msgstr "پاک کردن نتایج جست‌وجو"
 
-#: lms/templates/fields/field_dropdown.underscore:38 lms/templates/fields/field_dropdown_account.underscore:41
-#: lms/templates/fields/field_textarea.underscore:35
+#: lms/templates/fields/field_dropdown.underscore
+#: lms/templates/fields/field_dropdown_account.underscore
+#: lms/templates/fields/field_textarea.underscore
 msgid "Click to edit"
 msgstr "برای ویرایش کلیک کنید"
 
-#: lms/templates/fields/field_order_history.underscore:2
+#: lms/templates/fields/field_order_history.underscore
 msgid "Order Number"
 msgstr "شماره سفارش"
 
-#: lms/templates/fields/field_order_history.underscore:3 lms/templates/fields/field_order_history.underscore:13
+#: lms/templates/fields/field_order_history.underscore
+#: lms/templates/fields/field_order_history.underscore
 msgid "Date Placed"
 msgstr "تاریخ قرارگیری"
 
-#: lms/templates/fields/field_order_history.underscore:4 lms/templates/fields/field_order_history.underscore:14
+#: lms/templates/fields/field_order_history.underscore
+#: lms/templates/fields/field_order_history.underscore
 msgid "Cost"
 msgstr "هزینه"
 
-#: lms/templates/fields/field_order_history.underscore:7
+#: lms/templates/fields/field_order_history.underscore
 msgid "Order Details"
 msgstr "جزئیات سفارش"
 
-#: lms/templates/fields/field_order_history.underscore:7
+#: lms/templates/fields/field_order_history.underscore
 msgid "for"
 msgstr "برای"
 
-#: lms/templates/fields/field_order_history.underscore:12
+#: lms/templates/fields/field_order_history.underscore
 msgid "Product Name"
 msgstr "نام محصول"
 
-#: lms/templates/fields/field_textarea.underscore:52
-msgid "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of {maxCharacters}"
+#: lms/templates/fields/field_textarea.underscore
+msgid ""
+"{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
+"{maxCharacters}"
 msgstr ""
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:1
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:1
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid "Financial Assistance Application"
 msgstr "برنامه کمک مالی"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:14
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "About You"
 msgstr "درباره شما"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:16
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid ""
-"The following information is already a part of your {platform} profile. We\\'ve included it here for your "
-"application."
-msgstr "اطلاعات زیر از قبل بخشی از نمایه {platform} شما است. ما آن را برای درخواست شما در اینجا قرار داده‌ایم."
+"The following information is already a part of your {platform} profile. "
+"We\\'ve included it here for your application."
+msgstr ""
+"اطلاعات زیر از قبل بخشی از نمایه {platform} شما است. ما آن را برای درخواست "
+"شما در اینجا قرار داده‌ایم."
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:24
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Email address"
 msgstr "نشانی پست الکترونیکی"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:28
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Legal name"
 msgstr "نام قانونی"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:32
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Country of residence"
 msgstr "کشور محل اقامت"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:41
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Back to {platform} FAQs"
 msgstr "بازگشت به سوالات متداول {platform}"
 
-#: lms/templates/financial-assistance/financial_assessment_form.underscore:44
+#: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Submit Application"
 msgstr "ارسال برنامه"
 
-#: lms/templates/financial-assistance/financial_assessment_submitted.underscore:3
+#: lms/templates/financial-assistance/financial_assessment_submitted.underscore
 msgid ""
-"Thank you for submitting your financial assistance application for {course_name}! You can expect a response "
-"in 2-4 business days."
+"Thank you for submitting your financial assistance application for "
+"{course_name}! You can expect a response in 2-4 business days."
 msgstr ""
-"از اینکه درخواست کمک مالی خود را برای {course_name} ارسال کردید متشکریم! در عرض۲-۴ روز کاری می‌توانید انتظار "
-"پاسخ داشته باشید."
+"از اینکه درخواست کمک مالی خود را برای {course_name} ارسال کردید متشکریم! در "
+"عرض۲-۴ روز کاری می‌توانید انتظار پاسخ داشته باشید."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:1
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
 msgstr "استثنائات انبوه"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:4
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid ""
-"Upload a comma separated values (.csv) file that contains the usernames or email addresses of learners who "
-"have been given exceptions. Include the username or email address in the first comma separated field. You "
-"can include an optional note describing the reason for the exception in the second comma separated field."
+"Upload a comma separated values (.csv) file that contains the usernames or "
+"email addresses of learners who have been given exceptions. Include the "
+"username or email address in the first comma separated field. You can "
+"include an optional note describing the reason for the exception in the "
+"second comma separated field."
 msgstr ""
-"فایلی با مقادیر جدا شده با ویرگول (.csv) را که حاوی نام‌های کاربری یا نشانی‌های پست الکترونیکی فراگیرانی است "
-"که استثنا داده شده‌اند بارگذاری کنید. نام کاربری یا نشانی پست الکترونیکی را در اولین قسمت جدا شده با ویرگول "
-"قرار دهید. می‌توانید یک یادداشت اختیاری در مورد دلیل استثنا در قسمت دوم جدا شده با ویرگول قرار دهید."
+"فایلی با مقادیر جدا شده با ویرگول (.csv) را که حاوی نام‌های کاربری یا "
+"نشانی‌های پست الکترونیکی فراگیرانی است که استثنا داده شده‌اند بارگذاری کنید."
+" نام کاربری یا نشانی پست الکترونیکی را در اولین قسمت جدا شده با ویرگول قرار "
+"دهید. می‌توانید یک یادداشت اختیاری در مورد دلیل استثنا در قسمت دوم جدا شده "
+"با ویرگول قرار دهید."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:8
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Upload a CSV file"
 msgstr "بارگذاری یک فایل CSV"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:11
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Browse"
 msgstr "جستجو"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore:15
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:12
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Add to Exception List"
 msgstr "اضافه کردن به لیست استثنائات"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:2
-msgid "To invalidate a certificate for a particular learner, add the username or email address below."
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+msgid ""
+"To invalidate a certificate for a particular learner, add the username or "
+"email address below."
 msgstr ""
-"برای بی‌اعتبار کردن یک گواهی برای یک فراگیر خاص، نام کاربری یا نشانی پست الکترونیکی را در زیر اضافه کنید."
+"برای بی‌اعتبار کردن یک گواهی برای یک فراگیر خاص، نام کاربری یا نشانی پست "
+"الکترونیکی را در زیر اضافه کنید."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Add notes about this learner"
 msgstr "درباره این فراگیر یادداشت اضافه کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:16
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidate Certificate"
 msgstr "بی‌اعتبار کردن گواهی"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Student"
 msgstr "دانشجو"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:29
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidated By"
 msgstr "بی‌اعتبار شد توسط"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:30
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidated"
 msgstr "بی‌اعتبار شد"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:31
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Notes"
 msgstr "یادداشت‌ها"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:44
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Remove from Invalidation Table"
 msgstr "حذف از جدول عدم اعتبار"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:1
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Individual Exceptions"
 msgstr "استثنائات فردی"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:2
-msgid "Enter the username or email address of each learner that you want to add as an exception."
-msgstr "نام کاربری یا نشانی پست الکترونیکی هر فراگیر را که می‌خواهید به عنوان یک استثنا اضافه کنید وارد کنید."
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid ""
+"Enter the username or email address of each learner that you want to add as "
+"an exception."
+msgstr ""
+"نام کاربری یا نشانی پست الکترونیکی هر فراگیر را که می‌خواهید به عنوان یک "
+"استثنا اضافه کنید وارد کنید."
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:5
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Student email or username"
 msgstr "نام کاربری یا پست الکترونیکی دانشجو"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:8
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore:9
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Free text notes"
 msgstr "یادداشت‌های متنی آزاد"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:1
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:13
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate Exception Certificates"
 msgstr "ساختن گواهی‌های استثنا"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "All users on the Exception list who do not yet have a certificate"
 msgstr "همه کاربرانی که در لیست استثنایی هستند و هنوز گواهی ندارند"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:10
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "All users on the Exception list"
 msgstr "همه کاربرانی که در لیست استثنایی هستند"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:21
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "User Email"
 msgstr "پست الکترونیک کاربر"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:22
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Exception Granted"
 msgstr "استثنا ساخته شد"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:23
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Certificate Generated"
 msgstr "گواهی ساخته شد"
 
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:37
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Remove from List"
 msgstr "حذف از فهرست"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore
 msgid "Divided"
 msgstr "تقسیم شده"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Selected tab"
 msgstr "زبانه انتخاب شده"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Manage Learners"
 msgstr "مدیریت فراگیران"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:12
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Add learners to this cohort"
 msgstr "اضافه کردن فراگیران به این گروه"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:15
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
-"Note: Learners can be in only one cohort. Adding learners to this group overrides any previous group "
-"assignment."
+"Note: Learners can be in only one cohort. Adding learners to this group "
+"overrides any previous group assignment."
 msgstr ""
-"توجه: فراگیران می‌توانند فقط در یک گروه باشند. افزودن فراگیران به این گروه، هرگونه تخصیص گروهی قبلی را نادیده "
-"می‌گیرد."
+"توجه: فراگیران می‌توانند فقط در یک گروه باشند. افزودن فراگیران به این گروه، "
+"هرگونه تخصیص گروهی قبلی را نادیده می‌گیرد."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
-"Enter email addresses and/or usernames, separated by new lines or commas, for the learners you want to add. *"
+"Enter email addresses and/or usernames, separated by new lines or commas, "
+"for the learners you want to add. *"
 msgstr ""
-"برای فراگیرانی که می‌خواهید اضافه کنید نشانی پست الکترونیکی و/ یا نام کاربری را که با خطوط یا ویرگول جدید جدا "
-"شده‌اند وارد کنید. *"
+"برای فراگیرانی که می‌خواهید اضافه کنید نشانی پست الکترونیکی و/ یا نام کاربری"
+" را که با خطوط یا ویرگول جدید جدا شده‌اند وارد کنید. *"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "(Required Field)"
 msgstr "(موارد مورد نیاز)"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgstr "برای مثال johndoe@example.com, JaneDoe, joeydoe@example.com"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:33
-msgid "You will not receive notification for emails that bounce, so double-check your spelling."
-msgstr "برای نامه‌های الکترونیکی برگشتی اعلانی دریافت نخواهید کرد، بنابراین املای کلمات را دوباره بررسی کنید."
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"You will not receive notification for emails that bounce, so double-check "
+"your spelling."
+msgstr ""
+"برای نامه‌های الکترونیکی برگشتی اعلانی دریافت نخواهید کرد، بنابراین املای "
+"کلمات را دوباره بررسی کنید."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Add Learners"
 msgstr "افزودن فراگیران"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Add a New Cohort"
 msgstr "افزودن یک گروه جدید"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Enter the name of the cohort"
 msgstr "نام گروه را وارد کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Cohort Name"
 msgstr "نام گروه"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:42
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Cohort Assignment Method"
 msgstr "روش تخصیص گروه"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:45
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Automatic"
 msgstr "خودکار"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:48
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Manual"
 msgstr "دستی"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:54
-msgid "There must be one cohort to which students can automatically be assigned."
-msgstr "باید یک گروه که دانشجویان به طور خودکار می‌توانند به آن اختصاص داده شوند وجود داشته باشد."
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid ""
+"There must be one cohort to which students can automatically be assigned."
+msgstr ""
+"باید یک گروه که دانشجویان به طور خودکار می‌توانند به آن اختصاص داده شوند "
+"وجود داشته باشد."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:60
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Associated Content Group"
 msgstr "گروه محتوای مرتبط"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:62
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "No Content Group"
 msgstr "هیچ گروه محتوایی نیست"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:64
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Select a Content Group"
 msgstr "یک گروه محتوا انتخاب کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:67
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Choose a content group to associate"
 msgstr "یک گروه محتوا را برای مرتبط کردن انتخاب کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:69
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Not selected"
 msgstr "انتخاب نشده"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:91
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Deleted Content Group"
 msgstr "حذف گروه محتوا"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:102
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid ""
-"{screen_reader_start}Warning:{screen_reader_end} The previously selected content group was deleted. Select "
-"another content group."
+"{screen_reader_start}Warning:{screen_reader_end} The previously selected "
+"content group was deleted. Select another content group."
 msgstr ""
-"{screen_reader_start} اخطار:{screen_reader_end} گروه محتوای انتخاب شده قبلی حذف شد. گروه محتوای دیگری را "
-"انتخاب کنید."
+"{screen_reader_start} اخطار:{screen_reader_end} گروه محتوای انتخاب شده قبلی "
+"حذف شد. گروه محتوای دیگری را انتخاب کنید."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:121
-msgid "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
-msgstr "{screen_reader_start}اخطار :{screen_reader_end} هیچ گروه محتوایی وجود ندارد."
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
+msgstr ""
+"{screen_reader_start}اخطار :{screen_reader_end} هیچ گروه محتوایی وجود ندارد."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:129
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Only the parent course staff of a CCX can create content groups."
 msgstr "تنها کارمندان دوره مادر CCX می‌توانند گروه محتوا تولید کنند."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Create a content group"
 msgstr "ایجاد یک گروه محتوا"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid ""
-"Learners are added to this cohort only when you provide their email addresses or usernames on this page."
+"Learners are added to this cohort only when you provide their email "
+"addresses or usernames on this page."
 msgstr ""
-"فراگیران فقط زمانی به این گروه اضافه می‌شوند که شما نشانی پست الکترنیکی یا نام کاربری آن ها را در این صفحه "
-"ارائه دهید."
+"فراگیران فقط زمانی به این گروه اضافه می‌شوند که شما نشانی پست الکترنیکی یا "
+"نام کاربری آن ها را در این صفحه ارائه دهید."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:15
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:18
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "What does this mean?"
 msgstr "این به چه معناست؟"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "Learners are added to this cohort automatically."
 msgstr "فراگیران به صورت خودکار به این گروه اضافه شده‌اند."
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 msgid "Select a cohort"
 msgstr "یک گروه انتخاب کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
 #, python-format
 msgid "%(cohort_name)s (%(user_count)s)"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Enable Cohorts"
 msgstr "فعال‌سازی گروه‌ها"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Select a cohort to manage"
 msgstr "یک گروه را برای مدیریت انتخاب کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "View Cohort"
 msgstr "مشاهده گروه"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:22
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Add Cohort"
 msgstr "افزودن گروه"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Assign learners to cohorts by uploading a CSV file"
 msgstr "تخصیص فراگیران به گروه‌ها با بارگذاری فایل CSV"
 
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid ""
-"To review learner cohort assignments or see the results of uploading a CSV file, download course profile "
-"information or cohort results on the {link_start}Data Download{link_end} page."
+"To review learner cohort assignments or see the results of uploading a CSV "
+"file, download course profile information or cohort results on the "
+"{link_start}Data Download{link_end} page."
 msgstr ""
-"برای بررسی تخصیص گروهی فراگیر یا دیدن نتایج بارگذاری فایلCSV، اطلاعات نمایه دوره یا نتایج گروه را در صفحه "
-"{link_start} بارگیری داده {link_end} بارگیری کنید."
+"برای بررسی تخصیص گروهی فراگیر یا دیدن نتایج بارگذاری فایلCSV، اطلاعات نمایه "
+"دوره یا نتایج گروه را در صفحه {link_start} بارگیری داده {link_end} بارگیری "
+"کنید."
 
-#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
+#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore
 msgid "Specify whether discussion topics are divided"
 msgstr "مشخص کنید که مباحث گفت‌وگو تقسیم شده است یا خیر"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
 msgid "Course-Wide Discussion Topics"
 msgstr "مباحث گفت‌وگو در سراسر دوره"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
 msgid "Select the course-wide discussion topics that you want to divide."
 msgstr "مباحث مربوط به گفت‌وگو را که می‌خواهید تقسیم کنید انتخاب کنید."
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Content-Specific Discussion Topics"
 msgstr "مباحت گفت‌‌وگوی محتوا محور"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Specify whether content-specific discussion topics are divided."
 msgstr "مشخص کنید که آیا مباحث گفت‌وگوهای محتوا محور تثسیم شده است یا نه."
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Always divide content-specific discussion topics"
 msgstr "همیشه مباحث گفت‌وگوهای محتوا محور را تقسیم کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Divide the selected content-specific discussion topics"
 msgstr "مباحث گفت‌وگوهای محتوا محور انتخاب شده را تقسیم کنید"
 
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "No content-specific discussion topics exist."
 msgstr "هیچ موضوع گفت‌وگوی محتوا محوری وجود ندارد."
 
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:3
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Code"
 msgstr "کد"
 
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:4
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Used"
 msgstr "استفاده شده"
 
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:5
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Valid"
 msgstr "معتبر"
 
-#: lms/templates/learner_dashboard/certificate_status.underscore:2
-#: lms/templates/learner_dashboard/upgrade_message.underscore:2
+#: lms/templates/learner_dashboard/certificate_status.underscore
+#: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Certificate Status:"
 msgstr "وضعیت گواهی:"
 
-#: lms/templates/learner_dashboard/certificate_status.underscore:4
+#: lms/templates/learner_dashboard/certificate_status.underscore
 msgid "Certificate Purchased"
 msgstr "گواهی خریداری شده"
 
-#: lms/templates/learner_dashboard/course_card.underscore:21
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "Change or Leave Session"
 msgstr "تغییر یا ترک جلسه"
 
-#: lms/templates/learner_dashboard/course_card.underscore:29
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "You must select a session by {expiration_date} to access the course."
-msgstr "برای دسترسی به دوره باید یک جلسه تا تاریخ {expiration_date} انتخاب کنید."
+msgstr ""
+"برای دسترسی به دوره باید یک جلسه تا تاریخ {expiration_date} انتخاب کنید."
 
-#: lms/templates/learner_dashboard/course_card.underscore:33
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "You can no longer change sessions."
 msgstr "شما دیگر نمی‌توانید جلسات را تغییر دهید."
 
-#: lms/templates/learner_dashboard/course_card.underscore:35
+#: lms/templates/learner_dashboard/course_card.underscore
 msgid "You can change sessions until {expiration_date}."
 msgstr "شما می‌توانید جلسات را تاریخ {expiration_date} تغییر دهید."
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:3
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Final Grade"
 msgstr "آخرین مقطع"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:3
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "for {courseName}"
 msgstr "برای {courseName}"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:9
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Archived Course"
 msgstr "مشاهده آرشیو دوره"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:11
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Course"
 msgstr "مشاهده دوره"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:19
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Select a session:"
 msgstr "یک جلسه را انتخاب کنید:"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:38
-#: lms/templates/learner_dashboard/course_enroll.underscore:42
+#: lms/templates/learner_dashboard/course_enroll.underscore
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Enroll Now"
 msgstr "اکنون ثبت‌نام کنید"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:48
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Coming Soon"
 msgstr "به زودی"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:51
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Enrollment Opens on"
 msgstr "ثبت‌نام باز می‌شود در"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:58
+#: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Not Currently Available"
 msgstr "در حال حاضر در دسترس نیست"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:4
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "More sessions coming soon."
 msgstr "جلسات بیش‌تر به زودی از راه می‌رسد."
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:7
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Change to a different session or leave the current session."
 msgstr "برای ترک جلسه فعلی به جلسه دیگری تغییر دهید."
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:9
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "To access the course, select a session."
 msgstr "برای دسترسی به دوره، یک جلسه را انتخاب کنید."
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:15
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Session Selection Dropdown for {courseName}"
 msgstr "دکمه کشویی انتخاب جلسه برای {courseName}"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:19
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "{sessionDates} - Currently Selected"
 msgstr "{sessionDates} - در حال حاضر انتخاب شده"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:21
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "{sessionDates} (Open until {enrollmentEnd})"
 msgstr ""
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:27
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "More sessions coming soon"
 msgstr "جلسات بیش‌تر به زودی از راه می‌رسند"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:28
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Leave the current session and decide later"
 msgstr "جلسه حاضر را ترک و بعدا تصمیم بگیرید"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:32
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Change Session"
 msgstr "تغییر جلسه"
 
-#: lms/templates/learner_dashboard/course_entitlement.underscore:34
+#: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Select Session"
 msgstr "انتخاب جلسه"
 
-#: lms/templates/learner_dashboard/empty_programs_list.underscore:2
+#: lms/templates/learner_dashboard/empty_programs_list.underscore
 msgid "You are not enrolled in any programs yet."
 msgstr "شما هنوز در هیچ برنامه‌ای ثبت‌نام نیستید."
 
-#: lms/templates/learner_dashboard/empty_programs_list.underscore:5
+#: lms/templates/learner_dashboard/empty_programs_list.underscore
 msgid "Explore Programs"
 msgstr "کاوش برنامه‌ها"
 
-#: lms/templates/learner_dashboard/explore_new_programs.underscore:2
-msgid "Browse recently launched courses and see what\\'s new in your favorite subjects"
+#: lms/templates/learner_dashboard/explore_new_programs.underscore
+msgid ""
+"Browse recently launched courses and see what\\'s new in your favorite "
+"subjects"
 msgstr ""
-"دوره‌هایی را که اخیراً راه‌اندازی شده مرور کنید و ببینید چه موارد جدیدی در موضوعات مورد علاقه شما وجود دارد"
+"دوره‌هایی را که اخیراً راه‌اندازی شده مرور کنید و ببینید چه موارد جدیدی در "
+"موضوعات مورد علاقه شما وجود دارد"
 
-#: lms/templates/learner_dashboard/explore_new_programs.underscore:7
+#: lms/templates/learner_dashboard/explore_new_programs.underscore
 msgid "Explore New Programs"
 msgstr "کاوش برنامه‌های جدید"
 
-#: lms/templates/learner_dashboard/program_card.underscore:16
-#: lms/templates/learner_dashboard/program_card.underscore:24
-#: lms/templates/learner_dashboard/program_card.underscore:32
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
+#: lms/templates/learner_dashboard/program_card.underscore
+#: lms/templates/learner_dashboard/program_card.underscore
+#: lms/templates/learner_dashboard/program_card.underscore
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Course"
 msgid_plural "Courses"
 msgstr[0] "دوره"
 msgstr[1] "دوره‌ها"
 
-#: lms/templates/learner_dashboard/program_card.underscore:18
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "Completed"
 msgstr "کامل شده"
 
-#: lms/templates/learner_dashboard/program_card.underscore:26
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "In Progress"
 msgstr "درحال پیشرفت"
 
-#: lms/templates/learner_dashboard/program_card.underscore:34
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "Remaining"
 msgstr "باقی‌مانده"
 
-#: lms/templates/learner_dashboard/program_card.underscore:60
+#: lms/templates/learner_dashboard/program_card.underscore
 #, python-format
 msgid "%(programName)s Home Page."
 msgstr "صفحه خانه %(programName)s."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Your {program} Certificate"
 msgstr "گواهی {program} شما"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
 msgstr "گواهی‌نامه‌ای که برای برنامه %(title)s به دست آورده‌اید باز کنید."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Program Record"
 msgstr "سابقه برنامه"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid ""
-"Once you complete one of the program requirements you have a program record. This record is marked complete "
-"once you meet all program requirements. A program record can be used to continue your learning journey and "
-"demonstrate your learning to others."
+"Once you complete one of the program requirements you have a program record."
+" This record is marked complete once you meet all program requirements. A "
+"program record can be used to continue your learning journey and demonstrate"
+" your learning to others."
 msgstr ""
-"پس از تکمیل یکی از نیازهای برنامه، سابقه برنامه دارید. هنگامی که تمام نیازهای برنامه را برآورده می‌کنید، این "
-"سابقه کامل علامت گذاری می‌شود. برای ادامه سفر یادگیری و نشان دادن یادگیری خود به دیگران، می‌توانید از سابقه "
+"پس از تکمیل یکی از نیازهای برنامه، سابقه برنامه دارید. هنگامی که تمام "
+"نیازهای برنامه را برآورده می‌کنید، این سابقه کامل علامت گذاری می‌شود. برای "
+"ادامه سفر یادگیری و نشان دادن یادگیری خود به دیگران، می‌توانید از سابقه "
 "برنامه استفاده کرد."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "View Program Record"
 msgstr "مشاهده سابقه برنامه"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:26
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Additional Credit Opportunities"
 msgstr "فرصت‌های اعتبار بیش‌تر"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:40
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:66
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Learn More"
 msgstr "بیشتر بدانید"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:52
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Additional Professional Opportunities"
 msgstr "فرصت‌های حرفه‌ای بیش‌تر"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:6
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Congratulations!"
 msgstr "تبریک!"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:14
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Your Program Journey"
 msgstr "سفر برنامه شما"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:21
-msgid "To complete the program, you must earn a verified certificate for each course."
+#: lms/templates/learner_dashboard/program_details_view.underscore
+msgid ""
+"To complete the program, you must earn a verified certificate for each "
+"course."
 msgstr "برای تکمیل برنامه، باید برای هر دوره یک گواهی تأیید شده کسب کنید."
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:26
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
 msgstr "به روز رسانی تمام دوره‌های باقی‌مانده ("
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:30
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "${listPrice}"
 msgstr ""
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:36
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid " ${price} {currency} )"
 msgstr ""
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:47
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "COURSES IN PROGRESS"
 msgstr "دوره‌های در حال پیشرفت"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:56
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "REMAINING COURSES"
 msgstr "دوره‌های باقی‌مانده"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:64
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "COMPLETED COURSES"
 msgstr "دوره‌های کامل شده"
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:71
+#: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "As you complete courses, you will see them listed here."
-msgstr "همچنان که دوره‌ها را تکمیل می‌کنید، خواهید دید که به این فهرست اضافه می‌شوند."
+msgstr ""
+"همچنان که دوره‌ها را تکمیل می‌کنید، خواهید دید که به این فهرست اضافه "
+"می‌شوند."
 
-#: lms/templates/learner_dashboard/program_details_view.underscore:72
-msgid "Complete courses on your schedule to ensure you stand out in your field!"
-msgstr "برای اطمینان از برجسته بودن در رشته خود، دوره‌های خود را در برنامه کامل کنید!"
+#: lms/templates/learner_dashboard/program_details_view.underscore
+msgid ""
+"Complete courses on your schedule to ensure you stand out in your field!"
+msgstr ""
+"برای اطمینان از برجسته بودن در رشته خود، دوره‌های خود را در برنامه کامل "
+"کنید!"
 
-#: lms/templates/learner_dashboard/program_header_view.underscore:14
+#: lms/templates/learner_dashboard/program_header_view.underscore
 msgid "{organization}\\'s logo"
 msgstr "لوگوی {organization}\\'s"
 
-#: lms/templates/learner_dashboard/upgrade_message.underscore:3
+#: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Needs verified certificate "
 msgstr "به گواهی معتبر نیاز دارد "
 
-#: lms/templates/learner_dashboard/upgrade_message.underscore:9
+#: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Upgrade to Verified"
 msgstr "ارتقا به تایید"
 
-#: lms/templates/learner_dashboard/verification_popover.underscore:13
+#: lms/templates/learner_dashboard/verification_popover.underscore
 msgid "OK"
 msgstr "بله"
 
-#: lms/templates/student_account/account.underscore:2
+#: lms/templates/student_account/account.underscore
 msgid "New Address"
 msgstr "نشانی جدید"
 
-#: lms/templates/student_account/account.underscore:6
+#: lms/templates/student_account/account.underscore
 msgid "Password"
 msgstr "رمز"
 
-#: lms/templates/student_account/account.underscore:11
+#: lms/templates/student_account/account.underscore
 msgid "Change My Email Address"
 msgstr "تغییر نشانی الکترونیکی من"
 
-#: lms/templates/student_account/account.underscore:16
+#: lms/templates/student_account/account.underscore
 msgid "Reset Password"
 msgstr "بازیابی گذر واژه"
 
-#: lms/templates/student_account/account_settings.underscore:8
+#: lms/templates/student_account/account_settings.underscore
 msgid "Switch Language Back"
 msgstr "تغییر زبان به حالت قبل"
 
-#: lms/templates/student_account/account_settings.underscore:15
+#: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr "تنظیمات حساب"
 
-#: lms/templates/student_account/account_settings_section.underscore:27
+#: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
 msgstr "خطایی روی داد. لطفا صفحه را بازنشانی کنید."
 
-#: lms/templates/student_account/form_field.underscore:136
+#: lms/templates/student_account/form_field.underscore
 msgid "Need help logging in?"
 msgstr "برای وارد شدن به کمک نیاز دارید؟"
 
-#: lms/templates/student_account/hinted_login.underscore:4 lms/templates/student_account/login.underscore:55
+#: lms/templates/student_account/hinted_login.underscore
+#: lms/templates/student_account/login.underscore
 msgid "Sign in"
 msgstr "ورود"
 
-#: lms/templates/student_account/hinted_login.underscore:8
+#: lms/templates/student_account/hinted_login.underscore
 #, python-format
 msgid "Would you like to sign in using your %(providerName)s credentials?"
-msgstr "آیا می‌خواهید با استفاده ازاعتبار نامه %(providerName)s خود وارد شوید؟"
+msgstr ""
+"آیا می‌خواهید با استفاده ازاعتبار نامه %(providerName)s خود وارد شوید؟"
 
-#: lms/templates/student_account/hinted_login.underscore:16
+#: lms/templates/student_account/hinted_login.underscore
 #, python-format
 msgid "Sign in using %(providerName)s"
 msgstr "ورود با %(providerName)s"
 
-#: lms/templates/student_account/hinted_login.underscore:21
-#: lms/templates/student_account/institution_login.underscore:24
-#: lms/templates/student_account/institution_register.underscore:24
+#: lms/templates/student_account/hinted_login.underscore
+#: lms/templates/student_account/institution_login.underscore
+#: lms/templates/student_account/institution_register.underscore
 msgid "or"
 msgstr "یا"
 
-#: lms/templates/student_account/hinted_login.underscore:26
+#: lms/templates/student_account/hinted_login.underscore
 msgid "Show me other ways to sign in or register"
 msgstr "راه‌های دیگری برای ورود به سیستم یا ثبت نام به من نشان دهید"
 
-#: lms/templates/student_account/institution_login.underscore:5
+#: lms/templates/student_account/institution_login.underscore
 msgid "Sign in with Institution/Campus Credentials"
 msgstr "با اعتبار موسسه/ دانشگاه وارد شوید"
 
-#: lms/templates/student_account/institution_login.underscore:10
-#: lms/templates/student_account/institution_register.underscore:10
+#: lms/templates/student_account/institution_login.underscore
+#: lms/templates/student_account/institution_register.underscore
 msgid "Choose your institution from the list below:"
 msgstr "موسسه خود را از فهرست زیر انتخاب کنید:"
 
-#: lms/templates/student_account/institution_login.underscore:29
+#: lms/templates/student_account/institution_login.underscore
 msgid "Back to sign in"
 msgstr "بازگشت به ورود به سیستم"
 
-#: lms/templates/student_account/institution_register.underscore:5
+#: lms/templates/student_account/institution_register.underscore
 msgid "Register with Institution/Campus Credentials"
 msgstr "با اعتبار موسسه/ دانشگاه ثبت نام کنید"
 
-#: lms/templates/student_account/institution_register.underscore:29
-#: lms/templates/student_account/register.underscore:48
+#: lms/templates/student_account/institution_register.underscore
+#: lms/templates/student_account/register.underscore
 msgid "Create an Account"
 msgstr "ایجاد حساب"
 
-#: lms/templates/student_account/login.underscore:6
+#: lms/templates/student_account/login.underscore
 msgid "First time here?"
 msgstr "اولین بار است که اینجا هستید؟"
 
-#: lms/templates/student_account/login.underscore:7
+#: lms/templates/student_account/login.underscore
 msgid "Create an Account."
 msgstr "یک حساب ایجاد کنید."
 
-#: lms/templates/student_account/login.underscore:14
+#: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning as {email}"
 msgstr "برای ادامه یادگیری با {email} وارد شوید"
 
-#: lms/templates/student_account/login.underscore:16
+#: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning"
 msgstr "برای ادامه یادگیری وارد شوید"
 
-#: lms/templates/student_account/login.underscore:19
-msgid "You already have an edX account with your {enterprise_name} email address."
-msgstr "شما قبلاً یک حساب آکادمی با نشانی الکترونیکی {enterprise_name} خود دارید."
-
-#: lms/templates/student_account/login.underscore:21
-msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
-msgstr "رو به جلو، اطلاعات حساب شما توسط {enterprise_name} به روز و حفظ می‌شود."
-
-#: lms/templates/student_account/login.underscore:23
-msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
+#: lms/templates/student_account/login.underscore
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
 msgstr ""
-"در هر زمان که بخواهید می‌توانید اطلاعات خود را مشاهده کرده یا لینک خود را از {enterprise_name} لغو کنید."
+"شما قبلاً یک حساب آکادمی با نشانی الکترونیکی {enterprise_name} خود دارید."
 
-#: lms/templates/student_account/login.underscore:25
+#: lms/templates/student_account/login.underscore
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
+msgstr ""
+"رو به جلو، اطلاعات حساب شما توسط {enterprise_name} به روز و حفظ می‌شود."
+
+#: lms/templates/student_account/login.underscore
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
+msgstr ""
+"در هر زمان که بخواهید می‌توانید اطلاعات خود را مشاهده کرده یا لینک خود را از"
+" {enterprise_name} لغو کنید."
+
+#: lms/templates/student_account/login.underscore
 msgid "To continue learning with this account, sign in below."
 msgstr "برای ادامه یادگیری با این حساب، در زیر وارد شوید."
 
-#: lms/templates/student_account/login.underscore:27
+#: lms/templates/student_account/login.underscore
 msgid "Sign In"
 msgstr "ورود"
 
-#: lms/templates/student_account/login.underscore:34
-msgid "Sign in here using your email address and password, or use one of the providers listed below."
+#: lms/templates/student_account/login.underscore
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
 msgstr ""
-"با استفاده از نشانی پست الکترونیکی و گذرواژه خود وارد اینجا شوید یا از یکی از ارائه دهندگان ذکر شده در زیر "
-"استفاده کنید."
+"با استفاده از نشانی پست الکترونیکی و گذرواژه خود وارد اینجا شوید یا از یکی "
+"از ارائه دهندگان ذکر شده در زیر استفاده کنید."
 
-#: lms/templates/student_account/login.underscore:36
+#: lms/templates/student_account/login.underscore
 msgid "Sign in here using your email address and password."
 msgstr "با استفده از پست الکترونیکی و گذرواژه خود از اینجا وارد شوید."
 
-#: lms/templates/student_account/login.underscore:38
+#: lms/templates/student_account/login.underscore
 msgid "If you do not yet have an account, use the button below to register."
 msgstr "اگر هنوز حساب ندارید، با استفاده از دکمه زیر ثبت‌نام کنید."
 
-#: lms/templates/student_account/login.underscore:43
+#: lms/templates/student_account/login.underscore
 msgid "Use my university info"
 msgstr "از اطلاعات دانشگاهی من استفاده کنید"
 
-#: lms/templates/student_account/login.underscore:48 lms/templates/student_account/login.underscore:61
+#: lms/templates/student_account/login.underscore
+#: lms/templates/student_account/login.underscore
 msgid "or sign in with"
 msgstr "یا ورود به وسیله"
 
-#: lms/templates/student_account/login.underscore:74
+#: lms/templates/student_account/login.underscore
 #, python-format
 msgid "Sign in with %(providerName)s"
 msgstr "ورود با %(providerName)s"
 
-#: lms/templates/student_account/password_reset.underscore:4
+#: lms/templates/student_account/password_reset.underscore
 msgid "Password assistance"
 msgstr "کمک گذرواژه"
 
-#: lms/templates/student_account/password_reset.underscore:8
+#: lms/templates/student_account/password_reset.underscore
 msgid ""
-"Please enter your log-in or recovery email address below and we will send you an email with instructions."
+"Please enter your log-in or recovery email address below and we will send "
+"you an email with instructions."
 msgstr ""
-"لطفاً نشانی الکترونیکی ورود یا بازیابی خود را در زیر وارد کنید و ما یک پیام الکترونیکی با دستورالعمل برای شما "
-"ارسال خواهیم کرد."
+"لطفاً نشانی الکترونیکی ورود یا بازیابی خود را در زیر وارد کنید و ما یک پیام "
+"الکترونیکی با دستورالعمل برای شما ارسال خواهیم کرد."
 
-#: lms/templates/student_account/password_reset.underscore:12
+#: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
 msgstr "گذرواژه مرا بازیابی کنید"
 
-#: lms/templates/student_account/register.underscore:6
+#: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
 msgstr "از قبل یک حساب {platformName} دارید؟"
 
-#: lms/templates/student_account/register.underscore:7
+#: lms/templates/student_account/register.underscore
 msgid "Sign in."
 msgstr "وارد شوید."
 
-#: lms/templates/student_account/register.underscore:18
+#: lms/templates/student_account/register.underscore
 msgid "Create an account using"
 msgstr "ایجاد یک حساب با استفاده از"
 
-#: lms/templates/student_account/register.underscore:31
+#: lms/templates/student_account/register.underscore
 #, python-format
 msgid "Create account using %(providerName)s."
 msgstr "ایجاد حساب با استفاده از%(providerName)s."
 
-#: lms/templates/student_account/register.underscore:38
+#: lms/templates/student_account/register.underscore
 msgid "Use my institution/campus credentials"
 msgstr "از اعتبارات موسسه/ دانشگاه من استفاده کنید"
 
-#: lms/templates/student_account/register.underscore:44
+#: lms/templates/student_account/register.underscore
 msgid "or create a new one here"
 msgstr "یا از اینجا یک حساب جدید ایجاد کنید"
 
-#: lms/templates/student_account/register.underscore:60
+#: lms/templates/student_account/register.underscore
 msgid "Support education research by providing additional information"
 msgstr "با ارائه اطلاعات اضافی، از تحقیقات آموزش حمایت کنید"
 
-#: lms/templates/student_account/register.underscore:67
+#: lms/templates/student_account/register.underscore
 msgid "Create Account"
 msgstr "ایجاد حساب"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:3
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 #, python-format
 msgid "Congratulations! You are now verified on %(platformName)s!"
 msgstr "تبریک! شما اکنون در %(platformName)s تایید شدید!"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "You are now enrolled as a verified student for:"
 msgstr "شما اکنون به عنوان یک دانشجوی معتبر در موارد زیر ثبت‌نام شدید:"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "A list of courses you have just enrolled in as a verified student"
 msgstr "فهرستی از دوره‌هایی که به عنوان دانشجوی معتبر در آن ثبت‌نام کرده‌اید"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Explore your course!"
 msgstr "کاوش دوره شما!"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Go to your Dashboard"
 msgstr "برو به صفحه داشبورد"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:46
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Verified Status"
 msgstr "وضعیت تاییدیه"
 
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:48
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
 #, python-format
 msgid ""
-"Thank you for submitting your photos. We will review them shortly. You can now sign up for any "
-"%(platformName)s course that offers verified certificates. Verification is good for one year. After one "
-"year, you must submit photos for verification again."
+"Thank you for submitting your photos. We will review them shortly. You can "
+"now sign up for any %(platformName)s course that offers verified "
+"certificates. Verification is good for one year. After one year, you must "
+"submit photos for verification again."
 msgstr ""
-"از ارسال عکس‌هایتان متشکرم به زودی آن‌ها را بررسی خواهیم کرد. اکنون می‌توانید در هر دوره%(platformName)s  که "
-"گواهی‌های تأیید شده ارائه می‌دهد، ثبت‌نام کنید. تأیید صحت برای یک سال خوب است. پس از یک سال، باید دوباره عکس‌ها "
-"را برای تأیید ارسال کنید."
+"از ارسال عکس‌هایتان متشکرم به زودی آن‌ها را بررسی خواهیم کرد. اکنون "
+"می‌توانید در هر دوره%(platformName)s  که گواهی‌های تأیید شده ارائه می‌دهد، "
+"ثبت‌نام کنید. تأیید صحت برای یک سال خوب است. پس از یک سال، باید دوباره "
+"عکس‌ها را برای تأیید ارسال کنید."
 
-#: lms/templates/verify_student/error.underscore:6
+#: lms/templates/verify_student/error.underscore
 msgid "Error:"
 msgstr "خطا:"
 
-#: lms/templates/verify_student/face_photo_step.underscore:4
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "What You Need for Verification"
 msgstr "آنچه برای تایید اعتبار نیاز دارید"
 
-#: lms/templates/verify_student/face_photo_step.underscore:6
-#: lms/templates/verify_student/intro_step.underscore:61
-#: lms/templates/verify_student/make_payment_step.underscore:77
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:105
-#: lms/templates/verify_student/payment_confirmation_step.underscore:128
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Webcam"
 msgstr "وب کم"
 
-#: lms/templates/verify_student/face_photo_step.underscore:7
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
-"You need a computer or cell phone that has a webcam. When you receive a browser prompt, make sure that you "
-"allow access to the camera."
+"You need a computer or cell phone that has a webcam. When you receive a "
+"browser prompt, make sure that you allow access to the camera."
 msgstr ""
-"شما به یک رایانه یا تلفن همراه نیاز دارید که دارای دوربین وب باشد. هنگام دریافت درخواست مرورگر، مطمئن شوید "
-"که اجازه دسترسی به دوربین را دارید."
+"شما به یک رایانه یا تلفن همراه نیاز دارید که دارای دوربین وب باشد. هنگام "
+"دریافت درخواست مرورگر، مطمئن شوید که اجازه دسترسی به دوربین را دارید."
 
-#: lms/templates/verify_student/face_photo_step.underscore:10
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
 msgstr "شناسایی عکس"
 
-#: lms/templates/verify_student/face_photo_step.underscore:11
-msgid "You need a driver's license, passport, or other government-issued ID that has your name and photo."
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid ""
+"You need a driver's license, passport, or other government-issued ID that "
+"has your name and photo."
 msgstr ""
-"شما به گواهینامه رانندگی، گذرنامه یا سایر شناسه‌های صادره از دولت نیاز دارید که نام و عکس شما را داشته باشد."
+"شما به گواهینامه رانندگی، گذرنامه یا سایر شناسه‌های صادره از دولت نیاز دارید"
+" که نام و عکس شما را داشته باشد."
 
-#: lms/templates/verify_student/face_photo_step.underscore:17
-#: lms/templates/verify_student/incourse_reverify.underscore:3
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Take Your Photo"
 msgstr "گرفتن عکس شما"
 
-#: lms/templates/verify_student/face_photo_step.underscore:19
-msgid "When your face is in position, use the Take Photo button {icon} below to take your photo."
-msgstr "وقتی صورت شما در موقعیت قرار دارد، از دکمه عکس گرفتن {icon} در زیر برای گرفتن عکس خود استفاده کنید."
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid ""
+"When your face is in position, use the Take Photo button {icon} below to "
+"take your photo."
+msgstr ""
+"وقتی صورت شما در موقعیت قرار دارد، از دکمه عکس گرفتن {icon} در زیر برای "
+"گرفتن عکس خود استفاده کنید."
 
-#: lms/templates/verify_student/face_photo_step.underscore:25
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "To take a successful photo, make sure that:"
 msgstr "برای گرفتن یک عکس موفق، اطمینان حاصل کنید که:"
 
-#: lms/templates/verify_student/face_photo_step.underscore:29
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Your face is well-lit."
 msgstr "صورت شما نور مناسبی داشته باشد."
 
-#: lms/templates/verify_student/face_photo_step.underscore:30
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "Your entire face fits inside the frame."
 msgstr "تمام صورت شما در قالب جای بگیرد."
 
-#: lms/templates/verify_student/face_photo_step.underscore:31
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid "The photo of your face matches the photo on your ID."
 msgstr "تصویر صورت شما با تصویر کارت شناساییتان منطبق باشد."
 
-#: lms/templates/verify_student/face_photo_step.underscore:34
+#: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
-"To use the current photo, select the Take Photo button {icon}. To take another photo, select the Retake "
-"Photo button {icon}."
+"To use the current photo, select the Take Photo button {icon}. To take "
+"another photo, select the Retake Photo button {icon}."
 msgstr ""
-"برای استفاده از عکس فعلی، دکمه عکس گرفتن {icon} را انتخاب کنید. برای گرفتن عکس دیگر، دکمه عکاسی مجدد {icon} "
-"را انتخاب کنید."
+"برای استفاده از عکس فعلی، دکمه عکس گرفتن {icon} را انتخاب کنید. برای گرفتن "
+"عکس دیگر، دکمه عکاسی مجدد {icon} را انتخاب کنید."
 
-#: lms/templates/verify_student/face_photo_step.underscore:39
-#: lms/templates/verify_student/id_photo_step.underscore:30
-#: lms/templates/verify_student/incourse_reverify.underscore:29
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Frequently Asked Questions"
 msgstr "سوالات متداول"
 
-#: lms/templates/verify_student/face_photo_step.underscore:43
-#: lms/templates/verify_student/id_photo_step.underscore:35
-#: lms/templates/verify_student/incourse_reverify.underscore:33
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid "Why does %(platformName)s need my photo?"
 msgstr "چرا%(platformName)s به تصویر من نیاز دارد؟"
 
-#: lms/templates/verify_student/face_photo_step.underscore:45
-#: lms/templates/verify_student/id_photo_step.underscore:38
-#: lms/templates/verify_student/incourse_reverify.underscore:35
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
-"As part of the verification process, you take a photo of both your face and a government-issued photo ID. "
-"Our authorization service confirms your identity by comparing the photo you take with the photo on your ID."
+"As part of the verification process, you take a photo of both your face and "
+"a government-issued photo ID. Our authorization service confirms your "
+"identity by comparing the photo you take with the photo on your ID."
 msgstr ""
-"به عنوان بخشی از روند تأیید، شما هم از چهره خود و هم از شناسه عکس‌دار صادر شده توسط دولت عکس می‌گیرید. سرویس "
-"مجوز ما با مقایسه عکسی که می‌گیرید با عکس روی شناسه، هویت شما را تأیید می‌کند."
+"به عنوان بخشی از روند تأیید، شما هم از چهره خود و هم از شناسه عکس‌دار صادر "
+"شده توسط دولت عکس می‌گیرید. سرویس مجوز ما با مقایسه عکسی که می‌گیرید با عکس "
+"روی شناسه، هویت شما را تأیید می‌کند."
 
-#: lms/templates/verify_student/face_photo_step.underscore:47
-#: lms/templates/verify_student/id_photo_step.underscore:41
-#: lms/templates/verify_student/incourse_reverify.underscore:37
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid "What does %(platformName)s do with this photo?"
 msgstr "%(platformName)s با این تصویر چه کار می‌کند؟"
 
-#: lms/templates/verify_student/face_photo_step.underscore:50
-#: lms/templates/verify_student/id_photo_step.underscore:44
-#: lms/templates/verify_student/incourse_reverify.underscore:40
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid ""
-"We use the highest levels of security available to encrypt your photo and send it to our authorization "
-"service for review. Your photo and information are not saved or visible anywhere on %(platformName)s after "
-"the verification process is complete."
+"We use the highest levels of security available to encrypt your photo and "
+"send it to our authorization service for review. Your photo and information "
+"are not saved or visible anywhere on %(platformName)s after the verification"
+" process is complete."
 msgstr ""
-"ما از بالاترین سطح امنیتی موجود برای رمزگذاری عکس شما و ارسال آن برای بررسی به سرویس مجوز خود استفاده "
-"می‌کنیم. عکس و اطلاعات شما پس از اتمام مراحل تأیید، در هیچ کجای%(platformName)s ذخیره نمی‌شوند و قابل مشاهده "
-"نیستند."
+"ما از بالاترین سطح امنیتی موجود برای رمزگذاری عکس شما و ارسال آن برای بررسی "
+"به سرویس مجوز خود استفاده می‌کنیم. عکس و اطلاعات شما پس از اتمام مراحل "
+"تأیید، در هیچ کجای%(platformName)s ذخیره نمی‌شوند و قابل مشاهده نیستند."
 
-#: lms/templates/verify_student/face_photo_step.underscore:53
-#: lms/templates/verify_student/id_photo_step.underscore:47
-#: lms/templates/verify_student/incourse_reverify.underscore:43
-msgid "What if I can't see the camera image, or if I can't see my photo do determine which side is visible?"
-msgstr "اگر نتوانم تصویر دوربین را ببینم یا اگر عکس خود را نمی‌بینم تعیین می کنم کدام طرف قابل مشاهده است؟"
-
-#: lms/templates/verify_student/face_photo_step.underscore:56
-#: lms/templates/verify_student/incourse_reverify.underscore:46
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
-"You may be able to complete the image capture procedure without assistance, but it may take a couple of "
-"submission attempts to get the camera positioning right.  Optimal camera positioning varies with each "
-"computer, but generally the best position for a headshot is approximately 12-18 inches (30-45 centimeters) "
-"from the camera, with your head centered relative to the computer screen. "
+"What if I can't see the camera image, or if I can't see my photo do "
+"determine which side is visible?"
 msgstr ""
-"ممکن است بتوانید بدون کمک مراحل ضبط تصویر را به اتمام برسانید، اما ممکن است چند موقعیت تلاش برای ارسال درست "
-"باشد تا موقعیت دوربین درست شود. موقعیت بهینه دوربین در هر رایانه متفاوت است، اما به طور کلی بهترین موقعیت "
-"برای یک عکس فوری تقریباً ۱۲ تا ۱۸ اینچ (۳۰-۴۵ سانتی متر) از دوربین است، در حالی که سر شما نسبت به صفحه "
-"کامپیوتر متمرکز است "
+"اگر نتوانم تصویر دوربین را ببینم یا اگر عکس خود را نمی‌بینم تعیین می کنم "
+"کدام طرف قابل مشاهده است؟"
 
-#: lms/templates/verify_student/face_photo_step.underscore:57
-#: lms/templates/verify_student/id_photo_step.underscore:51
-#: lms/templates/verify_student/incourse_reverify.underscore:47
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
-"If the photos you submit are rejected, try moving the computer or camera orientation to change the lighting "
-"angle.  The most common reason for rejection is inability to read the text on the ID card."
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally the best position for a headshot is approximately 12-18 inches"
+" (30-45 centimeters) from the camera, with your head centered relative to "
+"the computer screen. "
 msgstr ""
-"اگر عکس‌های ارسالی شما رد شد، رایانه یا دوربین را تغییر دهید تا زاویه نور را تغییر دهید. شایع‌ترین دلیل رد، "
-"عدم توانایی خواندن متن روی کارت شناسایی است."
+"ممکن است بتوانید بدون کمک مراحل ضبط تصویر را به اتمام برسانید، اما ممکن است "
+"چند موقعیت تلاش برای ارسال درست باشد تا موقعیت دوربین درست شود. موقعیت بهینه"
+" دوربین در هر رایانه متفاوت است، اما به طور کلی بهترین موقعیت برای یک عکس "
+"فوری تقریباً ۱۲ تا ۱۸ اینچ (۳۰-۴۵ سانتی متر) از دوربین است، در حالی که سر "
+"شما نسبت به صفحه کامپیوتر متمرکز است "
 
-#: lms/templates/verify_student/face_photo_step.underscore:60
-#: lms/templates/verify_student/incourse_reverify.underscore:50
-msgid "What if I have difficulty holding my head in position relative to the camera?"
-msgstr "اگر در نگه داشتن سرم در موقعیت نسبت به دوربین مشکل داشته باشم، چه کنم؟"
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"If the photos you submit are rejected, try moving the computer or camera "
+"orientation to change the lighting angle.  The most common reason for "
+"rejection is inability to read the text on the ID card."
+msgstr ""
+"اگر عکس‌های ارسالی شما رد شد، رایانه یا دوربین را تغییر دهید تا زاویه نور را"
+" تغییر دهید. شایع‌ترین دلیل رد، عدم توانایی خواندن متن روی کارت شناسایی است."
 
-#: lms/templates/verify_student/face_photo_step.underscore:63
-#: lms/templates/verify_student/id_photo_step.underscore:57
-#: lms/templates/verify_student/incourse_reverify.underscore:53
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"What if I have difficulty holding my head in position relative to the "
+"camera?"
+msgstr ""
+"اگر در نگه داشتن سرم در موقعیت نسبت به دوربین مشکل داشته باشم، چه کنم؟"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 #, python-format
 msgid ""
-"If you require assistance with taking either photo for submission, contact %(platformName)s support for "
-"additional suggestions."
+"If you require assistance with taking either photo for submission, contact "
+"%(platformName)s support for additional suggestions."
 msgstr ""
-"اگر برای ارسال هر یک از عکس‌ها به کمک نیاز دارید، برای پیشنهادات اضافی با پشتیبانی%(platformName)s  تماس "
-"بگیرید."
+"اگر برای ارسال هر یک از عکس‌ها به کمک نیاز دارید، برای پیشنهادات اضافی با "
+"پشتیبانی%(platformName)s  تماس بگیرید."
 
-#: lms/templates/verify_student/face_photo_step.underscore:78
-#: lms/templates/verify_student/id_photo_step.underscore:69
-#: lms/templates/verify_student/intro_step.underscore:80
-#: lms/templates/verify_student/payment_confirmation_step.underscore:151
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 #, python-format
 msgid "Next: %(nextStepTitle)s"
 msgstr "%(nextStepTitle)s بعدی"
 
-#: lms/templates/verify_student/id_photo_step.underscore:3
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Take a Photo of Your ID"
 msgstr "از کارت شناسایی خود عکس بگیرید"
 
-#: lms/templates/verify_student/id_photo_step.underscore:5
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
-"Use your webcam to take a photo of your ID. We will match this photo with the photo of your face and the "
-"name on your account."
+"Use your webcam to take a photo of your ID. We will match this photo with "
+"the photo of your face and the name on your account."
 msgstr ""
-"از دوربین وب خود برای گرفتن عکس از کارت شناسایی خود استفاده کنید. ما این عکس را با عکس چهره شما و نام موجود "
-"در حساب شما مطابقت می‌دهیم."
+"از دوربین وب خود برای گرفتن عکس از کارت شناسایی خود استفاده کنید. ما این عکس"
+" را با عکس چهره شما و نام موجود در حساب شما مطابقت می‌دهیم."
 
-#: lms/templates/verify_student/id_photo_step.underscore:13
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
-"You need an ID with your name and photo. A driver's license, passport, or other government-issued IDs are "
-"all acceptable."
+"You need an ID with your name and photo. A driver's license, passport, or "
+"other government-issued IDs are all acceptable."
 msgstr ""
-"شما به یک کارت شناسایی با نام و عکس خود نیاز دارید. گواهینامه رانندگی، گذرنامه یا سایر شناسنامه‌های صادر شده "
-"توسط دولت همه قابل قبول است."
+"شما به یک کارت شناسایی با نام و عکس خود نیاز دارید. گواهینامه رانندگی، "
+"گذرنامه یا سایر شناسنامه‌های صادر شده توسط دولت همه قابل قبول است."
 
-#: lms/templates/verify_student/id_photo_step.underscore:15
-#: lms/templates/verify_student/incourse_reverify.underscore:13
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Tips on taking a successful photo"
 msgstr "نکاتی درباره گرفتن عکس موفق"
 
-#: lms/templates/verify_student/id_photo_step.underscore:19
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Ensure that you can see your photo and read your name"
-msgstr "اطمینان حاصل شود که شما می توانید عکس خود را مشاهده کنید و نام خود  خوانده می شود"
+msgstr ""
+"اطمینان حاصل شود که شما می توانید عکس خود را مشاهده کنید و نام خود  خوانده "
+"می شود"
 
-#: lms/templates/verify_student/id_photo_step.underscore:20
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Make sure your ID is well-lit"
 msgstr "اطمینان حاصل کنید که مدارک شناسایی شما به خوبی روشن باشد"
 
-#: lms/templates/verify_student/id_photo_step.underscore:22
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
-msgstr "پس از قرار گرفتن در موقعیت، از دکمه عکس گرفتن {icon} برای گرفتن عکس کارت شناسایی خود استفاده کنید"
+msgstr ""
+"پس از قرار گرفتن در موقعیت، از دکمه عکس گرفتن {icon} برای گرفتن عکس کارت "
+"شناسایی خود استفاده کنید"
 
-#: lms/templates/verify_student/id_photo_step.underscore:24
-#: lms/templates/verify_student/incourse_reverify.underscore:23
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Use the Retake Photo button if you are not pleased with your photo"
 msgstr "اگر از عکس خود راضی نیستید از دکمه عکاسی مجدد استفاده کنید"
 
-#: lms/templates/verify_student/id_photo_step.underscore:50
+#: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
-"You may be able to complete the image capture procedure without assistance, but it may take a couple of "
-"submission attempts to get the camera positioning right.  Optimal camera positioning varies with each "
-"computer, but generally, the best position for a photo of an ID card is 8-12 inches (20-30 centimeters) from "
-"the camera, with the ID card centered relative to the camera. "
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally, the best position for a photo of an ID card is 8-12 inches "
+"(20-30 centimeters) from the camera, with the ID card centered relative to "
+"the camera. "
 msgstr ""
-"ممکن است بتوانید بدون کمک مراحل ضبط تصویر را به اتمام برسانید، اما ممکن است چند موقعیت تلاش برای ارسال درست "
-"باشد تا موقعیت دوربین درست شود. موقعیت بهینه دوربین در هر رایانه متفاوت است، اما به طور کلی، بهترین موقعیت "
-"برای عکس کارت شناسایی ۸-۱۲ اینچ (۲۰-۳۰ سانتی متر) از دوربین است، در حالی که کارت شناسایی نسبت به دوربین "
-"متمرکز است "
+"ممکن است بتوانید بدون کمک مراحل ضبط تصویر را به اتمام برسانید، اما ممکن است "
+"چند موقعیت تلاش برای ارسال درست باشد تا موقعیت دوربین درست شود. موقعیت بهینه"
+" دوربین در هر رایانه متفاوت است، اما به طور کلی، بهترین موقعیت برای عکس کارت"
+" شناسایی ۸-۱۲ اینچ (۲۰-۳۰ سانتی متر) از دوربین است، در حالی که کارت شناسایی "
+"نسبت به دوربین متمرکز است "
 
-#: lms/templates/verify_student/id_photo_step.underscore:54
-msgid "What if I have difficulty holding my ID in position relative to the camera?"
-msgstr "اگر در نگه داشتن کارت شناسایی خود نسبت به دوربین مشکل داشته باشم چه کنم؟"
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid ""
+"What if I have difficulty holding my ID in position relative to the camera?"
+msgstr ""
+"اگر در نگه داشتن کارت شناسایی خود نسبت به دوربین مشکل داشته باشم چه کنم؟"
 
-#: lms/templates/verify_student/image_input.underscore:1
+#: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
 msgstr "پیش‌نمایش تصویر بارگذاری شده"
 
-#: lms/templates/verify_student/image_input.underscore:3
+#: lms/templates/verify_student/image_input.underscore
 msgid "Upload an image or capture one with your web or phone camera."
 msgstr "با دوربین وب یا تلفن خود یک عکس را بارگذاری کنید یا آن را ثبت کنید."
 
-#: lms/templates/verify_student/incourse_reverify.underscore:5
-msgid "Use your webcam to take a photo of your face. We will match this photo with the photo on your ID."
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"Use your webcam to take a photo of your face. We will match this photo with "
+"the photo on your ID."
 msgstr ""
-"از دوربین وب خود برای گرفتن عکس از چهره خود استفاده کنید. ما این عکس را با عکس روی کارت شناسایی شما مطابقت "
-"می‌دهیم."
+"از دوربین وب خود برای گرفتن عکس از چهره خود استفاده کنید. ما این عکس را با "
+"عکس روی کارت شناسایی شما مطابقت می‌دهیم."
 
-#: lms/templates/verify_student/incourse_reverify.underscore:17
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Make sure your face is well-lit"
 msgstr "اطمینان حاصل کنید که صورت خود را به خوبی روشن است"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:18
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Be sure your entire face is inside the frame"
 msgstr "مطمئن شوید که تمام صورت خود را در داخل قاب داده اید"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:20
-msgid "Once in position, use the Take Photo button {icon} to capture your photo"
-msgstr "پس از قرار گرفتن در موقعیت، از دکمه عکس گرفتن {icon} برای گرفتن عکس خود استفاده کنید"
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"Once in position, use the Take Photo button {icon} to capture your photo"
+msgstr ""
+"پس از قرار گرفتن در موقعیت، از دکمه عکس گرفتن {icon} برای گرفتن عکس خود "
+"استفاده کنید"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:22
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Can we match the photo you took with the one on your ID?"
 msgstr "آیا ما می‌توانیم عکس شما را با شناسه شما تطابق دهیم؟"
 
-#: lms/templates/verify_student/incourse_reverify.underscore:62
+#: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Submit"
 msgstr "ارائه"
 
-#: lms/templates/verify_student/intro_step.underscore:6
+#: lms/templates/verify_student/intro_step.underscore
 msgid "Thanks for returning to verify your ID in: {courseName}"
 msgstr "با تشکر از بازگشت برای تأیید شناسه خود در: {courseName}"
 
-#: lms/templates/verify_student/intro_step.underscore:19
+#: lms/templates/verify_student/intro_step.underscore
 msgid ""
-"You need to activate your account before you can enroll in courses. Check your inbox for an activation "
-"email. After you complete activation you can return and refresh this page."
+"You need to activate your account before you can enroll in courses. Check "
+"your inbox for an activation email. After you complete activation you can "
+"return and refresh this page."
 msgstr ""
-"قبل از ثبت‌نام در دوره‌ها، باید حساب خود را فعال کنید. صندوق ورودی پست الکترونیکی خود را برای یک پیام فعال "
-"سازی بررسی کنید. پس از فعال سازی کامل، می‌توانید این صفحه را برگردانید و تازه کنید."
+"قبل از ثبت‌نام در دوره‌ها، باید حساب خود را فعال کنید. صندوق ورودی پست "
+"الکترونیکی خود را برای یک پیام فعال سازی بررسی کنید. پس از فعال سازی کامل، "
+"می‌توانید این صفحه را برگردانید و تازه کنید."
 
-#: lms/templates/verify_student/intro_step.underscore:31
-#: lms/templates/verify_student/payment_confirmation_step.underscore:94
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Activate Your Account"
 msgstr "فعال سازی حساب خود"
 
-#: lms/templates/verify_student/intro_step.underscore:38
+#: lms/templates/verify_student/intro_step.underscore
 msgid "Check Your Email"
 msgstr "پست الکترونیکی خود را چک کنید"
 
-#: lms/templates/verify_student/intro_step.underscore:45
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
-#: lms/templates/verify_student/payment_confirmation_step.underscore:112
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Photo ID"
 msgstr "شناسه عکس"
 
-#: lms/templates/verify_student/intro_step.underscore:53
-msgid "A driver's license, passport, or other government-issued ID with your name and photo"
-msgstr "گواهینامه رانندگی، گذرنامه یا سایر شناسنامه‌های صادره از دولت با نام و عکس شما"
+#: lms/templates/verify_student/intro_step.underscore
+msgid ""
+"A driver's license, passport, or other government-issued ID with your name "
+"and photo"
+msgstr ""
+"گواهینامه رانندگی، گذرنامه یا سایر شناسنامه‌های صادره از دولت با نام و عکس "
+"شما"
 
-#: lms/templates/verify_student/make_payment_step.underscore:6
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+#: lms/templates/verify_student/make_payment_step.underscore
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "You are enrolling in: {courseName}"
 msgstr "شما در حال ثبت نام در: {courseName} هستید"
 
-#: lms/templates/verify_student/make_payment_step.underscore:17
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "You are upgrading your enrollment for: {courseName}"
 msgstr "شما در حال ارتقا ثبت نام خود در: {courseName} هستید"
 
-#: lms/templates/verify_student/make_payment_step.underscore:26
-msgid "You can now enter your payment information and complete your enrollment."
-msgstr "اکنون می‌توانید اطلاعات پرداخت خود را وارد کرده و ثبت‌نام خود را تکمیل کنید."
-
-#: lms/templates/verify_student/make_payment_step.underscore:37
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
-"You can pay now even if you don't have the following items available, but you will need to have these by "
-"{date} to qualify to earn a Verified Certificate."
+"You can now enter your payment information and complete your enrollment."
 msgstr ""
-"شما می‌توانید اکنون پرداخت کنید حتی اگر موارد زیر را در دسترس ندارید، اما لازم است این موارد را تا تاریخ "
-"{date} داشته باشید تا واجد شرایط دریافت گواهی تأیید شده باشید."
+"اکنون می‌توانید اطلاعات پرداخت خود را وارد کرده و ثبت‌نام خود را تکمیل کنید."
 
-#: lms/templates/verify_student/make_payment_step.underscore:44
-msgid "An email has been sent to {userEmail} with a link for you to activate your account."
-msgstr "یک پیام الکترونیکی با لینک برای فعال کردن حساب خود به {userEmail} ارسال شده است."
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these by {date} to qualify to earn a Verified "
+"Certificate."
+msgstr ""
+"شما می‌توانید اکنون پرداخت کنید حتی اگر موارد زیر را در دسترس ندارید، اما "
+"لازم است این موارد را تا تاریخ {date} داشته باشید تا واجد شرایط دریافت گواهی"
+" تأیید شده باشید."
 
-#: lms/templates/verify_student/make_payment_step.underscore:48
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"An email has been sent to {userEmail} with a link for you to activate your "
+"account."
+msgstr ""
+"یک پیام الکترونیکی با لینک برای فعال کردن حساب خود به {userEmail} ارسال شده "
+"است."
+
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "Why activate?"
 msgstr "چرا فعال سازی؟"
 
-#: lms/templates/verify_student/make_payment_step.underscore:50
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
-"We ask you to activate your account to ensure it is really you creating the account and to prevent fraud."
+"We ask you to activate your account to ensure it is really you creating the "
+"account and to prevent fraud."
 msgstr ""
-"ما از شما می‌خواهیم حساب خود را فعال کنید تا مطمئن شوید که شما حساب را ایجاد می‌کنید و از کلاهبرداری جلوگیری "
-"کنیم."
+"ما از شما می‌خواهیم حساب خود را فعال کنید تا مطمئن شوید که شما حساب را ایجاد"
+" می‌کنید و از کلاهبرداری جلوگیری کنیم."
 
-#: lms/templates/verify_student/make_payment_step.underscore:53
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
-"You can pay now even if you don't have the following items available, but you will need to have these to "
-"qualify to earn a Verified Certificate."
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these to qualify to earn a Verified Certificate."
 msgstr ""
-"شما می‌توانید اکنون پرداخت کنید حتی اگر موارد زیر را در دسترس ندارید، اما برای واجد شرایط بودن برای دریافت "
-"گواهی تأیید شده باید این موارد را داشته باشید."
+"شما می‌توانید اکنون پرداخت کنید حتی اگر موارد زیر را در دسترس ندارید، اما "
+"برای واجد شرایط بودن برای دریافت گواهی تأیید شده باید این موارد را داشته "
+"باشید."
 
-#: lms/templates/verify_student/make_payment_step.underscore:65
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "Government-Issued Photo ID"
 msgstr "شناسنامه عکس‌دار صادر شده توسط دولت"
 
-#: lms/templates/verify_student/make_payment_step.underscore:92
-msgid "ID-Verification is not required for this Professional Education course."
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"ID-Verification is not required for this Professional Education course."
 msgstr "تأیید هویت برای این دوره آموزش حرفه‌ای لازم نیست."
 
-#: lms/templates/verify_student/make_payment_step.underscore:93
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
-"All professional education courses are fee-based, and require payment to complete the enrollment process."
-msgstr "تمام دوره‌های آموزش حرفه‌ای مبتنی بر هزینه هستند و برای تکمیل مراحل ثبت‌نام به پرداخت نیاز دارند."
+"All professional education courses are fee-based, and require payment to "
+"complete the enrollment process."
+msgstr ""
+"تمام دوره‌های آموزش حرفه‌ای مبتنی بر هزینه هستند و برای تکمیل مراحل ثبت‌نام "
+"به پرداخت نیاز دارند."
 
-#: lms/templates/verify_student/make_payment_step.underscore:97
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "You have already verified your ID!"
 msgstr "شما قبلاً شناسه خود را تأیید کرده‌اید!"
 
-#: lms/templates/verify_student/make_payment_step.underscore:100
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "Your verification status is good until {verificationGoodUntil}."
 msgstr "وضعیت تأیید شما تا {verificationGoodUntil} خوب است."
 
-#: lms/templates/verify_student/make_payment_step.underscore:112
+#: lms/templates/verify_student/make_payment_step.underscore
 msgid "price"
 msgstr "قیمت"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Account Not Activated"
 msgstr "حساب فعال نشده"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Upgrade to a Verified Certificate for {courseName}"
 msgstr "به یک گواهی تأیید شده برای {courseName} ارتقا دهید"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
-msgid "Before you upgrade to a certificate track, you must activate your account."
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+msgid ""
+"Before you upgrade to a certificate track, you must activate your account."
 msgstr "قبل از ارتقا به مسیر گواهی، باید حساب خود را فعال کنید."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Check your email for an activation message."
 msgstr "پست الکترونیکی خود را برای پیام فعال سازی بررسی کنید."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
 msgstr "گواهی حرفه‌ای برای {courseName}"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Verified Certificate for {courseName}"
 msgstr "گواهی تأیید شده برای {courseName}"
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
-msgid "To receive a certificate, you must also verify your identity before {date}."
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+msgid ""
+"To receive a certificate, you must also verify your identity before {date}."
 msgstr "برای دریافت گواهینامه، باید قبل از {date} هویت خود را نیز تأیید کنید."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "To receive a certificate, you must also verify your identity."
 msgstr "برای دریافت گواهی، باید هویت خود را نیز تأیید کنید."
 
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
-msgid "To verify your identity, you need a webcam and a government-issued photo ID."
-msgstr "برای تأیید هویت خود، به دوربین وب و شناسنامه عکس‌دار صادر شده توسط دولت نیاز دارید."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
-msgid "Your ID must be a government-issued photo ID that clearly shows your face."
-msgstr "شناسنامه شما باید یک شناسنامه عکس‌دار صادر شده توسط دولت باشد که چهره شما را به وضوح نشان دهد."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
-msgid "You will use your webcam to take a picture of your face and of your government-issued photo ID."
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+msgid ""
+"To verify your identity, you need a webcam and a government-issued photo ID."
 msgstr ""
-"شما از دوربین وب خود برای گرفتن عکس از چهره خود و شناسنامه عکس‌دار صادر شده توسط دولت استفاده خواهید کرد."
+"برای تأیید هویت خود، به دوربین وب و شناسنامه عکس‌دار صادر شده توسط دولت نیاز"
+" دارید."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:5
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+msgid ""
+"Your ID must be a government-issued photo ID that clearly shows your face."
+msgstr ""
+"شناسنامه شما باید یک شناسنامه عکس‌دار صادر شده توسط دولت باشد که چهره شما را"
+" به وضوح نشان دهد."
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore
+msgid ""
+"You will use your webcam to take a picture of your face and of your "
+"government-issued photo ID."
+msgstr ""
+"شما از دوربین وب خود برای گرفتن عکس از چهره خود و شناسنامه عکس‌دار صادر شده "
+"توسط دولت استفاده خواهید کرد."
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Thank you! We have received your payment for {courseName}."
 msgstr "متشکریم! ما پرداخت شما را برای {courseName} دریافت کرده‌ایم."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:88
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
 msgstr "مرحله بعدی: هویت خود را تأیید کنید"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:101
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Check your email"
 msgstr "پست الکترونیکی خود را چک کنید"
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:103
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
-"You need to activate your account before you can enroll in courses. Check your inbox for an activation email."
+"You need to activate your account before you can enroll in courses. Check "
+"your inbox for an activation email."
 msgstr ""
-"قبل از ثبت نام در دوره‌ها، باید حساب خود را فعال کنید. صندوق ورودی پست الکترونیکی خود را برای یک پیام فعال "
-"سازی بررسی کنید."
+"قبل از ثبت نام در دوره‌ها، باید حساب خود را فعال کنید. صندوق ورودی پست "
+"الکترونیکی خود را برای یک پیام فعال سازی بررسی کنید."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:120
-msgid "A driver's license, passport, or government-issued ID with your name and photo."
-msgstr "گواهینامه رانندگی، گذرنامه یا شناسنامه صادر شده توسط دولت با نام و عکس شما."
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"A driver's license, passport, or government-issued ID with your name and "
+"photo."
+msgstr ""
+"گواهینامه رانندگی، گذرنامه یا شناسنامه صادر شده توسط دولت با نام و عکس شما."
 
-#: lms/templates/verify_student/payment_confirmation_step.underscore:142
+#: lms/templates/verify_student/payment_confirmation_step.underscore
 #, python-format
 msgid ""
-"If you don't verify your identity now, you can still explore your course from your dashboard. You will "
-"receive periodic reminders from %(platformName)s to verify your identity."
+"If you don't verify your identity now, you can still explore your course "
+"from your dashboard. You will receive periodic reminders from "
+"%(platformName)s to verify your identity."
 msgstr ""
-"اگر اکنون هویت خود را تأیید نکنید، هنوز می‌توانید دوره خود را از میزکار خود کاوش کنید. برای تأیید هویت خود، "
-"از %(platformName)sیادآوری‌های دوره‌ای دریافت خواهید کرد."
+"اگر اکنون هویت خود را تأیید نکنید، هنوز می‌توانید دوره خود را از میزکار خود "
+"کاوش کنید. برای تأیید هویت خود، از %(platformName)sیادآوری‌های دوره‌ای "
+"دریافت خواهید کرد."
 
-#: lms/templates/verify_student/reverify_success_step.underscore:2
+#: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"
 msgstr "تأیید هویت در حال انجام است"
 
-#: lms/templates/verify_student/reverify_success_step.underscore:5
+#: lms/templates/verify_student/reverify_success_step.underscore
 msgid ""
-"We have received your information and are verifying your identity. You will see a message on your dashboard "
-"when the verification process is complete (usually within 1-2 days). In the meantime, you can still access "
-"all available course content."
+"We have received your information and are verifying your identity. You will "
+"see a message on your dashboard when the verification process is complete "
+"(usually within 1-2 days). In the meantime, you can still access all "
+"available course content."
 msgstr ""
-"ما اطلاعات شما را دریافت کرده‌ایم و هویت شما را تأیید می‌کنیم. با تکمیل مراحل تأیید (معمولاً طی ۱-۲ روز) پیامی "
-"را در داشبورد خود مشاهده خواهید کرد. در ضمن، شما هنوز هم می‌توانید به تمام محتوای دوره موجود دسترسی پیدا کنید."
+"ما اطلاعات شما را دریافت کرده‌ایم و هویت شما را تأیید می‌کنیم. با تکمیل "
+"مراحل تأیید (معمولاً طی ۱-۲ روز) پیامی را در داشبورد خود مشاهده خواهید کرد. "
+"در ضمن، شما هنوز هم می‌توانید به تمام محتوای دوره موجود دسترسی پیدا کنید."
 
-#: lms/templates/verify_student/reverify_success_step.underscore:9
+#: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Return to Your Dashboard"
 msgstr "بازگشت به داشبورد شما"
 
-#: lms/templates/verify_student/review_photos_step.underscore:3
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Review Your Photos"
 msgstr "بازبینی عکس شما"
 
-#: lms/templates/verify_student/review_photos_step.underscore:5
-msgid "Make sure we can verify your identity with the photos and information you have provided."
-msgstr "اطمینان حاصل کنید که ما می‌توانیم هویت شما را با عکس‌ها و اطلاعاتی که ارائه داده‌اید تأیید کنیم."
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid ""
+"Make sure we can verify your identity with the photos and information you "
+"have provided."
+msgstr ""
+"اطمینان حاصل کنید که ما می‌توانیم هویت شما را با عکس‌ها و اطلاعاتی که ارائه "
+"داده‌اید تأیید کنیم."
 
-#: lms/templates/verify_student/review_photos_step.underscore:13
+#: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Photo of %(fullName)s"
 msgstr "عکس %(fullName)s"
 
-#: lms/templates/verify_student/review_photos_step.underscore:18
+#: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Photo of %(fullName)s's ID"
 msgstr "عکس شناسه %(fullName)s"
 
-#: lms/templates/verify_student/review_photos_step.underscore:25
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photo requirements:"
 msgstr "الزامات تصویر:"
 
-#: lms/templates/verify_student/review_photos_step.underscore:27
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the photo of you show your whole face?"
 msgstr "آیا عکس شما تمام چهره شما را نشان می‌دهد؟"
 
-#: lms/templates/verify_student/review_photos_step.underscore:28
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the photo of you match your ID photo?"
 msgstr "آیا عکس شما با عکس شناسنامه شما مطابقت دارد؟"
 
-#: lms/templates/verify_student/review_photos_step.underscore:29
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Is your name on your ID readable?"
 msgstr "آیا نام شما روی شناسنامه شما قابل خواندن است؟"
 
-#: lms/templates/verify_student/review_photos_step.underscore:30
+#: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Does the name on your ID match your account name: %(fullName)s?"
-msgstr "آیا نام روی شناسه شما با نام حساب کاربری شما مطابقت دارد: %(fullName)s؟"
+msgstr ""
+"آیا نام روی شناسه شما با نام حساب کاربری شما مطابقت دارد: %(fullName)s؟"
 
-#: lms/templates/verify_student/review_photos_step.underscore:34
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Edit Your Name"
 msgstr "ویرایش نام شما"
 
-#: lms/templates/verify_student/review_photos_step.underscore:39
-msgid "Make sure that the full name on your account matches the name on your ID."
-msgstr "از مطابقت نام و نام خانوادگی حساب کاربری با نام شناسه خود اطمینان حاصل فرمایید."
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid ""
+"Make sure that the full name on your account matches the name on your ID."
+msgstr ""
+"از مطابقت نام و نام خانوادگی حساب کاربری با نام شناسه خود اطمینان حاصل "
+"فرمایید."
 
-#: lms/templates/verify_student/review_photos_step.underscore:51
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photos don't meet the requirements?"
 msgstr "عکس ها شرایط را برآورده نمی کنند؟"
 
-#: lms/templates/verify_student/review_photos_step.underscore:53
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Retake Your Photos"
 msgstr "دوباره گرفتن عکس شما"
 
-#: lms/templates/verify_student/review_photos_step.underscore:64
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Before proceeding, please confirm that your details match"
 msgstr "قبل از ادامه، لطفاً تأیید کنید که مشخصات شما مطابقت دارد"
 
-#: lms/templates/verify_student/review_photos_step.underscore:70
+#: lms/templates/verify_student/review_photos_step.underscore
 msgid "Confirm"
 msgstr "تایید کردن"
 
-#: lms/templates/verify_student/webcam_photo.underscore:4
-msgid "Don't see your picture? Make sure to allow your browser to use your camera when it asks for permission."
-msgstr "عکس خود را نمی‌بینید؟ اطمینان حاصل کنید که مرورگر هنگام درخواست اجازه استفاده از دوربین شما را دارد."
+#: lms/templates/verify_student/webcam_photo.underscore
+msgid ""
+"Don't see your picture? Make sure to allow your browser to use your camera "
+"when it asks for permission."
+msgstr ""
+"عکس خود را نمی‌بینید؟ اطمینان حاصل کنید که مرورگر هنگام درخواست اجازه "
+"استفاده از دوربین شما را دارد."
 
-#: lms/templates/verify_student/webcam_photo.underscore:7
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid "Live view of webcam"
 msgstr "مشاهده زنده دوربین وب"
 
-#: lms/templates/verify_student/webcam_photo.underscore:24
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid "Retake Photo"
 msgstr "عکاسی مجدد"
 
-#: lms/templates/verify_student/webcam_photo.underscore:28
+#: lms/templates/verify_student/webcam_photo.underscore
 msgid "Take Photo"
 msgstr "گرفتن عکس"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "Bookmarked on"
 msgstr "علامت گذاری شده در"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:29
-#: openedx/features/course_search/static/course_search/templates/course_search_item.underscore:2
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore:2
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
+#: openedx/features/course_search/static/course_search/templates/course_search_item.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore
 msgid "View"
 msgstr "نما"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "You have not bookmarked any courseware pages yet"
 msgstr "شما هنوز هیچ صفحه برنامه درسی را علامت گذاری نکرده‌اید"
 
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid ""
-"Use bookmarks to help you easily return to courseware pages. To bookmark a page, click \"Bookmark this page"
-"\" under the page title."
+"Use bookmarks to help you easily return to courseware pages. To bookmark a "
+"page, click \"Bookmark this page\" under the page title."
 msgstr ""
-"از نشانک‌ها استفاده کنید تا بتوانید به راحتی به صفحات دوره‌های آموزشی برگردید. برای نشانه گذاری یک صفحه، روی "
-"\"نشانه گذاری این صفحه\" در زیر عنوان صفحه کلیک کنید."
+"از نشانک‌ها استفاده کنید تا بتوانید به راحتی به صفحات دوره‌های آموزشی "
+"برگردید. برای نشانه گذاری یک صفحه، روی \"نشانه گذاری این صفحه\" در زیر عنوان"
+" صفحه کلیک کنید."
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:2
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:2
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Search Results"
 msgstr "نتایج جست‌وجو"
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:14
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Load next {num_items} result"
 msgid_plural "Load next {num_items} results"
 msgstr[0] "بارگذاری {num_items} نتیجه بعدی"
 msgstr[1] "بارگذاری {num_items} نتیجه بعدی"
 
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:26
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Sorry, no results were found."
 msgstr "متاسفانه هیچ نتیجه‌ای یافت نشد."
 
-#: openedx/features/course_search/static/course_search/templates/search_error.underscore:1
+#: openedx/features/course_search/static/course_search/templates/search_error.underscore
 msgid "There was an error, try searching again."
 msgstr "خطایی وجود داشت، دوباره جست‌وجو کنید."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:13
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 #, python-format
 msgid "Share your \"%(display_name)s\" award"
 msgstr "جایره\"%(display_name)s\" خود را به اشتراک بگذارید"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:18
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 msgid "Share"
 msgstr "اشتراک گذاری"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore:25
+#: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 #, python-format
 msgid "Earned %(created)s."
 msgstr "%(created)s به دست آمد."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:6
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
 msgid "What's Your Next Accomplishment?"
 msgstr "موفقیت بعدی شما چیست؟"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:7
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
 msgid "Start working toward your next learning goal."
 msgstr "در جهت هدف بعدی خود شروع به کار کنید."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore:8
+#: openedx/features/learner_profile/static/learner_profile/templates/badge_placeholder.underscore
 msgid "Find a course"
 msgstr "یک دوره پیدا کنید"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:5
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore
 msgid "You are currently sharing a limited profile."
 msgstr "شما در حال حاضر یک نمایه محدود را به اشتراک می‌گذارید."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
+#: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore
 msgid "This learner is currently sharing a limited profile."
 msgstr "این فراگیر در حال حاضر نمایه محدودی را به اشتراک می‌گذارد."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:4
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid "Share on Mozilla Backpack"
 msgstr "در کوله پشتی موزیلا به اشتراک بگذارید"
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:5
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid ""
-"To share your certificate on Mozilla Backpack, you must first have a Backpack account. Complete the "
-"following steps to add your certificate to Backpack."
+"To share your certificate on Mozilla Backpack, you must first have a "
+"Backpack account. Complete the following steps to add your certificate to "
+"Backpack."
 msgstr ""
-"برای اشتراک گواهی خود در کوله پشتی موزیلا، ابتدا باید یک حساب کوله پشتی داشته باشید. مراحل زیر را انجام دهید "
-"تا گواهی خود را به کوله پشتی اضافه کنید."
+"برای اشتراک گواهی خود در کوله پشتی موزیلا، ابتدا باید یک حساب کوله پشتی "
+"داشته باشید. مراحل زیر را انجام دهید تا گواهی خود را به کوله پشتی اضافه "
+"کنید."
 
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:12
-msgid "Create a {link_start}Mozilla Backpack{link_end} account, or log in to your existing account"
-msgstr "یک حساب {link_start} Mozilla Backpack{link_end} ایجاد کنید یا به حساب موجود خود وارد شوید"
-
-#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore:23
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid ""
-"{download_link_start}Download this image (right-click or option-click, save as){link_end} and then "
-"{upload_link_start}upload{link_end} it to your backpack."
+"Create a {link_start}Mozilla Backpack{link_end} account, or log in to your "
+"existing account"
 msgstr ""
-"{download_link_start} این تصویر را بارگیری کنید (راست کلیک یا کلیک گزینه، ذخیره به عنوان) {link_end} و سپس "
-"آن را {upload_link_start} بارگذاری کنید {link_end} در کوله پشتی خود."
+"یک حساب {link_start} Mozilla Backpack{link_end} ایجاد کنید یا به حساب موجود "
+"خود وارد شوید"
+
+#: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
+msgid ""
+"{download_link_start}Download this image (right-click or option-click, save "
+"as){link_end} and then {upload_link_start}upload{link_end} it to your "
+"backpack."
+msgstr ""
+"{download_link_start} این تصویر را بارگیری کنید (راست کلیک یا کلیک گزینه، "
+"ذخیره به عنوان) {link_end} و سپس آن را {upload_link_start} بارگذاری کنید "
+"{link_end} در کوله پشتی خود."

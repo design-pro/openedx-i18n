@@ -1,4 +1,4 @@
-# edX translation file.
+# edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/).
 # Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #

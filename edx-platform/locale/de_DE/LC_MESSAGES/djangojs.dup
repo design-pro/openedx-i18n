@@ -18,7 +18,7 @@ Titel
 
 Multiple translations found for single string.
 	String "View"
-	Present in files ['common/lib/xmodule/xmodule/js/src/html/edit.js', 'openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore', 'openedx/features/course_search/static/course_search/templates/course_search_item.underscore', 'openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore']
+	Present in files ['common/lib/xmodule/xmodule/js/src/html/edit.js', 'openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore', 'openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 Anzeigen

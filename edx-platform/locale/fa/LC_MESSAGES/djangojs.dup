@@ -1,4 +1,13 @@
 Multiple translations found for single string.
+	String "Cancel"
+	Present in files ['cms/static/js/certificates/views/signatory_editor.js', 'cms/static/js/views/asset.js', 'cms/static/js/views/course_info_update.js', 'cms/static/js/views/export.js', 'cms/static/js/views/manage_users_and_roles.js', 'cms/static/js/views/modals/base_modal.js', 'cms/static/js/views/modals/course_outline_modals.js', 'cms/static/js/views/show_textbook.js', 'cms/static/js/views/tabs.js', 'cms/static/js/views/validation.js', 'common/lib/xmodule/xmodule/js/src/html/edit.js', 'common/static/common/js/components/utils/view_utils.js', 'lms/static/js/Markdown.Editor.js', 'lms/static/js/student_account/components/StudentAccountDeletionModal.jsx', 'cms/templates/js/add-xblock-component-menu-problem.underscore', 'cms/templates/js/add-xblock-component-menu.underscore', 'cms/templates/js/certificate-editor.underscore', 'cms/templates/js/content-group-editor.underscore', 'cms/templates/js/course_info_handouts.underscore', 'cms/templates/js/course_info_update.underscore', 'cms/templates/js/edit-textbook.underscore', 'cms/templates/js/group-configuration-editor.underscore', 'cms/templates/js/section-name-edit.underscore', 'cms/templates/js/signatory-actions.underscore', 'cms/templates/js/xblock-string-field-editor.underscore', 'lms/djangoapps/support/static/support/templates/enrollment-modal.underscore', 'lms/djangoapps/teams/static/teams/templates/edit-team.underscore', 'lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore', 'lms/templates/learner_dashboard/verification_popover.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+لغو
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+انصراف
+
+Multiple translations found for single string.
 	String "View"
 	Present in files ['common/lib/xmodule/xmodule/js/src/html/edit.js', 'openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore', 'openedx/features/course_search/static/course_search/templates/course_search_item.underscore', 'openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore']
 Translations found were:
@@ -8,11 +17,101 @@ Translations found were:
 نما
 
 Multiple translations found for single string.
+	String "View child items"
+	Present in files ['common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx', 'cms/templates/js/move-xblock-list.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+مشاهده موارد زیرشاخه
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+مشاهده موارد فرزند
+
+Multiple translations found for single string.
 	String "Submit"
 	Present in files ['lms/djangoapps/support/static/support/jsx/logged_in_user.jsx', 'lms/templates/verify_student/incourse_reverify.underscore']
 Translations found were:
 	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-ثبت 
+ارسال
 #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
-ارائه 
+ارائه
+
+Multiple translations found for single string.
+	String "All Topics"
+	Present in files ['lms/djangoapps/teams/static/teams/js/views/teams_tab.js', 'lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+همه موضوعات
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+تمام مباحث
+
+Multiple translations found for single string.
+	String "There was an error, try searching again."
+	Present in files ['lms/static/js/discovery/views/search_form.js', 'openedx/features/course_search/static/course_search/templates/search_error.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+خطایی رخ داد. لطفا دوباره برای جستجو تلاش کنید.
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+خطایی وجود داشت، دوباره جست‌وجو کنید.
+
+Multiple translations found for single string.
+	String "Selected tab"
+	Present in files ['lms/static/js/groups/views/cohort_editor.js', 'lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+برگه انتخاب شده
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+زبانه انتخاب شده
+
+Multiple translations found for single string.
+	String "Add Cohort"
+	Present in files ['lms/static/js/groups/views/cohorts.js', 'lms/templates/instructor/instructor_dashboard_2/cohorts.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+اضافه کردن گروه
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+افزودن گروه
+
+Multiple translations found for single string.
+	String "Expand All"
+	Present in files ['openedx/features/course_experience/static/course_experience/js/CourseOutline.js', 'lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+باز کردن همه
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+بازکردن همه
+
+Multiple translations found for single string.
+	String "Collapse All"
+	Present in files ['openedx/features/course_experience/static/course_experience/js/CourseOutline.js', 'lms/templates/ccx/schedule.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+جمع کردن همه
+#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
+بستن همه
+
+Multiple translations found for single string.
+	String "Date Added"
+	Present in files ['cms/static/js/views/assets.js', 'cms/templates/js/asset-library.underscore', 'cms/templates/js/previous-video-upload-list.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+تاریخ اضافه شدن
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+تاریخ اضافه شده
+
+Multiple translations found for single string.
+	String "Upload New File"
+	Present in files ['cms/static/js/views/assets.js', 'cms/templates/js/asset-upload-modal.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+بارگذاری پوشه ی جدید
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+بارگذاری فایل جدید
+
+Multiple translations found for single string.
+	String "Groups"
+	Present in files ['cms/static/js/views/move_xblock_list.js', 'cms/templates/js/group-configuration-editor.underscore']
+Translations found were:
+	#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
+گروه ها
+#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
+گروه‌ها
 

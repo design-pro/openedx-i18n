@@ -3,18 +3,18 @@ Multiple translations found for single string.
 	Present in files ['common/djangoapps/course_modes/helpers.py', 'lms/djangoapps/branding/api.py', 'openedx/core/djangoapps/user_authn/views/registration_form.py', 'lms/templates/static_templates/honor.html', 'themes/stanford-style/lms/templates/footer.html', 'themes/stanford-style/lms/templates/static_templates/tos.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-قوانین صداقت
+کد صداقت (Honor Code)
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-کد افتخاری
+کد افتخاری (Honor Code)
 
 Multiple translations found for single string.
 	String "Honor"
 	Present in files ['common/djangoapps/course_modes/models.py', 'lms/templates/instructor/instructor_dashboard_2/course_info.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-صداقت
+صداقت (Honor)
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-افتخارات
+افتخاری (Honor)
 
 Multiple translations found for single string.
 	String "Password"
@@ -30,54 +30,36 @@ Multiple translations found for single string.
 	Present in files ['common/lib/capa/capa/responsetypes.py', 'cms/templates/widgets/problem-edit.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-چک باکس
+چک باکس‌ها
 #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-جعبه های علامتگذاری
+جعبه‌های علامتگذاری
 
 Multiple translations found for single string.
 	String "Dropdown"
 	Present in files ['common/lib/capa/capa/responsetypes.py', 'cms/templates/widgets/problem-edit.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-آبشاري
+آبشاری
 #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
 کرکره
-
-Multiple translations found for single string.
-	String "Submit"
-	Present in files ['common/lib/xmodule/xmodule/capa_base.py', 'lms/templates/admin/user_api/accounts/cancel_retirement_action.html', 'cms/templates/index.html', 'cms/templates/videos_index_pagination.html', 'lms/templates/manage_user_standing.html', 'lms/templates/dashboard/_entitlement_reason_survey.html', 'lms/templates/dashboard/_reason_survey.html', 'lms/templates/peer_grading/peer_grading_problem.html', 'lms/templates/survey/survey.html', 'lms/templates/widgets/footer-language-selector.html', 'openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html', 'openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html', 'themes/stanford-style/lms/templates/register-shib.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-ارسال
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-ثبت 
-
-Multiple translations found for single string.
-	String "Course Handouts"
-	Present in files ['common/lib/xmodule/xmodule/course_module.py', 'lms/templates/courseware/info.html', 'openedx/features/course_experience/templates/course_experience/course-home-fragment.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-جزوات دوره
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-جزوه کلاس
-
-Multiple translations found for single string.
-	String "Course Banner Image"
-	Present in files ['common/lib/xmodule/xmodule/course_module.py', 'cms/templates/settings.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-تصویر بنر درس
-#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-البته تصویر بنر
 
 Multiple translations found for single string.
 	String "Course Video Thumbnail Image"
 	Present in files ['common/lib/xmodule/xmodule/course_module.py', 'cms/templates/settings.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-تصویر کوچک ویدئو درس
+تصویر کوچک ویدئو دوره
 #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
 البته ویدئو تصویر کوچک
+
+Multiple translations found for single string.
+	String "Course Language"
+	Present in files ['common/lib/xmodule/xmodule/course_module.py', 'cms/templates/settings.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+زبان دوره
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+زبان دوره آموزشی
 
 Multiple translations found for single string.
 	String "Due Date"
@@ -89,40 +71,40 @@ Translations found were:
 زمان مقرر
 
 Multiple translations found for single string.
-	String "Course"
-	Present in files ['common/lib/xmodule/xmodule/tabs.py', 'lms/djangoapps/courseware/tabs.py', 'lms/djangoapps/courseware/views/views.py', 'lms/djangoapps/shoppingcart/reports.py', 'openedx/features/course_experience/__init__.py', 'cms/templates/widgets/header.html', 'lms/templates/courseware/course_navigation.html', 'lms/templates/courseware/courseware.html', 'lms/templates/ux/reference/bootstrap/course-skeleton.html']
+	String "We keep a log of old e-mails, so if this request was unintentional, we can investigate."
+	Present in files ['common/templates/student/edx_ace/emailchangeconfirmation/email/body.html', 'common/templates/student/edx_ace/emailchangeconfirmation/email/body.txt', 'themes/stanford-style/lms/templates/emails/confirm_email_change.txt']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-دوره
+ما نامه‌های پست الکترونیکی قدیمی را نگه می‌داریم، بنابراین اگر این درخواست غیر عمدی بود، می‌توانیم تحقیق کنیم.
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-کلاس 
-
-Multiple translations found for single string.
-	String "Instructions"
-	Present in files ['common/lib/xmodule/xmodule/word_cloud_module.py', 'lms/templates/annotatable.html', 'lms/templates/peer_grading/peer_grading.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-دستورالعمل
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-دستورالعمل‌ها
+ما نامه‌های پست الکترونیکی قدیمی را نگه می‌داریم‌، بنابراین اگر این درخواست غیر عمدی بود‌، می‌توانیم تحقیق کنیم.
 
 Multiple translations found for single string.
 	String "Powered by Open edX"
 	Present in files ['lms/djangoapps/branding/api.py', 'cms/templates/widgets/footer.html', 'themes/edx.org/lms/templates/certificates/_accomplishment-footer.html', 'themes/red-theme/lms/templates/footer.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-نیرو گرفته از پادا
+قدرت گرفته از Open edX
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 با بهره‌گیری از Open edX
+
+Multiple translations found for single string.
+	String "Contact"
+	Present in files ['lms/djangoapps/branding/api.py', 'lms/templates/static_templates/contact.html', 'themes/red-theme/lms/templates/footer.html', 'themes/stanford-style/lms/templates/footer.html', 'themes/stanford-style/lms/templates/static_templates/about.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+تماس
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+تماس با ما
 
 Multiple translations found for single string.
 	String "Careers"
 	Present in files ['lms/djangoapps/branding/api.py', 'themes/stanford-style/lms/templates/footer.html', 'themes/stanford-style/lms/templates/static_templates/about.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-فرصت های شغلی
+فرصت‌های شغلی
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-مسیر های شغلی
+مسیرهای شغلی
 
 Multiple translations found for single string.
 	String "News"
@@ -138,9 +120,9 @@ Multiple translations found for single string.
 	Present in files ['lms/djangoapps/branding/api.py', 'lms/djangoapps/certificates/views/webview.py', 'themes/edx.org/lms/templates/certificates/_accomplishment-footer.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-شرایط خدمات و کد افتخار 
+شرایط خدمات و کد افتخاری
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-شرایط استفاده از خدمات و کدشرافت 
+شرایط استفاده از خدمات و کدشرافت
 
 Multiple translations found for single string.
 	String "Privacy Policy"
@@ -152,13 +134,22 @@ Translations found were:
 قواعد حفظ حریم خصوصی
 
 Multiple translations found for single string.
-	String "Course Name"
-	Present in files ['lms/djangoapps/dashboard/sysadmin.py', 'cms/templates/course-create-rerun.html', 'cms/templates/index.html', 'lms/templates/shoppingcart/receipt.html', 'lms/templates/support/feature_based_enrollments.html']
+	String "About {platform_name} Certificates"
+	Present in files ['lms/djangoapps/certificates/views/webview.py', 'lms/templates/certificates/invalid.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-نام دوره
+درباره گواهینامه‌های {platform_name}
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-نام کلاس 
+درباره {platform_name} گواهي
+
+Multiple translations found for single string.
+	String "Upgrade to Verified"
+	Present in files ['lms/djangoapps/courseware/course_tools.py', 'lms/templates/dashboard/_dashboard_course_listing.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+درخواست مدرک
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+دریافت مدرک
 
 Multiple translations found for single string.
 	String "City"
@@ -179,13 +170,22 @@ Translations found were:
 گفتگو‌ها
 
 Multiple translations found for single string.
-	String "Course Start Date"
-	Present in files ['lms/djangoapps/shoppingcart/reports.py', 'cms/templates/settings.html', 'lms/templates/instructor/instructor_dashboard_2/executive_summary.html']
+	String "Programs"
+	Present in files ['lms/djangoapps/learner_dashboard/programs.py', 'lms/templates/header/navbar-authenticated.html', 'lms/templates/learner_dashboard/programs.html', 'lms/templates/navigation/navbar-authenticated.html', 'lms/templates/navigation/bootstrap/navbar-authenticated.html', 'themes/edx.org/lms/templates/header/navbar-authenticated.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-تاریخ شروع دوره
+برنامه‌ها
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-تاریخ شروع کلاس
+دوره‌ها
+
+Multiple translations found for single string.
+	String "Currency"
+	Present in files ['lms/djangoapps/shoppingcart/reports.py', 'lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+واحد پول
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+پول رایج
 
 Multiple translations found for single string.
 	String "Enrollment"
@@ -194,16 +194,34 @@ Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 ثبت‌نام
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
- ثبت نام
+ثبت نام
 
 Multiple translations found for single string.
-	String "Course ID"
-	Present in files ['lms/djangoapps/support/views/refund.py', 'openedx/core/djangoapps/schedules/admin.py', 'cms/templates/maintenance/_force_publish_course.html', 'lms/templates/sysadmin_dashboard_gitlogs.html', 'lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html', 'lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html', 'lms/templates/support/feature_based_enrollments.html']
+	String "Entitlements"
+	Present in files ['lms/djangoapps/support/views/index.py', 'lms/templates/support/entitlement.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-شناسه دوره
+حقوق
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-شناسه کلاس
+استحقاق‌ها
+
+Multiple translations found for single string.
+	String "Feature Based Enrollments"
+	Present in files ['lms/djangoapps/support/views/index.py', 'lms/templates/support/feature_based_enrollments.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+ثبت‌نام مبتنی بر ویژگی
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+ثبت نام مبتنی بر ویژگی
+
+Multiple translations found for single string.
+	String "Link Program Enrollments"
+	Present in files ['lms/djangoapps/support/views/index.py', 'lms/templates/support/link_program_enrollments.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+ثبت‌نام برنامه را پیوند دهید
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+لینک ثبت‌نام‌های برنامه
 
 Multiple translations found for single string.
 	String "Teams"
@@ -221,18 +239,52 @@ Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 پریدن به محتوای اصلی
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-عبور به محتوای اصلی
+رفتن به محتوای اصلی
 
 Multiple translations found for single string.
-	String "Edit"
-	Present in files ['lms/templates/wiki/edit.html', 'cms/templates/component.html', 'cms/templates/container.html', 'cms/templates/studio_xblock_wrapper.html', 'lms/templates/instructor/instructor_dashboard_2/e-commerce.html', 'lms/templates/wiki/includes/article_menu.html', 'wiki/templates/wiki/edit.html', 'wiki/templates/wiki/includes/article_menu.html']
+	String "You cannot delete this article because you do not have permission to delete articles with children. Try to remove the children manually one-by-one."
+	Present in files ['lms/templates/wiki/delete.html', 'wiki/templates/wiki/delete.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-ویرایش
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-ویرایش
+شما نمی توانید مطلبی را که دارای زیر مجموعه‌ای از مطالب می‌باشد را همزمان حذف کنید. جهت این کار مطالب زیر مجموعه را یک به یک حذف نمایید.
 #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
- 
+شما نمی‌توانید مطلبی را که دارای زیر مجموعه‌ای از مطالب می‌باشد را همزمان حذف کنید. جهت این کار مطالب زیر مجموعه را یک به یک حذف نمایید.
+
+Multiple translations found for single string.
+	String "You are deleting an article. This means that its children will be deleted as well. If you choose to purge, children will also be purged!"
+	Present in files ['lms/templates/wiki/delete.html', 'wiki/templates/wiki/delete.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+شما در حال حذف مقاله هستید. این بدان معنی است که زیرمجموعه آن نیز حذف می‌شوند. اگر تصفیه را انتخاب کنید، کودکان زیرمجموعه‌ها نیز پاکسازی می‌شوند!
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+شما تلاش به حذف یک مطلب را دارید، که به این معناست که تمامی مطالب زیر مجموعه آن نیز به صورت دائمی حذف خواهند شد!
+
+Multiple translations found for single string.
+	String "Merge selected with current..."
+	Present in files ['lms/templates/wiki/history.html', 'wiki/templates/wiki/history.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+ادغام انتخاب شده با فعلی...
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+ادغام انتخاب شده با فعلی.
+
+Multiple translations found for single string.
+	String "When you merge a revision with the current, all data will be retained from both versions and merged at its approximate location from each revision."
+	Present in files ['lms/templates/wiki/history.html', 'wiki/templates/wiki/history.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+زمانی که شما یک بازبینی را با مورد فعلی ادغام می‌نمایید، تمامی اطلاعات بازبینی شده قبلی و ادغام شده جدید بصورت مجزا نگهداری می‌شوند.
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+زمانی که شما یک بازبینی را با مورد فعلی ادغام می‌نمایید، تمامی اطلاعات بازبینی شده قبلی و ادغام شده جدید به صورت مجزا نگهداری می‌شوند.
+
+Multiple translations found for single string.
+	String "After this, it's important to do a manual review."
+	Present in files ['lms/templates/wiki/history.html', 'wiki/templates/wiki/history.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+پس از این، بازبینی بصورت دستی  دارای اهمیت می‌باشد.
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+پس از این، بازبینی بصورت دستی دارای اهمیت می‌باشد.
 
 Multiple translations found for single string.
 	String "Attachments"
@@ -244,22 +296,49 @@ Translations found were:
 پیوست ها
 
 Multiple translations found for single string.
+	String "Restoring to this revision will mark the article as deleted."
+	Present in files ['lms/templates/wiki/preview_inline.html', 'wiki/templates/wiki/preview_inline.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+با بازگشت به این نسخه، مقاله به عنوان حذف شده علامت گذاری می‌شود.
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+با بازگشت به این نسخه، مقاله به عنوان حذف شده علامت‌گذاری می‌شود.
+
+Multiple translations found for single string.
 	String "Community TA"
 	Present in files ['openedx/core/djangoapps/django_comment_common/models.py', 'lms/templates/instructor/instructor_dashboard_2/membership.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
- کمکیار استاد
+جامعه کمک استاد
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
- گروه حل تمرین
+گروه کمک‌استادان
+
+Multiple translations found for single string.
+	String "Theming Administration"
+	Present in files ['openedx/core/djangoapps/theming/views.py', 'openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+مدیریت طرح زمینه
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+مدیریت ظاهر
 
 Multiple translations found for single string.
 	String "Email or password is incorrect."
 	Present in files ['openedx/core/djangoapps/user_api/accounts/views.py', 'openedx/core/djangoapps/user_authn/views/login.py', 'lms/templates/provider_login.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-پست الکترونیکی یا کلمه عبور اشتباه می باشد.
+پست الکترونیکی یا کلمه عبور اشتباه می‌باشد.
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 پست الکترونیکی یا رمز عبور اشتباه است.
+
+Multiple translations found for single string.
+	String "Permission Denied"
+	Present in files ['openedx/core/djangoapps/user_api/admin.py', 'wiki/templates/wiki/permission_denied.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+اجازه لغو شد
+#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
+مجوز لغو شد
 
 Multiple translations found for single string.
 	String "Password Reset"
@@ -271,6 +350,33 @@ Translations found were:
 بازیابی رمز عبور
 
 Multiple translations found for single string.
+	String "Updates"
+	Present in files ['openedx/features/course_experience/plugins.py', 'cms/templates/widgets/header.html', 'lms/templates/api_admin/terms_of_service.html', 'openedx/features/course_experience/templates/course_experience/course-updates-fragment.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+به روزرسانی
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+به روز رسانی
+
+Multiple translations found for single string.
+	String "Content Groups"
+	Present in files ['cms/djangoapps/contentstore/course_group_config.py', 'cms/templates/group_configurations.html']
+Translations found were:
+	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
+گروه‌های محتوا
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+گروه‌های محتوایی
+
+Multiple translations found for single string.
+	String "Deleted Group"
+	Present in files ['cms/djangoapps/contentstore/utils.py', 'cms/templates/visibility_editor.html']
+Translations found were:
+	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
+گروه حذف شده است
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+گروه حذف شده
+
+Multiple translations found for single string.
 	String "Subsection"
 	Present in files ['cms/djangoapps/contentstore/views/helpers.py', 'lms/templates/ccx/schedule.html']
 Translations found were:
@@ -278,24 +384,6 @@ Translations found were:
 زیربخش
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 زیر بخش
-
-Multiple translations found for single string.
-	String "Uploading"
-	Present in files ['cms/djangoapps/contentstore/views/videos.py', 'cms/templates/import.html']
-Translations found were:
-	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
-در حال بارگذاری
-#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-در حال آپلود...
-
-Multiple translations found for single string.
-	String "Force Publish Course"
-	Present in files ['cms/djangoapps/maintenance/views.py', 'cms/templates/maintenance/_force_publish_course.html']
-Translations found were:
-	#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
-انتشار اجباری دوره
-#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-نیروی انتشار دوره
 
 Multiple translations found for single string.
 	String "Help"

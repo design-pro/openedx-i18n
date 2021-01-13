@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-07-20 16:32+0000\n"
-"Last-Translator: Stefania Trabucchi <stefania.trabucchi@abstract-technology.de>\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2020-12-06 20:44+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -282,6 +282,11 @@ msgid "Name of the certificate"
 msgstr "Name des Zertifikats"
 
 #: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+msgid "Description"
+msgstr ""
+
+#: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Description of the certificate"
 msgstr "Beschreibung des Zertifikats"
@@ -451,8 +456,8 @@ msgid "Copy Component Location"
 msgstr "Komponentenposition kopieren"
 
 #: cms/templates/js/course-highlights-enable.underscore
-msgid "Weekly Highlight Emails"
-msgstr "wöchentliche E-Mails über Neuigkeiten"
+msgid "Course Highlight Emails"
+msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
@@ -841,6 +846,10 @@ msgid ""
 msgstr ""
 "Es befindet sich invalider Code im Inhalt. Bitte stellen Sie sicher das es "
 "sich um validen HTML Code handelt."
+
+#: cms/templates/js/course_info_update.underscore
+msgid "Date"
+msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Post"

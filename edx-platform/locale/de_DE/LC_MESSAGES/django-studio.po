@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -27,9 +27,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-07-19 20:45+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2020-12-13 20:43+0000\n"
+"Last-Translator: Shan <shanmathuran.sritharan@paluno.uni-due.de>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/open-edx/edx-platform/language/de_DE/)\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -299,16 +299,16 @@ msgid "HTML"
 msgstr "HTML"
 
 #: cms/djangoapps/contentstore/views/component.py
-msgid "Problem"
-msgstr "Aufgabe"
-
-#: cms/djangoapps/contentstore/views/component.py
-msgid "Video"
-msgstr "Video"
+msgid "Open Response"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
 msgstr "Leer"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Blank Open Response Assessment"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
@@ -529,6 +529,11 @@ msgstr ""
 "demselben Bibliothekscode festgelegt wurde. Bitte ändern Sie Ihren "
 "Bibliothekscode, so dass er eindeutig innerhalb Ihrer Organisation ist."
 
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
@@ -607,10 +612,8 @@ msgstr "Keine `Rolle` festgelegt."
 
 #: cms/djangoapps/contentstore/views/user.py
 #, python-brace-format
-msgid "User {email} has registered but has not yet activated his/her account."
+msgid "User {email} has registered but has not yet activated their account."
 msgstr ""
-"Der Benutzer {email} ist registriert aber hat sein/ihr Konto noch nicht "
-"aktiviert."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Invalid `role` specified."
@@ -727,6 +730,10 @@ msgstr "Dauer"
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Date Added"
 msgstr "Datum hinzugefügt"
+
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Status"
+msgstr ""
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio

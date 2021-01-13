@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/).
-# Copyright (C) 2020 EdX
+# Copyright (C) 2021 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -47,7 +47,7 @@
 # Pedro Guimarães Martins <pedrogmartins7@gmail.com>, 2014
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2021
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
 # Régis Millet <regmillet@ct2c.fr>, 2015
@@ -68,9 +68,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-07-19 20:45+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2021-01-02 21:07+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -343,16 +343,16 @@ msgid "HTML"
 msgstr "HTML"
 
 #: cms/djangoapps/contentstore/views/component.py
-msgid "Problem"
-msgstr "Exercice"
-
-#: cms/djangoapps/contentstore/views/component.py
-msgid "Video"
-msgstr "Vidéo"
+msgid "Open Response"
+msgstr "Réponse ouverte"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
 msgstr "Vide"
+
+#: cms/djangoapps/contentstore/views/component.py
+msgid "Blank Open Response Assessment"
+msgstr "Évaluation de réponse ouverte vierge"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
@@ -459,7 +459,7 @@ msgstr "Téléversement corrompu du fichier. S'il vous plaît essayer à nouveau
 #: cms/djangoapps/contentstore/views/item.py
 #, python-brace-format
 msgid "Libraries cannot have more than {limit} components"
-msgstr ""
+msgstr "Les bibliothèques ne peuvent pas avoir plus de {limit} composants"
 
 #: cms/djangoapps/contentstore/views/item.py
 msgid "Invalid data"
@@ -569,6 +569,12 @@ msgstr ""
 " de bibliothèque. S'il vous plaît changer votre code de bibliothèque de "
 "sorte qu'il est unique au sein de votre organisation."
 
+#: cms/djangoapps/contentstore/views/library.py
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+"'{organization_key}' n'est pas un identificateur d'organisation valide."
+
 #: cms/djangoapps/contentstore/views/preview.py
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
@@ -649,10 +655,9 @@ msgstr "Aucun `role` spécifié."
 
 #: cms/djangoapps/contentstore/views/user.py
 #, python-brace-format
-msgid "User {email} has registered but has not yet activated his/her account."
+msgid "User {email} has registered but has not yet activated their account."
 msgstr ""
-"L'utilisateur {email} s'est enregistré mais n'a pas encore activé son "
-"compte."
+"L'utilisateur {email} s'est inscrit mais n'a pas encore activé son compte."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Invalid `role` specified."
@@ -769,6 +774,10 @@ msgstr "Durée"
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Date Added"
 msgstr "Date ajoutée"
+
+#: cms/djangoapps/contentstore/views/videos.py
+msgid "Status"
+msgstr "Statut"
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio

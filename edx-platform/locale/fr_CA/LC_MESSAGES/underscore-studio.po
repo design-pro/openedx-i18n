@@ -1,5 +1,5 @@
 # edX community translations have been downloaded from French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)
-# Copyright (C) 2020 edX
+# Copyright (C) 2021 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -56,7 +56,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018-2019
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018-2020
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -85,9 +85,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-09-06 20:42+0000\n"
-"PO-Revision-Date: 2020-06-14 20:45+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2021-01-10 20:43+0000\n"
+"PO-Revision-Date: 2020-12-08 05:13+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
@@ -344,6 +344,11 @@ msgid "Name of the certificate"
 msgstr "Nom de l'attestation"
 
 #: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+msgid "Description"
+msgstr "Description"
+
+#: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Description of the certificate"
 msgstr "Description de l'attestation"
@@ -508,8 +513,8 @@ msgid "Copy Component Location"
 msgstr "Copier l'emplacement du composant"
 
 #: cms/templates/js/course-highlights-enable.underscore
-msgid "Weekly Highlight Emails"
-msgstr "Courriels hebdomadaires des faits saillants"
+msgid "Course Highlight Emails"
+msgstr "Courriels de faits saillants du cours"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
@@ -899,6 +904,10 @@ msgid ""
 msgstr ""
 "Il y a du code non valide dans votre contenu. Veuillez vérifier afin que ce "
 "soit du code  HTML valide."
+
+#: cms/templates/js/course_info_update.underscore
+msgid "Date"
+msgstr "Date"
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Post"
@@ -1595,6 +1604,10 @@ msgid ""
 " back to a basic exam. You may not configure it as a special exam now. "
 "Contact edX Support for assistance."
 msgstr ""
+"Cette sous-section a été remise aux apprenants en tant qu'examen spécial, "
+"mais est revenue à un examen de base. Vous ne pouvez pas le configurer comme"
+" un examen spécial maintenant. Contactez l'assistance EDUlib pour obtenir de"
+" l'aide."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
@@ -1603,6 +1616,10 @@ msgid ""
 " basic exam by selecting 'None', but you will NOT be able to configure it as"
 " a special exam in the future."
 msgstr ""
+"Cet examen spécial a été mis à la disposition des apprenants. Vous ne pouvez"
+" pas le convertir en un autre type d'examen spécial. Vous pouvez rétablir "
+"cette sous-section en tant qu'examen de base en sélectionnant «Aucun», mais "
+"vous ne pourrez PAS le configurer comme un examen spécial à l'avenir."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "None"

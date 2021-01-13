@@ -8,22 +8,13 @@ Forum
 Diskussion
 
 Multiple translations found for single string.
-	String "Honor"
-	Present in files ['common/djangoapps/course_modes/models.py', 'lms/templates/instructor/instructor_dashboard_2/course_info.html']
+	String "Cancel"
+	Present in files ['common/lib/xmodule/xmodule/templates/library-sourced-block-studio-view.html', 'lms/templates/oauth2_provider/authorize.html', 'openedx/core/djangoapps/user_api/admin.py', 'cms/templates/course-create-rerun.html', 'cms/templates/index.html', 'cms/templates/manage_users.html', 'cms/templates/manage_users_lib.html', 'cms/templates/videos_index_pagination.html']
 Translations found were:
 	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-Teilnahmemodus
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-Ehre
-
-Multiple translations found for single string.
-	String "{currency_symbol}{price}"
-	Present in files ['common/djangoapps/course_modes/models.py', 'lms/templates/shoppingcart/shopping_cart.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-{price} {currency_symbol}
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-{currency_symbol}{price}
+Abbrechen
+#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
+Löschen
 
 Multiple translations found for single string.
 	String "Upgrade to Verified"
@@ -33,15 +24,6 @@ Translations found were:
 Upgrade auf Verifiziert
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Upgrade auf verifizierten Modus
-
-Multiple translations found for single string.
-	String "username"
-	Present in files ['lms/djangoapps/dashboard/sysadmin.py', 'lms/djangoapps/support/views/manage_user.py', 'lms/templates/tracking_log.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-Nutzername
-#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-Benutzername
 
 Multiple translations found for single string.
 	String "Username"
@@ -62,6 +44,15 @@ Postanschrift
 E-Mail-Adresse
 
 Multiple translations found for single string.
+	String "username"
+	Present in files ['lms/djangoapps/support/views/manage_user.py', 'lms/templates/tracking_log.html']
+Translations found were:
+	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+Nutzername
+#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
+Benutzername
+
+Multiple translations found for single string.
 	String "Skip to main content"
 	Present in files ['lms/templates/main_django.html', 'cms/templates/base.html', 'lms/templates/main.html']
 Translations found were:
@@ -69,15 +60,6 @@ Translations found were:
 Zu den Inhalten springen
 #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 Springe zu den Inhalten
-
-Multiple translations found for single string.
-	String "Cancel"
-	Present in files ['lms/templates/oauth2_provider/authorize.html', 'openedx/core/djangoapps/user_api/admin.py', 'cms/templates/course-create-rerun.html', 'cms/templates/index.html', 'cms/templates/manage_users.html', 'cms/templates/manage_users_lib.html', 'cms/templates/videos_index_pagination.html']
-Translations found were:
-	#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-Abbrechen
-#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-Löschen
 
 Multiple translations found for single string.
 	String "Change"
