@@ -3982,7 +3982,7 @@ msgstr "پس از حذف حساب خود، نمی‌توانید از آن بر�
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:100 lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:120
 msgid "This includes access to {siteName} from your employer’s or university’s system{additionalSiteSpecificDeletionText}."
-msgstr "این شامل دسترسی به {siteName} از سیستم کارفرما یا دانشگاه شما{AdditionalSiteSpecificDeletionText}. است."
+msgstr "این شامل دسترسی به {siteName} از سیستم کارفرما یا دانشگاه شما{additionalSiteSpecificDeletionText}. است."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:109
 msgid "We’re sorry to see you go!"
